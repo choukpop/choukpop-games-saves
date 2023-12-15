@@ -1,0 +1,436 @@
+[Message:   BepInEx] BepInEx 5.4.22.0 - valheim (11/11/2023 19:42:16)
+[Message:   BepInEx] User is running BepInExPack Valheim version 5.4.2202 from Thunderstore
+[Info   :   BepInEx] Running under Unity v2022.3.12.5236448
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.22.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [Valheim.ThisGoesHere 2.1.1.0]
+[Info   :   BepInEx] 2 patcher plugins loaded
+[Message:This Goes Here] Sharpening the chainsaw blade.
+[Info   :This Goes Here] No folder 'config\CustomTextures' found to move.
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 29 plugins to load
+[Info   :   BepInEx] Loading [MoreSlotsPatcher 1.1.0]
+[Info   :   BepInEx] Loading [Clock Mod 1.6.0]
+[Info   :   BepInEx] Loading [Custom Textures 3.3.1]
+[Info   :   BepInEx] Loading [Death Tweaks 1.3.0]
+[Info   :   BepInEx] Loading [Instant Monster Drop 0.5.0]
+[Info   :   BepInEx] Loading [Configuration Manager 18.0.1]
+[Info   :   BepInEx] Loading [Jotunn 2.14.6]
+[Info   :Jotunn.Main] Initializing ModCompatibility
+[Info   :Jotunn.Main] Initializing SynchronizationManager
+[Info   :Jotunn.Main] Initializing NetworkManager
+[Info   :   BepInEx] Loading [TeleportEverything 2.5.1]
+[Info   : Unity Log] 11/19/2023 06:09:51: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:09:51: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:09:51: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:09:51: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:09:51: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:09:51: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 11/19/2023 06:09:51: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 11/19/2023 06:09:51: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 11/19/2023 06:09:51: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 11/19/2023 06:09:51: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] TeleportEverything Loaded...
+[Info   :   BepInEx] Loading [Valheim Quality of Life 2.0.2]
+[Info   :   BepInEx] Loading [VNEI 0.13.0]
+[Info   :Jotunn.Main] Initializing LocalizationManager
+[Info   :Jotunn.Main] Initializing GUIManager
+[Info   :Jotunn.Main] Initializing CommandManager
+[Info   :Jotunn.Main] Initializing PrefabManager
+[Info   :Jotunn.Main] Initializing ModQuery
+[Info   :   BepInEx] Loading [Skills Give More Carry Weight 1.0.3]
+[Info   :Skills Give More Carry Weight] Trying to load configuration
+[Info   :Skills Give More Carry Weight] Succesfully loaded configuration
+[Info   :Skills Give More Carry Weight] Succesfully loaded Skills Give More Carry Weight 1.0.3
+[Info   :   BepInEx] Loading [Veinmine 1.2.10]
+[Info   :   BepInEx] Loading [Digitalroot TripleBronzeJVL 1.1.34]
+[Info   :Jotunn.Main] Initializing ItemManager
+[Info   :   BepInEx] Loading [FastTeleport 1.1.0]
+[Info   :   BepInEx] Loading [ValheimFPSPlus 1.1.2]
+[Info   :ValheimFPSPlus] Original settings:
+[Info   :ValheimFPSPlus] QualitySettings.anisotropicFiltering = ForceEnable
+[Info   :ValheimFPSPlus] QualitySettings.lodBias = 2
+[Info   :ValheimFPSPlus] QualitySettings.masterTextureLimit = 0
+[Info   :ValheimFPSPlus] QualitySettings.maximumLODLevel = 0
+[Info   :ValheimFPSPlus] QualitySettings.maxQueuedFrames = 2
+[Info   :ValheimFPSPlus] QualitySettings.particleRaycastBudget = 4096
+[Info   :ValheimFPSPlus] QualitySettings.pixelLightCount = 8
+[Info   :ValheimFPSPlus] QualitySettings.realtimeReflectionProbes = True
+[Info   :ValheimFPSPlus] QualitySettings.shadowCascades = 4
+[Info   :ValheimFPSPlus] QualitySettings.shadowDistance = 150
+[Info   :ValheimFPSPlus] QualitySettings.shadows = All
+[Info   :ValheimFPSPlus] QualitySettings.skinWeights = FourBones
+[Info   :ValheimFPSPlus] QualitySettings.softParticles = True
+[Info   :ValheimFPSPlus] QualitySettings.softVegetation = True
+[Info   :ValheimFPSPlus] Quality settings applied!
+[Info   :   BepInEx] Loading [BetterUI 2.5.4]
+[Info   :  BetterUI] BetterUI (Forever Maintained Version) loaded
+[Info   :   BepInEx] Loading [Item Drawers 0.5.6]
+[Info   :AuthoritativeConfig_mkz.itemdrawers] Initialized Server Authoritative Config Manager.
+[Info   :   BepInEx] Loading [Better Portal 1.0.6]
+[Info   :   BepInEx] Loading [Conversion Size & Speed 1.0.15]
+[Info   :   BepInEx] Loading [Display BepInEx Info In-Game 2.0.2]
+[Info   :   BepInEx] Loading [Equipment and Quick Slots 2.1.12]
+[Info   :   BepInEx] Loading [TorchesAndResin 1.4.0]
+[Info   :   BepInEx] Loading [Show Plant Progress 1.4.0]
+[Info   :   BepInEx] Loading [RecyclePlus 1.2.6]
+[Info   :RecyclePlus] RecyclePlusMain Loaded!
+[Info   :   BepInEx] Loading [Ore Status 0.0.3]
+[Info   :   BepInEx] Loading [Tree Status 1.1.0]
+[Info   :   BepInEx] Loading [More Slots 1.1.6]
+[Info   :More Slots] More Slots mod - Created by Fang86
+[Info   :More Slots] Gravekeeper not found
+[Info   :   BepInEx] Loading [Adventure Backpacks 1.7.5]
+[Info   :   BepInEx] Loading [Trash Items Mod 1.2.7]
+[Info   :Trash Items Mod] TrashItems Loaded!
+[Message:   BepInEx] Chainloader startup complete
+[Warning: Unity Log] 11/19/2023 06:09:57: Fetching PlatformPrefs 'GuiScale' before loading defaults
+
+[Warning: Unity Log] 11/19/2023 06:09:57: Fetching PlatformPrefs 'GuiScale' before loading defaults
+
+[Info   : Unity Log] 11/19/2023 06:09:57: Starting to load scene:start
+
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu).
+[Info   : Unity Log] 11/19/2023 06:10:07: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:07: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:07: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:07: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:07: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:07: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 11/19/2023 06:10:07: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 11/19/2023 06:10:07: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 11/19/2023 06:10:07: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 11/19/2023 06:10:07: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 11/19/2023 06:10:07: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:07: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:07: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:07: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:07: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:08: Using environment steamid 892970
+
+[Info   : Unity Log] 11/19/2023 06:10:08: Using steam APPID:892970
+
+[Info   : Unity Log] 11/19/2023 06:10:09: Authentication:k_ESteamNetworkingAvailability_CannotTry
+
+[Info   : Unity Log] 11/19/2023 06:10:09: Steam initialized, persona:リアス・グレモリ
+
+[Info   : Unity Log] 11/19/2023 06:10:09: PlayFab custom ID set to "Steam_76561198255923205"
+
+[Info   : Unity Log] 11/19/2023 06:10:09: Using default prefs
+
+[Info   : Unity Log] 11/19/2023 06:10:09: Valheim version: 0.217.30 (network version 17)
+
+[Info   : Unity Log] 11/19/2023 06:10:09: Worldgenerator version setup:2
+
+[Info   :Jotunn.Managers.CommandManager] Adding 5 commands to the Console
+[Info   : Unity Log] 11/19/2023 06:10:09: Render threading mode:MultiThreaded
+
+[Warning: Unity Log] 11/19/2023 06:10:09: Set button "CamZoomIn" to None!
+
+[Warning: Unity Log] 11/19/2023 06:10:09: Set button "CamZoomOut" to None!
+
+[Warning: Unity Log] 11/19/2023 06:10:09: Set button "CamZoomIn" to None!
+
+[Warning: Unity Log] 11/19/2023 06:10:09: Set button "CamZoomOut" to None!
+
+[Warning: Unity Log] 11/19/2023 06:10:09: Missing audio clip in music respawn
+
+[Info   : Unity Log] 11/19/2023 06:10:09: Checking for installed DLCs
+
+[Info   : Unity Log] 11/19/2023 06:10:09: DLC:beta installed:False
+
+[Info   : Unity Log] CustomTextures Clutter system awake
+[Info   : Unity Log] CustomTextures Checking 17 clutters
+[Info   : Unity Log] CustomTextures Clutter System RunTime 00:00:00.00
+[Info   :Jotunn.Main] Initializing MockManager
+[Info   : Unity Log] 11/19/2023 06:10:09: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:09: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:09: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:09: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:09: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:09: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 11/19/2023 06:10:09: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 11/19/2023 06:10:09: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 11/19/2023 06:10:09: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 11/19/2023 06:10:09: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 11/19/2023 06:10:10: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:10: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:10: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:10: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:10: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] CustomTextures SetupObjectDB postfix
+[Info   : Unity Log] CustomTextures got atlas at item: Acorn
+[Info   : Unity Log] CustomTextures Replacing textures for 737 objects
+[Info   : Unity Log] CustomTextures SetupObjectDB RunTime 00:00:00.11
+[Info   : Unity Log] 11/19/2023 06:10:10: Sending PlayFab login request (attempt 1)
+
+[Info   : Unity Log] 11/19/2023 06:10:10: Starting music menu
+
+[Info   : Unity Log] 11/19/2023 06:10:11: PlayFab logged in as "Steam_76561198255923205"
+
+[Info   : Unity Log] 11/19/2023 06:10:11: PlayFab local entity ID is FCAF9F400551D8FD
+
+[Info   : Unity Log] 11/19/2023 06:10:14: show character selection
+
+[Info   : Unity Log] 11/19/2023 06:10:15: OnCharacterStart
+
+[Info   : Unity Log] 11/19/2023 06:10:31: Loading main scene
+
+[Info   : Unity Log] 11/19/2023 06:10:32: Steam initialized, persona:リアス・グレモリ
+
+[Info   : Unity Log] 11/19/2023 06:10:32: PlayFab custom ID set to "Steam_76561198255923205"
+
+[Info   : Unity Log] 11/19/2023 06:10:32: Using default prefs
+
+[Info   :Jotunn.Managers.CommandManager] Adding 5 commands to the Console
+[Info   : Unity Log] 11/19/2023 06:10:32: Loading player profile shogun
+
+[Info   : Unity Log] 11/19/2023 06:10:32: isModded: True
+
+[Info   : Unity Log] CustomTextures Reloading ZoneSystem textures _ZoneSystem _Zone
+[Info   : Unity Log] 11/19/2023 06:10:32: Zonesystem Awake 1793
+
+[Info   : Unity Log] 11/19/2023 06:10:32: DungeonDB Awake 1793
+
+[Info   : Unity Log] 11/19/2023 06:10:32: Steam initialized, persona:リアス・グレモリ
+
+[Info   : Unity Log] 11/19/2023 06:10:32: Worldgenerator version setup:2
+
+[Info   : Unity Log] Registered 'com.kpro.TeleportEverything ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'com.wisehorror.Veinmine ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'Conversion Size & Speed ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'TastyChickenLegs.RecyclePlus ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'vapok.mods.adventurebackpacks ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'vapok.mods.adventurebackpacks ItemManager ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] getting fonts
+[Info   : Unity Log] got font AveriaSerifLibre-Bold
+[Info   : Unity Log] CustomTextures ZNetScene awake
+[Info   : Unity Log] CustomTextures Checking 2429 prefabs
+[Info   : Unity Log] CustomTextures ZNetScene RunTime 00:00:00.69
+[Info   : Unity Log] CustomTextures Reloading Environment textures
+[Info   : Unity Log] CustomTextures Reloading 10 Environment textures
+[Info   : Unity Log] CustomTextures environment YggdrasilBranch, MeshRenderer branch, material yggdrasil_branch (Instance), texture yggbark_d, using texture_yggbark_d_MainTex for _MainTex.
+[Info   : Unity Log] CustomTextures environment YggdrasilBranch, MeshRenderer branch, material yggdrasil_branch (Instance), texture yggbark_n, using texture_yggbark_n_BumpMap for _BumpMap.
+[Info   : Unity Log] CustomTextures environment YggdrasilBranch, MeshRenderer branch, material yggdrasil_branch (Instance), texture yggdrasil_emissive, using texture_yggdrasil_emissive_EmissiveTex for _EmissiveTex.
+[Info   : Unity Log] CustomTextures environment YggdrasilBranch, MeshRenderer branch, material yggdrasil_branch (Instance), texture ygg_moss, using texture_ygg_moss_MossTex for _MossTex.
+[Info   : Unity Log] CustomTextures environment YggdrasilBranch, MeshRenderer branch, material yggdrasil_branch (Instance), texture yggdrasil_emissivmask, using texture_yggdrasil_emissivmask_EmissiveMaskTex for _EmissiveMaskTex.
+[Info   : Unity Log] CustomTextures environment YggdrasilBranch, MeshRenderer branch, material yggdrasil_branch_leafs (Instance), texture ygg_leaf_d, using texture_ygg_leaf_d_MainTex for _MainTex.
+[Info   : Unity Log] CustomTextures environment YggdrasilBranch, MeshRenderer branch, material yggdrasil_branch_leafs (Instance), texture ygg_leaf_n, using texture_ygg_leaf_n_BumpMap for _BumpMap.
+[Info   : Unity Log] CustomTextures 
+loading custom texture for texture_yggbark_d_MainTex 0 layers
+loading custom texture file for texture_yggbark_d_MainTex
+loading custom texture for texture_yggbark_n_BumpMap 0 layers
+loading custom texture file for texture_yggbark_n_BumpMap
+loading custom texture for texture_yggdrasil_emissive_EmissiveTex 0 layers
+loading custom texture file for texture_yggdrasil_emissive_EmissiveTex
+loading custom texture for texture_ygg_moss_MossTex 0 layers
+loading custom texture file for texture_ygg_moss_MossTex
+loading custom texture for texture_yggdrasil_emissivmask_EmissiveMaskTex 0 layers
+loading custom texture file for texture_yggdrasil_emissivmask_EmissiveMaskTex
+loading custom texture for texture_ygg_leaf_d_MainTex 0 layers
+loading custom texture file for texture_ygg_leaf_d_MainTex
+loading custom texture for texture_ygg_leaf_n_BumpMap 0 layers
+loading custom texture file for texture_ygg_leaf_n_BumpMap
+[Info   :Jotunn.Managers.PrefabManager] Adding 2 custom prefabs to the ZNetScene
+[Info   : Unity Log] 11/19/2023 06:10:35: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:35: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:35: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:35: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:35: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:35: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 11/19/2023 06:10:35: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 11/19/2023 06:10:35: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 11/19/2023 06:10:35: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 11/19/2023 06:10:35: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 11/19/2023 06:10:35: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:35: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:35: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:35: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:35: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 11/19/2023 06:10:35: Audioman already exist, destroying self
+
+[Info   : Unity Log] 11/19/2023 06:10:35: Checking for installed DLCs
+
+[Info   : Unity Log] 11/19/2023 06:10:35: DLC:beta installed:False
+
+[Info   :Jotunn.Main] Initializing UndoManager
+[Info   :Jotunn.Managers.ItemManager] Adding 8 custom recipes to the ObjectDB
+[Info   : Unity Log] CustomTextures Clutter system awake
+[Info   : Unity Log] CustomTextures Checking 17 clutters
+[Info   : Unity Log] CustomTextures Clutter System RunTime 00:00:00.00
+[Info   :Jotunn.Managers.NetworkManager] Registering 2 custom RPCs
+[Info   :AuthoritativeConfig_mkz.itemdrawers] Authoritative Config Registered -> AuthoritativeConfig_mkz.itemdrawers
+[Info   : Unity Log] CustomTextures Starting ZoneSystem Location prefab replacement
+[Info   : Unity Log] CustomTextures ZoneSystem Locations RunTime 00:00:00.00
+[Info   : Unity Log] 11/19/2023 06:10:39: Zonesystem Start 1793
+
+[Info   : Unity Log] 11/19/2023 06:10:40: Added 3 locations, 0 vegetations, 0 environments, 0 biome env-setups, 0 clutter  from locations_cp1
+
+[Info   : Unity Log] 11/19/2023 06:10:40: Added 1 locations, 0 vegetations, 2 environments, 0 biome env-setups, 0 clutter  from locations_mountaincaves
+
+[Info   : Unity Log] 11/19/2023 06:10:40: Added 27 locations, 25 vegetations, 5 environments, 1 biome env-setups, 3 clutter  from locations_mistlands
+
+[Info   : Unity Log] 11/19/2023 06:10:40: Added 4 locations, 0 vegetations, 1 environments, 0 biome env-setups, 0 clutter  from locations_hildir
+
+[Info   : Unity Log] 11/19/2023 06:10:40: DungeonDB Start 1793
+
+[Info   : Unity Log] 11/19/2023 06:10:41: ZRpc timeout set to 30s 
+
+[Info   : Unity Log] 11/19/2023 06:10:41: ZNET START
+
+[Info   : Unity Log] 11/19/2023 06:10:41: Load world: RaidenShogun (RaidenShogun)
+
+[Info   : Unity Log] 11/19/2023 06:10:41: Loading 53057 zdos, my sessionID: -106818175, data version: 33
+
+[Info   : Unity Log] 11/19/2023 06:10:41: Creating ZDOs
+
+[Info   : Unity Log] 11/19/2023 06:10:41: Loading in ZDOs
+
+[Info   : Unity Log] 11/19/2023 06:10:41: Adding to Dictionary
+
+[Info   : Unity Log] 11/19/2023 06:10:41: Adding to Sectors
+
+[Info   : Unity Log] 11/19/2023 06:10:41: Connecting Portals, Spawners & ZSyncTransforms
+
+[Info   : Unity Log] ConnectSpawners => Connected 0 spawners and 30 'done' spawners.
+[Info   : Unity Log] 11/19/2023 06:10:41: Loaded 10152 locations
+
+[Info   : Unity Log] 11/19/2023 06:10:41: Unloading unused assets
+
+[Info   : Unity Log] 11/19/2023 06:10:47: Unpacking compressed mapdata 8809
+
+[Info   : Unity Log] 11/19/2023 06:10:48: Starting respawn
+
+[Info   : Unity Log] 11/19/2023 06:10:48: tip:$loadscreen_tip02
+
+[Info   : Unity Log] 11/19/2023 06:10:56: Spawned after 8,019994
+
+[Info   : Unity Log] 11/19/2023 06:10:56: Skipping unloading unused assets
+
+[Info   :      VNEI] Index items and recipes
+[Info   :Jotunn.Main] Initializing RenderManager
+[Info   :      VNEI] Loaded 1034 items and 1299 recipes
+[Info   : Unity Log] 11/19/2023 06:10:57: Minimap: Adding unique location (-61.32, 33.20, -5.47)
+
+[Info   : Unity Log] 11/19/2023 06:10:59: Starting music home
+
+[Info   : Unity Log] 11/19/2023 06:10:59: Resumed music home at 0
+
+[Info   : Unity Log] 11/19/2023 06:11:16: Setting selected recipe 0
+
+[Info   : Unity Log] 11/19/2023 06:11:17: Is mine
+
+[Info   : Unity Log] 11/19/2023 06:11:17: is current spawnpoint
+
+[Info   : Unity Log] 11/19/2023 06:11:17: exporeusre check 1  True
+
+[Info   : Unity Log] 11/19/2023 06:11:17: Ignoring 2 colliders
+
+[Info   : Unity Log] 11/19/2023 06:11:18: Time 14164,0999818034, day:7    nextm:14670,0000107288  skipspeed:42,1583357437824
+
+[Info   : Unity Log] 11/19/2023 06:11:23: Skipping unloading unused assets
+
+[Info   : Unity Log] 11/19/2023 06:11:30: Saved recently, skipping sleep save.
+
+[Info   : Unity Log] 11/19/2023 06:11:37: Starting music morning
+
+[Info   : Unity Log] 11/19/2023 06:11:38: Stopped music home at 1726367
+
+[Info   : Unity Log] 11/19/2023 06:11:57: Setting selected recipe 0
+
+[Info   : Unity Log] 11/19/2023 06:11:57: Setting selected recipe 0
+
+[Info   : Unity Log] 11/19/2023 06:12:03: Game - OnApplicationQuit
+
+[Info   : Unity Log] 11/19/2023 06:12:03: Shuting down
+
+[Info   : Unity Log] 11/19/2023 06:12:03: Uncompressed size 8389066
+
+[Info   : Unity Log] 11/19/2023 06:12:03: Compressed size 8809
+
+[Info   : Unity Log] 11/19/2023 06:12:03: Considering autobackup. World time: 72,68, short time: 7200, long time: 43200, backup count: 3
+
+[Info   : Unity Log] 11/19/2023 06:12:03: Skipping backup. World session not long enough.
+
+[Info   : Unity Log] 11/19/2023 06:12:03: ZNet Shutdown
+
+[Info   : Unity Log] 11/19/2023 06:12:03: PrepareSave: clone done in 6ms
+
+[Info   : Unity Log] 11/19/2023 06:12:03: PrepareSave: ZDOExtraData.PrepareSave done in 15 ms
+
+[Info   : Unity Log] 11/19/2023 06:12:03: Unloading unused assets
+
+[Info   : Unity Log] 11/19/2023 06:12:03: Sending disconnect msg
+
+[Info   : Unity Log] ZPlayFabMatchmaking::UnregisterServer - unregistering server now. State: Uninitialized
+[Info   : Unity Log] 11/19/2023 06:12:03: Stopping build thread
+
+[Info   : Unity Log] 11/19/2023 06:12:06: ZNet OnDestroy
+
+[Info   : Unity Log] 11/19/2023 06:12:06: Net scene destroyed
+
+[Info   : Unity Log] 11/19/2023 06:12:07: Steam manager on destroy
+
+[Warning: Unity Log] 11/19/2023 06:12:07: Local player destroyed
+

@@ -1,0 +1,9 @@
+{
+  "name": "This_Goes_Here",
+  "version_number": "2.1.1",
+  "website_url": "https://github.com/ASharpPen/Valheim.ThisGoesHere",
+  "description": "Small mod for mod authors to run file operations in bepinex folders.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.1700"
+  ]
+}

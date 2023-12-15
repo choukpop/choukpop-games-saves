@@ -1,0 +1,9 @@
+{
+    "name": "Skills_Give_More_Carry_Weight",
+    "version_number": "1.0.0",
+    "website_url": "https://www.nexusmods.com/valheim/mods/462",
+    "description": "Edited version of Traktool's Running Skill Give More Carry Weight. This mod allows you to increase your carry weight according to any of the skills.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1901"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "RecyclePlus",
+  "description": "Deletes or Recycles items in inventory.  Valheim finally has a trashcan and recycle feature!! Configurable key or new custom trash can",
+  "version_number": "1.2.7",
+  "website_url": "https://valheim.thunderstore.io/package/TastyChickenLegs/",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2101"
+  ]
+}

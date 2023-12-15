@@ -1,0 +1,4 @@
+PrintComment: Sharpening the chainsaw blade.
+MoveFolder:
+- From: config/CustomTextures/
+  To: plugins/NexusRPLD-aedenthorn_CustomTextures/
