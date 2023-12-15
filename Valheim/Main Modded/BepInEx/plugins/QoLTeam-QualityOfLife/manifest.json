@@ -1,9 +1,0 @@
-{
-    "name": "QualityOfLife",
-    "version_number": "2.0.2",
-    "website_url": "",
-    "description": "QoL is a cheat / admin mod for Valheim.",
-    "dependencies": [
-        "denikson-BepInExPack_Valheim-5.4.1901"
-    ]
-}

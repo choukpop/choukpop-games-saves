@@ -1,9 +1,0 @@
-{
-    "name": "OreStatus",
-    "version_number": "0.0.3",
-    "website_url": "https://github.com/JoelOliMclean/OreStatus",
-    "description": "Display ore health status on hit! Choose between health bar or percentage left",
-    "dependencies": [
-        "denikson-BepInExPack_Valheim-5.4.900"
-    ]
-}

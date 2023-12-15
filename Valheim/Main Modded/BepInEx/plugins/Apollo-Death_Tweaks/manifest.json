@@ -1,9 +1,0 @@
-{
-    "name": "Death_Tweaks",
-    "version_number": "1.2.0",
-    "website_url": "https://valheim.thunderstore.io/package/Mechanik/DeathTweaks/",
-    "description": "This is a copy from nexusmod of Death Tweaks",
-    "dependencies": [
-		"denikson-BepInExPack_Valheim-5.4.2105"
-    ]
-}

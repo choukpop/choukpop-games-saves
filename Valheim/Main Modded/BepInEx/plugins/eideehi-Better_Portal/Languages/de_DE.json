@@ -1,9 +1,0 @@
-﻿{
-  "language": "german",
-  "translations": {
-    "@shift_key": "Shift",
-    "@empty_tag": "Keine Portalkennung",
-    "@piece_portal_setdesttag": "Ziel Portalkennung setzten",
-    "@piece_portal_dest": "Ziel"
-  }
-}

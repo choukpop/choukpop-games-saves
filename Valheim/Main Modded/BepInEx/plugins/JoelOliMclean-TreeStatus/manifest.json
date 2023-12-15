@@ -1,9 +1,0 @@
-{
-    "name": "TreeStatus",
-    "version_number": "1.1.0",
-    "website_url": "https://github.com/JoelOliMclean/TreeStatus",
-    "description": "Display tree health status on chop. Now works on logs, stumps and bushes/small trees!",
-    "dependencies": [
-        "denikson-BepInExPack_Valheim-5.4.900"
-    ]
-}

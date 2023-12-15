@@ -1,9 +1,0 @@
-{
-    "name": "Official_BepInEx_ConfigurationManager",
-    "version_number": "18.0.1",
-    "website_url": "https://github.com/BepInEx/BepInEx.ConfigurationManager",
-    "description": "Mod to assist with configuration of BepInEx mods",
-    "dependencies": [
-        "denikson-BepInExPack_Valheim-5.4.2105"
-    ]
-}

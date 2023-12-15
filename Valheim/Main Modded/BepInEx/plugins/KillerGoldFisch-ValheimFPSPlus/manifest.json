@@ -1,9 +1,0 @@
-{
-    "name": "ValheimFPSPlus",
-    "version_number": "1.1.2",
-    "website_url": "https://github.com/KillerGoldFisch/ValheimFPSPlus",
-    "description": "This Valheim mod allows you to change the quality settings Valheim doesn't give you access to.",
-    "dependencies": [
-        "denikson-BepInExPack_Valheim-5.4.1502"
-    ]
-}

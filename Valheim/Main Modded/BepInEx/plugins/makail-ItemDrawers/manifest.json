@@ -1,7 +1,0 @@
-{
-    "name": "ItemDrawers",
-    "version_number": "0.5.6",
-    "website_url": "",
-    "description": "Adds a drawer that can store a large quantity of a single item. Displays the item on the front of the drawer as well as the quantity stored.",
-    "dependencies": []
-}
