@@ -7,7 +7,7 @@
       "shouldStartAsDemo": false,
       "shouldStartAsReleaseBuild": false,
       "shouldUseDefaultTimerForDemo": false,
-      "resumeTarget": "E:\\Programas\\House Flipper 2\\HouseFlipper2_Data\\StreamingAssets\\bd\\Houses\\2-5 Influencer nephew.house",
+      "resumeTarget": "C:\\Users\\ChouKpop\\Documents/House Flipper 2/Profiles/0/Jobs/3-7 Musicians in forest@20231218_152755.house",
       "resumeMode": 1,
       "enableDevContent": false,
       "enableToolsDevFunctionality": false,
@@ -29,9 +29,9 @@
       "iAmDeveloper": false
     }
   ],
-  "mouseSensitivity": 0.8,
+  "mouseSensitivity": 0.8482143,
   "glassCleaningSensitivity": 3.0,
-  "virtualMouseSensitivity": 1.2,
+  "virtualMouseSensitivity": 1.002381,
   "invertAxisX": false,
   "invertAxisY": false,
   "controllerDeadZoneR": 0.0,
@@ -69,14 +69,14 @@
   },
   "dynamicResolutionMode": 1,
   "dlssQuality": 0,
-  "fsrQuality": 0,
+  "fsrQuality": 4,
   "exposureCompensation": 0.0,
   "fieldOfView": 100,
-  "hf2ShadowsQuality": 2,
+  "hf2ShadowsQuality": 1,
   "hf2ShadowsDistance": 0,
   "antialiasingMode": 0,
   "graphicsPreset": 6,
-  "taaQualityLevel": 0,
+  "taaQualityLevel": 2,
   "smaaQualityLevel": 1,
   "textureResolution": 1,
   "ambientOcclusionQuality": 1,
@@ -89,5 +89,5 @@
   "cullingEnabled": true,
   "cullingDistance": 1,
   "languageCode": "pt_BR",
-  "NormalizedMouseSensitivity": 0.8
+  "NormalizedMouseSensitivity": 0.8482143
 }
