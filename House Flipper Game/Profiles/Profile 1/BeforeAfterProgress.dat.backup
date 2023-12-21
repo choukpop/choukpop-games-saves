@@ -1,0 +1,92 @@
+{
+  "$id": "1",
+  "beforeAfterProgressTracker": {
+    "$id": "2",
+    "SmallFirstHouse_1/1/0001 12:00:00 AM": [
+      {
+        "$id": "3",
+        "currentFrameCoverage": 0.0,
+        "currentSummaryScore": 0.0,
+        "cameraName": "SummaryCamera_0",
+        "cameraLastLocation": 1
+      },
+      {
+        "$id": "4",
+        "currentFrameCoverage": 0.0,
+        "currentSummaryScore": 0.0,
+        "cameraName": "SummaryCamera_1",
+        "cameraLastLocation": 1
+      },
+      {
+        "$id": "5",
+        "currentFrameCoverage": 0.0,
+        "currentSummaryScore": 0.0,
+        "cameraName": "SummaryCamera_2",
+        "cameraLastLocation": 1
+      },
+      {
+        "$id": "6",
+        "currentFrameCoverage": 0.0,
+        "currentSummaryScore": 0.0,
+        "cameraName": "SummaryCamera_3",
+        "cameraLastLocation": 2
+      },
+      {
+        "$id": "7",
+        "currentFrameCoverage": 0.0,
+        "currentSummaryScore": 0.0,
+        "cameraName": "SummaryCamera_4",
+        "cameraLastLocation": 1
+      },
+      {
+        "$id": "8",
+        "currentFrameCoverage": 0.0,
+        "currentSummaryScore": 0.0,
+        "cameraName": "SummaryCamera_5",
+        "cameraLastLocation": 1
+      },
+      {
+        "$id": "9",
+        "currentFrameCoverage": 0.0,
+        "currentSummaryScore": 0.0,
+        "cameraName": "SummaryCamera_6",
+        "cameraLastLocation": 2
+      },
+      {
+        "$id": "10",
+        "currentFrameCoverage": 0.0,
+        "currentSummaryScore": 0.0,
+        "cameraName": "SummaryCamera_7",
+        "cameraLastLocation": 2
+      },
+      {
+        "$id": "11",
+        "currentFrameCoverage": 0.0,
+        "currentSummaryScore": 0.0,
+        "cameraName": "SummaryCamera_8",
+        "cameraLastLocation": 2
+      },
+      {
+        "$id": "12",
+        "currentFrameCoverage": 0.0,
+        "currentSummaryScore": 0.0,
+        "cameraName": "SummaryCamera_9",
+        "cameraLastLocation": 2
+      },
+      {
+        "$id": "13",
+        "currentFrameCoverage": 0.0,
+        "currentSummaryScore": 0.0,
+        "cameraName": "SummaryCamera_10",
+        "cameraLastLocation": 2
+      },
+      {
+        "$id": "14",
+        "currentFrameCoverage": 0.0,
+        "currentSummaryScore": 0.0,
+        "cameraName": "SummaryCamera_11",
+        "cameraLastLocation": 2
+      }
+    ]
+  }
+}

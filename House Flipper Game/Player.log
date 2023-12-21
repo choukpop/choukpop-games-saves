@@ -1,0 +1,1610 @@
+Mono path[0] = 'E:/Programas/House Flipper/HouseFlipper_Data/Managed'
+Mono config path = 'E:/Programas/House Flipper/MonoBleedingEdge/etc'
+Initialize engine version: 2019.4.39f1 (78d14dfa024b)
+[Subsystems] Discovering subsystems at path E:/Programas/House Flipper/HouseFlipper_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
+    Vendor:   
+    VRAM:     12129 MB
+    Driver:   31.0.15.4633
+Begin MonoManager ReloadAssembly
+- Completed reload, in  4.903 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.701200 ms
+Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled). 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Odin Serializer detected whitelisted runtime platform WindowsPlayer and memory read test succeeded; enabling all unaligned memory read/writes. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unknown arguments: E:\Programas\House Flipper\HouseFlipper.exe 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+OS: Windows 10  (10.0.19045) 64bit
+CPU: AMD Ryzen 7 5800X 8-Core Processor 
+GPU: NVIDIA GeForce RTX 3060 type: Direct3D11 version: Direct3D 11.0 [level 11.1]
+VRAM: 12129MB
+RAM: 16310MB
+DeviceModel: MS-7C56 (Micro-Star International Co., Ltd.)
+Shader level: 50 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Prefs ready 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Init: Toggles Panel 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Init: Screenshot Panel 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Couldn't load Modules system 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Init: Emotion Panel 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Init: SendButton 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Init: Window 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Init: Popup 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Init: BugReporting Canvas(Clone) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 9071.
+Total: 27.453400 ms (FindLiveObjects: 0.574800 ms CreateObjectMapping: 0.343700 ms MarkObjects: 26.512500 ms  DeleteObjects: 0.021800 ms)
+
+Either assetReference is null (True) or assetReference is invalid 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Either assetReference is null (True) or assetReference is invalid 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 23bc -> priority: 1 
+  Thread -> id: 1c64 -> priority: 1 
+  Thread -> id: 4080 -> priority: 1 
+  Thread -> id: 3b7c -> priority: 1 
+[BuildInfoLoader] initialized: {
+  "git log": "\"3e183e14a87516e9f60e075622cb31ed79e359af 2023-07-23 18:07:15 +0000\"",
+  "modified files": null,
+  "build host": "BLD-03",
+  "build time": "2023-07-23 19:52:58",
+  "appVer": "[release] 1.23204 (3e183)",
+  "Environment": "Build",
+  "branch": "3e183e14a87516e9f60e075622cb31ed79e359af",
+  "commit": "3e183e14a87516e9f60e075622cb31ed79e359af"
+} 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+InstalledUICulture: pt-PT, CurrentUICulture: pt-PT, CurrentCulture: pt-PT
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+InstalledUICulture: pt-PT, CurrentUICulture: en-US, CurrentCulture: en-US
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SettingsPrefs] Initialize 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Either assetReference is null (True) or assetReference is invalid 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: CoreBundles\core_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: core_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: CoreBundles\core_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: core_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: CoreBundles\core_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: core_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: CoreBundles\full_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: full_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: CoreBundles\full_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: full_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: CoreBundles\full_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: full_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_cyberpunk_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_cyberpunk_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_farm_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_farm_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_gardens_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_gardens_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_hgtv_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_hgtv_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_luxury_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_luxury_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_pets_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_pets_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_preppers_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_preppers_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_cyberpunk_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_cyberpunk_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_farm_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_farm_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_gardens_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_gardens_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_hgtv_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_hgtv_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_luxury_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_luxury_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_pets_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_pets_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_preppers_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_preppers_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_cyberpunk_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_cyberpunk_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_farm_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_farm_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_gardens_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_gardens_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_hgtv_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_hgtv_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_luxury_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_luxury_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_pets_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_pets_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_preppers_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_preppers_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Took 00:00:05.4641648 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setup start house scene: SmallFirstHouse 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[ProjectGuidmapper] after init <B>18</B>.8s 3804 objects loaded 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Loading Start Scene <B>18</B>.8s 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script on this Behaviour (Game Object 'Plant_Fern') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Treebush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Treebush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_FlowersRedBush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_FlowersRedBush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Bush_B') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Bush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Bush_B') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Fern') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Treebush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Fern') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_FlowersRedBush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Bush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Bush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Bush_B') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Bush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_FlowersRedBush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Treebush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Fern') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Bush_B') is missing! 
+(Filename:  Line: 334)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script on this Behaviour (Game Object 'Renderer') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Renderer') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Renderer') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Renderer') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Renderer') is missing! 
+(Filename:  Line: 334)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 528)
+UnloadTime: 1.037900 ms
+[GameManagerLoader] before <B>21</B>.3s 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Failed to create agent because there is no valid NavMesh 
+(Filename:  Line: 634)
+
+[GameManagerLoader] after instantiate <B>21</B>.3s 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 1\PlayerProgress.dat. Attempts left: 5 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 1\PlayerProgress.dat. Attempts left: 4 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 1\PlayerProgress.dat. Attempts left: 3 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 1\PlayerProgress.dat. Attempts left: 2 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 1\PlayerProgress.dat. Attempts left: 1 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 1\UserSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 1\ArchivalSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 2\PlayerProgress.dat. Attempts left: 5 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 2\PlayerProgress.dat. Attempts left: 4 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 2\PlayerProgress.dat. Attempts left: 3 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 2\PlayerProgress.dat. Attempts left: 2 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 2\PlayerProgress.dat. Attempts left: 1 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 2\UserSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 2\ArchivalSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 3\PlayerProgress.dat. Attempts left: 5 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 3\PlayerProgress.dat. Attempts left: 4 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 3\PlayerProgress.dat. Attempts left: 3 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 3\PlayerProgress.dat. Attempts left: 2 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 3\PlayerProgress.dat. Attempts left: 1 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 3\UserSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 3\ArchivalSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 4\PlayerProgress.dat. Attempts left: 5 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 4\PlayerProgress.dat. Attempts left: 4 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 4\PlayerProgress.dat. Attempts left: 3 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 4\PlayerProgress.dat. Attempts left: 2 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 4\PlayerProgress.dat. Attempts left: 1 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 4\UserSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 4\ArchivalSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/ArchivalSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/CatchedTextures.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/CatchedTextures_AfterSummary.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/CatchedTextures_BeforeSummary.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/CatchedTextures_DoghouseName.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/CatchedTextures_Gallery.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/CatchedTextures_GallerySticker.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/CatchedTextures_Grass.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/CatchedTextures_Gravel.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/CatchedTextures_SpecialGrass.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/CatchedTextures_Windows.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/Farm\ArchivalSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/Farm\UserSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/Farm 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/Pets\ArchivalSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/Pets\UserSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/Pets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/UserSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Progress not found: "" 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Creating new empty player progress: "Default"
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Player Profile] Initialization 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Saved player progress found: "" with name: "Default" with playtime: 1min with houses owned: 1 with houses sold: 0 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Saved player progress found: "Profile 1" with name: "Default" with playtime: 1min with houses owned: 1 with houses sold: 0 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Progress not found: "Profile 2" 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Progress not found: "Profile 3" 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Progress not found: "Profile 4" 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Going to create new game progress 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Load game progress 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Going to create new before after progress 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Load before after progress 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Going to create new hgtv order progress 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Load hgtv order progress 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Initializing Steam Inventory 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SteamInventory.GetAllItems(out steamInventoryResult) : True -- 1 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+I have initialized PetsManager 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+No custom postprocesses for WindowsPlayer platform. Using default... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[UserManagement] current user: ChouKpop 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[BuildInfoLoader] initialized: {
+  "git log": "\"3e183e14a87516e9f60e075622cb31ed79e359af 2023-07-23 18:07:15 +0000\"",
+  "modified files": null,
+  "build host": "BLD-03",
+  "build time": "2023-07-23 19:52:58",
+  "appVer": "[release] 1.23204 (3e183)",
+  "Environment": "Build",
+  "branch": "3e183e14a87516e9f60e075622cb31ed79e359af",
+  "commit": "3e183e14a87516e9f60e075622cb31ed79e359af"
+} 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[12/18/2023 8:30:21 PM] Log into the game with profile "Default" with played time: 00:01 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[ActivityLogger] Creating activity log file 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[GameManagerLoader] after awaken <B>26</B>.8s 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SettingsPrefs] Initialize 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Loaded Start Scene <B>26</B>.9s 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Event] Game Dlcs
+	 	 ApocalypseFlipper: True
+	 GardenFlipper: True
+	 LuxuryFlipper: True
+	 HgtvFlipper: True
+	 Cyberpunk: True
+	 Pets: True
+	 Farm: True
+	 appVer: [release] 1.23204 (3e183) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Event] Language
+	 	 language: English
+	 appVer: [release] 1.23204 (3e183) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Event] Steam Workshop
+	 	 has-any-items: False
+	 items-count: 0
+	 appVer: [release] 1.23204 (3e183) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Discord.ResultException: InternalError
+  at Discord.Discord..ctor (System.Int64 clientId, System.UInt64 flags) [0x00316] in <6235f090a3764af295d0091b0d76d9d8>:0 
+  at شًؘٓٞر.Init () [0x00000] in <053da5a217734a92a7e385426151fbe0>:0  
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Cannot continue game. Is it a new profile? 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 39801 unused Assets to reduce memory usage. Loaded Objects now: 86266.
+Total: 174.007600 ms (FindLiveObjects: 4.731800 ms CreateObjectMapping: 5.873200 ms MarkObjects: 151.932100 ms  DeleteObjects: 11.469700 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 528)
+[4702 - SteamInventoryDefinitionUpdate] 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[4701 - SteamInventoryFullUpdate] - 1 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[4700 - SteamInventoryResultReady] - 1 -- k_EResultOK 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SteamInventory.GetResultItems(1, null, out OutItemsArraySize) - True -- 0 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 86264.
+Total: 158.954600 ms (FindLiveObjects: 3.769000 ms CreateObjectMapping: 3.552600 ms MarkObjects: 151.519900 ms  DeleteObjects: 0.112200 ms)
+
+Cannot continue game. Is it a new profile? 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Either assetReference is null (True) or assetReference is invalid 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+ReLoad to profile: "Profile 1" 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Load game progress 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Load hgtv order progress 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Cannot continue game. Is it a new profile? 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Either assetReference is null (True) or assetReference is invalid 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Cannot continue game. Is it a new profile? 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Handle New Game button pressed. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Progress not found: "" 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Creating new empty player progress: "Default"
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+12/18/2023 8:32:16 PM - Saving PlayerProgress [InitNewGame] 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Event] GameStateChange
+	 	 appVer: [release] 1.23204 (3e183)
+	 Type: New Game Start
+	 House name: 
+	 Profile: Profile 1
+	 Time spent: 0
+	 Actions done: 0
+	 Money balance: 107537 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<B>Loading house: 0. 35613_displayName - SmallFirstHouse/</B>
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 531)
+
+Unloading 432 unused Assets to reduce memory usage. Loaded Objects now: 90661.
+Total: 180.775500 ms (FindLiveObjects: 3.955200 ms CreateObjectMapping: 2.874500 ms MarkObjects: 173.157200 ms  DeleteObjects: 0.788100 ms)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script on this Behaviour (Game Object 'Renderers') is missing! 
+(Filename:  Line: 334)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script on this Behaviour (Game Object 'Plant_FlowersRed') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_FlowersRed') is missing! 
+(Filename:  Line: 334)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script on this Behaviour (Game Object 'Plant_Lily') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Lily') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Lily') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Lily') is missing! 
+(Filename:  Line: 334)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script on this Behaviour (Game Object 'Renderer') is missing! 
+(Filename:  Line: 334)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 531)
+UnloadTime: 7.583400 ms
+[singleton] Creating ParcelCollidersGenerator Singleton instance on the fly. 
+	To have it's fields configured, add it manually to a GameObject 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+scn_Environment 4scene loaded in 0.4s
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 8690 unused Assets to reduce memory usage. Loaded Objects now: 88491.
+Total: 192.624000 ms (FindLiveObjects: 4.553500 ms CreateObjectMapping: 3.895400 ms MarkObjects: 177.177900 ms  DeleteObjects: 6.996500 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 531)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 88491.
+Total: 182.590900 ms (FindLiveObjects: 3.941000 ms CreateObjectMapping: 3.052100 ms MarkObjects: 175.449100 ms  DeleteObjects: 0.147400 ms)
+
+[scene-loader-counter] Setting scene change time to now
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[scene-loader-counter] First <B>Awake</B> at: <B>147</B>.6s
+	(<B>0</B>.0s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[scene-loader-counter] First <B>OnEnable</B> at: <B>147</B>.6s
+	(<B>0</B>.0s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+No WindowInteraction object in WindowGate. Are you sure WindowGate should be here? 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+No WindowInteraction object in WindowGate. Are you sure WindowGate should be here? 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+No WindowInteraction object in WindowGate. Are you sure WindowGate should be here? 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+No WindowInteraction object in WindowGate. Are you sure WindowGate should be here? 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+No WindowInteraction object in WindowGate. Are you sure WindowGate should be here? 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[scene-loader-counter] Last <B>Awake</B> at: <B>147</B>.7s
+	(<B>0</B>.1s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[scene-loader-counter] Last <B>OnEnable</B> at: <B>147</B>.7s
+	(<B>0</B>.1s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 531)
+[scene-loader-counter] First <B>Start</B> at: <B>147</B>.7s
+	(<B>0</B>.1s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[scene-loader-counter] Last <B>Start</B> at: <B>147</B>.8s
+	(<B>0</B>.1s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[scene-loader-counter] First <B>Update</B> at: <B>147</B>.8s
+	(<B>0</B>.1s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[scene-loader-counter] Last <B>Update</B> at: <B>147</B>.8s
+	(<B>0</B>.1s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SmallFirstHousescene loaded in 1.2s
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 7001 unused Assets to reduce memory usage. Loaded Objects now: 120599.
+Total: 212.742000 ms (FindLiveObjects: 8.956700 ms CreateObjectMapping: 5.179000 ms MarkObjects: 194.981700 ms  DeleteObjects: 3.624200 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 532)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 120600.
+Total: 203.729700 ms (FindLiveObjects: 5.236600 ms CreateObjectMapping: 3.272100 ms MarkObjects: 195.088200 ms  DeleteObjects: 0.132300 ms)
+
+[House] Init 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Quests initialisation
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Preparing to reset player's position
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[PlayerPositionManager]  No custom spawn point. Using gate data. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Set stat: SoldHouses to: 0 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+12/18/2023 8:32:25 PM - Saving House [InitNewGame] 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+On skybox set 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Event] GameStateChange
+	 	 appVer: [release] 1.23204 (3e183)
+	 Type: Office / Enter
+	 House name: SmallFirstHouse
+	 Profile: Profile 1
+	 Time spent: 0
+	 Actions done: 0
+	 Money balance: 107537 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setting up player
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[singleton] Creating TransparencySetter Singleton instance on the fly. 
+	To have it's fields configured, add it manually to a GameObject 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+BroadcastOnBeforeSummaryStarted 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Occlusion Culling] not initialised (False) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Proceed Before-After 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+BroadcastOnBeforeSummaryFinished 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Occlusion Culling] not initialised (True) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 533)
+
+Unloading 519 unused Assets to reduce memory usage. Loaded Objects now: 121485.
+Total: 213.882700 ms (FindLiveObjects: 5.486200 ms CreateObjectMapping: 3.205200 ms MarkObjects: 204.801600 ms  DeleteObjects: 0.389200 ms)
+
+Occlusion Culling initialised
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Outside/Varia/Decal24Leaking (8)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Outside/Varia/Decal24Leaking (10)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal24Leaking (18)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal24Leaking (17)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Outside/Varia/Decal24Leaking (11)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal24Leaking (13)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Outside/Varia/Decal24Leaking (5)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Outside/Varia/Decal24Leaking (4)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal24Leaking (14)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Outside/Varia/Decal24Leaking (2)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Outside/Varia/Decal24Leaking (3)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal25Leaking (11)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal25Leaking (3)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal25Leaking (7)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal25Leaking (9)" 
+(Filename:  Line: 0)
+
+[empcon] Command interpreter not set. Using default. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LaptopController is valid to assign completed: True 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LaptopController is loaded assets done to assign completed: False 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+12/18/2023 8:34:39 PM - Saving HousePlayerProgress [GoToOrderHouse] 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Start validating save file: C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 1\PlayerProgress.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Finished validating save fileC:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 1\PlayerProgress.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<B>Loading house: 3. 114501_displayName - HouseSmallest/</B>
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Event] GameStateChange
+	 	 appVer: [release] 1.23204 (3e183)
+	 Type: Office / Exit
+	 House name: SmallFirstHouse
+	 Profile: Profile 1
+	 Time spent: 135
+	 Actions done: 1
+	 Money balance: 107537 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LaptopController is valid to release addressable? True 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 534)
+
+Unloading 4018 unused Assets to reduce memory usage. Loaded Objects now: 97006.
+Total: 197.857300 ms (FindLiveObjects: 4.433100 ms CreateObjectMapping: 3.111000 ms MarkObjects: 185.367300 ms  DeleteObjects: 4.945400 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 534)
+UnloadTime: 5.182300 ms
+[singleton] Creating ParcelCollidersGenerator Singleton instance on the fly. 
+	To have it's fields configured, add it manually to a GameObject 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+scn_Environment 1scene loaded in 0.2s
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 1685 unused Assets to reduce memory usage. Loaded Objects now: 97103.
+Total: 196.915800 ms (FindLiveObjects: 4.247300 ms CreateObjectMapping: 3.221900 ms MarkObjects: 187.749000 ms  DeleteObjects: 1.697000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 534)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 97103.
+Total: 193.563500 ms (FindLiveObjects: 3.925200 ms CreateObjectMapping: 2.726000 ms MarkObjects: 186.739800 ms  DeleteObjects: 0.171900 ms)
+
+[scene-loader-counter] First <B>Awake</B> at: <B>291</B>.3s
+	(<B>143</B>.6s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[scene-loader-counter] First <B>OnEnable</B> at: <B>291</B>.3s
+	(<B>143</B>.6s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[scene-loader-counter] Last <B>Awake</B> at: <B>291</B>.3s
+	(<B>143</B>.7s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[scene-loader-counter] Last <B>OnEnable</B> at: <B>291</B>.3s
+	(<B>143</B>.7s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 534)
+[scene-loader-counter] First <B>Start</B> at: <B>291</B>.3s
+	(<B>143</B>.7s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[scene-loader-counter] Last <B>Start</B> at: <B>291</B>.3s
+	(<B>143</B>.7s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[scene-loader-counter] First <B>Update</B> at: <B>291</B>.3s
+	(<B>143</B>.7s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[scene-loader-counter] Last <B>Update</B> at: <B>291</B>.3s
+	(<B>143</B>.7s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+HouseSmallestscene loaded in 0.9s
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 2871 unused Assets to reduce memory usage. Loaded Objects now: 124082.
+Total: 209.574900 ms (FindLiveObjects: 5.699700 ms CreateObjectMapping: 3.305000 ms MarkObjects: 198.508500 ms  DeleteObjects: 2.061200 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 534)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 124082.
+Total: 210.941300 ms (FindLiveObjects: 6.277500 ms CreateObjectMapping: 3.474900 ms MarkObjects: 201.016500 ms  DeleteObjects: 0.171800 ms)
+
+[House] Init 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Quests initialisation
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Preparing to reset player's position
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[PlayerPositionManager]  No custom spawn point. Using gate data. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+On skybox set 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Event] GameStateChange
+	 	 appVer: [release] 1.23204 (3e183)
+	 Type: Order / Start
+	 House name: HouseSmallest
+	 Profile: Profile 1
+	 Time spent: 0
+	 Actions done: 0
+	 Percent done: 0
+	 Money balance: 107537 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setting up player
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[singleton] Creating TransparencySetter Singleton instance on the fly. 
+	To have it's fields configured, add it manually to a GameObject 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+BroadcastOnBeforeSummaryStarted 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Occlusion Culling] not initialised (False) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Proceed Before-After 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+BroadcastOnBeforeSummaryFinished 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Occlusion Culling] not initialised (True) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 534)
+
+Unloading 387 unused Assets to reduce memory usage. Loaded Objects now: 124296.
+Total: 215.579700 ms (FindLiveObjects: 6.500600 ms CreateObjectMapping: 3.392800 ms MarkObjects: 205.106100 ms  DeleteObjects: 0.579800 ms)
+
+Occlusion Culling initialised
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Doors/InteriorDoor_wood3/Collider 0" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Doors/InteriorDoor_wood3/Collider 3" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Rooms/[1] Family Room With Kitchenette/[Items]/KitchenSetA_B/Decal17 (4)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Doors/InteriorDoor_wood3/DoorsWing/VisionBlocker" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Doors/InteriorDoor_wood3/DoorsWing" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Doors/InteriorDoor_wood3/Collider 1" 
+(Filename:  Line: 0)
+
+[Event] New Skill Point
+	 	 skill-Name: Cleaning
+	 point-Number: 1
+	 appVer: [release] 1.23204 (3e183) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Event] Perk Upgraded
+	 	 skill-Name: Cleaning
+	 perk-Name: eyeOfTheMotherInLaw
+	 perk-Lvl: 1
+	 appVer: [release] 1.23204 (3e183) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Recording]: RadiatorItem(Clone) (Item) is modified 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Recording]: RadiatorItem(Clone) (Item) is modified 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Recording]: RadiatorItem(Clone) (Item) is modified 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 533)
+
+Unloading 173 unused Assets to reduce memory usage. Loaded Objects now: 125018.
+Total: 226.366200 ms (FindLiveObjects: 7.832200 ms CreateObjectMapping: 3.551300 ms MarkObjects: 214.481300 ms  DeleteObjects: 0.500800 ms)
+
+[Summary Camera] Camera Has Obstacles! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Event] GameStateChange
+	 	 appVer: [release] 1.23204 (3e183)
+	 Type: Order / Complete
+	 House name: HouseSmallest
+	 Profile: Profile 1
+	 Time spent: 285
+	 Actions done: 35
+	 Money balance:  + 2800 = 110178
+	 Percent done: 100 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+12/18/2023 8:39:34 PM - Saving HousePlayerProgress [CompleteOrder] 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Start validating save file: C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 1\PlayerProgress.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Finished validating save fileC:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 1\PlayerProgress.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[ObtainedAchievement: First Money] 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<B>Loading house: 0. 35613_displayName - SmallFirstHouse/</B>
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 534)
+
+Unloading 3187 unused Assets to reduce memory usage. Loaded Objects now: 98233.
+Total: 209.303200 ms (FindLiveObjects: 5.196900 ms CreateObjectMapping: 3.083000 ms MarkObjects: 197.731600 ms  DeleteObjects: 3.291300 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 534)
+UnloadTime: 7.258800 ms
+[singleton] Creating ParcelCollidersGenerator Singleton instance on the fly. 
+	To have it's fields configured, add it manually to a GameObject 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+scn_Environment 4scene loaded in 0.4s
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 1693 unused Assets to reduce memory usage. Loaded Objects now: 97796.
+Total: 216.216500 ms (FindLiveObjects: 4.964700 ms CreateObjectMapping: 3.716600 ms MarkObjects: 206.430900 ms  DeleteObjects: 1.103800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 534)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 97796.
+Total: 224.775200 ms (FindLiveObjects: 4.843200 ms CreateObjectMapping: 3.076400 ms MarkObjects: 216.736700 ms  DeleteObjects: 0.118600 ms)
+
+[scene-loader-counter] First <B>Awake</B> at: <B>586</B>.4s
+	(<B>438</B>.8s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[scene-loader-counter] First <B>OnEnable</B> at: <B>586</B>.4s
+	(<B>438</B>.8s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+No WindowInteraction object in WindowGate. Are you sure WindowGate should be here? 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+No WindowInteraction object in WindowGate. Are you sure WindowGate should be here? 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+No WindowInteraction object in WindowGate. Are you sure WindowGate should be here? 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+No WindowInteraction object in WindowGate. Are you sure WindowGate should be here? 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+No WindowInteraction object in WindowGate. Are you sure WindowGate should be here? 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[scene-loader-counter] Last <B>Awake</B> at: <B>586</B>.4s
+	(<B>438</B>.8s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[scene-loader-counter] Last <B>OnEnable</B> at: <B>586</B>.4s
+	(<B>438</B>.8s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 534)
+[scene-loader-counter] First <B>Start</B> at: <B>586</B>.5s
+	(<B>438</B>.8s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[scene-loader-counter] Last <B>Start</B> at: <B>586</B>.5s
+	(<B>438</B>.8s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[scene-loader-counter] First <B>FixedUpdate</B> at: <B>586</B>.5s
+	(<B>438</B>.8s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[scene-loader-counter] First <B>Update</B> at: <B>586</B>.5s
+	(<B>438</B>.8s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[scene-loader-counter] Last <B>Update</B> at: <B>586</B>.5s
+	(<B>438</B>.8s after scene change.) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SmallFirstHousescene loaded in 1.0s
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 3100 unused Assets to reduce memory usage. Loaded Objects now: 122576.
+Total: 247.345600 ms (FindLiveObjects: 6.797100 ms CreateObjectMapping: 3.712400 ms MarkObjects: 234.517700 ms  DeleteObjects: 2.318000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 534)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 122576.
+Total: 232.148100 ms (FindLiveObjects: 5.569000 ms CreateObjectMapping: 4.168100 ms MarkObjects: 222.242600 ms  DeleteObjects: 0.168000 ms)
+
+[House] Init 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Quests initialisation
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Preparing to reset player's position
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Has hgtv: True has finished ba: False and is possible: True 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+On skybox set 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Event] GameStateChange
+	 	 appVer: [release] 1.23204 (3e183)
+	 Type: Office / Enter
+	 House name: SmallFirstHouse
+	 Profile: Profile 1
+	 Time spent: 0
+	 Actions done: 0
+	 Money balance: 110178 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[singleton] Creating TransparencySetter Singleton instance on the fly. 
+	To have it's fields configured, add it manually to a GameObject 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+BroadcastOnBeforeSummaryStarted 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Occlusion Culling] not initialised (False) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Proceed Before-After 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+BroadcastOnBeforeSummaryFinished 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Occlusion Culling] not initialised (True) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Building storey GroundFloor 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[HouseSaveManager] House save loaded. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setting up player
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 535)
+
+Unloading 296 unused Assets to reduce memory usage. Loaded Objects now: 123226.
+Total: 228.844100 ms (FindLiveObjects: 6.159100 ms CreateObjectMapping: 3.320700 ms MarkObjects: 218.605000 ms  DeleteObjects: 0.758800 ms)
+
+Occlusion Culling initialised
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Outside/Varia/Decal24Leaking (8)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Outside/Varia/Decal24Leaking (10)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Outside/Varia/Decal24Leaking (11)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal24Leaking (17)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal24Leaking (18)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal24Leaking (13)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Outside/Varia/Decal24Leaking (5)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Outside/Varia/Decal24Leaking (4)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal24Leaking (14)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Outside/Varia/Decal24Leaking (2)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Outside/Varia/Decal24Leaking (3)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal25Leaking (11)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal25Leaking (3)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal25Leaking (7)" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal25Leaking (9)" 
+(Filename:  Line: 0)
+
+LaptopController is valid to assign completed: True 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LaptopController is loaded assets done to assign completed: False 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LaptopController is valid to release addressable? True 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+12/18/2023 8:42:45 PM - Saving HousePlayerProgress [AutoSave] 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Start validating save file: C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 1\PlayerProgress.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Finished validating save fileC:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 1\PlayerProgress.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PlayOneShot was called with a null AudioClip. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PlayOneShot was called with a null AudioClip. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+12/18/2023 8:45:28 PM - Saving HousePlayerProgress [BackToMainMenu] 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Start validating save file: C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 1\PlayerProgress.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Finished validating save fileC:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 1\PlayerProgress.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 534)
+LaptopController is valid to release addressable? False 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UnloadTime: 14.449200 ms
+
+Unloading 3611 unused Assets to reduce memory usage. Loaded Objects now: 96191.
+Total: 218.669100 ms (FindLiveObjects: 7.174100 ms CreateObjectMapping: 3.532200 ms MarkObjects: 202.373300 ms  DeleteObjects: 5.589000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 534)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 96191.
+Total: 206.421000 ms (FindLiveObjects: 4.451500 ms CreateObjectMapping: 3.213300 ms MarkObjects: 198.615500 ms  DeleteObjects: 0.140100 ms)
+
+[Event] Menu Dlc Opened
+	 	 page-Name: MenuDlc
+	 appVer: [release] 1.23204 (3e183) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+12/18/2023 8:45:51 PM - Saving HousePlayerProgress [QuitGameButton] 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Can't check Asset. Asset is null 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[CANT-SAVE] Base scene  not in guidmapper
+order type: HouseOrder
+mail order? False
+order number: 0
+dev note: 
+cost: 5000 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[ActivityLogger] found: 1 activities. Last one is:
+[12/18/2023 8:30:21 PM] Log into the game with profile "Default" with played time: 00:01 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Event] GameStateChange
+	 	 appVer: [release] 1.23204 (3e183)
+	 Type: Game Quit
+	 House name: SmallFirstHouse
+	 Profile: Profile 1
+	 Time spent: 365
+	 Actions done: 49 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Game Exit 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
