@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>0F87323D4CE76D9D160B839C8DCB2227</ExecutionGuid>
+		<CrashGUID>UECC-Windows-295C434848699B6F781A1489E8BCC005_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Crash</CrashType>
+		<ErrorMessage>Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x000001700b0b9a10</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>10592</ProcessId>
+		<SecondsSinceStart>1540</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-Pal</GameName>
+		<ExecutableName>Palworld-Win64-Shipping</ExecutableName>
+		<BuildConfiguration>Shipping</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Game</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.1.1-0+++UE5+Release-5.1</EngineVersion>
+		<CommandLine>CommandLineRemoved</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>pt-PT</AppDefaultLocale>
+		<BuildVersion>++UE5+Release-5.1-CL-0</BuildVersion>
+		<Symbols>**UE5*Release-5.1-CL-0-Win64-Shipping</Symbols>
+		<IsUERelease>true</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>E:/Programas/Steam/steamapps/common/Palworld/Pal/Binaries/Win64/</BaseDir>
+		<RootDir>E:/Programas/Steam/steamapps/common/Palworld/</RootDir>
+		<MachineId>1ECEB5BD415DCD2F1D212AA9EB89E034</MachineId>
+		<LoginId>1eceb5bd415dcd2f1d212aa9eb89e034</LoginId>
+		<HostName>DESKTOP-RMKLI94</HostName>
+		<EpicAccountId>994777f5d10c467ca4512ba0ca32858d</EpicAccountId>
+		<SourceContext />
+		<UserDescription>
+by ChouKpop</UserDescription>
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>8</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>16</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+		<Misc.CPUBrand>AMD Ryzen 7 5800X 8-Core Processor</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 3060</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10 (22H2) [10.0.19045.3930]</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>17102516224</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>34282385408</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack>XINPUT1_3
+XINPUT1_3
+XINPUT1_3
+XINPUT1_3
+XINPUT1_3
+XINPUT1_3
+XINPUT1_3
+XINPUT1_3
+XINPUT1_3
+XINPUT1_3
+XINPUT1_3
+XINPUT1_3
+XINPUT1_3
+XINPUT1_3
+XINPUT1_3
+XINPUT1_3
+XINPUT1_3
+XINPUT1_3
+XINPUT1_3
+ucrtbase
+kernel32
+ntdll</CallStack>
+		<PCallStack>XINPUT1_3 0x00007ff867d90000 + 25e3ce XINPUT1_3 0x00007ff867d90000 + af222 XINPUT1_3 0x00007ff867d90000 + add51 XINPUT1_3 0x00007ff867d90000 + 4559b4 XINPUT1_3 0x00007ff867d90000 + 45a146 XINPUT1_3 0x00007ff867d90000 + 4c18aa XINPUT1_3 0x00007ff867d90000 + 4c08ce XINPUT1_3 0x00007ff867d90000 + 4c00bc XINPUT1_3 0x00007ff867d90000 + 4cc6c0 XINPUT1_3 0x00007ff867d90000 + 4c9ccb XINPUT1_3 0x00007ff867d90000 + 4c00d5 XINPUT1_3 0x00007ff867d90000 + 4c0e24 XINPUT1_3 0x00007ff867d90000 + 4c06c0 XINPUT1_3 0x00007ff867d90000 + 4b8575 XINPUT1_3 0x00007ff867d90000 + 457e35 XINPUT1_3 0x00007ff867d90000 + ac7bc XINPUT1_3 0x00007ff867d90000 + ac60d XINPUT1_3 0x00007ff867d90000 + ac4b8 XINPUT1_3 0x00007ff867d90000 + bfe3f ucrtbase 0x00007ff89c9a0000 + 21bb2 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</PCallStack>
+		<PCallStackHash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2e738cf Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2e73bed Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2e72e8e Palworld-Win64-Shipping 0x00007ff64a8c0000 + b88c2f Palworld-Win64-Shipping 0x00007ff64a8c0000 + b75785 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2e7898d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2d8d8ea Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2d8d377 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 500adfd Palworld-Win64-Shipping 0x00007ff64a8c0000 + 4ffa267 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 4fdb600 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 5009d9d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 4a43f93 Palworld-Win64-Shipping 0x00007ff64a8c0000 + b526c4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + b5c86c Palworld-Win64-Shipping 0x00007ff64a8c0000 + b5c8ea Palworld-Win64-Shipping 0x00007ff64a8c0000 + b5d6ec Palworld-Win64-Shipping 0x00007ff64a8c0000 + b66324 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 5c1bba2 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9700</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9a6bd Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9b480 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b8a8f0 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7800</ThreadID>
+				<ThreadName>Foreground Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2e7385c Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2e73bed Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2e72a1e Palworld-Win64-Shipping 0x00007ff64a8c0000 + b88c2f Palworld-Win64-Shipping 0x00007ff64a8c0000 + b967d4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b8d7c5 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b86301 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9b2e3 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b8a8f0 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15152</ThreadID>
+				<ThreadName>Foreground Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9a6bd Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9b480 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b8a8f0 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2084</ThreadID>
+				<ThreadName>Background Worker #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9a6bd Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9b480 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b8a8f0 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8456</ThreadID>
+				<ThreadName>Background Worker #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9a6bd Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9b480 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b8a8f0 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12080</ThreadID>
+				<ThreadName>Background Worker #4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9a6bd Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9b480 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b8a8f0 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5448</ThreadID>
+				<ThreadName>Background Worker #5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9a6bd Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9b480 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b8a8f0 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6552</ThreadID>
+				<ThreadName>Background Worker #6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9a6bd Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9b480 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b8a8f0 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7120</ThreadID>
+				<ThreadName>Background Worker #7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9a6bd Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9b480 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b8a8f0 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2860</ThreadID>
+				<ThreadName>Background Worker #8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9a6bd Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9b480 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b8a8f0 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18172</ThreadID>
+				<ThreadName>Background Worker #9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9a6bd Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9b480 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b8a8f0 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6944</ThreadID>
+				<ThreadName>Background Worker #10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9a6bd Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9b480 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b8a8f0 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14348</ThreadID>
+				<ThreadName>Background Worker #11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9a6bd Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9b480 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b8a8f0 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13776</ThreadID>
+				<ThreadName>Background Worker #12</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9a6bd Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b9b480 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b8a8f0 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8524</ThreadID>
+				<ThreadName>Background Worker #13</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be86ee Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9328</ThreadID>
+				<ThreadName>BackgroundThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be86ee Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4876</ThreadID>
+				<ThreadName>BackgroundThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b88ec3 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7684</ThreadID>
+				<ThreadName>Reserve Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b88ec3 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3220</ThreadID>
+				<ThreadName>Reserve Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b88ec3 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12988</ThreadID>
+				<ThreadName>Reserve Worker #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b88ec3 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2516</ThreadID>
+				<ThreadName>Reserve Worker #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b88ec3 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17872</ThreadID>
+				<ThreadName>Reserve Worker #4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b88ec3 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19108</ThreadID>
+				<ThreadName>Reserve Worker #5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b88ec3 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17472</ThreadID>
+				<ThreadName>Reserve Worker #6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b88ec3 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6292</ThreadID>
+				<ThreadName>Reserve Worker #7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b88ec3 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8236</ThreadID>
+				<ThreadName>Reserve Worker #8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b88ec3 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3192</ThreadID>
+				<ThreadName>Reserve Worker #9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b88ec3 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4620</ThreadID>
+				<ThreadName>Reserve Worker #10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b88ec3 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8292</ThreadID>
+				<ThreadName>Reserve Worker #11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b88ec3 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7856</ThreadID>
+				<ThreadName>Reserve Worker #12</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b88ec3 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14792</ThreadID>
+				<ThreadName>Reserve Worker #13</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 45c9d8c Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3784</ThreadID>
+				<ThreadName>FMediaTicker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d664 KERNELBASE 0x00007ff89caa0000 + 4b62e Palworld-Win64-Shipping 0x00007ff64a8c0000 + 3dbf0c1 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8184</ThreadID>
+				<ThreadName>HttpManagerThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 13676e6 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4136</ThreadID>
+				<ThreadName>OnlineAsyncTaskThreadSteam DefaultInstance</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ca6ece Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be88f4 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8604</ThreadID>
+				<ThreadName>OutputDeviceRedirector</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be86ee Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4080</ThreadID>
+				<ThreadName>IOThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be86ee Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>936</ThreadID>
+				<ThreadName>IOThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be86ee Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8360</ThreadID>
+				<ThreadName>IOThreadPool #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2be86ee Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10456</ThreadID>
+				<ThreadName>IOThreadPool #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b978ab Palworld-Win64-Shipping 0x00007ff64a8c0000 + 3fc104b Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10328</ThreadID>
+				<ThreadName>RHIThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>Palworld-Win64-Shipping 0x00007ff64a8c0000 + 3f2c1a6 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 4fe99a2 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2b978ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 3fc0369 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 3fc10a7 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14264</ThreadID>
+				<ThreadName>RenderThread 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d664 KERNELBASE 0x00007ff89caa0000 + 4b62e Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1c4a Palworld-Win64-Shipping 0x00007ff64a8c0000 + 3fc1147 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17324</ThreadID>
+				<ThreadName>RTHeartBeat 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d664 KERNELBASE 0x00007ff89caa0000 + 4b62e Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1c4a Palworld-Win64-Shipping 0x00007ff64a8c0000 + 1c0fed8 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14732</ThreadID>
+				<ThreadName>AkMediaMemoryManager ticker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2d54c39 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2d515ca Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7016</ThreadID>
+				<ThreadName>FAsyncLoadingThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d664 KERNELBASE 0x00007ff89caa0000 + 4b62e Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1c4a Palworld-Win64-Shipping 0x00007ff64a8c0000 + 5002fd1 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16124</ThreadID>
+				<ThreadName>ScreenSaverInhibitor</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 42497b7 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16944</ThreadID>
+				<ThreadName>AudioMixerNullCallbackThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 42499ea Palworld-Win64-Shipping 0x00007ff64a8c0000 + 424991e Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13728</ThreadID>
+				<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff89f0d0000 + 9d064 KERNELBASE 0x00007ff89caa0000 + 230ce Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce2e4d Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ddf352 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2ce1227 Palworld-Win64-Shipping 0x00007ff64a8c0000 + 2cdc581 KERNEL32 0x00007ff89d1f0000 + 17344 ntdll 0x00007ff89f0d0000 + 526b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1032</ThreadID>
+				<ThreadName>FAsyncPurge</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>638418924553030000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10 (22H2) [10.0.19045.3930]  64b]</PlatformFullName>
+		<CPUBrand>AMD Ryzen 7 5800X 8-Core Processor</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules>E:\Programas\Steam\steamapps\common\Palworld\Pal\Binaries\Win64\tbb.dll
+E:\Programas\Steam\steamapps\common\Palworld\Pal\Binaries\Win64\Palworld-Win64-Shipping.exe
+E:\Programas\Steam\steamapps\common\Palworld\Pal\Plugins\DLSS\Binaries\ThirdParty\Win64\nvngx_dlss.dll
+E:\Programas\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\CEF3\Win64\libcef.dll
+E:\Programas\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\CEF3\Win64\libGLESv2.dll
+E:\Programas\Steam\steamapps\common\Palworld\Engine\Binaries\Win64\EOSSDK-Win64-Shipping.dll
+E:\Programas\Steam\steamapps\common\Palworld\Pal\Binaries\Win64\XINPUT1_3.dll
+E:\Programas\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\CEF3\Win64\d3dcompiler_47.dll
+E:\Programas\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbis_64.dll
+E:\Programas\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\NVIDIA\NVaftermath\Win64\GFSDK_Aftermath_Lib.x64.dll
+E:\Programas\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\DbgHelp\dbghelp.dll
+E:\Programas\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\Windows\XAudio2_9\x64\xaudio2_9redist.dll
+E:\Programas\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\CEF3\Win64\chrome_elf.dll
+E:\Programas\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\CEF3\Win64\libEGL.dll
+E:\Programas\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\Steamworks\Steamv153\Win64\steam_api64.dll
+E:\Programas\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\NVIDIA\GPUDirect\Win64\dvp.dll
+E:\Programas\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\Ogg\Win64\VS2015\libogg_64.dll
+E:\Programas\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbisfile_64.dll</Modules>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<IsRunningOnBattery>false</IsRunningOnBattery>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+		<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+		<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+		<RHI.D3DDebug>false</RHI.D3DDebug>
+		<RHI.Aftermath>false</RHI.Aftermath>
+		<RHI.IsGPUOverclocked>false</RHI.IsGPUOverclocked>
+		<RHI.RHIName>D3D11</RHI.RHIName>
+		<RHI.AdapterName>NVIDIA GeForce RTX 3060</RHI.AdapterName>
+		<RHI.UserDriverVersion>551.23</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>31.0.15.5123</RHI.InternalDriverVersion>
+		<RHI.DriverDate>1-18-2024</RHI.DriverDate>
+		<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+		<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+		<RHI.DeviceId>2503</RHI.DeviceId>
+		<DeviceProfile.Name>Windows</DeviceProfile.Name>
+		<Platform.AppHasFocus>true</Platform.AppHasFocus>
+	</EngineData>
+	<GameData>
+		<__sentry>{ &quot;tags&quot;: { &quot;version&quot;: &quot;0.1.3.0&quot;, &quot;callstackhash&quot;: &quot;533347D9027131CB29A5043224543C888197B49E&quot;,&quot;revision&quot;: &quot;47084&quot;, &quot;platform&quot;: &quot;Windows&quot;, &quot;user_id&quot;: &quot;steam_76561198255923205&quot;, &quot;players&quot;: &quot;1&quot;, &quot;session_id&quot;: &quot;steam_76561198255923205_1706294029&quot; } }</__sentry>
+	</GameData>
+</FGenericCrashContext>
