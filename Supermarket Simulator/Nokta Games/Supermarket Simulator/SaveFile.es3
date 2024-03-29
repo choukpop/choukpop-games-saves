@@ -686,10 +686,10 @@
 					"Price" : 0.65
 				},{
 					"ProductID" : 86,
-					"Price" : 0.8620037
+					"Price" : 0.77832216
 				},{
 					"ProductID" : 139,
-					"Price" : 0.4
+					"Price" : 0.437647045
 				},{
 					"ProductID" : 115,
 					"Price" : 3.75
@@ -819,7 +819,7 @@
 		"__type" : "SaveManager+SettingsContainer,Assembly-CSharp",
 		"value" : {
 			"QualitySetting" : 0,
-			"ResolutionSetting" : 83,
+			"ResolutionSetting" : 75,
 			"LanguageSetting" : 5,
 			"FullScreen" : true,
 			"MouseSensitivity" : 0.4067858
@@ -849,7 +849,7 @@
 					"Taken" : false
 				}
 			],
-			"Money" : 6422.57227,
+			"Money" : 6384.20752,
 			"CartData" : {
 				"ProductInCarts" : [
 					
@@ -863,15 +863,15 @@
 					"Size" : 5,
 					"Transform" : {
 						"Position" : {
-							"x" : -7.503634,
-							"y" : -1.05880237,
-							"z" : 8.82932
+							"x" : -7.50368071,
+							"y" : -1.05880415,
+							"z" : 8.829434
 						},
 						"Rotation" : {
-							"x" : -0.0007413168,
-							"y" : 0.7023336,
-							"z" : -0.000329555856,
-							"w" : -0.7118475
+							"x" : -0.0007959917,
+							"y" : 0.7023295,
+							"z" : -0.000421058619,
+							"w" : -0.7118514
 						}
 					},
 					"IsOpen" : true,
@@ -881,15 +881,15 @@
 					"Size" : 2,
 					"Transform" : {
 						"Position" : {
-							"x" : -7.093163,
-							"y" : -1.05241227,
-							"z" : 9.331351
+							"x" : -7.093332,
+							"y" : -1.05242407,
+							"z" : 9.331512
 						},
 						"Rotation" : {
-							"x" : -0.000638966,
-							"y" : 0.6747032,
-							"z" : 0.00105294283,
-							"w" : -0.738088131
+							"x" : -0.0006813179,
+							"y" : 0.6748518,
+							"z" : 0.001082599,
+							"w" : -0.7379522
 						}
 					},
 					"IsOpen" : true,
@@ -899,15 +899,15 @@
 					"Size" : 1,
 					"Transform" : {
 						"Position" : {
-							"x" : -7.10871458,
-							"y" : -1.0495863,
-							"z" : 8.450531
+							"x" : -7.108686,
+							"y" : -1.04955435,
+							"z" : 8.450486
 						},
 						"Rotation" : {
-							"x" : -0.00128729688,
-							"y" : -0.000407504645,
-							"z" : -0.000159859163,
-							"w" : 0.9999991
+							"x" : -0.00066606,
+							"y" : -0.000350608345,
+							"z" : -0.000201998046,
+							"w" : 0.9999997
 						}
 					},
 					"IsOpen" : true,
@@ -922,9 +922,9 @@
 							"z" : 8.813934
 						},
 						"Rotation" : {
-							"x" : 2.83107E-07,
+							"x" : 2.89103184E-07,
 							"y" : 0.7071081,
-							"z" : -4.832755E-08,
+							"z" : -5.535813E-08,
 							"w" : -0.7071056
 						}
 					},
@@ -936,7 +936,7 @@
 			"FurnitureBoxDatas" : [
 				
 			],
-			"DisplayedProductData" : {33:46,84:48,83:32,85:31,147:48,70:48,39:34,24:26,55:32,62:37,66:20,151:80,99:32,128:40,117:48,68:48,119:31,132:62,74:38,139:27,86:24,115:22,73:38,67:31,34:33,30:61,26:50,32:41,46:29,161:106
+			"DisplayedProductData" : {33:46,84:48,83:32,85:31,147:48,70:48,39:34,24:26,55:32,62:37,66:36,151:80,99:32,128:40,117:48,68:48,119:31,132:62,74:38,139:51,86:40,115:22,73:38,67:31,34:33,30:61,26:50,32:41,46:29,161:106
 			},
 			"DisplayDatas" : [
 				{
@@ -1487,7 +1487,7 @@
 					},
 					"DisplaySlots" : [
 						{
-							"Products" : {66:0
+							"Products" : {66:4
 							},
 							"ProductPrice" : {
 							}
@@ -1502,12 +1502,12 @@
 							"ProductPrice" : {
 							}
 						},{
-							"Products" : {66:4
+							"Products" : {66:8
 							},
 							"ProductPrice" : {
 							}
 						},{
-							"Products" : {66:3
+							"Products" : {66:8
 							},
 							"ProductPrice" : {
 							}
@@ -1522,7 +1522,7 @@
 							"ProductPrice" : {
 							}
 						},{
-							"Products" : {66:5
+							"Products" : {66:8
 							},
 							"ProductPrice" : {
 							}
@@ -1628,12 +1628,12 @@
 							"ProductPrice" : {
 							}
 						},{
-							"Products" : {86:7
+							"Products" : {86:8
 							},
 							"ProductPrice" : {
 							}
 						},{
-							"Products" : {86:3
+							"Products" : {86:8
 							},
 							"ProductPrice" : {
 							}
@@ -1648,12 +1648,12 @@
 							"ProductPrice" : {
 							}
 						},{
-							"Products" : {86:4
+							"Products" : {86:8
 							},
 							"ProductPrice" : {
 							}
 						},{
-							"Products" : {86:6
+							"Products" : {86:8
 							},
 							"ProductPrice" : {
 							}
@@ -1663,7 +1663,7 @@
 							"ProductPrice" : {
 							}
 						},{
-							"Products" : {86:4
+							"Products" : {86:8
 							},
 							"ProductPrice" : {
 							}
@@ -1691,7 +1691,7 @@
 					},
 					"DisplaySlots" : [
 						{
-							"Products" : {139:1
+							"Products" : {139:3
 							},
 							"ProductPrice" : {
 							}
@@ -1706,12 +1706,12 @@
 							"ProductPrice" : {
 							}
 						},{
-							"Products" : {139:11
+							"Products" : {139:12
 							},
 							"ProductPrice" : {
 							}
 						},{
-							"Products" : {139:8
+							"Products" : {139:12
 							},
 							"ProductPrice" : {
 							}
@@ -1726,7 +1726,7 @@
 							"ProductPrice" : {
 							}
 						},{
-							"Products" : {139:4
+							"Products" : {139:12
 							},
 							"ProductPrice" : {
 							}
@@ -1736,7 +1736,7 @@
 							"ProductPrice" : {
 							}
 						},{
-							"Products" : {139:3
+							"Products" : {139:12
 							},
 							"ProductPrice" : {
 							}
@@ -3820,9 +3820,9 @@
 				"ExpensiveProducts" : 0,
 				"ShortChangeAmount" : 0,
 				"TotalCustomerCount" : 0,
-				"StorePoint" : 64,
+				"StorePoint" : 70,
 				"CheckoutIncome" : 0,
-				"SupplyCosts" : -156.42,
+				"SupplyCosts" : -194.78479,
 				"UpgradeCosts" : 0,
 				"BillCosts" : -45.96,
 				"RentCosts" : -110
@@ -4013,7 +4013,7 @@
 			"LastDayPricesChanged" : 1,
 			"MysteryBox" : false,
 			"CompletedCheckoutCount" : 693,
-			"CurrentStorePoint" : 730,
+			"CurrentStorePoint" : 736,
 			"CurrentStoreLevel" : 25,
 			"StoreUpgradeLevel" : 6,
 			"IsStoreOpen" : false
