@@ -3,8 +3,6 @@ C:\Users\ChouKpop\AppData\Local\FactoryGame
 76561199570726859 - Rias Gremory (choukpopwithoutcheats1)
 76561199511920295 - Raiden (raidenshogun1337)
 
-!tp base
-
 Coal = 202020
 Limestone = C8BFA7
 Copper = BD4C39
@@ -15,4 +13,26 @@ Nitrogen Gas = 00FFF5
 Quartz = F177B5
 Water = 1662AD
 Sam = 19002A
+
+
+
+
+
+!tp base
+!tp concrete
+!tp iron
+!tp steel
+!tp copper
+!tp elevator
+
+
+
+
+
+
+
+
+
+
+
 
