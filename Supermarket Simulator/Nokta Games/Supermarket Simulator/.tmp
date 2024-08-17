@@ -1,0 +1,197 @@
+{
+	"Progression" : {
+		"__type" : "SaveManager+ProgressionContainer,Assembly-CSharp",
+		"value" : {
+		"UnlockedLicenses" : [
+			
+		],
+		"LoanDatas" : [
+			
+		],
+		"Money" : 40,
+		"CartData" : {
+			"ProductInCarts" : [
+				
+			],
+			"FurnituresInCarts" : [
+				
+			],
+			"BucketsInCarts" : [
+				
+			],
+			"FloorBoxesInCarts" : [
+				
+			]
+		},
+		"BoxDatas" : [
+			
+		],
+		"FurnitureBoxDatas" : [
+			
+		],
+		"BucketBoxDatas" : [
+			
+		],
+		"DisplayDatas" : [
+			
+		],
+		"RackDatas" : [
+			
+		],
+		"CheckoutDatas" : [
+			
+		],
+		"DailyStatisticsData" : {
+			"SatisfiedCustomerCount" : 0,
+			"CouldntFindProduct" : 0,
+			"ExpensiveProducts" : 0,
+			"ShortChangeAmount" : 0,
+			"TotalCustomerCount" : 0,
+			"StorePoint" : 0,
+			"CheckoutIncome" : 0,
+			"SupplyCosts" : 0,
+			"UpgradeCosts" : 0,
+			"BillCosts" : 0,
+			"RentCosts" : 0,
+			"PaintCosts" : 0,
+			"FloorBoxCosts" : 0
+		},
+		"FurnitureDatas" : [
+			
+		],
+		"ComputerTransform" : {
+			"Position" : {
+				"x" : 0,
+				"y" : 0,
+				"z" : 0
+			},
+			"Rotation" : {
+				"x" : 0,
+				"y" : 0,
+				"z" : 0,
+				"w" : 1
+			}
+		},
+		"CurrentTime" : 0,
+		"CurrentDay" : 1,
+		"LastDayPricesChanged" : 1,
+		"MysteryBox" : false,
+		"CompletedCheckoutCount" : 0,
+		"CurrentStorePoint" : 0,
+		"CurrentStoreLevel" : 1,
+		"StoreUpgradeLevel" : 0,
+		"IsStoreOpen" : false
+	}
+	},
+	"Quality" : {
+		"__type" : "SaveManager+SettingsContainer,Assembly-CSharp",
+		"value" : {
+		"QualitySetting" : 0,
+		"ResolutionSetting" : 75,
+		"LanguageSetting" : 5,
+		"FullScreen" : true,
+		"MouseSensitivity" : 0.4967857,
+		"InvertYAxis" : false,
+		"InvertXAxis" : false,
+		"FOV" : 80
+	}
+	},
+	"Onboarding" : {
+		"__type" : "SaveManager+OnboardingContaioner,Assembly-CSharp",
+		"value" : {
+		"Step" : 0,
+		"LightsTutorial" : false,
+		"OverChange" : false,
+		"CompletedShelfObjective" : false,
+		"Version" : "0.0.2"
+	}
+	},
+	"Price" : {
+		"__type" : "SaveManager+PriceContainer,Assembly-CSharp",
+		"value" : {
+		"Prices" : [
+			
+		],
+		"PricesSetByPlayer" : [
+			
+		],
+		"AverageCosts" : [
+			
+		],
+		"DailyPriceChanges" : [
+			
+		],
+		"PreviousPrices" : [
+			
+		]
+	}
+	},
+	"Expenses" : {
+		"__type" : "SaveManager+ExpensesData,Assembly-CSharp",
+		"value" : {
+		"CurrentDayBillAmount" : 0,
+		"Bills" : [
+			
+		],
+		"Rents" : [
+			
+		],
+		"LoanRepayments" : [
+			
+		]
+	}
+	},
+	"Employees" : {
+		"__type" : "SaveManager+EmployeesData,Assembly-CSharp",
+		"value" : {
+		"CashiersData" : [
+			
+		],
+		"RestockersData" : [
+			
+		]
+	}
+	},
+	"Storage" : {
+		"__type" : "SaveManager+StorageData,Assembly-CSharp",
+		"value" : {
+		"Purchased" : false,
+		"StorageLevel" : 0
+	}
+	},
+	"Customization" : {
+		"__type" : "SaveManager+CustomizationContainer,Assembly-CSharp",
+		"value" : {
+		"CustomizationData" : {
+			"ShopName" : "SuperMarket",
+			"DoorIndex" : 0,
+			"ShopNameColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"NameBackGroundColor" : {
+				"r" : 1,
+				"g" : 0,
+				"b" : 0,
+				"a" : 1
+			},
+			"ShopNameSizeX" : 5,
+			"ShopNameSizeY" : 4
+		},
+		"BucketSaveDataList" : [
+			
+		],
+		"FloorBoxSaveDataList" : [
+			
+		],
+		"PaintDataList" : [
+			
+		],
+		"FloorSaveDataList" : [
+			
+		]
+	}
+	}
+}

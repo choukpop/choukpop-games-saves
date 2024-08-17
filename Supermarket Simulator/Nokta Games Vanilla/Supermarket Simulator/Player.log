@@ -1,36 +1,29 @@
-Mono path[0] = 'E:/Programas Sem Instalacao/Supermarket Simulator v1.2.4/Supermarket Simulator_Data/Managed'
-Mono config path = 'E:/Programas Sem Instalacao/Supermarket Simulator v1.2.4/MonoBleedingEdge/etc'
+Mono path[0] = 'C:/Users/ChouKpop/Desktop/Supermarket.Simulator.v0.2.Early.Access/Supermarket Simulator_Data/Managed'
+Mono config path = 'C:/Users/ChouKpop/Desktop/Supermarket.Simulator.v0.2.Early.Access/MonoBleedingEdge/etc'
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
 Initialize engine version: 2021.3.31f1 (3409e2af086f)
-[Subsystems] Discovering subsystems at path E:/Programas Sem Instalacao/Supermarket Simulator v1.2.4/Supermarket Simulator_Data/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ChouKpop/Desktop/Supermarket.Simulator.v0.2.Early.Access/Supermarket Simulator_Data/UnitySubsystems
 GfxDevice: creating device client; threaded=1; jobified=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
     Vendor:   NVIDIA
     VRAM:     12115 MB
-    Driver:   31.0.15.5212
+    Driver:   32.0.15.6070
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.166 seconds
+- Completed reload, in  0.121 seconds
 <RI> Initializing input.
 New input system (experimental) initialized
 Using XInput
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.387000 ms
+UnloadTime: 2.336700 ms
+Singleton of type : CameraSettings not found on scene
+Singleton of type : CameraSettings not found on scene
+UnloadTime: 10.670900 ms
 Unloading 6 Unused Serialized files (Serialized files now loaded: 3)
-UnloadTime: 10.917600 ms
-System.EntryPointNotFoundException: SteamAPI_SteamInput_v001 assembly:<unknown assembly> type:<unknown type> member:(null)
-  at (wrapper managed-to-native) Steamworks.ISteamInput.SteamAPI_SteamInput_v001()
-  at Steamworks.ISteamInput.GetUserInterfacePointer () [0x00000] in <19bd4cc6a4004258bf538b05ac1133d6>:0 
-  at Steamworks.SteamInterface.SetupInterface (System.Boolean gameServer) [0x0006f] in <19bd4cc6a4004258bf538b05ac1133d6>:0 
-  at Steamworks.ISteamInput..ctor (System.Boolean IsGameServer) [0x00008] in <19bd4cc6a4004258bf538b05ac1133d6>:0 
-  at Steamworks.SteamInput.InitializeInterface (System.Boolean server) [0x00001] in <19bd4cc6a4004258bf538b05ac1133d6>:0 
-  at Steamworks.SteamClient.AddInterface[T] () [0x00007] in <19bd4cc6a4004258bf538b05ac1133d6>:0 
-  at Steamworks.SteamClient.Init (System.UInt32 appid, System.Boolean asyncCallbacks) [0x00080] in <19bd4cc6a4004258bf538b05ac1133d6>:0 
-  at SteamIntegration.Awake () [0x00000] in <5a2193a3129a437f83b27d620b4aa00d>:0 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 192848.
-Total: 93.340500 ms (FindLiveObjects: 12.264900 ms CreateObjectMapping: 10.342900 ms MarkObjects: 70.464800 ms  DeleteObjects: 0.267600 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 297990.
+Total: 130.903800 ms (FindLiveObjects: 17.229500 ms CreateObjectMapping: 18.605700 ms MarkObjects: 94.704200 ms  DeleteObjects: 0.363900 ms)
 
 You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
 You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
@@ -57,146 +50,57 @@ You're attempting to despawn a null gameObject.
 BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
 If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "---GAME---/Store/Storage/Walls/Showcase_Store_08/Showcase_Store_Door_08"
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-This pool contained a null despawned clone, did you accidentally destroy it?
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a null gameObject.
-This pool contained a null despawned clone, did you accidentally destroy it?
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a null gameObject.
-This pool contained a null despawned clone, did you accidentally destroy it?
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-This pool contained a null despawned clone, did you accidentally destroy it?
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a null gameObject.
-This pool contained a null despawned clone, did you accidentally destroy it?
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-This pool contained a null despawned clone, did you accidentally destroy it?
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-This pool contained a null despawned clone, did you accidentally destroy it?
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
-You're attempting to despawn a null gameObject.
 Setting up 4 worker threads for Enlighten.
 <color=#ff7337><color=#0099bc><b>DOTWEEN ► </b></color> SAFE MODE ►</color> DOTween's safe mode captured 1 errors. This is usually ok (it's what safe mode is there for) but if your game is encountering issues you should set Log Behaviour to Default in DOTween Utility Panel in order to get detailed warnings when an error is captured (consider that these errors are always on the user side).
 - 1 missing target or field errors
+Singleton of type : CarColliderManager not found on scene
+Singleton of type : CarColliderManager not found on scene
+Singleton of type : EmployeeManager not found on scene
+NullReferenceException: Object reference not set to an instance of an object
+  at Restocker.OnDisable () [0x00005] in <3f922e61bb624e87a738a726074ad1e4>:0 
+
+Singleton of type : PlayerInteraction not found on scene
+Singleton of type : MoneyManager not found on scene
+NullReferenceException: Object reference not set to an instance of an object
+  at __Project__.Scripts.Computer.Management.CustomizationTab.ChangeNameItem.OnDestroy () [0x00015] in <3f922e61bb624e87a738a726074ad1e4>:0 
+
+Singleton of type : PlayerInteraction not found on scene
+Singleton of type : StoreStatus not found on scene
+Singleton of type : StoreStatus not found on scene
+Singleton of type : CarColliderManager not found on scene
 Memory Statistics:
 [ALLOC_TEMP_TLS] TLS Allocator
   StackAllocators : 
     [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [2.0 KB-4.0 KB]: 1931 frames, [64.0 KB-128.0 KB]: 1 frames, [128.0 KB-256.0 KB]: 6685 frames, [256.0 KB-0.5 MB]: 200439 frames, [0.5 MB-1.0 MB]: 424 frames, [4.0 MB-8.0 MB]: 2 frames
+      Peak usage frame count: [2.0 KB-4.0 KB]: 3936 frames, [128.0 KB-256.0 KB]: 5911 frames, [256.0 KB-0.5 MB]: 14691 frames, [0.5 MB-1.0 MB]: 2 frames, [4.0 MB-8.0 MB]: 2 frames
       Initial Block Size 4.0 MB
-      Current Block Size 7.7 MB
-      Peak Allocated Bytes 7.7 MB
-      Overflow Count 32
+      Current Block Size 8.0 MB
+      Peak Allocated Bytes 8.0 MB
+      Overflow Count 37
     [ALLOC_TEMP_Loading.AsyncRead]
       Initial Block Size 64.0 KB
       Current Block Size 64.0 KB
-      Peak Allocated Bytes 345 B
+      Peak Allocated Bytes 372 B
       Overflow Count 0
     [ALLOC_TEMP_Loading.PreloadManager]
       Initial Block Size 256.0 KB
       Current Block Size 0.5 MB
-      Peak Allocated Bytes 463.1 KB
-      Overflow Count 119964
+      Peak Allocated Bytes 505.7 KB
+      Overflow Count 214183
     [ALLOC_TEMP_Background Job.Worker 8]
       Initial Block Size 32.0 KB
       Current Block Size 44.0 KB
-      Peak Allocated Bytes 43.0 KB
+      Peak Allocated Bytes 43.9 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 6]
       Initial Block Size 256.0 KB
-      Current Block Size 368.0 KB
-      Peak Allocated Bytes 188.1 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 96.0 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 0]
       Initial Block Size 256.0 KB
-      Current Block Size 368.0 KB
-      Peak Allocated Bytes 188.1 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 96.0 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 10]
       Initial Block Size 32.0 KB
@@ -210,8 +114,8 @@ Memory Statistics:
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 5]
       Initial Block Size 256.0 KB
-      Current Block Size 368.0 KB
-      Peak Allocated Bytes 188.1 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 96.0 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 14]
       Initial Block Size 32.0 KB
@@ -225,23 +129,23 @@ Memory Statistics:
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 4]
       Initial Block Size 256.0 KB
-      Current Block Size 368.0 KB
-      Peak Allocated Bytes 188.1 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 96.0 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 14]
       Initial Block Size 256.0 KB
-      Current Block Size 368.0 KB
-      Peak Allocated Bytes 188.1 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 96.0 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 3]
       Initial Block Size 256.0 KB
-      Current Block Size 368.0 KB
-      Peak Allocated Bytes 188.1 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 96.0 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 13]
       Initial Block Size 256.0 KB
-      Current Block Size 368.0 KB
-      Peak Allocated Bytes 188.1 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 96.0 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 12]
       Initial Block Size 32.0 KB
@@ -265,18 +169,18 @@ Memory Statistics:
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 2]
       Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
+      Current Block Size 44.0 KB
+      Peak Allocated Bytes 42.3 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 7]
       Initial Block Size 32.0 KB
-      Current Block Size 36.0 KB
-      Peak Allocated Bytes 35.1 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
       Overflow Count 0
     [ALLOC_TEMP_UnityGfxDeviceWorker]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 15.5 KB
+      Peak Allocated Bytes 18.7 KB
       Overflow Count 0
     [ALLOC_TEMP_AssetGarbageCollectorHelper] x 15
       Initial Block Size 64.0 KB
@@ -290,8 +194,8 @@ Memory Statistics:
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 9]
       Initial Block Size 256.0 KB
-      Current Block Size 368.0 KB
-      Peak Allocated Bytes 188.1 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 96.0 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 13]
       Initial Block Size 32.0 KB
@@ -300,23 +204,23 @@ Memory Statistics:
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 8]
       Initial Block Size 256.0 KB
-      Current Block Size 356.0 KB
-      Peak Allocated Bytes 182.9 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 96.0 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 7]
       Initial Block Size 256.0 KB
-      Current Block Size 368.0 KB
-      Peak Allocated Bytes 188.1 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 96.0 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 1]
       Initial Block Size 256.0 KB
-      Current Block Size 368.0 KB
-      Peak Allocated Bytes 188.1 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 96.0 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 2]
       Initial Block Size 256.0 KB
-      Current Block Size 368.0 KB
-      Peak Allocated Bytes 188.1 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 96.0 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 3]
       Initial Block Size 32.0 KB
@@ -330,13 +234,13 @@ Memory Statistics:
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 10]
       Initial Block Size 256.0 KB
-      Current Block Size 368.0 KB
-      Peak Allocated Bytes 188.1 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 96.0 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 0]
       Initial Block Size 32.0 KB
-      Current Block Size 44.0 KB
-      Peak Allocated Bytes 41.5 KB
+      Current Block Size 36.0 KB
+      Peak Allocated Bytes 35.1 KB
       Overflow Count 0
     [ALLOC_TEMP_HIDInput]
       Initial Block Size 64.0 KB
@@ -345,13 +249,13 @@ Memory Statistics:
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 11]
       Initial Block Size 256.0 KB
-      Current Block Size 368.0 KB
-      Peak Allocated Bytes 188.1 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 96.0 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 12]
       Initial Block Size 256.0 KB
-      Current Block Size 356.0 KB
-      Peak Allocated Bytes 182.9 KB
+      Current Block Size 324.0 KB
+      Peak Allocated Bytes 99.7 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 4]
       Initial Block Size 32.0 KB
@@ -364,31 +268,31 @@ Memory Statistics:
       Peak Allocated Bytes 54 B
       Overflow Count 0
 [ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 36208
+  Peak main deferred allocation count 32504
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 21358394
-        32B: 13 Subsections = 6656 buckets. Failed count: 10378575
-        48B: 19 Subsections = 6485 buckets. Failed count: 577674640
-        64B: 172 Subsections = 44032 buckets. Failed count: 307408
-        80B: 22 Subsections = 4505 buckets. Failed count: 378927
-        96B: 10 Subsections = 1706 buckets. Failed count: 20334
-        112B: 9 Subsections = 1316 buckets. Failed count: 43339
-        128B: 6 Subsections = 768 buckets. Failed count: 120795
+        16B: 5 Subsections = 5120 buckets. Failed count: 2444639
+        32B: 14 Subsections = 7168 buckets. Failed count: 1055399
+        48B: 19 Subsections = 6485 buckets. Failed count: 4307474
+        64B: 169 Subsections = 43264 buckets. Failed count: 541056
+        80B: 23 Subsections = 4710 buckets. Failed count: 58212
+        96B: 10 Subsections = 1706 buckets. Failed count: 16443
+        112B: 10 Subsections = 1462 buckets. Failed count: 26853
+        128B: 6 Subsections = 768 buckets. Failed count: 117933
     [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [16.0 MB-32.0 MB]: 1932 frames, [32.0 MB-64.0 MB]: 7220 frames, [64.0 MB-128.0 MB]: 200330 frames
+      Peak usage frame count: [32.0 MB-64.0 MB]: 3937 frames, [64.0 MB-128.0 MB]: 20605 frames
       Requested Block Size 16.0 MB
-      Peak Block count 7
-      Peak Allocated memory 89.0 MB
-      Peak Large allocation bytes 48.4 MB
+      Peak Block count 6
+      Peak Allocated memory 103.1 MB
+      Peak Large allocation bytes 68.5 MB
     [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [32.0 MB-64.0 MB]: 1932 frames, [64.0 MB-128.0 MB]: 207549 frames, [128.0 MB-256.0 MB]: 1 frames
+      Peak usage frame count: [64.0 MB-128.0 MB]: 24541 frames, [128.0 MB-256.0 MB]: 1 frames
       Requested Block Size 16.0 MB
       Peak Block count 3
-      Peak Allocated memory 143.0 MB
+      Peak Allocated memory 144.9 MB
       Peak Large allocation bytes 120.9 MB
 [ALLOC_TEMP_JOB_1_FRAME]
   Initial Block Size 2.0 MB
@@ -402,13 +306,13 @@ Memory Statistics:
   Overflow Count (full) 0
 [ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
   Initial Block Size 2.0 MB
-  Used Block Count 21
+  Used Block Count 22
   Overflow Count (too large) 0
   Overflow Count (full) 0
 [ALLOC_TEMP_JOB_ASYNC (Background)]
   Initial Block Size 1.0 MB
-  Used Block Count 27
-  Overflow Count (too large) 0
+  Used Block Count 31
+  Overflow Count (too large) 1
   Overflow Count (full) 0
 [ALLOC_GFX] Dual Thread Allocator
   Peak main deferred allocation count 12
@@ -417,53 +321,53 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 21358394
-        32B: 13 Subsections = 6656 buckets. Failed count: 10378575
-        48B: 19 Subsections = 6485 buckets. Failed count: 577674640
-        64B: 172 Subsections = 44032 buckets. Failed count: 307408
-        80B: 22 Subsections = 4505 buckets. Failed count: 378927
-        96B: 10 Subsections = 1706 buckets. Failed count: 20334
-        112B: 9 Subsections = 1316 buckets. Failed count: 43339
-        128B: 6 Subsections = 768 buckets. Failed count: 120795
+        16B: 5 Subsections = 5120 buckets. Failed count: 2444639
+        32B: 14 Subsections = 7168 buckets. Failed count: 1055399
+        48B: 19 Subsections = 6485 buckets. Failed count: 4307474
+        64B: 169 Subsections = 43264 buckets. Failed count: 541056
+        80B: 23 Subsections = 4710 buckets. Failed count: 58212
+        96B: 10 Subsections = 1706 buckets. Failed count: 16443
+        112B: 10 Subsections = 1462 buckets. Failed count: 26853
+        128B: 6 Subsections = 768 buckets. Failed count: 117933
     [ALLOC_GFX_MAIN]
-      Peak usage frame count: [8.0 MB-16.0 MB]: 1933 frames, [128.0 MB-256.0 MB]: 207549 frames
+      Peak usage frame count: [8.0 MB-16.0 MB]: 3938 frames, [128.0 MB-256.0 MB]: 20604 frames
       Requested Block Size 16.0 MB
-      Peak Block count 12
-      Peak Allocated memory 187.2 MB
+      Peak Block count 13
+      Peak Allocated memory 185.9 MB
       Peak Large allocation bytes 0 B
     [ALLOC_GFX_THREAD]
-      Peak usage frame count: [16.0 MB-32.0 MB]: 1932 frames, [32.0 MB-64.0 MB]: 207550 frames
+      Peak usage frame count: [32.0 MB-64.0 MB]: 3937 frames, [64.0 MB-128.0 MB]: 20604 frames, [128.0 MB-256.0 MB]: 1 frames
       Requested Block Size 16.0 MB
-      Peak Block count 5
-      Peak Allocated memory 63.6 MB
+      Peak Block count 11
+      Peak Allocated memory 137.4 MB
       Peak Large allocation bytes 0 B
 [ALLOC_CACHEOBJECTS] Dual Thread Allocator
-  Peak main deferred allocation count 87
+  Peak main deferred allocation count 89
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 21358394
-        32B: 13 Subsections = 6656 buckets. Failed count: 10378575
-        48B: 19 Subsections = 6485 buckets. Failed count: 577674640
-        64B: 172 Subsections = 44032 buckets. Failed count: 307408
-        80B: 22 Subsections = 4505 buckets. Failed count: 378927
-        96B: 10 Subsections = 1706 buckets. Failed count: 20334
-        112B: 9 Subsections = 1316 buckets. Failed count: 43339
-        128B: 6 Subsections = 768 buckets. Failed count: 120795
+        16B: 5 Subsections = 5120 buckets. Failed count: 2444639
+        32B: 14 Subsections = 7168 buckets. Failed count: 1055399
+        48B: 19 Subsections = 6485 buckets. Failed count: 4307474
+        64B: 169 Subsections = 43264 buckets. Failed count: 541056
+        80B: 23 Subsections = 4710 buckets. Failed count: 58212
+        96B: 10 Subsections = 1706 buckets. Failed count: 16443
+        112B: 10 Subsections = 1462 buckets. Failed count: 26853
+        128B: 6 Subsections = 768 buckets. Failed count: 117933
     [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [16.0 MB-32.0 MB]: 1933 frames, [32.0 MB-64.0 MB]: 207549 frames
+      Peak usage frame count: [16.0 MB-32.0 MB]: 3938 frames, [32.0 MB-64.0 MB]: 20604 frames
       Requested Block Size 4.0 MB
       Peak Block count 11
-      Peak Allocated memory 43.6 MB
+      Peak Allocated memory 41.4 MB
       Peak Large allocation bytes 2.9 MB
     [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [128.0 MB-256.0 MB]: 209480 frames, [256.0 MB-0.50 GB]: 2 frames
+      Peak usage frame count: [128.0 MB-256.0 MB]: 24540 frames, [256.0 MB-0.50 GB]: 2 frames
       Requested Block Size 4.0 MB
-      Peak Block count 67
-      Peak Allocated memory 340.2 MB
-      Peak Large allocation bytes 139.3 MB
+      Peak Block count 78
+      Peak Allocated memory 361.2 MB
+      Peak Large allocation bytes 135.7 MB
 [ALLOC_TYPETREE] Dual Thread Allocator
   Peak main deferred allocation count 0
     [ALLOC_BUCKET]
@@ -471,23 +375,23 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 21358394
-        32B: 13 Subsections = 6656 buckets. Failed count: 10378575
-        48B: 19 Subsections = 6485 buckets. Failed count: 577674640
-        64B: 172 Subsections = 44032 buckets. Failed count: 307408
-        80B: 22 Subsections = 4505 buckets. Failed count: 378927
-        96B: 10 Subsections = 1706 buckets. Failed count: 20334
-        112B: 9 Subsections = 1316 buckets. Failed count: 43339
-        128B: 6 Subsections = 768 buckets. Failed count: 120795
+        16B: 5 Subsections = 5120 buckets. Failed count: 2444639
+        32B: 14 Subsections = 7168 buckets. Failed count: 1055399
+        48B: 19 Subsections = 6485 buckets. Failed count: 4307474
+        64B: 169 Subsections = 43264 buckets. Failed count: 541056
+        80B: 23 Subsections = 4710 buckets. Failed count: 58212
+        96B: 10 Subsections = 1706 buckets. Failed count: 16443
+        112B: 10 Subsections = 1462 buckets. Failed count: 26853
+        128B: 6 Subsections = 768 buckets. Failed count: 117933
     [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 209482 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 24542 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
-      Peak Allocated memory 7.3 KB
+      Peak Allocated memory 6.4 KB
       Peak Large allocation bytes 0 B
     [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [64.0 KB-128.0 KB]: 209482 frames
+      Peak usage frame count: [64.0 KB-128.0 KB]: 24542 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
-      Peak Allocated memory 101.6 KB
+      Peak Allocated memory 116.3 KB
       Peak Large allocation bytes 0 B
