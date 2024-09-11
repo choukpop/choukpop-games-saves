@@ -1,0 +1,18 @@
+//Game/FactoryGame/Buildable/Factory/Blender/Desc_Blender.Desc_Blender_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Blender",
+"NameShort": "",
+"Description": "The Blender is capable of blending fluids and combining them with solid parts in various processes.
+Head Lift: 10 meters.
+(Allows fluids to be transported 10 meters upwards).
+
+Contains both Conveyor Belt and Pipe inputs and outputs.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Production_C",
+"StackSize": "Medium"
+}

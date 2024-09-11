@@ -1,0 +1,31 @@
+//RefinedPower/Buildables/Factory/WindTurbine_Mk2/Recipe_WindTurbine_Mk2.Recipe_WindTurbine_Mk2_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Wind Turbine Mk2",
+"Ingredients": [
+{
+      "Item": "Desc_Cement",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_SteelPlateReinforced",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_Motor",
+      "Amount": 5
+ }
+],
+"Products": [
+{
+      "Item": "Desc_WindTurbine_Mk2",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_RP_5_1_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

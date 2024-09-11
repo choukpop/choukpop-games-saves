@@ -1,0 +1,21 @@
+//Game/FactoryGame/Buildable/Factory/GeneratorGeoThermal/Desc_GeneratorGeoThermal.Desc_GeneratorGeoThermal_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Geothermal Generator",
+"NameShort": "",
+"Description": "Has to be built on a Geyser. Generates power.
+
+Caution: Power production fluctuates.
+
+Power Production:
+Impure 50-150 MW (100 MW average)
+Normal 100-300 MW (200 MW average)
+Pure 200-600 MW (400 MW average)",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Power_C",
+"StackSize": "Medium"
+}

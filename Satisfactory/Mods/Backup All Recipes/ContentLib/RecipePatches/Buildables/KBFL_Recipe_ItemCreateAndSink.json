@@ -1,0 +1,19 @@
+//KBFL/Utils/CheatBuilding/KBFL_Recipe_ItemCreateAndSink.KBFL_Recipe_ItemCreateAndSink_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "All In One Cheat Building",
+"Ingredients": [
+{
+      "Item": "BP_EquipmentDescriptorBeacon",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_ItemCreateAndSink",
+      "Amount": 1
+ }],
+"UnlockedBy": ["KBFL_Schematic_Debug_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

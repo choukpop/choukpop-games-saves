@@ -1,0 +1,13 @@
+//Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Zones/Recipe_Pattern_Remover_Zones.Recipe_Pattern_Remover_Zones_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "N/A",
+"Ingredients": [
+
+],
+"Products": [
+],
+"UnlockedBy": ["ResourceSink_Zones_FoundationPatterns_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

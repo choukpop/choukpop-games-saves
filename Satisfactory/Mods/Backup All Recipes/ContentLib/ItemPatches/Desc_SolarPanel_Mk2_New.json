@@ -1,0 +1,18 @@
+//RefinedPower/Buildables/Factory/SolarPanelMk2_New/Desc_SolarPanel_Mk2_New.Desc_SolarPanel_Mk2_New_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Solar Panel Mk2",
+"NameShort": "",
+"Description": "Generates 75MW during the day and some at night!
+
+Has a higher efficiency due to its sun tracking solar panel, that brings the efficiency up to 69%.
+
+Some Renewable power from the binary star system of Akycha!",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_RefinedPower_C",
+"StackSize": "Medium"
+}

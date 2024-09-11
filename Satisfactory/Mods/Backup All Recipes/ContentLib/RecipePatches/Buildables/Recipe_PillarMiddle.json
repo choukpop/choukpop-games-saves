@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_PillarMiddle.Recipe_PillarMiddle_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Big Metal Pillar",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 3
+ }
+],
+"Products": [
+{
+      "Item": "Desc_PillarMiddle",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_FoudationPillar_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

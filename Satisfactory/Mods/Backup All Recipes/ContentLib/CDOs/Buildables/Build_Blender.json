@@ -1,0 +1,40 @@
+{
+  "Class": "/Game/FactoryGame/Buildable/Factory/Blender/Build_Blender.Build_Blender_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 75.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.321929
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": false
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 5.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Blender"
+ },
+{
+"Property": "mDescription",
+"Value": "The Blender is capable of blending fluids and combining them with solid parts in various processes.
+Head Lift: 10 meters.
+(Allows fluids to be transported 10 meters upwards).
+
+Contains both Conveyor Belt and Pipe inputs and outputs."
+ },
+{
+"Property": "mHologramClass",
+"Value": "FGFactoryHologram"
+ },
+{
+"Property": "mManufacturingSpeed",
+"Value": 1.0
+ }]
+}

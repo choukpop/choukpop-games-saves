@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Generators/HVGenerator/UI/Icon_RP_MP_HVGenerator.Icon_RP_MP_HVGenerator",
+	"SmallIcon": "/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Generators/HVGenerator/UI/Icon_RP_MP_HVGenerator.Icon_RP_MP_HVGenerator",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

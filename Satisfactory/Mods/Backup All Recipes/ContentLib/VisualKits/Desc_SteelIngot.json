@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/SteelIngot/SteelIngot.SteelIngot",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/SteelIngot/UI/IconDesc_SteelIngot_256.IconDesc_SteelIngot_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/SteelIngot/UI/IconDesc_SteelIngot_256.IconDesc_SteelIngot_256",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

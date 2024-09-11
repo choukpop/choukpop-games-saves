@@ -1,0 +1,35 @@
+//RefinedPower/Schematics/Schematic_RP_MR_1.Schematic_RP_MR_1_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Modular Reactors",
+"Type": "Milestone",
+"VisualKit": "Schematic_RP_MR_1_C",
+"Description": "Project Big Cake!",
+"Cost": [{
+      "Item": "Desc_AluminumPlate",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_HighSpeedConnector",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_Computer",
+      "Amount": 100
+ }],
+"Category": "SC_RP_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 150.0,
+"Tier": 7,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_RP_MR_Foundation_C","Recipe_RP_MR_SupportRing_C","Recipe_RP_MR_ReactorChamber_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

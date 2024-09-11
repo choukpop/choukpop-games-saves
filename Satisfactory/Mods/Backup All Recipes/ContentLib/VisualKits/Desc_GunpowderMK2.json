@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/GunPowder/Mesh/SM_GunPowder_02.SM_GunPowder_02",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/GunPowder/UI/IconDesc_GunpowderMk2_256.IconDesc_GunpowderMk2_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/GunPowder/UI/IconDesc_GunpowderMk2_256.IconDesc_GunpowderMk2_256",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/Geometry/Meshes/1M_Cube_Chamfer.1M_Cube_Chamfer",
+	"BigIcon": "/Game/FactoryGame/Buildable/Building/Ramp/UI/Double/IconDesc_ConcDoubleRamp2m_512.IconDesc_ConcDoubleRamp2m_512",
+	"SmallIcon": "/Game/FactoryGame/Buildable/Building/Ramp/UI/Double/IconDesc_ConcDoubleRamp2m_512.IconDesc_ConcDoubleRamp2m_512",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

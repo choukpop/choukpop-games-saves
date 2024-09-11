@@ -1,0 +1,19 @@
+{
+	"Mesh": "/RefinedPower/Resource/Parts/AdvancedReactorCore/Mesh/SM_AdvancedReactorCore.SM_AdvancedReactorCore",
+	"BigIcon": "/RefinedPower/Resource/Parts/AdvancedReactorCore/UI/Icon_AdvReactorCore.Icon_AdvReactorCore",
+	"SmallIcon": "/RefinedPower/Resource/Parts/AdvancedReactorCore/UI/Icon_AdvReactorCore.Icon_AdvReactorCore",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

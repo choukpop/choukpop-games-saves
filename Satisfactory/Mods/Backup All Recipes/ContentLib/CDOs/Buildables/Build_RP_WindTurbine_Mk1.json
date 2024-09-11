@@ -1,0 +1,38 @@
+{
+  "Class": "/RefinedPower/Buildables/Factory/WindTurbine_Mk1/Build_RP_WindTurbine_Mk1.Build_RP_WindTurbine_Mk1_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 0.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.6
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": false
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 0.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Wind Turbine Mk1"
+ },
+{
+"Property": "mDescription",
+"Value": "The power generation ranges between 10MW and 30MW, contingent upon the turbine's height. If multiple turbines are within its vicinity, the output diminishes. Each additional wind turbine within range decreases the power output.
+
+Furthermore, it can be connected in a sequence of up to two power lines, allowing for daisy chaining."
+ },
+{
+"Property": "mHologramClass",
+"Value": "Holo_WindTurbine_C"
+ },
+{
+"Property": "mPowerProduction",
+"Value": 10.0
+ }]
+}

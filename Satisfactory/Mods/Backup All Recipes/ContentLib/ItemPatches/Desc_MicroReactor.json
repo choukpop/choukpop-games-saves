@@ -1,0 +1,14 @@
+//RefinedPower/Buildables/Factory/MicroReactor/Desc_MicroReactor.Desc_MicroReactor_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Micro Reactor",
+"NameShort": "",
+"Description": "A small micro reactor capiable of 1GW of power!",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_RefinedPower_C",
+"StackSize": "Medium"
+}

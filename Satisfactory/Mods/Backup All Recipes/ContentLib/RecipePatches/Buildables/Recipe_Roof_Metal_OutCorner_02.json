@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Metal_OutCorner_02.Recipe_Roof_Metal_OutCorner_02_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Outer Corner Roof 2m",
+"Ingredients": [
+{
+      "Item": "Desc_Cement",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_SteelPlate",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Roof_Metal_OutCorner_02",
+      "Amount": 1
+ }],
+"UnlockedBy": ["CBG_Roofs_Corners_Steel_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

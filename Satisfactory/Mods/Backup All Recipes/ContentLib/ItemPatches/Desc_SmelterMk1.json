@@ -1,0 +1,16 @@
+//Game/FactoryGame/Buildable/Factory/SmelterMk1/Desc_SmelterMk1.Desc_SmelterMk1_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Smelter",
+"NameShort": "",
+"Description": "Smelts ore into ingots.
+
+Can be automated by feeding ore into it with a conveyor belt connected to the input. The produced ingots can be automatically extracted by connecting a conveyor belt to the output.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Production_C",
+"StackSize": "Medium"
+}

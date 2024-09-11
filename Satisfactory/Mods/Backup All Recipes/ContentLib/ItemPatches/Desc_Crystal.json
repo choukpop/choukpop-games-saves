@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal.Desc_Crystal_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Blue Power Slug",
+"NameShort": "",
+"Description": "A strange slug radiating a weak strange power.",
+"CanBeDiscarded": false,
+"RememberPickUp": true,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_PowerShards_C",
+"StackSize": "Small"
+}

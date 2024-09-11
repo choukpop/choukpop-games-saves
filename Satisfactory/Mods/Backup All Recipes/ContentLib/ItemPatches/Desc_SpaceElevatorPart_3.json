@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_3.Desc_SpaceElevatorPart_3_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Automated Wiring",
+"NameShort": "",
+"Description": "Project Part #3. Ship with the Space Elevator to complete phases of Project Assembly.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_SpaceElevator_C",
+"StackSize": "Small"
+}

@@ -1,0 +1,31 @@
+//RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Generators/SuperGenerator/Recipe_RP_MP_SuperGenerator.Recipe_RP_MP_SuperGenerator_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Super HV Generator",
+"Ingredients": [
+{
+      "Item": "Desc_HighSpeedWire",
+      "Amount": 30
+ },
+{
+      "Item": "Desc_ComputerSuper",
+      "Amount": 30
+ },
+{
+      "Item": "Desc_SpaceElevatorPart_5",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_SpaceElevatorPart_6",
+      "Amount": 5
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RP_MP_SuperGenerator",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_RP_MP_5_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

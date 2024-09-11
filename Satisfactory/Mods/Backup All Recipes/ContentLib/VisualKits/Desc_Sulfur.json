@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/RawResources/Ores/Meshes/SM_SulfurOre_01.SM_SulfurOre_01",
+	"BigIcon": "/Game/FactoryGame/Resource/RawResources/Sulfur/UI/Sulfur_256.Sulfur_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/RawResources/Sulfur/UI/Sulfur_256.Sulfur_256",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

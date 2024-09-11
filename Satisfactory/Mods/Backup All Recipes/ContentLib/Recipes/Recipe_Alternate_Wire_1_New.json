@@ -1,0 +1,27 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alternate: Iron Wire",
+"Ingredients": [
+{
+      "Item": "Desc_IronIngot",
+      "Amount": 5
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Wire",
+      "Amount": 9
+ }
+],
+"ManufacturingDuration": 24.0,
+"ProducedIn": ["Build_ConstructorMk1_C"],
+"OverrideCategory": "Cat_Electronics_C",
+"ManufacturingMenuPriority": 1.0,
+"UnlockedBy": ["Schematic_Alternate_Wire1_C"],
+"ManualManufacturingMultiplier": 24.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

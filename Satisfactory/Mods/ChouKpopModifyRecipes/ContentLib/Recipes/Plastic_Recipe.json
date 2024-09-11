@@ -1,0 +1,35 @@
+{
+    "$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+    "Name": "Test Plastic Recipe",
+    "Ingredients": [
+        {
+            "Item": "Desc_PolymerResin",
+            "Amount": 1
+        },
+        {
+            "Item": "Item_Liquid_Iron",
+            "Amount": 2000
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_Plastic",
+            "Amount": 2
+        }
+    ],
+    "ManufacturingDuration": 6.0,
+    "ProducedIn": [
+        "Build_OilRefinery_C"
+    ],
+    "OverrideCategory": "Cat_SolidOilProducts_C",
+    "ManufacturingMenuPriority": 1.0,
+    "UnlockedBy": [
+        "Schematic_StartingRecipes_C"
+    ],
+    "ManualManufacturingMultiplier": 6.0,
+    "VariablePowerConsumptionConstant": 0.0,
+    "VariablePowerConsumptionFactor": 1.0,
+    "ClearIngredients": true,
+    "ClearProducts": true,
+    "ClearBuilders": true
+}

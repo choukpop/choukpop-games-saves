@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/StorageTeleporter/Textures/hub_icon.hub_icon",
+	"SmallIcon": "/StorageTeleporter/Textures/hub_icon.hub_icon",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

@@ -1,0 +1,16 @@
+//Game/FactoryGame/Buildable/-Shared/Customization/Materials/Recipe_Material_Roof_Metal.Recipe_Material_Roof_Metal_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "N/A",
+"Ingredients": [
+{
+      "Item": "Desc_SteelPlate",
+      "Amount": 2
+ }
+],
+"Products": [
+],
+"UnlockedBy": ["ResourceSink_Customizer_SteelRoofMaterial_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

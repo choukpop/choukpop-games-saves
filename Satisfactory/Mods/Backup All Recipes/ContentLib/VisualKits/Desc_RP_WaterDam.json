@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/RefinedPower/Buildables/Factory/WaterTurbine_Mk1/UI/Icon_WaterTurbine_Mk1.Icon_WaterTurbine_Mk1",
+	"SmallIcon": "/RefinedPower/Buildables/Factory/WaterTurbine_Mk1/UI/Icon_WaterTurbine_Mk1.Icon_WaterTurbine_Mk1",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

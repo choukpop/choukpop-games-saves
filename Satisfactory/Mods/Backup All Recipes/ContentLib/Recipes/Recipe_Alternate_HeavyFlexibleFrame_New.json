@@ -1,0 +1,39 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alternate: Heavy Flexible Frame",
+"Ingredients": [
+{
+      "Item": "Desc_ModularFrame",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_SteelPlateReinforced",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_Rubber",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_IronScrew",
+      "Amount": 104
+ }
+],
+"Products": [
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 16.0,
+"ProducedIn": ["Build_ManufacturerMk1_C"],
+"OverrideCategory": "Cat_StandardParts_C",
+"ManufacturingMenuPriority": 1.0,
+"UnlockedBy": ["Schematic_Alternate_HeavyFlexibleFrame_C"],
+"ManualManufacturingMultiplier": 16.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/CopperDust/Mesh/SM_CopperDust.SM_CopperDust",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/CopperDust/UI/IconDesc_CopperDust_256.IconDesc_CopperDust_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/CopperDust/UI/IconDesc_CopperDust_256.IconDesc_CopperDust_256",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

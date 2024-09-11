@@ -1,0 +1,27 @@
+//RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Boilers/BoilerMk2/Recipe_RP_MP_BoilerMk2.Recipe_RP_MP_BoilerMk2_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Boiler Mk2",
+"Ingredients": [
+{
+      "Item": "Desc_CopperSheet",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 5
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RP_MP_BoilerMk2",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_RP_MP_2_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

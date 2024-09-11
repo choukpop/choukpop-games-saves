@@ -1,0 +1,15 @@
+//Game/FactoryGame/Resource/Parts/PolymerResin/Desc_PolymerResin.Desc_PolymerResin_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Polymer Resin",
+"NameShort": "",
+"Description": "Used for crafting.
+A by-product of oil refinement into fuel. Commonly used to manufacture plastics.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_SolidOilProducts_C",
+"StackSize": "Big"
+}

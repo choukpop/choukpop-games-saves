@@ -1,0 +1,19 @@
+{
+	"Mesh": "/RefinedPower/Resource/Parts/ReinforcedCarbon/Mesh/SM_Item_ReinforcedCarbon.SM_Item_ReinforcedCarbon",
+	"BigIcon": "/RefinedPower/Resource/Parts/ReinforcedCarbon/UI/Icon_ReinforcedCarbon.Icon_ReinforcedCarbon",
+	"SmallIcon": "/RefinedPower/Resource/Parts/ReinforcedCarbon/UI/Icon_ReinforcedCarbon.Icon_ReinforcedCarbon",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

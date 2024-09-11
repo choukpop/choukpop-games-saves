@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/UraniumCell/SM_UraniumCell_01.SM_UraniumCell_01",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/UraniumCell/UI/IconDesc_NuclearCell_256.IconDesc_NuclearCell_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/UraniumCell/UI/IconDesc_NuclearCell_256.IconDesc_NuclearCell_256",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

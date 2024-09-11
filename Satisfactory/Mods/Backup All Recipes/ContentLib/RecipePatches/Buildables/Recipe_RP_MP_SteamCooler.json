@@ -1,0 +1,27 @@
+//RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Coolers/SteamCooler/Recipe_RP_MP_SteamCooler.Recipe_RP_MP_SteamCooler_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Steam Cooling Tower",
+"Ingredients": [
+{
+      "Item": "Desc_CopperSheet",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 4
+ },
+{
+      "Item": "Desc_RP_CarbonMesh",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RP_MP_SteamCooler",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_RP_MP_1_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

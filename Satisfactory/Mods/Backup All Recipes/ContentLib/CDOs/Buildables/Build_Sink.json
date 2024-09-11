@@ -1,0 +1,44 @@
+{
+  "Class": "/MagicMachine/UniversalSink/Build_Sink.Build_Sink_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 0.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.6
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": false
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 5.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Magic Sink Universal "
+ },
+{
+"Property": "mDescription",
+"Value": "Deletes all items it collects.
+
+FLUIDS
+SOLIDS
+POWER - Set the consumption"
+ },
+{
+"Property": "mHologramClass",
+"Value": "FGPipeReservoirHologram"
+ },
+{
+"Property": "mStackingHeight",
+"Value": 250.0
+ },
+{
+"Property": "mStorageCapacity",
+"Value": 4003012324209197056.0
+ }]
+}

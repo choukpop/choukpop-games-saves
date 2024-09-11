@@ -1,0 +1,27 @@
+//LoadBalancers/Recipes/Recipe_ModularLoadBalancer_Programmable_Output.Recipe_ModularLoadBalancer_Programmable_Output_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Output Only Programmable Module",
+"Ingredients": [
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_Motor",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_ComputerSuper",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_ModularLoadBalancer_Programmable_Output",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_ModularLoadBalancers_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

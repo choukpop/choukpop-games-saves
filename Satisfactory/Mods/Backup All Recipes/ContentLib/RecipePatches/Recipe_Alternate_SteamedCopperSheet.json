@@ -1,0 +1,32 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/New_Update3/Recipe_Alternate_SteamedCopperSheet.Recipe_Alternate_SteamedCopperSheet_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Steamed Copper Sheet",
+"Ingredients": [
+{
+      "Item": "Desc_CopperIngot",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_Water",
+      "Amount": 3000
+ }
+],
+"Products": [
+{
+      "Item": "Desc_CopperSheet",
+      "Amount": 3
+ }
+],
+"ManufacturingDuration": 8.0,
+"ProducedIn": ["Build_OilRefinery_C"],
+"OverrideCategory": "Cat_Other_C",
+"ManufacturingMenuPriority": 2.0,
+"UnlockedBy": ["Schematic_Alternate_SteamedCopperSheet_C"],
+"ManualManufacturingMultiplier": 8.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

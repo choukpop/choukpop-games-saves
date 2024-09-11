@@ -1,0 +1,17 @@
+//Game/FactoryGame/Resource/Equipment/Beacon/BP_EquipmentDescriptorBeacon.BP_EquipmentDescriptorBeacon_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Beacon",
+"NameShort": "",
+"Description": "PENDING REMOVAL
+This item will (likely) be removed in a future update.
+
+Currently only used as an ingredient in an alternative recipe.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Hands_C",
+"StackSize": "Medium"
+}

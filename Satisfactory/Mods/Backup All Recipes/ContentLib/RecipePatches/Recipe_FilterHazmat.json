@@ -1,0 +1,36 @@
+//Game/FactoryGame/Recipes/Equipment/Recipe_FilterHazmat.Recipe_FilterHazmat_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Iodine Infused Filter",
+"Ingredients": [
+{
+      "Item": "Desc_Filter",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_HighSpeedWire",
+      "Amount": 8
+ },
+{
+      "Item": "Desc_AluminumCasing",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_HazmatFilter",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 16.0,
+"ProducedIn": ["Build_ManufacturerMk1_C"],
+"OverrideCategory": "Cat_Consumables_C",
+"ManufacturingMenuPriority": 1.0,
+"UnlockedBy": ["Schematic_7-3_C"],
+"ManualManufacturingMultiplier": 16.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

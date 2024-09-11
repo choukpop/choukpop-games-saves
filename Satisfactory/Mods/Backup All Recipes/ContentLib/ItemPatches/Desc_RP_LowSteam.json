@@ -1,0 +1,14 @@
+//RefinedPower/Resource/RawResources/LowSteam/Desc_RP_LowSteam.Desc_RP_LowSteam_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Low Pressure Steam",
+"NameShort": "",
+"Description": "Warm Steam!",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Gas",
+"Category": "IC_RP_C",
+"StackSize": "Fluid"
+}

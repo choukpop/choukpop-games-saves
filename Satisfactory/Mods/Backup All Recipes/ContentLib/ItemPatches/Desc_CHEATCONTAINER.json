@@ -1,0 +1,16 @@
+//MagicMachine/_CHEAT/Desc_CHEATCONTAINER.Desc_CHEATCONTAINER_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Cheat Container",
+"NameShort": "",
+"Description": "Get 1 of each item available on the game. 
+
+Good for testing visuals of modded items.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Production_C",
+"StackSize": "Medium"
+}

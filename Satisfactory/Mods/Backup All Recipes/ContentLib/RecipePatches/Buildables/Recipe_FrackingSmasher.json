@@ -1,0 +1,31 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_FrackingSmasher.Recipe_FrackingSmasher_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Resource Well Pressurizer",
+"Ingredients": [
+{
+      "Item": "Desc_Wire",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_Rubber",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_SteelPlateReinforced",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_Motor",
+      "Amount": 50
+ }
+],
+"Products": [
+{
+      "Item": "Desc_FrackingSmasher",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_8-2_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

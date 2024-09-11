@@ -1,0 +1,39 @@
+//Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_3-1.Research_XMas_3-1_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "FICSMAS Lights",
+"Type": "MAM",
+"VisualKit": "Research_XMas_3-1_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_XmasBall1",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_XmasBall2",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_XmasBall3",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_XmasBall4",
+      "Amount": 50
+ }],
+"Category": "SC_Organisation_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 3.0,
+"Tier": 3,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_xmassLights_C","Recipe_XmasBallCluster_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

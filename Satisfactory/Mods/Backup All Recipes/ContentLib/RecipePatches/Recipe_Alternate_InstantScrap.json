@@ -1,0 +1,44 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/New_Update4/Recipe_Alternate_InstantScrap.Recipe_Alternate_InstantScrap_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Instant Scrap",
+"Ingredients": [
+{
+      "Item": "Desc_OreBauxite",
+      "Amount": 15
+ },
+{
+      "Item": "Desc_Coal",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_SulfuricAcid",
+      "Amount": 5000
+ },
+{
+      "Item": "Desc_Water",
+      "Amount": 6000
+ }
+],
+"Products": [
+{
+      "Item": "Desc_AluminumScrap",
+      "Amount": 30
+ },
+{
+      "Item": "Desc_Water",
+      "Amount": 5000
+ }
+],
+"ManufacturingDuration": 6.0,
+"ProducedIn": ["Build_Blender_C"],
+"OverrideCategory": "Cat_AdvancedRefinement_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schematic_Alternate_InstantScrap_C"],
+"ManualManufacturingMultiplier": 6.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

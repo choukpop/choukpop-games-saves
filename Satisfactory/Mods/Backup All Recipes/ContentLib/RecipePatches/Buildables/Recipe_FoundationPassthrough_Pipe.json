@@ -1,0 +1,27 @@
+//Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Recipe_FoundationPassthrough_Pipe.Recipe_FoundationPassthrough_Pipe_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Pipeline Floor Hole",
+"Ingredients": [
+{
+      "Item": "Desc_IronRod",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_FoundationPassthrough_Pipe",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_PipelineFloorHole_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

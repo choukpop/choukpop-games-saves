@@ -1,0 +1,14 @@
+//Game/FactoryGame/Buildable/Factory/ConveyorLiftMk3/Desc_ConveyorLiftMk3.Desc_ConveyorLiftMk3_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Conveyor Lift Mk.3",
+"NameShort": "",
+"Description": "Transports up to 270 resources per minute. Used to move resources between floors.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Logistics_C",
+"StackSize": "Medium"
+}

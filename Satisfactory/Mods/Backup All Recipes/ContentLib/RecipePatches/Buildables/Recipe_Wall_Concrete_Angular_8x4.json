@@ -1,0 +1,23 @@
+//Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_Angular_8x4.Recipe_Wall_Concrete_Angular_8x4_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Tilted Wall 4m",
+"Ingredients": [
+{
+      "Item": "Desc_Cement",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Wall_Concrete_Angular_8x4",
+      "Amount": 1
+ }],
+"UnlockedBy": ["CBG_Concrete_Walls_Tilted_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

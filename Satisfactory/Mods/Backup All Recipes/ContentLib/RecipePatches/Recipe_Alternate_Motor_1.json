@@ -1,0 +1,36 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_Motor_1.Recipe_Alternate_Motor_1_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Rigour Motor",
+"Ingredients": [
+{
+      "Item": "Desc_Rotor",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_Stator",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_CrystalOscillator",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Motor",
+      "Amount": 6
+ }
+],
+"ManufacturingDuration": 48.0,
+"ProducedIn": ["Build_ManufacturerMk1_C"],
+"OverrideCategory": "Cat_IndustrialParts_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schematic_Alternate_Motor1_C"],
+"ManualManufacturingMultiplier": 48.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

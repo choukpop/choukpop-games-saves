@@ -1,0 +1,35 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Digby Tool",
+"Ingredients": [
+{
+      "Item": "BP_EquipmentDescriptorObjectScanner",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_HighSpeedWire",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_ResourceSinkCoupon",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_DigbyTool",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 10.0,
+"ProducedIn": [],
+"OverrideCategory": "Cat_Hands_C",
+"ManufacturingMenuPriority": 10.0,
+"UnlockedBy": ["DigbyTool_Schematic_C"],
+"ManualManufacturingMultiplier": 10.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

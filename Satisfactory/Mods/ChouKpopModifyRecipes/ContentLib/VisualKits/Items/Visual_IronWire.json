@@ -1,0 +1,6 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_VisualKit.json",
+	"Mesh": "/Game/FactoryGame/Resource/Parts/IronIngot/SM_IronIngot_01.SM_IronIngot_01",
+	"BigIcon": "Icon_IronWire",
+	"SmallIcon": "Icon_IronWire"
+}

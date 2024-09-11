@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/Alumina/Desc_PackagedAlumina.Desc_PackagedAlumina_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Packaged Alumina Solution",
+"NameShort": "AL",
+"Description": "Alumina Solution, packaged for alternative transport.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Packaging_C",
+"StackSize": "Medium"
+}

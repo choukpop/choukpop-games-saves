@@ -1,0 +1,32 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/New_Update3/Recipe_Alternate_BoltedFrame.Recipe_Alternate_BoltedFrame_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Bolted Frame",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_IronScrew",
+      "Amount": 56
+ }
+],
+"Products": [
+{
+      "Item": "Desc_ModularFrame",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 24.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_StandardParts_C",
+"ManufacturingMenuPriority": 7.0,
+"UnlockedBy": ["Schematic_Alternate_BoltedFrame_C"],
+"ManualManufacturingMultiplier": 24.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

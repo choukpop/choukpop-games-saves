@@ -1,0 +1,17 @@
+//Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_8x4_02.Desc_Wall_8x4_02_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Basic Wall 4m",
+"NameShort": "",
+"Description": "Snaps to foundations and other walls.
+Useful for building multi-floor structures.
+
+Size: 8m x 4m",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Walls_C",
+"StackSize": "Medium"
+}

@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Turbines/TurbineMk2/UI/Icon_TurbineMk2.Icon_TurbineMk2",
+	"SmallIcon": "/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Turbines/TurbineMk2/UI/Icon_TurbineMk2.Icon_TurbineMk2",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

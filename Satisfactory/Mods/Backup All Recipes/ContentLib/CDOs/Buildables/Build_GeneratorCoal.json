@@ -1,0 +1,55 @@
+{
+  "Class": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 0.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.6
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": true
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 5.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Coal Generator"
+ },
+{
+"Property": "mDescription",
+"Value": "Burns Coal to boil Water, the produced steam rotates turbines to generate electricity for the power grid.
+Has a Conveyor Belt and Pipe input, so both the Coal and Water supply can be automated.
+
+Caution: Always generates at the set clock speed. Shuts down if fuel requirements are not met."
+ },
+{
+"Property": "mHologramClass",
+"Value": "FGFactoryHologram"
+ },
+{
+"Property": "mPowerProduction",
+"Value": 75.0
+ },
+{
+"Property": "mSupplementalResourceClass",
+"Value": "Desc_Water_C"
+ },
+{
+"Property": "mSupplementalToPowerRatio",
+"Value": 10.0
+ },
+{
+"Property": "mSupplementalLoadAmount",
+"Value": 1000
+ },
+{
+"Property": "mIsFullBlast",
+"Value": true
+ }]
+}

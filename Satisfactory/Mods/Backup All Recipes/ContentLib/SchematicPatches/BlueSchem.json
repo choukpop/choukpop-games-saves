@@ -1,0 +1,27 @@
+//cslugs/Schematics/BlueSchem.BlueSchem_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Craftable Blue Slugs",
+"Type": "Milestone",
+"VisualKit": "BlueSchem_C",
+"Description": "Allows you to craft blue slugs.",
+"Cost": [{
+      "Item": "Desc_SpaceElevatorPart_1",
+      "Amount": 50
+ }],
+"Category": "",
+"SubCategories": [],
+"MenuPriority": 100.0,
+"Time": 30.0,
+"Tier": 2,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["BlueSlug_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

@@ -1,0 +1,17 @@
+//Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeMiddleOutCorner_Concrete_4x4.Desc_QuarterPipeMiddleOutCorner_Concrete_4x4_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Outer Corner Extension 4m",
+"NameShort": "",
+"Description": "Provides an optional factory look that is smoother and offers possibilities for recreational activities. 
+Still utilizes the standard foundation building grid for improved building placement.
+
+Size: 4m x 4m",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Foundations_C",
+"StackSize": "Medium"
+}

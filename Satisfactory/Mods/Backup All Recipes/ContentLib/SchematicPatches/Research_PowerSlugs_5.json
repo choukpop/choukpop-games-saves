@@ -1,0 +1,35 @@
+//Game/FactoryGame/Schematics/Research/PowerSlugs_RS/Research_PowerSlugs_5.Research_PowerSlugs_5_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Purple Power Shards",
+"Type": "MAM",
+"VisualKit": "Research_PowerSlugs_5_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_Crystal_mk3",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_ModularFrame",
+      "Amount": 25
+ },
+{
+      "Item": "Desc_CopperSheet",
+      "Amount": 100
+ }],
+"Category": "SC_Organisation_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 3.0,
+"Tier": 3,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_PowerCrystalShard_3_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

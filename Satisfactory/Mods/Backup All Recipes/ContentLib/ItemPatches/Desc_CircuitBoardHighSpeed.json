@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/CircuitBoardHighSpeed/Desc_CircuitBoardHighSpeed.Desc_CircuitBoardHighSpeed_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "AI Limiter",
+"NameShort": "",
+"Description": "AI Limiters are super advanced electronics that are used to control AIs and keep them from evolving in malicious ways.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Electronics_C",
+"StackSize": "Medium"
+}

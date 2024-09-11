@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Equipment/GolfCart/Mesh/SM_GolfcartEquipment_01.SM_GolfcartEquipment_01",
+	"BigIcon": "/Game/FactoryGame/Equipment/GolfCart/UI/IconDesc_GolfCart_256.IconDesc_GolfCart_256",
+	"SmallIcon": "/Game/FactoryGame/Equipment/GolfCart/UI/IconDesc_GolfCart_256.IconDesc_GolfCart_256",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

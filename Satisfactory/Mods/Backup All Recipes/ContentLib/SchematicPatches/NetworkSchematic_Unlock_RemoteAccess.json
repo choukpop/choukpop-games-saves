@@ -1,0 +1,35 @@
+//KPrivateCodeLib/SubSystem/NetworkSchematic_Unlock_RemoteAccess.NetworkSchematic_Unlock_RemoteAccess_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Remote Access",
+"Type": "MAM",
+"VisualKit": "NetworkSchematic_Unlock_RemoteAccess_C",
+"Description": "",
+"Cost": [{
+      "Item": "",
+      "Amount": 50
+ },
+{
+      "Item": "",
+      "Amount": 250
+ },
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 250
+ }],
+"Category": "",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 3.0,
+"Tier": 0,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": [],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

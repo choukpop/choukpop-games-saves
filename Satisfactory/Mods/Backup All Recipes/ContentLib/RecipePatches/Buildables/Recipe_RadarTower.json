@@ -1,0 +1,31 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_RadarTower.Recipe_RadarTower_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Radar Tower",
+"Ingredients": [
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 30
+ },
+{
+      "Item": "Desc_CrystalOscillator",
+      "Amount": 30
+ },
+{
+      "Item": "Desc_CircuitBoard",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_Cable",
+      "Amount": 100
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RadarTower",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Research_Quartz_4_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

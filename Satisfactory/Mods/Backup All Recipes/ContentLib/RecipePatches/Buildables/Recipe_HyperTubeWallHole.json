@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_HyperTubeWallHole.Recipe_HyperTubeWallHole_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Hypertube Wall Hole",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_HyperTubeWallHole",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_HyperTubeWallAttachements_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

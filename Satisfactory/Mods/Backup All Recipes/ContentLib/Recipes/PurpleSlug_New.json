@@ -1,0 +1,31 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Purple Slug",
+"Ingredients": [
+{
+      "Item": "Desc_SpaceElevatorPart_4",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_SpaceElevatorPart_5",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Crystal_mk3",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 15.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_PowerShards_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["PurpleSchem_C"],
+"ManualManufacturingMultiplier": 15.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

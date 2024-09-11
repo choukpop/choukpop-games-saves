@@ -1,0 +1,15 @@
+//Game/FactoryGame/Buildable/Factory/Train/Station/Desc_TrainStation.Desc_TrainStation_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Train Station",
+"NameShort": "",
+"Description": "Locomotives can be set to drive to and stop at the Train Station.
+You can connect power to the train station to power up the trains on the railway as well as transport the power to other stations.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Vehicles_C",
+"StackSize": "Medium"
+}

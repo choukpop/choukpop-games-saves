@@ -1,0 +1,14 @@
+//RefinedPower/Resource/RawResources/Deanium/Desc_RP_Deanium.Desc_RP_Deanium_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Deanium",
+"NameShort": "",
+"Description": "Deanium",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Liquid",
+"Category": "IC_RP_C",
+"StackSize": "Fluid"
+}

@@ -1,0 +1,27 @@
+//RefinedPower/Buildables/Factory/ModularPower/MPPlatforms/ConverterPlatform/Recipe_RP_MP_ConverterPlatform.Recipe_RP_MP_ConverterPlatform_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Converter Platform",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 6
+ },
+{
+      "Item": "Desc_IronRod",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_ModularFrame",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RP_MP_ConverterPlatform",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_RP_MP_1_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

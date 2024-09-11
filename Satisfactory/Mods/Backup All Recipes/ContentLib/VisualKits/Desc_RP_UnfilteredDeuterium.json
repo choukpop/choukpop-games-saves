@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/RefinedPower/Textures/Icons/UnfilteredDeuterium_Pipe_512.UnfilteredDeuterium_Pipe_512",
+	"SmallIcon": "/RefinedPower/Textures/Icons/UnfilteredDeuterium_Pipe_512.UnfilteredDeuterium_Pipe_512",
+	"FluidColor":
+	{
+		"r": 179,
+		"g": 179,
+		"b": 179,
+		"a": 255
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

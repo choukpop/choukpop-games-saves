@@ -1,0 +1,16 @@
+//Game/FactoryGame/Buildable/Factory/JumpPad/Desc_JumpPadAdjustable.Desc_JumpPadAdjustable_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Jump Pad",
+"NameShort": "",
+"Description": "Used for quick, vertical traversal.
+The launch angle can be adjusted while building.
+Caution: Be sure to land safely!",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Vehicles_C",
+"StackSize": "Medium"
+}

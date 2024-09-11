@@ -1,0 +1,16 @@
+//Game/FactoryGame/Buildable/Factory/FoundryMk1/Desc_FoundryMk1.Desc_FoundryMk1_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Foundry",
+"NameShort": "",
+"Description": "Smelts two resources into alloy ingots.
+
+Can be automated by feeding ore into it with a conveyor belt connected to the inputs. The produced ingots can be automatically extracted by connecting a conveyor belt to the output.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Production_C",
+"StackSize": "Medium"
+}

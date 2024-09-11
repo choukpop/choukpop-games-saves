@@ -1,0 +1,31 @@
+//RefinedRDLib/Schematic_RRDL_0_1.Schematic_RRDL_0_1_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "RR&D Patreons",
+"Type": "Milestone",
+"VisualKit": "Schematic_RRDL_0_1_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_IronPlate",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 20
+ }],
+"Category": "SC_RP_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 30.0,
+"Tier": 0,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_RP_PatreonWall_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

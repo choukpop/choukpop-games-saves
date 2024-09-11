@@ -1,0 +1,17 @@
+//Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x1_Tris.Desc_Wall_Orange_8x1_Tris_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Ramp Wall 1m",
+"NameShort": "",
+"Description": "Snaps to foundations and other walls.
+Useful for building multi-floor structures.
+
+Size: 8m x 1m",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Walls_C",
+"StackSize": "Medium"
+}

@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/HeavyOilResidue/SM_HeavyOilResidue_01.SM_HeavyOilResidue_01",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/HeavyOilResidue/UI/IconDesc_LiquidHeavyOilResidue_Pipe_512.IconDesc_LiquidHeavyOilResidue_Pipe_512",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/HeavyOilResidue/UI/IconDesc_LiquidHeavyOilResidue_Pipe_512.IconDesc_LiquidHeavyOilResidue_Pipe_512",
+	"FluidColor":
+	{
+		"r": 109,
+		"g": 45,
+		"b": 120,
+		"a": 255
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

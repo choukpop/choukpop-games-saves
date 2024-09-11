@@ -1,0 +1,31 @@
+//Game/FactoryGame/Recipes/Buildings/TowTruck/Recipe_SpaceElevator.Recipe_SpaceElevator_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Space Elevator",
+"Ingredients": [
+{
+      "Item": "Desc_Cement",
+      "Amount": 500
+ },
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 250
+ },
+{
+      "Item": "Desc_IronRod",
+      "Amount": 400
+ },
+{
+      "Item": "Desc_Wire",
+      "Amount": 1500
+ }
+],
+"Products": [
+{
+      "Item": "Desc_SpaceElevator",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_Tutorial5_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

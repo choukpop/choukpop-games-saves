@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/Geometry/Meshes/1M_Cube_Chamfer.1M_Cube_Chamfer",
+	"BigIcon": "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Concrete_Mid_OutCorner_8x1_512.IconDesc_QP_Concrete_Mid_OutCorner_8x1_512",
+	"SmallIcon": "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Concrete_Mid_OutCorner_8x1_512.IconDesc_QP_Concrete_Mid_OutCorner_8x1_512",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

@@ -1,0 +1,31 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alternate: Heavy Oil Residue",
+"Ingredients": [
+{
+      "Item": "Desc_LiquidOil",
+      "Amount": 3000
+ }
+],
+"Products": [
+{
+      "Item": "Desc_HeavyOilResidue",
+      "Amount": 4000
+ },
+{
+      "Item": "Desc_PolymerResin",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 6.0,
+"ProducedIn": ["Build_OilRefinery_C"],
+"OverrideCategory": "Cat_SolidOilProducts_C",
+"ManufacturingMenuPriority": 7.0,
+"UnlockedBy": ["Schematic_Alternate_HeavyOilResidue_C"],
+"ManualManufacturingMultiplier": 6.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

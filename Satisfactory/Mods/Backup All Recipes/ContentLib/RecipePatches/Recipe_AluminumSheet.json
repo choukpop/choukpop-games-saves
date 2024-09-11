@@ -1,0 +1,32 @@
+//Game/FactoryGame/Recipes/Constructor/Recipe_AluminumSheet.Recipe_AluminumSheet_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alclad Aluminum Sheet",
+"Ingredients": [
+{
+      "Item": "Desc_AluminumIngot",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_CopperIngot",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_AluminumPlate",
+      "Amount": 3
+ }
+],
+"ManufacturingDuration": 6.0,
+"ProducedIn": ["Build_AssemblerMk1_C","FGBuildableAutomatedWorkBench"],
+"OverrideCategory": "Cat_StandardParts_C",
+"ManufacturingMenuPriority": 11.0,
+"UnlockedBy": ["Schematic_7-1_C"],
+"ManualManufacturingMultiplier": 12.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

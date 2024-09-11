@@ -1,0 +1,14 @@
+//Game/FactoryGame/Events/Christmas/Parts/Desc_Snow.Desc_Snow_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Actual Snow",
+"NameShort": "",
+"Description": "It's snow. Not the nice, thick, crunchy kind though... more the disgustingly wet, slushy kind... Guess we can make stuff from it.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_FICSMAS_C",
+"StackSize": "Huge"
+}

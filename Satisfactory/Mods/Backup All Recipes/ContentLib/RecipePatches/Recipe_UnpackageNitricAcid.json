@@ -1,0 +1,32 @@
+//Game/FactoryGame/Recipes/Packager/Recipe_UnpackageNitricAcid.Recipe_UnpackageNitricAcid_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Unpackage Nitric Acid",
+"Ingredients": [
+{
+      "Item": "Desc_PackagedNitricAcid",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_NitricAcid",
+      "Amount": 1000
+ },
+{
+      "Item": "Desc_GasTank",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 3.0,
+"ProducedIn": ["Build_Packager_C"],
+"OverrideCategory": "Cat_Unpackaging_C",
+"ManufacturingMenuPriority": 9.0,
+"UnlockedBy": ["Schematic_8-5-1_C"],
+"ManualManufacturingMultiplier": 3.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

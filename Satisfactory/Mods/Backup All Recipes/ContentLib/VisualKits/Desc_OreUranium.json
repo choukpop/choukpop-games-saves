@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/RawResources/Ores/Meshes/SM_UraniumOre_01.SM_UraniumOre_01",
+	"BigIcon": "/Game/FactoryGame/Resource/RawResources/OreUranium/UI/IconDesc_UraniumOre_256.IconDesc_UraniumOre_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/RawResources/OreUranium/UI/IconDesc_UraniumOre_256.IconDesc_UraniumOre_256",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

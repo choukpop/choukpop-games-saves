@@ -1,0 +1,16 @@
+//Game/FactoryGame/Resource/RawResources/SAM/Desc_SAM.Desc_SAM_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "SAM Ore",
+"NameShort": "",
+"Description": "Strange Alien Metal that glistens with new possibilities.
+WORK IN PROGRESS
+THIS IS NOT USED",
+"CanBeDiscarded": true,
+"RememberPickUp": true,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_RawMaterials_C",
+"StackSize": "Small"
+}

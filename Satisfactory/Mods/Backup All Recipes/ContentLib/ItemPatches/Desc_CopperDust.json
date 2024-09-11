@@ -1,0 +1,15 @@
+//Game/FactoryGame/Resource/Parts/CopperDust/Desc_CopperDust.Desc_CopperDust_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Copper Powder",
+"NameShort": "Cop",
+"Description": "Ground down Copper Ingots.
+The high natural density of Copper, combined with the granularity of the powder, makes this part fit for producing Nuclear Pasta in the Particle Accelerator.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Minerals_C",
+"StackSize": "Huge"
+}

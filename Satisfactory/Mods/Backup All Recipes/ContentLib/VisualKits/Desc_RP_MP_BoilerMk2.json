@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Boilers/BoilerMk2/UI/Icon_RP_MP_BoilerMk2.Icon_RP_MP_BoilerMk2",
+	"SmallIcon": "/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Boilers/BoilerMk2/UI/Icon_RP_MP_BoilerMk2.Icon_RP_MP_BoilerMk2",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

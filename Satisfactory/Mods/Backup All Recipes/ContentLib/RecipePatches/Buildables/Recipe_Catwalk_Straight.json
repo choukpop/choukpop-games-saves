@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Catwalks/Recipe_Catwalk_Straight.Recipe_Catwalk_Straight_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Catwalk Straight",
+"Ingredients": [
+{
+      "Item": "Desc_IronRod",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_CatwalkStraight",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_Catwalks_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

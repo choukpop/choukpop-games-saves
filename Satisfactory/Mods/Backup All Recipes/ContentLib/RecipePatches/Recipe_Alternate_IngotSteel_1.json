@@ -1,0 +1,32 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_IngotSteel_1.Recipe_Alternate_IngotSteel_1_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Solid Steel Ingot",
+"Ingredients": [
+{
+      "Item": "Desc_IronIngot",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_Coal",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_SteelIngot",
+      "Amount": 3
+ }
+],
+"ManufacturingDuration": 3.0,
+"ProducedIn": ["Build_FoundryMk1_C"],
+"OverrideCategory": "Cat_Ingots_C",
+"ManufacturingMenuPriority": 5.0,
+"UnlockedBy": ["Schematic_Alternate_IngotSteel1_C"],
+"ManualManufacturingMultiplier": 3.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

@@ -1,0 +1,23 @@
+//RefinedPower/Buildables/Factory/WaterTurbine_Mk1/Recipe_WaterTurbine_Mk1.Recipe_WaterTurbine_Mk1_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Water Turbine Mk1",
+"Ingredients": [
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_Wire",
+      "Amount": 150
+ }
+],
+"Products": [
+{
+      "Item": "Desc_WaterTurbine_Mk1",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_RP_3_1_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

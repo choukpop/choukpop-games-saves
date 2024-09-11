@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/RefinedPower/Resource/RawResources/Co2/UI/liquidC02Pipe_512.liquidC02Pipe_512",
+	"SmallIcon": "/RefinedPower/Resource/RawResources/Co2/UI/liquidC02Pipe_512.liquidC02Pipe_512",
+	"FluidColor":
+	{
+		"r": 12,
+		"g": 21,
+		"b": 49,
+		"a": 255
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

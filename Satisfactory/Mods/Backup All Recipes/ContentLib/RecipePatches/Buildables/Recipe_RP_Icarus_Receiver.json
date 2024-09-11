@@ -1,0 +1,27 @@
+//RefinedPower/Buildables/Icarus/Recipe_RP_Icarus_Receiver.Recipe_RP_Icarus_Receiver_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Icarus Reciever",
+"Ingredients": [
+{
+      "Item": "Desc_SpaceElevatorPart_9",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_SpaceElevatorPart_7",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_SpaceElevatorPart_6",
+      "Amount": 50
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RP_Icarus_Receiver",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_RP_Icarus_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

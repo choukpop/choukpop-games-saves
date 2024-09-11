@@ -1,0 +1,32 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/New_Update4/Recipe_Alternate_SloppyAlumina.Recipe_Alternate_SloppyAlumina_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Sloppy Alumina",
+"Ingredients": [
+{
+      "Item": "Desc_OreBauxite",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_Water",
+      "Amount": 10000
+ }
+],
+"Products": [
+{
+      "Item": "Desc_AluminaSolution",
+      "Amount": 12000
+ }
+],
+"ManufacturingDuration": 3.0,
+"ProducedIn": ["Build_OilRefinery_C"],
+"OverrideCategory": "Cat_AdvancedRefinement_C",
+"ManufacturingMenuPriority": 2.0,
+"UnlockedBy": ["Schematic_Alternate_SloppyAlumina_C"],
+"ManualManufacturingMultiplier": 3.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

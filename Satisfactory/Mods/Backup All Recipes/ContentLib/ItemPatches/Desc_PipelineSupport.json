@@ -1,0 +1,15 @@
+//Game/FactoryGame/Buildable/Factory/PipelineSupport/Desc_PipelineSupport.Desc_PipelineSupport_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Pipeline Support",
+"NameShort": "",
+"Description": "Can be used as a connection for pipelines. The height of the support can be adjusted.
+Useful to route pipelines in a more controlled manner and over long distances.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Logistics_C",
+"StackSize": "Medium"
+}

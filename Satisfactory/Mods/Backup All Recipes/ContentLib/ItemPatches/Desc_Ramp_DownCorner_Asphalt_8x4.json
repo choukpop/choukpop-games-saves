@@ -1,0 +1,18 @@
+//Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Desc_Ramp_DownCorner_Asphalt_8x4.Desc_Ramp_DownCorner_Asphalt_8x4_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Down Corner Ramp 4m",
+"NameShort": "",
+"Description": "Snaps to foundations and makes it easier to get on top of them.
+
+Buildings on top of the ramp are adjusted to a grid, to make it easier to line them up to each other.
+
+Size: 8m x 4m",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Foundations_C",
+"StackSize": "Medium"
+}

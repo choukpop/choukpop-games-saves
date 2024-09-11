@@ -1,0 +1,17 @@
+//Game/FactoryGame/Resource/RawResources/OreUranium/Desc_OreUranium.Desc_OreUranium_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Uranium",
+"NameShort": "U",
+"Description": "Uranium is a radioactive element. 
+Used to produce Encased Uranium Cells for Uranium Fuel Rods.
+
+Caution: Moderately Radioactive.",
+"CanBeDiscarded": true,
+"RememberPickUp": true,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 15.0,
+"Form": "Solid",
+"Category": "Cat_RawMaterials_C",
+"StackSize": "Medium"
+}

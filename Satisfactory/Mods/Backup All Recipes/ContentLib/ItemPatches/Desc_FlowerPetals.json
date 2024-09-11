@@ -1,0 +1,15 @@
+//Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_FlowerPetals.Desc_FlowerPetals_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Flower Petals",
+"NameShort": "",
+"Description": "Used for crafting.
+Colorful native flower petals.",
+"CanBeDiscarded": true,
+"RememberPickUp": true,
+"EnergyValue": 100.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Biomass_C",
+"StackSize": "Huge"
+}

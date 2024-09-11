@@ -1,0 +1,14 @@
+//LoadBalancers/Buildable/ProgrammableModule/Desc_ModularLoadBalancer_Programmable.Desc_ModularLoadBalancer_Programmable_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Programmable Module",
+"NameShort": "",
+"Description": "Has Input and Output. Multiple filters can be defined for the Output. The filtered output is prioritized over non-filtered modules.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Logistics_C",
+"StackSize": "One"
+}

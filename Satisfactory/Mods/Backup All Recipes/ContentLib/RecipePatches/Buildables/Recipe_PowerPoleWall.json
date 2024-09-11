@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleWall.Recipe_PowerPoleWall_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Wall Outlet Mk.1",
+"Ingredients": [
+{
+      "Item": "Desc_Wire",
+      "Amount": 4
+ },
+{
+      "Item": "Desc_IronRod",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_PowerPoleWall",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_WallPowerPoles_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

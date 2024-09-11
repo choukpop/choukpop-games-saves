@@ -1,0 +1,27 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_ResourceSink.Recipe_ResourceSink_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "AWESOME Sink",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 15
+ },
+{
+      "Item": "Desc_Cable",
+      "Amount": 30
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 45
+ }
+],
+"Products": [
+{
+      "Item": "Desc_ResourceSink",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_2-5_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

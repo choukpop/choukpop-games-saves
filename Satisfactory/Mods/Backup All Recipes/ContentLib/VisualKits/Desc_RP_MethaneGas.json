@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/RefinedPower/Resource/RawResources/MethaneGas/LiquidGas_Pipe_512_LB.LiquidGas_Pipe_512_LB",
+	"SmallIcon": "/RefinedPower/Resource/RawResources/MethaneGas/LiquidGas_Pipe_512_LB.LiquidGas_Pipe_512_LB",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

@@ -1,0 +1,31 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alternate: Electric Motor",
+"Ingredients": [
+{
+      "Item": "Desc_ElectromagneticControlRod",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_Rotor",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Motor",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 16.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_IndustrialParts_C",
+"ManufacturingMenuPriority": 6.0,
+"UnlockedBy": ["Schematic_Alternate_ElectricMotor_C"],
+"ManualManufacturingMultiplier": 16.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

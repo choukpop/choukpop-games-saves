@@ -1,0 +1,18 @@
+//Game/FactoryGame/Buildable/Building/Doors/Desc_Gate_Automated_8x4.Desc_Gate_Automated_8x4_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Automated Gate",
+"NameShort": "",
+"Description": "Automatically opens when living beings or vehicles approach it.
+Gate settings can be configured.
+Snaps to foundations and walls.
+
+Size: 8m x 4m",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Walls_C",
+"StackSize": "Medium"
+}

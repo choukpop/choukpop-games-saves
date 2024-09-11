@@ -1,0 +1,31 @@
+//StorageTeleporter/Recipes/ItemTeleporter_Recipe.ItemTeleporter_Recipe_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Item Teleporter",
+"Ingredients": [
+{
+      "Item": "Desc_CrystalOscillator",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_Cable",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_CircuitBoardHighSpeed",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_Motor",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "ItemTeleporter_Desc",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ST_Schematic_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

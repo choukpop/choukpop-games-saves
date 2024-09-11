@@ -1,0 +1,17 @@
+//Game/FactoryGame/Resource/Parts/PlutoniumCell/Desc_PlutoniumCell.Desc_PlutoniumCell_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Encased Plutonium Cell",
+"NameShort": "",
+"Description": "Plutonium Cells are concrete encased Plutonium Pellets.
+Used to produce Plutonium Fuel Rods for Nuclear Power production.
+
+Caution: Moderately Radioactive.",
+"CanBeDiscarded": false,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 120.0,
+"Form": "Solid",
+"Category": "Cat_Nuclear_C",
+"StackSize": "Big"
+}

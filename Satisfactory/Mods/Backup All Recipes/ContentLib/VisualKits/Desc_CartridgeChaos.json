@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Equipment/Rifle/Mesh/SM_RifleMagDrop_Rapid_01.SM_RifleMagDrop_Rapid_01",
+	"BigIcon": "/Game/FactoryGame/Equipment/Rifle/UI/IconDesc_TurboRifle_256.IconDesc_TurboRifle_256",
+	"SmallIcon": "/Game/FactoryGame/Equipment/Rifle/UI/IconDesc_TurboRifle_256.IconDesc_TurboRifle_256",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

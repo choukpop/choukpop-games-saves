@@ -1,0 +1,38 @@
+{
+  "Class": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 4.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.321929
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": true
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 5.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Smelter"
+ },
+{
+"Property": "mDescription",
+"Value": "Smelts ore into ingots.
+
+Can be automated by feeding ore into it with a conveyor belt connected to the input. The produced ingots can be automatically extracted by connecting a conveyor belt to the output."
+ },
+{
+"Property": "mHologramClass",
+"Value": "FGFactoryHologram"
+ },
+{
+"Property": "mManufacturingSpeed",
+"Value": 1.0
+ }]
+}

@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Equipment/RebarGun/Mesh/SM_RebarSpread_Pack_01.SM_RebarSpread_Pack_01",
+	"BigIcon": "/Game/FactoryGame/Equipment/RebarGun/UI/IconDesc_ScatterRebar_256.IconDesc_ScatterRebar_256",
+	"SmallIcon": "/Game/FactoryGame/Equipment/RebarGun/UI/IconDesc_ScatterRebar_256.IconDesc_ScatterRebar_256",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

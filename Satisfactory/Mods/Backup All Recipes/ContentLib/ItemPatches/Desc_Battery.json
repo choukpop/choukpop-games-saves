@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/Battery/Desc_Battery.Desc_Battery_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Battery",
+"NameShort": "",
+"Description": "Primarily used as fuel for Drones and Vehicles.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 6000.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_IndustrialParts_C",
+"StackSize": "Big"
+}

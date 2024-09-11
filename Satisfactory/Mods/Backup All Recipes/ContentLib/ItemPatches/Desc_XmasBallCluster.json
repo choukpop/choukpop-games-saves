@@ -1,0 +1,14 @@
+//Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBallCluster.Desc_XmasBallCluster_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "FICSMAS Ornament Bundle",
+"NameShort": "",
+"Description": "All the FICSMAS Ornaments smashed together to make even more FICSMAS Decorations!",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_FICSMAS_C",
+"StackSize": "Medium"
+}

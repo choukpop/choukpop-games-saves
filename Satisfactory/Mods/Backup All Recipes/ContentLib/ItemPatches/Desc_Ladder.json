@@ -1,0 +1,14 @@
+//Game/FactoryGame/Buildable/Building/Ladder/Desc_Ladder.Desc_Ladder_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Ladder",
+"NameShort": "",
+"Description": "A ladder with a default height of 2 meters, which can be extended while building. Snaps to walls and foundations.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Decor_C",
+"StackSize": "Medium"
+}

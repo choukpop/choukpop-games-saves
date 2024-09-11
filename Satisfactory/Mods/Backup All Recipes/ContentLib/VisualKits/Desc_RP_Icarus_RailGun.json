@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/RefinedPower/Buildables/Icarus/RailGun/Icon_RP_Icarus_RailGun.Icon_RP_Icarus_RailGun",
+	"SmallIcon": "/RefinedPower/Buildables/Icarus/RailGun/Icon_RP_Icarus_RailGun.Icon_RP_Icarus_RailGun",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

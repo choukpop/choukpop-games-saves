@@ -1,0 +1,32 @@
+//RefinedPower/Resource/Parts/ReinforcedCarbon/Recipe_RP_ReinforcedCarbon.Recipe_RP_ReinforcedCarbon_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Reinforced Carbon-Carbon",
+"Ingredients": [
+{
+      "Item": "Desc_RP_CarbonMesh",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_SteelPlateReinforced",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RP_ReinforcedCarbon",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 8.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "IC_RP_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schematic_RP_3_2_C"],
+"ManualManufacturingMultiplier": 8.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

@@ -1,0 +1,25 @@
+//MagicMachine/Recipe_Items/U6/MBoombox.MBoombox_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Boombox",
+"Ingredients": [
+
+],
+"Products": [
+{
+      "Item": "Desc_BoomBox",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 0.5,
+"ProducedIn": ["MagicMachine_C"],
+"OverrideCategory": "Cat_Equipment_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_Magic_C"],
+"ManualManufacturingMultiplier": 0.5,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

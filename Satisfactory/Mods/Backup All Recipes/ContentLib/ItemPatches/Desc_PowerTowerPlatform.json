@@ -1,0 +1,17 @@
+//Game/FactoryGame/Buildable/Factory/PowerTower/Desc_PowerTowerPlatform.Desc_PowerTowerPlatform_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Power Tower Platform",
+"NameShort": "",
+"Description": "Power Towers are used to span Power Lines across great distances.
+An additional power connector is provided at the bottom of the Power Tower for connecting with other buildings, such as Power Poles.
+
+Note: This Power Tower version comes with a ladder and platform, for improved utility.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Power_C",
+"StackSize": "Medium"
+}

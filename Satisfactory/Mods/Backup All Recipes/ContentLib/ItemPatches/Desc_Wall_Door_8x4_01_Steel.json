@@ -1,0 +1,18 @@
+//Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Door_8x4_01_Steel.Desc_Wall_Door_8x4_01_Steel_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Center Door Wall",
+"NameShort": "",
+"Description": "Allows Pioneers to pass through the wall.
+Door settings can be configured.
+Snaps to Foundations and other Walls.
+
+Size: 8m x 4m",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Walls_C",
+"StackSize": "Medium"
+}

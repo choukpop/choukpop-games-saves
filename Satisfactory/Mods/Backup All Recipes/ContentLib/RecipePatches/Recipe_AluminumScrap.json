@@ -1,0 +1,36 @@
+//Game/FactoryGame/Recipes/OilRefinery/Recipe_AluminumScrap.Recipe_AluminumScrap_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Aluminum Scrap",
+"Ingredients": [
+{
+      "Item": "Desc_AluminaSolution",
+      "Amount": 4000
+ },
+{
+      "Item": "Desc_Coal",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_AluminumScrap",
+      "Amount": 6
+ },
+{
+      "Item": "Desc_Water",
+      "Amount": 2000
+ }
+],
+"ManufacturingDuration": 1.0,
+"ProducedIn": ["Build_OilRefinery_C"],
+"OverrideCategory": "Cat_AdvancedRefinement_C",
+"ManufacturingMenuPriority": 2.0,
+"UnlockedBy": ["Schematic_7-1_C"],
+"ManualManufacturingMultiplier": 1.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

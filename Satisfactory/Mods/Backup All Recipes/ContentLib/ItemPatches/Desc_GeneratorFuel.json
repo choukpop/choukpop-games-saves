@@ -1,0 +1,17 @@
+//Game/FactoryGame/Buildable/Factory/GeneratorFuel/Desc_GeneratorFuel.Desc_GeneratorFuel_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Fuel Generator",
+"NameShort": "",
+"Description": "Consumes Fuel to generate electricity for the power grid.
+Has a Pipe input so the Fuel supply can be automated.
+
+Caution: Always generates at the set clock speed. Shuts down if fuel requirements are not met.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Power_C",
+"StackSize": "Medium"
+}

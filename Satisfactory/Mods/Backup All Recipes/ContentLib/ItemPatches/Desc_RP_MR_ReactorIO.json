@@ -1,0 +1,14 @@
+//RefinedPower/Buildables/Factory/ModularReactor/IO/Desc_RP_MR_ReactorIO.Desc_RP_MR_ReactorIO_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Reactor IO",
+"NameShort": "",
+"Description": "Reactor IO",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_RefinedPower_C",
+"StackSize": "One"
+}

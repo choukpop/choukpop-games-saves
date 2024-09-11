@@ -1,0 +1,27 @@
+//Game/FactoryGame/Schematics/Research/Caterium_RS/Research_Caterium_3.Research_Caterium_3_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Caterium Electronics",
+"Type": "MAM",
+"VisualKit": "Research_Caterium_3_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_HighSpeedWire",
+      "Amount": 100
+ }],
+"Category": "SC_Organisation_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 3.0,
+"Tier": 3,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": [],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

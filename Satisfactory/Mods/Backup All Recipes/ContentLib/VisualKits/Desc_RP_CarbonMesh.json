@@ -1,0 +1,19 @@
+{
+	"Mesh": "/RefinedPower/Resource/Parts/CarbonMesh/Mesh/SM_Item_CarbonMesh.SM_Item_CarbonMesh",
+	"BigIcon": "/RefinedPower/Resource/Parts/CarbonMesh/UI/Icon_CarbonMesh.Icon_CarbonMesh",
+	"SmallIcon": "/RefinedPower/Resource/Parts/CarbonMesh/UI/Icon_CarbonMesh.Icon_CarbonMesh",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

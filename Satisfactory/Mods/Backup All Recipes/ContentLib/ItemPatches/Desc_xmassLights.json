@@ -1,0 +1,14 @@
+//Game/FactoryGame/Events/Christmas/Buildings/PowerLineLights/Desc_xmassLights.Desc_xmassLights_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "FICSMAS Power Light",
+"NameShort": "",
+"Description": "Used to connect Power Poles, Power Generators and Factory buildings. Has pretty lights to boot!",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_FICSMAS_C",
+"StackSize": "Medium"
+}

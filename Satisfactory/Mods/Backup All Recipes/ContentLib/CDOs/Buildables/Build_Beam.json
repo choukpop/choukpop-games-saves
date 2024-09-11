@@ -1,0 +1,22 @@
+{
+  "Class": "/Game/FactoryGame/Prototype/Buildable/Beams/Build_Beam.Build_Beam_C",
+  "Edits": [
+{
+"Property": "mDisplayName",
+"Value": "Metal Beam"
+ },
+{
+"Property": "mDescription",
+"Value": "Snaps to other Beams and various other structural buildings.
+
+Beams support multiple build modes for different use cases."
+ },
+{
+"Property": "mHologramClass",
+"Value": "Holo_Beam_C"
+ },
+{
+"Property": "mMaxLenght",
+"Value": 4000.0
+ }]
+}

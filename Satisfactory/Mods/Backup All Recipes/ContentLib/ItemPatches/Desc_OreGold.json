@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/RawResources/OreGold/Desc_OreGold.Desc_OreGold_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Caterium Ore",
+"NameShort": "Cat",
+"Description": "Caterium Ore is smelted into Caterium Ingots. Caterium Ingots are mostly used for advanced electronics.",
+"CanBeDiscarded": true,
+"RememberPickUp": true,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_RawMaterials_C",
+"StackSize": "Medium"
+}

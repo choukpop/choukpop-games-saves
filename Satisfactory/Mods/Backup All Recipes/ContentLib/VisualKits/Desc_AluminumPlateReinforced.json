@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/HeatSink/SM_HeatSink_01.SM_HeatSink_01",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/HeatSink/UI/IconDesc_Heatsink_256.IconDesc_Heatsink_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/HeatSink/UI/IconDesc_Heatsink_256.IconDesc_Heatsink_256",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

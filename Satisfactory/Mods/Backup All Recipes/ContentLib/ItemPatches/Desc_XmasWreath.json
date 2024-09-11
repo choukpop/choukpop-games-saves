@@ -1,0 +1,14 @@
+//Game/FactoryGame/Events/Christmas/Parts/Desc_XmasWreath.Desc_XmasWreath_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "FICSMAS Decoration",
+"NameShort": "",
+"Description": "A decoration used to make decorations. Its use cases are questionable.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_FICSMAS_C",
+"StackSize": "Medium"
+}

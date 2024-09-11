@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Orange_FlipTris_8x4.Recipe_Wall_Orange_FlipTris_8x4_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Inv. Ramp Wall 4m",
+"Ingredients": [
+{
+      "Item": "Desc_Cement",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Wall_Orange_8x4_FlipTris",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_Diagonal_Down_Wallset_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

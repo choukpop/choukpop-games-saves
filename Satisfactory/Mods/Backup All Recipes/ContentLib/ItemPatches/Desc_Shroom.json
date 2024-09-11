@@ -1,0 +1,17 @@
+//Game/FactoryGame/Resource/Environment/DesertShroom/Desc_Shroom.Desc_Shroom_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Bacon Agaric",
+"NameShort": "",
+"Description": "Slot: Hands
+Consumable
+
+Can be eaten to restore two health segments.",
+"CanBeDiscarded": true,
+"RememberPickUp": true,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "",
+"StackSize": "Small"
+}

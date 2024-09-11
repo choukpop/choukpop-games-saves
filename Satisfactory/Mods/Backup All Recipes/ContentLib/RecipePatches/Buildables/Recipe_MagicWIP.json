@@ -1,0 +1,16 @@
+//MagicMachine/NewMagic/Recipe_MagicWIP.Recipe_MagicWIP_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "MM Modded Solids",
+"Ingredients": [
+
+],
+"Products": [
+{
+      "Item": "Desc_MagicWIP",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schem_Magic_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

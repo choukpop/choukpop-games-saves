@@ -1,0 +1,16 @@
+//MagicMachine/FluidSpawner/Rec_FluidSpawner.Rec_FluidSpawner_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Fluid Spawner",
+"Ingredients": [
+
+],
+"Products": [
+{
+      "Item": "Desc_FluidSpawner",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schem_Magic_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

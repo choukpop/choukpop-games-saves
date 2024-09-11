@@ -1,0 +1,32 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/New_Update4/Recipe_Alternate_PlutoniumFuelUnit.Recipe_Alternate_PlutoniumFuelUnit_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Plutonium Fuel Unit",
+"Ingredients": [
+{
+      "Item": "Desc_PlutoniumCell",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_PressureConversionCube",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_PlutoniumFuelRod",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 120.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_Nuclear_C",
+"ManufacturingMenuPriority": 4.0,
+"UnlockedBy": ["Schematic_Alternate_PlutoniumFuelUnit_C"],
+"ManualManufacturingMultiplier": 120.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

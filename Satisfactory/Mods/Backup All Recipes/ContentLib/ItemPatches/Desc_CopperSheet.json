@@ -1,0 +1,15 @@
+//Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Copper Sheet",
+"NameShort": "",
+"Description": "Used for crafting.
+Primarily used for pipelines due to its high corrosion resistance.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_StandardParts_C",
+"StackSize": "Big"
+}

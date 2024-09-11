@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/PackagedNitrogen/Mesh/SM_PackagedNitrogen_01.SM_PackagedNitrogen_01",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/PackagedNitrogen/UI/IconDesc_PackagedNitrogen_256.IconDesc_PackagedNitrogen_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/PackagedNitrogen/UI/IconDesc_PackagedNitrogen_256.IconDesc_PackagedNitrogen_256",
+	"FluidColor":
+	{
+		"r": 58,
+		"g": 83,
+		"b": 42,
+		"a": 255
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

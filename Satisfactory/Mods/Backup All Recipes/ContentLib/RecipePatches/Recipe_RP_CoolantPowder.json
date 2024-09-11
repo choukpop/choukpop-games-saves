@@ -1,0 +1,36 @@
+//RefinedPower/Resource/Parts/CoolantPowder/Recipe_RP_CoolantPowder.Recipe_RP_CoolantPowder_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Coolant Powder",
+"Ingredients": [
+{
+      "Item": "Desc_Stone",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_Coal",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_OreBauxite",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RP_CoolantPowder",
+      "Amount": 5
+ }
+],
+"ManufacturingDuration": 3.0,
+"ProducedIn": ["Build_ManufacturerMk1_C"],
+"OverrideCategory": "IC_RP_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schematic_RP_7_1_C"],
+"ManualManufacturingMultiplier": 3.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

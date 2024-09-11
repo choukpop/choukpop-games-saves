@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/SteelPipe/SM_SteelPipe_01.SM_SteelPipe_01",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/SteelPipe/UI/IconDesc_SteelPipe_256.IconDesc_SteelPipe_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/SteelPipe/UI/IconDesc_SteelPipe_256.IconDesc_SteelPipe_256",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

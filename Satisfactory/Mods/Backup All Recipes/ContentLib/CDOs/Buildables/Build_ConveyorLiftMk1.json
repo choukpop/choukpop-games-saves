@@ -1,0 +1,20 @@
+{
+  "Class": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
+  "Edits": [
+{
+"Property": "mDisplayName",
+"Value": "Conveyor Lift Mk.1"
+ },
+{
+"Property": "mDescription",
+"Value": "Transports up to 60 resources per minute. Used to move resources between floors."
+ },
+{
+"Property": "mHologramClass",
+"Value": "Holo_ConveyorLift_C"
+ },
+{
+"Property": "mSpeed",
+"Value": 120.0
+ }]
+}

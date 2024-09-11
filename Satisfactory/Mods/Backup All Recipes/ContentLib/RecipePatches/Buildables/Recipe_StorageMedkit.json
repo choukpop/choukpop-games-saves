@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_StorageMedkit.Recipe_StorageMedkit_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Medical Storage Box",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 6
+ },
+{
+      "Item": "Desc_IronRod",
+      "Amount": 6
+ }
+],
+"Products": [
+{
+      "Item": "Desc_StorageMedkit",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_MedicalBoxSkin_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

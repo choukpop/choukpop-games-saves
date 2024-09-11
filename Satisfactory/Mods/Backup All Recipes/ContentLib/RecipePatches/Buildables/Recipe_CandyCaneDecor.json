@@ -1,0 +1,23 @@
+//Game/FactoryGame/Events/Christmas/Buildings/CandyCaneDecor/Recipe_CandyCaneDecor.Recipe_CandyCaneDecor_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Candy Cane",
+"Ingredients": [
+{
+      "Item": "Desc_CandyCane",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_XmasBow",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_CandyCaneDecor",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Research_XMas_1-2_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

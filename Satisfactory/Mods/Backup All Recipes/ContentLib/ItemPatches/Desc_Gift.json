@@ -1,0 +1,16 @@
+//Game/FactoryGame/Events/Christmas/Parts/Desc_Gift.Desc_Gift_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "FICSMAS Gift",
+"NameShort": "",
+"Description": "Special FICSMAS buildings and parts can be obtained and produced from this FICSIT Holiday present.
+
+*Watch the sky for deliveries from orbit!",
+"CanBeDiscarded": true,
+"RememberPickUp": true,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_FICSMAS_C",
+"StackSize": "Huge"
+}

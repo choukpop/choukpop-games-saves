@@ -1,0 +1,31 @@
+//cslugs/Schematics/PurpleSchem.PurpleSchem_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Craftable Purple Slugs",
+"Type": "Milestone",
+"VisualKit": "PurpleSchem_C",
+"Description": "Allows you to craft purple slugs.",
+"Cost": [{
+      "Item": "Desc_SpaceElevatorPart_4",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_SpaceElevatorPart_5",
+      "Amount": 20
+ }],
+"Category": "",
+"SubCategories": [],
+"MenuPriority": 100.0,
+"Time": 60.0,
+"Tier": 6,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["PurpleSlug_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

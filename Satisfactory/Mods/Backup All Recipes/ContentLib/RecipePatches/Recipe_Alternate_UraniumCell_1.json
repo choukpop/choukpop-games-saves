@@ -1,0 +1,40 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_UraniumCell_1.Recipe_Alternate_UraniumCell_1_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Infused Uranium Cell",
+"Ingredients": [
+{
+      "Item": "Desc_OreUranium",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_Silica",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_Sulfur",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_HighSpeedWire",
+      "Amount": 15
+ }
+],
+"Products": [
+{
+      "Item": "Desc_UraniumCell",
+      "Amount": 4
+ }
+],
+"ManufacturingDuration": 12.0,
+"ProducedIn": ["Build_ManufacturerMk1_C"],
+"OverrideCategory": "Cat_Nuclear_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schematic_Alternate_UraniumCell1_C"],
+"ManualManufacturingMultiplier": 12.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

@@ -1,0 +1,27 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_AssemblerMk1.Recipe_AssemblerMk1_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Assembler",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 8
+ },
+{
+      "Item": "Desc_Rotor",
+      "Amount": 4
+ },
+{
+      "Item": "Desc_Cable",
+      "Amount": 10
+ }
+],
+"Products": [
+{
+      "Item": "Desc_AssemblerMk1",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_2-1_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

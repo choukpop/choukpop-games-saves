@@ -1,0 +1,17 @@
+//Game/FactoryGame/Resource/Parts/NuclearWaste/Desc_PlutoniumWaste.Desc_PlutoniumWaste_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Plutonium Waste",
+"NameShort": "",
+"Description": "The by-product of consuming Plutonium Fuel Rods in the Nuclear Power Plant.
+Needs to be stored in a safe location. Handle with caution.
+
+Caution: EXTREMELY Radioactive.",
+"CanBeDiscarded": false,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 200.0,
+"Form": "Solid",
+"Category": "Cat_Nuclear_C",
+"StackSize": "Huge"
+}

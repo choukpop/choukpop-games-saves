@@ -1,0 +1,18 @@
+//Game/FactoryGame/Buildable/Vehicle/Explorer/Desc_Explorer.Desc_Explorer_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Explorer",
+"NameShort": "",
+"Description": "Fuel: Any fuel type
+
+24-slot inventory. Has a built-in craft bench.
+
+Fast and nimble exploration vehicle. Tuned for really rough terrain and able to climb almost vertical surfaces.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Vehicles_C",
+"StackSize": "One"
+}

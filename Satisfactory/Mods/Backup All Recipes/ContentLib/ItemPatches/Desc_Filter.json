@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/Filter/Desc_Filter.Desc_Filter_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Gas Filter",
+"NameShort": "",
+"Description": "Used in the Gas Mask to filter out toxins and pollutants from the air.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Consumables_C",
+"StackSize": "Small"
+}

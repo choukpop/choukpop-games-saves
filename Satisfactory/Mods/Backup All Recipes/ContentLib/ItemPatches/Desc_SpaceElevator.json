@@ -1,0 +1,15 @@
+//Game/FactoryGame/Buildable/Factory/SpaceElevator/Desc_SpaceElevator.Desc_SpaceElevator_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Space Elevator",
+"NameShort": "",
+"Description": "Requires deliveries of special Project Parts to complete Phases of Project Assembly.
+Completing Phases in the Space Elevator will unlock new Tiers in the HUB Terminal.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_TradingPost_C",
+"StackSize": "Medium"
+}

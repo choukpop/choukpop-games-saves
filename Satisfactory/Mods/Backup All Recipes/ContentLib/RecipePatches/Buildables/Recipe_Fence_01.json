@@ -1,0 +1,19 @@
+//Game/FactoryGame/Recipes/Buildings/Fence/Recipe_Fence_01.Recipe_Fence_01_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Industrial Railing",
+"Ingredients": [
+{
+      "Item": "Desc_IronRod",
+      "Amount": 4
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Fence_01",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_SaveCompatibility_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

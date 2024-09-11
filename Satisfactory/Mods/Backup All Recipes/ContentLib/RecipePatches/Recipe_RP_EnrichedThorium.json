@@ -1,0 +1,32 @@
+//RefinedPower/Resource/Parts/EnrichedThorium/Recipe_RP_EnrichedThorium.Recipe_RP_EnrichedThorium_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Enriched Thorium",
+"Ingredients": [
+{
+      "Item": "Desc_RP_Thorium",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_OreUranium",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RP_EnrichedThorium",
+      "Amount": 3
+ }
+],
+"ManufacturingDuration": 6.0,
+"ProducedIn": ["Build_FoundryMk1_C"],
+"OverrideCategory": "IC_RP_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schematic_RP_5_1_C"],
+"ManualManufacturingMultiplier": 6.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

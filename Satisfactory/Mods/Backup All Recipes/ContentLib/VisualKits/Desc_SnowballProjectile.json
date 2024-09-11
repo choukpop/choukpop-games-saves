@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Events/Christmas/Art/Temp/SM_MERGED_Snowball.SM_MERGED_Snowball",
+	"BigIcon": "/Game/FactoryGame/Events/Christmas/Parts/UI/IconDesc_SnowballProjectile_256.IconDesc_SnowballProjectile_256",
+	"SmallIcon": "/Game/FactoryGame/Events/Christmas/Parts/UI/IconDesc_SnowballProjectile_256.IconDesc_SnowballProjectile_256",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

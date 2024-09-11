@@ -1,0 +1,14 @@
+//RefinedPower/Buildables/Factory/ModularReactor/Cooling/Desc_RP_MR_ReactorCooling.Desc_RP_MR_ReactorCooling_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Reactor Cooling",
+"NameShort": "",
+"Description": "Reactor Cooling",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_RefinedPower_C",
+"StackSize": "One"
+}

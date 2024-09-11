@@ -1,0 +1,31 @@
+//RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Heaters/NuclearHeater/Recipe_RP_MP_NuclearHeater.Recipe_RP_MP_NuclearHeater_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Nuclear Heater",
+"Ingredients": [
+{
+      "Item": "Desc_Cement",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_Cable",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_HighSpeedConnector",
+      "Amount": 14
+ },
+{
+      "Item": "Desc_ComputerSuper",
+      "Amount": 5
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RP_MP_NuclearHeater",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_RP_MP_4_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

@@ -1,0 +1,36 @@
+//Game/FactoryGame/Equipment/RebarGun/Ammo/Recipe_Rebar_Explosive.Recipe_Rebar_Explosive_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Explosive Rebar",
+"Ingredients": [
+{
+      "Item": "Desc_SpikedRebar",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_GunpowderMK2",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Rebar_Explosive",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 12.0,
+"ProducedIn": ["Build_ManufacturerMk1_C"],
+"OverrideCategory": "Cat_Ammunition_C",
+"ManufacturingMenuPriority": 104.0,
+"UnlockedBy": ["Research_Sulfur_4_2_C"],
+"ManualManufacturingMultiplier": 15.999996,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

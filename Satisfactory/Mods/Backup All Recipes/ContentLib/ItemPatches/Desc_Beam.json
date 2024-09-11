@@ -1,0 +1,16 @@
+//Game/FactoryGame/Prototype/Buildable/Beams/Desc_Beam.Desc_Beam_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Metal Beam",
+"NameShort": "",
+"Description": "Snaps to other Beams and various other structural buildings.
+
+Beams support multiple build modes for different use cases.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Decor_C",
+"StackSize": "Medium"
+}

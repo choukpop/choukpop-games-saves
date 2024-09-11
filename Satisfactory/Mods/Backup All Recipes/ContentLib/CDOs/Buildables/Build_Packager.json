@@ -1,0 +1,40 @@
+{
+  "Class": "/Game/FactoryGame/Buildable/Factory/Packager/Build_Packager.Build_Packager_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 10.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.321929
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": false
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 5.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Packager"
+ },
+{
+"Property": "mDescription",
+"Value": "Used for the packaging and unpacking of fluids.
+Head Lift: 10 meters.
+(Allows fluids to be transported 10 meters upwards.)
+
+Contains both a Conveyor Belt and Pipe input and output, to allow for the automation of various recipes."
+ },
+{
+"Property": "mHologramClass",
+"Value": "FGFactoryHologram"
+ },
+{
+"Property": "mManufacturingSpeed",
+"Value": 1.0
+ }]
+}

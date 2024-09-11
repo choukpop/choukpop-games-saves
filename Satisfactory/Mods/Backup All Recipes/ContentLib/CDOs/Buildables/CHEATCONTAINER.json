@@ -1,0 +1,46 @@
+{
+  "Class": "/MagicMachine/_CHEAT/CHEATCONTAINER.CHEATCONTAINER_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 0.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.6
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": false
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 5.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Cheat Container"
+ },
+{
+"Property": "mDescription",
+"Value": "Get 1 of each item available on the game. 
+
+Good for testing visuals of modded items."
+ },
+{
+"Property": "mHologramClass",
+"Value": "FGStackableStorageHologram"
+ },
+{
+"Property": "mInventorySizeX",
+"Value": 6
+ },
+{
+"Property": "mInventorySizeY",
+"Value": 200
+ },
+{
+"Property": "mStackingHeight",
+"Value": 400.0
+ }]
+}

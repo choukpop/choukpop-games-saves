@@ -1,0 +1,17 @@
+//Game/FactoryGame/Resource/Parts/NuclearWaste/Desc_NuclearWaste.Desc_NuclearWaste_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Uranium Waste",
+"NameShort": "",
+"Description": "The by-product of consuming Uranium Fuel Rods in the Nuclear Power Plant.
+Non-fissile Uranium can be extracted. Handle with caution.
+
+Caution: HIGHLY Radioactive.",
+"CanBeDiscarded": false,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 10.0,
+"Form": "Solid",
+"Category": "Cat_Nuclear_C",
+"StackSize": "Huge"
+}

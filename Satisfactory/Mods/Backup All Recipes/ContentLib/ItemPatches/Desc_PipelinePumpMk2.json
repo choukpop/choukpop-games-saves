@@ -1,0 +1,19 @@
+//Game/FactoryGame/Buildable/Factory/PipePumpMk2/Desc_PipelinePumpMK2.Desc_PipelinePumpMk2_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Pipeline Pump Mk.2",
+"NameShort": "",
+"Description": "Can be attached to a Pipeline to apply Head Lift.
+Maximum Head Lift: 50 meters
+(Allows fluids to be transported 50 meters upwards.)
+
+NOTE: Has an in- and output direction.
+NOTE: Head Lift does not stack, so space between Pumps is recommended.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Logistics_C",
+"StackSize": "Medium"
+}

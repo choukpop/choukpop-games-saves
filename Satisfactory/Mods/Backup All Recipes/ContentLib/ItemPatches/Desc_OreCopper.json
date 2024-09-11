@@ -1,0 +1,15 @@
+//Game/FactoryGame/Resource/RawResources/OreCopper/Desc_OreCopper.Desc_OreCopper_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Copper Ore",
+"NameShort": "Cop",
+"Description": "Used for crafting.
+Basic resource mainly used for electricity.",
+"CanBeDiscarded": true,
+"RememberPickUp": true,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_RawMaterials_C",
+"StackSize": "Medium"
+}

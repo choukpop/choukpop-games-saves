@@ -1,0 +1,14 @@
+//Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Desc_FoundationPassthrough_Pipe.Desc_FoundationPassthrough_Pipe_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Pipeline Floor Hole",
+"NameShort": "",
+"Description": "Can be attached to Foundations, allowing Pipelines to pass through them.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Logistics_C",
+"StackSize": "Medium"
+}

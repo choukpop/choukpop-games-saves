@@ -1,0 +1,13 @@
+//MoreSwatchSlots/Swatches/Recipes/Recipe_SwatchSlot_Slot_25.Recipe_SwatchSlot_Slot_25_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Swatch25",
+"Ingredients": [
+
+],
+"Products": [
+],
+"UnlockedBy": ["ResourceSink_MSS_SwatchSlots_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

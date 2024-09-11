@@ -1,0 +1,35 @@
+//RefinedPower/Schematics/Schematic_RP_5_2.Schematic_RP_5_2_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Refined Power Solar Panels",
+"Type": "Milestone",
+"VisualKit": "Schematic_RP_5_2_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_RP_PhotovoltaicCell",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_HighSpeedWire",
+      "Amount": 500
+ },
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 50
+ }],
+"Category": "SC_RP_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 120.0,
+"Tier": 5,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_SolarPanel_Mk2_New_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

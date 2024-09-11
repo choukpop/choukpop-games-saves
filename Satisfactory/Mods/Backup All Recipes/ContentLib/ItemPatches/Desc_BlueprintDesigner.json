@@ -1,0 +1,19 @@
+//Game/FactoryGame/Buildable/Factory/BlueprintDesigner/Desc_BlueprintDesigner.Desc_BlueprintDesigner_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Blueprint Designer",
+"NameShort": "",
+"Description": "The Blueprint Designer is used to create custom factory designs and save them as Blueprints.
+Blueprints can be accessed from the Build Menu - Blueprint tab.
+
+Note that buildings can only be placed within the Blueprint Designer if they are fully within the boundary frame.
+
+Designer Dimensions: 32m x 32m x 32m",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_TradingPost_C",
+"StackSize": "Medium"
+}

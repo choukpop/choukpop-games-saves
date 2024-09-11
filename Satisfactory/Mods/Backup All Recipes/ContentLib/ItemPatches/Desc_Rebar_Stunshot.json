@@ -1,0 +1,16 @@
+//Game/FactoryGame/Equipment/RebarGun/Ammo/Desc_Rebar_Stunshot.Desc_Rebar_Stunshot_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Stun Rebar",
+"NameShort": "StR",
+"Description": "Electrocutes the target on impact, stunning it for a short time.
+
+Stun duration: 5 seconds",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Ammunition_C",
+"StackSize": "Medium"
+}

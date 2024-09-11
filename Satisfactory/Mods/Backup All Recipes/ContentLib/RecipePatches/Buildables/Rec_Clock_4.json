@@ -1,0 +1,23 @@
+//GameTime/Clock/Rec_Clock_4.Rec_Clock_4_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Digital Clock",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_Cable",
+      "Amount": 10
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Clock_4",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schem_Clock_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

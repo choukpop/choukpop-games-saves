@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/RawResources/Sulfur/Desc_Sulfur.Desc_Sulfur_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Sulfur",
+"NameShort": "S",
+"Description": "Sulfur is primarily used for Black Powder.",
+"CanBeDiscarded": true,
+"RememberPickUp": true,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_RawMaterials_C",
+"StackSize": "Medium"
+}

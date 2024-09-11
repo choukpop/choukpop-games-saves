@@ -1,0 +1,31 @@
+//RefinedPower/Buildables/Factory/ModularReactor/IO/Recipe_RP_MR_ReactorIO.Recipe_RP_MR_ReactorIO_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Reactor IO",
+"Ingredients": [
+{
+      "Item": "Desc_SpaceElevatorPart_3",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_SpaceElevatorPart_6",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_ModularFrameFused",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_ComputerSuper",
+      "Amount": 5
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RP_MR_ReactorIO",
+      "Amount": 1
+ }],
+"UnlockedBy": ["MAM_RP_MR_5_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

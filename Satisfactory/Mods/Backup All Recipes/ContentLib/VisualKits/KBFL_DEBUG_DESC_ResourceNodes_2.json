@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/KBFL/Utils/Nodes/UI/Icon_Resource_Node.Icon_Resource_Node",
+	"SmallIcon": "/KBFL/Utils/Nodes/UI/Icon_Resource_Node.Icon_Resource_Node",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/LoadBalancers/Buildable/Icons/Icon_ModularCube.Icon_ModularCube",
+	"SmallIcon": "/LoadBalancers/Buildable/Icons/Icon_ModularCube.Icon_ModularCube",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

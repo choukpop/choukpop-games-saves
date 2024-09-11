@@ -1,0 +1,23 @@
+//RefinedPower/Buildables/Factory/WindTurbine_Mk1/Recipe_WindTurbine_Mk1.Recipe_WindTurbine_Mk1_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Wind Turbine Mk1",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_IronRod",
+      "Amount": 30
+ }
+],
+"Products": [
+{
+      "Item": "Desc_WindTurbine_Mk1",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_RP_1_1_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

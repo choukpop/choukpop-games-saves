@@ -1,0 +1,35 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Icarus Reinforced Repair Kit",
+"Ingredients": [
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_SteelPlateReinforced",
+      "Amount": 10
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RP_Icarus_RepairKit3",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 30.0,
+"ProducedIn": ["Build_ManufacturerMk1_C"],
+"OverrideCategory": "IC_RP_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schematic_RP_Icarus_C"],
+"ManualManufacturingMultiplier": 30.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

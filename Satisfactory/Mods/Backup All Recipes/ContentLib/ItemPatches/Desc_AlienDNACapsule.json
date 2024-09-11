@@ -1,0 +1,17 @@
+//Game/FactoryGame/Resource/Parts/AlienDNACapsule/Desc_AlienDNACapsule.Desc_AlienDNACapsule_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Alien DNA Capsule",
+"NameShort": "",
+"Description": "This data capsule translates organic chemicals into readable alien genetics information.
+Used for researching alien organisms.
+
+Go the extra kilometer! Knowledge is power, and power is just efficiency with fewer steps. Depositing Alien DNA Capsules in the AWESOME Sink provides FICSIT with knowledge, and Pioneers with Coupons.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_AlienRemains_C",
+"StackSize": "Small"
+}

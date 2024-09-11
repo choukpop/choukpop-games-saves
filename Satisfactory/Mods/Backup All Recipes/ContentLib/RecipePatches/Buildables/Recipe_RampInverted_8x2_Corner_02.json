@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x2_Corner_02.Recipe_RampInverted_8x2_Corner_02_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Inv. Down Corner 2m",
+"Ingredients": [
+{
+      "Item": "Desc_Cement",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RampInverted_8x2_Corner_02",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_InvertedCornerRamps_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

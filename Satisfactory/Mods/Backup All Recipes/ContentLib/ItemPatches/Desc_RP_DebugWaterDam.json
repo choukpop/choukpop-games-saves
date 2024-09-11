@@ -1,0 +1,14 @@
+//RefinedPower/Buildables/WaterDam/Debug/Desc_RP_DebugWaterDam.Desc_RP_DebugWaterDam_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Debug Water Dam",
+"NameShort": "",
+"Description": "Mod Tool for Water Dam Placement",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_RefinedPower_C",
+"StackSize": "One"
+}

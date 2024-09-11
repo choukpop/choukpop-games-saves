@@ -1,0 +1,35 @@
+//RefinedPower/Schematics/Schematic_RP_7_1.Schematic_RP_7_1_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Refined Power Mk4",
+"Type": "Milestone",
+"VisualKit": "Schematic_RP_7_1_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_AluminumPlate",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_HighSpeedWire",
+      "Amount": 500
+ },
+{
+      "Item": "Desc_Computer",
+      "Amount": 50
+ }],
+"Category": "SC_RP_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 300.0,
+"Tier": 7,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_MicroReactor_C","Recipe_RP_ConcentratedDeanium_C","Recipe_RP_Deanorium_C","Recipe_RP_UnfilteredDeuterium_C","Recipe_RP_LiquidDeuterium_C","Recipe_RP_AdvReactorCasing_C","Recipe_RP_AdvReactorCore_C","Recipe_RP_CoolantPowder_C","Recipe_RP_CloudyCoolant_C","Recipe_RP_ReactorCoolant_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

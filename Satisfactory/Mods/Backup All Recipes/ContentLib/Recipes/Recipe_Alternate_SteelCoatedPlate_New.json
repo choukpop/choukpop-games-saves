@@ -1,0 +1,31 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alternate: Steel Coated Plate",
+"Ingredients": [
+{
+      "Item": "Desc_SteelIngot",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_Plastic",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 18
+ }
+],
+"ManufacturingDuration": 24.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_StandardParts_C",
+"ManufacturingMenuPriority": 1.0,
+"UnlockedBy": ["Schematic_Alternate_SteelCoatedPlate_C"],
+"ManualManufacturingMultiplier": 24.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

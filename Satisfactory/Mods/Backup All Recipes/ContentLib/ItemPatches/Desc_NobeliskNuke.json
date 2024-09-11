@@ -1,0 +1,17 @@
+//Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Desc_NobeliskNuke.Desc_NobeliskNuke_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Nuke Nobelisk",
+"NameShort": "",
+"Description": "This Nobelisk uses a nuclear fission reaction to generate a massive explosion.
+
+WARNING: Ensure all FICSIT property is clear of the blast zone before detonation.
+",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Ammunition_C",
+"StackSize": "Small"
+}

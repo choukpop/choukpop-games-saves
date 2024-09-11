@@ -1,0 +1,14 @@
+//RefinedPower/Resource/RawResources/Co2/Desc_RP_Co2.Desc_RP_Co2_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "CO2",
+"NameShort": "",
+"Description": "Cough Cough, Co2 Emissions",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Gas",
+"Category": "IC_RP_C",
+"StackSize": "Fluid"
+}

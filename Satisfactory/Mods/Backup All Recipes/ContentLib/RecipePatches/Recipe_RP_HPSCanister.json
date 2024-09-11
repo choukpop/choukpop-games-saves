@@ -1,0 +1,32 @@
+//RefinedPower/Resource/Parts/Canisters/Recipe_RP_HPSCanister.Recipe_RP_HPSCanister_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Packaged High Pressure Steam",
+"Ingredients": [
+{
+      "Item": "Desc_RP_HighSteam",
+      "Amount": 2000
+ },
+{
+      "Item": "Desc_FluidCanister",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RP_HPSCanister",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 5.0,
+"ProducedIn": ["Build_Packager_C"],
+"OverrideCategory": "IC_RP_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schematic_RP_MP_2_C"],
+"ManualManufacturingMultiplier": 5.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

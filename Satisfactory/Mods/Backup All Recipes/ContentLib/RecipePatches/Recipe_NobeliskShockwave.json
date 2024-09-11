@@ -1,0 +1,32 @@
+//Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Recipe_NobeliskShockwave.Recipe_NobeliskShockwave_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Pulse Nobelisk",
+"Ingredients": [
+{
+      "Item": "Desc_NobeliskExplosive",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_CrystalOscillator",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_NobeliskShockwave",
+      "Amount": 5
+ }
+],
+"ManufacturingDuration": 60.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_Ammunition_C",
+"ManufacturingMenuPriority": 204.0,
+"UnlockedBy": ["Research_Quartz_3_4_C"],
+"ManualManufacturingMultiplier": 39.999958,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

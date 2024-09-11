@@ -1,0 +1,31 @@
+//Game/FactoryGame/Recipes/Vehicle/Recipe_Explorer.Recipe_Explorer_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Explorer",
+"Ingredients": [
+{
+      "Item": "Desc_CrystalOscillator",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_Motor",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 15
+ },
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 5
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Explorer",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Research_Quartz_3_1_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

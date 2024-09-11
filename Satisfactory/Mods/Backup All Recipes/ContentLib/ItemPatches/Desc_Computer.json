@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Computer",
+"NameShort": "",
+"Description": "A Computer is a complex logic machine that is used to control advanced behavior in machines.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Communications_C",
+"StackSize": "Small"
+}

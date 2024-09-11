@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/Silica/Desc_Silica.Desc_Silica_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Silica",
+"NameShort": "Silica",
+"Description": "Derived from Raw Quartz. Commonly used to create glass structures, advanced refinement processes, and alternative production of electronics.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Minerals_C",
+"StackSize": "Big"
+}

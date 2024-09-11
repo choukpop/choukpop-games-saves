@@ -1,0 +1,14 @@
+//RefinedPower/Buildables/Factory/ModularPower/MPPlatforms/BoilerPlatform/Desc_RP_MP_BoilerPlatform.Desc_RP_MP_BoilerPlatform_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Boiler Platform",
+"NameShort": "",
+"Description": "Used to place any type of heater and any type of boiler to produce steam.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_RefinedPower_C",
+"StackSize": "Medium"
+}

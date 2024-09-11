@@ -1,0 +1,35 @@
+//RefinedPower/Schematics/Schematic_RP_7_3.Schematic_RP_7_3_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Refined Power Mk3",
+"Type": "Milestone",
+"VisualKit": "Schematic_RP_7_3_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_AluminumPlateReinforced",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_HighSpeedConnector",
+      "Amount": 150
+ },
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 50
+ }],
+"Category": "SC_RP_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 120.0,
+"Tier": 7,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_WindTurbine_Mk3_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

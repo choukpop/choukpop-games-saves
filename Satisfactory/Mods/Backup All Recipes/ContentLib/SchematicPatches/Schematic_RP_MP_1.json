@@ -1,0 +1,39 @@
+//RefinedPower/Schematics/Schematic_RP_MP_1.Schematic_RP_MP_1_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Modular Power Generation",
+"Type": "Milestone",
+"VisualKit": "Schematic_RP_MP_1_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 25
+ },
+{
+      "Item": "Desc_Rotor",
+      "Amount": 25
+ },
+{
+      "Item": "Desc_IronRod",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_Cable",
+      "Amount": 500
+ }],
+"Category": "SC_RP_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 120.0,
+"Tier": 3,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_RP_MP_BoilerPlatform_C","Recipe_RP_MP_ConverterPlatform_C","Recipe_RP_MP_CoolingPlatform_C","Recipe_RP_MP_Co2Cooler_C","Recipe_RP_MP_SteamCooler_C","Recipe_RP_MP_BiomassHeater_C","Recipe_RP_MP_CoalHeater_C","Recipe_RP_MP_BoilerMk1_C","Recipe_RP_MP_TurbineMk1_C","Recipe_RP_MP_LVGenerator_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

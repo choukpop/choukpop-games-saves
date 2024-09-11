@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/Game/FactoryGame/Prototype/Buildable/Beams/UI/IconDesc_BeamConnector_512.IconDesc_BeamConnector_512",
+	"SmallIcon": "/Game/FactoryGame/Prototype/Buildable/Beams/UI/IconDesc_BeamConnector_512.IconDesc_BeamConnector_512",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

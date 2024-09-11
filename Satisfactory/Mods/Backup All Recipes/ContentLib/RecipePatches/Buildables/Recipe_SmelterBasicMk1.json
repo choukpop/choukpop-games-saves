@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Smelter",
+"Ingredients": [
+{
+      "Item": "Desc_IronRod",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_Wire",
+      "Amount": 8
+ }
+],
+"Products": [
+{
+      "Item": "Desc_SmelterMk1",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_Tutorial1_5_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

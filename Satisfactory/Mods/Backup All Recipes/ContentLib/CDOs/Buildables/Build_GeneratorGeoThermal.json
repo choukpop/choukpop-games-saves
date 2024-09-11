@@ -1,0 +1,43 @@
+{
+  "Class": "/Game/FactoryGame/Buildable/Factory/GeneratorGeoThermal/Build_GeneratorGeoThermal.Build_GeneratorGeoThermal_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 0.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.6
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": false
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 5.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Geothermal Generator"
+ },
+{
+"Property": "mDescription",
+"Value": "Has to be built on a Geyser. Generates power.
+
+Caution: Power production fluctuates.
+
+Power Production:
+Impure 50-150 MW (100 MW average)
+Normal 100-300 MW (200 MW average)
+Pure 200-600 MW (400 MW average)"
+ },
+{
+"Property": "mHologramClass",
+"Value": "FGGeoThermalGeneratorHologram"
+ },
+{
+"Property": "mPowerProduction",
+"Value": 0.0
+ }]
+}

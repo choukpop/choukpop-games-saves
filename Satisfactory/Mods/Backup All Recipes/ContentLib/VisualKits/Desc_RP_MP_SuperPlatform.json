@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/RefinedPower/Buildables/Factory/ModularPower/MPPlatforms/SuperPlatform/Icon_RP_MP_SuperPlatform.Icon_RP_MP_SuperPlatform",
+	"SmallIcon": "/RefinedPower/Buildables/Factory/ModularPower/MPPlatforms/SuperPlatform/Icon_RP_MP_SuperPlatform.Icon_RP_MP_SuperPlatform",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

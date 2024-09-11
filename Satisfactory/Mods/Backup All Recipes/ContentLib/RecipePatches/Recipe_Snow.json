@@ -1,0 +1,28 @@
+//Game/FactoryGame/Events/Christmas/Parts/Recipe_Snow.Recipe_Snow_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Actual Snow",
+"Ingredients": [
+{
+      "Item": "Desc_Gift",
+      "Amount": 5
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Snow",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 12.0,
+"ProducedIn": ["Build_ConstructorMk1_C"],
+"OverrideCategory": "Cat_FICSMAS_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Research_XMas_2-1_C"],
+"ManualManufacturingMultiplier": 12.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

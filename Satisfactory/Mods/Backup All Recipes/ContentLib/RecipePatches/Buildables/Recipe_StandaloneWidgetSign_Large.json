@@ -1,0 +1,27 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_StandaloneWidgetSign_Large.Recipe_StandaloneWidgetSign_Large_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Small Billboard",
+"Ingredients": [
+{
+      "Item": "Desc_SteelPlateReinforced",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_CopperSheet",
+      "Amount": 4
+ },
+{
+      "Item": "Desc_CrystalOscillator",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_StandaloneWidgetSign_Large",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_BillboardSigns_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

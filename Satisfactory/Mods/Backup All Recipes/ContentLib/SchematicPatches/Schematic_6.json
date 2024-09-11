@@ -1,0 +1,43 @@
+//KBlueprintDesignPlus/Schematic_6.Schematic_6_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "More FICSIT Blueprints",
+"Type": "Milestone",
+"VisualKit": "Schematic_6_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_SteelPlate",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_Plastic",
+      "Amount": 500
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 1000
+ },
+{
+      "Item": "Desc_Computer",
+      "Amount": 20
+ }],
+"Category": "SC_Organisation_C",
+"SubCategories": [],
+"MenuPriority": 1.0,
+"Time": 300.0,
+"Tier": 6,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_BlueprintDesignerMk2_C","Recipe_BlueprintDesignerMk3_C","Recipe_BlueprintDesignerMk4_C","Recipe_BlueprintDesignerMk6_C","Recipe_BlueprintDesignerMk5_2_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

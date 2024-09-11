@@ -1,0 +1,18 @@
+//Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Large.Desc_StandaloneWidgetSign_Large_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Small Billboard",
+"NameShort": "",
+"Description": "Signs can be customized with different elements, such as icons and text, to improve factory organization.
+
+Can be placed freely, on Walls, or attached to a variety of buildings, such as Storage Containers.
+
+Size: 8m x 4m",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Organization_C",
+"StackSize": "Medium"
+}

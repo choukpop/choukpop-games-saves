@@ -1,0 +1,39 @@
+//RefinedPower/Schematics/Schematic_RP_MR_3.Schematic_RP_MR_3_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Modular Reactor Better Shielding",
+"Type": "Milestone",
+"VisualKit": "Schematic_RP_MR_3_C",
+"Description": "Project Big Cake!",
+"Cost": [{
+      "Item": "Desc_ModularFrameFused",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_MotorLightweight",
+      "Amount": 30
+ },
+{
+      "Item": "Desc_ComputerSuper",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_AluminumPlateReinforced",
+      "Amount": 200
+ }],
+"Category": "SC_RP_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 250.0,
+"Tier": 8,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_RP_MR_ReactorSheildingMk2_C","Recipe_RP_MR_ReactorSheildingMk3_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

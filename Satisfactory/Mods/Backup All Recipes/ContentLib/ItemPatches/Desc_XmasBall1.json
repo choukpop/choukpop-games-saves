@@ -1,0 +1,14 @@
+//Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall1.Desc_XmasBall1_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Red FICSMAS Ornament",
+"NameShort": "",
+"Description": "Used for making FICSMAS Decorations.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_FICSMAS_C",
+"StackSize": "Huge"
+}

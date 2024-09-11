@@ -1,0 +1,14 @@
+//RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Generators/MVGenerator/Desc_RP_MP_MVGenerator.Desc_RP_MP_MVGenerator_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "MV Generator",
+"NameShort": "",
+"Description": "Generates 300MW of power.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_RefinedPower_C",
+"StackSize": "Medium"
+}

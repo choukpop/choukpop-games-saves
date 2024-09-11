@@ -1,0 +1,23 @@
+//Game/FactoryGame/Buildable/Building/Wall/SteelWallSet/Recipe_Wall_Steel_8x4_Corner_01.Recipe_Wall_Steel_8x4_Corner_01_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Tilted Corner Wall 4m",
+"Ingredients": [
+{
+      "Item": "Desc_Cement",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_SteelPlate",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Wall_Steel_8x4_Corner_01",
+      "Amount": 1
+ }],
+"UnlockedBy": ["CBG_Steel_Walls_Tilted_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

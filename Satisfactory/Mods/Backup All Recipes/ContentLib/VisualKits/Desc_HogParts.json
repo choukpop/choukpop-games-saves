@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Environment/AnimalParts/Mesh/SM_HogPart_01.SM_HogPart_01",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/AnimalParts/UI/IconDesc_HogPart_256.IconDesc_HogPart_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/AnimalParts/UI/IconDesc_HogPart_256.IconDesc_HogPart_256",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

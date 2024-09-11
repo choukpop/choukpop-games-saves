@@ -1,0 +1,16 @@
+//Game/FactoryGame/Buildable/Factory/HadronCollider/Desc_HadronCollider.Desc_HadronCollider_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Particle Accelerator",
+"NameShort": "",
+"Description": "The FICSIT Particle Accelerator uses electromagnetic fields to propel particles to very high speeds and energies. The specific design allows for a variety of processes, such as matter generation and conversion.
+
+Warning: Power usage is extremely high, unstable, and varies per recipe.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Production_C",
+"StackSize": "Medium"
+}

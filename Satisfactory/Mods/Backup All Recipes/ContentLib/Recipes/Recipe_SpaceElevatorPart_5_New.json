@@ -1,0 +1,39 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Adaptive Control Unit",
+"Ingredients": [
+{
+      "Item": "Desc_SpaceElevatorPart_3",
+      "Amount": 15
+ },
+{
+      "Item": "Desc_CircuitBoard",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_Computer",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_SpaceElevatorPart_5",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 120.0,
+"ProducedIn": ["Build_ManufacturerMk1_C"],
+"OverrideCategory": "Cat_SpaceElevator_C",
+"ManufacturingMenuPriority": 4.0,
+"UnlockedBy": ["Schematic_5-2_C"],
+"ManualManufacturingMultiplier": 120.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

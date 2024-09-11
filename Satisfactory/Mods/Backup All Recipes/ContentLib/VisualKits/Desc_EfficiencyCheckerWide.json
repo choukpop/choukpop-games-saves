@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/EfficiencyCheckerMod/Icons/EfficienceCheckerSide-512.EfficienceCheckerSide-512",
+	"SmallIcon": "/EfficiencyCheckerMod/Icons/EfficienceCheckerSide-512.EfficienceCheckerSide-512",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

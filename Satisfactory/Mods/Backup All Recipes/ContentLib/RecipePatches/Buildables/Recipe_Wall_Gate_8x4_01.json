@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Gate_8x4_01.Recipe_Wall_Gate_8x4_01_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Gate Hole Wall",
+"Ingredients": [
+{
+      "Item": "Desc_Cement",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Wall_Gate_8x4_01",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_GateWalls_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

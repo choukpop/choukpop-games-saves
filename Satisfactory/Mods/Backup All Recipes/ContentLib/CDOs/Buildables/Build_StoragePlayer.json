@@ -1,0 +1,44 @@
+{
+  "Class": "/Game/FactoryGame/Buildable/Factory/StoragePlayer/Build_StoragePlayer.Build_StoragePlayer_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 0.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.6
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": false
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 5.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Personal Storage Box"
+ },
+{
+"Property": "mDescription",
+"Value": "Contains 25 slots for storing large amounts of items."
+ },
+{
+"Property": "mHologramClass",
+"Value": "Holo_BuildingGradualBase_C"
+ },
+{
+"Property": "mInventorySizeX",
+"Value": 5
+ },
+{
+"Property": "mInventorySizeY",
+"Value": 5
+ },
+{
+"Property": "mStackingHeight",
+"Value": 0.0
+ }]
+}

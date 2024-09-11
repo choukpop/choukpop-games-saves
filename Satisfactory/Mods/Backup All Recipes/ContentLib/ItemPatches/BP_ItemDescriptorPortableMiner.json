@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Equipment/PortableMiner/BP_ItemDescriptorPortableMiner.BP_ItemDescriptorPortableMiner_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Portable Miner",
+"NameShort": "",
+"Description": "Can be set up on a resource node to automatically extract the resource. Note that it has limited storage space.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Hands_C",
+"StackSize": "One"
+}

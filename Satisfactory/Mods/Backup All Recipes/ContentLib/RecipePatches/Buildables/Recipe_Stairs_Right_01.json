@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Stairs/Recipe_Stairs_Right_01.Recipe_Stairs_Right_01_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Stairs Right",
+"Ingredients": [
+{
+      "Item": "Desc_Cement",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 3
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Stairs_Right_01",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_Stairs_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/CartridgeStandard/Desc_CartridgeStandard.Desc_CartridgeStandard_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Rifle Ammo",
+"NameShort": "RA",
+"Description": "Standard issue Rifle ammunition, useful for establishing dominance.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Ammunition_C",
+"StackSize": "Huge"
+}

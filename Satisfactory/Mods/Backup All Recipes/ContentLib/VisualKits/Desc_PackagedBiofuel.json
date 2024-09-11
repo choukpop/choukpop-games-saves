@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/Fuel/SM_FuelBio_01.SM_FuelBio_01",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/Turbofuel/UI/IconDesc_LiquidBiofuel_256.IconDesc_LiquidBiofuel_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/Turbofuel/UI/IconDesc_LiquidBiofuel_256.IconDesc_LiquidBiofuel_256",
+	"FluidColor":
+	{
+		"r": 58,
+		"g": 83,
+		"b": 42,
+		"a": 255
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

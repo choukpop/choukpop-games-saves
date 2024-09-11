@@ -1,0 +1,39 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alternate: Heat-Fused Frame",
+"Ingredients": [
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_AluminumIngot",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_NitricAcid",
+      "Amount": 8000
+ },
+{
+      "Item": "Desc_LiquidFuel",
+      "Amount": 10000
+ }
+],
+"Products": [
+{
+      "Item": "Desc_ModularFrameFused",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 20.0,
+"ProducedIn": ["Build_Blender_C"],
+"OverrideCategory": "Cat_IndustrialParts_C",
+"ManufacturingMenuPriority": 4.0,
+"UnlockedBy": ["Schematic_Alternate_HeatFusedFrame_C"],
+"ManualManufacturingMultiplier": 20.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

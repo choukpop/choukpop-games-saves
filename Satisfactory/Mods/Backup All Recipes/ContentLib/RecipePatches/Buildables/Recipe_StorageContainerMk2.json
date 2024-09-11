@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk2.Recipe_StorageContainerMk2_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Industrial Storage Container",
+"Ingredients": [
+{
+      "Item": "Desc_SteelPlate",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 20
+ }
+],
+"Products": [
+{
+      "Item": "Desc_StorageContainerMk2",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_5-3_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

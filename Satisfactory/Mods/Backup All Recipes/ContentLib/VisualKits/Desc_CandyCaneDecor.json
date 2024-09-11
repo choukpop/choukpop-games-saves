@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk1/Mesh/SM_PowerPole_Mk1.SM_PowerPole_Mk1",
+	"BigIcon": "/Game/FactoryGame/Events/Christmas/Buildings/UI/IconDesc_CandyCaneDecor_512.IconDesc_CandyCaneDecor_512",
+	"SmallIcon": "/Game/FactoryGame/Events/Christmas/Buildings/UI/IconDesc_CandyCaneDecor_512.IconDesc_CandyCaneDecor_512",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

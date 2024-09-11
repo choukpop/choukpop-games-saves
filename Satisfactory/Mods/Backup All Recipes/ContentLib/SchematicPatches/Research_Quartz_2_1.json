@@ -1,0 +1,31 @@
+//Game/FactoryGame/Schematics/Research/Quartz_RS/Research_Quartz_2_1.Research_Quartz_2_1_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Shatter Rebar",
+"Type": "MAM",
+"VisualKit": "Research_Quartz_2_1_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_QuartzCrystal",
+      "Amount": 30
+ },
+{
+      "Item": "Desc_SpikedRebar",
+      "Amount": 150
+ }],
+"Category": "SC_Organisation_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 3.0,
+"Tier": 3,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_Rebar_Spreadshot_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

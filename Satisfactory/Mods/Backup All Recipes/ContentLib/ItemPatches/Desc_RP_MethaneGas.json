@@ -1,0 +1,14 @@
+//RefinedPower/Resource/RawResources/MethaneGas/Desc_RP_MethaneGas.Desc_RP_MethaneGas_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Methane Gas",
+"NameShort": "",
+"Description": "Methane Gas converted from the toxic gas from toxic rocks",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Gas",
+"Category": "IC_RP_C",
+"StackSize": "Fluid"
+}

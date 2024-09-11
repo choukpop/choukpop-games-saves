@@ -1,0 +1,27 @@
+//Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Recipe_FoundationPassthrough_Lift.Recipe_FoundationPassthrough_Lift_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Conveyor Lift Floor Hole",
+"Ingredients": [
+{
+      "Item": "Desc_IronRod",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_FoundationPassthrough_Lift",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_ConveyorLiftHole_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

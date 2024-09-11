@@ -1,0 +1,16 @@
+//GameTime/Clock/Desc_Cronometer.Desc_Cronometer_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Chronometer",
+"NameShort": "",
+"Description": "See how much times takes for something... 
+
+Click E to Stop it",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_TradingPost_C",
+"StackSize": "One"
+}

@@ -1,0 +1,17 @@
+//Game/FactoryGame/Buildable/Factory/GeneratorBiomass/Desc_GeneratorBiomass.Desc_GeneratorBiomass_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Biomass Burner",
+"NameShort": "",
+"Description": "Burns various forms of biomass to generate electricity for the power grid.
+Has no input and must therefore be fed biomass manually.
+
+Resource consumption will automatically be lowered to meet power demands.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Power_C",
+"StackSize": "Medium"
+}

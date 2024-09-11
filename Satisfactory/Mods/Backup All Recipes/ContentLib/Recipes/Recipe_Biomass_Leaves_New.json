@@ -1,0 +1,27 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Biomass (Leaves)",
+"Ingredients": [
+{
+      "Item": "Desc_Leaves",
+      "Amount": 10
+ }
+],
+"Products": [
+{
+      "Item": "Desc_GenericBiomass",
+      "Amount": 5
+ }
+],
+"ManufacturingDuration": 5.0,
+"ProducedIn": ["Build_ConstructorMk1_C","FGBuildableAutomatedWorkBench"],
+"OverrideCategory": "Cat_Biomass_C",
+"ManufacturingMenuPriority": 1.0,
+"UnlockedBy": ["Schematic_Tutorial5_C"],
+"ManualManufacturingMultiplier": 2.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

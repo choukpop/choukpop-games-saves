@@ -1,0 +1,36 @@
+{
+  "Class": "/MagicMachine/FluidSpawner/Build_FSpawner.Build_FSpawner_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 0.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.6
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": false
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 5.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Fluid Spawner"
+ },
+{
+"Property": "mDescription",
+"Value": "Spawn Modded and Vanilla  Fluids"
+ },
+{
+"Property": "mHologramClass",
+"Value": "FGFactoryHologram"
+ },
+{
+"Property": "mManufacturingSpeed",
+"Value": 1.0
+ }]
+}

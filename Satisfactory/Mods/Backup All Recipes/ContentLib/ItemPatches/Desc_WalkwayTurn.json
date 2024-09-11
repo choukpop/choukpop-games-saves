@@ -1,0 +1,15 @@
+//Game/FactoryGame/Buildable/Building/Walkway/Desc_WalkwayTurn.Desc_WalkwayTurn_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Walkway Turn",
+"NameShort": "",
+"Description": "Snaps to foundations and other walkways.
+Specifically made for humans to walk on.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Decor_C",
+"StackSize": "Medium"
+}

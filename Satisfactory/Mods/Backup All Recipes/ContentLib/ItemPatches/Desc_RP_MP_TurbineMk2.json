@@ -1,0 +1,14 @@
+//RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Turbines/TurbineMk2/Desc_RP_MP_TurbineMk2.Desc_RP_MP_TurbineMk2_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Turbine Mk2",
+"NameShort": "",
+"Description": "Can handle more steam than a Mk.1 turbine. Can be placed on a converter platform and uses steam to make a turbine spin which turns a generator to produce electrical power.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_RefinedPower_C",
+"StackSize": "Medium"
+}

@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Character/Creature/Wildlife/PowerSnail/Mesh/PowerSnail_mk2.PowerSnail_mk2",
+	"BigIcon": "/Game/FactoryGame/Resource/Environment/Crystal/UI/PowerSlugYellow_256.PowerSlugYellow_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Environment/Crystal/UI/PowerSlugYellow_256.PowerSlugYellow_256",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

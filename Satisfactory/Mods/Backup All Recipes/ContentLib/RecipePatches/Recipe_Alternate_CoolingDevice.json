@@ -1,0 +1,36 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/New_Update4/Recipe_Alternate_CoolingDevice.Recipe_Alternate_CoolingDevice_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Cooling Device",
+"Ingredients": [
+{
+      "Item": "Desc_AluminumPlateReinforced",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_Motor",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_NitrogenGas",
+      "Amount": 24000
+ }
+],
+"Products": [
+{
+      "Item": "Desc_CoolingSystem",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 32.0,
+"ProducedIn": ["Build_Blender_C"],
+"OverrideCategory": "Cat_IndustrialParts_C",
+"ManufacturingMenuPriority": 2.0,
+"UnlockedBy": ["Schematic_Alternate_CoolingDevice_C"],
+"ManualManufacturingMultiplier": 32.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

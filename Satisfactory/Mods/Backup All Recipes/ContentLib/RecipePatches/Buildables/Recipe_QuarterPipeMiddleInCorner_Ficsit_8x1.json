@@ -1,0 +1,23 @@
+//Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Recipe_QuarterPipeMiddleInCorner_Ficsit_8x1.Recipe_QuarterPipeMiddleInCorner_Ficsit_8x1_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Inner Corner Extension 1m",
+"Ingredients": [
+{
+      "Item": "Desc_Cement",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_QuarterPipeMiddleInCorner_Ficsit_8x1",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_QuarterPipeExtensions_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

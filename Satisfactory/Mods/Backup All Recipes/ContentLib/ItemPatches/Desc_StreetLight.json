@@ -1,0 +1,17 @@
+//Game/FactoryGame/Buildable/Factory/StreetLight/Desc_StreetLight.Desc_StreetLight_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Street Light",
+"NameShort": "",
+"Description": "A small Street Light, perfect for lighting up factory pathways and roads.
+
+Light color and intensity can be modified.
+Allows up to two Power Line connections.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Organization_C",
+"StackSize": "Medium"
+}

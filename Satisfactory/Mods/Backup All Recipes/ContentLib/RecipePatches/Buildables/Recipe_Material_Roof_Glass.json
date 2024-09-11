@@ -1,0 +1,16 @@
+//Game/FactoryGame/Buildable/-Shared/Customization/Materials/Recipe_Material_Roof_Glass.Recipe_Material_Roof_Glass_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "N/A",
+"Ingredients": [
+{
+      "Item": "Desc_Silica",
+      "Amount": 2
+ }
+],
+"Products": [
+],
+"UnlockedBy": ["ResourceSink_Customizer_GlassRoofMaterial_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

@@ -1,0 +1,49 @@
+{
+  "Class": "/Game/FactoryGame/Buildable/Factory/PipePumpMk2/Build_PipelinePumpMK2.Build_PipelinePumpMk2_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 8.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.6
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": false
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 5.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Pipeline Pump Mk.2"
+ },
+{
+"Property": "mDescription",
+"Value": "Can be attached to a Pipeline to apply Head Lift.
+Maximum Head Lift: 50 meters
+(Allows fluids to be transported 50 meters upwards.)
+
+NOTE: Has an in- and output direction.
+NOTE: Head Lift does not stack, so space between Pumps is recommended."
+ },
+{
+"Property": "mHologramClass",
+"Value": "Holo_PipelinePump_C"
+ },
+{
+"Property": "mMaxPressure",
+"Value": 55.0
+ },
+{
+"Property": "mDefaultFlowLimit",
+"Value": 10.0
+ },
+{
+"Property": "mMinimumFlowPrecentForStandby",
+"Value": 0.05
+ }]
+}

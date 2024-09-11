@@ -1,0 +1,31 @@
+//LoadBalancers/Schematics/Schematic_ModularLoadBalancers.Schematic_ModularLoadBalancers_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Modular Load Balancers",
+"Type": "Milestone",
+"VisualKit": "Schematic_ModularLoadBalancers_C",
+"Description": "Modular buildables that can be snapped together to form load balancers of any size",
+"Cost": [{
+      "Item": "Desc_ModularFrame",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_Motor",
+      "Amount": 20
+ }],
+"Category": "SC_Logistics_C",
+"SubCategories": [],
+"MenuPriority": 8.0,
+"Time": 88.0,
+"Tier": 4,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_ModularLoadBalancer_C","Recipe_ModularLoadBalancer_Filtered_C","Recipe_ModularLoadBalancer_Overflow_C","Recipe_ModularLoadBalancer_Programmable_C","Recipe_ModularLoadBalancer_Filtered_Output_C","Recipe_ModularLoadBalancer_Output_C","Recipe_ModularLoadBalancer_Overflow_Output_C","Recipe_ModularLoadBalancer_Programmable_Output_C","Recipe_ModularLoadBalancer_Input_C","Recipe_ModularLoadBalancer_Block_C","Recipe_ModularLoadBalancer_Box_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

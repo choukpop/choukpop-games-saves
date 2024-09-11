@@ -1,0 +1,14 @@
+//RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Generators/HVGenerator/Desc_RP_MP_HVGenerator.Desc_RP_MP_HVGenerator_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "HV Generator",
+"NameShort": "",
+"Description": "Generates 500MW of power.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_RefinedPower_C",
+"StackSize": "Medium"
+}

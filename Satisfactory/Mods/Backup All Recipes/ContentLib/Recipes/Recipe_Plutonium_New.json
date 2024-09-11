@@ -1,0 +1,31 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Plutonium Pellet",
+"Ingredients": [
+{
+      "Item": "Desc_NonFissibleUranium",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_NuclearWaste",
+      "Amount": 25
+ }
+],
+"Products": [
+{
+      "Item": "Desc_PlutoniumPellet",
+      "Amount": 30
+ }
+],
+"ManufacturingDuration": 60.0,
+"ProducedIn": ["Build_HadronCollider_C"],
+"OverrideCategory": "Cat_Nuclear_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schematic_8-5_C"],
+"ManualManufacturingMultiplier": 60.0,
+"VariablePowerConsumptionConstant": 250.0,
+"VariablePowerConsumptionFactor": 500.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

@@ -1,0 +1,35 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Rebar Gun",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 6
+ },
+{
+      "Item": "Desc_IronRod",
+      "Amount": 16
+ },
+{
+      "Item": "Desc_IronScrew",
+      "Amount": 100
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RebarGunProjectile",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 60.0,
+"ProducedIn": [],
+"OverrideCategory": "Cat_Weapons_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Research_ACarapace_2_C"],
+"ManualManufacturingMultiplier": 60.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

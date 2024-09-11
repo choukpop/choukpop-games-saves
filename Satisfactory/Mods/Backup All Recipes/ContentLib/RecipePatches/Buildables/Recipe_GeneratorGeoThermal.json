@@ -1,0 +1,31 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorGeoThermal.Recipe_GeneratorGeoThermal_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Geothermal Generator",
+"Ingredients": [
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 16
+ },
+{
+      "Item": "Desc_HighSpeedConnector",
+      "Amount": 24
+ },
+{
+      "Item": "Desc_CopperSheet",
+      "Amount": 40
+ },
+{
+      "Item": "Desc_Rubber",
+      "Amount": 80
+ }
+],
+"Products": [
+{
+      "Item": "Desc_GeneratorGeoThermal",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Research_Caterium_7_2_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

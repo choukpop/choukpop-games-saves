@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/ControlSystem/SM_ControlSystem_01.SM_ControlSystem_01",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/ControlSystem/UI/IconDesc_SpelevatorPart_5_256.IconDesc_SpelevatorPart_5_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/ControlSystem/UI/IconDesc_SpelevatorPart_5_256.IconDesc_SpelevatorPart_5_256",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

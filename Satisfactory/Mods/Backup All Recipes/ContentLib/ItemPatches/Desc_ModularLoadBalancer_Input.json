@@ -1,0 +1,14 @@
+//LoadBalancers/Buildable/InputOnly/Desc_ModularLoadBalancer_Input.Desc_ModularLoadBalancer_Input_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Input Only Module",
+"NameShort": "",
+"Description": "Has only an Input.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Logistics_C",
+"StackSize": "One"
+}

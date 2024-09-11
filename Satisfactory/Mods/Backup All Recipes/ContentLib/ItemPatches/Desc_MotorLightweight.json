@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Turbo Motor",
+"NameShort": "",
+"Description": "The Turbo Motor is a more complex and more powerful version of the regular Motor.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_IndustrialParts_C",
+"StackSize": "Small"
+}

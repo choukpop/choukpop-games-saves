@@ -1,0 +1,27 @@
+//Game/FactoryGame/Schematics/Research/AlienOrganisms_RS/Research_AOrgans_0.Research_AOrgans_0_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Spitter Research",
+"Type": "MAM",
+"VisualKit": "Research_AOrgans_0_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_SpitterParts",
+      "Amount": 1
+ }],
+"Category": "SC_Organisation_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 3.0,
+"Tier": 3,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_Protein_Spitter_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

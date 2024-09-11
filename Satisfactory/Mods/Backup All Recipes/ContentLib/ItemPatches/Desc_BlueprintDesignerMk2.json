@@ -1,0 +1,19 @@
+//KBlueprintDesignPlus/Desc/Desc_BlueprintDesignerMk2.Desc_BlueprintDesignerMk2_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Blueprint Designer Mk.2",
+"NameShort": "",
+"Description": "The Blueprint Designer is used to create custom factory designs and save them as Blueprints.
+Blueprints can be accessed from the Build Menu - Blueprint tab.
+
+Note that buildings can only be placed within the Blueprint Designer if they are fully within the boundry frame.
+
+Designer Dimensions: 48m x 48m x 48m",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_TradingPost_C",
+"StackSize": "Medium"
+}

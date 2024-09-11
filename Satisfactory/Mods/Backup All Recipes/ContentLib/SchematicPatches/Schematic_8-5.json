@@ -1,0 +1,39 @@
+//Game/FactoryGame/Schematics/Progression/Schematic_8-5.Schematic_8-5_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Particle Enrichment",
+"Type": "Milestone",
+"VisualKit": "Schematic_8-5_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_ElectromagneticControlRod",
+      "Amount": 400
+ },
+{
+      "Item": "Desc_CoolingSystem",
+      "Amount": 400
+ },
+{
+      "Item": "Desc_ModularFrameFused",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_MotorLightweight",
+      "Amount": 100
+ }],
+"Category": "SC_Production_C",
+"SubCategories": [],
+"MenuPriority": 4.0,
+"Time": 1200.0,
+"Tier": 8,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_NitricAcid_C","Recipe_PackagedNitricAcid_C","Recipe_NonFissileUranium_C","Recipe_Plutonium_C","Recipe_PlutoniumCell_C","Recipe_PlutoniumFuelRod_C","Recipe_HadronCollider_C","Recipe_CopperDust_C","Recipe_PressureConversionCube_C","Recipe_SpaceElevatorPart_9_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

@@ -1,0 +1,33 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Schematic.json",
+"Name": "NewExampleSchematic",
+"Type": "Milestone",
+"VisualKit": "VisualKitSchematic",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_SteelPipe",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_Rotor",
+      "Amount": 2000
+ },
+{
+      "Item": "Desc_Wire",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 3000
+ }],
+"Category": "SC_Logistics_C",
+"SubCategories": [],
+"MenuPriority": 1.0,
+"Time": 600.0,
+"Tier": 0,
+"InventorySlotsToGive": 10,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_MinerMk2_C","Recipe_EncasedIndustrialBeam_C","Recipe_Stator_C","Recipe_Motor_C","Recipe_SpaceElevatorPart_3_C","Recipe_ModularFrameHeavy_C"],
+"DependsOn": [],
+"ItemsToGive": []
+}

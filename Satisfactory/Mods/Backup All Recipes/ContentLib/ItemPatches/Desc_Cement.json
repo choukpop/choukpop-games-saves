@@ -1,0 +1,15 @@
+//Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Concrete",
+"NameShort": "Con",
+"Description": "Used for building.
+Good for stable foundations.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Minerals_C",
+"StackSize": "Huge"
+}

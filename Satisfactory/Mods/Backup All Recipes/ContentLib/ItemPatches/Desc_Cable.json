@@ -1,0 +1,15 @@
+//Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Cable",
+"NameShort": "",
+"Description": "Used for crafting.
+Primarily used to build power lines.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Electronics_C",
+"StackSize": "Big"
+}

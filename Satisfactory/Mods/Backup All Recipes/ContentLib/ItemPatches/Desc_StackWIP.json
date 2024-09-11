@@ -1,0 +1,16 @@
+//MagicMachine/Stackable/Desc_StackWIP.Desc_StackWIP_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "MMMS Small Stack",
+"NameShort": "",
+"Description": "Can make any product very fast.
+
+Cant make Blueprints with it.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Production_C",
+"StackSize": "Medium"
+}

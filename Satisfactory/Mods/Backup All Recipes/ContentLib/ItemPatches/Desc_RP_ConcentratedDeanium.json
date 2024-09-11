@@ -1,0 +1,14 @@
+//RefinedPower/Resource/Parts/ConcentratedDeanium/Desc_RP_ConcentratedDeanium.Desc_RP_ConcentratedDeanium_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Concentrated Deanium",
+"NameShort": "",
+"Description": "Concentrated Deanium",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Liquid",
+"Category": "IC_RP_C",
+"StackSize": "Fluid"
+}

@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/Geometry/Meshes/1M_Cube_Chamfer.1M_Cube_Chamfer",
+	"BigIcon": "/Game/FactoryGame/Interface/UI/Assets/Shared/01_White.01_White",
+	"SmallIcon": "/Game/FactoryGame/Interface/UI/Assets/Shared/01_White.01_White",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Motor",
+"NameShort": "",
+"Description": "The Motor creates a mechanical force that is used to move things from machines to vehicles.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_IndustrialParts_C",
+"StackSize": "Small"
+}

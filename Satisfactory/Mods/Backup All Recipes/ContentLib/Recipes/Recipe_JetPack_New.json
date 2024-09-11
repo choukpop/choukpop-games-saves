@@ -1,0 +1,39 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Jetpack",
+"Ingredients": [
+{
+      "Item": "Desc_Plastic",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_Rubber",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_CircuitBoard",
+      "Amount": 15
+ },
+{
+      "Item": "Desc_Motor",
+      "Amount": 5
+ }
+],
+"Products": [
+{
+      "Item": "BP_EquipmentDescriptorJetPack",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 120.0,
+"ProducedIn": [],
+"OverrideCategory": "Cat_Body_C",
+"ManufacturingMenuPriority": 2.0,
+"UnlockedBy": ["Schematic_6-2_C"],
+"ManualManufacturingMultiplier": 120.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

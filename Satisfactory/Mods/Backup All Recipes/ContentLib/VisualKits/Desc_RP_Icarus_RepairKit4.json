@@ -1,0 +1,19 @@
+{
+	"Mesh": "/RefinedPower/Resource/Parts/Icarus/Mesh/SM_T4_Icarus_Item.SM_T4_Icarus_Item",
+	"BigIcon": "/RefinedPower/Resource/Parts/Icarus/Icons/Icon_RP_Icarus_RepairKit4.Icon_RP_Icarus_RepairKit4",
+	"SmallIcon": "/RefinedPower/Resource/Parts/Icarus/Icons/Icon_RP_Icarus_RepairKit4.Icon_RP_Icarus_RepairKit4",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

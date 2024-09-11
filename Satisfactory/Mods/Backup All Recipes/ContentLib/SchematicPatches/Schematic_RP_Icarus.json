@@ -1,0 +1,39 @@
+//RefinedPower/Schematics/Schematic_RP_Icarus.Schematic_RP_Icarus_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Icarus",
+"Type": "Milestone",
+"VisualKit": "Schematic_RP_Icarus_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_ComputerSuper",
+      "Amount": 30
+ },
+{
+      "Item": "Desc_SpaceElevatorPart_7",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_AluminumPlateReinforced",
+      "Amount": 30
+ },
+{
+      "Item": "Desc_CircuitBoardHighSpeed",
+      "Amount": 50
+ }],
+"Category": "SC_RP_C",
+"SubCategories": [],
+"MenuPriority": 1000.0,
+"Time": 120.0,
+"Tier": 8,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_RP_Icarus_RepairKit1_C","Recipe_RP_Icarus_RepairKit2_C","Recipe_RP_Icarus_RepairKit3_C","Recipe_RP_Icarus_RepairKit4_C","Recipe_RP_Icarus_Receiver_C","Recipe_RP_Icarus_RailGun_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

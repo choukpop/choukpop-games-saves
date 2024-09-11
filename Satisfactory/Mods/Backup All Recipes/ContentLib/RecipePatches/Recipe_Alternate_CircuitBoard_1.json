@@ -1,0 +1,32 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_CircuitBoard_1.Recipe_Alternate_CircuitBoard_1_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Silicon Circuit Board",
+"Ingredients": [
+{
+      "Item": "Desc_CopperSheet",
+      "Amount": 11
+ },
+{
+      "Item": "Desc_Silica",
+      "Amount": 11
+ }
+],
+"Products": [
+{
+      "Item": "Desc_CircuitBoard",
+      "Amount": 5
+ }
+],
+"ManufacturingDuration": 24.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_Electronics_C",
+"ManufacturingMenuPriority": 7.0,
+"UnlockedBy": ["Schematic_Alternate_CircuitBoard1_C"],
+"ManualManufacturingMultiplier": 24.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

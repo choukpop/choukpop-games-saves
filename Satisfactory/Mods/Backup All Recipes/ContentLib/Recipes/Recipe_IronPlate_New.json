@@ -1,0 +1,27 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Iron Plate",
+"Ingredients": [
+{
+      "Item": "Desc_IronIngot",
+      "Amount": 3
+ }
+],
+"Products": [
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 6.0,
+"ProducedIn": ["Build_ConstructorMk1_C","FGBuildableAutomatedWorkBench"],
+"OverrideCategory": "Cat_StandardParts_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schematic_StartingRecipes_C"],
+"ManualManufacturingMultiplier": 6.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

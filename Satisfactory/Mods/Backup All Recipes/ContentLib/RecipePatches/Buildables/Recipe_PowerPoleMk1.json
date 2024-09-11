@@ -1,0 +1,27 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleMk1.Recipe_PowerPoleMk1_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Power Pole Mk.1",
+"Ingredients": [
+{
+      "Item": "Desc_Wire",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_IronRod",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_PowerPoleMk1",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_Tutorial2_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

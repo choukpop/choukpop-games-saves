@@ -1,0 +1,38 @@
+{
+  "Class": "/Game/FactoryGame/Buildable/Factory/MinerMK1/Build_MinerMk1.Build_MinerMk1_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 5.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.321929
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": true
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 5.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Miner Mk.1"
+ },
+{
+"Property": "mDescription",
+"Value": "Extracts solid resources from the resource node it is built on. 
+The normal extraction rate is 60 resources per minute. 
+The extraction rate is modified depending on resource node purity. Outputs all extracted resources onto connected conveyor belts."
+ },
+{
+"Property": "mHologramClass",
+"Value": "FGResourceExtractorHologram"
+ },
+{
+"Property": "mExtractCycleTime",
+"Value": 1.0
+ }]
+}

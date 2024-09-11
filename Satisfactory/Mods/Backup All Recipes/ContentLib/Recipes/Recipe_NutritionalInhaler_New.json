@@ -1,0 +1,35 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Nutritional Inhaler",
+"Ingredients": [
+{
+      "Item": "Desc_Shroom",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_Berry",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_Nut",
+      "Amount": 5
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Medkit",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 20.0,
+"ProducedIn": [],
+"OverrideCategory": "Cat_Consumables_C",
+"ManufacturingMenuPriority": 5.0,
+"UnlockedBy": ["Research_Nutrients_4_C"],
+"ManualManufacturingMultiplier": 20.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

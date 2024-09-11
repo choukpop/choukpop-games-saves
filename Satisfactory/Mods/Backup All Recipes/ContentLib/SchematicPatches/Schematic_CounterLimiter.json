@@ -1,0 +1,31 @@
+//CounterLimiter/Schematics/Schematic_CounterLimiter.Schematic_CounterLimiter_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Throughput Counter and Limiter",
+"Type": "Milestone",
+"VisualKit": "Schematic_CounterLimiter_C",
+"Description": "A conveyor belt attachment that counts and displays the actual item throughput per minute. Can optionally limit the number of items allowed per minute.",
+"Cost": [{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_Rotor",
+      "Amount": 30
+ }],
+"Category": "SC_Logistics_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 60.0,
+"Tier": 2,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_CounterLimiter_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

@@ -1,0 +1,14 @@
+//RefinedPower/Buildables/Factory/ModularPower/MPPlatforms/CoolingPlatform/Desc_RP_MP_CoolingPlatform.Desc_RP_MP_CoolingPlatform_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Cooling Platform",
+"NameShort": "",
+"Description": "Used to place Steam and Co2 chimneys.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_RefinedPower_C",
+"StackSize": "Medium"
+}

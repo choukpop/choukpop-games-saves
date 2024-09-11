@@ -1,0 +1,27 @@
+//Game/FactoryGame/Schematics/Research/AlienOrganisms_RS/Research_AO_Stinger.Research_AO_Stinger_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Stinger Research",
+"Type": "MAM",
+"VisualKit": "Research_AO_Stinger_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_StingerParts",
+      "Amount": 1
+ }],
+"Category": "SC_Organisation_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 3.0,
+"Tier": 3,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_Protein_Stinger_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

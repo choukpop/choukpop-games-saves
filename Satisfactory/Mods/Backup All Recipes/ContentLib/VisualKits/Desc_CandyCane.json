@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Events/Christmas/Art/CandyCaneBasher/Mesh/SM_CandyCane_Conveyor_01.SM_CandyCane_Conveyor_01",
+	"BigIcon": "/Game/FactoryGame/Events/Christmas/Parts/UI/IconDesc_CanePart_256.IconDesc_CanePart_256",
+	"SmallIcon": "/Game/FactoryGame/Events/Christmas/Parts/UI/IconDesc_CanePart_256.IconDesc_CanePart_256",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

@@ -1,0 +1,17 @@
+//Teleporter/Buildables/DeanTelepad/Desc_DeanTelepad.Desc_DeanTelepad_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Robust Teleporter",
+"NameShort": "",
+"Description": "Teleport you to other teleporters. Interact to select a destination or configure a link.
+Variants are functionally identical.
+
+Draws 20 MW.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Vehicles_C",
+"StackSize": "Medium"
+}

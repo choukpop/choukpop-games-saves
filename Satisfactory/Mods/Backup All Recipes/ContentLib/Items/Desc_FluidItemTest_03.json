@@ -1,0 +1,14 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Test Fluid Item 3",
+"NameShort": "TFI",
+"Description": "It's nothing.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"VisualKit": "Desc_FluidItemTest_03",
+"Form": "Liquid",
+"Category": "Cat_Unpackaging_C",
+"StackSize": "Fluid"
+}

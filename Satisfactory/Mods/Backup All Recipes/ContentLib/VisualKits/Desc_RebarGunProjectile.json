@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Equipment/RebarGun/Mesh/RebarGun_GroundMesh.RebarGun_GroundMesh",
+	"BigIcon": "/Game/FactoryGame/Resource/Equipment/NailGun/UI/IconDesc_RebarGun_256.IconDesc_RebarGun_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Equipment/NailGun/UI/IconDesc_RebarGun_256.IconDesc_RebarGun_256",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

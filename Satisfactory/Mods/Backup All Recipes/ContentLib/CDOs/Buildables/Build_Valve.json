@@ -1,0 +1,47 @@
+{
+  "Class": "/Game/FactoryGame/Buildable/Factory/PipeValve/Build_Valve.Build_Valve_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 0.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.6
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": false
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 5.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Valve"
+ },
+{
+"Property": "mDescription",
+"Value": "Used to limit Pipeline flow rates.
+Can be attached to a Pipeline.
+
+NOTE: Has an in- and output direction."
+ },
+{
+"Property": "mHologramClass",
+"Value": "FGPipelineAttachmentHologram"
+ },
+{
+"Property": "mMaxPressure",
+"Value": 0.0
+ },
+{
+"Property": "mDefaultFlowLimit",
+"Value": 10.0
+ },
+{
+"Property": "mMinimumFlowPrecentForStandby",
+"Value": 0.05
+ }]
+}

@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/RefinedPower/Buildables/Icarus/Icon_RP_Icarus_Receiver.Icon_RP_Icarus_Receiver",
+	"SmallIcon": "/RefinedPower/Buildables/Icarus/Icon_RP_Icarus_Receiver.Icon_RP_Icarus_Receiver",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

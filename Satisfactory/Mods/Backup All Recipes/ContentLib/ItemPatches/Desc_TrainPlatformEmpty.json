@@ -1,0 +1,14 @@
+//Game/FactoryGame/Buildable/Factory/Train/Station/Desc_TrainPlatformEmpty.Desc_TrainPlatformEmpty_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Empty Platform",
+"NameShort": "",
+"Description": "An empty train platform for when you need to create some empty space.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Vehicles_C",
+"StackSize": "Medium"
+}

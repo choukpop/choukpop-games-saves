@@ -1,0 +1,38 @@
+{
+  "Class": "/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 15.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.321929
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": false
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 5.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Assembler"
+ },
+{
+"Property": "mDescription",
+"Value": "Crafts two parts into another part.
+
+Can be automated by feeding parts into it with a conveyor belt connected to the input. The produced parts can be automatically extracted by connecting a conveyor belt to the output."
+ },
+{
+"Property": "mHologramClass",
+"Value": "FGFactoryHologram"
+ },
+{
+"Property": "mManufacturingSpeed",
+"Value": 1.0
+ }]
+}

@@ -1,0 +1,27 @@
+//Game/FactoryGame/Schematics/Story/Schematic_ObjectScanner_WAT1.Schematic_ObjectScanner_WAT1_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Object Scanner: Somersloop",
+"Type": "Story",
+"VisualKit": "Schematic_ObjectScanner_WAT1_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_WAT1",
+      "Amount": 1
+ }],
+"Category": "SC_Logistics_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 300.0,
+"Tier": 1,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": [],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

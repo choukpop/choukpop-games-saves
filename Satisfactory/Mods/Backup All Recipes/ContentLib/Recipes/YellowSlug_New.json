@@ -1,0 +1,31 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Yellow Slug",
+"Ingredients": [
+{
+      "Item": "Desc_SpaceElevatorPart_2",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_SpaceElevatorPart_3",
+      "Amount": 5
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Crystal_mk2",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 10.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_PowerShards_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["YellowSchem_C"],
+"ManualManufacturingMultiplier": 10.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

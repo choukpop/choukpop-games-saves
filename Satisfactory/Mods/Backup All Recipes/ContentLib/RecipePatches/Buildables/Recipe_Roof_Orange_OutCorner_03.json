@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Orange_OutCorner_03.Recipe_Roof_Orange_OutCorner_03_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Outer Corner Roof 4m",
+"Ingredients": [
+{
+      "Item": "Desc_Cement",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Roof_Orange_OutCorner_03",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_Roofs_Corners_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

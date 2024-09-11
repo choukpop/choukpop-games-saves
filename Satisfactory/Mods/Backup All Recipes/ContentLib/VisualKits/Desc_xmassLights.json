@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/Game/FactoryGame/Buildable/Factory/PowerLine/UI/Powerline_256.Powerline_256",
+	"SmallIcon": "/Game/FactoryGame/Buildable/Factory/PowerLine/UI/Powerline_256.Powerline_256",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

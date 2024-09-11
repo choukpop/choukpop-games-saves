@@ -1,0 +1,52 @@
+{
+  "Class": "/RefinedPower/Buildables/Factory/MicroReactor/Build_RP_MicroReactor.Build_RP_MicroReactor_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 0.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.6
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": false
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 5.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Micro Reactor"
+ },
+{
+"Property": "mDescription",
+"Value": "A small micro reactor capiable of 1GW of power!"
+ },
+{
+"Property": "mHologramClass",
+"Value": "FGFactoryHologram"
+ },
+{
+"Property": "mPowerProduction",
+"Value": 1000.0
+ },
+{
+"Property": "mSupplementalResourceClass",
+"Value": ""
+ },
+{
+"Property": "mSupplementalToPowerRatio",
+"Value": 0.0
+ },
+{
+"Property": "mSupplementalLoadAmount",
+"Value": 0
+ },
+{
+"Property": "mIsFullBlast",
+"Value": true
+ }]
+}

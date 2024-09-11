@@ -1,0 +1,19 @@
+//Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_PillarMiddle_Frame.Recipe_PillarMiddle_Frame_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Big Frame Pillar",
+"Ingredients": [
+{
+      "Item": "Desc_SteelPlate",
+      "Amount": 5
+ }
+],
+"Products": [
+{
+      "Item": "Desc_PillarMiddle_Frame",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_FramePillarSet_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

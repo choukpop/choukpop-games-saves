@@ -1,0 +1,19 @@
+{
+	"Mesh": "/RefinedPower/Resource/Parts/Canisters/Models/HPCanister.HPCanister",
+	"BigIcon": "/RefinedPower/Resource/Parts/Canisters/UI/HP_Canister_Icon.HP_Canister_Icon",
+	"SmallIcon": "/RefinedPower/Resource/Parts/Canisters/UI/HP_Canister_Icon.HP_Canister_Icon",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

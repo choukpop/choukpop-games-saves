@@ -1,0 +1,20 @@
+{
+  "Class": "/Game/FactoryGame/Buildable/Factory/ConveyorBeltMk5/Build_ConveyorBeltMk5.Build_ConveyorBeltMk5_C",
+  "Edits": [
+{
+"Property": "mDisplayName",
+"Value": "Conveyor Belt Mk.5"
+ },
+{
+"Property": "mDescription",
+"Value": "Transports up to 780 resources per minute. Used to move resources between buildings."
+ },
+{
+"Property": "mHologramClass",
+"Value": "Holo_ConveyorBelt_C"
+ },
+{
+"Property": "mSpeed",
+"Value": 1560.0
+ }]
+}

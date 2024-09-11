@@ -1,0 +1,31 @@
+//RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Generators/HVGenerator/Recipe_RP_MP_HVGenerator.Recipe_RP_MP_HVGenerator_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "HV Generator",
+"Ingredients": [
+{
+      "Item": "Desc_ComputerSuper",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_HighSpeedWire",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_HighSpeedConnector",
+      "Amount": 15
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RP_MP_HVGenerator",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_RP_MP_4_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

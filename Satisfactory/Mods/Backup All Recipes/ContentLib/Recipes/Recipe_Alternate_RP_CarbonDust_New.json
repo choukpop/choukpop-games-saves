@@ -1,0 +1,31 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Co2 Carbon Dust",
+"Ingredients": [
+{
+      "Item": "Desc_RP_Co2",
+      "Amount": 15000
+ },
+{
+      "Item": "Desc_Stone",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RP_CarbonDust",
+      "Amount": 9
+ }
+],
+"ManufacturingDuration": 3.0,
+"ProducedIn": ["Build_OilRefinery_C"],
+"OverrideCategory": "IC_RP_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schematic_RP_MP_3_C"],
+"ManualManufacturingMultiplier": 3.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

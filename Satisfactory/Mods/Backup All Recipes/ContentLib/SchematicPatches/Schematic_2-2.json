@@ -1,0 +1,35 @@
+//Game/FactoryGame/Schematics/Progression/Schematic_2-2.Schematic_2-2_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Obstacle Clearing",
+"Type": "Milestone",
+"VisualKit": "Schematic_2-2_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_IronScrew",
+      "Amount": 500
+ },
+{
+      "Item": "Desc_Cable",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 100
+ }],
+"Category": "SC_Logistics_C",
+"SubCategories": [],
+"MenuPriority": 2.0,
+"Time": 180.0,
+"Tier": 2,
+"InventorySlotsToGive": 3,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_Chainsaw_C","Recipe_Biofuel_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

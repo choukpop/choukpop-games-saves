@@ -1,0 +1,35 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Gas Mask",
+"Ingredients": [
+{
+      "Item": "Desc_Rubber",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_Plastic",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_Fabric",
+      "Amount": 100
+ }
+],
+"Products": [
+{
+      "Item": "BP_EquipmentDescriptorGasmask",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 60.0,
+"ProducedIn": [],
+"OverrideCategory": "Cat_Body_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schematic_6-4_C"],
+"ManualManufacturingMultiplier": 60.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

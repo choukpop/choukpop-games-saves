@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_IndustrialTank.Recipe_IndustrialTank_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Industrial Fluid Buffer",
+"Ingredients": [
+{
+      "Item": "Desc_Plastic",
+      "Amount": 30
+ },
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 3
+ }
+],
+"Products": [
+{
+      "Item": "Desc_IndustrialTank",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_5-4_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

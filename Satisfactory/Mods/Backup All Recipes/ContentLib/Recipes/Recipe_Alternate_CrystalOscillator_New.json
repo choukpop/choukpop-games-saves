@@ -1,0 +1,35 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alternate: Insulated Crystal Oscillator",
+"Ingredients": [
+{
+      "Item": "Desc_QuartzCrystal",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_Rubber",
+      "Amount": 7
+ },
+{
+      "Item": "Desc_CircuitBoardHighSpeed",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_CrystalOscillator",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 32.0,
+"ProducedIn": ["Build_ManufacturerMk1_C"],
+"OverrideCategory": "Cat_Communications_C",
+"ManufacturingMenuPriority": 4.0,
+"UnlockedBy": ["Schematic_Alternate_CrystalOscillator_C"],
+"ManualManufacturingMultiplier": 32.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

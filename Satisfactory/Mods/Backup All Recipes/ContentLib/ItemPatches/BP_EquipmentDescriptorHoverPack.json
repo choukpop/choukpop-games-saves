@@ -1,0 +1,19 @@
+//Game/FactoryGame/Resource/Equipment/HoverPack/BP_EquipmentDescriptorHoverPack.BP_EquipmentDescriptorHoverPack_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Hover Pack",
+"NameShort": "",
+"Description": "Power consumption: 100 MW
+
+Allows for vertical movement and hovering in mid-air to improve building efficiency and factory traversal. Wirelessly connects to nearby power connections, such as Power Poles and Buildings, for power consumption.
+
+Slow-fall: Hold Space Bar after losing connection mid-air.
+Disable Hoverpack: Double tap Left Ctrl while hovering.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Body_C",
+"StackSize": "One"
+}

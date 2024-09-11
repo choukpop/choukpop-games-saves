@@ -1,0 +1,16 @@
+//Game/FactoryGame/Buildable/Factory/PowerSwitch/Desc_PowerSwitch.Desc_PowerSwitch_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Power Switch",
+"NameShort": "",
+"Description": "Can be switched ON/OFF to enable/disable the connection between two Power Grids.
+
+Note the location of the A and B connections.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Power_C",
+"StackSize": "Medium"
+}

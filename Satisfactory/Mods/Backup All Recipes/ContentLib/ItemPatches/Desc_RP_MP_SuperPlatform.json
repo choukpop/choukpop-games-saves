@@ -1,0 +1,14 @@
+//RefinedPower/Buildables/Factory/ModularPower/MPPlatforms/SuperPlatform/Desc_RP_MP_SuperPlatform.Desc_RP_MP_SuperPlatform_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Super Conductor Platform",
+"NameShort": "",
+"Description": "Used to place any type of steam turbine and any type of generator to produce power.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_RefinedPower_C",
+"StackSize": "Medium"
+}

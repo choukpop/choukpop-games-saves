@@ -1,0 +1,32 @@
+//RefinedPower/Resource/RawResources/CloudyCoolant/Recipe_RP_CloudyCoolant.Recipe_RP_CloudyCoolant_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Cloudy Coolant",
+"Ingredients": [
+{
+      "Item": "Desc_Water",
+      "Amount": 1000
+ },
+{
+      "Item": "Desc_RP_CoolantPowder",
+      "Amount": 20
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RP_CloudyCoolant",
+      "Amount": 2000
+ }
+],
+"ManufacturingDuration": 12.0,
+"ProducedIn": ["Build_OilRefinery_C"],
+"OverrideCategory": "IC_RP_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schematic_RP_7_1_C"],
+"ManualManufacturingMultiplier": 12.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

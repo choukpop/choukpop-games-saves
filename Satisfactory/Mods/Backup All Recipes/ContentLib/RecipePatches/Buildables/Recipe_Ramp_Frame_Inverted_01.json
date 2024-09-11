@@ -1,0 +1,19 @@
+//Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_Frame_Inverted_01.Recipe_Ramp_Frame_Inverted_01_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Inverted Frame Ramp",
+"Ingredients": [
+{
+      "Item": "Desc_SteelPlate",
+      "Amount": 5
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Ramp_Frame_Inverted_01",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_FrameworkFoundations_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

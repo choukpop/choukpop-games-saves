@@ -1,0 +1,14 @@
+//Game/FactoryGame/Buildable/Factory/StoragePlayer/Desc_StorageHazard.Desc_StorageHazard_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Hazard Storage Box",
+"NameShort": "",
+"Description": "Contains 25 slots for storing large amounts of items.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Organization_C",
+"StackSize": "Medium"
+}

@@ -1,0 +1,32 @@
+//Game/FactoryGame/Events/Christmas/Parts/Recipe_XmasBallCluster.Recipe_XmasBallCluster_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "FICSMAS Ornament Bundle",
+"Ingredients": [
+{
+      "Item": "Desc_XmasBall3",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_XmasBall4",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_XmasBallCluster",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 12.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_FICSMAS_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Research_XMas_3-1_C"],
+"ManualManufacturingMultiplier": 12.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

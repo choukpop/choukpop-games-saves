@@ -1,0 +1,19 @@
+{
+	"Mesh": "/SuperChainsaw/Equipment/SuperChainsaw/Mesh/SuperChainsaw_dropped.SuperChainsaw_dropped",
+	"BigIcon": "/SuperChainsaw/Equipment/SuperChainsaw/UI/SuperChainsaw_256.SuperChainsaw_256",
+	"SmallIcon": "/SuperChainsaw/Equipment/SuperChainsaw/UI/SuperChainsaw_256.SuperChainsaw_256",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

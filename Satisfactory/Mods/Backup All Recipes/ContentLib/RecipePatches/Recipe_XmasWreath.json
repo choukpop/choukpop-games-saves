@@ -1,0 +1,32 @@
+//Game/FactoryGame/Events/Christmas/Parts/Recipe_XmasWreath.Recipe_XmasWreath_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "FICSMAS Decoration",
+"Ingredients": [
+{
+      "Item": "Desc_XmasBranch",
+      "Amount": 15
+ },
+{
+      "Item": "Desc_XmasBallCluster",
+      "Amount": 6
+ }
+],
+"Products": [
+{
+      "Item": "Desc_XmasWreath",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 60.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_FICSMAS_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Research_XMas_3-2_C"],
+"ManualManufacturingMultiplier": 60.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

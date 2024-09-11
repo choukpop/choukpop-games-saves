@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleWallMk3.Recipe_PowerPoleWallMk3_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Wall Outlet Mk.3",
+"Ingredients": [
+{
+      "Item": "Desc_HighSpeedConnector",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 3
+ }
+],
+"Products": [
+{
+      "Item": "Desc_PowerPoleWallMk3",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_WallPowerPolesMK3_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

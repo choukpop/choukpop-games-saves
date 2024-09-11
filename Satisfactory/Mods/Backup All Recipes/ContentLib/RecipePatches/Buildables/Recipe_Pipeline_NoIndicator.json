@@ -1,0 +1,19 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_Pipeline_NoIndicator.Recipe_Pipeline_NoIndicator_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Pipeline Mk.1 (No Indicator)",
+"Ingredients": [
+{
+      "Item": "Desc_CopperSheet",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Pipeline_NoIndicator",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_NoIndicator_PipelineMK1_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

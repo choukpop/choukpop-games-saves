@@ -1,0 +1,16 @@
+//RefinedPower/Buildables/Factory/WindTurbine_Mk1/Desc_WindTurbine_Mk1.Desc_WindTurbine_Mk1_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Wind Turbine Mk1",
+"NameShort": "",
+"Description": "The power generation ranges between 10MW and 30MW, contingent upon the turbine's height. If multiple turbines are within its vicinity, the output diminishes. Each additional wind turbine within range decreases the power output.
+
+Furthermore, it can be connected in a sequence of up to two power lines, allowing for daisy chaining.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_RefinedPower_C",
+"StackSize": "Medium"
+}

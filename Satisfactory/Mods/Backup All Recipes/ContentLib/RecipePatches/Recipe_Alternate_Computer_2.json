@@ -1,0 +1,32 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_Computer_2.Recipe_Alternate_Computer_2_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Crystal Computer",
+"Ingredients": [
+{
+      "Item": "Desc_CircuitBoard",
+      "Amount": 8
+ },
+{
+      "Item": "Desc_CrystalOscillator",
+      "Amount": 3
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Computer",
+      "Amount": 3
+ }
+],
+"ManufacturingDuration": 64.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_Electronics_C",
+"ManufacturingMenuPriority": 9.0,
+"UnlockedBy": ["Schematic_Alternate_Computer2_C"],
+"ManualManufacturingMultiplier": 64.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

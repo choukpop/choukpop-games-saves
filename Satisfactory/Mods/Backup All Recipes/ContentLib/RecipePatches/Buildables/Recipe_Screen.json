@@ -1,0 +1,19 @@
+//ContainerScreen/BuildableScreen/Recipe_Screen.Recipe_Screen_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Info Screen",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Screen",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schem_CS_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

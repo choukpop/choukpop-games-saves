@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/RefinedPower/Textures/Icons/LiquidWater_Pipe_512_DP.LiquidWater_Pipe_512_DP",
+	"SmallIcon": "/RefinedPower/Textures/Icons/LiquidWater_Pipe_512_DP.LiquidWater_Pipe_512_DP",
+	"FluidColor":
+	{
+		"r": 97,
+		"g": 0,
+		"b": 44,
+		"a": 255
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	}
+}

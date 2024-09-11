@@ -1,0 +1,18 @@
+//Game/FactoryGame/Resource/Parts/PlutoniumPellet/Desc_PlutoniumPellet.Desc_PlutoniumPellet_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Plutonium Pellet",
+"NameShort": "",
+"Description": "Produced in the Particle Accelerator through conversion of Non-fissile Uranium.
+Used to produce Encased Plutonium Cells for Plutonium Fuel Rods.
+
+Power Usage: 250-750 MW (500 MW average).
+Caution: Moderately Radioactive.",
+"CanBeDiscarded": false,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 20.0,
+"Form": "Solid",
+"Category": "Cat_Nuclear_C",
+"StackSize": "Medium"
+}

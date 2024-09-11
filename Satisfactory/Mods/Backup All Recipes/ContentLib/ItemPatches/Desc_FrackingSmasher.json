@@ -1,0 +1,16 @@
+//Game/FactoryGame/Buildable/Factory/FrackingSmasher/Desc_FrackingSmasher.Desc_FrackingSmasher_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Resource Well Pressurizer",
+"NameShort": "",
+"Description": "Can be placed on a Resource Well to activate it by pressurizing the underground resource.
+Once activated, Resource Well Extractors can be placed on the surrounding sub-nodes to extract the resource.
+Requires Power. Overclocking increases the output potential of the entire Resource Well.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Production_C",
+"StackSize": "Medium"
+}

@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Conveyor_8x4_04_Steel.Recipe_Wall_Conveyor_8x4_04_Steel_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Wall Conveyor Perpendicular",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 3
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Wall_Conveyor_8x4_04_Steel",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_SaveCompatibility_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Catwalks/Recipe_Catwalk_Cross.Recipe_Catwalk_Cross_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Catwalk Crossing",
+"Ingredients": [
+{
+      "Item": "Desc_IronRod",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_CatwalkCross",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_Catwalks_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

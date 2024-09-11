@@ -1,0 +1,15 @@
+//Game/FactoryGame/Buildable/Factory/Mam/Desc_Mam.Desc_Mam_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "MAM",
+"NameShort": "",
+"Description": "The Molecular Analysis Machine is used to analyze new and exotic materials found on alien planets.
+R&D will assist Pioneers through the MAM to turn any valuable data into usable research options and new technologies.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_TradingPost_C",
+"StackSize": "Medium"
+}

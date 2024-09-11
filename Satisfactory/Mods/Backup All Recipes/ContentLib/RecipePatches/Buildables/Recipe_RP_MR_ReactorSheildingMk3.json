@@ -1,0 +1,31 @@
+//RefinedPower/Buildables/Factory/ModularReactor/Sheilding/Mk3/Recipe_RP_MR_ReactorSheildingMk3.Recipe_RP_MR_ReactorSheildingMk3_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Reactor Shielding Mk3",
+"Ingredients": [
+{
+      "Item": "Desc_AluminumPlate",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_HighSpeedConnector",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_CircuitBoardHighSpeed",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_ComputerSuper",
+      "Amount": 10
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RP_MR_ReactorSheildingMk3",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_RP_MR_3_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

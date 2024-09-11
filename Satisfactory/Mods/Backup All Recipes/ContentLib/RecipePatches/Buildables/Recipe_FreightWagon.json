@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Vehicle/Train/Recipe_FreightWagon.Recipe_FreightWagon_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Freight Car",
+"Ingredients": [
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 4
+ },
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 10
+ }
+],
+"Products": [
+{
+      "Item": "Desc_FreightWagon",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_6-3_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

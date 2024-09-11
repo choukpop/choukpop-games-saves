@@ -1,0 +1,31 @@
+//Game/FactoryGame/Schematics/Research/Mycelia_RS/Research_Mycelia_5.Research_Mycelia_5_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Vitamin Inhaler",
+"Type": "MAM",
+"VisualKit": "Research_Mycelia_5_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_Mycelia",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_Berry",
+      "Amount": 5
+ }],
+"Category": "SC_Organisation_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 3.0,
+"Tier": 3,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_MedicinalInhaler_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

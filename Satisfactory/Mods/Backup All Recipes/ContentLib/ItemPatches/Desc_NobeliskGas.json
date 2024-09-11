@@ -1,0 +1,14 @@
+//Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Desc_NobeliskGas.Desc_NobeliskGas_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Gas Nobelisk",
+"NameShort": "",
+"Description": "Instead of a regular explosion, this Nobelisk creates a deadly gas cloud.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Ammunition_C",
+"StackSize": "Small"
+}

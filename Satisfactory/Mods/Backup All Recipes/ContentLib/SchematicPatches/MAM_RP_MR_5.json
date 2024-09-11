@@ -1,0 +1,27 @@
+//RefinedPower/Schematics/MAM/MAM_RP_MR_5.MAM_RP_MR_5_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Fuel Automation",
+"Type": "MAM",
+"VisualKit": "MAM_RP_MR_5_C",
+"Description": "Automate the process of fuel insertion with the Reactor IO Module.",
+"Cost": [{
+      "Item": "Desc_RP_AdvReactorCore",
+      "Amount": 10
+ }],
+"Category": "",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 120.0,
+"Tier": 0,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_RP_MR_ReactorIO_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

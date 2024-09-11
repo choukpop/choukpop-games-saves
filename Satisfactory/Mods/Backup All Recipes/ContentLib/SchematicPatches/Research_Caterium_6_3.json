@@ -1,0 +1,31 @@
+//Game/FactoryGame/Schematics/Research/Caterium_RS/Research_Caterium_6_3.Research_Caterium_6_3_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Bullet Guidance System",
+"Type": "MAM",
+"VisualKit": "Research_Caterium_6_3_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_HighSpeedConnector",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_CartridgeStandard",
+      "Amount": 500
+ }],
+"Category": "SC_Production_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 3.0,
+"Tier": 3,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_CartridgeSmart_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

@@ -1,0 +1,14 @@
+//RefinedPower/Buildables/Icarus/RailGun/Desc_RP_Icarus_RailGun.Desc_RP_Icarus_RailGun_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Icarus Rail Gun",
+"NameShort": "",
+"Description": "A Rail Gun to shoot resources into space to maintain the Solar Ray Reflector",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_RefinedPower_C",
+"StackSize": "One"
+}

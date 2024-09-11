@@ -1,0 +1,27 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_OilPump.Recipe_OilPump_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Oil Extractor",
+"Ingredients": [
+{
+      "Item": "Desc_Motor",
+      "Amount": 15
+ },
+{
+      "Item": "Desc_SteelPlateReinforced",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_Cable",
+      "Amount": 60
+ }
+],
+"Products": [
+{
+      "Item": "Desc_OilPump",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_5-1_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

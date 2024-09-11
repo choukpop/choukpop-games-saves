@@ -1,0 +1,17 @@
+//Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x8_Corner_2.Desc_Wall_Concrete_8x8_Corner_2_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Tilted Concave Wall 8m",
+"NameShort": "",
+"Description": "Snaps to foundations and other walls.
+Useful for building multi-floor structures.
+
+Size: 8m x 8m",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Walls_C",
+"StackSize": "Medium"
+}

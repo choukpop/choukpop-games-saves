@@ -1,0 +1,28 @@
+//MagicMachine/FluidSpawner/Spawn_Fluid_Rec.Spawn_Fluid_Rec_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Tele",
+"Ingredients": [
+{
+      "Item": "Desc_Water",
+      "Amount": 1000000
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Water",
+      "Amount": 1000000
+ }
+],
+"ManufacturingDuration": 180.0,
+"ProducedIn": ["Build_FT_In_C"],
+"OverrideCategory": "Cat_AdvancedRefinement_C",
+"ManufacturingMenuPriority": 1.0,
+"UnlockedBy": ["Schem_Magic_C"],
+"ManualManufacturingMultiplier": 180.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

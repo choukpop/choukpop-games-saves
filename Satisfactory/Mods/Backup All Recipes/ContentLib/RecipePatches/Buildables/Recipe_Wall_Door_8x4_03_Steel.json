@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Door_8x4_03_Steel.Recipe_Wall_Door_8x4_03_Steel_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Side Door Wall",
+"Ingredients": [
+{
+      "Item": "Desc_Cement",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_SteelPlate",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Wall_Door_8x4_03_Steel",
+      "Amount": 1
+ }],
+"UnlockedBy": ["CBG_Steel_Walls_Doors_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

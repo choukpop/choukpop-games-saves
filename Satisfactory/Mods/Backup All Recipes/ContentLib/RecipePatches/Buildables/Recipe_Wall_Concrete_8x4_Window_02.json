@@ -1,0 +1,23 @@
+//Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_Window_02.Recipe_Wall_Concrete_8x4_Window_02_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Frame Window",
+"Ingredients": [
+{
+      "Item": "Desc_Silica",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Wall_Concrete_8x4_Window_02",
+      "Amount": 1
+ }],
+"UnlockedBy": ["CBG_Concrete_Walls_Windows_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

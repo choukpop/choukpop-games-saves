@@ -1,0 +1,31 @@
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Liquid Deuterium",
+"Ingredients": [
+{
+      "Item": "Desc_RP_UnfilteredDeuterium",
+      "Amount": 1000
+ },
+{
+      "Item": "Desc_Water",
+      "Amount": 2000
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RP_LiquidDeuterium",
+      "Amount": 1000
+ }
+],
+"ManufacturingDuration": 10.0,
+"ProducedIn": ["Build_Blender_C"],
+"OverrideCategory": "IC_RP_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schematic_RP_7_1_C"],
+"ManualManufacturingMultiplier": 10.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

@@ -1,0 +1,17 @@
+//Game/FactoryGame/Resource/Environment/Berry/Desc_Berry.Desc_Berry_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+"Name": "Paleberry",
+"NameShort": "",
+"Description": "Slot: Hands
+Consumable
+
+Can be eaten to restore one health segment.",
+"CanBeDiscarded": true,
+"RememberPickUp": true,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "",
+"StackSize": "Small"
+}
