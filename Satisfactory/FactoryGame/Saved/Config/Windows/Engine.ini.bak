@@ -72,8 +72,8 @@ Paths=../../../FactoryGame/Plugins/XeSS/Content
 Culture=en-US
 
 [/Script/Engine.Player]
-ConfiguredInternetSpeed=120000
-ConfiguredLanSpeed=130000
+ConfiguredInternetSpeed=200000
+ConfiguredLanSpeed=220000
 
 [/Script/OnlineSubsystemUtils.IpNetDriver]
 MaxClientRate=120000
@@ -92,9 +92,7 @@ MaxClientRate=200000
 MaxInternetClientRate=200000
 
 [/Script/FactoryGame.FGGameEngine]
-GlobalNetTravelCount=26
-NetDriverDefinitions=(DefName="GameNetDriver",DriverClassName="/Script/OnlineSubsystemUtils.IpNetDriver",DriverClassNameFallback="/Script/OnlineSubsystemUtils.IpNetDriver",MaxChannelsOverride=-1)
-NetDriverDefinitions=(DefName="BeaconNetDriver",DriverClassName="/Script/OnlineSubsystemUtils.IpNetDriver",DriverClassNameFallback="/Script/OnlineSubsystemUtils.IpNetDriver",MaxChannelsOverride=-1)
+GlobalNetTravelCount=5
 
 [SystemSettings]
 r.Fog=0
