@@ -1,0 +1,53 @@
+C:\Users\ChouKpop\AppData\Local\FactoryGame
+
+76561198255923205 - Main Account (andre_pt611)
+76561199570726859 - Rias Gremory (choukpopwithoutcheats1)
+
+Coal = 202020
+Limestone = C8BFA7
+Copper = BD4C39
+Iron = 8E5C5C
+Caterium = E2B148
+Quartz = F177B5
+Water = 1662AD
+Sam = 3A005A
+Bauxite = CD7660
+Nitrogen Gas = 00FFF5
+
+
+
+=> Mods (Custom Swatch)
+Oil = 271952
+Heavy Oil = 52194E
+Fuel = CB6C00
+Turbofuel = 880000
+Water = 1662AD
+Junction = 000000
+
+
+
+
+
+
+
+
+
+
+!tp base
+!tp concrete
+!tp iron
+!tp steel
+!tp copper
+!tp elevator
+
+
+
+
+
+
+
+
+
+
+
+
