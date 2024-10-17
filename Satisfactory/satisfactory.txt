@@ -13,7 +13,7 @@ Water = 1662AD
 Sam = 3A005A
 Bauxite = CD7660
 Nitrogen Gas = 00FFF5
-
+Uranium = 88D288
 
 
 => Mods (Custom Swatch)

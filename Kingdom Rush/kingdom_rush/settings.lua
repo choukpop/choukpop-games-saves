@@ -1,6 +1,6 @@
 local obj1 = {
 	["fps"] = 60;
-	["fullscreen"] = false;
+	["fullscreen"] = true;
 	["height"] = 1080;
 	["highdpi"] = false;
 	["large_pointer"] = false;
@@ -8,8 +8,8 @@ local obj1 = {
 	["msaa"] = 0;
 	["pause_on_switch"] = false;
 	["texture_size"] = "fullhd";
-	["volume_fx"] = 0.29734006734007;
-	["volume_music"] = 0.1306734006734;
+	["volume_fx"] = 0.48420875420875;
+	["volume_music"] = 0.11804713804714;
 	["vsync"] = false;
 	["width"] = 1920;
 }
