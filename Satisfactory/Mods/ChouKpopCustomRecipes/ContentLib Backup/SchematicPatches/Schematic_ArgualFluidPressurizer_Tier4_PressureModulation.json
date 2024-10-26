@@ -1,0 +1,39 @@
+//ArgualFluidPressurizer/Schematics/Schematic_ArgualFluidPressurizer_Tier4_PressureModulation.Schematic_ArgualFluidPressurizer_Tier4_PressureModulation_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Pressure Modulation",
+"Type": "Milestone",
+"VisualKit": "Schematic_ArgualFluidPressurizer_Tier4_PressureModulation_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 25
+ },
+{
+      "Item": "Desc_Motor",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_SteelPlateReinforced",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_Wire",
+      "Amount": 4000
+ }],
+"Category": "SC_Logistics_C",
+"SubCategories": [],
+"MenuPriority": 6.0,
+"Time": 300.0,
+"Tier": 4,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_PressureModulator_C","Recipe_PressurizedWater_C","Recipe_DepressurizedWater_C","Recipe_CompressedWater_C","Recipe_DecompressedWater_C","Recipe_QuickCompressedWater_C","Recipe_QuickDecompressedWater_C","Recipe_PressurizedTurbofuel_C","Recipe_DepressurizedTurbofuel_C","Recipe_CompressedTurbofuel_C","Recipe_DecompressedTurbofuel_C","Recipe_QuickCompressedTurbofuel_C","Recipe_QuickDecompressedTurbofuel_C","Recipe_PressurizedSulfuricAcid_C","Recipe_DepressurizedSulfuricAcid_C","Recipe_CompressedSulfuricAcid_C","Recipe_DecompressedSulfuricAcid_C","Recipe_QuickCompressedSulfuricAcid_C","Recipe_QuickDecompressedSulfuricAcid_C","Recipe_PressurizedNitricAcid_C","Recipe_DepressurizedNitricAcid_C","Recipe_CompressedNitricAcid_C","Recipe_DecompressedNitricAcid_C","Recipe_QuickCompressedNitricAcid_C","Recipe_QuickDecompressedNitricAcid_C","Recipe_PressurizedNitrogenGas_C","Recipe_DepressurizedNitrogenGas_C","Recipe_CompressedNitrogenGas_C","Recipe_DecompressedNitrogenGas_C","Recipe_QuickCompressedNitrogenGas_C","Recipe_QuickDecompressedNitrogenGas_C","Recipe_PressurizedHeavyOilResidue_C","Recipe_DepressurizedHeavyOilResidue_C","Recipe_CompressedHeavyOilResidue_C","Recipe_DecompressedHeavyOilResidue_C","Recipe_QuickCompressedHeavyOilResidue_C","Recipe_QuickDecompressedHeavyOilResidue_C","Recipe_PressurizedLiquidBiofuel_C","Recipe_DepressurizedLiquidBiofuel_C","Recipe_CompressedLiquidBiofuel_C","Recipe_DecompressedLiquidBiofuel_C","Recipe_QuickCompressedLiquidBiofuel_C","Recipe_QuickDecompressedLiquidBiofuel_C","Recipe_PressurizedFuel_C","Recipe_DepressurizedFuel_C","Recipe_CompressedFuel_C","Recipe_DecompressedFuel_C","Recipe_QuickCompressedFuel_C","Recipe_QuickDecompressedFuel_C","Recipe_PressurizedCrudeOil_C","Recipe_DepressurizedCrudeOil_C","Recipe_CompressedCrudeOil_C","Recipe_DecompressedCrudeOil_C","Recipe_QuickCompressedCrudeOil_C","Recipe_QuickDecompressedCrudeOil_C","Recipe_PressurizedAluminaSolution_C","Recipe_DepressurizedAluminaSolution_C","Recipe_CompressedAluminaSolution_C","Recipe_DecompressedAluminaSolution_C","Recipe_QuickCompressedAluminaSolution_C","Recipe_QuickDecompressedAluminaSolution_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

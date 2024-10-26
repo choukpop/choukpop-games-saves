@@ -1,0 +1,26 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Copper Sheet",
+"Ingredients": [
+{
+      "Item": "Desc_CopperIngot",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_CopperSheet",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 6.0,
+"ProducedIn": ["Build_ConstructorMk1_C","FGBuildableAutomatedWorkBench"],
+"OverrideCategory": "Cat_StandardParts_C",
+"ManufacturingMenuPriority": 11.0,
+"UnlockedBy": ["Schematic_2-1_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

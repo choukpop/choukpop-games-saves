@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_QuarterPipe_02.Recipe_QuarterPipe_02_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Inverted Quarter Pipe",
+"Ingredients": [
+{
+      "Item": "Desc_Cement",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_QuarterPipe_02",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_CurvedFoundationPack_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

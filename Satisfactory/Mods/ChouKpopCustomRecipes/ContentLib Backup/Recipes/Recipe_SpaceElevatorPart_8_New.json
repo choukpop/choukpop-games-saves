@@ -1,0 +1,38 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Thermal Propulsion Rocket",
+"Ingredients": [
+{
+      "Item": "Desc_SpaceElevatorPart_4",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_MotorLightweight",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_CoolingSystem",
+      "Amount": 6
+ },
+{
+      "Item": "Desc_ModularFrameFused",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_SpaceElevatorPart_8",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 120.0,
+"ProducedIn": ["Build_ManufacturerMk1_C"],
+"OverrideCategory": "Cat_SpaceElevator_C",
+"ManufacturingMenuPriority": 6.0,
+"UnlockedBy": ["Schematic_8-4_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

@@ -1,0 +1,14 @@
+//BuildableResourceNodesRedux/ResNodes/Build/05_Caterium/BRN_Desc_Build_ResNode_05_Caterium_Normal.BRN_Desc_Build_ResNode_05_Caterium_Normal_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Caterium (Normal)",
+"NameShort": "",
+"Description": "Normal Caterium Resource Node.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "BRN_BC_ResourceNodes_C",
+"StackSize": "Medium"
+}

@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_StoragePlayer.Recipe_StoragePlayer_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Personal Storage Box",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 6
+ },
+{
+      "Item": "Desc_IronRod",
+      "Amount": 6
+ }
+],
+"Products": [
+{
+      "Item": "Desc_StoragePlayer",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_1-3_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

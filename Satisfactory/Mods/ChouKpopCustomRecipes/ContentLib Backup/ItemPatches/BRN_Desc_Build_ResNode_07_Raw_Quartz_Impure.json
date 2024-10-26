@@ -1,0 +1,14 @@
+//BuildableResourceNodesRedux/ResNodes/Build/07_Raw_Quartz/BRN_Desc_Build_ResNode_07_Raw_Quartz_Impure.BRN_Desc_Build_ResNode_07_Raw_Quartz_Impure_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Raw Quartz (Impure)",
+"NameShort": "",
+"Description": "Impure Raw Quartz Resource Node.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "BRN_BC_ResourceNodes_C",
+"StackSize": "Medium"
+}

@@ -1,0 +1,14 @@
+//BuildableResourceNodesRedux/ResNodes/Build/F_03_Nitrogen/BRN_Desc_Build_Fracking_03_Nitrogen_Pure.BRN_Desc_Build_Fracking_03_Nitrogen_Pure_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Resource Well Nitrogen Gas (Pure)",
+"NameShort": "",
+"Description": "Pure Nitrogen Gas Resource Well with 8 Satellite Nodes.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "BRN_BC_ResourceNodes_C",
+"StackSize": "Medium"
+}

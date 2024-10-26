@@ -1,0 +1,15 @@
+//Game/FactoryGame/Buildable/Factory/ConveyorPoleWall/Desc_ConveyorPoleWall.Desc_ConveyorPoleWall_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Conveyor Wall Mount",
+"NameShort": "",
+"Description": "Attaches to Walls.
+Useful for routing Conveyor Belts more precisely and over long distances.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Logistics_C",
+"StackSize": "Medium"
+}

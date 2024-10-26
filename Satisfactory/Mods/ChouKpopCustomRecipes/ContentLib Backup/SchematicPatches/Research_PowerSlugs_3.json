@@ -1,0 +1,35 @@
+//Game/FactoryGame/Schematics/Research/PowerSlugs_RS/Research_PowerSlugs_3.Research_PowerSlugs_3_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Slug Scanning",
+"Type": "MAM",
+"VisualKit": "Research_PowerSlugs_3_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_IronRod",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_Wire",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_IronScrew",
+      "Amount": 200
+ }],
+"Category": "SC_Organisation_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 3.0,
+"Tier": 3,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": [],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

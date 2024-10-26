@@ -1,0 +1,14 @@
+//BuildableResourceNodesRedux/ResNodes/Build/12_Geyser/BRN_Desc_Build_ResNode_13_Geyser_Impure.BRN_Desc_Build_ResNode_13_Geyser_Impure_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Geyser (Impure)",
+"NameShort": "",
+"Description": "Impure Geyser.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "BRN_BC_ResourceNodes_C",
+"StackSize": "Medium"
+}

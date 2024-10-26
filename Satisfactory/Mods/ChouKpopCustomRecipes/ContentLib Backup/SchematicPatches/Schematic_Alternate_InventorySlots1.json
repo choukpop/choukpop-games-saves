@@ -1,0 +1,24 @@
+//Game/FactoryGame/Schematics/Alternate/Upgrades/Schematic_Alternate_InventorySlots1.Schematic_Alternate_InventorySlots1_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Inflated Pocket Dimension",
+"Type": "Alternate",
+"VisualKit": "Schematic_Alternate_InventorySlots1_C",
+"Description": "",
+"Cost": [],
+"Category": "SC_Logistics_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 0.0,
+"Tier": 2,
+"InventorySlotsToGive": 6,
+"ArmSlotsToGive": 0,
+"Recipes": [],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

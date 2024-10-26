@@ -1,0 +1,47 @@
+{
+  "Class": "/Game/FactoryGame/Buildable/Factory/DroneStation/Build_DroneStation.Build_DroneStation_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 100.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.6
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": false
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 5.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Drone Port"
+ },
+{
+"Property": "mDescription",
+"Value": "Functions as home Port to a single Drone, which transports available input back and forth between its home Port and destination Ports.
+Drone Ports can have one other Port assigned as their transport destination.
+
+The Drone Port interface provides delivery details and allows management of Port connections."
+ },
+{
+"Property": "mHologramClass",
+"Value": "FGFactoryHologram"
+ },
+{
+"Property": "mTransferSpeed",
+"Value": 0.0
+ },
+{
+"Property": "mTripPowerPerMeterCost",
+"Value": 6.0
+ },
+{
+"Property": "mMapText",
+"Value": ""
+ }]
+}

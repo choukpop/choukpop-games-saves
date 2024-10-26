@@ -1,0 +1,44 @@
+{
+  "Class": "/TheDownloader/Build_Downloader.Build_Downloader_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 0.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.6
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": false
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 5.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Dimensional Depot Downloader"
+ },
+{
+"Property": "mDescription",
+"Value": "The Dimensional Depot Downloader is used to download resources from the dimensional storage deposit. "
+ },
+{
+"Property": "mHologramClass",
+"Value": "FGStackableStorageHologram"
+ },
+{
+"Property": "mInventorySizeX",
+"Value": 6
+ },
+{
+"Property": "mInventorySizeY",
+"Value": 4
+ },
+{
+"Property": "mStackingHeight",
+"Value": 400.0
+ }]
+}

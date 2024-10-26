@@ -1,0 +1,19 @@
+//BuildableResourceNodesRedux/ResNodes/Build/04_Coal/BRN_Recipe_ResNode_04_Coal_Normal.BRN_Recipe_ResNode_04_Coal_Normal_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Coal (Normal)",
+"Ingredients": [
+{
+      "Item": "Desc_Coal",
+      "Amount": 1000
+ }
+],
+"Products": [
+{
+      "Item": "BRN_Desc_Build_ResNode_04_Coal_Normal",
+      "Amount": 1
+ }],
+"UnlockedBy": ["BRN_Schem_02_Coal_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

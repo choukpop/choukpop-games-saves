@@ -1,0 +1,35 @@
+//BuildableResourceNodesRedux/Schematics/BRN_Schem_01_Basic.BRN_Schem_01_Basic_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Basic Buildable Resource Nodes",
+"Type": "Milestone",
+"VisualKit": "BRN_Schem_01_Basic_C",
+"Description": "Build your own Resource Nodes!",
+"Cost": [{
+      "Item": "Desc_Stone",
+      "Amount": 500
+ },
+{
+      "Item": "Desc_OreIron",
+      "Amount": 500
+ },
+{
+      "Item": "Desc_OreCopper",
+      "Amount": 500
+ }],
+"Category": "SC_Production_C",
+"SubCategories": [],
+"MenuPriority": 8.0,
+"Time": 120.0,
+"Tier": 1,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["BRN_Recipe_ResNode_01_Limestone_Impure_C","BRN_Recipe_ResNode_01_Limestone_Normal_C","BRN_Recipe_ResNode_01_Limestone_Pure_C","BRN_Recipe_ResNode_02_Iron_Ore_Impure_C","BRN_Recipe_ResNode_02_Iron_Ore_Normal_C","BRN_Recipe_ResNode_02_Iron_Ore_Pure_C","BRN_Recipe_ResNode_03_Copper_Ore_Impure_C","BRN_Recipe_ResNode_03_Copper_Ore_Normal_C","BRN_Recipe_ResNode_03_Copper_Ore_Pure_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

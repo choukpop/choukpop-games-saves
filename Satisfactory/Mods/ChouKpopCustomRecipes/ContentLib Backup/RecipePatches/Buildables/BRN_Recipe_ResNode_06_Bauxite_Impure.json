@@ -1,0 +1,19 @@
+//BuildableResourceNodesRedux/ResNodes/Build/06_Bauxite/BRN_Recipe_ResNode_06_Bauxite_Impure.BRN_Recipe_ResNode_06_Bauxite_Impure_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Bauxite (Impure)",
+"Ingredients": [
+{
+      "Item": "Desc_OreBauxite",
+      "Amount": 500
+ }
+],
+"Products": [
+{
+      "Item": "BRN_Desc_Build_ResNode_06_Bauxite_Impure",
+      "Amount": 1
+ }],
+"UnlockedBy": ["BRN_Schem_06_Bauxite_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

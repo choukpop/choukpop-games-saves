@@ -1,0 +1,39 @@
+//Game/FactoryGame/Schematics/Progression/Schematic_6-3.Schematic_6-3_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Monorail Train Technology",
+"Type": "Milestone",
+"VisualKit": "Schematic_6-3_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_Motor",
+      "Amount": 250
+ },
+{
+      "Item": "Desc_SteelPlateReinforced",
+      "Amount": 500
+ },
+{
+      "Item": "Desc_SteelPlate",
+      "Amount": 1000
+ },
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 1000
+ }],
+"Category": "SC_Logistics_C",
+"SubCategories": [],
+"MenuPriority": 2.0,
+"Time": 600.0,
+"Tier": 6,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_Locomotive_C","Recipe_FreightWagon_C","Recipe_RailroadTrack_C","Recipe_TrainStation_C","Recipe_TrainDockingStation_C","Recipe_TrainDockingStationLiquid_C","Recipe_TrainPlatformEmpty_C","Recipe_TrainPlatformEmpty_02_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

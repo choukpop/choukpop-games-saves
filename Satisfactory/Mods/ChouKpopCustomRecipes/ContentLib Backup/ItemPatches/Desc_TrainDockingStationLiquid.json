@@ -1,0 +1,17 @@
+//Game/FactoryGame/Buildable/Factory/Train/Station/Desc_TrainDockingStationLiquid.Desc_TrainDockingStationLiquid_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Fluid Freight Platform",
+"NameShort": "",
+"Description": "Loads and unloads Freight Cars that stop at the Freight Platform.
+Loading and unloading options can be set by configuring the building.
+Snaps to other Platforms and Stations.
+Needs to be connected to a powered Railway to function.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Vehicles_C",
+"StackSize": "Medium"
+}

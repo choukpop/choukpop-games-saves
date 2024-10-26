@@ -1,0 +1,14 @@
+//Game/FactoryGame/Buildable/Building/Fence/Desc_Concrete_Barrier_01.Desc_Concrete_Barrier_01_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Road Barrier",
+"NameShort": "",
+"Description": "Creates a safer and more efficient working environment.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Decor_C",
+"StackSize": "Medium"
+}

@@ -1,0 +1,14 @@
+//Game/FactoryGame/Buildable/Factory/TradingPost/Desc_TradingPost.Desc_TradingPost_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "The HUB",
+"NameShort": "",
+"Description": "The heart of your factory. This is where you complete FICSIT milestones to unlock additional schematics for buildings, vehicles, parts, equipment, etc.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_TradingPost_C",
+"StackSize": "One"
+}

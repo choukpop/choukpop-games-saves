@@ -1,0 +1,17 @@
+//Game/FactoryGame/Buildable/Factory/Floodlight/Desc_FloodlightWall.Desc_FloodlightWall_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Wall-Mounted Flood Light",
+"NameShort": "",
+"Description": "Attaches to Walls and Foundations to illuminate large spaces.
+
+Light color and intensity can be modified via a Light Control Panel.
+Allows for up to 2 Power Line connections.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Organization_C",
+"StackSize": "Medium"
+}

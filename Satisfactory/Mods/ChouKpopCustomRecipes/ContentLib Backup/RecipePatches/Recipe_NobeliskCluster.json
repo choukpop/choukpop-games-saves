@@ -1,0 +1,31 @@
+//Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Recipe_NobeliskCluster.Recipe_NobeliskCluster_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Cluster Nobelisk",
+"Ingredients": [
+{
+      "Item": "Desc_NobeliskExplosive",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_GunpowderMK2",
+      "Amount": 4
+ }
+],
+"Products": [
+{
+      "Item": "Desc_NobeliskCluster",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 24.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_Ammunition_C",
+"ManufacturingMenuPriority": 203.0,
+"UnlockedBy": ["Research_Sulfur_4_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

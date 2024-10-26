@@ -1,0 +1,14 @@
+//BuildableResourceNodesRedux/ResNodes/Build/02_Iron_Ore/BRN_Desc_Build_ResNode_02_Iron_Ore_Impure.BRN_Desc_Build_ResNode_02_Iron_Ore_Impure_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Iron Ore (Impure)",
+"NameShort": "",
+"Description": "Impure Iron Ore Resource Node.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "BRN_BC_ResourceNodes_C",
+"StackSize": "Medium"
+}

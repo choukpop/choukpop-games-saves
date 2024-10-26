@@ -1,0 +1,31 @@
+//InfiniteZoop/ResearchNodes/InfiniteZoop_ResearchNode6.InfiniteZoop_ResearchNode6_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "80 Zoops",
+"Type": "MAM",
+"VisualKit": "InfiniteZoop_ResearchNode6_C",
+"Description": "+25 Zoops",
+"Cost": [{
+      "Item": "Desc_ModularFrameLightweight",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_Battery",
+      "Amount": 5
+ }],
+"Category": "SC_Organisation_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 30.0,
+"Tier": 0,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": [],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

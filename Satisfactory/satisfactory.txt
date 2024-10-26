@@ -1,4 +1,4 @@
-C:\Users\ChouKpop\AppData\Local\FactoryGame
+dwC:\Users\ChouKpop\AppData\Local\FactoryGame
 
 76561198255923205 - Main Account (andre_pt611)
 76561199570726859 - Rias Gremory (choukpopwithoutcheats1)
@@ -17,12 +17,12 @@ Uranium = 88D288
 
 
 => Mods (Custom Swatch)
+Water = 1662AD
+Junction = 000000
 Oil = 271952
 Heavy Oil = 52194E
 Fuel = CB6C00
 Turbofuel = 880000
-Water = 1662AD
-Junction = 000000
 
 
 

@@ -1,0 +1,16 @@
+//Game/FactoryGame/Buildable/Factory/QuantumEncoder/Desc_QuantumEncoder.Desc_QuantumEncoder_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Quantum Encoder",
+"NameShort": "",
+"Description": "The Quantum Encoder uses Excited Photonic Matter to produce the most complex of parts, controlling development up to the quantum level.
+
+Warning: Power usage is extremely high and unstable.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Production_C",
+"StackSize": "Medium"
+}

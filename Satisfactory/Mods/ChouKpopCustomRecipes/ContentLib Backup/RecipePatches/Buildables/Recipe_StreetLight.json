@@ -1,0 +1,27 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_StreetLight.Recipe_StreetLight_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Street Light",
+"Ingredients": [
+{
+      "Item": "Desc_HighSpeedWire",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_Wire",
+      "Amount": 4
+ },
+{
+      "Item": "Desc_IronRod",
+      "Amount": 4
+ }
+],
+"Products": [
+{
+      "Item": "Desc_StreetLight",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_StreetLight_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

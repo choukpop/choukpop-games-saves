@@ -1,0 +1,27 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_JumpPadAdjustable.Recipe_JumpPadAdjustable_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Jump Pad",
+"Ingredients": [
+{
+      "Item": "Desc_Rotor",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 15
+ },
+{
+      "Item": "Desc_Cable",
+      "Amount": 10
+ }
+],
+"Products": [
+{
+      "Item": "Desc_JumpPadAdjustable",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_2-3_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

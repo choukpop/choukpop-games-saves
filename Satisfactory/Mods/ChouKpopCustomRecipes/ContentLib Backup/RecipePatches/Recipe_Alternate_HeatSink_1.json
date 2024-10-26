@@ -1,0 +1,31 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_HeatSink_1.Recipe_Alternate_HeatSink_1_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Heat Exchanger",
+"Ingredients": [
+{
+      "Item": "Desc_AluminumCasing",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_Rubber",
+      "Amount": 3
+ }
+],
+"Products": [
+{
+      "Item": "Desc_AluminumPlateReinforced",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 6.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_IndustrialParts_C",
+"ManufacturingMenuPriority": 8.0,
+"UnlockedBy": ["Schematic_Alternate_HeatSink1_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

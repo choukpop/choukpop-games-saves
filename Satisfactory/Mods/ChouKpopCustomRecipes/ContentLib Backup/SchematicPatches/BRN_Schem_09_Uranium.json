@@ -1,0 +1,27 @@
+//BuildableResourceNodesRedux/Schematics/BRN_Schem_09_Uranium.BRN_Schem_09_Uranium_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Buildable Uranium Resource Nodes",
+"Type": "Milestone",
+"VisualKit": "BRN_Schem_09_Uranium_C",
+"Description": "Build your own Resource Nodes!",
+"Cost": [{
+      "Item": "Desc_OreUranium",
+      "Amount": 500
+ }],
+"Category": "SC_Production_C",
+"SubCategories": [],
+"MenuPriority": 8.0,
+"Time": 120.0,
+"Tier": 8,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["BRN_Recipe_ResNode_09_Uranium_Impure_C","BRN_Recipe_ResNode_09_Uranium_Normal_C","BRN_Recipe_ResNode_09_Uranium_Pure_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

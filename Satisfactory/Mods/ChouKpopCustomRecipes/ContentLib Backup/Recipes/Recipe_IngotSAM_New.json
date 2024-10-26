@@ -1,0 +1,26 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Reanimated SAM",
+"Ingredients": [
+{
+      "Item": "Desc_SAM",
+      "Amount": 4
+ }
+],
+"Products": [
+{
+      "Item": "Desc_SAMIngot",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 2.0,
+"ProducedIn": ["Build_ConstructorMk1_C"],
+"OverrideCategory": "Cat_Electronics_C",
+"ManufacturingMenuPriority": 13.0,
+"UnlockedBy": ["Schematic_9-1_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

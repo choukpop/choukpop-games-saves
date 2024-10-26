@@ -1,0 +1,14 @@
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+    "Name": "Iron Sheet",
+    "NameShort": "IS",
+    "Description": "Used for crafting. \nOne of the most basic parts.",
+    "CanBeDiscarded": true,
+    "RememberPickUp": false,
+    "EnergyValue": 0.0,
+    "RadioactiveDecay": 0.0,
+    "VisualKit": "Visual_IronSheet",
+    "Form": "Solid",
+    "Category": "Cat_StandardParts_C",
+    "StackSize": "Big"
+}

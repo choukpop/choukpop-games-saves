@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/Game/FactoryGame/Buildable/Vehicle/Truck/UI/IconDesc_Truck_512.IconDesc_Truck_512",
+	"SmallIcon": "/Game/FactoryGame/Buildable/Vehicle/Truck/UI/IconDesc_Truck_512.IconDesc_Truck_512",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

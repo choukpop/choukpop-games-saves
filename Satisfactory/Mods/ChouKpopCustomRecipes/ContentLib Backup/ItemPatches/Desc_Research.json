@@ -1,0 +1,14 @@
+//ResearchCheat/Desc_Research.Desc_Research_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Research Cheat",
+"NameShort": "",
+"Description": "You can unlock milestones and mam researchs with one click",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_TradingPost_C",
+"StackSize": "One"
+}

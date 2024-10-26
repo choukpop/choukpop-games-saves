@@ -1,0 +1,15 @@
+//Game/FactoryGame/Events/Christmas/Parts/Desc_CandyCane.Desc_CandyCane_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Candy Cane",
+"NameShort": "",
+"Description": "A delicious Candy Cane to be enjoyed during the FICSMAS Holidays. 
+*Disclaimer: Not for consumption...",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_FICSMAS_C",
+"StackSize": "Huge"
+}

@@ -1,0 +1,39 @@
+//Game/FactoryGame/Schematics/Progression/Schematic_9-5.Schematic_9-5_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Peak Efficiency",
+"Type": "Milestone",
+"VisualKit": "Schematic_9-5_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_TimeCrystal",
+      "Amount": 250
+ },
+{
+      "Item": "Desc_FicsiteMesh",
+      "Amount": 250
+ },
+{
+      "Item": "Desc_AluminumPlate",
+      "Amount": 5000
+ },
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 10000
+ }],
+"Category": "SC_Production_C",
+"SubCategories": [],
+"MenuPriority": 5.0,
+"Time": 600.0,
+"Tier": 9,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_ConveyorBeltMk6_C","Recipe_ConveyorLiftMk6_C","Recipe_Ficsonium_C","Recipe_FicsoniumFuelRod_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

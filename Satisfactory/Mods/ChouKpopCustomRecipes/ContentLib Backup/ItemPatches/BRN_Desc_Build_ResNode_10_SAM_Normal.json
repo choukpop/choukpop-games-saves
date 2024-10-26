@@ -1,0 +1,14 @@
+//BuildableResourceNodesRedux/ResNodes/Build/10_SAM/BRN_Desc_Build_ResNode_10_SAM_Normal.BRN_Desc_Build_ResNode_10_SAM_Normal_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "S.A.M. Ore (Normal)",
+"NameShort": "",
+"Description": "Normal S.A.M. Ore Resource Node.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "BRN_BC_ResourceNodes_C",
+"StackSize": "Medium"
+}

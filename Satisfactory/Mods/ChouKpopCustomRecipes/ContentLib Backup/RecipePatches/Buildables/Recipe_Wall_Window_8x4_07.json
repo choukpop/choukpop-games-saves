@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Window_8x4_07.Recipe_Wall_Window_8x4_07_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Triple Frame Window",
+"Ingredients": [
+{
+      "Item": "Desc_Silica",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_SteelPlate",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Wall_Window_8x4_07",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_FrameWindows_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

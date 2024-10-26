@@ -1,0 +1,39 @@
+//Game/FactoryGame/Schematics/Progression/Schematic_2-5.Schematic_2-5_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Resource Sink Bonus Program",
+"Type": "Milestone",
+"VisualKit": "Schematic_2-5_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_Cement",
+      "Amount": 400
+ },
+{
+      "Item": "Desc_Wire",
+      "Amount": 500
+ },
+{
+      "Item": "Desc_IronRod",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 200
+ }],
+"Category": "SC_Logistics_C",
+"SubCategories": [],
+"MenuPriority": 4.0,
+"Time": 300.0,
+"Tier": 2,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_ResourceSink_C","Recipe_ResourceSinkShop_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

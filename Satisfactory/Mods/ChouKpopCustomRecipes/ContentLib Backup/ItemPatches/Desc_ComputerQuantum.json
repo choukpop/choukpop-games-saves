@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/ComputerQuantum/Desc_ComputerQuantum.Desc_ComputerQuantum_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Quantum Computer",
+"NameShort": "",
+"Description": "Uses quantum bits instead of normal bits which makes it much faster than a traditional computer.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Quantum_C",
+"StackSize": "Small"
+}

@@ -1,0 +1,30 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alternate: Fine Black Powder",
+"Ingredients": [
+{
+      "Item": "Desc_Sulfur",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_CompactedCoal",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Gunpowder",
+      "Amount": 6
+ }
+],
+"ManufacturingDuration": 8.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_Ammunition_C",
+"ManufacturingMenuPriority": 1.0,
+"UnlockedBy": ["Schematic_Alternate_Gunpowder1_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

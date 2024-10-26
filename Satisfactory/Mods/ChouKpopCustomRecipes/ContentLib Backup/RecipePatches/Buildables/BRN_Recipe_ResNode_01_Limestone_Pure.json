@@ -1,0 +1,19 @@
+//BuildableResourceNodesRedux/ResNodes/Build/01_Limestone/BRN_Recipe_ResNode_01_Limestone_Pure.BRN_Recipe_ResNode_01_Limestone_Pure_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Limestone (Pure)",
+"Ingredients": [
+{
+      "Item": "Desc_Stone",
+      "Amount": 2000
+ }
+],
+"Products": [
+{
+      "Item": "BRN_Desc_Build_ResNode_01_Limestone_Pure",
+      "Amount": 1
+ }],
+"UnlockedBy": ["BRN_Schem_01_Basic_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

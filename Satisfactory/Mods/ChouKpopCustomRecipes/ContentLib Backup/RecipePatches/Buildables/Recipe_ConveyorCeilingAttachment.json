@@ -1,0 +1,27 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorCeilingAttachment.Recipe_ConveyorCeilingAttachment_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Conveyor Ceiling Mount",
+"Ingredients": [
+{
+      "Item": "Desc_IronRod",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_ConveyorCeilingAttachment",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_ConveyorCeilingMount_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

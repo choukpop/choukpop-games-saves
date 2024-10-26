@@ -1,0 +1,27 @@
+//Game/FactoryGame/Recipes/Constructor/Recipe_PowerCrystalShard_3.Recipe_PowerCrystalShard_3_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Power Shard (5)",
+"Ingredients": [
+{
+      "Item": "Desc_Crystal_mk3",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_CrystalShard",
+      "Amount": 5
+ }
+],
+"ManufacturingDuration": 24.0,
+"ProducedIn": ["Build_ConstructorMk1_C","FGBuildableAutomatedWorkBench"],
+"OverrideCategory": "Cat_PowerShards_C",
+"ManufacturingMenuPriority": 2.0,
+"UnlockedBy": ["Research_PowerSlugs_5_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

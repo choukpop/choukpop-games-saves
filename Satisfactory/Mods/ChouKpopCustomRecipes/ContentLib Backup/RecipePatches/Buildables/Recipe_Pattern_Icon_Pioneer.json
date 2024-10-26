@@ -1,0 +1,13 @@
+//Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Icons/Recipe_Pattern_Icon_Pioneer.Recipe_Pattern_Icon_Pioneer_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "N/A",
+"Ingredients": [
+
+],
+"Products": [
+],
+"UnlockedBy": ["ResourceSink_IconsFactory_FoundationPatterns_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

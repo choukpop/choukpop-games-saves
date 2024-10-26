@@ -1,0 +1,24 @@
+//MagicMachine/Recipe_Items/MAlienOrgans.MAlienOrgans_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Spitter Remains",
+"Ingredients": [
+
+],
+"Products": [
+{
+      "Item": "Desc_SpitterParts",
+      "Amount": 11
+ }
+],
+"ManufacturingDuration": 0.5,
+"ProducedIn": ["MagicMachine_C"],
+"OverrideCategory": "Cat_Biomass_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_Magic_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

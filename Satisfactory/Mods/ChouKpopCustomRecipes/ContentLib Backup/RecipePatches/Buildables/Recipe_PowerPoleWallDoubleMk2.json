@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleWallDoubleMk2.Recipe_PowerPoleWallDoubleMk2_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Double Wall Outlet Mk.2",
+"Ingredients": [
+{
+      "Item": "Desc_HighSpeedWire",
+      "Amount": 16
+ },
+{
+      "Item": "Desc_IronRod",
+      "Amount": 4
+ }
+],
+"Products": [
+{
+      "Item": "Desc_PowerPoleWallDoubleMk2",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_WallPowerPolesMK2_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

@@ -1,0 +1,17 @@
+//Game/FactoryGame/Buildable/Factory/DroneStation/Desc_DroneStation.Desc_DroneStation_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Drone Port",
+"NameShort": "",
+"Description": "Functions as home Port to a single Drone, which transports available input back and forth between its home Port and destination Ports.
+Drone Ports can have one other Port assigned as their transport destination.
+
+The Drone Port interface provides delivery details and allows management of Port connections.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Vehicles_C",
+"StackSize": "Medium"
+}

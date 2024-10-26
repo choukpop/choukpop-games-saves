@@ -1,0 +1,48 @@
+{
+  "Class": "/Game/FactoryGame/Buildable/Factory/Train/Track/Holo_RailroadTrack.Holo_RailroadTrack_C",
+  "Edits": [
+{
+"Property": "mBendRadius",
+"Value": 300.0
+ },
+{
+"Property": "mMaxSplineLenght",
+"Value": 5600.100098
+ },
+{
+"Property": "mMaxIncline",
+"Value": 35.0
+ },
+{
+"Property": "mBendRadius2D",
+"Value": 199.0
+ },
+{
+"Property": "mMinBendRadius",
+"Value": 1500.0
+ },
+{
+"Property": "mMaxSplineLength",
+"Value": 10000.0
+ },
+{
+"Property": "mMaxJunctionRecursions",
+"Value": 5
+ },
+{
+"Property": "mMaxTraversalDistance",
+"Value": 10000.0
+ },
+{
+"Property": "mMinLenght",
+"Value": 0.0
+ },
+{
+"Property": "mMaxLenght",
+"Value": 10000.0
+ },
+{
+"Property": "mMaxGrade",
+"Value": 25.0
+ }]
+}

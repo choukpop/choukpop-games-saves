@@ -1,0 +1,31 @@
+//InfiniteZoop/ResearchNodes/InfiniteZoop_ResearchNode4.InfiniteZoop_ResearchNode4_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "40 Zoops",
+"Type": "MAM",
+"VisualKit": "InfiniteZoop_ResearchNode4_C",
+"Description": "+10 Zoops",
+"Cost": [{
+      "Item": "Desc_Motor",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_Rubber",
+      "Amount": 50
+ }],
+"Category": "SC_Organisation_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 10.0,
+"Tier": 0,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": [],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

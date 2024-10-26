@@ -1,0 +1,14 @@
+//BuildableResourceNodesRedux/ResNodes/Build/11_Crude_Oil/BRN_Desc_Build_ResNode_12_Crude_Oil_Normal.BRN_Desc_Build_ResNode_12_Crude_Oil_Normal_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Crude Oil (Normal)",
+"NameShort": "",
+"Description": "Normal Crude Oil Resource Node.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "BRN_BC_ResourceNodes_C",
+"StackSize": "Medium"
+}

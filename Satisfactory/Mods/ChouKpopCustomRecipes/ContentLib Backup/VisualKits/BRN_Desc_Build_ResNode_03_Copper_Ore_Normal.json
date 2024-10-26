@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/Game/FactoryGame/Resource/RawResources/Nodes/UI/IconDesc_copper_new_256.IconDesc_copper_new_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/RawResources/Nodes/UI/IconDesc_copper_new_256.IconDesc_copper_new_256",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

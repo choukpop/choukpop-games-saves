@@ -1,0 +1,19 @@
+//BuildableResourceNodesRedux/ResNodes/Build/11_Crude_Oil/BRN_Recipe_ResNode_12_Crude_Oil_Normal.BRN_Recipe_ResNode_12_Crude_Oil_Normal_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Crude Oil (Normal)",
+"Ingredients": [
+{
+      "Item": "Desc_PackagedOil",
+      "Amount": 1000
+ }
+],
+"Products": [
+{
+      "Item": "BRN_Desc_Build_ResNode_12_Crude_Oil_Normal",
+      "Amount": 1
+ }],
+"UnlockedBy": ["BRN_Schem_03_Crude_Oil_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

@@ -1,0 +1,27 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_WaterPump.Recipe_WaterPump_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Water Extractor",
+"Ingredients": [
+{
+      "Item": "Desc_CopperSheet",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_Rotor",
+      "Amount": 10
+ }
+],
+"Products": [
+{
+      "Item": "Desc_WaterPump",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_3-1_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

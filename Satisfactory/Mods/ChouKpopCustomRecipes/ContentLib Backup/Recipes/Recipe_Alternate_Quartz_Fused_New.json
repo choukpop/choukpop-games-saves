@@ -1,0 +1,30 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alternate: Fused Quartz Crystal",
+"Ingredients": [
+{
+      "Item": "Desc_RawQuartz",
+      "Amount": 25
+ },
+{
+      "Item": "Desc_Coal",
+      "Amount": 12
+ }
+],
+"Products": [
+{
+      "Item": "Desc_QuartzCrystal",
+      "Amount": 18
+ }
+],
+"ManufacturingDuration": 20.0,
+"ProducedIn": ["Build_FoundryMk1_C"],
+"OverrideCategory": "Cat_Minerals_C",
+"ManufacturingMenuPriority": 999.0,
+"UnlockedBy": ["Schematic_Alternate_Quartz_Fused_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

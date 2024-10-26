@@ -1,0 +1,16 @@
+//ResearchCheat/Rec_Research.Rec_Research_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Research Cheat",
+"Ingredients": [
+
+],
+"Products": [
+{
+      "Item": "Desc_Research",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schem_Research_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

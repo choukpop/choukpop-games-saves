@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Events/Christmas/Art/XmasWreath/SM_WreathNoBow.SM_WreathNoBow",
+	"BigIcon": "/Game/FactoryGame/Events/Christmas/Parts/UI/IconDesc_Wreath_256.IconDesc_Wreath_256",
+	"SmallIcon": "/Game/FactoryGame/Events/Christmas/Parts/UI/IconDesc_Wreath_256.IconDesc_Wreath_256",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

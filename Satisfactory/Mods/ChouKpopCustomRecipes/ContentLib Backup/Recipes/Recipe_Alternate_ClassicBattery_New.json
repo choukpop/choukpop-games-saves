@@ -1,0 +1,38 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alternate: Classic Battery",
+"Ingredients": [
+{
+      "Item": "Desc_Sulfur",
+      "Amount": 6
+ },
+{
+      "Item": "Desc_AluminumPlate",
+      "Amount": 7
+ },
+{
+      "Item": "Desc_Plastic",
+      "Amount": 8
+ },
+{
+      "Item": "Desc_Wire",
+      "Amount": 12
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Battery",
+      "Amount": 4
+ }
+],
+"ManufacturingDuration": 8.0,
+"ProducedIn": ["Build_ManufacturerMk1_C"],
+"OverrideCategory": "Cat_IndustrialParts_C",
+"ManufacturingMenuPriority": 11.0,
+"UnlockedBy": ["Schematic_Alternate_ClassicBattery_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

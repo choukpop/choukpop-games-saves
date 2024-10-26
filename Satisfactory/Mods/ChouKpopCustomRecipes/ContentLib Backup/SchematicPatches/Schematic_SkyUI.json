@@ -1,0 +1,27 @@
+//SkyUI/Schematics/Schematic_SkyUI.Schematic_SkyUI_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "SkyUI",
+"Type": "Milestone",
+"VisualKit": "Schematic_SkyUI_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_Cement",
+      "Amount": 1
+ }],
+"Category": "",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 120.0,
+"Tier": 0,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": [],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

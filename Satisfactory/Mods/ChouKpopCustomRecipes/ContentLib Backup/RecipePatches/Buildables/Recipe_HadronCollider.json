@@ -1,0 +1,35 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_HadronCollider.Recipe_HadronCollider_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Particle Accelerator",
+"Ingredients": [
+{
+      "Item": "Desc_MotorLightweight",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_ComputerSuper",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_ModularFrameFused",
+      "Amount": 25
+ },
+{
+      "Item": "Desc_CoolingSystem",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_HighSpeedWire",
+      "Amount": 500
+ }
+],
+"Products": [
+{
+      "Item": "Desc_HadronCollider",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_8-5_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

@@ -1,0 +1,31 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/New_Update3/Recipe_Alternate_DilutedPackagedFuel.Recipe_Alternate_DilutedPackagedFuel_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Diluted Packaged Fuel",
+"Ingredients": [
+{
+      "Item": "Desc_HeavyOilResidue",
+      "Amount": 1000
+ },
+{
+      "Item": "Desc_PackagedWater",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Fuel",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 2.0,
+"ProducedIn": ["Build_OilRefinery_C"],
+"OverrideCategory": "Cat_Fuel_C",
+"ManufacturingMenuPriority": 2.0,
+"UnlockedBy": ["Schematic_Alternate_DilutedPackagedFuel_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

@@ -1,0 +1,19 @@
+//BuildableResourceNodesRedux/ResNodes/Build/05_Caterium/BRN_Recipe_ResNode_05_Caterium_Normal.BRN_Recipe_ResNode_05_Caterium_Normal_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Caterium (Normal)",
+"Ingredients": [
+{
+      "Item": "Desc_OreGold",
+      "Amount": 1000
+ }
+],
+"Products": [
+{
+      "Item": "BRN_Desc_Build_ResNode_05_Caterium_Normal",
+      "Amount": 1
+ }],
+"UnlockedBy": ["BRN_Schem_04_Caterium_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

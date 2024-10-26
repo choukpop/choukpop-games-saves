@@ -1,0 +1,14 @@
+//TheDownloader/Desc_Downloader.Desc_Downloader_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Dimensional Depot Downloader",
+"NameShort": "",
+"Description": "The Dimensional Depot Downloader is used to download resources from the dimensional storage deposit. ",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Organization_C",
+"StackSize": "One"
+}

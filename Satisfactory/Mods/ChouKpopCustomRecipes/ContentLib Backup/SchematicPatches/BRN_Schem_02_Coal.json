@@ -1,0 +1,27 @@
+//BuildableResourceNodesRedux/Schematics/BRN_Schem_02_Coal.BRN_Schem_02_Coal_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Buildable Coal Resource Nodes",
+"Type": "Milestone",
+"VisualKit": "BRN_Schem_02_Coal_C",
+"Description": "Build your own Resource Nodes!",
+"Cost": [{
+      "Item": "Desc_Coal",
+      "Amount": 500
+ }],
+"Category": "SC_Production_C",
+"SubCategories": [],
+"MenuPriority": 8.0,
+"Time": 120.0,
+"Tier": 3,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["BRN_Recipe_ResNode_04_Coal_Impure_C","BRN_Recipe_ResNode_04_Coal_Normal_C","BRN_Recipe_ResNode_04_Coal_Pure_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

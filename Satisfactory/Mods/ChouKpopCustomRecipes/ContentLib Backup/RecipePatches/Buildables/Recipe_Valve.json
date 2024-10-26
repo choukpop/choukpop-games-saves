@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_Valve.Recipe_Valve_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Valve",
+"Ingredients": [
+{
+      "Item": "Desc_Rubber",
+      "Amount": 4
+ },
+{
+      "Item": "Desc_SteelPlate",
+      "Amount": 4
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Valve",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_5-1_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

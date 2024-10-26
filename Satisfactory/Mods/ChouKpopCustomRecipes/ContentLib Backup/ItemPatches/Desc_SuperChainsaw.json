@@ -1,0 +1,17 @@
+//SuperChainsaw/Equipment/SuperChainsaw/Desc_SuperChainsaw.Desc_SuperChainsaw_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Super Chainsaw",
+"NameShort": "",
+"Description": "Slot: Hands
+Fuel: Packaged Fuel
+
+An upgraded chainsaw used to clear massive areas of flora.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Hands_C",
+"StackSize": "One"
+}

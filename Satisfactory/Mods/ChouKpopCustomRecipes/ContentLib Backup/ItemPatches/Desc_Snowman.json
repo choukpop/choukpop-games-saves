@@ -1,0 +1,17 @@
+//Game/FactoryGame/Events/Christmas/Buildings/SnowmanDecor/Desc_Snowman.Desc_Snowman_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Snowman",
+"NameShort": "",
+"Description": "Do you wanna build it?
+You will finally have a friend!
+
+*Disclaimer: It is not actually your friend.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_FICSMAS_C",
+"StackSize": "Medium"
+}

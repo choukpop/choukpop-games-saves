@@ -1,0 +1,31 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/New_Update3/Recipe_Alternate_CokeSteelIngot.Recipe_Alternate_CokeSteelIngot_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Coke Steel Ingot",
+"Ingredients": [
+{
+      "Item": "Desc_OreIron",
+      "Amount": 15
+ },
+{
+      "Item": "Desc_PetroleumCoke",
+      "Amount": 15
+ }
+],
+"Products": [
+{
+      "Item": "Desc_SteelIngot",
+      "Amount": 20
+ }
+],
+"ManufacturingDuration": 12.0,
+"ProducedIn": ["Build_FoundryMk1_C"],
+"OverrideCategory": "Cat_Ingots_C",
+"ManufacturingMenuPriority": 6.0,
+"UnlockedBy": ["Schematic_Alternate_CokeSteelIngot_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

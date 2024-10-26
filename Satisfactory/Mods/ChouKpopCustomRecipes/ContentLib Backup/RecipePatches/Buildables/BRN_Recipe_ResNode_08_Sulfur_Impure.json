@@ -1,0 +1,19 @@
+//BuildableResourceNodesRedux/ResNodes/Build/08_Sulfur/BRN_Recipe_ResNode_08_Sulfur_Impure.BRN_Recipe_ResNode_08_Sulfur_Impure_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Sulfur (Impure)",
+"Ingredients": [
+{
+      "Item": "Desc_Sulfur",
+      "Amount": 500
+ }
+],
+"Products": [
+{
+      "Item": "BRN_Desc_Build_ResNode_08_Sulfur_Impure",
+      "Amount": 1
+ }],
+"UnlockedBy": ["BRN_Schem_08_Sulfur_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

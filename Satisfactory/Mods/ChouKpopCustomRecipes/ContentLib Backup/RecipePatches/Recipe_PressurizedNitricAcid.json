@@ -1,0 +1,27 @@
+//ArgualFluidPressurizer/PressurizedFluids/NitricAcid/Recipes/Recipe_PressurizedNitricAcid.Recipe_PressurizedNitricAcid_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Pressurized Nitric Acid",
+"Ingredients": [
+{
+      "Item": "Desc_NitricAcid",
+      "Amount": 4000
+ }
+],
+"Products": [
+{
+      "Item": "Desc_PressurizedNitricAcid",
+      "Amount": 800
+ }
+],
+"ManufacturingDuration": 1.0,
+"ProducedIn": ["Build_PressureModulator_C"],
+"OverrideCategory": "Cat_Pressurizing_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schematic_ArgualFluidPressurizer_Tier4_PressureModulation_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

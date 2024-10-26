@@ -1,0 +1,27 @@
+//BuildableResourceNodesRedux/Schematics/BRN_Schem_05_Geyser.BRN_Schem_05_Geyser_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Buildable Geysers",
+"Type": "Milestone",
+"VisualKit": "BRN_Schem_05_Geyser_C",
+"Description": "Build your own Geysers!",
+"Cost": [{
+      "Item": "Desc_PackagedWater",
+      "Amount": 500
+ }],
+"Category": "SC_Production_C",
+"SubCategories": [],
+"MenuPriority": 8.0,
+"Time": 120.0,
+"Tier": 5,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["BRN_Recipe_ResNode_13_Geyser_Impure_C","BRN_Recipe_ResNode_13_Geyser_Normal_C","BRN_Recipe_ResNode_13_Geyser_Pure_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

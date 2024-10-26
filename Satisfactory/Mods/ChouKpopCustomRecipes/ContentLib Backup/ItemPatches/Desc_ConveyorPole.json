@@ -1,0 +1,15 @@
+//Game/FactoryGame/Buildable/Factory/ConveyorPole/Desc_ConveyorPole.Desc_ConveyorPole_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Conveyor Pole",
+"NameShort": "",
+"Description": "Connects Conveyor Belt segments. Pole height can be adjusted.
+Useful for routing Conveyor Belts more precisely and across long distances.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Logistics_C",
+"StackSize": "Medium"
+}

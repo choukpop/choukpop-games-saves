@@ -1,0 +1,35 @@
+//Game/FactoryGame/Schematics/Research/PowerSlugs_RS/Research_PowerSlugs_4.Research_PowerSlugs_4_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Yellow Power Slugs",
+"Type": "MAM",
+"VisualKit": "Research_PowerSlugs_4_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_Crystal_mk2",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_Rotor",
+      "Amount": 25
+ },
+{
+      "Item": "Desc_Cable",
+      "Amount": 100
+ }],
+"Category": "SC_Organisation_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 3.0,
+"Tier": 3,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_PowerCrystalShard_2_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

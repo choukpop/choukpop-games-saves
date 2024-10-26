@@ -1,0 +1,31 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/New_Update3/Recipe_Alternate_CoatedIronCanister.Recipe_Alternate_CoatedIronCanister_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Coated Iron Canister",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_CopperSheet",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_FluidCanister",
+      "Amount": 4
+ }
+],
+"ManufacturingDuration": 4.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_Containers_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schematic_Alternate_CoatedIronCanister_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

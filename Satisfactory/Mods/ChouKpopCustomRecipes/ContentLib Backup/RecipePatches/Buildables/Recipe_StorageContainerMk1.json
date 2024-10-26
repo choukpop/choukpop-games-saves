@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Storage Container",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_IronRod",
+      "Amount": 10
+ }
+],
+"Products": [
+{
+      "Item": "Desc_StorageContainerMk1",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_Tutorial4_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

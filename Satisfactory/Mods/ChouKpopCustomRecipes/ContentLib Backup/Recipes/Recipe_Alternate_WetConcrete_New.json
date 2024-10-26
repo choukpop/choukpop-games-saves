@@ -1,0 +1,30 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alternate: Wet Concrete",
+"Ingredients": [
+{
+      "Item": "Desc_Stone",
+      "Amount": 6
+ },
+{
+      "Item": "Desc_Water",
+      "Amount": 5000
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Cement",
+      "Amount": 4
+ }
+],
+"ManufacturingDuration": 3.0,
+"ProducedIn": ["Build_OilRefinery_C"],
+"OverrideCategory": "Cat_Minerals_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schematic_Alternate_WetConcrete_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

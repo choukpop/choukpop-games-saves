@@ -1,0 +1,19 @@
+//BuildableResourceNodesRedux/ResNodes/Build/F_02_Crude_Oil/BRN_Recipe_Fracking_02_Crude_Oil_Normal.BRN_Recipe_Fracking_02_Crude_Oil_Normal_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Resource Well Crude Oil (Normal)",
+"Ingredients": [
+{
+      "Item": "Desc_PackagedOil",
+      "Amount": 2000
+ }
+],
+"Products": [
+{
+      "Item": "BRN_Desc_Build_Fracking_02_Crude_Oil_Normal",
+      "Amount": 1
+ }],
+"UnlockedBy": ["BRN_Schem_11_Resource_Wells_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}
