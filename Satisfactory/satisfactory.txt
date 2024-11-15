@@ -18,9 +18,10 @@ Uranium = 88D288
 
 => Mods (Custom Swatch)
 Water = 1662AD
-Junction = 000000
+Junction = 606060
+Floor Hole = 000000
 Oil = 271952
-Heavy Oil = 52194E
+Heavy Oil = AE1CD7
 Fuel = CB6C00
 Turbofuel = 880000
 
@@ -28,8 +29,17 @@ Turbofuel = 880000
 
 
 
+Base Names
+base
+shop
 
-
+Base Factories
+coal
+concrete
+iron
+steel
+copper
+quartz
 
 
 
@@ -39,9 +49,6 @@ Turbofuel = 880000
 !tp steel
 !tp copper
 !tp elevator
-
-
-
 
 
 
