@@ -18,12 +18,12 @@ Uranium = 88D288
 
 => Mods (Custom Swatch)
 Water = 1662AD
-Junction = 606060
-Floor Hole = 000000
 Oil = 271952
 Heavy Oil = AE1CD7
 Fuel = CB6C00
 Turbofuel = 880000
+Junction = 606060
+Floor Hole = 000000
 
 
 
