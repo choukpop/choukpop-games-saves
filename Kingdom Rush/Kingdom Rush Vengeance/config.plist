@@ -3,7 +3,7 @@
 <plist version="1.0">
     <dict>
         <key>launch_count</key>
-        <integer>3</integer>
+        <integer>4</integer>
         <key>volume_fx</key>
         <real>0.5600000</real>
         <key>launch</key>
@@ -49,10 +49,10 @@
             <key>NavKeyStepAlt</key>
             <real>100.0000000</real>
         </dict>
-        <key>mute_music</key>
-        <key>cloud_save_enabled</key>
-        <key>mute_fx</key>
         <key>victory_count</key>
         <integer>4</integer>
+        <key>cloud_save_enabled</key>
+        <key>mute_music</key>
+        <key>mute_fx</key>
     </dict>
 </plist>

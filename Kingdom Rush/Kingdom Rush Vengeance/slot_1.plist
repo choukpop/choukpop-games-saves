@@ -8,14 +8,14 @@
         <dict>
             <key>KR4_TOWER_MELTING_FURNACE</key>
             <dict>
-                <key>selected</key>
-                <false/>
                 <key>key</key>
                 <string>KR4_TOWER_MELTING_FURNACE</string>
-                <key>purchased</key>
+                <key>selected</key>
                 <false/>
                 <key>position</key>
                 <integer>-1</integer>
+                <key>purchased</key>
+                <false/>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -23,14 +23,14 @@
             </dict>
             <key>KR4_TOWER_SHADOW_ARCHERS</key>
             <dict>
-                <key>selected</key>
-                <true/>
                 <key>key</key>
                 <string>KR4_TOWER_SHADOW_ARCHERS</string>
-                <key>purchased</key>
-                <false/>
+                <key>selected</key>
+                <true/>
                 <key>position</key>
                 <integer>0</integer>
+                <key>purchased</key>
+                <false/>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -38,14 +38,14 @@
             </dict>
             <key>KR4_TOWER_ORC_DENTS</key>
             <dict>
-                <key>selected</key>
-                <true/>
                 <key>key</key>
                 <string>KR4_TOWER_ORC_DENTS</string>
-                <key>purchased</key>
-                <false/>
+                <key>selected</key>
+                <true/>
                 <key>position</key>
                 <integer>1</integer>
+                <key>purchased</key>
+                <false/>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -53,14 +53,14 @@
             </dict>
             <key>KR4_TOWER_ROCKET_RIDERS</key>
             <dict>
-                <key>selected</key>
-                <true/>
                 <key>key</key>
                 <string>KR4_TOWER_ROCKET_RIDERS</string>
-                <key>purchased</key>
-                <false/>
+                <key>selected</key>
+                <true/>
                 <key>position</key>
                 <integer>3</integer>
+                <key>purchased</key>
+                <false/>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -68,14 +68,14 @@
             </dict>
             <key>KR4_TOWER_WAR_ZEPELLING</key>
             <dict>
-                <key>selected</key>
-                <false/>
                 <key>key</key>
                 <string>KR4_TOWER_WAR_ZEPELLING</string>
-                <key>purchased</key>
+                <key>selected</key>
                 <false/>
                 <key>position</key>
                 <integer>-1</integer>
+                <key>purchased</key>
+                <false/>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -83,14 +83,14 @@
             </dict>
             <key>KR4_TOWER_ORC_SHAMAN</key>
             <dict>
-                <key>selected</key>
-                <false/>
                 <key>key</key>
                 <string>KR4_TOWER_ORC_SHAMAN</string>
-                <key>purchased</key>
+                <key>selected</key>
                 <false/>
                 <key>position</key>
                 <integer>-1</integer>
+                <key>purchased</key>
+                <false/>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -98,14 +98,14 @@
             </dict>
             <key>KR4_TOWER_DARK_KNIGHTS</key>
             <dict>
-                <key>selected</key>
-                <false/>
                 <key>key</key>
                 <string>KR4_TOWER_DARK_KNIGHTS</string>
-                <key>purchased</key>
+                <key>selected</key>
                 <false/>
                 <key>position</key>
                 <integer>-1</integer>
+                <key>purchased</key>
+                <false/>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -113,14 +113,14 @@
             </dict>
             <key>KR4_TOWER_INFERNAL_ACOLYTE</key>
             <dict>
-                <key>selected</key>
-                <true/>
                 <key>key</key>
                 <string>KR4_TOWER_INFERNAL_ACOLYTE</string>
-                <key>purchased</key>
-                <false/>
+                <key>selected</key>
+                <true/>
                 <key>position</key>
                 <integer>2</integer>
+                <key>purchased</key>
+                <false/>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -128,14 +128,14 @@
             </dict>
             <key>KR4_TOWER_SHAOLIN_TEMPLE</key>
             <dict>
-                <key>selected</key>
-                <false/>
                 <key>key</key>
                 <string>KR4_TOWER_SHAOLIN_TEMPLE</string>
-                <key>purchased</key>
+                <key>selected</key>
                 <false/>
                 <key>position</key>
                 <integer>-1</integer>
+                <key>purchased</key>
+                <false/>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -143,14 +143,14 @@
             </dict>
             <key>KR4_TOWER_GOBLIRANGS</key>
             <dict>
-                <key>selected</key>
-                <false/>
                 <key>key</key>
                 <string>KR4_TOWER_GOBLIRANGS</string>
-                <key>purchased</key>
+                <key>selected</key>
                 <false/>
                 <key>position</key>
                 <integer>-1</integer>
+                <key>purchased</key>
+                <false/>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -158,14 +158,14 @@
             </dict>
             <key>KR4_TOWER_SPIRIT_MAUSOLEUM</key>
             <dict>
-                <key>selected</key>
-                <false/>
                 <key>key</key>
                 <string>KR4_TOWER_SPIRIT_MAUSOLEUM</string>
-                <key>purchased</key>
+                <key>selected</key>
                 <false/>
                 <key>position</key>
                 <integer>-1</integer>
+                <key>purchased</key>
+                <false/>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -173,14 +173,14 @@
             </dict>
             <key>KR4_TOWER_BONE_FLINGERS</key>
             <dict>
-                <key>selected</key>
-                <false/>
                 <key>key</key>
                 <string>KR4_TOWER_BONE_FLINGERS</string>
-                <key>purchased</key>
+                <key>selected</key>
                 <false/>
                 <key>position</key>
                 <integer>-1</integer>
+                <key>purchased</key>
+                <false/>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -188,14 +188,14 @@
             </dict>
             <key>KR4_TOWER_BLAZING_WATCHER</key>
             <dict>
-                <key>selected</key>
-                <false/>
                 <key>key</key>
                 <string>KR4_TOWER_BLAZING_WATCHER</string>
-                <key>purchased</key>
+                <key>selected</key>
                 <false/>
                 <key>position</key>
                 <integer>-1</integer>
+                <key>purchased</key>
+                <false/>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -203,14 +203,14 @@
             </dict>
             <key>KR4_TOWER_GRIM_CEMETERY</key>
             <dict>
-                <key>selected</key>
-                <false/>
                 <key>key</key>
                 <string>KR4_TOWER_GRIM_CEMETERY</string>
-                <key>purchased</key>
+                <key>selected</key>
                 <false/>
                 <key>position</key>
                 <integer>-1</integer>
+                <key>purchased</key>
+                <false/>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -218,14 +218,14 @@
             </dict>
             <key>KR4_TOWER_ROTTEN_FOREST</key>
             <dict>
-                <key>selected</key>
-                <false/>
                 <key>key</key>
                 <string>KR4_TOWER_ROTTEN_FOREST</string>
-                <key>purchased</key>
+                <key>selected</key>
                 <false/>
                 <key>position</key>
                 <integer>-1</integer>
+                <key>purchased</key>
+                <false/>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -233,14 +233,14 @@
             </dict>
             <key>KR4_TOWER_WICKED_SISTERS</key>
             <dict>
-                <key>selected</key>
-                <false/>
                 <key>key</key>
                 <string>KR4_TOWER_WICKED_SISTERS</string>
-                <key>purchased</key>
+                <key>selected</key>
                 <false/>
                 <key>position</key>
                 <integer>-1</integer>
+                <key>purchased</key>
+                <false/>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -248,14 +248,14 @@
             </dict>
             <key>KR4_TOWER_ELITE_HARASSERS</key>
             <dict>
-                <key>selected</key>
-                <false/>
                 <key>key</key>
                 <string>KR4_TOWER_ELITE_HARASSERS</string>
-                <key>purchased</key>
+                <key>selected</key>
                 <false/>
                 <key>position</key>
                 <integer>-1</integer>
+                <key>purchased</key>
+                <false/>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -263,14 +263,14 @@
             </dict>
             <key>KR4_TOWER_DEEP_DEVILS_REEF</key>
             <dict>
-                <key>selected</key>
-                <false/>
                 <key>key</key>
                 <string>KR4_TOWER_DEEP_DEVILS_REEF</string>
-                <key>purchased</key>
+                <key>selected</key>
                 <false/>
                 <key>position</key>
                 <integer>-1</integer>
+                <key>purchased</key>
+                <false/>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -278,14 +278,14 @@
             </dict>
             <key>KR4_TOWER_SWAMP_MONSTER</key>
             <dict>
-                <key>selected</key>
-                <false/>
                 <key>key</key>
                 <string>KR4_TOWER_SWAMP_MONSTER</string>
-                <key>purchased</key>
+                <key>selected</key>
                 <false/>
                 <key>position</key>
                 <integer>-1</integer>
+                <key>purchased</key>
+                <false/>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -293,14 +293,14 @@
             </dict>
             <key>KR4_TOWER_IGNIS_ALTAR</key>
             <dict>
-                <key>selected</key>
-                <false/>
                 <key>key</key>
                 <string>KR4_TOWER_IGNIS_ALTAR</string>
-                <key>purchased</key>
+                <key>selected</key>
                 <false/>
                 <key>position</key>
                 <integer>-1</integer>
+                <key>purchased</key>
+                <false/>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -308,14 +308,14 @@
             </dict>
             <key>KR4_TOWER_TREMOR</key>
             <dict>
-                <key>selected</key>
-                <false/>
                 <key>key</key>
                 <string>KR4_TOWER_TREMOR</string>
-                <key>purchased</key>
+                <key>selected</key>
                 <false/>
                 <key>position</key>
                 <integer>3</integer>
+                <key>purchased</key>
+                <false/>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -1087,7 +1087,7 @@
             <key>KR4_HERO_VERUK</key>
             <dict>
                 <key>xp</key>
-                <integer>42515</integer>
+                <integer>44585</integer>
                 <key>level</key>
                 <integer>4</integer>
                 <key>selected</key>
@@ -2096,39 +2096,31 @@
         </dict>
         <key>notifications</key>
         <dict>
-            <key>enemies</key>
-            <dict>
-                <key>cyclopter_pilot</key>
-                <true/>
-                <key>warhammer_guard</key>
-                <true/>
-                <key>human_worker</key>
-                <true/>
-                <key>bruiser</key>
-                <true/>
-                <key>chomp_bot</key>
-                <true/>
-                <key>smokebeard_engineer</key>
-                <true/>
-                <key>clockwork_spider</key>
-                <true/>
-                <key>tooltip_notification_tip_1</key>
-                <key>tinbeard_gunman</key>
-                <true/>
-                <key>tooltip_notification_tip_2</key>
-            </dict>
             <key>tips</key>
             <dict>
                 <key>tooltip_notification_tip_1</key>
                 <true/>
-                <key>clockwork_spider</key>
-                <key>chomp_bot</key>
-                <key>smokebeard_engineer</key>
-                <key>warhammer_guard</key>
-                <key>cyclopter_pilot</key>
                 <key>tooltip_notification_tip_2</key>
                 <true/>
+            </dict>
+            <key>enemies</key>
+            <dict>
+                <key>human_worker</key>
+                <true/>
+                <key>warhammer_guard</key>
+                <true/>
+                <key>cyclopter_pilot</key>
+                <true/>
+                <key>bruiser</key>
+                <true/>
+                <key>clockwork_spider</key>
+                <true/>
+                <key>smokebeard_engineer</key>
+                <true/>
+                <key>chomp_bot</key>
+                <true/>
                 <key>tinbeard_gunman</key>
+                <true/>
             </dict>
         </dict>
         <key>save_version</key>
@@ -2328,7 +2320,7 @@
                 <key>earned</key>
                 <false/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>1</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2341,7 +2333,7 @@
                 <key>earned</key>
                 <false/>
                 <key>quantity_current</key>
-                <integer>82</integer>
+                <integer>89</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2354,7 +2346,7 @@
                 <key>earned</key>
                 <false/>
                 <key>quantity_current</key>
-                <integer>40</integer>
+                <integer>54</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2510,7 +2502,7 @@
                 <key>earned</key>
                 <false/>
                 <key>quantity_current</key>
-                <integer>148</integer>
+                <integer>158</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2523,7 +2515,7 @@
                 <key>earned</key>
                 <false/>
                 <key>quantity_current</key>
-                <integer>823</integer>
+                <integer>868</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2536,7 +2528,7 @@
                 <key>earned</key>
                 <false/>
                 <key>quantity_current</key>
-                <integer>823</integer>
+                <integer>868</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2588,7 +2580,7 @@
                 <key>earned</key>
                 <false/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>1</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2692,7 +2684,7 @@
                 <key>earned</key>
                 <false/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>36</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2872,9 +2864,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>75</integer>
+                <integer>80</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -3345,21 +3337,23 @@
                 <true/>
                 <key>dark_army_archer_shooter_lvl3</key>
                 <true/>
+                <key>fade_loop</key>
+                <true/>
                 <key>defense_point</key>
                 <true/>
-                <key>fade_loop</key>
+                <key>dark_army_archer_crow_lvl4</key>
                 <true/>
                 <key>fx_repeat_forever</key>
                 <true/>
-                <key>demons_goonies</key>
-                <true/>
                 <key>hero_orc</key>
                 <true/>
-                <key>hero_orc_ultimate_goblin</key>
+                <key>demons_goonies</key>
+                <true/>
+                <key>touch</key>
                 <true/>
                 <key>dark_army_archer_shooter_lvl1</key>
                 <true/>
-                <key>touch</key>
+                <key>hero_orc_ultimate_goblin</key>
                 <true/>
                 <key>human_woodcutter</key>
                 <true/>
@@ -3371,13 +3365,13 @@
                 <true/>
                 <key>bilbo</key>
                 <true/>
-                <key>moving_cloud</key>
-                <true/>
                 <key>ember_lords_mage_shooter_lvl3</key>
                 <true/>
-                <key>condor</key>
+                <key>moving_cloud</key>
                 <true/>
                 <key>demons_goonies_trained</key>
+                <true/>
+                <key>condor</key>
                 <true/>
                 <key>door_open</key>
                 <true/>
@@ -3387,27 +3381,37 @@
                 <true/>
                 <key>armadillo</key>
                 <true/>
-                <key>reinforcement_warmongers_goblin</key>
-                <true/>
                 <key>ember_lords_mage_shooter_lvl2</key>
+                <true/>
+                <key>reinforcement_warmongers_goblin</key>
                 <true/>
                 <key>clockwork_spider</key>
                 <true/>
                 <key>warmongers_soldier_orc_lvl2</key>
                 <true/>
-                <key>dark_army_archer_shooter_lvl2</key>
-                <true/>
                 <key>tinbeard_gunman</key>
                 <true/>
-                <key>chomp_bot</key>
+                <key>dark_army_archer_shooter_lvl2</key>
                 <true/>
                 <key>smokebeard_engineer</key>
+                <true/>
+                <key>chomp_bot</key>
                 <true/>
                 <key>multiple_objects</key>
                 <true/>
                 <key>cyclopter_pilot</key>
                 <true/>
                 <key>warmongers_soldier_orc_lvl3</key>
+                <true/>
+                <key>ember_lords_mage_shooter_lvl4</key>
+                <true/>
+                <key>dark_army_archer_shooter_lvl4</key>
+                <true/>
+                <key>warmongers_rocket_level4_goblin_box</key>
+                <true/>
+                <key>warmongers_soldier_orc_lvl4</key>
+                <true/>
+                <key>warmongers_soldier_orc_captain</key>
                 <true/>
             </dict>
         </dict>

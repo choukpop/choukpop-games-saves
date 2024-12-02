@@ -1,0 +1,305 @@
+
+ores_miners:
+  individualConfiguredObjects:
+    BOM_FlintMine01:
+      name: Flint Miner 1
+      isPermanent: true
+      isActive: true
+    BOM_FlintMine02:
+      name: Flint Miner 2
+      isPermanent: true
+      isActive: true
+    BOM_CopperMine01:
+      name: Copper Miner 1
+      isPermanent: true
+      isActive: true
+    BOM_CopperMine02:
+      name: Copper Miner 2
+      isPermanent: true
+      isActive: true
+    BOM_TinMine01:
+      name: Tin Miner 1
+      isPermanent: true
+      isActive: true
+    BOM_TinMine02:
+      name: Tin Miner 2
+      isPermanent: true
+      isActive: true
+    BOM_CoalMine01:
+      name: Coal Miner 1
+      isPermanent: true
+      isActive: true
+    BOM_CoalMine02:
+      name: Coal Miner 2
+      isPermanent: true
+      isActive: true
+    BOM_IronMine01:
+      name: Iron Miner 1
+      isPermanent: true
+      isActive: true
+    BOM_IronMine02:
+      name: Iron Miner 2
+      isPermanent: true
+      isActive: true
+    BOM_SilverMine01:
+      name: Silver Miner 1
+      isPermanent: true
+      isActive: true
+    BOM_SilverMine02:
+      name: Silver Miner 2
+      isPermanent: true
+      isActive: true
+  iconName: mine
+  isActive: true
+  iconColorRGBA:
+    red: 120
+    green: 120
+    blue: 120
+    alpha: 255
+
+ores_copper:
+  categoryConfiguredObjects:
+    - rock4_copper
+  name: Copper Deposit
+  iconName: mine
+  isPermanent: true
+  isActive: true
+  iconColorRGBA:
+    red: 200
+    green: 150
+    blue: 115
+    alpha: 255
+
+ores_tin:
+  categoryConfiguredObjects:
+    - MineRock_Tin
+  name: Tin
+  iconName: mine
+  isPermanent: true
+  isActive: true
+  iconColorRGBA:
+    red: 200
+    green: 200
+    blue: 200
+    alpha: 255
+
+ores_silver:
+  categoryConfiguredObjects:
+    - silvervein
+  name: Silver Vein
+  iconName: mine
+  isPermanent: true
+  isActive: true
+  iconColorRGBA:
+    red: 150
+    green: 150
+    blue: 150
+    alpha: 255
+
+ores_obsidian:
+  categoryConfiguredObjects:
+    - MineRock_Obsidian
+  name: Obsidian
+  iconName: mine
+  isPermanent: true
+  isActive: true
+  iconColorRGBA:
+    red: 135
+    green: 70
+    blue: 200
+    alpha: 255
+
+
+
+spawners:
+  individualConfiguredObjects:
+    FireHole:
+      name: Surtlings
+      isPermanent: true
+      isActive: true
+    CharredStone_Spawner:
+      name: Skeletons
+      isPermanent: true
+      isActive: true
+    Spawner_GreydwarfNest:
+      name: Greydwarves
+      isPermanent: true
+      isActive: true
+    BonePileSpawner:
+      name: Skeletons
+      isPermanent: true
+      isActive: true
+    DrakeNest01:
+      name: Drakes
+      isPermanent: true
+      isActive: true
+    GraveStone_Broken_CharredTwitcherNest:
+      name: Twitcher
+      isPermanent: true
+      isActive: true
+    GraveStone_CharredTwitcherNest:
+      name: Twitcher
+      isPermanent: true
+      isActive: true
+    Spawner_CharredCross:
+      name: Skeletons
+      isPermanent: true
+      isActive: true
+    Spawner_CharredStone:
+      name: Skeletons
+      isPermanent: true
+      isActive: true
+    Spawner_DraugrPile:
+      name: Draugr
+      isPermanent: true
+      isActive: true
+    VoltureNest:
+      name: Voltures
+      isPermanent: true
+      isActive: true
+  iconName: spawner
+  isActive: true
+  iconColorRGBA:
+    red: 255
+    green: 100
+    blue: 0
+    alpha: 255
+
+dungeons:
+  individualConfiguredObjects:
+    SunkenCrypt4:
+      name: Sunken Crypt
+      isPermanent: true
+      isActive: true
+    MountainCave02:
+      name: Mountain Cave
+      isPermanent: true
+      isActive: true
+
+    TrollCave02:
+      name: Troll Cave
+      isPermanent: true
+      isActive: true
+
+    CharredFortress:
+      name: Charred Fortress
+      isPermanent: true
+      isActive: true
+  iconName: dungeon
+  isActive: true
+  iconColorRGBA:
+    red: 255
+    green: 255
+    blue: 255
+    alpha: 255
+
+dungeons_crypts:
+  categoryConfiguredObjects:
+  - Crypt2
+  - Crypt3
+  - Crypt4
+  name: Crypt
+  iconName: dungeon
+  isPermanent: true
+  isActive: true
+  iconColorRGBA:
+    red: 255
+    green: 255
+    blue: 255
+    alpha: 255
+
+greydwarf_ruins:
+  categoryConfiguredObjects:
+    - Ruin1
+    - Ruin2
+    - Ruin3
+  name: Ruins
+  iconName: dungeon
+  isPermanent: true
+  isActive: true
+  iconColorRGBA:
+    red: 255
+    green: 255
+    blue: 255
+    alpha: 255
+
+swamp_towers_ruins:
+  categoryConfiguredObjects:
+    # - SwampHut1
+    # - SwampHut2
+    # - SwampHut3
+    # - SwampHut4
+    # - SwampHut5
+    - SwampRuin1
+    - SwampRuin2
+  name: Swamp Ruins
+  iconName: dungeon
+  isPermanent: true
+  isActive: true
+  iconColorRGBA:
+    red: 255
+    green: 255
+    blue: 255
+    alpha: 255
+
+mountain_towers_ruins:
+  categoryConfiguredObjects:
+    - StoneTower1
+    - StoneTower3
+    - StoneTowerRuins03
+    - StoneTowerRuins04
+    - StoneTowerRuins05
+    - StoneTowerRuins07
+    - StoneTowerRuins08
+    - StoneTowerRuins09
+    - StoneTowerRuins10
+  name: Swamp Ruins
+  iconName: dungeon
+  isPermanent: true
+  isActive: true
+  iconColorRGBA:
+    red: 255
+    green: 255
+    blue: 255
+    alpha: 255
+
+mistlands_ruins:
+  categoryConfiguredObjects:
+    - Mistlands_DvergrBossEntrance1
+    - Mistlands_DvergrTownEntrance1
+    - Mistlands_DvergrTownEntrance2
+    - Mistlands_Excavation1
+    - Mistlands_Excavation2
+    - Mistlands_Excavation3
+    - Mistlands_GuardTower1_new
+    - Mistlands_GuardTower1_ruined_new
+    - Mistlands_GuardTower1_ruined_new2
+    - Mistlands_GuardTower2_new
+    - Mistlands_GuardTower3_new
+    - Mistlands_GuardTower3_ruined_new
+    - Mistlands_Lighthouse1_new
+    - Mistlands_Harbour1
+  name: Abandoned Outpost Ruins
+  iconName: dungeon
+  isPermanent: true
+  isActive: true
+  iconColorRGBA:
+    red: 255
+    green: 255
+    blue: 255
+    alpha: 255
+
+morgen_holes:
+  categoryConfiguredObjects:
+    - MorgenHole1
+    - MorgenHole2
+    - MorgenHole3
+  name: Morgen Hole
+  iconName: dungeon
+  isPermanent: true
+  isActive: true
+  iconColorRGBA:
+    red: 255
+    green: 255
+    blue: 255
+    alpha: 255
