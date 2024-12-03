@@ -1,6 +1,7 @@
 C:\Users\ChouKpop1337\AppData\LocalLow\IronGate\Valheim
 
 Death Tweaks conflit with RecipeManager
+AzuCraftyBoxes conflit "Craft without Resources"
 
 
 
