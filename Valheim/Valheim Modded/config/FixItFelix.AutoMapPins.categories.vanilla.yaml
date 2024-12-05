@@ -50,7 +50,8 @@ ores_miners:
       isPermanent: true
       isActive: true
   iconName: mine
-  isActive: true
+  # Enable or Disable
+  isActive: false
   iconColorRGBA:
     red: 120
     green: 120
@@ -63,7 +64,8 @@ ores_copper:
   name: Copper Deposit
   iconName: mine
   isPermanent: true
-  isActive: true
+  # Enable or Disable
+  isActive: false
   iconColorRGBA:
     red: 200
     green: 150
@@ -76,6 +78,7 @@ ores_tin:
   name: Tin
   iconName: mine
   isPermanent: true
+  # Enable or Disable
   isActive: true
   iconColorRGBA:
     red: 200
@@ -89,7 +92,8 @@ ores_silver:
   name: Silver Vein
   iconName: mine
   isPermanent: true
-  isActive: true
+  # Enable or Disable
+  isActive: false
   iconColorRGBA:
     red: 150
     green: 150
@@ -102,7 +106,8 @@ ores_obsidian:
   name: Obsidian
   iconName: mine
   isPermanent: true
-  isActive: true
+  # Enable or Disable
+  isActive: false
   iconColorRGBA:
     red: 135
     green: 70
@@ -158,6 +163,7 @@ spawners:
       isPermanent: true
       isActive: true
   iconName: spawner
+  # Enable or Disable
   isActive: true
   iconColorRGBA:
     red: 255
@@ -186,6 +192,7 @@ dungeons:
       isPermanent: true
       isActive: true
   iconName: dungeon
+  # Enable or Disable
   isActive: true
   iconColorRGBA:
     red: 255
@@ -201,6 +208,7 @@ dungeons_crypts:
   name: Crypt
   iconName: dungeon
   isPermanent: true
+  # Enable or Disable
   isActive: true
   iconColorRGBA:
     red: 255
@@ -216,6 +224,7 @@ greydwarf_ruins:
   name: Ruins
   iconName: dungeon
   isPermanent: true
+  # Enable or Disable
   isActive: true
   iconColorRGBA:
     red: 255
@@ -235,6 +244,7 @@ swamp_towers_ruins:
   name: Swamp Ruins
   iconName: dungeon
   isPermanent: true
+  # Enable or Disable
   isActive: true
   iconColorRGBA:
     red: 255
@@ -256,6 +266,7 @@ mountain_towers_ruins:
   name: Swamp Ruins
   iconName: dungeon
   isPermanent: true
+  # Enable or Disable
   isActive: true
   iconColorRGBA:
     red: 255
@@ -282,6 +293,7 @@ mistlands_ruins:
   name: Abandoned Outpost Ruins
   iconName: dungeon
   isPermanent: true
+  # Enable or Disable
   isActive: true
   iconColorRGBA:
     red: 255
@@ -297,6 +309,7 @@ morgen_holes:
   name: Morgen Hole
   iconName: dungeon
   isPermanent: true
+  # Enable or Disable
   isActive: true
   iconColorRGBA:
     red: 255
