@@ -79,7 +79,7 @@ ores_tin:
   iconName: mine
   isPermanent: true
   # Enable or Disable
-  isActive: true
+  isActive: false
   iconColorRGBA:
     red: 200
     green: 200
@@ -114,28 +114,14 @@ ores_obsidian:
     blue: 200
     alpha: 255
 
-
-
 spawners:
   individualConfiguredObjects:
-    FireHole:
-      name: Surtlings
-      isPermanent: true
-      isActive: true
     CharredStone_Spawner:
       name: Skeletons
       isPermanent: true
       isActive: true
-    Spawner_GreydwarfNest:
-      name: Greydwarves
-      isPermanent: true
-      isActive: true
     BonePileSpawner:
       name: Skeletons
-      isPermanent: true
-      isActive: true
-    DrakeNest01:
-      name: Drakes
       isPermanent: true
       isActive: true
     GraveStone_Broken_CharredTwitcherNest:
@@ -158,65 +144,60 @@ spawners:
       name: Draugr
       isPermanent: true
       isActive: true
-    VoltureNest:
-      name: Voltures
-      isPermanent: true
-      isActive: true
   iconName: spawner
   # Enable or Disable
-  isActive: true
+  isActive: false
   iconColorRGBA:
     red: 255
     green: 100
     blue: 0
     alpha: 255
 
-dungeons:
-  individualConfiguredObjects:
-    SunkenCrypt4:
-      name: Sunken Crypt
-      isPermanent: true
-      isActive: true
-    MountainCave02:
-      name: Mountain Cave
-      isPermanent: true
-      isActive: true
+# MineRock_gold, MineRock_coal, MineRock_silver_small, MineRock_blackmetal
 
-    TrollCave02:
-      name: Troll Cave
-      isPermanent: true
-      isActive: true
 
-    CharredFortress:
-      name: Charred Fortress
-      isPermanent: true
-      isActive: true
-  iconName: dungeon
-  # Enable or Disable
-  isActive: true
-  iconColorRGBA:
-    red: 255
-    green: 255
-    blue: 255
-    alpha: 255
 
-dungeons_crypts:
+
+
+#region Meadows
+# +---------+
+# | Meadows |
+# +---------+
+
+dungeons_has_treasure_wood_house:
   categoryConfiguredObjects:
-  - Crypt2
-  - Crypt3
-  - Crypt4
-  name: Crypt
-  iconName: dungeon
+  - WoodHouse1
+  - WoodHouse2
+  - WoodHouse3
+  - WoodHouse4
+  - WoodHouse5
+  - WoodHouse6
+  - WoodHouse7
+  - WoodHouse8
+  - WoodHouse9
+  - WoodHouse10
+  - WoodHouse11
+  - WoodHouse12
+  - WoodHouse13
+  name: Wood House
+  iconName: village
   isPermanent: true
   # Enable or Disable
-  isActive: true
+  isActive: false
   iconColorRGBA:
-    red: 255
-    green: 255
-    blue: 255
+    red: 75
+    green: 35
+    blue: 0
     alpha: 255
 
-greydwarf_ruins:
+
+
+#region Black Forest
+# +--------------+
+# | Black Forest |
+# +--------------+
+
+dungeons_has_treasure_greydwarf_ruins:
   categoryConfiguredObjects:
     - Ruin1
     - Ruin2
@@ -225,94 +206,369 @@ greydwarf_ruins:
   iconName: dungeon
   isPermanent: true
   # Enable or Disable
-  isActive: true
+  isActive: false
+  iconColorRGBA:
+    red: 150
+    green: 150
+    blue: 150
+    alpha: 255
+
+dungeons_has_treasure_stone_house:
+  categoryConfiguredObjects:
+  - StoneHouse3
+  - StoneHouse4
+  name: Stone House
+  iconName: temple
+  isPermanent: true
+  # Enable or Disable
+  isActive: false
+  iconColorRGBA:
+    red: 140
+    green: 140
+    blue: 140
+    alpha: 255
+
+dungeons_has_treasure_stone_tower:
+  categoryConfiguredObjects:
+  - StoneTower1
+  - StoneTower3
+  - StoneTowerRuins03
+  - StoneTowerRuins04
+  - StoneTowerRuins05
+  - StoneTowerRuins07
+  - StoneTowerRuins08
+  - StoneTowerRuins09
+  - StoneTowerRuins10
+  name: Stone Tower
+  iconName: monument
+  isPermanent: true
+  # Enable or Disable
+  isActive: false
+  iconColorRGBA:
+    red: 140
+    green: 140
+    blue: 140
+    alpha: 255
+
+dungeon_crypt:
+  categoryConfiguredObjects:
+  - Crypt2
+  - Crypt3
+  - Crypt4
+  name: Crypt
+  iconName: dungeon
+  isPermanent: true
+  # Enable or Disable
+  isActive: false
   iconColorRGBA:
     red: 255
     green: 255
     blue: 255
     alpha: 255
 
-swamp_towers_ruins:
+dungeon_troll_cave:
   categoryConfiguredObjects:
-    # - SwampHut1
-    # - SwampHut2
-    # - SwampHut3
-    # - SwampHut4
-    # - SwampHut5
+  - TrollCave02
+  name: Troll Cave
+  iconName: dungeon
+  isPermanent: true
+  # Enable or Disable
+  isActive: false
+  iconColorRGBA:
+    red: 0
+    green: 0
+    blue: 255
+    alpha: 255
+
+spawner_greydwarf_nest:
+  categoryConfiguredObjects:
+  - Spawner_GreydwarfNest
+  - Greydwarf_camp1
+  name: Spawner Greydwarf
+  iconName: spawner
+  isPermanent: true
+  # Enable or Disable
+  isActive: false
+  iconColorRGBA:
+    red: 0
+    green: 255
+    blue: 0
+    alpha: 255
+
+
+
+#region Swamp
+# +-------+
+# | Swamp |
+# +-------+
+
+dungeons_has_treasure_swamp_towers:
+  categoryConfiguredObjects:
     - SwampRuin1
     - SwampRuin2
-  name: Swamp Ruins
+  name: Swamp Tower
   iconName: dungeon
   isPermanent: true
   # Enable or Disable
-  isActive: true
+  isActive: false
+  iconColorRGBA:
+    red: 150
+    green: 150
+    blue: 150
+    alpha: 255
+
+dungeons_has_treasure_swamp_huts:
+  categoryConfiguredObjects:
+    - SwampHut1
+    - SwampHut2
+    - SwampHut3
+    - SwampHut4
+    - SwampHut5
+  name: Swamp Hut
+  iconName: dungeon
+  isPermanent: true
+  # Enable or Disable
+  isActive: false
+  iconColorRGBA:
+    red: 105
+    green: 40
+    blue: 0
+    alpha: 255
+
+dungeon_sunken_crypt:
+  categoryConfiguredObjects:
+  - SunkenCrypt4
+  name: Sunken Crypt
+  iconName: dungeon
+  isPermanent: true
+  # Enable or Disable
+  isActive: false
+  iconColorRGBA:
+    red: 80
+    green: 80
+    blue: 80
+    alpha: 255
+
+spawner_surtlings:
+  categoryConfiguredObjects:
+  - FireHole
+  name: Spawner Surtlings
+  iconName: spawner
+  isPermanent: true
+  # Enable or Disable
+  isActive: false
   iconColorRGBA:
     red: 255
+    green: 0
+    blue: 0
+    alpha: 255
+
+ores_iron_deposit:
+  categoryConfiguredObjects:
+    - MineRock_iron
+  name: Iron Deposit
+  iconName: mine
+  isPermanent: true
+  # Enable or Disable
+  isActive: false
+  iconColorRGBA:
+    red: 155
+    green: 155
+    blue: 155
+    alpha: 255
+
+ores_coal_deposit:
+  categoryConfiguredObjects:
+    - MineRock_coal
+  name: Coal Deposit
+  iconName: mine
+  isPermanent: true
+  # Enable or Disable
+  isActive: false
+  iconColorRGBA:
+    red: 50
+    green: 50
+    blue: 50
+    alpha: 255
+
+
+
+#region Mountains
+# +-----------+
+# | Mountains |
+# +-----------+
+
+dungeons_has_treasure_abandoned_log_cabin:
+  categoryConfiguredObjects:
+  - AbandonedLogCabin02
+  - AbandonedLogCabin03
+  - AbandonedLogCabin04
+  name: Abandoned Cabin
+  iconName: village
+  isPermanent: true
+  # Enable or Disable
+  isActive: false
+  iconColorRGBA:
+    red: 150
+    green: 75
+    blue: 0
+    alpha: 255
+
+dungeon_mountain_cave:
+  categoryConfiguredObjects:
+  - MountainCave02
+  name: Mountain Cave
+  iconName: dungeon
+  isPermanent: true
+  # Enable or Disable
+  isActive: false
+  iconColorRGBA:
+    red: 0
     green: 255
     blue: 255
     alpha: 255
 
-mountain_towers_ruins:
+spawner_drake_nest:
   categoryConfiguredObjects:
-    - StoneTower1
-    - StoneTower3
-    - StoneTowerRuins03
-    - StoneTowerRuins04
-    - StoneTowerRuins05
-    - StoneTowerRuins07
-    - StoneTowerRuins08
-    - StoneTowerRuins09
-    - StoneTowerRuins10
-  name: Swamp Ruins
+  - DrakeNest01
+  name: Drake Nest
+  iconName: hand
+  isPermanent: true
+  # Enable or Disable
+  isActive: false
+  iconColorRGBA:
+    red: 200
+    green: 0
+    blue: 0
+    alpha: 255
+
+
+
+#region Plains
+# +--------+
+# | Plains |
+# +--------+
+
+spawner_tarpits:
+  categoryConfiguredObjects:
+  - TarPit1
+  - TarPit2
+  - TarPit3
+  name: Spawner TarPit
+  iconName: spawner
+  isPermanent: true
+  # Enable or Disable
+  isActive: false
+  iconColorRGBA:
+    red: 35
+    green: 35
+    blue: 35
+    alpha: 255
+
+spawner_grave:
+  categoryConfiguredObjects:
+  - Grave1
+  name: Spawner Grave
+  iconName: spawner
+  isPermanent: true
+  # Enable or Disable
+  isActive: false
+  iconColorRGBA:
+    red: 0
+    green: 120
+    blue: 0
+    alpha: 255
+
+
+
+#region Mistlands
+# +-----------+
+# | Mistlands |
+# +-----------+
+
+dungeon_infested_mines:
+  categoryConfiguredObjects:
+  - Mistlands_DvergrTownEntrance1
+  - Mistlands_DvergrTownEntrance2
+  name: Infested Mines
   iconName: dungeon
   isPermanent: true
   # Enable or Disable
-  isActive: true
+  isActive: false
   iconColorRGBA:
-    red: 255
-    green: 255
-    blue: 255
+    red: 90
+    green: 90
+    blue: 90
     alpha: 255
 
-mistlands_ruins:
+dungeon_dvergr_camps_towers:
   categoryConfiguredObjects:
-    - Mistlands_DvergrBossEntrance1
-    - Mistlands_DvergrTownEntrance1
-    - Mistlands_DvergrTownEntrance2
-    - Mistlands_Excavation1
-    - Mistlands_Excavation2
-    - Mistlands_Excavation3
     - Mistlands_GuardTower1_new
     - Mistlands_GuardTower1_ruined_new
     - Mistlands_GuardTower1_ruined_new2
     - Mistlands_GuardTower2_new
     - Mistlands_GuardTower3_new
     - Mistlands_GuardTower3_ruined_new
-    - Mistlands_Lighthouse1_new
-    - Mistlands_Harbour1
-  name: Abandoned Outpost Ruins
-  iconName: dungeon
+  name: Guard Tower
+  iconName: monument
   isPermanent: true
   # Enable or Disable
-  isActive: true
+  isActive: false
   iconColorRGBA:
-    red: 255
-    green: 255
-    blue: 255
+    red: 90
+    green: 90
+    blue: 90
     alpha: 255
 
-morgen_holes:
+dungeon_dvergr_camps_excavation:
   categoryConfiguredObjects:
-    - MorgenHole1
-    - MorgenHole2
-    - MorgenHole3
-  name: Morgen Hole
-  iconName: dungeon
+    - Mistlands_Excavation1
+    - Mistlands_Excavation2
+    - Mistlands_Excavation3
+  name: Excavation
+  iconName: mine
   isPermanent: true
   # Enable or Disable
-  isActive: true
+  isActive: false
+  iconColorRGBA:
+    red: 90
+    green: 90
+    blue: 90
+    alpha: 255
+
+
+
+#region Ashlands
+# +----------+
+# | Ashlands |
+# +----------+
+
+spawner_charred_stone:
+  categoryConfiguredObjects:
+  - CharredStone_Spawner
+  name: Skeletons
+  iconName: spawner
+  isPermanent: true
+  # Enable or Disable
+  isActive: false
+  iconColorRGBA:
+    red: 150
+    green: 0
+    blue: 0
+    alpha: 255
+
+dungeon_volture_nest:
+  categoryConfiguredObjects:
+  - VoltureNest
+  name: Volture Nest
+  iconName: bones
+  isPermanent: true
+  # Enable or Disable
+  isActive: false
   iconColorRGBA:
     red: 255
-    green: 255
-    blue: 255
+    green: 135
+    blue: 0
     alpha: 255
+
+

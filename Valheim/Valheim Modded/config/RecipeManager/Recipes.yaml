@@ -57,6 +57,7 @@ recipeModifications:
         craftCost: 1
         upgradeCost: 1
         refund: true
+
   Recipe_Bronze5:
     action: Modify
     prefab: Bronze
@@ -75,4 +76,60 @@ recipeModifications:
         craftCost: 5
         upgradeCost: 1
         refund: true
+
+
+
+  Add_Convert_Resources_Wood_Stone:
+    action: Add
+    prefab: Stone
+    recipeName: Add_Convert_Resources_Wood_Stone
+    craftedAt: piece_stonecutter
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      anyOneResource: false
+      ingredients:
+      - prefab: Wood
+        craftCost: 1
+        refund: true
+  Add_Convert_Resources_Stone_Wood:
+    action: Add
+    prefab: Wood
+    recipeName: Add_Convert_Resources_Stone_Wood
+    craftedAt: piece_stonecutter
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      anyOneResource: false
+      ingredients:
+      - prefab: Stone
+        craftCost: 1
+        refund: true
+  Add_Convert_Resources_Wood_Stone_10x:
+    action: Add
+    prefab: Stone
+    recipeName: Add_Convert_Resources_Wood_Stone
+    craftedAt: piece_stonecutter
+    minStationLevel: 1
+    craftAmount: 10
+    recipe:
+      anyOneResource: false
+      ingredients:
+      - prefab: Wood
+        craftCost: 10
+        refund: true
+  Add_Convert_Resources_Stone_Wood_10x:
+    action: Add
+    prefab: Wood
+    recipeName: Add_Convert_Resources_Stone_Wood
+    craftedAt: piece_stonecutter
+    minStationLevel: 1
+    craftAmount: 10
+    recipe:
+      anyOneResource: false
+      ingredients:
+      - prefab: Stone
+        craftCost: 10
+        refund: true
+
 
