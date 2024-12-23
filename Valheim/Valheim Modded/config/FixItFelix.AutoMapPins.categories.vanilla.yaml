@@ -58,68 +58,8 @@ ores_miners:
     blue: 120
     alpha: 255
 
-ores_copper:
-  categoryConfiguredObjects:
-    - rock4_copper
-  name: Copper Deposit
-  iconName: mine
-  isPermanent: true
-  # Enable or Disable
-  isActive: false
-  iconColorRGBA:
-    red: 200
-    green: 150
-    blue: 115
-    alpha: 255
-
-ores_tin:
-  categoryConfiguredObjects:
-    - MineRock_Tin
-  name: Tin
-  iconName: mine
-  isPermanent: true
-  # Enable or Disable
-  isActive: false
-  iconColorRGBA:
-    red: 200
-    green: 200
-    blue: 200
-    alpha: 255
-
-ores_silver:
-  categoryConfiguredObjects:
-    - silvervein
-  name: Silver Vein
-  iconName: mine
-  isPermanent: true
-  # Enable or Disable
-  isActive: false
-  iconColorRGBA:
-    red: 150
-    green: 150
-    blue: 150
-    alpha: 255
-
-ores_obsidian:
-  categoryConfiguredObjects:
-    - MineRock_Obsidian
-  name: Obsidian
-  iconName: mine
-  isPermanent: true
-  # Enable or Disable
-  isActive: false
-  iconColorRGBA:
-    red: 135
-    green: 70
-    blue: 200
-    alpha: 255
-
 spawners:
   individualConfiguredObjects:
-    CharredStone_Spawner:
-      name: Skeletons
-      isPermanent: true
-      isActive: true
     BonePileSpawner:
       name: Skeletons
       isPermanent: true
@@ -295,6 +235,34 @@ spawner_greydwarf_nest:
     blue: 0
     alpha: 255
 
+ores_copper:
+  categoryConfiguredObjects:
+    - rock4_copper
+  name: Copper Deposit
+  iconName: mine
+  isPermanent: true
+  # Enable or Disable
+  isActive: false
+  iconColorRGBA:
+    red: 200
+    green: 150
+    blue: 115
+    alpha: 255
+
+ores_tin:
+  categoryConfiguredObjects:
+    - MineRock_Tin
+  name: Tin
+  iconName: mine
+  isPermanent: true
+  # Enable or Disable
+  isActive: false
+  iconColorRGBA:
+    red: 200
+    green: 200
+    blue: 200
+    alpha: 255
+
 
 
 #region Swamp
@@ -440,6 +408,34 @@ spawner_drake_nest:
     red: 200
     green: 0
     blue: 0
+    alpha: 255
+
+ores_silver:
+  categoryConfiguredObjects:
+    - silvervein
+  name: Silver Vein
+  iconName: mine
+  isPermanent: true
+  # Enable or Disable
+  isActive: false
+  iconColorRGBA:
+    red: 150
+    green: 150
+    blue: 150
+    alpha: 255
+
+ores_obsidian:
+  categoryConfiguredObjects:
+    - MineRock_Obsidian
+  name: Obsidian
+  iconName: mine
+  isPermanent: true
+  # Enable or Disable
+  isActive: false
+  iconColorRGBA:
+    red: 135
+    green: 70
+    blue: 200
     alpha: 255
 
 

@@ -1,0 +1,19 @@
+C:\Users\ChouKpop1337\AppData\Roaming\runic games
+
+https://www.torchlightfansite.com/mod_downloads/42-torchlight-1-mods/
+
+https://torchlight.fandom.com/wiki/Console_(T1)
+https://torchlight.fandom.com/wiki/Keybinding_(T1)
+https://strategywiki.org/wiki/Torchlight/Item_index
+
+
+
+KEYMAP_AUTOMAP :84       // T
+KEYMAP_SWAPSKILLS :82    // R
+KEYMAP_INVENTORY :9      // TAB
+KEYMAP_PET :90           // Z
+KEYMAP_SKILLS :69        // E
+
+
+
+
