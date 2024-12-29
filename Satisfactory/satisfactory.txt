@@ -1,7 +1,18 @@
-dwC:\Users\ChouKpop1337\AppData\Local\FactoryGame
+
+C:\Users\ChouKpop1337\AppData\Local\FactoryGame
 
 76561198255923205 - Main Account (andre_pt611)
 76561199570726859 - Rias Gremory (choukpopwithoutcheats1)
+
+100% * 40 / 45
+40 is your desired throughput / min
+45 is the current throughput / min
+
+
+
+
+
+
 
 Coal = 202020
 Limestone = C8BFA7
@@ -49,6 +60,8 @@ quartz
 !tp steel
 !tp copper
 !tp elevator
+
+
 
 
 
