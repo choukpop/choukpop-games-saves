@@ -14,18 +14,20 @@ C:\Users\ChouKpop1337\AppData\Local\FactoryGame
 
 
 
-Coal = 202020
 Limestone = C8BFA7
-Copper = BD4C39
 Iron = 8E5C5C
+Copper = BD4C39
 Caterium = E2B148
-Quartz = F177B5
-Water = 1662AD
-Sam = 3A005A
+Coal = 202020
+Sulfur = d0b955
 Bauxite = CD7660
-Nitrogen Gas = 00FFF5
+Raw Quartz = F177B5
 Uranium = 88D288
+Sam = 3A005A
 
+Crude Oil = 271952
+Nitrogen Gas = 00FFF5
+Water = 1662AD
 
 => Mods (Custom Swatch)
 Water = 1662AD
@@ -33,40 +35,9 @@ Oil = 271952
 Heavy Oil = AE1CD7
 Fuel = CB6C00
 Turbofuel = 880000
+
 Junction = 606060
 Floor Hole = 000000
-
-
-
-
-
-Base Names
-base
-shop
-
-Base Factories
-coal
-concrete
-iron
-steel
-copper
-quartz
-
-
-
-!tp base
-!tp concrete
-!tp iron
-!tp steel
-!tp copper
-!tp elevator
-
-
-
-
-
-
-
 
 
 

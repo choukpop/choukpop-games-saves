@@ -1,0 +1,10 @@
+Sun Dec 29 11:31:11 2024: Luxor - Fifth Passage, version 1.0.0.8.
+Sun Dec 29 11:31:12 2024: Pixel Shader Version: ffff0300
+Sun Dec 29 11:31:20 2024: TAssetManager::LoadAsset: Failed to find assetName audio/sfx/sfx_typing_01.ogg?group=0 with any standard extension (jpg/jp2/png/anm/xml/ogg/mod/p3d/dae)
+Sun Dec 29 11:31:20 2024: TAssetMap::AddAsset: Error loading audio/sfx/sfx_typing_01.ogg?group=0
+Sun Dec 29 11:31:20 2024: TAssetManager::LoadAsset: Failed to find assetName audio/sfx/sfx_typing_02.ogg?group=0 with any standard extension (jpg/jp2/png/anm/xml/ogg/mod/p3d/dae)
+Sun Dec 29 11:31:20 2024: TAssetMap::AddAsset: Error loading audio/sfx/sfx_typing_02.ogg?group=0
+Sun Dec 29 11:31:20 2024: TAssetManager::LoadAsset: Failed to find assetName audio/sfx/sfx_typing_03.ogg?group=0 with any standard extension (jpg/jp2/png/anm/xml/ogg/mod/p3d/dae)
+Sun Dec 29 11:31:20 2024: TAssetMap::AddAsset: Error loading audio/sfx/sfx_typing_03.ogg?group=0
+Sun Dec 29 11:31:20 2024: TAssetManager::LoadAsset: Failed to find assetName audio/sfx/sfx_typing_04.ogg?group=0 with any standard extension (jpg/jp2/png/anm/xml/ogg/mod/p3d/dae)
+Sun Dec 29 11:31:20 2024: TAssetMap::AddAsset: Error loading audio/sfx/sfx_typing_04.ogg?group=0
