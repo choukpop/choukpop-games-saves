@@ -1,0 +1,44 @@
+﻿{
+ General: {
+  Language: "Português Brasileiro",
+  KeyboardLayout: "0"
+ },
+ Graphics: {
+  VSync: true,
+  Resolution: "1920,1080",
+  FullscreenMode: "2"
+ },
+ Sound: {
+  Sound: "0.5",
+  Music: "0",
+  Master: "1",
+  Menu: "0.5"
+ },
+ AmbientOcclusion: "4",
+ Antialiasing: "4",
+ BloomIntensity: "3",
+ ShadowQuality: "4",
+ LightQuality: "3",
+ FSR: "0",
+ TextureQuality: "3",
+ MotionBlurQuality: "4",
+ Brightness: "0.5",
+ DepthOfFieldQuality: "4",
+ DrawDistance: "5",
+ WideScreenExpand: false,
+ PhotonRegion: "3",
+ AnimalDensity: "2",
+ ModelQuality: "2",
+ UIScale: "2",
+ DispArea: "1",
+ PostFXQuality: "2",
+ RenderSize: "1",
+ InitialConfig: false,
+ LockCursor: true,
+ TargetFramerate: "120",
+ BGFramerate: "60",
+ EnableControllerInput: true,
+ ControllerButtons: "0",
+ Analytics: true,
+ DisableVsyncBackground: true
+}

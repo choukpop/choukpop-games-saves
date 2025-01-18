@@ -42,3 +42,38 @@ Floor Hole = 000000
 
 
 
+
+
+
+
+
+
+
+
+
+Factories:
+ => Iron
+
+ => Steel / Copper
+ - Wire
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+
+
+
+
+
+
+
+
+
+
+
+
