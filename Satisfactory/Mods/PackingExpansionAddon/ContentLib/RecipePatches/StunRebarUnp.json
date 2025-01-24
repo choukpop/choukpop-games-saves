@@ -1,0 +1,27 @@
+//PackingExpansion/Unpacking/StunRebarUnp.StunRebarUnp_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Unpack Stun Rebar Addon",
+"Ingredients": [
+{
+      "Item": "StunRebarPack",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Rebar_Stunshot",
+      "Amount": 10
+ }
+],
+"ManufacturingDuration": 1.25,
+"ProducedIn": ["Build_Packer_C","Build_PEPackager_C"],
+"OverrideCategory": "UnpackCategory_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackExpansion_T2_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

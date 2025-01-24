@@ -1,0 +1,14 @@
+//PackingExpansion/Items/UraniumWastePack.UraniumWastePack_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Packaged Uranium Waste",
+"NameShort": "",
+"Description": "Packing Expansion Mod Addon",
+"CanBeDiscarded": false,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 25.0,
+"Form": "Solid",
+"Category": "",
+"StackSize": "Small"
+}

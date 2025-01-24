@@ -1,0 +1,31 @@
+//PackingExpansion/Recipes/Recipe_Alternate_BoltedIronPlate.Recipe_Alternate_BoltedIronPlate_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alt: Bolted Iron Plate Pack",
+"Ingredients": [
+{
+      "Item": "IronPlatePack",
+      "Amount": 18
+ },
+{
+      "Item": "ScrewPack",
+      "Amount": 50
+ }
+],
+"Products": [
+{
+      "Item": "ReinforcedIronPlatePack",
+      "Amount": 3
+ }
+],
+"ManufacturingDuration": 300.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_StandardParts_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T2_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

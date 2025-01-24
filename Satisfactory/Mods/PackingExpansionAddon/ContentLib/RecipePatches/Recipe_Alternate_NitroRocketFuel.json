@@ -1,0 +1,43 @@
+//PackingExpansion/Recipes/Recipe_Alternate_NitroRocketFuel.Recipe_Alternate_NitroRocketFuel_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alt: Nitro rocket Fuel Pack",
+"Ingredients": [
+{
+      "Item": "FuelCondensed",
+      "Amount": 4000
+ },
+{
+      "Item": "NitrogenGasCondensed",
+      "Amount": 3000
+ },
+{
+      "Item": "SulfurPack",
+      "Amount": 4
+ },
+{
+      "Item": "CoalPack",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "RocketFuelCondensed",
+      "Amount": 6000
+ },
+{
+      "Item": "CompactedCoalPack",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 60.0,
+"ProducedIn": ["Build_Blender_C"],
+"OverrideCategory": "Cat_Fuel_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T8_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

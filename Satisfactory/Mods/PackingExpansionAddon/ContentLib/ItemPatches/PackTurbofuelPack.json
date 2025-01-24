@@ -1,0 +1,14 @@
+//PackingExpansion/Items/PackTurbofuelPack.PackTurbofuelPack_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Packaged Turbofuel Canisters",
+"NameShort": "",
+"Description": "Packing Expansion Mod Addon",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 50000.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "",
+"StackSize": "Medium"
+}

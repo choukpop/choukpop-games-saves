@@ -1,0 +1,31 @@
+//PackingExpansion/Recipes/Recipe_Alternate_PlasticAILimiter.Recipe_Alternate_PlasticAILimiter_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alt: Plastic AI Limiter Pack",
+"Ingredients": [
+{
+      "Item": "QuickwirePack",
+      "Amount": 30
+ },
+{
+      "Item": "PlasticPack",
+      "Amount": 7
+ }
+],
+"Products": [
+{
+      "Item": "AILimiterPack",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 375.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_Electronics_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T5_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

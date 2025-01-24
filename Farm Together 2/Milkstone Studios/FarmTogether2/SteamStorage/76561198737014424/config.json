@@ -39,7 +39,7 @@
   TileModPriority: false,
   MinimapZoom: "0",
   ShowRecycleConfirm: "0",
-  CameraModeIndex: "2",
+  CameraModeIndex: "1",
   DisableBackgroundAudio: true
  },
  Sound: {

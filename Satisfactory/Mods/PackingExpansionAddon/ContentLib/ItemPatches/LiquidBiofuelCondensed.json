@@ -1,0 +1,14 @@
+//PackingExpansion/Items/LiquidBiofuelCondensed.LiquidBiofuelCondensed_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Pressurized Liquid Biofuel",
+"NameShort": "",
+"Description": "Packing Expansion Mod Addon",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 18.75,
+"RadioactiveDecay": 0.0,
+"Form": "Liquid",
+"Category": "",
+"StackSize": "Fluid"
+}

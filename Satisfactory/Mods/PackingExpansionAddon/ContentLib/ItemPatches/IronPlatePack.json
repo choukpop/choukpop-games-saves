@@ -1,0 +1,14 @@
+//PackingExpansion/Items/IronPlatePack.IronPlatePack_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Packaged Iron Plates",
+"NameShort": "",
+"Description": "Packing Expansion Mod Addon",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "",
+"StackSize": "Big"
+}

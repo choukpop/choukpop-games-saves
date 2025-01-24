@@ -1,0 +1,31 @@
+//PackingExpansion/Recipes/Recipe_Alternate_ElectromagneticConnectionRod.Recipe_Alternate_ElectromagneticConnectionRod_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alt: Electromagnetic Connection Rod Pack",
+"Ingredients": [
+{
+      "Item": "StatorPack",
+      "Amount": 2
+ },
+{
+      "Item": "HighSpeedConnectorPack",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "ElectromagneticRodPack",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 375.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_Nuclear_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T8_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

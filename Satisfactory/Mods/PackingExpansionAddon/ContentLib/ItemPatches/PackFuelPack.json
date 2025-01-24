@@ -1,0 +1,14 @@
+//PackingExpansion/Items/PackFuelPack.PackFuelPack_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Packaged Fuel Canisters",
+"NameShort": "",
+"Description": "Packing Expansion Mod Addon",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 18750.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "",
+"StackSize": "Medium"
+}

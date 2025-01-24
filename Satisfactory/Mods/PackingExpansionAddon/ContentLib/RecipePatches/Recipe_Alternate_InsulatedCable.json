@@ -1,0 +1,31 @@
+//PackingExpansion/Recipes/Recipe_Alternate_InsulatedCable.Recipe_Alternate_InsulatedCable_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alt: Insulated Cable Pack",
+"Ingredients": [
+{
+      "Item": "WirePack",
+      "Amount": 9
+ },
+{
+      "Item": "RubberPack",
+      "Amount": 6
+ }
+],
+"Products": [
+{
+      "Item": "CablePack",
+      "Amount": 20
+ }
+],
+"ManufacturingDuration": 300.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_Electronics_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T4_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}
