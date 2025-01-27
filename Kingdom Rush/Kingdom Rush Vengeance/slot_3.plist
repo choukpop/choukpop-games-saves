@@ -3,7 +3,7 @@
 <plist version="1.0">
     <dict>
         <key>unlock_tower_showd</key>
-        <false/>
+        <true/>
         <key>towers</key>
         <dict>
             <key>KR4_TOWER_MELTING_FURNACE</key>
@@ -39,13 +39,13 @@
             <key>KR4_TOWER_ORC_DENTS</key>
             <dict>
                 <key>selected</key>
-                <true/>
+                <false/>
                 <key>key</key>
                 <string>KR4_TOWER_ORC_DENTS</string>
                 <key>purchased</key>
                 <false/>
                 <key>position</key>
-                <integer>1</integer>
+                <integer>3</integer>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -54,7 +54,7 @@
             <key>KR4_TOWER_ROCKET_RIDERS</key>
             <dict>
                 <key>selected</key>
-                <true/>
+                <false/>
                 <key>key</key>
                 <string>KR4_TOWER_ROCKET_RIDERS</string>
                 <key>purchased</key>
@@ -75,7 +75,7 @@
                 <key>purchased</key>
                 <false/>
                 <key>position</key>
-                <integer>-1</integer>
+                <integer>2</integer>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -90,7 +90,7 @@
                 <key>purchased</key>
                 <false/>
                 <key>position</key>
-                <integer>-1</integer>
+                <integer>4</integer>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -105,7 +105,7 @@
                 <key>purchased</key>
                 <false/>
                 <key>position</key>
-                <integer>-1</integer>
+                <integer>4</integer>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -114,13 +114,13 @@
             <key>KR4_TOWER_INFERNAL_ACOLYTE</key>
             <dict>
                 <key>selected</key>
-                <true/>
+                <false/>
                 <key>key</key>
                 <string>KR4_TOWER_INFERNAL_ACOLYTE</string>
                 <key>purchased</key>
                 <false/>
                 <key>position</key>
-                <integer>2</integer>
+                <integer>0</integer>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -128,14 +128,14 @@
             </dict>
             <key>KR4_TOWER_SHAOLIN_TEMPLE</key>
             <dict>
-                <key>selected</key>
-                <false/>
                 <key>key</key>
                 <string>KR4_TOWER_SHAOLIN_TEMPLE</string>
-                <key>purchased</key>
+                <key>selected</key>
                 <false/>
                 <key>position</key>
                 <integer>-1</integer>
+                <key>purchased</key>
+                <false/>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -150,7 +150,7 @@
                 <key>purchased</key>
                 <false/>
                 <key>position</key>
-                <integer>-1</integer>
+                <integer>3</integer>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -159,13 +159,13 @@
             <key>KR4_TOWER_SPIRIT_MAUSOLEUM</key>
             <dict>
                 <key>selected</key>
-                <false/>
+                <true/>
                 <key>key</key>
                 <string>KR4_TOWER_SPIRIT_MAUSOLEUM</string>
                 <key>purchased</key>
                 <false/>
                 <key>position</key>
-                <integer>-1</integer>
+                <integer>1</integer>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -174,13 +174,13 @@
             <key>KR4_TOWER_BONE_FLINGERS</key>
             <dict>
                 <key>selected</key>
-                <false/>
+                <true/>
                 <key>key</key>
                 <string>KR4_TOWER_BONE_FLINGERS</string>
                 <key>purchased</key>
                 <false/>
                 <key>position</key>
-                <integer>-1</integer>
+                <integer>4</integer>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -195,7 +195,7 @@
                 <key>purchased</key>
                 <false/>
                 <key>position</key>
-                <integer>-1</integer>
+                <integer>3</integer>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -240,7 +240,7 @@
                 <key>purchased</key>
                 <false/>
                 <key>position</key>
-                <integer>-1</integer>
+                <integer>2</integer>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -255,7 +255,7 @@
                 <key>purchased</key>
                 <false/>
                 <key>position</key>
-                <integer>-1</integer>
+                <integer>2</integer>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -264,13 +264,13 @@
             <key>KR4_TOWER_DEEP_DEVILS_REEF</key>
             <dict>
                 <key>selected</key>
-                <false/>
+                <true/>
                 <key>key</key>
                 <string>KR4_TOWER_DEEP_DEVILS_REEF</string>
                 <key>purchased</key>
                 <false/>
                 <key>position</key>
-                <integer>-1</integer>
+                <integer>2</integer>
                 <key>new</key>
                 <false/>
                 <key>available</key>
@@ -279,39 +279,9 @@
             <key>KR4_TOWER_SWAMP_MONSTER</key>
             <dict>
                 <key>selected</key>
-                <false/>
+                <true/>
                 <key>key</key>
                 <string>KR4_TOWER_SWAMP_MONSTER</string>
-                <key>purchased</key>
-                <false/>
-                <key>position</key>
-                <integer>-1</integer>
-                <key>new</key>
-                <false/>
-                <key>available</key>
-                <false/>
-            </dict>
-            <key>KR4_TOWER_IGNIS_ALTAR</key>
-            <dict>
-                <key>selected</key>
-                <false/>
-                <key>key</key>
-                <string>KR4_TOWER_IGNIS_ALTAR</string>
-                <key>purchased</key>
-                <false/>
-                <key>position</key>
-                <integer>-1</integer>
-                <key>new</key>
-                <false/>
-                <key>available</key>
-                <false/>
-            </dict>
-            <key>KR4_TOWER_TREMOR</key>
-            <dict>
-                <key>selected</key>
-                <false/>
-                <key>key</key>
-                <string>KR4_TOWER_TREMOR</string>
                 <key>purchased</key>
                 <false/>
                 <key>position</key>
@@ -321,11 +291,41 @@
                 <key>available</key>
                 <false/>
             </dict>
+            <key>KR4_TOWER_IGNIS_ALTAR</key>
+            <dict>
+                <key>key</key>
+                <string>KR4_TOWER_IGNIS_ALTAR</string>
+                <key>selected</key>
+                <false/>
+                <key>position</key>
+                <integer>-1</integer>
+                <key>purchased</key>
+                <false/>
+                <key>new</key>
+                <false/>
+                <key>available</key>
+                <false/>
+            </dict>
+            <key>KR4_TOWER_TREMOR</key>
+            <dict>
+                <key>key</key>
+                <string>KR4_TOWER_TREMOR</string>
+                <key>selected</key>
+                <false/>
+                <key>position</key>
+                <integer>3</integer>
+                <key>purchased</key>
+                <false/>
+                <key>new</key>
+                <false/>
+                <key>available</key>
+                <false/>
+            </dict>
         </dict>
         <key>veznan</key>
         <dict>
             <key>gems</key>
-            <integer>244</integer>
+            <integer>4626</integer>
         </dict>
         <key>campaign</key>
         <dict>
@@ -361,15 +361,15 @@
                     <key>stars</key>
                     <integer>3</integer>
                     <key>heroic</key>
-                    <false/>
+                    <true/>
                     <key>dif_heroic</key>
                     <integer>0</integer>
                     <key>iron</key>
-                    <false/>
+                    <true/>
                     <key>dif_iron</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>dif_campaign</key>
-                    <integer>1</integer>
+                    <integer>2</integer>
                 </dict>
                 <dict>
                     <key>level_index</key>
@@ -385,7 +385,7 @@
                     <key>dif_heroic</key>
                     <integer>0</integer>
                     <key>iron</key>
-                    <false/>
+                    <true/>
                     <key>dif_iron</key>
                     <integer>0</integer>
                     <key>dif_campaign</key>
@@ -405,21 +405,21 @@
                     <key>dif_heroic</key>
                     <integer>0</integer>
                     <key>iron</key>
-                    <false/>
+                    <true/>
                     <key>dif_iron</key>
-                    <integer>0</integer>
+                    <integer>2</integer>
                     <key>dif_campaign</key>
-                    <integer>1</integer>
+                    <integer>0</integer>
                 </dict>
                 <dict>
                     <key>level_index</key>
                     <integer>4</integer>
                     <key>status</key>
-                    <integer>2</integer>
+                    <integer>3</integer>
                     <key>seen_mode_notification</key>
-                    <false/>
+                    <true/>
                     <key>stars</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>heroic</key>
                     <false/>
                     <key>dif_heroic</key>
@@ -429,17 +429,17 @@
                     <key>dif_iron</key>
                     <integer>0</integer>
                     <key>dif_campaign</key>
-                    <integer>0</integer>
+                    <integer>2</integer>
                 </dict>
                 <dict>
                     <key>level_index</key>
                     <integer>5</integer>
                     <key>status</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>seen_mode_notification</key>
-                    <false/>
+                    <true/>
                     <key>stars</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>heroic</key>
                     <false/>
                     <key>dif_heroic</key>
@@ -455,11 +455,11 @@
                     <key>level_index</key>
                     <integer>6</integer>
                     <key>status</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>seen_mode_notification</key>
-                    <false/>
+                    <true/>
                     <key>stars</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>heroic</key>
                     <false/>
                     <key>dif_heroic</key>
@@ -475,11 +475,11 @@
                     <key>level_index</key>
                     <integer>7</integer>
                     <key>status</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>seen_mode_notification</key>
-                    <false/>
+                    <true/>
                     <key>stars</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>heroic</key>
                     <false/>
                     <key>dif_heroic</key>
@@ -495,11 +495,11 @@
                     <key>level_index</key>
                     <integer>8</integer>
                     <key>status</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>seen_mode_notification</key>
-                    <false/>
+                    <true/>
                     <key>stars</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>heroic</key>
                     <false/>
                     <key>dif_heroic</key>
@@ -515,11 +515,11 @@
                     <key>level_index</key>
                     <integer>9</integer>
                     <key>status</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>seen_mode_notification</key>
-                    <false/>
+                    <true/>
                     <key>stars</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>heroic</key>
                     <false/>
                     <key>dif_heroic</key>
@@ -535,11 +535,11 @@
                     <key>level_index</key>
                     <integer>10</integer>
                     <key>status</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>seen_mode_notification</key>
-                    <false/>
+                    <true/>
                     <key>stars</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>heroic</key>
                     <false/>
                     <key>dif_heroic</key>
@@ -555,11 +555,11 @@
                     <key>level_index</key>
                     <integer>11</integer>
                     <key>status</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>seen_mode_notification</key>
-                    <false/>
+                    <true/>
                     <key>stars</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>heroic</key>
                     <false/>
                     <key>dif_heroic</key>
@@ -575,11 +575,11 @@
                     <key>level_index</key>
                     <integer>12</integer>
                     <key>status</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>seen_mode_notification</key>
-                    <false/>
+                    <true/>
                     <key>stars</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>heroic</key>
                     <false/>
                     <key>dif_heroic</key>
@@ -595,11 +595,11 @@
                     <key>level_index</key>
                     <integer>13</integer>
                     <key>status</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>seen_mode_notification</key>
-                    <false/>
+                    <true/>
                     <key>stars</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>heroic</key>
                     <false/>
                     <key>dif_heroic</key>
@@ -615,11 +615,11 @@
                     <key>level_index</key>
                     <integer>14</integer>
                     <key>status</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>seen_mode_notification</key>
-                    <false/>
+                    <true/>
                     <key>stars</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>heroic</key>
                     <false/>
                     <key>dif_heroic</key>
@@ -635,11 +635,11 @@
                     <key>level_index</key>
                     <integer>15</integer>
                     <key>status</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>seen_mode_notification</key>
-                    <false/>
+                    <true/>
                     <key>stars</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>heroic</key>
                     <false/>
                     <key>dif_heroic</key>
@@ -655,11 +655,11 @@
                     <key>level_index</key>
                     <integer>16</integer>
                     <key>status</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>seen_mode_notification</key>
-                    <false/>
+                    <true/>
                     <key>stars</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>heroic</key>
                     <false/>
                     <key>dif_heroic</key>
@@ -675,11 +675,11 @@
                     <key>level_index</key>
                     <integer>17</integer>
                     <key>status</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>seen_mode_notification</key>
-                    <false/>
+                    <true/>
                     <key>stars</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>heroic</key>
                     <false/>
                     <key>dif_heroic</key>
@@ -695,11 +695,11 @@
                     <key>level_index</key>
                     <integer>18</integer>
                     <key>status</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>seen_mode_notification</key>
-                    <false/>
+                    <true/>
                     <key>stars</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>heroic</key>
                     <false/>
                     <key>dif_heroic</key>
@@ -715,11 +715,11 @@
                     <key>level_index</key>
                     <integer>19</integer>
                     <key>status</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>seen_mode_notification</key>
-                    <false/>
+                    <true/>
                     <key>stars</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>heroic</key>
                     <false/>
                     <key>dif_heroic</key>
@@ -735,11 +735,11 @@
                     <key>level_index</key>
                     <integer>20</integer>
                     <key>status</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>seen_mode_notification</key>
-                    <false/>
+                    <true/>
                     <key>stars</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>heroic</key>
                     <false/>
                     <key>dif_heroic</key>
@@ -755,11 +755,11 @@
                     <key>level_index</key>
                     <integer>21</integer>
                     <key>status</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>seen_mode_notification</key>
-                    <false/>
+                    <true/>
                     <key>stars</key>
-                    <integer>0</integer>
+                    <integer>2</integer>
                     <key>heroic</key>
                     <false/>
                     <key>dif_heroic</key>
@@ -775,11 +775,11 @@
                     <key>level_index</key>
                     <integer>22</integer>
                     <key>status</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>seen_mode_notification</key>
-                    <false/>
+                    <true/>
                     <key>stars</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>heroic</key>
                     <false/>
                     <key>dif_heroic</key>
@@ -795,7 +795,7 @@
                     <key>level_index</key>
                     <integer>23</integer>
                     <key>status</key>
-                    <integer>0</integer>
+                    <integer>2</integer>
                     <key>seen_mode_notification</key>
                     <false/>
                     <key>stars</key>
@@ -855,11 +855,11 @@
                     <key>level_index</key>
                     <integer>26</integer>
                     <key>status</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>seen_mode_notification</key>
-                    <false/>
+                    <true/>
                     <key>stars</key>
-                    <integer>0</integer>
+                    <integer>2</integer>
                     <key>heroic</key>
                     <false/>
                     <key>dif_heroic</key>
@@ -875,11 +875,11 @@
                     <key>level_index</key>
                     <integer>27</integer>
                     <key>status</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>seen_mode_notification</key>
-                    <false/>
+                    <true/>
                     <key>stars</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>heroic</key>
                     <false/>
                     <key>dif_heroic</key>
@@ -895,11 +895,11 @@
                     <key>level_index</key>
                     <integer>28</integer>
                     <key>status</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>seen_mode_notification</key>
                     <false/>
                     <key>stars</key>
-                    <integer>0</integer>
+                    <integer>3</integer>
                     <key>heroic</key>
                     <false/>
                     <key>dif_heroic</key>
@@ -915,7 +915,7 @@
                     <key>level_index</key>
                     <integer>29</integer>
                     <key>status</key>
-                    <integer>0</integer>
+                    <integer>2</integer>
                     <key>seen_mode_notification</key>
                     <false/>
                     <key>stars</key>
@@ -1073,10 +1073,7 @@
                 </dict>
             </array>
             <key>dlc_purchased</key>
-            <dict>
-                <key>KR4_DLC_SANDSTORM</key>
-                <false/>
-            </dict>
+            <dict/>
         </dict>
         <key>showed_tip_tower_room</key>
         <true/>
@@ -1087,9 +1084,9 @@
             <key>KR4_HERO_VERUK</key>
             <dict>
                 <key>xp</key>
-                <integer>44585</integer>
+                <integer>77278</integer>
                 <key>level</key>
-                <integer>4</integer>
+                <integer>5</integer>
                 <key>selected</key>
                 <false/>
                 <key>new</key>
@@ -1102,13 +1099,13 @@
                         <key>key</key>
                         <string>aimed_slashes</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>2</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>brute_force</string>
                         <key>level</key>
-                        <integer>1</integer>
+                        <integer>2</integer>
                     </dict>
                     <dict>
                         <key>key</key>
@@ -1120,22 +1117,22 @@
                         <key>key</key>
                         <string>inspiring_leader</string>
                         <key>level</key>
-                        <integer>2</integer>
+                        <integer>1</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>ultimate</string>
                         <key>level</key>
-                        <integer>3</integer>
+                        <integer>2</integer>
                     </dict>
                 </array>
             </dict>
             <key>KR4_HERO_ASRA</key>
             <dict>
                 <key>xp</key>
-                <integer>10500</integer>
+                <integer>400236</integer>
                 <key>level</key>
-                <integer>3</integer>
+                <integer>10</integer>
                 <key>selected</key>
                 <false/>
                 <key>new</key>
@@ -1148,38 +1145,38 @@
                         <key>key</key>
                         <string>spider_bite</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>onix_arrows</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>quiver_of_sorrow</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>shield_of_shadows</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>ultimate</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                 </array>
             </dict>
             <key>KR4_HERO_OLOCH</key>
             <dict>
                 <key>xp</key>
-                <integer>52500</integer>
+                <integer>55574</integer>
                 <key>level</key>
                 <integer>5</integer>
                 <key>selected</key>
@@ -1194,13 +1191,13 @@
                         <key>key</key>
                         <string>duplication</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>magma_eruption</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>1</integer>
                     </dict>
                     <dict>
                         <key>key</key>
@@ -1212,7 +1209,7 @@
                         <key>key</key>
                         <string>demonic_blast</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>1</integer>
                     </dict>
                     <dict>
                         <key>key</key>
@@ -1317,9 +1314,9 @@
             <key>KR4_HERO_TANK</key>
             <dict>
                 <key>xp</key>
-                <integer>52500</integer>
+                <integer>138150</integer>
                 <key>level</key>
-                <integer>5</integer>
+                <integer>6</integer>
                 <key>selected</key>
                 <false/>
                 <key>new</key>
@@ -1332,25 +1329,25 @@
                         <key>key</key>
                         <string>heat_missiles</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>ground_slam</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>1</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>expendables</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>scorching_cannon</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                     <dict>
                         <key>key</key>
@@ -1363,9 +1360,9 @@
             <key>KR4_HERO_MORTEMIS</key>
             <dict>
                 <key>xp</key>
-                <integer>52500</integer>
+                <integer>400202</integer>
                 <key>level</key>
-                <integer>5</integer>
+                <integer>10</integer>
                 <key>selected</key>
                 <false/>
                 <key>new</key>
@@ -1378,38 +1375,38 @@
                         <key>key</key>
                         <string>call_of_the_haunted</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>deadly_fumes</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>grim_presence</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>undead_servitude</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>ultimate</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                 </array>
             </dict>
             <key>KR4_HERO_MARGOSA</key>
             <dict>
                 <key>xp</key>
-                <integer>52500</integer>
+                <integer>53750</integer>
                 <key>level</key>
                 <integer>5</integer>
                 <key>selected</key>
@@ -1501,9 +1498,9 @@
             <key>KR4_HERO_NAGA</key>
             <dict>
                 <key>xp</key>
-                <integer>52500</integer>
+                <integer>121700</integer>
                 <key>level</key>
-                <integer>5</integer>
+                <integer>6</integer>
                 <key>selected</key>
                 <false/>
                 <key>new</key>
@@ -1516,13 +1513,13 @@
                         <key>key</key>
                         <string>tidal_wave</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>banner_courage</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>1</integer>
                     </dict>
                     <dict>
                         <key>key</key>
@@ -1534,13 +1531,13 @@
                         <key>key</key>
                         <string>tri_splash</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>1</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>ultimate</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                 </array>
             </dict>
@@ -1568,7 +1565,7 @@
                         <key>key</key>
                         <string>eiskalt_cold_fury</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>1</integer>
                     </dict>
                     <dict>
                         <key>key</key>
@@ -1586,18 +1583,18 @@
                         <key>key</key>
                         <string>ultimate</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                 </array>
             </dict>
             <key>KR4_HERO_MURGLUN</key>
             <dict>
                 <key>xp</key>
-                <integer>52500</integer>
+                <integer>400200</integer>
                 <key>level</key>
-                <integer>5</integer>
+                <integer>10</integer>
                 <key>selected</key>
-                <false/>
+                <true/>
                 <key>new</key>
                 <false/>
                 <key>purchased</key>
@@ -1608,38 +1605,38 @@
                         <key>key</key>
                         <string>magma_pool</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>tar_maker</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>murglun_geyser</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>murglun_infernal_heat</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>ultimate</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                 </array>
             </dict>
             <key>KR4_HERO_JACK_O_LANTERN</key>
             <dict>
                 <key>xp</key>
-                <integer>52500</integer>
+                <integer>65085</integer>
                 <key>level</key>
                 <integer>5</integer>
                 <key>selected</key>
@@ -1654,25 +1651,25 @@
                         <key>key</key>
                         <string>explosive_head</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>2</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>haunted_blade</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>spirit_vengeance</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>1</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>hero_jacko_thriller</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </dict>
                     <dict>
                         <key>key</key>
@@ -1828,7 +1825,7 @@
                 <key>type</key>
                 <string>KR4_UPGRADE_TACTICIAN_GOBLIN_TARGETING</string>
                 <key>active</key>
-                <false/>
+                <true/>
                 <key>cost</key>
                 <integer>2</integer>
             </dict>
@@ -1864,7 +1861,7 @@
                 <key>type</key>
                 <string>KR4_UPGRADE_TACTICIAN_WAR_RATIONS</string>
                 <key>active</key>
-                <false/>
+                <true/>
                 <key>cost</key>
                 <integer>1</integer>
             </dict>
@@ -1873,7 +1870,7 @@
                 <key>type</key>
                 <string>KR4_UPGRADE_TACTICIAN_SUPREME_ARCHITECTS</string>
                 <key>active</key>
-                <false/>
+                <true/>
                 <key>cost</key>
                 <integer>2</integer>
             </dict>
@@ -1891,7 +1888,7 @@
                 <key>type</key>
                 <string>KR4_UPGRADE_TACTICIAN_BRUTAL_MAGIC</string>
                 <key>active</key>
-                <false/>
+                <true/>
                 <key>cost</key>
                 <integer>2</integer>
             </dict>
@@ -1900,7 +1897,7 @@
                 <key>type</key>
                 <string>KR4_UPGRADE_TACTICIAN_DEATHRAY_COILS</string>
                 <key>active</key>
-                <false/>
+                <true/>
                 <key>cost</key>
                 <integer>4</integer>
             </dict>
@@ -1909,7 +1906,7 @@
                 <key>type</key>
                 <string>KR4_UPGRADE_TACTICIAN_MERCHANT</string>
                 <key>active</key>
-                <false/>
+                <true/>
                 <key>cost</key>
                 <integer>2</integer>
             </dict>
@@ -1918,7 +1915,7 @@
                 <key>type</key>
                 <string>KR4_UPGRADE_HEROES_SPECIAL_TRAINING</string>
                 <key>active</key>
-                <false/>
+                <true/>
                 <key>cost</key>
                 <integer>1</integer>
             </dict>
@@ -1936,7 +1933,7 @@
                 <key>type</key>
                 <string>KR4_UPGRADE_POWER_FEAST_OF_DAMNED</string>
                 <key>active</key>
-                <false/>
+                <true/>
                 <key>cost</key>
                 <integer>1</integer>
             </dict>
@@ -1954,7 +1951,7 @@
                 <key>type</key>
                 <string>KR4_UPGRADE_REINFORCEMENT_ATTK_HELLION_TRIDENTS</string>
                 <key>active</key>
-                <false/>
+                <true/>
                 <key>cost</key>
                 <integer>3</integer>
             </dict>
@@ -1972,7 +1969,7 @@
                 <key>type</key>
                 <string>KR4_UPGRADE_REINFORCEMENT_ATTK_FLAMING_TRIDENTS</string>
                 <key>active</key>
-                <false/>
+                <true/>
                 <key>cost</key>
                 <integer>2</integer>
             </dict>
@@ -1981,7 +1978,7 @@
                 <key>type</key>
                 <string>KR4_UPGRADE_REINFORCEMENT_ATTK_PIT_LORD</string>
                 <key>active</key>
-                <false/>
+                <true/>
                 <key>cost</key>
                 <integer>6</integer>
             </dict>
@@ -1999,7 +1996,7 @@
                 <key>type</key>
                 <string>KR4_UPGRADE_POWER_CALL_OF_THE_DAMNED</string>
                 <key>active</key>
-                <false/>
+                <true/>
                 <key>cost</key>
                 <integer>3</integer>
             </dict>
@@ -2008,7 +2005,7 @@
                 <key>type</key>
                 <string>KR4_UPGRADE_POWER_SOUL_SHOCKWAVE</string>
                 <key>active</key>
-                <false/>
+                <true/>
                 <key>cost</key>
                 <integer>1</integer>
             </dict>
@@ -2017,7 +2014,7 @@
                 <key>type</key>
                 <string>KR4_UPGRADE_POWER_EXTRA_SPECTRES</string>
                 <key>active</key>
-                <false/>
+                <true/>
                 <key>cost</key>
                 <integer>2</integer>
             </dict>
@@ -2026,7 +2023,7 @@
                 <key>type</key>
                 <string>KR4_UPGRADE_POWER_FEAR_OF_THE_DAMNED</string>
                 <key>active</key>
-                <false/>
+                <true/>
                 <key>cost</key>
                 <integer>1</integer>
             </dict>
@@ -2035,7 +2032,7 @@
                 <key>type</key>
                 <string>KR4_UPGRADE_POWER_SOUL_ECHOES</string>
                 <key>active</key>
-                <false/>
+                <true/>
                 <key>cost</key>
                 <integer>3</integer>
             </dict>
@@ -2044,7 +2041,7 @@
                 <key>type</key>
                 <string>KR4_UPGRADE_POWER_SOUL_STORM</string>
                 <key>active</key>
-                <false/>
+                <true/>
                 <key>cost</key>
                 <integer>5</integer>
             </dict>
@@ -2053,7 +2050,7 @@
                 <key>type</key>
                 <string>KR4_UPGRADE_HEROES_IRON_WILL</string>
                 <key>active</key>
-                <false/>
+                <true/>
                 <key>cost</key>
                 <integer>2</integer>
             </dict>
@@ -2071,7 +2068,7 @@
                 <key>type</key>
                 <string>KR4_UPGRADE_HEROES_ONE_MAN_ARMY</string>
                 <key>active</key>
-                <false/>
+                <true/>
                 <key>cost</key>
                 <integer>2</integer>
             </dict>
@@ -2080,7 +2077,7 @@
                 <key>type</key>
                 <string>KR4_UPGRADE_HEROES_SHIELD_PROTECTION</string>
                 <key>active</key>
-                <false/>
+                <true/>
                 <key>cost</key>
                 <integer>2</integer>
             </dict>
@@ -2089,37 +2086,141 @@
                 <key>type</key>
                 <string>KR4_UPGRADE_HEROES_SECOND_WIND</string>
                 <key>active</key>
-                <false/>
+                <true/>
                 <key>cost</key>
                 <integer>4</integer>
             </dict>
         </dict>
         <key>notifications</key>
         <dict>
-            <key>enemies</key>
-            <dict>
-                <key>cyclopter_pilot</key>
-                <true/>
-                <key>warhammer_guard</key>
-                <true/>
-                <key>human_worker</key>
-                <true/>
-                <key>bruiser</key>
-                <true/>
-                <key>chomp_bot</key>
-                <true/>
-                <key>smokebeard_engineer</key>
-                <true/>
-                <key>clockwork_spider</key>
-                <true/>
-                <key>tinbeard_gunman</key>
-                <true/>
-            </dict>
             <key>tips</key>
             <dict>
                 <key>tooltip_notification_tip_1</key>
                 <true/>
                 <key>tooltip_notification_tip_2</key>
+                <true/>
+                <key>tooltip_notification_tip_3</key>
+                <true/>
+            </dict>
+            <key>enemies</key>
+            <dict>
+                <key>human_worker</key>
+                <true/>
+                <key>mechadwarf</key>
+                <true/>
+                <key>chaser</key>
+                <true/>
+                <key>warhammer_guard</key>
+                <true/>
+                <key>cyclopter_pilot</key>
+                <true/>
+                <key>hunting_dog</key>
+                <true/>
+                <key>bruiser</key>
+                <true/>
+                <key>ice_golem</key>
+                <true/>
+                <key>clockwork_spider</key>
+                <true/>
+                <key>northern_wildling</key>
+                <true/>
+                <key>ghost</key>
+                <true/>
+                <key>chomp_bot</key>
+                <true/>
+                <key>smokebeard_engineer</key>
+                <true/>
+                <key>tinbeard_gunman</key>
+                <true/>
+                <key>northern_berserker</key>
+                <true/>
+                <key>arcane_magus</key>
+                <true/>
+                <key>frost_giant</key>
+                <true/>
+                <key>sulfur_alchemist</key>
+                <true/>
+                <key>quarry_worker</key>
+                <true/>
+                <key>frozen_heart</key>
+                <true/>
+                <key>ice_witch</key>
+                <true/>
+                <key>stonebeard_geomancer</key>
+                <true/>
+                <key>amphiptere</key>
+                <true/>
+                <key>northern_huntress</key>
+                <true/>
+                <key>glacial_wolf</key>
+                <true/>
+                <key>high_sorcerer</key>
+                <true/>
+                <key>blue_wyvern</key>
+                <true/>
+                <key>knight_rider</key>
+                <true/>
+                <key>nanoq_warbear</key>
+                <true/>
+                <key>apex_stalker</key>
+                <true/>
+                <key>draugr</key>
+                <true/>
+                <key>musketeer</key>
+                <true/>
+                <key>elite_footman</key>
+                <true/>
+                <key>leap_dragon</key>
+                <true/>
+                <key>bullywags_erudite</key>
+                <true/>
+                <key>haunted_skeleton</key>
+                <true/>
+                <key>valkyrie</key>
+                <true/>
+                <key>paladin</key>
+                <true/>
+                <key>svell_druid</key>
+                <true/>
+                <key>footman</key>
+                <true/>
+                <key>infuser</key>
+                <true/>
+                <key>banner_bearer</key>
+                <true/>
+                <key>guardian_eagle</key>
+                <true/>
+                <key>elven_warrior</key>
+                <true/>
+                <key>devoted_priest</key>
+                <true/>
+                <key>griffin_bombardier</key>
+                <true/>
+                <key>winter_lord</key>
+                <true/>
+                <key>tower_shield_knight</key>
+                <true/>
+                <key>war_wagon</key>
+                <true/>
+                <key>warden</key>
+                <true/>
+                <key>werewolf</key>
+                <true/>
+                <key>bone_carrier</key>
+                <true/>
+                <key>bullywags_channeler</key>
+                <true/>
+                <key>ice_reaper</key>
+                <true/>
+                <key>bullywags_golem</key>
+                <true/>
+                <key>screecher_bat</key>
+                <true/>
+                <key>corrosive_soul</key>
+                <true/>
+                <key>lich</key>
+                <true/>
+                <key>frozen_soul</key>
                 <true/>
             </dict>
         </dict>
@@ -2242,7 +2343,7 @@
                 <key>earned</key>
                 <false/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>765</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2279,9 +2380,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>1</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2294,7 +2395,7 @@
                 <key>earned</key>
                 <false/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>6</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2320,7 +2421,7 @@
                 <key>earned</key>
                 <false/>
                 <key>quantity_current</key>
-                <integer>1</integer>
+                <integer>0</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2333,7 +2434,7 @@
                 <key>earned</key>
                 <false/>
                 <key>quantity_current</key>
-                <integer>89</integer>
+                <integer>267</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2344,9 +2445,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>54</integer>
+                <integer>80</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2357,9 +2458,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>1</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2370,9 +2471,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>1</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2383,7 +2484,7 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
                 <integer>0</integer>
                 <key>conditions</key>
@@ -2398,7 +2499,7 @@
                 <key>earned</key>
                 <false/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>473</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2463,7 +2564,7 @@
                 <key>earned</key>
                 <false/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>7</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2474,9 +2575,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>3</integer>
+                <integer>6</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2489,7 +2590,7 @@
                 <key>earned</key>
                 <false/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>3</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2500,9 +2601,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>158</integer>
+                <integer>1500</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2513,9 +2614,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>868</integer>
+                <integer>3000</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2526,9 +2627,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>868</integer>
+                <integer>10000</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2541,7 +2642,7 @@
                 <key>earned</key>
                 <false/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>184</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2554,7 +2655,7 @@
                 <key>earned</key>
                 <false/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>1</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2593,7 +2694,7 @@
                 <key>earned</key>
                 <false/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>106</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2617,9 +2718,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>25</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2630,9 +2731,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>13</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2656,9 +2757,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>1</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2671,7 +2772,7 @@
                 <key>earned</key>
                 <false/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>18</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2682,9 +2783,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>36</integer>
+                <integer>30000</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2708,9 +2809,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>4</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2721,9 +2822,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <true/>
+                <false/>
                 <key>quantity_current</key>
-                <integer>1</integer>
+                <integer>0</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2747,9 +2848,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>1</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2773,9 +2874,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>1</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2838,9 +2939,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>1</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2851,9 +2952,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>1</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2890,9 +2991,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>2</integer>
+                <integer>13</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2903,9 +3004,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>5</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2916,9 +3017,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>1</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2929,9 +3030,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>5</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2942,9 +3043,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>1</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2955,9 +3056,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>300</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -2981,9 +3082,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>1</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -3046,9 +3147,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>1</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -3072,9 +3173,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>1</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -3085,9 +3186,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>1</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -3111,9 +3212,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>1</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -3124,9 +3225,9 @@
                 <key>award_collected</key>
                 <false/>
                 <key>earned</key>
-                <false/>
+                <true/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>1</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -3269,7 +3370,7 @@
                 <key>earned</key>
                 <false/>
                 <key>quantity_current</key>
-                <integer>0</integer>
+                <integer>2</integer>
                 <key>conditions</key>
                 <array/>
             </dict>
@@ -3316,11 +3417,11 @@
         <key>difficulty</key>
         <dict>
             <key>difficulty</key>
-            <integer>1</integer>
+            <integer>0</integer>
             <key>show_difficulty_settings</key>
             <false/>
             <key>impossible_difficulty_enabled</key>
-            <false/>
+            <true/>
         </dict>
         <key>remote_cofiguration</key>
         <dict>
@@ -3333,51 +3434,81 @@
         <dict>
             <key>seen</key>
             <dict>
+                <key>northern_huntress</key>
+                <true/>
                 <key>defense_flag</key>
                 <true/>
                 <key>dark_army_archer_shooter_lvl3</key>
                 <true/>
+                <key>dark_army_archer_crow_lvl4</key>
+                <true/>
                 <key>defense_point</key>
                 <true/>
-                <key>dark_army_archer_crow_lvl4</key>
+                <key>swamp_monster_soldier_lvl4</key>
                 <true/>
                 <key>fade_loop</key>
                 <true/>
                 <key>fx_repeat_forever</key>
                 <true/>
-                <key>demons_goonies</key>
-                <true/>
                 <key>hero_orc</key>
                 <true/>
-                <key>dark_army_archer_shooter_lvl1</key>
+                <key>dark_army_soldier_knight_lvl3</key>
+                <true/>
+                <key>demons_goonies</key>
+                <true/>
+                <key>seal</key>
+                <true/>
+                <key>hero_orc_ultimate_goblin</key>
                 <true/>
                 <key>touch</key>
                 <true/>
-                <key>hero_orc_ultimate_goblin</key>
+                <key>stonebeard_geomancer</key>
+                <true/>
+                <key>dark_army_archer_shooter_lvl1</key>
+                <true/>
+                <key>northern_berserker</key>
                 <true/>
                 <key>human_woodcutter</key>
                 <true/>
                 <key>human_worker</key>
                 <true/>
+                <key>mechadwarf</key>
+                <true/>
+                <key>farmer_rooster</key>
+                <true/>
                 <key>warmongers_soldier_orc_lvl1</key>
                 <true/>
-                <key>ember_lords_mage_shooter_lvl1</key>
+                <key>magnus</key>
                 <true/>
                 <key>bilbo</key>
+                <true/>
+                <key>draugr_gold</key>
+                <true/>
+                <key>blue_wyvern</key>
                 <true/>
                 <key>moving_cloud</key>
                 <true/>
                 <key>ember_lords_mage_shooter_lvl3</key>
                 <true/>
+                <key>banner_bearer</key>
+                <true/>
                 <key>condor</key>
                 <true/>
                 <key>demons_goonies_trained</key>
                 <true/>
+                <key>bone_carrier</key>
+                <true/>
                 <key>door_open</key>
+                <true/>
+                <key>penguin</key>
                 <true/>
                 <key>bruiser</key>
                 <true/>
                 <key>warhammer_guard</key>
+                <true/>
+                <key>hero_mortemis_zombie_ultimate</key>
+                <true/>
+                <key>ember_lords_mage_shooter_lvl1</key>
                 <true/>
                 <key>armadillo</key>
                 <true/>
@@ -3387,15 +3518,21 @@
                 <true/>
                 <key>clockwork_spider</key>
                 <true/>
-                <key>warmongers_soldier_orc_lvl2</key>
+                <key>northern_wildling</key>
+                <true/>
+                <key>chomp_bot</key>
+                <true/>
+                <key>smokebeard_engineer</key>
                 <true/>
                 <key>dark_army_archer_shooter_lvl2</key>
                 <true/>
                 <key>tinbeard_gunman</key>
                 <true/>
-                <key>chomp_bot</key>
+                <key>not_my_tempo</key>
                 <true/>
-                <key>smokebeard_engineer</key>
+                <key>warmongers_soldier_orc_lvl2</key>
+                <true/>
+                <key>demons_hellion_tridents</key>
                 <true/>
                 <key>multiple_objects</key>
                 <true/>
@@ -3403,15 +3540,345 @@
                 <true/>
                 <key>warmongers_soldier_orc_lvl3</key>
                 <true/>
-                <key>ember_lords_mage_shooter_lvl4</key>
+                <key>sulfur_alchemist</key>
                 <true/>
                 <key>dark_army_archer_shooter_lvl4</key>
                 <true/>
-                <key>warmongers_rocket_level4_goblin_box</key>
+                <key>arcane_magus</key>
+                <true/>
+                <key>quarry_worker</key>
                 <true/>
                 <key>warmongers_soldier_orc_lvl4</key>
                 <true/>
+                <key>screecher_bat</key>
+                <true/>
+                <key>gollum</key>
+                <true/>
                 <key>warmongers_soldier_orc_captain</key>
+                <true/>
+                <key>dark_army_soldier_knight_lvl4</key>
+                <true/>
+                <key>fx_with_animation</key>
+                <true/>
+                <key>anurian_boss</key>
+                <true/>
+                <key>valkyrie</key>
+                <true/>
+                <key>boss_dwarf_mecha</key>
+                <true/>
+                <key>glacial_wolf</key>
+                <true/>
+                <key>apex_stalker</key>
+                <true/>
+                <key>apex_shard</key>
+                <true/>
+                <key>hero_asra</key>
+                <true/>
+                <key>touch_on_event</key>
+                <true/>
+                <key>dark_army_soldier_knight_lvl2</key>
+                <true/>
+                <key>boss_dwarf</key>
+                <true/>
+                <key>dark_army_soldier_knight_lvl1</key>
+                <true/>
+                <key>water_waves</key>
+                <true/>
+                <key>troll_skater</key>
+                <true/>
+                <key>olaf</key>
+                <true/>
+                <key>elven_warrior</key>
+                <true/>
+                <key>hero_margosa</key>
+                <true/>
+                <key>swamp_monster_soldier_lvl2</key>
+                <true/>
+                <key>ladle</key>
+                <true/>
+                <key>nanoq_warbear</key>
+                <true/>
+                <key>ice_witch</key>
+                <true/>
+                <key>hodor</key>
+                <true/>
+                <key>viking_boss</key>
+                <true/>
+                <key>draugr</key>
+                <true/>
+                <key>warmongers_balloon_shooter_lvl4</key>
+                <true/>
+                <key>leap_dragon</key>
+                <true/>
+                <key>lightseeker_roof</key>
+                <true/>
+                <key>boneheart_bone</key>
+                <true/>
+                <key>slender_controller</key>
+                <true/>
+                <key>alleria</key>
+                <true/>
+                <key>warmongers_archer_shooter_lvl1</key>
+                <true/>
+                <key>touch_kermit</key>
+                <true/>
+                <key>demons_flaming_trident</key>
+                <true/>
+                <key>svell_druid</key>
+                <true/>
+                <key>frost_giant</key>
+                <true/>
+                <key>warmongers_archer_shooter_lvl2</key>
+                <true/>
+                <key>warmongers_archer_shooter_lvl3</key>
+                <true/>
+                <key>warmongers_archer_shooter_lvl4</key>
+                <true/>
+                <key>cannon_traffic_guy</key>
+                <true/>
+                <key>viking_boss_dragon_rider</key>
+                <true/>
+                <key>viking_boss_dragon</key>
+                <true/>
+                <key>fallen_ones_bone_flingers_skeletonwarrior</key>
+                <true/>
+                <key>babyspider</key>
+                <true/>
+                <key>fallen_ones_bone_flingers_golem</key>
+                <true/>
+                <key>fallen_ones_bone_flingers_skeleton</key>
+                <true/>
+                <key>warmongers_balloon_shooter_lvl1</key>
+                <true/>
+                <key>mega_boss_dragon</key>
+                <true/>
+                <key>windmill</key>
+                <true/>
+                <key>sheep_big</key>
+                <true/>
+                <key>sheep_small</key>
+                <true/>
+                <key>linirea_joe_dummy</key>
+                <true/>
+                <key>footman</key>
+                <true/>
+                <key>elite_footman</key>
+                <true/>
+                <key>hunting_dog</key>
+                <true/>
+                <key>farmer_bucket</key>
+                <true/>
+                <key>winter_queen</key>
+                <true/>
+                <key>farmer_rake</key>
+                <true/>
+                <key>farmer_scythe</key>
+                <true/>
+                <key>demons_pit_lord</key>
+                <true/>
+                <key>linirea_joe</key>
+                <true/>
+                <key>ninja_sheep</key>
+                <true/>
+                <key>guardian_eagle</key>
+                <true/>
+                <key>farmer_mile</key>
+                <true/>
+                <key>devoted_priest</key>
+                <true/>
+                <key>griffin_bombardier</key>
+                <true/>
+                <key>high_sorcerer</key>
+                <true/>
+                <key>hero_oloch_duplicate</key>
+                <true/>
+                <key>golem_house</key>
+                <true/>
+                <key>frozen_heart</key>
+                <true/>
+                <key>house_toad</key>
+                <true/>
+                <key>cannon_denas</key>
+                <true/>
+                <key>gummi_bears</key>
+                <true/>
+                <key>path_segment_deco_glow</key>
+                <true/>
+                <key>path_segment_deco_anim</key>
+                <true/>
+                <key>alleria_end</key>
+                <true/>
+                <key>elves_soldier_harasser_lvl1</key>
+                <true/>
+                <key>griffin_bombardier_rider</key>
+                <true/>
+                <key>dark_light</key>
+                <true/>
+                <key>high_sorcerer_sheep</key>
+                <true/>
+                <key>elves_soldier_harasser_lvl2</key>
+                <true/>
+                <key>elves_soldier_harasser_lvl3</key>
+                <true/>
+                <key>elves_soldier_harasser_lvl4</key>
+                <true/>
+                <key>caravan_thief</key>
+                <true/>
+                <key>groot</key>
+                <true/>
+                <key>warmongers_balloon_lvl1</key>
+                <true/>
+                <key>swamp_monster_shooter_lvl2</key>
+                <true/>
+                <key>warmongers_balloon_shooter_lvl2</key>
+                <true/>
+                <key>the_thing</key>
+                <true/>
+                <key>warmongers_balloon_lvl2</key>
+                <true/>
+                <key>swamp_monster_shooter_lvl1</key>
+                <true/>
+                <key>paladin</key>
+                <true/>
+                <key>warmongers_balloon_shooter_lvl3</key>
+                <true/>
+                <key>warmongers_balloon_lvl3</key>
+                <true/>
+                <key>tower_shield_knight</key>
+                <true/>
+                <key>warmongers_balloon_lookout_lvl4</key>
+                <true/>
+                <key>warmongers_balloon_lvl4</key>
+                <true/>
+                <key>reinforcement_warmongers_goblin_zapper</key>
+                <true/>
+                <key>swamp_monster_soldier_lvl1</key>
+                <true/>
+                <key>knight_rider</key>
+                <true/>
+                <key>musketeer</key>
+                <true/>
+                <key>lightseeker</key>
+                <true/>
+                <key>lightseeker_defeat</key>
+                <true/>
+                <key>wall</key>
+                <true/>
+                <key>denas_archer</key>
+                <true/>
+                <key>denas</key>
+                <true/>
+                <key>veznan</key>
+                <true/>
+                <key>war_wagon</key>
+                <true/>
+                <key>demon_veznan</key>
+                <true/>
+                <key>mega_knight</key>
+                <true/>
+                <key>hero_tank</key>
+                <true/>
+                <key>chaser</key>
+                <true/>
+                <key>hero_tank_expendable2</key>
+                <true/>
+                <key>warden</key>
+                <true/>
+                <key>amphiptere</key>
+                <true/>
+                <key>infuser</key>
+                <true/>
+                <key>veznan_crystal</key>
+                <true/>
+                <key>ghost</key>
+                <true/>
+                <key>haunted_skeleton</key>
+                <true/>
+                <key>hero_mortemis</key>
+                <true/>
+                <key>hero_mortemis_zombie_level1</key>
+                <true/>
+                <key>werewolf</key>
+                <true/>
+                <key>ice_reaper</key>
+                <true/>
+                <key>bullywags_golem</key>
+                <true/>
+                <key>fallen_ones_gargoyle</key>
+                <true/>
+                <key>hero_mortemis_zombie_level2</key>
+                <true/>
+                <key>bullywag_bubble_crystal</key>
+                <true/>
+                <key>hypnotoad</key>
+                <true/>
+                <key>bullywags_erudite</key>
+                <true/>
+                <key>bullywags_channeler</key>
+                <true/>
+                <key>hero_jacko_ghoul</key>
+                <true/>
+                <key>greenfin_soldier_lvl1</key>
+                <true/>
+                <key>deep_devils_shooter_lvl1</key>
+                <true/>
+                <key>deep_devils_shooter_lvl2</key>
+                <true/>
+                <key>greenfin_soldier_lvl2</key>
+                <true/>
+                <key>hero_mortemis_zombie_level3</key>
+                <true/>
+                <key>deep_devils_shooter_lvl3</key>
+                <true/>
+                <key>greenfin_soldier_lvl3</key>
+                <true/>
+                <key>deep_devils_shooter_lvl4</key>
+                <true/>
+                <key>redspin_soldier_lvl4</key>
+                <true/>
+                <key>anurian_boss_water</key>
+                <true/>
+                <key>swamp_monster_shooter_lvl3</key>
+                <true/>
+                <key>swamp_monster_soldier_lvl3</key>
+                <true/>
+                <key>swamp_monster_shooter_lvl4</key>
+                <true/>
+                <key>gill_man</key>
+                <true/>
+                <key>corrosive_soul</key>
+                <true/>
+                <key>lich</key>
+                <true/>
+                <key>winter_lord</key>
+                <true/>
+                <key>frozen_soul</key>
+                <true/>
+                <key>ice_golem</key>
+                <true/>
+                <key>hero_naga</key>
+                <true/>
+                <key>hero_murglun</key>
+                <true/>
+                <key>yeti_ski</key>
+                <true/>
+                <key>yeti</key>
+                <true/>
+                <key>winter_queen_statue</key>
+                <true/>
+                <key>hero_jack_o_lantern</key>
+                <true/>
+                <key>blackburn_controller</key>
+                <true/>
+                <key>lords_afterlife_controller</key>
+                <true/>
+                <key>hero_jacko_horse</key>
+                <true/>
+                <key>hero_oloch</key>
+                <true/>
+                <key>lord_of_afterlife</key>
+                <true/>
+                <key>lord_of_afterlife_2</key>
                 <true/>
             </dict>
         </dict>
