@@ -1,0 +1,39 @@
+//Game/FactoryGame/Recipes/Manufacturer/Recipe_Battery.Recipe_Battery_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Battery",
+"Ingredients": [
+{
+      "Item": "Desc_SulfuricAcid",
+      "Amount": 2500
+ },
+{
+      "Item": "Desc_AluminaSolution",
+      "Amount": 2000
+ },
+{
+      "Item": "Desc_AluminumCasing",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Battery",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_Water",
+      "Amount": 1500
+ }
+],
+"ManufacturingDuration": 3.0,
+"ProducedIn": ["Build_Blender_C"],
+"OverrideCategory": "Cat_IndustrialParts_C",
+"ManufacturingMenuPriority": 5.0,
+"UnlockedBy": ["Schematic_7-5_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

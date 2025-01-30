@@ -1,0 +1,31 @@
+//PackingExpansion/Recipes/Recipe_Alternate_LeachedCateriumIngot.Recipe_Alternate_LeachedCateriumIngot_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alt: Leached Caterium Ingot Pack",
+"Ingredients": [
+{
+      "Item": "CateriumOrePack",
+      "Amount": 9
+ },
+{
+      "Item": "SulfuricAcidCondensed",
+      "Amount": 5000
+ }
+],
+"Products": [
+{
+      "Item": "CateriumIngotPack",
+      "Amount": 6
+ }
+],
+"ManufacturingDuration": 250.0,
+"ProducedIn": ["Build_OilRefinery_C"],
+"OverrideCategory": "Cat_Ingots_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T5_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

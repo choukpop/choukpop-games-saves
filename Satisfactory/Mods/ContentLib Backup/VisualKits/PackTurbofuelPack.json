@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/Turbofuel/SM_TurboFuel_01.SM_TurboFuel_01",
+	"BigIcon": "/PackingExpansion/Icons/Packaged_Turbofuel_Pack.Packaged_Turbofuel_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Packaged_Turbofuel_Pack.Packaged_Turbofuel_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

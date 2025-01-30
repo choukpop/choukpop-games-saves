@@ -1,0 +1,31 @@
+//ProgressiveDepotSize/Schem_Prog_5.Schem_Prog_5_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "30+ DD Stacks",
+"Type": "Milestone",
+"VisualKit": "Schem_Prog_5_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_Wire",
+      "Amount": 1000
+ },
+{
+      "Item": "Desc_Cable",
+      "Amount": 300
+ }],
+"Category": "",
+"SubCategories": [],
+"MenuPriority": 105.0,
+"Time": 0.0,
+"Tier": 0,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": [],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

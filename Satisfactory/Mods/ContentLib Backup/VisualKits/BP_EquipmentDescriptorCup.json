@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Equipment/Cup/Mesh/SM_Cup.SM_Cup",
+	"BigIcon": "/Game/FactoryGame/Equipment/Cup/UI/IconDesc_CoffeeCup_256.IconDesc_CoffeeCup_256",
+	"SmallIcon": "/Game/FactoryGame/Equipment/Cup/UI/IconDesc_CoffeeCup_256.IconDesc_CoffeeCup_256",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

@@ -1,0 +1,30 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Nuclear Pasta Pack",
+"Ingredients": [
+{
+      "Item": "CopperPowderPack",
+      "Amount": 200
+ },
+{
+      "Item": "PressureConversionCubePack",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "NuclearPastaPack",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 3000.0,
+"ProducedIn": ["Build_HadronCollider_C"],
+"OverrideCategory": "Cat_SpaceElevator_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T8_C"],
+"VariablePowerConsumptionConstant": 500.0,
+"VariablePowerConsumptionFactor": 1000.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

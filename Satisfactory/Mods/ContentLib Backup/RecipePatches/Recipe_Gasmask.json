@@ -1,0 +1,35 @@
+//Game/FactoryGame/Recipes/Equipment/Recipe_Gasmask.Recipe_Gasmask_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Gas Mask",
+"Ingredients": [
+{
+      "Item": "Desc_Fabric",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_CopperSheet",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 10
+ }
+],
+"Products": [
+{
+      "Item": "BP_EquipmentDescriptorGasmask",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 60.0,
+"ProducedIn": [],
+"OverrideCategory": "Cat_Body_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Research_Mycelia_GasMask_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

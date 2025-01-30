@@ -1,0 +1,15 @@
+//WaterPoolsPlus/Buildables/RubberDuck/Default/Desc_RubberDucky.Desc_RubberDucky_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Rubber Duck",
+"NameShort": "",
+"Description": "A large rubber duck.
+Always stays in water.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Production_C",
+"StackSize": "Medium"
+}

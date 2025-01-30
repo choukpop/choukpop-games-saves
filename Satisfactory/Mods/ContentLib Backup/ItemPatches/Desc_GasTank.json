@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/GasTank/Desc_GasTank.Desc_GasTank_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Empty Fluid Tank",
+"NameShort": "",
+"Description": "Used to package gases and volatile liquids for transportation.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Containers_C",
+"StackSize": "Medium"
+}

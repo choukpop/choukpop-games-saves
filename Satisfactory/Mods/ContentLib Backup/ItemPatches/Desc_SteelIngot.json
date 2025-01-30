@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Steel Ingot",
+"NameShort": "Steel",
+"Description": "Smelted from a combination of Iron Ore and Coal. Can be made into several parts used in building construction.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Ingots_C",
+"StackSize": "Medium"
+}

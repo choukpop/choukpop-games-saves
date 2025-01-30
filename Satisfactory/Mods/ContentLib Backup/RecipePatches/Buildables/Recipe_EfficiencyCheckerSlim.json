@@ -1,0 +1,27 @@
+//EfficiencyCheckerMod/Buildings/EfficiencyChecker/Recipe_EfficiencyCheckerSlim.Recipe_EfficiencyCheckerSlim_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Efficiency Checker (Slim)",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_HighSpeedWire",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_CircuitBoardHighSpeed",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_EfficiencyCheckerSlim",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schem_EfficiencyChecker_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

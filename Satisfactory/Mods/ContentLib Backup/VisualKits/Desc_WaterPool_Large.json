@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/WaterPoolsPlus/Buildables/PoolLarge/Icon_Pool_Large.Icon_Pool_Large",
+	"SmallIcon": "/WaterPoolsPlus/Buildables/PoolLarge/Icon_Pool_Large.Icon_Pool_Large",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

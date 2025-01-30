@@ -1,0 +1,39 @@
+//KBlueprintDesignPlus/Schematic_BlueprintDesignerPlus.Schematic_BlueprintDesignerPlus_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "FICSIT Blueprints Extensions",
+"Type": "Milestone",
+"VisualKit": "Schematic_BlueprintDesignerPlus_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_TemporalProcessor",
+      "Amount": 500
+ },
+{
+      "Item": "Desc_TimeCrystal",
+      "Amount": 1000
+ },
+{
+      "Item": "Desc_FicsiteMesh",
+      "Amount": 5000
+ },
+{
+      "Item": "Desc_DarkMatter",
+      "Amount": 1000
+ }],
+"Category": "SC_Production_C",
+"SubCategories": [],
+"MenuPriority": 3.1,
+"Time": 900.0,
+"Tier": 9,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_BlueprintDesignerMk4_C","Recipe_BlueprintDesignerMk5_2_C","Recipe_BlueprintDesignerMk6_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

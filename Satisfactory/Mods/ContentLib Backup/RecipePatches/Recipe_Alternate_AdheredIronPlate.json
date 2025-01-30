@@ -1,0 +1,31 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/New_Update3/Recipe_Alternate_AdheredIronPlate.Recipe_Alternate_AdheredIronPlate_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Adhered Iron Plate",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_Rubber",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 16.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_StandardParts_C",
+"ManufacturingMenuPriority": 9.0,
+"UnlockedBy": ["Schematic_Alternate_AdheredIronPlate_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

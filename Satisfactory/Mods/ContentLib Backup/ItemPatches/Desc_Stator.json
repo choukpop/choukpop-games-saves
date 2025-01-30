@@ -1,0 +1,15 @@
+//Game/FactoryGame/Resource/Parts/Stator/Desc_Stator.Desc_Stator_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Stator",
+"NameShort": "",
+"Description": "Used for crafting.
+The static parts of a motor.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_IndustrialParts_C",
+"StackSize": "Medium"
+}

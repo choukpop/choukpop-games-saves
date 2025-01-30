@@ -1,0 +1,42 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New AI Expansion Server Pack",
+"Ingredients": [
+{
+      "Item": "MagneticFieldGeneratorPack",
+      "Amount": 1
+ },
+{
+      "Item": "NeuralQuantumProcessorPack",
+      "Amount": 1
+ },
+{
+      "Item": "SuperpositionOscillatorPack",
+      "Amount": 1
+ },
+{
+      "Item": "ExcitedPhotonicMatterCondensed",
+      "Amount": 25000
+ }
+],
+"Products": [
+{
+      "Item": "AIExpansionServerPack",
+      "Amount": 1
+ },
+{
+      "Item": "DarkMatterResidueCondensed",
+      "Amount": 25000
+ }
+],
+"ManufacturingDuration": 375.0,
+"ProducedIn": ["Build_QuantumEncoder_C"],
+"OverrideCategory": "Cat_SpaceElevator_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T9_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 2000.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

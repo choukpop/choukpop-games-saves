@@ -1,0 +1,27 @@
+//PackingExpansion/Recipes/Recipe_EmptyCanister.Recipe_EmptyCanister_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Empty Canister Pack",
+"Ingredients": [
+{
+      "Item": "PlasticPack",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "EmptyCanisterPack",
+      "Amount": 4
+ }
+],
+"ManufacturingDuration": 100.0,
+"ProducedIn": ["Build_ConstructorMk1_C"],
+"OverrideCategory": "Cat_Containers_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T4_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

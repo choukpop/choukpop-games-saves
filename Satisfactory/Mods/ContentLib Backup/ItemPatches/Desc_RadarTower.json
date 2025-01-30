@@ -1,0 +1,20 @@
+//Game/FactoryGame/Buildable/Factory/RadarTower/Desc_RadarTower.Desc_RadarTower_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Radar Tower",
+"NameShort": "",
+"Description": "Scans the surrounding area to display additional information on the Map.
+
+Information revealed on the Map includes:
+- Resource node locations
+- Terrain data
+- Flora & fauna information
+- Notable signal readings",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Organization_C",
+"StackSize": "Medium"
+}

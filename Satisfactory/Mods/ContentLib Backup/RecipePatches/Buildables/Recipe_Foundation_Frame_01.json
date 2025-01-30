@@ -1,0 +1,19 @@
+//Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_Foundation_Frame_01.Recipe_Foundation_Frame_01_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Frame Foundation",
+"Ingredients": [
+{
+      "Item": "Desc_SteelPlate",
+      "Amount": 5
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Foundation_Frame_01",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_FrameworkFoundations_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

@@ -1,0 +1,57 @@
+{
+  "Class": "/MirroredBuildings/Mirror_CoalGenerator.Mirror_CoalGenerator_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 0.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.6
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": true
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 5.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Mirror Coal Generator"
+ },
+{
+"Property": "mDescription",
+"Value": "Has 4 power connections.
+
+Burns Coal to boil Water, the produced steam rotates turbines to generate electricty for the power grid.
+Has a Conveyor Belt and Pipe input, so both the Coal and Water supply can be automated.
+
+Resource consumption will automatically be lowered to meet power demands."
+ },
+{
+"Property": "mHologramClass",
+"Value": "FGFactoryHologram"
+ },
+{
+"Property": "mPowerProduction",
+"Value": 75.0
+ },
+{
+"Property": "mSupplementalResourceClass",
+"Value": "Desc_Water_C"
+ },
+{
+"Property": "mSupplementalToPowerRatio",
+"Value": 10.0
+ },
+{
+"Property": "mSupplementalLoadAmount",
+"Value": 1000
+ },
+{
+"Property": "mIsFullBlast",
+"Value": true
+ }]
+}

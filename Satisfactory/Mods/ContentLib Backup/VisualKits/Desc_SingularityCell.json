@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/SingularityCell/Mesh/SM_SingularityCell_01.SM_SingularityCell_01",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/SingularityCell/UI/IconDesc_SingularityCell_256.IconDesc_SingularityCell_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/SingularityCell/UI/IconDesc_SingularityCell_256.IconDesc_SingularityCell_256",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

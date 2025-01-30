@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/RawResources/Ores/Meshes/SM_CopperOre_02.SM_CopperOre_02",
+	"BigIcon": "/PackingExpansion/Icons/Copper_Ore_Pack.Copper_Ore_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Copper_Ore_Pack.Copper_Ore_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

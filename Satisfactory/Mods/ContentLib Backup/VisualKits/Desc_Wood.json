@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/Wood/SM_Biomass_Wood_01.SM_Biomass_Wood_01",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/GenericBiomass/UI/IconDesc_Wood_256.IconDesc_Wood_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/GenericBiomass/UI/IconDesc_Wood_256.IconDesc_Wood_256",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

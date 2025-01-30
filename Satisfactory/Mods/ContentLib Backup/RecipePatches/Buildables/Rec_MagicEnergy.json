@@ -1,0 +1,16 @@
+//MagicMachine/MagicEnergy/Rec_MagicEnergy.Rec_MagicEnergy_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Magic Energy",
+"Ingredients": [
+
+],
+"Products": [
+{
+      "Item": "Desc_MagicEnergy",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schem_Magic_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

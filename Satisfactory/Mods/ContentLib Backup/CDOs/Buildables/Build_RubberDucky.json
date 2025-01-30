@@ -1,0 +1,41 @@
+{
+  "Class": "/WaterPoolsPlus/Buildables/RubberDuck/Default/Build_RubberDucky.Build_RubberDucky_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 0.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.6
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": false
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 5.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Rubber Duck"
+ },
+{
+"Property": "mDescription",
+"Value": "A large rubber duck.
+Always stays in water."
+ },
+{
+"Property": "mHologramClass",
+"Value": "Holo_WaterPump_C"
+ },
+{
+"Property": "mExtractCycleTime",
+"Value": 1.0
+ },
+{
+"Property": "mMinimumDepthForPlacement",
+"Value": 0.0
+ }]
+}

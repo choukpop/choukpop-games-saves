@@ -1,0 +1,18 @@
+{
+	"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_VisualKit.json",
+	"Mesh": "/Game/FactoryGame/Resource/Parts/IronIngot/SM_IronIngot_01.SM_IronIngot_01",
+	"BigIcon": "Icon_Liquid_MercerSphere",
+	"SmallIcon": "Icon_Liquid_MercerSphere",
+	"FluidColor": {
+		"r": 105,
+		"g": 25,
+		"b": 200,
+		"a": 255
+	},
+	"GasColor": {
+		"r": 105,
+		"g": 25,
+		"b": 200,
+		"a": 255
+	}
+}

@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/RocketFuel/Desc_PackagedRocketFuel.Desc_PackagedRocketFuel_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Packaged Rocket Fuel",
+"NameShort": "Rocket",
+"Description": "Rocket Fuel, packaged for alternative transport. Can be used as fuel for vehicles and the Jetpack.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 7200.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Packaging_C",
+"StackSize": "Medium"
+}

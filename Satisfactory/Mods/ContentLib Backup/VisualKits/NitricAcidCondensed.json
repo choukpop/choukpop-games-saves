@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/PackingExpansion/Icons/Nitric_Acid_Pack-modified.Nitric_Acid_Pack-modified",
+	"SmallIcon": "/PackingExpansion/Icons/Nitric_Acid_Pack-modified.Nitric_Acid_Pack-modified",
+	"FluidColor":
+	{
+		"r": 208,
+		"g": 209,
+		"b": 174,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 208,
+		"g": 209,
+		"b": 174,
+		"a": 0
+	}
+}

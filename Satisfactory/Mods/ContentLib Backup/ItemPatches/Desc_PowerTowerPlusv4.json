@@ -1,0 +1,17 @@
+//PowerTowerPlus/Desc/Desc_PowerTowerPlusv4.Desc_PowerTowerPlusv4_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Power Tower Plus v4",
+"NameShort": "",
+"Description": "Helps span Power Lines across greater distances.
+There is an additional power connector at the bottom of the Power Tower to connect it to other buildings, such as Power Poles.
+
+Note: This Power Tower variant includes a ladder and platform for improved utility.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Power_C",
+"StackSize": "Medium"
+}

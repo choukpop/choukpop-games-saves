@@ -1,0 +1,45 @@
+{
+  "Class": "/Game/FactoryGame/Buildable/Factory/CentralStorage/Build_CentralStorage.Build_CentralStorage_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 0.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.6
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": false
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 5.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Dimensional Depot Uploader"
+ },
+{
+"Property": "mDescription",
+"Value": "The Dimensional Depot Uploader is used to upload resources to a dimensional storage deposit.
+From here resources can be used by the Build Gun and Crafting Stations, as if they were in the pioneer Inventory."
+ },
+{
+"Property": "mHologramClass",
+"Value": "FGStackableStorageHologram"
+ },
+{
+"Property": "mInventorySizeX",
+"Value": 1
+ },
+{
+"Property": "mInventorySizeY",
+"Value": 1
+ },
+{
+"Property": "mStackingHeight",
+"Value": 400.0
+ }]
+}

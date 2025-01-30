@@ -1,0 +1,38 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Hover Pack Mk.U",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_Rotor",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_IronScrew",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_Wire",
+      "Amount": 200
+ }
+],
+"Products": [
+{
+      "Item": "BP_EquipmentDescriptorHoverPackMkU",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 30.0,
+"ProducedIn": [],
+"OverrideCategory": "Cat_Body_C",
+"ManufacturingMenuPriority": 2.6,
+"UnlockedBy": ["Schematic_HoverPackMkU_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

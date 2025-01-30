@@ -1,0 +1,30 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Rifle Ammo Pack",
+"Ingredients": [
+{
+      "Item": "CopperSheetPack",
+      "Amount": 3
+ },
+{
+      "Item": "SmokelessPowderPack",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "RifleCartridgePack",
+      "Amount": 15
+ }
+],
+"ManufacturingDuration": 300.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_Ammunition_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T6_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

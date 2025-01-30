@@ -1,0 +1,35 @@
+//Game/FactoryGame/Recipes/Equipment/Recipe_BladeRunners.Recipe_BladeRunners_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Blade Runners",
+"Ingredients": [
+{
+      "Item": "Desc_Silica",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_ModularFrame",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_Rotor",
+      "Amount": 3
+ }
+],
+"Products": [
+{
+      "Item": "BP_EquipmentDescriptorJumpingStilts",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 60.0,
+"ProducedIn": [],
+"OverrideCategory": "Cat_Body_C",
+"ManufacturingMenuPriority": 5.0,
+"UnlockedBy": ["Research_Caterium_4_3_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

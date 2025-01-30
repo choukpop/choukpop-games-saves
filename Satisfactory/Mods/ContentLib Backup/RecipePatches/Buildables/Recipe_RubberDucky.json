@@ -1,0 +1,27 @@
+//WaterPoolsPlus/Buildables/RubberDuck/Default/Recipe_RubberDucky.Recipe_RubberDucky_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Rubber Duck",
+"Ingredients": [
+{
+      "Item": "Desc_Rubber",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_IronRod",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 50
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RubberDucky",
+      "Amount": 1
+ }],
+"UnlockedBy": ["WaterPoolSchematic_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

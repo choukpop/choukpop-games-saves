@@ -1,0 +1,16 @@
+//Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_GenericBiomass.Desc_GenericBiomass_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Biomass",
+"NameShort": "",
+"Description": "Primarily used as fuel.
+Biomass Burners and vehicles can use it for power.
+Biomass is much more energy-efficient than raw biological matter.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 180.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Biomass_C",
+"StackSize": "Big"
+}

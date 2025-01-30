@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Equipment/PortableMiner/Mesh/PortableMiner_Folded_static.PortableMiner_Folded_static",
+	"BigIcon": "/PackingExpansion/Icons/Portable_Miner_Pack.Portable_Miner_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Portable_Miner_Pack.Portable_Miner_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

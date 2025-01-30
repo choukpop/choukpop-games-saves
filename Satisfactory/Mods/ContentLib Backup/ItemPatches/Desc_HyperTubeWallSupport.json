@@ -1,0 +1,15 @@
+//Game/FactoryGame/Buildable/Factory/HyperTubeWallSupport/Desc_HyperTubeWallSupport.Desc_HyperTubeWallSupport_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Hypertube Wall Support",
+"NameShort": "",
+"Description": "Attaches to Walls.
+Supports Hypertubes, allowing them to stretch over longer distances.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Vehicles_C",
+"StackSize": "Medium"
+}

@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Equipment/HoverPack/Mesh/SM_HoverPack_PickupMesh.SM_HoverPack_PickupMesh",
+	"BigIcon": "/Game/FactoryGame/Equipment/HoverPack/UI/IconDesc_Hoverpack_256.IconDesc_Hoverpack_256",
+	"SmallIcon": "/Game/FactoryGame/Equipment/HoverPack/UI/IconDesc_Hoverpack_256.IconDesc_Hoverpack_256",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

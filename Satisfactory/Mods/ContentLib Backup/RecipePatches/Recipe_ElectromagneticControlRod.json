@@ -1,0 +1,31 @@
+//Game/FactoryGame/Recipes/Assembler/Recipe_ElectromagneticControlRod.Recipe_ElectromagneticControlRod_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Electromagnetic Control Rod",
+"Ingredients": [
+{
+      "Item": "Desc_Stator",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_CircuitBoardHighSpeed",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_ElectromagneticControlRod",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 30.0,
+"ProducedIn": ["Build_AssemblerMk1_C","FGBuildableAutomatedWorkBench"],
+"OverrideCategory": "Cat_Nuclear_C",
+"ManufacturingMenuPriority": 1.0,
+"UnlockedBy": ["Schematic_8-1_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

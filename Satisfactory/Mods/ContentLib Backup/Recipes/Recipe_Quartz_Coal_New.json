@@ -1,0 +1,30 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Raw Quartz (Coal)",
+"Ingredients": [
+{
+      "Item": "Desc_SAMIngot",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_Coal",
+      "Amount": 24
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RawQuartz",
+      "Amount": 12
+ }
+],
+"ManufacturingDuration": 6.0,
+"ProducedIn": ["Build_Converter_C"],
+"OverrideCategory": "Cat_RawConversion_C",
+"ManufacturingMenuPriority": 10.0,
+"UnlockedBy": ["Schematic_9-1-1_C"],
+"VariablePowerConsumptionConstant": 100.0,
+"VariablePowerConsumptionFactor": 300.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

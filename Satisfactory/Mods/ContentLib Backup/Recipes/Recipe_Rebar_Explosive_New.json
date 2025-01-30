@@ -1,0 +1,34 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Explosive Rebar",
+"Ingredients": [
+{
+      "Item": "Desc_SpikedRebar",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_GunpowderMK2",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Rebar_Explosive",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 12.0,
+"ProducedIn": ["Build_ManufacturerMk1_C"],
+"OverrideCategory": "Cat_Ammunition_C",
+"ManufacturingMenuPriority": 104.0,
+"UnlockedBy": ["Research_Sulfur_4_2_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

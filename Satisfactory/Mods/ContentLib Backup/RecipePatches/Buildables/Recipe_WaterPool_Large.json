@@ -1,0 +1,27 @@
+//WaterPoolsPlus/Buildables/PoolLarge/Recipe_WaterPool_Large.Recipe_WaterPool_Large_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Large Water Pool",
+"Ingredients": [
+{
+      "Item": "Desc_CopperSheet",
+      "Amount": 250
+ },
+{
+      "Item": "Desc_IronRod",
+      "Amount": 250
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 500
+ }
+],
+"Products": [
+{
+      "Item": "Desc_WaterPool_Large",
+      "Amount": 1
+ }],
+"UnlockedBy": ["WaterPoolSchematic_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

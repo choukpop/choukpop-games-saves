@@ -1,0 +1,34 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alt: Insulated Crystal Oscillator Pack",
+"Ingredients": [
+{
+      "Item": "QuartzCrystalPack",
+      "Amount": 10
+ },
+{
+      "Item": "RubberPack",
+      "Amount": 7
+ },
+{
+      "Item": "AILimiterPack",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "CrystalOscillatorPack",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 800.0,
+"ProducedIn": ["Build_ManufacturerMk1_C"],
+"OverrideCategory": "Cat_Communications_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T6_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

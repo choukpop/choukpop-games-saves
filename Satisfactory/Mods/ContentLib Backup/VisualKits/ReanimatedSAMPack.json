@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/ReanimatedSAM/Mesh/SM_ReanimatedSAM.SM_ReanimatedSAM",
+	"BigIcon": "/PackingExpansion/Icons/Reanimated_SAM_Pack.Reanimated_SAM_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Reanimated_SAM_Pack.Reanimated_SAM_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

@@ -1,0 +1,31 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_Stator.Recipe_Alternate_Stator_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Quickwire Stator",
+"Ingredients": [
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 4
+ },
+{
+      "Item": "Desc_HighSpeedWire",
+      "Amount": 15
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Stator",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 15.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_IndustrialParts_C",
+"ManufacturingMenuPriority": 4.0,
+"UnlockedBy": ["Schematic_Alternate_Stator_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

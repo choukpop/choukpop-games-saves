@@ -1,0 +1,16 @@
+//Game/FactoryGame/Resource/Environment/Nut/Desc_Nut.Desc_Nut_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Beryl Nut",
+"NameShort": "",
+"Description": "Consumable
+
+Eat to restore half a health segment.",
+"CanBeDiscarded": true,
+"RememberPickUp": true,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "",
+"StackSize": "Medium"
+}

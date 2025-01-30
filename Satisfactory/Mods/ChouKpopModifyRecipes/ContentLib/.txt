@@ -1,0 +1,39 @@
+
+--> Mercer Sphere [tier 6]
+ => Manufactorurer
+ - SAM Fluctuactor
+ - Modolar Frame
+ - Stator
+ - Smart Plating
+
+--> Mercer Sphere Liquid
+ => Refinery
+ - Mercer Sphere
+
+--> Somersloop [tier 8/9]
+ => Particle Accelerator
+ - Ficsite Trigon
+ - AI Limiter
+ - Mercer Sphere Liquid
+
+
+
+--> Lead Ingot
+ => 
+ - 
+
+--> Lead Plate
+ => 
+ - 
+
+--> Lead Sheet
+ => 
+ - 
+
+--> Lead Frame
+ => 
+ - 
+
+--> Waste Shield
+ => 
+ - 

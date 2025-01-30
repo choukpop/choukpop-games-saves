@@ -1,0 +1,39 @@
+//EfficiencyCheckerMod/Equipment/Recipe_EquipChecker.Recipe_EquipChecker_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Efficiency Checker Hand Tool",
+"Ingredients": [
+{
+      "Item": "BP_EquipmentDescriptorObjectScanner",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_Computer",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_HighSpeedWire",
+      "Amount": 75
+ },
+{
+      "Item": "Desc_CircuitBoardHighSpeed",
+      "Amount": 10
+ }
+],
+"Products": [
+{
+      "Item": "Desc_EquipChecker",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 40.0,
+"ProducedIn": [],
+"OverrideCategory": "Cat_Hands_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_EfficiencyChecker_HandTool_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

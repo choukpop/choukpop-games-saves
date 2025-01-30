@@ -1,0 +1,35 @@
+//KBlueprintDesignPlus/Recipe_BlueprintDesignerMk5_2.Recipe_BlueprintDesignerMk5_2_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Blueprint Designer Mk.4.2",
+"Ingredients": [
+{
+      "Item": "Desc_TemporalProcessor",
+      "Amount": 40
+ },
+{
+      "Item": "Desc_ModularFrameFused",
+      "Amount": 80
+ },
+{
+      "Item": "Desc_TimeCrystal",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_FicsiteMesh",
+      "Amount": 400
+ },
+{
+      "Item": "Desc_DarkMatter",
+      "Amount": 200
+ }
+],
+"Products": [
+{
+      "Item": "Desc_BlueprintDesignerMk5",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_BlueprintDesignerPlus_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

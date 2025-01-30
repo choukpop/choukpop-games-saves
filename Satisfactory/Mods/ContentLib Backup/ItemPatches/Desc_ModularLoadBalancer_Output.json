@@ -1,0 +1,14 @@
+//LoadBalancers/Buildable/OutputOnly/Desc_ModularLoadBalancer_Output.Desc_ModularLoadBalancer_Output_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Output Only Module",
+"NameShort": "",
+"Description": "Has only an Output.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Logistics_C",
+"StackSize": "One"
+}

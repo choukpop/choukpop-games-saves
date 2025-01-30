@@ -1,0 +1,31 @@
+//Game/FactoryGame/Schematics/Research/Mycelia_RS/Research_Mycelia_4.Research_Mycelia_4_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Medical Properties",
+"Type": "MAM",
+"VisualKit": "Research_Mycelia_4_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_Mycelia",
+      "Amount": 25
+ },
+{
+      "Item": "Desc_Stator",
+      "Amount": 10
+ }],
+"Category": "SC_Organisation_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 3.0,
+"Tier": 3,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": [],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

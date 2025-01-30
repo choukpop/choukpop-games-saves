@@ -1,0 +1,27 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_LightsControlPanel.Recipe_LightsControlPanel_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Light Control Panel",
+"Ingredients": [
+{
+      "Item": "Desc_Cable",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_CircuitBoardHighSpeed",
+      "Amount": 3
+ }
+],
+"Products": [
+{
+      "Item": "Desc_LightsControlPanel",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_LightControlPanel_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

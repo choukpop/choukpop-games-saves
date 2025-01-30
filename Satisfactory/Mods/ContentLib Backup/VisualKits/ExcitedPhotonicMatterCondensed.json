@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/PackingExpansion/Icons/Excited_Photonic_Matter_Pack-modified.Excited_Photonic_Matter_Pack-modified",
+	"SmallIcon": "/PackingExpansion/Icons/Excited_Photonic_Matter_Pack-modified.Excited_Photonic_Matter_Pack-modified",
+	"FluidColor":
+	{
+		"r": 201,
+		"g": 255,
+		"b": 250,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 201,
+		"g": 255,
+		"b": 250,
+		"a": 0
+	}
+}

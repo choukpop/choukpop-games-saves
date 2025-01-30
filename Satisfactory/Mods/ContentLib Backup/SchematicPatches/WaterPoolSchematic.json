@@ -1,0 +1,35 @@
+//WaterPoolsPlus/WaterPoolSchematic.WaterPoolSchematic_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Water Pool",
+"Type": "Milestone",
+"VisualKit": "WaterPoolSchematic_C",
+"Description": "Build your own Water Pools!",
+"Cost": [{
+      "Item": "Desc_CopperSheet",
+      "Amount": 250
+ },
+{
+      "Item": "Desc_IronRod",
+      "Amount": 250
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 500
+ }],
+"Category": "SC_Production_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 120.0,
+"Tier": 3,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_WaterPool_Small_C","Recipe_WaterPool_Large_C","Recipe_RubberDucky_C","Recipe_WaterPool_Modular_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

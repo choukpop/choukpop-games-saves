@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/RawResources/SAM/Mesh/SM_SAMOre_01.SM_SAMOre_01",
+	"BigIcon": "/PackingExpansion/Icons/SAM_Pack.SAM_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/SAM_Pack.SAM_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

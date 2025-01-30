@@ -1,0 +1,26 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Quick Compressed D-T Blend",
+"Ingredients": [
+{
+      "Item": "Desc_PressurizedDTB",
+      "Amount": 4000
+ }
+],
+"Products": [
+{
+      "Item": "Desc_CompressedDTB",
+      "Amount": 2000
+ }
+],
+"ManufacturingDuration": 1.0,
+"ProducedIn": ["Build_PressureModulator_C"],
+"OverrideCategory": "Cat_QuickCompressing_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schematic_ArgualFluidPressurizer_Tier6_PressureModulation_RefinedPower_Hidden_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

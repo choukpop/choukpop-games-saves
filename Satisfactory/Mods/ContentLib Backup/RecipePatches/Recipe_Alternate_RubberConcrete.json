@@ -1,0 +1,31 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/New_Update3/Recipe_Alternate_RubberConcrete.Recipe_Alternate_RubberConcrete_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Rubber Concrete",
+"Ingredients": [
+{
+      "Item": "Desc_Stone",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_Rubber",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Cement",
+      "Amount": 9
+ }
+],
+"ManufacturingDuration": 6.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_Minerals_C",
+"ManufacturingMenuPriority": 1.0,
+"UnlockedBy": ["Schematic_Alternate_RubberConcrete_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

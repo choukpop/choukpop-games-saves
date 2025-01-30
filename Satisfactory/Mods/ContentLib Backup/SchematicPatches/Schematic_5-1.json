@@ -1,0 +1,39 @@
+//Game/FactoryGame/Schematics/Progression/Schematic_5-1.Schematic_5-1_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Oil Processing",
+"Type": "Milestone",
+"VisualKit": "Schematic_5-1_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_Motor",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_SteelPlateReinforced",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 500
+ },
+{
+      "Item": "Desc_CopperSheet",
+      "Amount": 500
+ }],
+"Category": "SC_Logistics_C",
+"SubCategories": [],
+"MenuPriority": 2.0,
+"Time": 600.0,
+"Tier": 5,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_PetroleumCoke_C","Recipe_CircuitBoard_C","Recipe_OilPump_C","Recipe_OilRefinery_C","Recipe_Valve_C","Recipe_Plastic_C","Recipe_Rubber_C","Recipe_LiquidFuel_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

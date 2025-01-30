@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/Ficsonium/Mesh/SM_FicsoniumCell_01.SM_FicsoniumCell_01",
+	"BigIcon": "/PackingExpansion/Icons/Ficsonium_Pack.Ficsonium_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Ficsonium_Pack.Ficsonium_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

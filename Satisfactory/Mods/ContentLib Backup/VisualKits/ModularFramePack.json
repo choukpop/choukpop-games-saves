@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/ModularFrame/SM_ModularFrame_01.SM_ModularFrame_01",
+	"BigIcon": "/PackingExpansion/Icons/Modular_Frame_Pack.Modular_Frame_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Modular_Frame_Pack.Modular_Frame_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

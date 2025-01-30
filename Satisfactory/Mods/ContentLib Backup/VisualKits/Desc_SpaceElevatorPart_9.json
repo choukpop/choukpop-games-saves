@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/Developers/gabrielestigliano/NuclearPasta/SM_NuclearPasta_Containment.SM_NuclearPasta_Containment",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/NuclearPasta/UI/IconDesc_NuclearPasta_256.IconDesc_NuclearPasta_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/NuclearPasta/UI/IconDesc_NuclearPasta_256.IconDesc_NuclearPasta_256",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

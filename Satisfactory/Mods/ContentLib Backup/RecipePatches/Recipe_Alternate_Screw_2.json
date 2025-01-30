@@ -1,0 +1,27 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_Screw_2.Recipe_Alternate_Screw_2_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Steel Screw",
+"Ingredients": [
+{
+      "Item": "Desc_SteelPlate",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_IronScrew",
+      "Amount": 52
+ }
+],
+"ManufacturingDuration": 12.0,
+"ProducedIn": ["Build_ConstructorMk1_C"],
+"OverrideCategory": "Cat_StandardParts_C",
+"ManufacturingMenuPriority": 6.0,
+"UnlockedBy": ["Schematic_Alternate_Screw2_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

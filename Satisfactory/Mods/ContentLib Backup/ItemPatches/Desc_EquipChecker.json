@@ -1,0 +1,16 @@
+//EfficiencyCheckerMod/Equipment/Desc_EquipChecker.Desc_EquipChecker_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Efficiency Checker Hand Tool",
+"NameShort": "",
+"Description": "Slot: Hands
+
+Checks the efficiency of a belt or lift the Pioneer points at, upon activation",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Hands_C",
+"StackSize": "One"
+}

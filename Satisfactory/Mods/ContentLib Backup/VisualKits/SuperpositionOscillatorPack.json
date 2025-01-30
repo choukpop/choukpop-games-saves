@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/SuperpositionOscillator/SM_SuperpositionOscillator_01.SM_SuperpositionOscillator_01",
+	"BigIcon": "/PackingExpansion/Icons/Superposition_Oscillator_Pack.Superposition_Oscillator_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Superposition_Oscillator_Pack.Superposition_Oscillator_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

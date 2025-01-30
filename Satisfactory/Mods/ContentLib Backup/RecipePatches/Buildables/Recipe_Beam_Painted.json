@@ -1,0 +1,19 @@
+//Game/FactoryGame/Prototype/Buildable/Beams/Recipe_Beam_Painted.Recipe_Beam_Painted_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Painted Beam",
+"Ingredients": [
+{
+      "Item": "Desc_SteelPlate",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Beam_Painted",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_BeamSet_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

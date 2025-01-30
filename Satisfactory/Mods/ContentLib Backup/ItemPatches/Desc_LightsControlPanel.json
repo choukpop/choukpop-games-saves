@@ -1,0 +1,17 @@
+//Game/FactoryGame/Buildable/Factory/LightsControlPanel/Desc_LightsControlPanel.Desc_LightsControlPanel_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Light Control Panel",
+"NameShort": "",
+"Description": "Sections off a series of lights, allowing them to be adjusted as a group.
+
+Controls all lights connected to the power grid via the Light Connector (yellow label).
+Note: Other Control Panels and Power Switches interrupt the connection.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Organization_C",
+"StackSize": "Medium"
+}

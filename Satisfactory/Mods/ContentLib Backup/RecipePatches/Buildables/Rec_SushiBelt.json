@@ -1,0 +1,23 @@
+//SushiBeltMaker/Rec_SushiBelt.Rec_SushiBelt_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Sushi Maker",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_Cable",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_SushiBelt",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schem_TeleJump_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

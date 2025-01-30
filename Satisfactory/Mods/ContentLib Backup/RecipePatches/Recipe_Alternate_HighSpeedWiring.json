@@ -1,0 +1,35 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/New_Update3/Recipe_Alternate_HighSpeedWiring.Recipe_Alternate_HighSpeedWiring_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Automated Speed Wiring",
+"Ingredients": [
+{
+      "Item": "Desc_Stator",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_Wire",
+      "Amount": 40
+ },
+{
+      "Item": "Desc_HighSpeedConnector",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_SpaceElevatorPart_3",
+      "Amount": 4
+ }
+],
+"ManufacturingDuration": 32.0,
+"ProducedIn": ["Build_ManufacturerMk1_C"],
+"OverrideCategory": "Cat_SpaceElevator_C",
+"ManufacturingMenuPriority": 2.0,
+"UnlockedBy": ["Schematic_Alternate_HighSpeedWiring_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

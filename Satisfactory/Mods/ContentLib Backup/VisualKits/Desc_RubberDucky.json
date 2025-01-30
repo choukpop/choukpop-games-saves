@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/WaterPoolsPlus/Buildables/RubberDuck/Default/WP_RubberDuck512.WP_RubberDuck512",
+	"SmallIcon": "/WaterPoolsPlus/Buildables/RubberDuck/Default/WP_RubberDuck512.WP_RubberDuck512",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

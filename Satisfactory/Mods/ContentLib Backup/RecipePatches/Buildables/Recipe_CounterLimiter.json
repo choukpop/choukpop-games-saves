@@ -1,0 +1,23 @@
+//CounterLimiter/Recipes/Recipe_CounterLimiter.Recipe_CounterLimiter_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Counter Limiter",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_Rotor",
+      "Amount": 3
+ }
+],
+"Products": [
+{
+      "Item": "Desc_CounterLimiter",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_CounterLimiter_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

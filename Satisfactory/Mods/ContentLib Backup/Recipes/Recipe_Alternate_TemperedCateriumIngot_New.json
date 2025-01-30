@@ -1,0 +1,30 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alt: Tempered Caterium Ingot Pack",
+"Ingredients": [
+{
+      "Item": "CateriumOrePack",
+      "Amount": 6
+ },
+{
+      "Item": "PetroleumCokePack",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "CateriumIngotPack",
+      "Amount": 3
+ }
+],
+"ManufacturingDuration": 200.0,
+"ProducedIn": ["Build_FoundryMk1_C"],
+"OverrideCategory": "Cat_Ingots_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T5_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

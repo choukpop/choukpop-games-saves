@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/PackingExpansion/Icons/Dark_Matter_Residue_Pack-modified.Dark_Matter_Residue_Pack-modified",
+	"SmallIcon": "/PackingExpansion/Icons/Dark_Matter_Residue_Pack-modified.Dark_Matter_Residue_Pack-modified",
+	"FluidColor":
+	{
+		"r": 253,
+		"g": 175,
+		"b": 249,
+		"a": 255
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

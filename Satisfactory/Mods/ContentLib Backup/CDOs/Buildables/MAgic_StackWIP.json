@@ -1,0 +1,38 @@
+{
+  "Class": "/MagicMachine/Stackable/MAgic_StackWIP.MAgic_StackWIP_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 4.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.321929
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": true
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 0.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "MMMS Small"
+ },
+{
+"Property": "mDescription",
+"Value": "Produces every items you have in the game.
+
+Can make Blueprints with it."
+ },
+{
+"Property": "mHologramClass",
+"Value": "FGFactoryHologram"
+ },
+{
+"Property": "mManufacturingSpeed",
+"Value": 1.0
+ }]
+}

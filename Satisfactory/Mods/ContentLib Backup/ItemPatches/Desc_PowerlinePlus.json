@@ -1,0 +1,14 @@
+//PowerTowerPlus/Desc/Desc_PowerlinePlus.Desc_PowerlinePlus_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Power Line Plus",
+"NameShort": "",
+"Description": "Connects Power Poles, Power Generators, and factory buildings.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Power_C",
+"StackSize": "Medium"
+}

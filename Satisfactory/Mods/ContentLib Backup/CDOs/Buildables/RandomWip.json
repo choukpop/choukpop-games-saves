@@ -1,0 +1,36 @@
+{
+  "Class": "/MagicMachine/Random/RandomWip.RandomWip_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 4.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.321929
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": true
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 0.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Random Spawner"
+ },
+{
+"Property": "mDescription",
+"Value": "Produces every item of the game randomicly."
+ },
+{
+"Property": "mHologramClass",
+"Value": "FGFactoryHologram"
+ },
+{
+"Property": "mManufacturingSpeed",
+"Value": 1.0
+ }]
+}

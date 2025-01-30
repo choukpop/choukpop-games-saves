@@ -1,0 +1,31 @@
+//Game/FactoryGame/Recipes/Packager/Recipe_UnpackageNitrogen.Recipe_UnpackageNitrogen_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Unpackage Nitrogen Gas",
+"Ingredients": [
+{
+      "Item": "Desc_PackagedNitrogenGas",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_NitrogenGas",
+      "Amount": 4000
+ },
+{
+      "Item": "Desc_GasTank",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 1.0,
+"ProducedIn": ["Build_Packager_C"],
+"OverrideCategory": "Cat_Unpackaging_C",
+"ManufacturingMenuPriority": 10.0,
+"UnlockedBy": ["Schematic_8-2-1_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

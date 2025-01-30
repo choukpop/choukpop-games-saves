@@ -1,0 +1,19 @@
+//PowerTowerPlus/Recipes/Recipe_PowerlinePlus.Recipe_PowerlinePlus_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Power Line Plus",
+"Ingredients": [
+{
+      "Item": "Desc_Cable",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_PowerlinePlus",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_PowerlinePlus_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

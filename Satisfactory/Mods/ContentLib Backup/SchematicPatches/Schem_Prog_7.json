@@ -1,0 +1,31 @@
+//ProgressiveDepotSize/Schem_Prog_7.Schem_Prog_7_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "50+ DD Stacks",
+"Type": "Milestone",
+"VisualKit": "Schem_Prog_7_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 250
+ },
+{
+      "Item": "Desc_CopperSheet",
+      "Amount": 500
+ }],
+"Category": "",
+"SubCategories": [],
+"MenuPriority": 107.0,
+"Time": 0.0,
+"Tier": 0,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": [],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

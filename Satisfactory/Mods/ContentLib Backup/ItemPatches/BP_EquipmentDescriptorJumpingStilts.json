@@ -1,0 +1,15 @@
+//Game/FactoryGame/Resource/Equipment/JumpingStilts/BP_EquipmentDescriptorJumpingStilts.BP_EquipmentDescriptorJumpingStilts_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Blade Runners",
+"NameShort": "",
+"Description": "An exoskeleton for the lower legs that assists movement, allowing pioneers to sprint faster and jump higher.
+Also dampens the impact of landing.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Body_C",
+"StackSize": "One"
+}

@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/World/Benefit/AlienArtifact/Mesh/SM_Mercer_Rings_Conveyor.SM_Mercer_Rings_Conveyor",
+	"BigIcon": "/Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256",
+	"SmallIcon": "/Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/Fuel/SM_Fuel_01.SM_Fuel_01",
+	"BigIcon": "/PackingExpansion/Icons/Packaged_Fuel_Pack.Packaged_Fuel_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Packaged_Fuel_Pack.Packaged_Fuel_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

@@ -1,0 +1,39 @@
+//Game/FactoryGame/Schematics/Progression/Schematic_6-6.Schematic_6-6_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "FICSIT Blueprints Mk.2",
+"Type": "Milestone",
+"VisualKit": "Schematic_6-6_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_Computer",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_Rubber",
+      "Amount": 400
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 1500
+ }],
+"Category": "SC_Logistics_C",
+"SubCategories": [],
+"MenuPriority": 5.0,
+"Time": 600.0,
+"Tier": 6,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_BlueprintDesigner_Mk2_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

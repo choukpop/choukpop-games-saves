@@ -1,0 +1,14 @@
+//EfficiencyCheckerMod/Buildings/EfficiencyChecker/Desc_EfficiencyCheckerSlim.Desc_EfficiencyCheckerSlim_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Efficiency Checker (Top)",
+"NameShort": "",
+"Description": "This building will check how much items the belt must serve, if all the following buildings in the chain were to work at 100% efficiency",
+"CanBeDiscarded": false,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "Cat_EfficiencyChecker_C",
+"StackSize": "One"
+}

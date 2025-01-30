@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Equipment/Chainsaw/Mesh/chainsaw_dropped.chainsaw_dropped",
+	"BigIcon": "/SuperChainsaw/Equipment/SuperChainsaw/UI/SuperChainsaw_256.SuperChainsaw_256",
+	"SmallIcon": "/SuperChainsaw/Equipment/SuperChainsaw/UI/SuperChainsaw_256.SuperChainsaw_256",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

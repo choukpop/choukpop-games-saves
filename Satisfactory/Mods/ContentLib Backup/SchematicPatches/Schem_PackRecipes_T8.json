@@ -1,0 +1,27 @@
+//PackingExpansion/Schem_PackRecipes_T8.Schem_PackRecipes_T8_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "T8 Packing Manufacturing Recipes",
+"Type": "Milestone",
+"VisualKit": "Schem_PackRecipes_T8_C",
+"Description": "",
+"Cost": [{
+      "Item": "AluminumCasingPack",
+      "Amount": 5
+ }],
+"Category": "SC_Production_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 60.0,
+"Tier": 8,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_EncasedUraniumCell_C","Recipe_Alternate_InfusedUraniumCell_C","Recipe_ElectromagneticControlRod_C","Recipe_UraniumFuelRod_C","Recipe_MagneticFieldGenerator_C","Recipe_Alternate_SuperStateComputer_C","Recipe_Alternate_ElectromagneticConnectionRod_C","Recipe_Alternate_UraniumFuelUnit_C","Recipe_EmptyFluidTank_C","Recipe_PackageNitrogenGas_C","Recipe_UnpackNitrogenGas_C","Recipe_CoolingSystem_C","Recipe_FusedModularFrame_C","Recipe_HeatSink_C","Recipe_Alternate_HeatExchanger_C","Recipe_Alternate_CoolingDevice_C","Recipe_Alternate_RadioConnectionUnit_C","Recipe_Alternate_OCSupercomputer_C","Recipe_TurboMotor_C","Recipe_ThermalPropulsionRocket_C","Recipe_NitricAcid_C","Recipe_PackageNitricAcid_C","Recipe_UnpackNitricAcid_C","Recipe_Non-fissileUranium_C","Recipe_PlutoniumPellet_C","Recipe_EncasedPlutoniumCell_C","Recipe_Plutonium_Fuel_Rod_C","Recipe_CopperPowder_C","Recipe_PressureConversionCube_C","Recipe_NuclearPasta_C","Recipe_Alternate_FertileUranium_C","Recipe_Alternate_InstantPlutoniumCell_C","Recipe_Alternate_Heat-FusedFrame_C","Recipe_Alternate_Plutonium_Fuel_Unit_C","Recipe_Alternate_TurboPressureMotor_C","Recipe_Alternate_TurboElectricMotor_C","Recipe_NukeNobelisk_C","Recipe_RocketFuel_C","Recipe_PackageRocketFuel_C","Recipe_UnpackRocketFuel_C","Recipe_Alternate_QuartzPurification_C","Recipe_Alternate_DistilledSilica_C","Recipe_Alternate_AluminumBeam_C","Recipe_Alternate_AluminumRod_C","Recipe_Alternate_NitroRocketFuel_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

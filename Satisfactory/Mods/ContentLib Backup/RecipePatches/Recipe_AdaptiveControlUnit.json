@@ -1,0 +1,39 @@
+//PackingExpansion/Recipes/Recipe_AdaptiveControlUnit.Recipe_AdaptiveControlUnit_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Adaptive Control Unit Pack",
+"Ingredients": [
+{
+      "Item": "AutomatedWiringPack",
+      "Amount": 5
+ },
+{
+      "Item": "CircuitBoardPack",
+      "Amount": 5
+ },
+{
+      "Item": "HeavyModularFramePack",
+      "Amount": 1
+ },
+{
+      "Item": "ComputerPack",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "AdaptiveControlUnitPack",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 1500.0,
+"ProducedIn": ["Build_ManufacturerMk1_C"],
+"OverrideCategory": "Cat_SpaceElevator_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T6_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

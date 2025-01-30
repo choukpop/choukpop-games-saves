@@ -1,0 +1,58 @@
+{
+  "Class": "/MirroredBuildings/Mirror_Nuclear.Mirror_Nuclear_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 0.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.6
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": true
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 5.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Mirror Nuclear Power Plant"
+ },
+{
+"Property": "mDescription",
+"Value": "Has 4 power connections.
+
+Consumes Nuclear Fuel Rods and Water to produce electricty for the power grid.
+
+Produces Nuclear Waste, which is extracted from the conveyor belt output.
+
+Resource consumption will automatically be lowered to meet power demands."
+ },
+{
+"Property": "mHologramClass",
+"Value": "FGFactoryHologram"
+ },
+{
+"Property": "mPowerProduction",
+"Value": 2500.0
+ },
+{
+"Property": "mSupplementalResourceClass",
+"Value": "Desc_Water_C"
+ },
+{
+"Property": "mSupplementalToPowerRatio",
+"Value": 1.6
+ },
+{
+"Property": "mSupplementalLoadAmount",
+"Value": 10000
+ },
+{
+"Property": "mIsFullBlast",
+"Value": true
+ }]
+}

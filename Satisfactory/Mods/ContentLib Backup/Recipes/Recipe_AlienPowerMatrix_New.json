@@ -1,0 +1,42 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alien Power Matrix Pack",
+"Ingredients": [
+{
+      "Item": "SAMFluctuatorPack",
+      "Amount": 5
+ },
+{
+      "Item": "PowerShardPack",
+      "Amount": 3
+ },
+{
+      "Item": "SuperpositionOscillatorPack",
+      "Amount": 3
+ },
+{
+      "Item": "ExcitedPhotonicMatterCondensed",
+      "Amount": 24000
+ }
+],
+"Products": [
+{
+      "Item": "AlienPowerMatrixPack",
+      "Amount": 1
+ },
+{
+      "Item": "DarkMatterResidueCondensed",
+      "Amount": 24000
+ }
+],
+"ManufacturingDuration": 600.0,
+"ProducedIn": ["Build_QuantumEncoder_C"],
+"OverrideCategory": "Cat_Quantum_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T9_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 2000.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

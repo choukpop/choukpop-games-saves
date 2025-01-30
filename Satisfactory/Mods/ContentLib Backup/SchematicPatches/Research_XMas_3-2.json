@@ -1,0 +1,39 @@
+//Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_3-2.Research_XMas_3-2_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "It's Snowing!",
+"Type": "MAM",
+"VisualKit": "Research_XMas_3-2_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_Snow",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_XmasBall3",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_XmasBall4",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_CandyCane",
+      "Amount": 200
+ }],
+"Category": "SC_Organisation_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 3.0,
+"Tier": 3,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_SnowDispenser_C","Recipe_SnowCannon_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

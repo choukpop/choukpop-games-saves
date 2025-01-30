@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/Geometry/Meshes/1M_Cube_Chamfer.1M_Cube_Chamfer",
+	"BigIcon": "/PackingExpansion/Icons/Nuclear_Power_Plant_Pack.Nuclear_Power_Plant_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Nuclear_Power_Plant_Pack.Nuclear_Power_Plant_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

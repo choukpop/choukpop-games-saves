@@ -1,0 +1,27 @@
+//MirroredBuildings/Rec_MirrorCoal.Rec_MirrorCoal_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Mirror Coal Generator",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_Rotor",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_Cable",
+      "Amount": 30
+ }
+],
+"Products": [
+{
+      "Item": "Desc_MirrorCoalGen",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schem_Mirror_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

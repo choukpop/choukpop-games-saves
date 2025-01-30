@@ -1,0 +1,39 @@
+//Game/FactoryGame/Schematics/Progression/Schematic_8-1.Schematic_8-1_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Nuclear Power",
+"Type": "Milestone",
+"VisualKit": "Schematic_8-1_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_ComputerSuper",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_Cable",
+      "Amount": 1000
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 2000
+ }],
+"Category": "SC_Power_C",
+"SubCategories": [],
+"MenuPriority": 2.0,
+"Time": 900.0,
+"Tier": 8,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_UraniumCell_C","Recipe_ElectromagneticControlRod_C","Recipe_NuclearFuelRod_C","Recipe_GeneratorNuclear_C","Recipe_SpaceElevatorPart_6_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

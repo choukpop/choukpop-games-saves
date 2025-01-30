@@ -1,0 +1,26 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Iron Ingot Pack",
+"Ingredients": [
+{
+      "Item": "IronOrePack",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "IronIngotPack",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 50.0,
+"ProducedIn": ["Build_SmelterMk1_C"],
+"OverrideCategory": "Cat_Ingots_C",
+"ManufacturingMenuPriority": 101.0,
+"UnlockedBy": ["Schem_PackRecipes_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

@@ -1,0 +1,39 @@
+//Game/FactoryGame/Recipes/Manufacturer/Recipe_ModularFrameHeavy.Recipe_ModularFrameHeavy_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Heavy Modular Frame",
+"Ingredients": [
+{
+      "Item": "Desc_ModularFrame",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_SteelPlateReinforced",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_IronScrew",
+      "Amount": 120
+ }
+],
+"Products": [
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 30.0,
+"ProducedIn": ["Build_ManufacturerMk1_C","FGBuildableAutomatedWorkBench"],
+"OverrideCategory": "Cat_StandardParts_C",
+"ManufacturingMenuPriority": 16.0,
+"UnlockedBy": ["Schematic_5-2_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

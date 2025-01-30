@@ -1,0 +1,27 @@
+//PowerTowerPlus/Recipes/Recipe_PowerTowerPlusv4.Recipe_PowerTowerPlusv4_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Power Tower Plus v4",
+"Ingredients": [
+{
+      "Item": "Desc_SteelPlate",
+      "Amount": 120
+ },
+{
+      "Item": "Desc_ModularFrame",
+      "Amount": 80
+ },
+{
+      "Item": "Desc_Wire",
+      "Amount": 500
+ }
+],
+"Products": [
+{
+      "Item": "Desc_PowerTowerPlusv4",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_PowerTowerPlusv4_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

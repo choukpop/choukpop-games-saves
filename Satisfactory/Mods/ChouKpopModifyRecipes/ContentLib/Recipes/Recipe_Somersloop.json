@@ -1,0 +1,38 @@
+{
+      "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+      "Name": "Somersloop",
+      "Ingredients": [
+            {
+                  "Item": "Desc_FicsiteMesh",
+                  "Amount": 30
+            },
+            {
+                  "Item": "Desc_CircuitBoardHighSpeed",
+                  "Amount": 2
+            },
+            {
+                  "Item": "Liquid_MercerSphere",
+                  "Amount": 16000
+            }
+      ],
+      "Products": [
+            {
+                  "Item": "Desc_WAT1",
+                  "Amount": 1
+            }
+      ],
+      "ManufacturingDuration": 120.0,
+      "ProducedIn": [
+            "Build_HadronCollider_C"
+      ],
+      "OverrideCategory": "Alien Tech",
+      "ManufacturingMenuPriority": 0.0,
+      "UnlockedBy": [
+            "Schematic_CraftableSomersloop"
+      ],
+      "VariablePowerConsumptionConstant": 500.0,
+      "VariablePowerConsumptionFactor": 2000.0,
+      "ClearIngredients": true,
+      "ClearProducts": true,
+      "ClearBuilders": true
+}

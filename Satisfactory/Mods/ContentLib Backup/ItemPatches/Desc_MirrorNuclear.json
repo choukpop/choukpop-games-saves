@@ -1,0 +1,20 @@
+//MirroredBuildings/Desc_MirrorNuclear.Desc_MirrorNuclear_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Mirror Nuclear Power Plant",
+"NameShort": "",
+"Description": "Has 4 power connections.
+
+Consumes Nuclear Fuel Rods and Water to produce electricty for the power grid.
+
+Produces Nuclear Waste, which is extracted from the conveyor belt output.
+
+Resource consumption will automatically be lowered to meet power demands.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Power_C",
+"StackSize": "Medium"
+}

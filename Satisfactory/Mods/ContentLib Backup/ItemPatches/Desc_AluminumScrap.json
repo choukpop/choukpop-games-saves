@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/AluminumScrap/Desc_AluminumScrap.Desc_AluminumScrap_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Aluminum Scrap",
+"NameShort": "",
+"Description": "Refined from Alumina. Can be smelted into Aluminum Ingots for industrial usage.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_AdvancedRefinement_C",
+"StackSize": "Huge"
+}

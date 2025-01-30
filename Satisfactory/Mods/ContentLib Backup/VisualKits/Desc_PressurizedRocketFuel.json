@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/RocketFuel/Mesh/SM_RocketFuel_01.SM_RocketFuel_01",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/RocketFuel/UI/IconDesc_RocketFuelPipe_256.IconDesc_RocketFuelPipe_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/RocketFuel/UI/IconDesc_RocketFuelPipe_256.IconDesc_RocketFuelPipe_256",
+	"FluidColor":
+	{
+		"r": 189,
+		"g": 37,
+		"b": 26,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 223,
+		"g": 192,
+		"b": 1,
+		"a": 0
+	}
+}

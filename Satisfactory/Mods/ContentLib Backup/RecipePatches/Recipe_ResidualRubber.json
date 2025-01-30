@@ -1,0 +1,31 @@
+//Game/FactoryGame/Recipes/OilRefinery/Recipe_ResidualRubber.Recipe_ResidualRubber_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Residual Rubber",
+"Ingredients": [
+{
+      "Item": "Desc_PolymerResin",
+      "Amount": 4
+ },
+{
+      "Item": "Desc_Water",
+      "Amount": 4000
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Rubber",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 6.0,
+"ProducedIn": ["Build_OilRefinery_C"],
+"OverrideCategory": "Cat_SolidOilProducts_C",
+"ManufacturingMenuPriority": 5.0,
+"UnlockedBy": ["Schematic_5-1-1_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

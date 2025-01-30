@@ -1,0 +1,26 @@
+{
+  "$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+  "Name": "Test Recipe to allow new items",
+  "OverrideCategory": "AdvancedRefinement_C",
+  "Ingredients": [
+    {
+      "Item": "Desc_ItemTest_01",
+      "Amount": 2
+    },
+    {
+      "Item": "Desc_FluidItemTest_03",
+      "Amount": 1000
+    }
+  ],
+  "Products": [
+
+    {
+      "Item": "Desc_ItemTest_02",
+      "Amount": 3
+    }
+  ],
+  "ManufacturingDuration": 2.4,
+  "ManufacturingMenuPriority": 10,
+  "UnlockedBy": [ "Schematic_StartingRecipes_C" ],
+  "ProducedIn": [ "Build_OilRefinery" ]
+}

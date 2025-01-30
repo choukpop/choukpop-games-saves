@@ -1,0 +1,27 @@
+//PackingExpansion/Schem_PackRecipes_T3.Schem_PackRecipes_T3_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "T3 Packing Manufacturing Recipes",
+"Type": "Milestone",
+"VisualKit": "Schem_PackRecipes_T3_C",
+"Description": "",
+"Cost": [{
+      "Item": "RotorPack",
+      "Amount": 2
+ }],
+"Category": "SC_Production_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 60.0,
+"Tier": 3,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_BlackPowder_C","Recipe_SteelIngot_C","Recipe_SteelBeam_C","Recipe_SteelPipe_C","Recipe_VersatileFramework_C","Recipe_Alternate_IronAlloyIngot_C","Recipe_Alternate_CopperAlloyIngot_C","Recipe_Alternate_CompactedCoal_C","Recipe_Alternate_FineBlackPowder_C","Recipe_Alternate_SolidSteelIngot_C","Recipe_Alternate_SteelRotor_C","Recipe_Alternate_SteelScrew_C","Recipe_Alternate_SteeledFrame_C","Recipe_Alternate_CokeSteelIngot_C","Recipe_LiquidBiofuel_C","Recipe_Nobelisk_C","Recipe_Alternate_SteelRod_C","Recipe_Alternate_CompactedSteelIngot_C","Recipe_GasNobelisk_C","Recipe_SAMFluctuator_C","Recipe_Alternate_AutomatedMiner_C","Recipe_Alternate_BasicIronIngot_C","Recipe_Alternate_FusedQuartzCrystal_C","Recipe_Alternate_IronPipe_C","Recipe_Alternate_MoldedBeam_C","Recipe_Alternate_MoldedSteelPipe_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

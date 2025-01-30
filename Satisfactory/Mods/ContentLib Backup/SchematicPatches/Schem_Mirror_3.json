@@ -1,0 +1,35 @@
+//MirroredBuildings/Schem_Mirror_3.Schem_Mirror_3_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Mirrored Buildings",
+"Type": "Milestone",
+"VisualKit": "Schem_Mirror_3_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_Cement",
+      "Amount": 500
+ },
+{
+      "Item": "Desc_ComputerSuper",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 40
+ }],
+"Category": "",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 0.0,
+"Tier": 8,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Rec_MirrorNuclearGen_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

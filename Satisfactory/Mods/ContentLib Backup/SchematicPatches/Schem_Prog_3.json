@@ -1,0 +1,31 @@
+//ProgressiveDepotSize/Schem_Prog_3.Schem_Prog_3_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "20+ DD Stacks",
+"Type": "Milestone",
+"VisualKit": "Schem_Prog_3_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_Rotor",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_ModularFrame",
+      "Amount": 30
+ }],
+"Category": "",
+"SubCategories": [],
+"MenuPriority": 103.0,
+"Time": 0.0,
+"Tier": 0,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": [],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

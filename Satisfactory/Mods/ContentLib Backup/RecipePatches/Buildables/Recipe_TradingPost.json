@@ -1,0 +1,19 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_TradingPost.Recipe_TradingPost_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "The HUB",
+"Ingredients": [
+{
+      "Item": "Desc_OreIron",
+      "Amount": 20
+ }
+],
+"Products": [
+{
+      "Item": "Desc_TradingPost",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_StartingRecipes_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

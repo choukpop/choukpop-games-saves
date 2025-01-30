@@ -1,0 +1,14 @@
+//PackingExpansion/Items/PlutoniumWastePack.PlutoniumWastePack_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Packaged Plutonium Waste",
+"NameShort": "",
+"Description": "Packing Expansion Mod",
+"CanBeDiscarded": false,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 30.0,
+"Form": "Solid",
+"Category": "",
+"StackSize": "Small"
+}

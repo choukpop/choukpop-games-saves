@@ -1,0 +1,31 @@
+//PackingExpansion/Recipes/Recipe_SmokelessPowder.Recipe_SmokelessPowder_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Smokeless Powder Pack",
+"Ingredients": [
+{
+      "Item": "BlackPowderPack",
+      "Amount": 2
+ },
+{
+      "Item": "HeavyOilResidueCondensed",
+      "Amount": 1000
+ }
+],
+"Products": [
+{
+      "Item": "SmokelessPowderPack",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 150.0,
+"ProducedIn": ["Build_OilRefinery_C"],
+"OverrideCategory": "Cat_Ammunition_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T5_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

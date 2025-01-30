@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/FicsiteMesh/SM_FicsiteMesh_01.SM_FicsiteMesh_01",
+	"BigIcon": "/PackingExpansion/Icons/Ficsite_Trigon_Pack.Ficsite_Trigon_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Ficsite_Trigon_Pack.Ficsite_Trigon_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/PressureConversionCube/Desc_PressureConversionCube.Desc_PressureConversionCube_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Pressure Conversion Cube",
+"NameShort": "",
+"Description": "Converts outgoing force into internal pressure. Required to contain unstable, high-energy matter.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Containers_C",
+"StackSize": "Small"
+}

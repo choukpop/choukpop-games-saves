@@ -1,0 +1,39 @@
+//Game/FactoryGame/Schematics/Progression/Schematic_4-3.Schematic_4-3_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Expanded Power Infrastructure",
+"Type": "Milestone",
+"VisualKit": "Schematic_4-3_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_SteelPlateReinforced",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_SteelPlate",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_ModularFrame",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_Wire",
+      "Amount": 2000
+ }],
+"Category": "SC_Power_C",
+"SubCategories": [],
+"MenuPriority": 4.0,
+"Time": 300.0,
+"Tier": 4,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_PowerStorageMk1_C","Recipe_PowerTower_C","Recipe_PowerTowerPlatform_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

@@ -1,0 +1,14 @@
+//LoadBalancers/Buildable/OverflowModule/Desc_ModularLoadBalancer_Overflow.Desc_ModularLoadBalancer_Overflow_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Overflow Module",
+"NameShort": "",
+"Description": "Has Input and Output. If there are no other Outputs in the Balancer group then items are sent to this Output.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Logistics_C",
+"StackSize": "One"
+}

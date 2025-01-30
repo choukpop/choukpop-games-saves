@@ -1,0 +1,16 @@
+//Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_10.Desc_SpaceElevatorPart_10_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Biochemical Sculptor",
+"NameShort": "",
+"Description": "Project Part #10. Ship via the Space Elevator to complete phases of Project Assembly.
+
+Years ahead of the competition, this top-of-the-line 3D printer is used for the production of synthetic biological resources.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_SpaceElevator_C",
+"StackSize": "Small"
+}

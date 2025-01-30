@@ -1,0 +1,19 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorBeltMk2.Recipe_ConveyorBeltMk2_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Conveyor Belt Mk.2",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_ConveyorBeltMk2",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_3-2_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

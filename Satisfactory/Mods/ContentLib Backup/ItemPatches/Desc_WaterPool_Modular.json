@@ -1,0 +1,14 @@
+//WaterPoolsPlus/Buildables/PoolModular/Desc_WaterPool_Modular.Desc_WaterPool_Modular_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Modular Pool",
+"NameShort": "",
+"Description": "Allows to create pools of any sizes and shapes by simply snapping the pools to each other.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Production_C",
+"StackSize": "Medium"
+}

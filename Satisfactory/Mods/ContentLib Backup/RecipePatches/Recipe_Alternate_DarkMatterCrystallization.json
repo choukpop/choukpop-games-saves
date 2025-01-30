@@ -1,0 +1,27 @@
+//PackingExpansion/Recipes/Recipe_Alternate_DarkMatterCrystallization.Recipe_Alternate_DarkMatterCrystallization_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alt: Dark Matter Crystallization Pack",
+"Ingredients": [
+{
+      "Item": "DarkMatterResidueCondensed",
+      "Amount": 10000
+ }
+],
+"Products": [
+{
+      "Item": "DarkMatterCrystalPack",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 75.0,
+"ProducedIn": ["Build_HadronCollider_C"],
+"OverrideCategory": "Cat_Quantum_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T9_C"],
+"VariablePowerConsumptionConstant": 500.0,
+"VariablePowerConsumptionFactor": 1000.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

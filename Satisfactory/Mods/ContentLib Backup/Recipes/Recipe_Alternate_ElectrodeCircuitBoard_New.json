@@ -1,0 +1,30 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alternate: Electrode Circuit Board",
+"Ingredients": [
+{
+      "Item": "Desc_Rubber",
+      "Amount": 4
+ },
+{
+      "Item": "Desc_PetroleumCoke",
+      "Amount": 8
+ }
+],
+"Products": [
+{
+      "Item": "Desc_CircuitBoard",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 12.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_Electronics_C",
+"ManufacturingMenuPriority": 5.0,
+"UnlockedBy": ["Schematic_Alternate_ElectrodeCircuitBoard_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

@@ -1,0 +1,13 @@
+//ExtraFinishes/Master/Recipes/Recipe_UraniumFinish.Recipe_UraniumFinish_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Uranium Finish",
+"Ingredients": [
+
+],
+"Products": [
+],
+"UnlockedBy": ["Schematic_ExtraFinishes_Uranium_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

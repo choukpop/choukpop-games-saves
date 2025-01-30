@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/PressureConversionCube/SM_PressureCube_01.SM_PressureCube_01",
+	"BigIcon": "/PackingExpansion/Icons/Pressure_Conversion_Cube_Pack.Pressure_Conversion_Cube_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Pressure_Conversion_Cube_Pack.Pressure_Conversion_Cube_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

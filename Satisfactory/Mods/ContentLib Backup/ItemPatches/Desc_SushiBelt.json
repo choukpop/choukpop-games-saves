@@ -1,0 +1,16 @@
+//SushiBeltMaker/Desc_SushiBelt.Desc_SushiBelt_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Sushi Maker",
+"NameShort": "",
+"Description": "Select the items and the quantity you want to let pass in order. 
+
+It will create a belt with multiple items that will always keep that order.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Logistics_C",
+"StackSize": "Medium"
+}

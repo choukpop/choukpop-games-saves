@@ -1,0 +1,30 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Package Nitric Acid",
+"Ingredients": [
+{
+      "Item": "NitricAcidCondensed",
+      "Amount": 1000
+ },
+{
+      "Item": "EmptyFluidTankPack",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "PackNitricAcidPack",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 50.0,
+"ProducedIn": ["Build_Packager_C"],
+"OverrideCategory": "Cat_Packaging_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T8_C"],
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}
