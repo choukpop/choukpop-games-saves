@@ -1,0 +1,14 @@
+//MLBAlternates/Buildable/Desc_ModularLoadBalancer1.Desc_ModularLoadBalancer1_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Modular Load Balancer (Alternate)",
+"NameShort": "",
+"Description": "Modular attachment that can be snapped together to form a load balancer of any size",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Logistics_C",
+"StackSize": "One"
+}

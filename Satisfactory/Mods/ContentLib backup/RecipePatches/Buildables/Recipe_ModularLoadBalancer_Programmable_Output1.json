@@ -1,0 +1,27 @@
+//MLBAlternates/Recipes/Recipe_ModularLoadBalancer_Programmable_Output1.Recipe_ModularLoadBalancer_Programmable_Output1_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Output Only Programmable Module (Alternate)",
+"Ingredients": [
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_CircuitBoardHighSpeed",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_Computer",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_ModularLoadBalancer_Programmable_Output1",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_ModularLoadBalancers_Alternate_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

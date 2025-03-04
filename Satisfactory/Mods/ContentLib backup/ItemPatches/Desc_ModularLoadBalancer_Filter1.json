@@ -1,0 +1,14 @@
+//MLBAlternates/Buildable/FilterModule/Desc_ModularLoadBalancer_Filter1.Desc_ModularLoadBalancer_Filter1_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Filter Module (Alternate)",
+"NameShort": "",
+"Description": "Has Input and Output. A filter can be defined for the Output. The filtered output is prioritized over non-filtered modules.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Logistics_C",
+"StackSize": "One"
+}

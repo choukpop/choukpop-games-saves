@@ -17,7 +17,7 @@
 "ManufacturingDuration": 100.0,
 "ProducedIn": ["Build_ConstructorMk1_C"],
 "OverrideCategory": "Cat_StandardParts_C",
-"ManufacturingMenuPriority": 112.0,
+"ManufacturingMenuPriority": 0.0,
 "UnlockedBy": ["Schem_PackRecipes_T3_C"],
 "VariablePowerConsumptionConstant": 0.0,
 "VariablePowerConsumptionFactor": 1.0,

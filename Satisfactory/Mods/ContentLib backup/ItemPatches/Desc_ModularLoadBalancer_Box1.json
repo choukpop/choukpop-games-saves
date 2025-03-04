@@ -1,0 +1,15 @@
+//MLBAlternates/Buildable/Box/Desc_ModularLoadBalancer_Box1.Desc_ModularLoadBalancer_Box1_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Load Balancer Base (be sure to check info)",
+"NameShort": "",
+"Description": "A base for MLBs to sit in. 
+(Disclaimer: Has unique collision to allow MLBs to be built in the same place; it only extends half way up the buildable's visual height and has no collision on top)",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Logistics_C",
+"StackSize": "One"
+}

@@ -1,0 +1,31 @@
+//ModularStations/Buildables/DummyStation/Recipe_TrainStationRightDummy_NoWalkway.Recipe_TrainStationRightDummy_NoWalkway_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Dummy Station without Walkway (Right)",
+"Ingredients": [
+{
+      "Item": "Desc_SteelPlateReinforced",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_Plastic",
+      "Amount": 25
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 25
+ },
+{
+      "Item": "Desc_Wire",
+      "Amount": 100
+ }
+],
+"Products": [
+{
+      "Item": "Desc_TrainStationRightDummy_NoWalkway",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_ModularStations2_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

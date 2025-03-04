@@ -14,12 +14,24 @@
 "Value": 35.0
  },
 {
-"Property": "mBendRadius2D",
-"Value": 199.0
+"Property": "mMinLenght",
+"Value": 0.0
+ },
+{
+"Property": "mMaxLenght",
+"Value": 10000.0
  },
 {
 "Property": "mMinBendRadius",
 "Value": 75.0
+ },
+{
+"Property": "mMaxGrade",
+"Value": 25.0
+ },
+{
+"Property": "mBendRadius2D",
+"Value": 199.0
  },
 {
 "Property": "mMaxSplineLength",

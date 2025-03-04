@@ -1,0 +1,14 @@
+//ModularStations/Buildables/Middle/Desc_TrainStationMiddle.Desc_TrainStationMiddle_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Middle Station",
+"NameShort": "",
+"Description": "Station connector for placing over through tracks",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Vehicles_C",
+"StackSize": "Medium"
+}

@@ -160,11 +160,15 @@
       "Amount": 1000000
  },
 {
-      "Item": "AluminaCondensed",
+      "Item": "Liquid_MercerSphere",
       "Amount": 1000000
  },
 {
       "Item": "Desc_PressurizedAluminaSolution",
+      "Amount": 1000000
+ },
+{
+      "Item": "AluminaCondensed",
       "Amount": 1000000
  },
 {
@@ -180,11 +184,11 @@
       "Amount": 1000000
  },
 {
-      "Item": "Desc_PressurizedCrudeOil",
+      "Item": "CrudeOilCondensed",
       "Amount": 1000000
  },
 {
-      "Item": "CrudeOilCondensed",
+      "Item": "Desc_PressurizedCrudeOil",
       "Amount": 1000000
  },
 {
@@ -224,11 +228,11 @@
       "Amount": 1000000
  },
 {
-      "Item": "HeavyOilResidueCondensed",
+      "Item": "Desc_PressurizedHeavyOilResidue",
       "Amount": 1000000
  },
 {
-      "Item": "Desc_PressurizedHeavyOilResidue",
+      "Item": "HeavyOilResidueCondensed",
       "Amount": 1000000
  },
 {
@@ -236,19 +240,19 @@
       "Amount": 1000000
  },
 {
-      "Item": "IonizedFuelCondensed",
-      "Amount": 1000000
- },
-{
       "Item": "Desc_PressurizedIonizedFuel",
       "Amount": 1000000
  },
 {
-      "Item": "LiquidBiofuelCondensed",
+      "Item": "IonizedFuelCondensed",
       "Amount": 1000000
  },
 {
       "Item": "Desc_PressurizedLiquidBiofuel",
+      "Amount": 1000000
+ },
+{
+      "Item": "LiquidBiofuelCondensed",
       "Amount": 1000000
  },
 {
@@ -260,11 +264,11 @@
       "Amount": 1000000
  },
 {
-      "Item": "NitricAcidCondensed",
+      "Item": "Desc_PressurizedNitricAcid",
       "Amount": 1000000
  },
 {
-      "Item": "Desc_PressurizedNitricAcid",
+      "Item": "NitricAcidCondensed",
       "Amount": 1000000
  },
 {
@@ -280,19 +284,19 @@
       "Amount": 1000000
  },
 {
-      "Item": "Desc_PressurizedRocketFuel",
-      "Amount": 1000000
- },
-{
       "Item": "RocketFuelCondensed",
       "Amount": 1000000
  },
 {
-      "Item": "SulfuricAcidCondensed",
+      "Item": "Desc_PressurizedRocketFuel",
       "Amount": 1000000
  },
 {
       "Item": "Desc_PressurizedSulfuricAcid",
+      "Amount": 1000000
+ },
+{
+      "Item": "SulfuricAcidCondensed",
       "Amount": 1000000
  },
 {
@@ -312,11 +316,11 @@
       "Amount": 1000000
  },
 {
-      "Item": "Desc_PressurizedWater",
+      "Item": "WaterCondensed",
       "Amount": 1000000
  },
 {
-      "Item": "WaterCondensed",
+      "Item": "Desc_PressurizedWater",
       "Amount": 1000000
  },
 {

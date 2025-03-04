@@ -1,0 +1,13 @@
+//ExtraFinishes/Master/Recipes/Recipe_DarkEnergyFinish.Recipe_DarkEnergyFinish_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Dark Energy Finish",
+"Ingredients": [
+
+],
+"Products": [
+],
+"UnlockedBy": ["Schematic_ExtraFinishes_DarkEnergy_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

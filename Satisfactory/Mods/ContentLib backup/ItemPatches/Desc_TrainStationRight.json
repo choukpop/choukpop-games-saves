@@ -1,0 +1,15 @@
+//ModularStations/Buildables/Station/Desc_TrainStationRight.Desc_TrainStationRight_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Train Station (Right)",
+"NameShort": "",
+"Description": "Serves as a hub for Locomotives, which can be set to navigate to and stop at a Train Station.
+You can connect power to a Train Station to power up the trains on the Railway as well as feed power to other stations.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Vehicles_C",
+"StackSize": "Medium"
+}

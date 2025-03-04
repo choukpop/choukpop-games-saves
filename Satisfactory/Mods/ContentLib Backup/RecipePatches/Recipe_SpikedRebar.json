@@ -17,7 +17,7 @@
 "ManufacturingDuration": 4.0,
 "ProducedIn": ["Build_ConstructorMk1_C"],
 "OverrideCategory": "Cat_Ammunition_C",
-"ManufacturingMenuPriority": 1.0,
+"ManufacturingMenuPriority": 101.0,
 "UnlockedBy": ["Research_ACarapace_2_C"],
 "VariablePowerConsumptionConstant": 0.0,
 "VariablePowerConsumptionFactor": 1.0,

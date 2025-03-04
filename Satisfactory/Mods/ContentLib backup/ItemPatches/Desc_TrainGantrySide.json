@@ -1,0 +1,14 @@
+//ModularStations/Buildables/Gantry/Desc_TrainGantrySide.Desc_TrainGantrySide_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Gantry Platform",
+"NameShort": "",
+"Description": "Creates empty space where necessary.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Vehicles_C",
+"StackSize": "Medium"
+}
