@@ -28,7 +28,7 @@
 				"Taken" : false
 			}
 		],
-		"Money" : 10559.877,
+		"Money" : 9407.877,
 		"CartData" : {
 			"ProductInCarts" : [
 				
@@ -51,15 +51,15 @@
 				"Size" : 0,
 				"Transform" : {
 					"Position" : {
-						"x" : -0.277074367,
-						"y" : 0.0795045048,
-						"z" : 7.71662664
+						"x" : -10.51529,
+						"y" : -1.03911757,
+						"z" : 8.474703
 					},
 					"Rotation" : {
-						"x" : -0.06353001,
-						"y" : 0.747576058,
-						"z" : -0.0990093946,
-						"w" : 0.6536751
+						"x" : 2.70784142E-07,
+						"y" : 1,
+						"z" : 6.131752E-08,
+						"w" : -5.216205E-07
 					}
 				},
 				"FurnitureID" : 5,
@@ -263,7 +263,7 @@
 				},
 				"DisplaySlots" : [
 					{
-						"Products" : {62:12
+						"Products" : {62:9
 						},
 						"ProductPrice" : {
 						}
@@ -564,7 +564,7 @@
 				},
 				"DisplaySlots" : [
 					{
-						"Products" : {161:30
+						"Products" : {161:28
 						},
 						"ProductPrice" : {
 						}
@@ -1633,7 +1633,7 @@
 				},
 				"DisplaySlots" : [
 					{
-						"Products" : {146:12
+						"Products" : {146:10
 						},
 						"ProductPrice" : {
 						}
@@ -4744,7 +4744,7 @@
 								},
 								"IsOpen" : false,
 								"ProductID" : 74,
-								"ProductCount" : 17
+								"ProductCount" : 24
 							},{
 								"Size" : 2,
 								"Transform" : {
@@ -4755,14 +4755,14 @@
 									},
 									"Rotation" : {
 										"x" : 0,
-										"y" : -8.742278E-08,
+										"y" : 8.841487E-08,
 										"z" : 0,
-										"w" : -1
+										"w" : 1
 									}
 								},
 								"IsOpen" : false,
 								"ProductID" : 74,
-								"ProductCount" : 24
+								"ProductCount" : 14
 							}
 						],
 						"RackedBuckedDatas" : [
@@ -9181,17 +9181,18 @@
 			"CouldntFindProduct" : 0,
 			"ExpensiveProducts" : 0,
 			"ShortChangeAmount" : 0,
+			"HarmedCustomerCount" : 0,
 			"TotalCustomerCount" : 0,
-			"StorePoint" : 276,
+			"StorePoint" : 280,
 			"CheckoutIncome" : 0,
-			"SupplyCosts" : -4344.85449,
-			"UpgradeCosts" : -380,
+			"SupplyCosts" : -4346.85449,
+			"UpgradeCosts" : -1330,
 			"CustomizationCosts" : -350,
 			"BillCosts" : 0,
 			"RentCosts" : 0,
 			"LoanIncome" : 0,
 			"LoanPayment" : 0,
-			"StaffPayment" : 0,
+			"StaffPayment" : -200,
 			"PaintCosts" : 0,
 			"FloorBoxCosts" : 0
 		},
@@ -9406,23 +9407,96 @@
 						"w" : 0.7071068
 					}
 				}
+			},{
+				"FurnitureID" : 220,
+				"Transform" : {
+					"Position" : {
+						"x" : -0.06777543,
+						"y" : 2.232841,
+						"z" : -0.0239636451
+					},
+					"Rotation" : {
+						"x" : 0,
+						"y" : 0,
+						"z" : 0,
+						"w" : 1
+					}
+				}
+			},{
+				"FurnitureID" : 221,
+				"Transform" : {
+					"Position" : {
+						"x" : -0.134838328,
+						"y" : 0.009999998,
+						"z" : 3.01377463
+					},
+					"Rotation" : {
+						"x" : 0,
+						"y" : 0.7071068,
+						"z" : 0,
+						"w" : 0.7071068
+					}
+				}
 			}
 		],
 		"ComputerTransform" : {
 			"Position" : {
-				"x" : -0.535,
-				"y" : 0,
-				"z" : 6.91
+				"x" : -0.5546739,
+				"y" : 0.009999998,
+				"z" : 6.91663933
 			},
 			"Rotation" : {
 				"x" : 0,
-				"y" : -0.7071104,
+				"y" : 0.7071068,
 				"z" : 0,
-				"w" : -0.707103252
+				"w" : 0.7071068
 			}
 		},
 		"CrateProductsData" : [
 			
+		],
+		"SecurityCameraSaveDatas" : [
+			{
+				"Id" : 0,
+				"Position" : {
+					"x" : -0.06777543,
+					"y" : 2.232841,
+					"z" : -0.0239636451
+				},
+				"IsAtCeiling" : false,
+				"TargetRotation" : {
+					"x" : 0.2032239,
+					"y" : 0.6034509,
+					"z" : -0.162710235,
+					"w" : 0.7537058
+				},
+				"CullingMatrix" : {
+					"col0" : {
+						"x" : 1.26838088,
+						"y" : -0.254118264,
+						"z" : -0.189346448,
+						"w" : -0.189094141
+					},
+					"col1" : {
+						"x" : -1.93694358E-08,
+						"y" : 1.997628,
+						"z" : -0.5033882,
+						"w" : -0.502717435
+					},
+					"col2" : {
+						"x" : 0.2843378,
+						"y" : 1.13357735,
+						"z" : 0.844641149,
+						"w" : 0.843515635
+					},
+					"col3" : {
+						"x" : 0.359101444,
+						"y" : -4.859692,
+						"z" : 0.9528728,
+						"w" : 0.971589744
+					}
+				}
+			}
 		],
 		"CurrentTime" : 0,
 		"CurrentDay" : 76,
@@ -9433,7 +9507,7 @@
 		"CleanedDirtCount" : 2,
 		"CleanedGlassCount" : 3,
 		"CompletedCheckoutCount" : 1687,
-		"CurrentStorePoint" : 924,
+		"CurrentStorePoint" : 928,
 		"CurrentStoreLevel" : 36,
 		"StoreUpgradeLevel" : 9,
 		"IsStoreOpen" : false,
@@ -9442,7 +9516,13 @@
 		"IsTabletOrdered" : true,
 		"IsCrateBought" : true,
 		"IsCrateEnabled" : true,
-		"IsNewGame" : false
+		"IsBatBought" : true,
+		"IsBatEnabled" : true,
+		"IsNewGame" : false,
+		"IsSecurityWarningShowed" : false,
+		"IsTutorialShoplifterBeaten" : false,
+		"IsShoplifterWarningShowed" : true,
+		"IsEnableShoplifterWarningShowed" : false
 	}
 	},
 	"Quality" : {
@@ -9454,6 +9534,7 @@
 		"InvertYAxis" : false,
 		"InvertXAxis" : false,
 		"RunInBackground" : false,
+		"EnableShoplifters" : true,
 		"QualitySetting" : 1,
 		"QualityBeforeCustomized" : 1,
 		"ResolutionSetting" : "1920x1080",
@@ -11698,6 +11779,9 @@
 				"RemoveLabelRack" : false,
 				"RestockShelf" : true
 			}
+		],
+		"SecurityGuardsData" : [
+			1
 		]
 	}
 	},

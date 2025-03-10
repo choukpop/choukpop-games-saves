@@ -8,8 +8,8 @@ local obj1 = {
 	["msaa"] = 0;
 	["pause_on_switch"] = false;
 	["texture_size"] = "fullhd";
-	["volume_fx"] = 1;
-	["volume_music"] = 1;
+	["volume_fx"] = 0.1837037037037;
+	["volume_music"] = 0;
 	["vsync"] = false;
 	["width"] = 1920;
 }

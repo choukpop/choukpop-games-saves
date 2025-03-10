@@ -28,7 +28,7 @@
 				"Taken" : false
 			}
 		],
-		"Money" : 3.720005,
+		"Money" : 374.415222,
 		"CartData" : {
 			"ProductInCarts" : [
 				
@@ -69,12 +69,12 @@
 				},
 				"DisplaySlots" : [
 					{
-						"Products" : {85:6
+						"Products" : {85:7
 						},
 						"ProductPrice" : {
 						}
 					},{
-						"Products" : {147:12
+						"Products" : {147:11
 						},
 						"ProductPrice" : {
 						}
@@ -84,27 +84,27 @@
 						"ProductPrice" : {
 						}
 					},{
-						"Products" : {147:4
+						"Products" : {147:11
 						},
 						"ProductPrice" : {
 						}
 					},{
-						"Products" : {85:6
+						"Products" : {85:8
 						},
 						"ProductPrice" : {
 						}
 					},{
-						"Products" : {85:0
+						"Products" : {147:9
 						},
 						"ProductPrice" : {
 						}
 					},{
-						"Products" : {
+						"Products" : {85:3
 						},
 						"ProductPrice" : {
 						}
 					},{
-						"Products" : {147:12
+						"Products" : {147:7
 						},
 						"ProductPrice" : {
 						}
@@ -132,17 +132,27 @@
 						"ProductPrice" : {
 						}
 					},{
-						"Products" : {84:12
+						"Products" : {84:10
 						},
 						"ProductPrice" : {
 						}
 					},{
-						"Products" : {83:8
+						"Products" : {83:7
 						},
 						"ProductPrice" : {
 						}
 					},{
-						"Products" : {
+						"Products" : {84:9
+						},
+						"ProductPrice" : {
+						}
+					},{
+						"Products" : {83:5
+						},
+						"ProductPrice" : {
+						}
+					},{
+						"Products" : {84:11
 						},
 						"ProductPrice" : {
 						}
@@ -152,17 +162,7 @@
 						"ProductPrice" : {
 						}
 					},{
-						"Products" : {
-						},
-						"ProductPrice" : {
-						}
-					},{
-						"Products" : {
-						},
-						"ProductPrice" : {
-						}
-					},{
-						"Products" : {
+						"Products" : {84:0
 						},
 						"ProductPrice" : {
 						}
@@ -185,42 +185,42 @@
 				},
 				"DisplaySlots" : [
 					{
-						"Products" : {33:12
+						"Products" : {33:7
 						},
 						"ProductPrice" : {
 						}
 					},{
-						"Products" : {70:12
+						"Products" : {70:9
 						},
 						"ProductPrice" : {
 						}
 					},{
-						"Products" : {
+						"Products" : {33:9
 						},
 						"ProductPrice" : {
 						}
 					},{
-						"Products" : {70:6
+						"Products" : {70:10
 						},
 						"ProductPrice" : {
 						}
 					},{
-						"Products" : {
+						"Products" : {33:9
 						},
 						"ProductPrice" : {
 						}
 					},{
-						"Products" : {
+						"Products" : {70:10
 						},
 						"ProductPrice" : {
 						}
 					},{
-						"Products" : {
+						"Products" : {33:1
 						},
 						"ProductPrice" : {
 						}
 					},{
-						"Products" : {
+						"Products" : {70:2
 						},
 						"ProductPrice" : {
 						}
@@ -260,10 +260,10 @@
 			"ExpensiveProducts" : 0,
 			"ShortChangeAmount" : 0,
 			"TotalCustomerCount" : 0,
-			"StorePoint" : 8,
+			"StorePoint" : 0,
 			"CheckoutIncome" : 0,
-			"SupplyCosts" : -59.88,
-			"UpgradeCosts" : -430,
+			"SupplyCosts" : 0,
+			"UpgradeCosts" : 0,
 			"CustomizationCosts" : 0,
 			"BillCosts" : 0,
 			"RentCosts" : 0,
@@ -353,16 +353,16 @@
 			
 		],
 		"CurrentTime" : 0,
-		"CurrentDay" : 2,
+		"CurrentDay" : 4,
 		"LastDayPricesChanged" : 1,
 		"MysteryBox" : false,
 		"IsGarbageOnboardingCompleted" : true,
-		"CleanedGarbageCount" : 3,
-		"CleanedDirtCount" : 2,
-		"CleanedGlassCount" : 1,
-		"CompletedCheckoutCount" : 29,
-		"CurrentStorePoint" : 24,
-		"CurrentStoreLevel" : 3,
+		"CleanedGarbageCount" : 8,
+		"CleanedDirtCount" : 7,
+		"CleanedGlassCount" : 2,
+		"CompletedCheckoutCount" : 95,
+		"CurrentStorePoint" : 138,
+		"CurrentStoreLevel" : 5,
 		"StoreUpgradeLevel" : 0,
 		"IsStoreOpen" : false,
 		"PaintedWallCount" : 0,
@@ -394,7 +394,7 @@
 				"LastChangeDate" : -1
 			},{
 				"ProductID" : 70,
-				"Price" : 0.99,
+				"Price" : 0.9504,
 				"LastChangeDate" : -1
 			},{
 				"ProductID" : 83,
@@ -410,7 +410,7 @@
 				"LastChangeDate" : -1
 			},{
 				"ProductID" : 147,
-				"Price" : 1.15,
+				"Price" : 1.29,
 				"LastChangeDate" : -1
 			},{
 				"ProductID" : 24,
@@ -1405,7 +1405,7 @@
 		"PricesSetByPlayer" : [
 			{
 				"ProductID" : 70,
-				"Price" : 3.6,
+				"Price" : 3.5,
 				"LastChangeDate" : -1
 			},{
 				"ProductID" : 83,
@@ -1421,7 +1421,7 @@
 				"LastChangeDate" : -1
 			},{
 				"ProductID" : 147,
-				"Price" : 4.5,
+				"Price" : 5.1,
 				"LastChangeDate" : -1
 			},{
 				"ProductID" : 84,
@@ -1436,15 +1436,15 @@
 				"LastChangeDate" : -1
 			},{
 				"ProductID" : 85,
-				"Price" : 0.99,
+				"Price" : 0.98999995,
 				"LastChangeDate" : -1
 			},{
 				"ProductID" : 70,
-				"Price" : 0.99,
+				"Price" : 0.9778154,
 				"LastChangeDate" : -1
 			},{
 				"ProductID" : 147,
-				"Price" : 1.15,
+				"Price" : 1.22148931,
 				"LastChangeDate" : -1
 			},{
 				"ProductID" : 33,
@@ -1460,7 +1460,15 @@
 			
 		],
 		"PreviousPrices" : [
-			
+			{
+				"ProductID" : 70,
+				"Price" : 1.188,
+				"LastChangeDate" : -1
+			},{
+				"ProductID" : 147,
+				"Price" : 1.15,
+				"LastChangeDate" : -1
+			}
 		],
 		"PricingDatas" : [
 			{
@@ -1469,8 +1477,8 @@
 				"LastChangeDate" : -1
 			},{
 				"ProductID" : 70,
-				"Price" : 0.99,
-				"LastChangeDate" : -1
+				"Price" : 0.9504,
+				"LastChangeDate" : 3
 			},{
 				"ProductID" : 83,
 				"Price" : 0.79,
@@ -1485,8 +1493,8 @@
 				"LastChangeDate" : -1
 			},{
 				"ProductID" : 147,
-				"Price" : 1.15,
-				"LastChangeDate" : -1
+				"Price" : 1.29,
+				"LastChangeDate" : 3
 			},{
 				"ProductID" : 24,
 				"Price" : 0.95,
@@ -2487,7 +2495,13 @@
 			
 		],
 		"Rents" : [
-			
+			{
+				"LoanID" : -1,
+				"Date" : 3,
+				"Amount" : 0,
+				"PaymentType" : 0,
+				"LatePaymentFee" : 0
+			}
 		],
 		"LoanRepayments" : [
 			
@@ -2567,7 +2581,7 @@
 		"DustingDataList" : [
 			{
 				"DustingId" : 0,
-				"DustingAlpha" : 1.29144442
+				"DustingAlpha" : 1.09288144
 			}
 		]
 	}

@@ -3,9 +3,9 @@
 <plist version="1.0">
     <dict>
         <key>launch_count</key>
-        <integer>5</integer>
+        <integer>6</integer>
         <key>volume_fx</key>
-        <real>0.5600000</real>
+        <real>0.2300000</real>
         <key>launch</key>
         <dict>
             <key>fullscreen</key>
@@ -29,28 +29,28 @@
         </dict>
         <key>language</key>
         <key>volume_music</key>
-        <real>0.1000000</real>
+        <real>0.0500000</real>
         <key>joystick_settings</key>
         <dict>
             <key>RateLimitDelayRepeat</key>
-            <real>0.1500000000000000</real>
+            <real>0.1500000</real>
             <key>JoystickSpeed</key>
-            <real>600.0000000000000000</real>
+            <real>600.0000000</real>
             <key>JoystickPower</key>
-            <real>3.0000000000000000</real>
+            <real>3.0000000</real>
             <key>NavKeyStep</key>
-            <real>20.0000000000000000</real>
+            <real>20.0000000</real>
             <key>JoystickRampUpTime</key>
-            <real>0.2500000000000000</real>
+            <real>0.2500000</real>
             <key>RateLimitDelay</key>
-            <real>0.4000000000000000</real>
+            <real>0.4000000</real>
             <key>JoystickAxisThreshold</key>
-            <real>0.1000000000000000</real>
+            <real>0.1000000</real>
             <key>NavKeyStepAlt</key>
-            <real>100.0000000000000000</real>
+            <real>100.0000000</real>
         </dict>
         <key>victory_count</key>
-        <integer>4</integer>
+        <integer>5</integer>
         <key>cloud_save_enabled</key>
         <key>mute_music</key>
         <key>mute_fx</key>
