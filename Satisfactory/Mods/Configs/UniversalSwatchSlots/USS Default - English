@@ -1,0 +1,1155 @@
+[
+	{
+		"PaletteName": "USS Default - English",
+		"IsActive": false,
+		"AddPrimaryColorsToPreset": true,
+		"AddSecondaryColorsToPreset": true,
+		"Groups": [
+			{
+				"Name": "Iron",
+				"Priority": 1,
+				"Swatches": [
+					{
+						"Name": "Iron Ore",
+						"Priority": 0,
+						"Material": "Default",
+						"PrimaryColor": "#656F8CFF",
+						"SecondaryColor": "#663633FF"
+					},
+					{
+						"Name": "Iron Ingot",
+						"Priority": 1,
+						"Material": "Default",
+						"PrimaryColor": "#797A7AFF",
+						"SecondaryColor": "#33312DFF"
+					},
+					{
+						"Name": "Iron Rod",
+						"Priority": 2,
+						"Material": "Default",
+						"PrimaryColor": "#595B63FF",
+						"SecondaryColor": "#1C1E22FF"
+					},
+					{
+						"Name": "Iron Plate",
+						"Priority": 3,
+						"Material": "Default",
+						"PrimaryColor": "#8E9096FF",
+						"SecondaryColor": "#2A2827FF"
+					},
+					{
+						"Name": "Screw",
+						"Priority": 4,
+						"Material": "Default",
+						"PrimaryColor": "#3361B3FF",
+						"SecondaryColor": "#041484FF"
+					},
+					{
+						"Name": "Reinforced Iron Plate",
+						"Priority": 5,
+						"Material": "Default",
+						"PrimaryColor": "#8A92A9FF",
+						"SecondaryColor": "#464A5AFF"
+					},
+					{
+						"Name": "Modular Frame",
+						"Priority": 6,
+						"Material": "Default",
+						"PrimaryColor": "#838BAAFF",
+						"SecondaryColor": "#5D5D5DFF"
+					},
+					{
+						"Name": "Rotor",
+						"Priority": 7,
+						"Material": "Default",
+						"PrimaryColor": "#25252CFF",
+						"SecondaryColor": "#243C6CFF"
+					}
+				]
+			},
+			{
+				"Name": "Copper",
+				"Priority": 2,
+				"Swatches": [
+					{
+						"Name": "Copper Ore",
+						"Priority": 0,
+						"Material": "Default",
+						"PrimaryColor": "#9D5A47FF",
+						"SecondaryColor": "#405A61FF"
+					},
+					{
+						"Name": "Copper Ingot",
+						"Priority": 1,
+						"Material": "Default",
+						"PrimaryColor": "#835D54FF",
+						"SecondaryColor": "#301A12FF"
+					},
+					{
+						"Name": "Wire",
+						"Priority": 2,
+						"Material": "Default",
+						"PrimaryColor": "#AB6C47FF",
+						"SecondaryColor": "#846B4FFF"
+					},
+					{
+						"Name": "Cable",
+						"Priority": 3,
+						"Material": "Default",
+						"PrimaryColor": "#282A32FF",
+						"SecondaryColor": "#6B6862FF"
+					},
+					{
+						"Name": "Copper Sheet",
+						"Priority": 4,
+						"Material": "Default",
+						"PrimaryColor": "#68493CFF",
+						"SecondaryColor": "#16151AFF"
+					},
+					{
+						"Name": "Copper Powder",
+						"Priority": 5,
+						"Material": "Default",
+						"PrimaryColor": "#7D5962FF",
+						"SecondaryColor": "#3D2A31FF"
+					}
+				]
+			},
+			{
+				"Name": "Limestone",
+				"Priority": 3,
+				"Swatches": [
+					{
+						"Name": "Limestone",
+						"Priority": 0,
+						"Material": "Default",
+						"PrimaryColor": "#D7BF99FF",
+						"SecondaryColor": "#89765FFF"
+					},
+					{
+						"Name": "Concrete",
+						"Priority": 1,
+						"Material": "Default",
+						"PrimaryColor": "#83755FFF",
+						"SecondaryColor": "#C7C3C8FF"
+					}
+				]
+			},
+			{
+				"Name": "Steel",
+				"Priority": 4,
+				"Swatches": [
+					{
+						"Name": "Coal",
+						"Priority": 0,
+						"Material": "Default",
+						"PrimaryColor": "#050807FF",
+						"SecondaryColor": "#0B0F15FF"
+					},
+					{
+						"Name": "Steel Ingot",
+						"Priority": 1,
+						"Material": "Default",
+						"PrimaryColor": "#23272CFF",
+						"SecondaryColor": "#0F1011FF"
+					},
+					{
+						"Name": "Steel Beam",
+						"Priority": 2,
+						"Material": "Default",
+						"PrimaryColor": "#292426FF",
+						"SecondaryColor": "#40211CFF"
+					},
+					{
+						"Name": "Steel Pipe",
+						"Priority": 3,
+						"Material": "Default",
+						"PrimaryColor": "#312D2CFF",
+						"SecondaryColor": "#3E1C14FF"
+					},
+					{
+						"Name": "Encased Industrial Beam",
+						"Priority": 4,
+						"Material": "Default",
+						"PrimaryColor": "#CEC3A9FF",
+						"SecondaryColor": "#322934FF"
+					},
+					{
+						"Name": "Stator",
+						"Priority": 5,
+						"Material": "Default",
+						"PrimaryColor": "#413E40FF",
+						"SecondaryColor": "#B07460FF"
+					},
+					{
+						"Name": "Motor",
+						"Priority": 6,
+						"Material": "Default",
+						"PrimaryColor": "#47526FFF",
+						"SecondaryColor": "#BF971FFF"
+					},
+					{
+						"Name": "Heavy Modular Frame",
+						"Priority": 7,
+						"Material": "Default",
+						"PrimaryColor": "#818896FF",
+						"SecondaryColor": "#1B1B1BFF"
+					}
+				]
+			},
+			{
+				"Name": "Caterium",
+				"Priority": 5,
+				"Swatches": [
+					{
+						"Name": "Caterium Ore",
+						"Priority": 0,
+						"Material": "Default",
+						"PrimaryColor": "#E9D2A0FF",
+						"SecondaryColor": "#A27A40FF"
+					},
+					{
+						"Name": "Caterium Ingot",
+						"Priority": 1,
+						"Material": "Default",
+						"PrimaryColor": "#AE9C77FF",
+						"SecondaryColor": "#DDC89EFF"
+					},
+					{
+						"Name": "Quickwire",
+						"Priority": 2,
+						"Material": "Default",
+						"PrimaryColor": "#C1B48AFF",
+						"SecondaryColor": "#272934FF"
+					}
+				]
+			},
+			{
+				"Name": "Quartz",
+				"Priority": 6,
+				"Swatches": [
+					{
+						"Name": "Raw Quartz",
+						"Priority": 0,
+						"Material": "Default",
+						"PrimaryColor": "#DAADC3FF",
+						"SecondaryColor": "#634E51FF"
+					},
+					{
+						"Name": "Quartz Crystal",
+						"Priority": 1,
+						"Material": "Default",
+						"PrimaryColor": "#CB86C9FF",
+						"SecondaryColor": "#3150B4FF"
+					},
+					{
+						"Name": "Silica",
+						"Priority": 2,
+						"Material": "Default",
+						"PrimaryColor": "#D0D3DDFF",
+						"SecondaryColor": "#6D738DFF"
+					},
+					{
+						"Name": "Dissolved Silica",
+						"Priority": 3,
+						"Material": "Default",
+						"PrimaryColor": "#EACBE3FF",
+						"SecondaryColor": "#CF9CBCFF"
+					}
+				]
+			},
+			{
+				"Name": "Oil",
+				"Priority": 7,
+				"Swatches": [
+					{
+						"Name": "Crude Oil",
+						"Priority": 0,
+						"Material": "Default",
+						"PrimaryColor": "#211D1DFF",
+						"SecondaryColor": "#181517FF"
+					},
+					{
+						"Name": "Packaged Oil",
+						"Priority": 1,
+						"Material": "Default",
+						"PrimaryColor": "#1A181CFF",
+						"SecondaryColor": "#50505CFF"
+					},
+					{
+						"Name": "Plastic",
+						"Priority": 2,
+						"Material": "Default",
+						"PrimaryColor": "#3B9EE8FF",
+						"SecondaryColor": "#044BAAFF"
+					},
+					{
+						"Name": "Rubber",
+						"Priority": 3,
+						"Material": "Default",
+						"PrimaryColor": "#1E1D1DFF",
+						"SecondaryColor": "#CFB65EFF"
+					},
+					{
+						"Name": "Heavy Oil Residue",
+						"Priority": 4,
+						"Material": "Default",
+						"PrimaryColor": "#AE04BFFF",
+						"SecondaryColor": "#391E31FF"
+					},
+					{
+						"Name": "Packaged Heavy Oil Residue",
+						"Priority": 5,
+						"Material": "Default",
+						"PrimaryColor": "#6B0586FF",
+						"SecondaryColor": "#34044CFF"
+					},
+					{
+						"Name": "Polymer Resin",
+						"Priority": 6,
+						"Material": "Default",
+						"PrimaryColor": "#3339C4FF",
+						"SecondaryColor": "#120F32FF"
+					},
+					{
+						"Name": "Fuel",
+						"Priority": 7,
+						"Material": "Default",
+						"PrimaryColor": "#CD812BFF",
+						"SecondaryColor": "#0D0D0EFF"
+					},
+					{
+						"Name": "Packaged Fuel",
+						"Priority": 8,
+						"Material": "Default",
+						"PrimaryColor": "#F9A320FF",
+						"SecondaryColor": "#10100EFF"
+					},
+					{
+						"Name": "Turbofuel",
+						"Priority": 9,
+						"Material": "Default",
+						"PrimaryColor": "#B40408FF",
+						"SecondaryColor": "#3D1D1AFF"
+					},
+					{
+						"Name": "Packaged Turbofuel",
+						"Priority": 10,
+						"Material": "Default",
+						"PrimaryColor": "#F0272DFF",
+						"SecondaryColor": "#151112FF"
+					},
+					{
+						"Name": "Empty Canister",
+						"Priority": 11,
+						"Material": "Default",
+						"PrimaryColor": "#272628FF",
+						"SecondaryColor": "#121212FF"
+					},
+					{
+						"Name": "Petroleum Coke",
+						"Priority": 12,
+						"Material": "Default",
+						"PrimaryColor": "#2B2C34FF",
+						"SecondaryColor": "#060602FF"
+					},
+					{
+						"Name": "Fabric",
+						"Priority": 13,
+						"Material": "Default",
+						"PrimaryColor": "#C0B6AEFF",
+						"SecondaryColor": "#282328FF"
+					}
+				]
+			},
+			{
+				"Name": "Aluminium",
+				"Priority": 8,
+				"Swatches": [
+					{
+						"Name": "Bauxite",
+						"Priority": 0,
+						"Material": "Default",
+						"PrimaryColor": "#D29A80FF",
+						"SecondaryColor": "#9C5548FF"
+					},
+					{
+						"Name": "Alumina Solution",
+						"Priority": 1,
+						"Material": "Default",
+						"PrimaryColor": "#C7C3C8FF",
+						"SecondaryColor": "#62646BFF"
+					},
+					{
+						"Name": "Packaged Alumina Solution",
+						"Priority": 2,
+						"Material": "Default",
+						"PrimaryColor": "#B8B9C3FF",
+						"SecondaryColor": "#1C1D25FF"
+					},
+					{
+						"Name": "Aluminum Scrap",
+						"Priority": 3,
+						"Material": "Default",
+						"PrimaryColor": "#8A8A95FF",
+						"SecondaryColor": "#352922FF"
+					},
+					{
+						"Name": "Aluminum Ingot",
+						"Priority": 4,
+						"Material": "Default",
+						"PrimaryColor": "#B9BCC3FF",
+						"SecondaryColor": "#666A6CFF"
+					},
+					{
+						"Name": "Alclad Aluminum Sheet",
+						"Priority": 5,
+						"Material": "Default",
+						"PrimaryColor": "#A9ACAFFF",
+						"SecondaryColor": "#322E25FF"
+					},
+					{
+						"Name": "Aluminum Casing",
+						"Priority": 6,
+						"Material": "Default",
+						"PrimaryColor": "#AAA9AEFF",
+						"SecondaryColor": "#1F2228FF"
+					},
+					{
+						"Name": "Heat Sink",
+						"Priority": 7,
+						"Material": "Default",
+						"PrimaryColor": "#949796FF",
+						"SecondaryColor": "#A1663EFF"
+					},
+					{
+						"Name": "Empty Fluid Tank",
+						"Priority": 8,
+						"Material": "Default",
+						"PrimaryColor": "#97959EFF",
+						"SecondaryColor": "#363946FF"
+					}
+				]
+			},
+			{
+				"Name": "Nitrogen",
+				"Priority": 9,
+				"Swatches": [
+					{
+						"Name": "Nitrogen Gas",
+						"Priority": 0,
+						"Material": "Default",
+						"PrimaryColor": "#B0ACB4FF",
+						"SecondaryColor": "#0D0D0EFF"
+					},
+					{
+						"Name": "Packaged Nitrogen Gas",
+						"Priority": 1,
+						"Material": "Default",
+						"PrimaryColor": "#B7B9C6FF",
+						"SecondaryColor": "#23273BFF"
+					},
+					{
+						"Name": "Fused Modular Frame",
+						"Priority": 2,
+						"Material": "Default",
+						"PrimaryColor": "#A5A5A6FF",
+						"SecondaryColor": "#F4AA53FF"
+					},
+					{
+						"Name": "Cooling System",
+						"Priority": 3,
+						"Material": "Default",
+						"PrimaryColor": "#E0A470FF",
+						"SecondaryColor": "#414453FF"
+					},
+					{
+						"Name": "Nitric Acid",
+						"Priority": 4,
+						"Material": "Default",
+						"PrimaryColor": "#D8D8BCFF",
+						"SecondaryColor": "#0D0D0EFF"
+					},
+					{
+						"Name": "Packaged Nitric Acid",
+						"Priority": 5,
+						"Material": "Default",
+						"PrimaryColor": "#CFCFDBFF",
+						"SecondaryColor": "#454550FF"
+					},
+					{
+						"Name": "Rocket Fuel",
+						"Priority": 6,
+						"Material": "Default",
+						"PrimaryColor": "#FF150CFF",
+						"SecondaryColor": "#FCFF0EFF"
+					},
+					{
+						"Name": "Packaged Rocket Fuel",
+						"Priority": 7,
+						"Material": "Default",
+						"PrimaryColor": "#D10010FF",
+						"SecondaryColor": "#FFE700FF"
+					},
+					{
+						"Name": "Ionized Fuel",
+						"Priority": 8,
+						"Material": "Default",
+						"PrimaryColor": "#FFF2CBFF",
+						"SecondaryColor": "#FF6B36FF"
+					},
+					{
+						"Name": "Packaged Ionized Fuel",
+						"Priority": 9,
+						"Material": "Default",
+						"PrimaryColor": "#830004FF",
+						"SecondaryColor": "#E5CA00FF"
+					},
+					{
+						"Name": "Pressure Conversion Cube",
+						"Priority": 10,
+						"Material": "Default",
+						"PrimaryColor": "#D49058FF",
+						"SecondaryColor": "#1F2133FF"
+					}
+				]
+			},
+			{
+				"Name": "Sulfur",
+				"Priority": 10,
+				"Swatches": [
+					{
+						"Name": "Sulfur",
+						"Priority": 0,
+						"Material": "Default",
+						"PrimaryColor": "#B3A468FF",
+						"SecondaryColor": "#776D5FFF"
+					},
+					{
+						"Name": "Compacted Coal",
+						"Priority": 1,
+						"Material": "Default",
+						"PrimaryColor": "#171A24FF",
+						"SecondaryColor": "#0D0C09FF"
+					},
+					{
+						"Name": "Black Powder",
+						"Priority": 2,
+						"Material": "Default",
+						"PrimaryColor": "#DC4B2DFF",
+						"SecondaryColor": "#222025FF"
+					},
+					{
+						"Name": "Smokeless Powder",
+						"Priority": 3,
+						"Material": "Default",
+						"PrimaryColor": "#272223FF",
+						"SecondaryColor": "#85939DFF"
+					},
+					{
+						"Name": "Sulfuric Acid",
+						"Priority": 4,
+						"Material": "Default",
+						"PrimaryColor": "#D1C83AFF",
+						"SecondaryColor": "#0D0D0EFF"
+					},
+					{
+						"Name": "Packaged Sulfuric Acid",
+						"Priority": 5,
+						"Material": "Default",
+						"PrimaryColor": "#B2AE4FFF",
+						"SecondaryColor": "#42434FFF"
+					},
+					{
+						"Name": "Battery",
+						"Priority": 6,
+						"Material": "Default",
+						"PrimaryColor": "#2D3146FF",
+						"SecondaryColor": "#ADADBCFF"
+					}
+				]
+			},
+			{
+				"Name": "Uranium",
+				"Priority": 11,
+				"Swatches": [
+					{
+						"Name": "Uranium",
+						"Priority": 0,
+						"Material": "Default",
+						"PrimaryColor": "#567A49FF",
+						"SecondaryColor": "#122011FF"
+					},
+					{
+						"Name": "Encased Uranium Cell",
+						"Priority": 1,
+						"Material": "Default",
+						"PrimaryColor": "#D8D11BFF",
+						"SecondaryColor": "#8BEAC3FF"
+					},
+					{
+						"Name": "Electromagnetic Control Rod",
+						"Priority": 2,
+						"Material": "Default",
+						"PrimaryColor": "#E5E264FF",
+						"SecondaryColor": "#3A3E46FF"
+					},
+					{
+						"Name": "Uranium Fuel Rod",
+						"Priority": 3,
+						"Material": "Default",
+						"PrimaryColor": "#64C987FF",
+						"SecondaryColor": "#1E1E15FF"
+					},
+					{
+						"Name": "Uranium Waste",
+						"Priority": 4,
+						"Material": "Default",
+						"PrimaryColor": "#1CB83BFF",
+						"SecondaryColor": "#D9D423FF"
+					},
+					{
+						"Name": "Non-fissile Uranium",
+						"Priority": 5,
+						"Material": "Default",
+						"PrimaryColor": "#2E3B31FF",
+						"SecondaryColor": "#C0B61CFF"
+					},
+					{
+						"Name": "Plutonium Pellet",
+						"Priority": 6,
+						"Material": "Default",
+						"PrimaryColor": "#72BACDFF",
+						"SecondaryColor": "#758B8FFF"
+					},
+					{
+						"Name": "Encased Plutonium Cell",
+						"Priority": 7,
+						"Material": "Default",
+						"PrimaryColor": "#2B3230FF",
+						"SecondaryColor": "#A8E5E9FF"
+					},
+					{
+						"Name": "Plutonium Fuel Rod",
+						"Priority": 8,
+						"Material": "Default",
+						"PrimaryColor": "#CEBE40FF",
+						"SecondaryColor": "#A8E5E9FF"
+					},
+					{
+						"Name": "Plutonium Waste",
+						"Priority": 9,
+						"Material": "Default",
+						"PrimaryColor": "#71CAE3FF",
+						"SecondaryColor": "#B6AC23FF"
+					}
+				]
+			},
+			{
+				"Name": "SAM",
+				"Priority": 12,
+				"Swatches": [
+					{
+						"Name": "SAM",
+						"Priority": 0,
+						"Material": "Default",
+						"PrimaryColor": "#783DBEFF",
+						"SecondaryColor": "#2E0B70FF"
+					},
+					{
+						"Name": "Reanimated SAM",
+						"Priority": 1,
+						"Material": "Default",
+						"PrimaryColor": "#AC4CC6FF",
+						"SecondaryColor": "#DF803AFF"
+					},
+					{
+						"Name": "SAM Fluctuator",
+						"Priority": 2,
+						"Material": "Default",
+						"PrimaryColor": "#7267D6FF",
+						"SecondaryColor": "#FFC36DFF"
+					},
+					{
+						"Name": "Ficsite Ingot",
+						"Priority": 3,
+						"Material": "Default",
+						"PrimaryColor": "#E77B05FF",
+						"SecondaryColor": "#571E00FF"
+					},
+					{
+						"Name": "Ficsite Trigon",
+						"Priority": 4,
+						"Material": "Default",
+						"PrimaryColor": "#FFBC29FF",
+						"SecondaryColor": "#A01800FF"
+					}
+				]
+			},
+			{
+				"Name": "Electronics",
+				"Priority": 13,
+				"Swatches": [
+					{
+						"Name": "AI Limiter",
+						"Priority": 0,
+						"Material": "Default",
+						"PrimaryColor": "#1C1C1EFF",
+						"SecondaryColor": "#648D8CFF"
+					},
+					{
+						"Name": "Circuit Board",
+						"Priority": 1,
+						"Material": "Default",
+						"PrimaryColor": "#2B5533FF",
+						"SecondaryColor": "#FFB85FFF"
+					},
+					{
+						"Name": "High-Speed Connector",
+						"Priority": 2,
+						"Material": "Default",
+						"PrimaryColor": "#293D32FF",
+						"SecondaryColor": "#415355FF"
+					},
+					{
+						"Name": "Computer",
+						"Priority": 3,
+						"Material": "Default",
+						"PrimaryColor": "#B5885AFF",
+						"SecondaryColor": "#232927FF"
+					},
+					{
+						"Name": "Supercomputer",
+						"Priority": 4,
+						"Material": "Default",
+						"PrimaryColor": "#232123FF",
+						"SecondaryColor": "#D5B582FF"
+					},
+					{
+						"Name": "Radio Control Unit",
+						"Priority": 5,
+						"Material": "Default",
+						"PrimaryColor": "#262524FF",
+						"SecondaryColor": "#DEBB36FF"
+					},
+					{
+						"Name": "Turbo Motor",
+						"Priority": 6,
+						"Material": "Default",
+						"PrimaryColor": "#C8A32FFF",
+						"SecondaryColor": "#0C0C0CFF"
+					},
+					{
+						"Name": "Crystal Oscillator",
+						"Priority": 7,
+						"Material": "Default",
+						"PrimaryColor": "#87848BFF",
+						"SecondaryColor": "#161818FF"
+					},
+					{
+						"Name": "Superposition Oscillator",
+						"Priority": 8,
+						"Material": "Default",
+						"PrimaryColor": "#8999A2FF",
+						"SecondaryColor": "#272827FF"
+					}
+				]
+			},
+			{
+				"Name": "Quantum Technology",
+				"Priority": 14,
+				"Swatches": [
+					{
+						"Name": "Diamonds",
+						"Priority": 0,
+						"Material": "Default",
+						"PrimaryColor": "#9E757FFF",
+						"SecondaryColor": "#F2BC7DFF"
+					},
+					{
+						"Name": "Time Crystal",
+						"Priority": 1,
+						"Material": "Default",
+						"PrimaryColor": "#E1D6DDFF",
+						"SecondaryColor": "#FFCC7EFF"
+					},
+					{
+						"Name": "Dark Matter Crystal",
+						"Priority": 2,
+						"Material": "Default",
+						"PrimaryColor": "#5A00B9FF",
+						"SecondaryColor": "#FFE6FEFF"
+					},
+					{
+						"Name": "Dark Matter Residue",
+						"Priority": 3,
+						"Material": "Default",
+						"PrimaryColor": "#ECA8E3FF",
+						"SecondaryColor": "#FFF3FBFF"
+					},
+					{
+						"Name": "Excited Photonic Matter",
+						"Priority": 4,
+						"Material": "Default",
+						"PrimaryColor": "#BFD6EFFF",
+						"SecondaryColor": "#387165FF"
+					},
+					{
+						"Name": "Singularity Cell",
+						"Priority": 5,
+						"Material": "Default",
+						"PrimaryColor": "#B3B2C3FF",
+						"SecondaryColor": "#274883FF"
+					},
+					{
+						"Name": "Neural-Quantum Processor",
+						"Priority": 6,
+						"Material": "Default",
+						"PrimaryColor": "#433675FF",
+						"SecondaryColor": "#EA8B20FF"
+					},
+					{
+						"Name": "Alien Power Matrix",
+						"Priority": 7,
+						"Material": "Default",
+						"PrimaryColor": "#D99883FF",
+						"SecondaryColor": "#CFCBD0FF"
+					},
+					{
+						"Name": "Ficsonium",
+						"Priority": 8,
+						"Material": "Default",
+						"PrimaryColor": "#FFF540FF",
+						"SecondaryColor": "#D1C81CFF"
+					},
+					{
+						"Name": "Ficsonium Fuel Rod",
+						"Priority": 9,
+						"Material": "Default",
+						"PrimaryColor": "#E1D51AFF",
+						"SecondaryColor": "#858187FF"
+					}
+				]
+			},
+			{
+				"Name": "Space Elevator",
+				"Priority": 15,
+				"Swatches": [
+					{
+						"Name": "Smart Plating",
+						"Priority": 0,
+						"Material": "Default",
+						"PrimaryColor": "#585A71FF",
+						"SecondaryColor": "#B86A53FF"
+					},
+					{
+						"Name": "Versatile Framework",
+						"Priority": 1,
+						"Material": "Default",
+						"PrimaryColor": "#1F1E1FFF",
+						"SecondaryColor": "#9C3E2EFF"
+					},
+					{
+						"Name": "Automated Wiring",
+						"Priority": 2,
+						"Material": "Default",
+						"PrimaryColor": "#26292EFF",
+						"SecondaryColor": "#A34033FF"
+					},
+					{
+						"Name": "Modular Engine",
+						"Priority": 3,
+						"Material": "Default",
+						"PrimaryColor": "#252427FF",
+						"SecondaryColor": "#B83E27FF"
+					},
+					{
+						"Name": "Adaptive Control Unit",
+						"Priority": 4,
+						"Material": "Default",
+						"PrimaryColor": "#D79450FF",
+						"SecondaryColor": "#312F31FF"
+					},
+					{
+						"Name": "Assembly Director System",
+						"Priority": 5,
+						"Material": "Default",
+						"PrimaryColor": "#B0523EFF",
+						"SecondaryColor": "#2F2F34FF"
+					},
+					{
+						"Name": "Magnetic Field Generator",
+						"Priority": 6,
+						"Material": "Default",
+						"PrimaryColor": "#9AD7B1FF",
+						"SecondaryColor": "#303032FF"
+					},
+					{
+						"Name": "Thermal Propulsion Rocket",
+						"Priority": 7,
+						"Material": "Default",
+						"PrimaryColor": "#A34033FF",
+						"SecondaryColor": "#303032FF"
+					},
+					{
+						"Name": "Nuclear Pasta",
+						"Priority": 8,
+						"Material": "Default",
+						"PrimaryColor": "#70E4ECFF",
+						"SecondaryColor": "#C5B092FF"
+					},
+					{
+						"Name": "Biochemical Sculptor",
+						"Priority": 9,
+						"Material": "Default",
+						"PrimaryColor": "#9C3E52FF",
+						"SecondaryColor": "#766D80FF"
+					},
+					{
+						"Name": "Ballistic Warp Drive",
+						"Priority": 10,
+						"Material": "Default",
+						"PrimaryColor": "#C73F1AFF",
+						"SecondaryColor": "#2E333CFF"
+					},
+					{
+						"Name": "AI Expansion Server",
+						"Priority": 11,
+						"Material": "Default",
+						"PrimaryColor": "#912A17FF",
+						"SecondaryColor": "#DFD4D7FF"
+					}
+				]
+			},
+			{
+				"Name": "Ammos and Explosives",
+				"Priority": 16,
+				"Swatches": [
+					{
+						"Name": "Iron Rebar",
+						"Priority": 0,
+						"Material": "Default",
+						"PrimaryColor": "#D27E13FF",
+						"SecondaryColor": "#222025FF"
+					},
+					{
+						"Name": "Stun Rebar",
+						"Priority": 1,
+						"Material": "Default",
+						"PrimaryColor": "#017BB2FF",
+						"SecondaryColor": "#222025FF"
+					},
+					{
+						"Name": "Shatter Rebar",
+						"Priority": 2,
+						"Material": "Default",
+						"PrimaryColor": "#772E6EFF",
+						"SecondaryColor": "#222025FF"
+					},
+					{
+						"Name": "Explosive Rebar",
+						"Priority": 3,
+						"Material": "Default",
+						"PrimaryColor": "#A50810FF",
+						"SecondaryColor": "#222025FF"
+					},
+					{
+						"Name": "Rifle Ammo",
+						"Priority": 4,
+						"Material": "Default",
+						"PrimaryColor": "#C1682CFF",
+						"SecondaryColor": "#6D371CFF"
+					},
+					{
+						"Name": "Homing Rifle Ammo",
+						"Priority": 5,
+						"Material": "Default",
+						"PrimaryColor": "#282727FF",
+						"SecondaryColor": "#383C28FF"
+					},
+					{
+						"Name": "Turbo Rifle Ammo",
+						"Priority": 6,
+						"Material": "Default",
+						"PrimaryColor": "#C6383FFF",
+						"SecondaryColor": "#1B1415FF"
+					},
+					{
+						"Name": "Nobelisk",
+						"Priority": 7,
+						"Material": "Default",
+						"PrimaryColor": "#882E2BFF",
+						"SecondaryColor": "#E3D84BFF"
+					},
+					{
+						"Name": "Gas Nobelisk",
+						"Priority": 8,
+						"Material": "Default",
+						"PrimaryColor": "#4B583BFF",
+						"SecondaryColor": "#1C2D0CFF"
+					},
+					{
+						"Name": "Pulse Nobelisk",
+						"Priority": 9,
+						"Material": "Default",
+						"PrimaryColor": "#4E5659FF",
+						"SecondaryColor": "#323231FF"
+					},
+					{
+						"Name": "Cluster Nobelisk",
+						"Priority": 10,
+						"Material": "Default",
+						"PrimaryColor": "#5A3B3DFF",
+						"SecondaryColor": "#211819FF"
+					},
+					{
+						"Name": "Nuke Nobelisk",
+						"Priority": 11,
+						"Material": "Default",
+						"PrimaryColor": "#598566FF",
+						"SecondaryColor": "#404842FF"
+					}
+				]
+			},
+			{
+				"Name": "Equipements",
+				"Priority": 17,
+				"Swatches": [
+					{
+						"Name": "Portable Miner",
+						"Priority": 0,
+						"Material": "Default",
+						"PrimaryColor": "#D48439FF",
+						"SecondaryColor": "#81776DFF"
+					},
+					{
+						"Name": "Gas Filter",
+						"Priority": 1,
+						"Material": "Default",
+						"PrimaryColor": "#251F1FFF",
+						"SecondaryColor": "#4A403FFF"
+					},
+					{
+						"Name": "Iodine-Infused Filter",
+						"Priority": 2,
+						"Material": "Default",
+						"PrimaryColor": "#C69F3BFF",
+						"SecondaryColor": "#1D1C19FF"
+					}
+				]
+			},
+			{
+				"Name": "Fauna and Flora",
+				"Priority": 18,
+				"Swatches": [
+					{
+						"Name": "Water",
+						"Priority": 0,
+						"Material": "Default",
+						"PrimaryColor": "#1F7CA1FF",
+						"SecondaryColor": "#0D0D0EFF"
+					},
+					{
+						"Name": "Packaged Water",
+						"Priority": 1,
+						"Material": "Default",
+						"PrimaryColor": "#66A5C6FF",
+						"SecondaryColor": "#0251B8FF"
+					},
+					{
+						"Name": "Wood",
+						"Priority": 2,
+						"Material": "Default",
+						"PrimaryColor": "#735E43FF",
+						"SecondaryColor": "#2A1E14FF"
+					},
+					{
+						"Name": "Leaves",
+						"Priority": 3,
+						"Material": "Default",
+						"PrimaryColor": "#4D6F43FF",
+						"SecondaryColor": "#142C12FF"
+					},
+					{
+						"Name": "Mycelia",
+						"Priority": 4,
+						"Material": "Default",
+						"PrimaryColor": "#676569FF",
+						"SecondaryColor": "#292D36FF"
+					},
+					{
+						"Name": "Biomass",
+						"Priority": 5,
+						"Material": "Default",
+						"PrimaryColor": "#655F35FF",
+						"SecondaryColor": "#3E3118FF"
+					},
+					{
+						"Name": "Solid Biofuel",
+						"Priority": 6,
+						"Material": "Default",
+						"PrimaryColor": "#847161FF",
+						"SecondaryColor": "#3C2F25FF"
+					},
+					{
+						"Name": "Liquid Biofuel",
+						"Priority": 7,
+						"Material": "Default",
+						"PrimaryColor": "#263E1AFF",
+						"SecondaryColor": "#0D0D0EFF"
+					},
+					{
+						"Name": "Packaged Liquid Biofuel",
+						"Priority": 8,
+						"Material": "Default",
+						"PrimaryColor": "#195200FF",
+						"SecondaryColor": "#10100EFF"
+					},
+					{
+						"Name": "Blue Power Slug",
+						"Priority": 9,
+						"Material": "Default",
+						"PrimaryColor": "#7BBFDDFF",
+						"SecondaryColor": "#6B74ADFF"
+					},
+					{
+						"Name": "Yellow Power Slug",
+						"Priority": 10,
+						"Material": "Default",
+						"PrimaryColor": "#DEB678FF",
+						"SecondaryColor": "#E79763FF"
+					},
+					{
+						"Name": "Purple Power Slug",
+						"Priority": 11,
+						"Material": "Default",
+						"PrimaryColor": "#C883D7FF",
+						"SecondaryColor": "#A150C2FF"
+					},
+					{
+						"Name": "Power Shard",
+						"Priority": 12,
+						"Material": "Default",
+						"PrimaryColor": "#C6712FFF",
+						"SecondaryColor": "#86C0E9FF"
+					},
+					{
+						"Name": "Alien Protein",
+						"Priority": 13,
+						"Material": "Default",
+						"PrimaryColor": "#563A5EFF",
+						"SecondaryColor": "#CECDD1FF"
+					},
+					{
+						"Name": "Alien DNA Capsule",
+						"Priority": 14,
+						"Material": "Default",
+						"PrimaryColor": "#96949DFF",
+						"SecondaryColor": "#49343CFF"
+					}
+				]
+			}
+		],
+		"Name": "USS Default - English"
+	}
+]
