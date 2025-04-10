@@ -1,4 +1,4 @@
-C:\Users\ChouKpop1337\AppData\Roaming\kingdom_rush
-C:\Users\ChouKpop1337\AppData\Local\Kingdom Rush Vengeance
-C:\Users\ChouKpop1337\AppData\Roaming\kingdom_rush_frontiers
-C:\Users\ChouKpop1337\AppData\Roaming\kingdom_rush_origins
+C:\Users\ChouKpop\AppData\Roaming\kingdom_rush
+C:\Users\ChouKpop\AppData\Local\Kingdom Rush Vengeance
+C:\Users\ChouKpop\AppData\Roaming\kingdom_rush_frontiers
+C:\Users\ChouKpop\AppData\Roaming\kingdom_rush_origins
