@@ -1,4 +1,7 @@
-C:\Users\ChouKpop\AppData\Roaming\runic games
+C:\Users\ChouKpop\AppData\Roaming\runic games\torchlight
+C:\Users\ChouKpop\Documents\My Games\Runic Games\Torchlight 2
+
+
 
 
 
@@ -7,6 +10,9 @@ https://www.torchlightfansite.com/mod_downloads/42-torchlight-1-mods/
 https://torchlight.fandom.com/wiki/Console_(T1)
 https://torchlight.fandom.com/wiki/Keybinding_(T1)
 https://strategywiki.org/wiki/Torchlight/Item_index
+
+https://torchlight.fandom.com/wiki/Console_(T2)
+
 
 
 

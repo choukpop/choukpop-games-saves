@@ -1,0 +1,493 @@
+06:05:44: Creating resource group General
+06:05:44: Creating resource group Internal
+06:05:44: Creating resource group Autodetect
+06:05:44: SceneManagerFactory for type 'DefaultSceneManager' registered.
+06:05:44: Registering ResourceManager for type Material
+06:05:44: Registering ResourceManager for type Mesh
+06:05:44: Registering ResourceManager for type Skeleton
+06:05:44: MovableObjectFactory for type 'ParticleSystem' registered.
+06:05:44: OverlayElementFactory for type Panel registered.
+06:05:44: OverlayElementFactory for type BorderPanel registered.
+06:05:44: OverlayElementFactory for type TextArea registered.
+06:05:44: Registering ResourceManager for type Font
+06:05:44: ArchiveFactory for archive type FileSystem registered.
+06:05:44: ArchiveFactory for archive type Zip registered.
+06:05:44: DDS codec registering
+06:05:44: FreeImage version: 3.13.1
+06:05:44: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+06:05:44: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,bay,bmq,cr2,crw,cs1,dc2,dcr,dng,erf,fff,hdr,k25,kdc,mdc,mos,mrw,nef,orf,pef,pxn,raf,raw,rdc,sr2,srf,arw,3fr,cine,ia,kc2,mef,nrw,qtk,rw2,sti,drf,dsc,ptx,cap,iiq,rwz
+06:05:44: Registering ResourceManager for type HighLevelGpuProgram
+06:05:44: Registering ResourceManager for type Compositor
+06:05:44: MovableObjectFactory for type 'Entity' registered.
+06:05:44: MovableObjectFactory for type 'Light' registered.
+06:05:44: MovableObjectFactory for type 'BillboardSet' registered.
+06:05:44: MovableObjectFactory for type 'ManualObject' registered.
+06:05:44: MovableObjectFactory for type 'BillboardChain' registered.
+06:05:44: MovableObjectFactory for type 'RibbonTrail' registered.
+06:05:44: Loading library .\RenderSystem_Direct3D9
+06:05:44: Installing plugin: D3D9 RenderSystem
+06:05:44: D3D9 : Direct3D9 Rendering Subsystem created.
+06:05:44: D3D9: Driver Detection Starts
+06:05:44: D3D9: Driver Detection Ends
+06:05:44: Plugin successfully installed
+06:05:44: Loading library .\Plugin_CgProgramManager
+06:05:44: Installing plugin: Cg Program Manager
+06:05:44: Plugin successfully installed
+06:05:44: Loading library .\Plugin_OctreeSceneManager
+06:05:44: Installing plugin: Octree & Terrain Scene Manager
+06:05:44: Plugin successfully installed
+06:05:44: *-*-* OGRE Initialising
+06:05:44: *-*-* Version 1.7.0 (Cthugha)
+06:05:44: Path for saving is ... C:\Users\ChouKpop\Documents\My Games\Runic Games\Torchlight 2\SAVE
+06:05:45: ArchiveFactory for archive type PAK registered.
+06:05:45: Creating resource group PAK
+06:05:45: Added resource location 'MEDIA/PARTICLES/TEXTURES/' of type 'PAK' to resource group 'PAK' with recursive option
+06:05:45: Added resource location 'MEDIA/UI/' of type 'PAK' to resource group 'General' with recursive option
+06:05:45: Added resource location 'MEDIA/TRANSLATIONS/' of type 'PAK' to resource group 'General' with recursive option
+06:05:45: Added resource location 'MEDIA/SHAREDTEXTURES/' of type 'PAK' to resource group 'General' with recursive option
+06:05:45: Added resource location './' of type 'FileSystem' to resource group 'General'
+06:05:45: Creating resource group MUSIC
+06:05:45: Added resource location 'music/' of type 'FileSystem' to resource group 'MUSIC'
+06:05:45: Creating resource group MODMUSIC
+06:05:45: Added resource location 'C:/Users/ChouKpop/Documents/My Games/Runic Games/Torchlight 2/MEDIA/MUSIC/' of type 'FileSystem' to resource group 'MODMUSIC'
+06:05:45: Added resource location 'DataEditor/' of type 'PAK' to resource group 'General' with recursive option
+06:05:45: Parsing scripts for resource group Autodetect
+06:05:45: Finished parsing scripts for resource group Autodetect
+06:05:45: Parsing scripts for resource group General
+06:05:45: Finished parsing scripts for resource group General
+06:05:45: Parsing scripts for resource group Internal
+06:05:45: Finished parsing scripts for resource group Internal
+06:05:45: Parsing scripts for resource group MODMUSIC
+06:05:45: Finished parsing scripts for resource group MODMUSIC
+06:05:45: Parsing scripts for resource group MUSIC
+06:05:45: Finished parsing scripts for resource group MUSIC
+06:05:45: Parsing scripts for resource group PAK
+06:05:45: Finished parsing scripts for resource group PAK
+06:05:45: Creating resource group Shaders
+06:05:45: Added resource location 'programs/' of type 'FileSystem' to resource group 'Shaders' with recursive option
+06:05:45: Compressing memory size is: 246
+06:05:45: Compressing memory size is: 4559
+06:05:45: MovableObjectFactory for type 'PUParticleSystem' registered.
+06:05:45: MovableObjectFactory for type 'BoxSet' registered.
+06:05:45: MovableObjectFactory for type 'SphereSet' registered.
+06:05:45: Compressing memory size is: 17309
+06:05:45: Compressing memory size is: 177722
+06:05:45: GUID of room piece  is not unique in alias set: INFECTED_ESTHSHRINE. Room piece guid is: -3691357540205283053
+06:05:45: GUID of room piece  is not unique in alias set: INFECTED_ESTHSHRINE. Room piece guid is: -8499989545814233359
+06:05:45: GUID of room piece  is not unique in alias set: TUNDRA_SNOW. Room piece guid is: 6465848823990489780
+06:05:50: FMOD detects no hardware acceleration!
+06:05:50: SoundManager Initialized
+06:05:50: CPU Identifier & Features
+06:05:50: -------------------------
+06:05:50:  *   CPU ID: AuthenticAMD: AMD Ryzen 7 5800X 8-Core Processor
+06:05:50:  *      SSE: yes
+06:05:50:  *     SSE2: yes
+06:05:50:  *     SSE3: yes
+06:05:50:  *      MMX: yes
+06:05:50:  *   MMXEXT: yes
+06:05:50:  *    3DNOW: no
+06:05:50:  * 3DNOWEXT: no
+06:05:50:  *     CMOV: yes
+06:05:50:  *      TSC: yes
+06:05:50:  *      FPU: yes
+06:05:50:  *      PRO: yes
+06:05:50:  *       HT: no
+06:05:50: -------------------------
+06:05:50: D3D9 : Subsystem Initialising
+06:05:50: Registering ResourceManager for type Texture
+06:05:50: Registering ResourceManager for type GpuProgram
+06:05:50: ***************************************
+06:05:50: *** D3D9 : Subsystem Initialised OK ***
+06:05:50: ***************************************
+06:05:50: D3D9RenderSystem::_createRenderWindow "Game", 800x600 windowed  miscParams: externalWindowHandle=5439622 
+06:05:50: D3D9 : Created D3D9 Rendering Window 'Game' : 800x598, 32bpp
+06:05:50: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+06:05:50: D3D9: Vertex texture format supported - PF_L8
+06:05:50: D3D9: Vertex texture format supported - PF_L16
+06:05:50: D3D9: Vertex texture format supported - PF_A8
+06:05:50: D3D9: Vertex texture format supported - PF_A4L4
+06:05:50: D3D9: Vertex texture format supported - PF_BYTE_LA
+06:05:50: D3D9: Vertex texture format supported - PF_R5G6B5
+06:05:50: D3D9: Vertex texture format supported - PF_B5G6R5
+06:05:50: D3D9: Vertex texture format supported - PF_A4R4G4B4
+06:05:50: D3D9: Vertex texture format supported - PF_A1R5G5B5
+06:05:50: D3D9: Vertex texture format supported - PF_A8R8G8B8
+06:05:50: D3D9: Vertex texture format supported - PF_B8G8R8A8
+06:05:50: D3D9: Vertex texture format supported - PF_A2R10G10B10
+06:05:50: D3D9: Vertex texture format supported - PF_A2B10G10R10
+06:05:50: D3D9: Vertex texture format supported - PF_DXT1
+06:05:50: D3D9: Vertex texture format supported - PF_DXT2
+06:05:50: D3D9: Vertex texture format supported - PF_DXT3
+06:05:50: D3D9: Vertex texture format supported - PF_DXT4
+06:05:50: D3D9: Vertex texture format supported - PF_DXT5
+06:05:50: D3D9: Vertex texture format supported - PF_FLOAT16_RGB
+06:05:50: D3D9: Vertex texture format supported - PF_FLOAT16_RGBA
+06:05:50: D3D9: Vertex texture format supported - PF_FLOAT32_RGB
+06:05:50: D3D9: Vertex texture format supported - PF_FLOAT32_RGBA
+06:05:50: D3D9: Vertex texture format supported - PF_X8R8G8B8
+06:05:50: D3D9: Vertex texture format supported - PF_X8B8G8R8
+06:05:50: D3D9: Vertex texture format supported - PF_R8G8B8A8
+06:05:50: D3D9: Vertex texture format supported - PF_DEPTH
+06:05:50: D3D9: Vertex texture format supported - PF_SHORT_RGBA
+06:05:50: D3D9: Vertex texture format supported - PF_FLOAT16_R
+06:05:50: D3D9: Vertex texture format supported - PF_FLOAT32_R
+06:05:50: D3D9: Vertex texture format supported - PF_SHORT_GR
+06:05:50: D3D9: Vertex texture format supported - PF_FLOAT16_GR
+06:05:50: D3D9: Vertex texture format supported - PF_FLOAT32_GR
+06:05:50: D3D9: Vertex texture format supported - PF_SHORT_RGB
+06:05:50: D3D9: Vertex texture format supported - PF_PVRTC_RGB2
+06:05:50: D3D9: Vertex texture format supported - PF_PVRTC_RGBA2
+06:05:50: D3D9: Vertex texture format supported - PF_PVRTC_RGB4
+06:05:50: D3D9: Vertex texture format supported - PF_PVRTC_RGBA4
+06:05:50: RenderSystem capabilities
+06:05:50: -------------------------
+06:05:50: RenderSystem Name: Direct3D9 Rendering Subsystem
+06:05:50: GPU Vendor: ati
+06:05:50: Device Name: Monitor-1-AMD  Radeon RX 7800 XT
+06:05:50: Driver Version: 32.0.13031.3015
+06:05:50:  * Fixed function pipeline: yes
+06:05:50:  * Hardware generation of mipmaps: yes
+06:05:50:  * Texture blending: yes
+06:05:50:  * Anisotropic texture filtering: yes
+06:05:50:  * Dot product texture operation: yes
+06:05:50:  * Cube mapping: yes
+06:05:50:  * Hardware stencil buffer: yes
+06:05:50:    - Stencil depth: 8
+06:05:50:    - Two sided stencil support: yes
+06:05:50:    - Wrap stencil values: yes
+06:05:50:  * Hardware vertex / index buffers: yes
+06:05:50:  * Vertex programs: yes
+06:05:50:  * Number of floating-point constants for vertex programs: 256
+06:05:50:  * Number of integer constants for vertex programs: 16
+06:05:50:  * Number of boolean constants for vertex programs: 16
+06:05:50:  * Fragment programs: yes
+06:05:50:  * Number of floating-point constants for fragment programs: 224
+06:05:50:  * Number of integer constants for fragment programs: 16
+06:05:50:  * Number of boolean constants for fragment programs: 16
+06:05:50:  * Geometry programs: no
+06:05:50:  * Number of floating-point constants for geometry programs: 105
+06:05:50:  * Number of integer constants for geometry programs: 101
+06:05:50:  * Number of boolean constants for geometry programs: 108
+06:05:50:  * Supported Shader Profiles: hlsl ps_1_1 ps_1_2 ps_1_3 ps_1_4 ps_2_0 ps_2_a ps_2_b ps_2_x ps_3_0 vs_1_1 vs_2_0 vs_2_a vs_2_x vs_3_0
+06:05:50:  * Texture Compression: yes
+06:05:50:    - DXT: yes
+06:05:50:    - VTC: no
+06:05:50:    - PVRTC: no
+06:05:50:  * Scissor Rectangle: yes
+06:05:50:  * Hardware Occlusion Query: yes
+06:05:50:  * User clip planes: yes
+06:05:50:  * VET_UBYTE4 vertex element type: yes
+06:05:50:  * Infinite far plane projection: yes
+06:05:50:  * Hardware render-to-texture: yes
+06:05:50:  * Floating point textures: yes
+06:05:50:  * Non-power-of-two textures: yes
+06:05:50:  * Volume textures: yes
+06:05:50:  * Multiple Render Targets: 4
+06:05:50:    - With different bit depths: yes
+06:05:50:  * Point Sprites: yes
+06:05:50:  * Extended point parameters: yes
+06:05:50:  * Max Point Size: 10
+06:05:50:  * Vertex texture fetch: yes
+06:05:50:  * Number of world matrices: 0
+06:05:50:  * Number of texture units: 8
+06:05:50:  * Stencil buffer depth: 8
+06:05:50:  * Number of vertex blend matrices: 0
+06:05:50:    - Max vertex textures: 4
+06:05:50:    - Vertex textures shared: no
+06:05:50:  * Render to Vertex Buffer : no
+06:05:50:  * DirectX per stage constants: yes
+06:05:50: DefaultWorkQueue('Root') initialising on thread main.
+06:05:50: Particle Renderer Type 'billboard' registered
+06:05:50: SceneManagerFactory for type 'OctreeSceneManager' registered.
+06:05:50: SceneManagerFactory for type 'TerrainSceneManager' registered.
+06:05:50: CreateViewports AspectRatio message - 800 x 598
+06:05:50: CreateViewports AspectRatio message AR - 1.33779
+06:05:50: Initialising resource group Shaders
+06:05:50: Parsing scripts for resource group Shaders
+06:05:50: Parsing script shaders.program
+06:05:50: Parsing script StdQuad_vp.program
+06:05:50: Parsing script Bloom.material
+06:05:50: Parsing script Bloom2.material
+06:05:50: Parsing script hdr.material
+06:05:50: Finished parsing scripts for resource group Shaders
+06:05:50: Creating resource group MEDIA/UI/HUD/SCHEMES/
+06:05:50: Added resource location 'MEDIA/UI/HUD/SCHEMES/' of type 'PAK' to resource group 'MEDIA/UI/HUD/SCHEMES/'
+06:05:50: Initialising resource group MEDIA/UI/HUD/SCHEMES/
+06:05:50: Parsing scripts for resource group MEDIA/UI/HUD/SCHEMES/
+06:05:50: Finished parsing scripts for resource group MEDIA/UI/HUD/SCHEMES/
+06:05:50: Compressing memory size is: 197938
+06:05:50: Creating resource group DATAEDITOR/
+06:05:50: Added resource location 'DATAEDITOR/' of type 'PAK' to resource group 'DATAEDITOR/'
+06:05:50: Initialising resource group DATAEDITOR/
+06:05:50: Parsing scripts for resource group DATAEDITOR/
+06:05:50: Finished parsing scripts for resource group DATAEDITOR/
+06:05:51: D3D9 : Loading 2D Texture, image name : 'MEDIA/SHAREDTEXTURES/WEAPONTRAIL.DDS' with 2147483647 mip map levels
+06:05:51: D3D9 : Loading 2D Texture, image name : 'MEDIA/SHAREDTEXTURES/WEAPONTRAILEVIL.DDS' with 2147483647 mip map levels
+06:05:51: D3D9 : Loading 2D Texture, image name : 'MEDIA/SHAREDTEXTURES/WEAPONTRAILICE.DDS' with 2147483647 mip map levels
+06:05:51: D3D9 : Loading 2D Texture, image name : 'MEDIA/SHAREDTEXTURES/WEAPONTRAILFIRE.DDS' with 2147483647 mip map levels
+06:05:51: D3D9 : Loading 2D Texture, image name : 'MEDIA/SHAREDTEXTURES/WEAPONTRAILLIGHTNING.DDS' with 2147483647 mip map levels
+06:05:51: D3D9 : Loading 2D Texture, image name : 'MEDIA/SHAREDTEXTURES/WEAPONTRAILPOISON.DDS' with 2147483647 mip map levels
+06:05:51: D3D9 : Loading 2D Texture, image name : 'MEDIA/SHAREDTEXTURES/WEAPONTRAILBLOOD_0.DDS' with 2147483647 mip map levels
+06:05:51: D3D9 : Loading 2D Texture, image name : 'MEDIA/SHAREDTEXTURES/WEAPONTRAILBLOOD_1.DDS' with 2147483647 mip map levels
+06:05:51: D3D9 : Loading 2D Texture, image name : 'MEDIA/SHAREDTEXTURES/WEAPONTRAILBLOOD_2.DDS' with 2147483647 mip map levels
+06:05:51: D3D9 : Loading 2D Texture, image name : 'MEDIA/SHAREDTEXTURES/WEAPONTRAILBLOOD_3.DDS' with 2147483647 mip map levels
+06:05:51: D3D9 : Loading 2D Texture, image name : 'MEDIA/SHAREDTEXTURES/WEAPONTRAILBLOODSTATIC.DDS' with 2147483647 mip map levels
+06:05:51: D3D9 : Loading 2D Texture, image name : 'MEDIA/SHAREDTEXTURES/ARROWTRAIL.DDS' with 2147483647 mip map levels
+06:05:51: D3D9 : Loading 2D Texture, image name : 'MEDIA/SHAREDTEXTURES/ARROWTRAILREFLECT.DDS' with 2147483647 mip map levels
+06:05:51: D3D9 : Loading 2D Texture, image name : 'MEDIA/SHAREDTEXTURES/ARROWTRAILFIRE.DDS' with 2147483647 mip map levels
+06:05:51: D3D9 : Loading 2D Texture, image name : 'MEDIA/SHAREDTEXTURES/ARROWTRAILICE.DDS' with 2147483647 mip map levels
+06:05:51: D3D9 : Loading 2D Texture, image name : 'MEDIA/SHAREDTEXTURES/ARROWTRAILLIGHTNING.DDS' with 2147483647 mip map levels
+06:05:51: D3D9 : Loading 2D Texture, image name : 'MEDIA/SHAREDTEXTURES/ARROWTRAILPOISON.DDS' with 2147483647 mip map levels
+06:05:51: Creating resource group MEDIA/MODELS/PRIMITIVES/
+06:05:51: Added resource location 'MEDIA/MODELS/PRIMITIVES/' of type 'PAK' to resource group 'MEDIA/MODELS/PRIMITIVES/'
+06:05:51: Initialising resource group MEDIA/MODELS/PRIMITIVES/
+06:05:51: Parsing scripts for resource group MEDIA/MODELS/PRIMITIVES/
+06:05:51: Parsing script MEDIA/MODELS/PRIMITIVES/ARROW.MATERIAL
+06:05:51: Parsing script MEDIA/MODELS/PRIMITIVES/BOSS_NODE.MATERIAL
+06:05:51: Parsing script MEDIA/MODELS/PRIMITIVES/BOX.MATERIAL
+06:05:51: Parsing script MEDIA/MODELS/PRIMITIVES/CONE.MATERIAL
+06:05:51: Parsing script MEDIA/MODELS/PRIMITIVES/CYLINDER.MATERIAL
+06:05:51: Parsing script MEDIA/MODELS/PRIMITIVES/ITEM_NODE.MATERIAL
+06:05:51: Parsing script MEDIA/MODELS/PRIMITIVES/MARKER.MATERIAL
+06:05:51: Parsing script MEDIA/MODELS/PRIMITIVES/PLANE.MATERIAL
+06:05:51: Parsing script MEDIA/MODELS/PRIMITIVES/ROTATION_QUARTER.MATERIAL
+06:05:51: Parsing script MEDIA/MODELS/PRIMITIVES/ROTATION_RING.MATERIAL
+06:05:51: Parsing script MEDIA/MODELS/PRIMITIVES/SPHERE.MATERIAL
+06:05:51: Parsing script MEDIA/MODELS/PRIMITIVES/TORUS.MATERIAL
+06:05:51: Parsing script MEDIA/MODELS/PRIMITIVES/TREADMILL.MATERIAL
+06:05:51: Finished parsing scripts for resource group MEDIA/MODELS/PRIMITIVES/
+06:05:51: Mesh: Loading MEDIA/MODELS/PRIMITIVES/BOX.MESH.
+06:05:51: GAMEUI AspectRatio message - 800 x 600
+06:05:51: GAMEUI AspectRatio message AR - 1.33333
+06:05:51: Total sounds loaded: 1
+06:05:51: Total sounds loaded: 2
+06:05:51: Total sounds loaded: 3
+06:05:51: Total sounds loaded: 4
+06:05:51: D3D9 : Loading 2D Texture, image name : 'media/sharedtextures/shadowfade.dds' with 2147483647 mip map levels
+06:05:51: D3D9 : Loading 2D Texture, image name : 'media/sharedtextures/lantern.dds' with 2147483647 mip map levels
+06:05:51: D3D9 : Loading 2D Texture, image name : 'media/sharedtextures/outdoorlanternnight.dds' with 2147483647 mip map levels
+06:05:51: D3D9 : Loading 2D Texture, image name : 'media/sharedtextures/lightmask.dds' with 2147483647 mip map levels
+06:05:51: Creating resource group MEDIA/LEVELSETS/PAPERDOLL/
+06:05:51: Added resource location 'MEDIA/LEVELSETS/PAPERDOLL/' of type 'PAK' to resource group 'MEDIA/LEVELSETS/PAPERDOLL/'
+06:05:51: Initialising resource group MEDIA/LEVELSETS/PAPERDOLL/
+06:05:51: Parsing scripts for resource group MEDIA/LEVELSETS/PAPERDOLL/
+06:05:51: Parsing script MEDIA/LEVELSETS/PAPERDOLL/PAPERDOLL_FLOOR.MATERIAL
+06:05:51: Finished parsing scripts for resource group MEDIA/LEVELSETS/PAPERDOLL/
+06:05:51: Mesh: Loading MEDIA/LEVELSETS/PAPERDOLL/PAPERDOLL_FLOOR.MESH.
+06:05:51: D3D9 : Loading 2D Texture, image name : 'MEDIA/LEVELSETS/PAPERDOLL/FLOOR.DDS' with 2147483647 mip map levels
+06:05:51: Total sounds loaded: 5
+06:05:51: Mesh: Loading MEDIA/MODELS/PRIMITIVES/ROTATION_QUARTER.MESH.
+06:05:51: Mesh: Loading MEDIA/MODELS/PRIMITIVES/ARROW.MESH.
+06:05:51: Creating resource group MEDIA/MODELS/CROSSHAIR/
+06:05:51: Added resource location 'MEDIA/MODELS/CROSSHAIR/' of type 'PAK' to resource group 'MEDIA/MODELS/CROSSHAIR/'
+06:05:51: Initialising resource group MEDIA/MODELS/CROSSHAIR/
+06:05:51: Parsing scripts for resource group MEDIA/MODELS/CROSSHAIR/
+06:05:51: Finished parsing scripts for resource group MEDIA/MODELS/CROSSHAIR/
+06:05:51: Mesh: Loading MEDIA/MODELS/CROSSHAIR/CROSSHAIR.MESH.
+06:05:51: Can't assign material MEDIA/MODELS/CROSSHAIR/white to SubEntity of gm_118 because this Material does not exist. Have you forgotten to define it in a .material script?
+06:05:51: Can't assign material WireFrame to SubEntity of gm_118 because this Material does not exist. Have you forgotten to define it in a .material script?
+06:05:51: Mesh: Loading MEDIA/MODELS/PRIMITIVES/SPHERE.MESH.
+06:05:51: Mesh: Loading MEDIA/MODELS/PRIMITIVES/MARKER.MESH.
+06:05:51: D3D9 : Loading 2D Texture, image name : 'dataeditor/editor.dds' with 0 mip map levels
+06:05:51: Logging level template data for media/layouts/generic_cave/crowspassspidercave_rules.template
+
+06:05:51: Chunk -MEDIA/LAYOUTS/GENERIC_CAVE/1X1SINGLE_ROOM_BOSS/SPIDERCAVE_BB_A.LAYOUT
+
+06:05:51: Logging level template data for media/layouts/catacomb/defiledcryptbossroom_rules.template
+
+06:05:51: Chunk -MEDIA/LAYOUTS/CATACOMB/1X1SINGLE_ROOM_BOSS/RANDOMBOSSROOM_BB_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/CATACOMB/1X1SINGLE_ROOM_BOSS/RANDOMBOSSROOM_JT_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/CATACOMB/1X1SINGLE_ROOM_BOSS/RANDOMBOSSROOM_LM_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/CATACOMB/1X1SINGLE_ROOM_BOSS/RANDOMBOSSROOM_PB_A.LAYOUT
+
+06:05:51: Logging level template data for media/layouts/act2_caves/towerofthemoon_rules.template
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT2_CAVES/1X1SINGLE_ROOM_BOSS/TOWEROFTHEMOON_PB_A.LAYOUT
+
+06:05:51: Logging level template data for media/layouts/act1/templesteppes_1_rules.template
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_CONCAVE_N1E2/1X1_CONCAVE_N1E2_JT_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_CONCAVE_N1E2/1X1_CONCAVE_N1E2_LM_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_CONCAVE_N1E2/1X1_CONCAVE_N1E2_PB_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_CONCAVE_N2W2/1X1_CONCAVE_N2W2_JT_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_CONCAVE_N2W2/1X1_CONCAVE_N2W2_LM_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_CONCAVE_N2W2_LANDMARK_WATERTEMPLE/1X1_CONCAVE_N2W2_WATERTEMPLE_BB_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_CONCAVE_S1E1/1X1_CONCAVE_S1E1_JT_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_CONCAVE_S1E1/1X1_CONCAVE_S1E1_LM_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_CONCAVE_S1E1/1X1_CONCAVE_S1E1_PB_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_CONCAVE_S1E1_LANDMARK_WATERTEMPLE/1X1_CONCAVE_S1E1_WATERTEMPLE_LM_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_CONCAVE_S2W1/1X1_CONCAVE_S2W1_JT_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_CONCAVE_S2W1/1X1_CONCAVE_S2W1_JT_B.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_CONCAVE_S2W1/1X1_CONCAVE_S2W1_JT_C.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_CONCAVE_S2W1/1X1_CONCAVE_S2W1_LM_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_CONVEX_N0S1E0W2/1X1_CONVEX_N0S1E0W2_LM_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_CONVEX_N0S1E0W2/1X1_CONVEX_N0S1E0W2_PB_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_CONVEX_N0S2E2W0/1X1_CONVEX_N0S2E2W0_JT_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_CONVEX_N0S2E2W0/1X1_CONVEX_N0S2E2W0_LM_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_CONVEX_N1S0E0W1/1X1_CONVEX_N1S0E0W1_JT_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_CONVEX_N1S0E0W1/1X1_CONVEX_N1S0E0W1_LM_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_CONVEX_N2S0E1W0/1X1_CONVEX_N2S0E1W0_LM_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_CONVEX_N2S0E1W0/1X1_CONVEX_N2S0E1W0_PB_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_ENTRANCE_N2S2W4/1X1_ENTRANCE_N2S2W4_JT_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_ENTRANCE_N2S2W4/1X1_ENTRANCE_N2S2W4_JT_B.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_ENTRANCE_N2S2W4/1X1_ENTRANCE_N2S2W4_JT_C.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_ENTRANCE_S4E1W1/1X1_ENTRANCE_S4E1W1_JT_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_ENTRANCE_S4E1W1/1X1_ENTRANCE_S4E1W1_PB_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N0S0E0W0/1X1_OPEN_N0S0E0W0_BB_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N0S0E0W0/1X1_OPEN_N0S0E0W0_JT_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N0S0E0W0/1X1_OPEN_N0S0E0W0_LM_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N0S0E0W0/1X1_OPEN_N0S0E0W0_LM_C.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N0S0E0W0/1X1_OPEN_N0S0E0W0_LM_E.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N0S0E0W0/1X1_OPEN_N0S0E0W0_PB_B.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N0S0E0W0/1X1_OPEN_N0S0E0W0_PB_D.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N0S0E4W4_WRIVER_EW/1X1_OPEN_N0S0E4W4_WRIVER_EW_JT_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N0S0E4W4_WRIVER_EW/1X1_OPEN_N0S0E4W4_WRIVER_EW_LM_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N0S0E4W4_WRIVER_EW/1X1_OPEN_N0S0E4W4_WRIVER_EW_PB_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N0S4E0W4_WRIVER_SW/1X1_OPEN_N0S4E0W4_WRIVER_SW_BB_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N0S4E0W4_WRIVER_SW/1X1_OPEN_N0S4E0W4_WRIVER_SW_JT_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N0S4E0W4_WRIVER_SW/1X1_OPEN_N0S4E0W4_WRIVER_SW_PB_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N0S4E4W0_WRIVER_SE/1X1_OPEN_N0S4E4W0_WRIVER_SE_JT_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N0S4E4W0_WRIVER_SE/1X1_OPEN_N0S4E4W0_WRIVER_SE_JT_B.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N0S4E4W0_WRIVER_SE/1X1_OPEN_N0S4E4W0_WRIVER_SE_LM_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N4S0E0W4_WRIVER_NW/1X1_OPEN_N4S0E0W4_WRIVER_NW_JT_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N4S0E0W4_WRIVER_NW/1X1_OPEN_N4S0E0W4_WRIVER_NW_JT_B.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N4S0E0W4_WRIVER_NW/1X1_OPEN_N4S0E0W4_WRIVER_NW_LM_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N4S0E4W0_WRIVER_NE/1X1_OPEN_N4S0E4W0_WRIVER_NE_JT_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N4S0E4W0_WRIVER_NE/1X1_OPEN_N4S0E4W0_WRIVER_NE_LM_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N4S0E4W0_WRIVER_NE/1X1_OPEN_N4S0E4W0_WRIVER_NE_PB_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N4S4E0W0_WRIVER_NS/1X1_OPEN_N4S4E0W0_WRIVER_NS_LM_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N4S4E0W0_WRIVER_NS/1X1_OPEN_N4S4E0W0_WRIVER_NS_LM_B.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_OPEN_N4S4E0W0_WRIVER_NS/1X1_OPEN_N4S4E0W0_WRIVER_NS_PB_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_N0E2W2/1X1_WALL_N0E2W2_JT_B.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_N0E2W2/1X1_WALL_N0E2W2_LM_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_N0E2W2/1X1_WALL_N0E2W2_PB_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_N0E2W2_LANDMARK_CEMETERY/1X1_WALL_N0E2W2_BB_LANDMARK_CEMETERY.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_N1S1E0/1X1_WALL_N1S1E0_LM_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_N1S1E0/1X1_WALL_N1S1E0_LM_B.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_N1S1E0/1X1_WALL_N1S1E0_PB_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_N1S1E0/1X1_WALL_N1S1E0_PB_B.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_N1S1E0/1X1_WALL_N1S1E0_PB_C.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_N1S1E0_LANDMARK_CEMETERY/1X1_WALL_N1S1E0_PB_LANDMARK_CEMETERY.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_N1S1E0_LANDMARK_WARBEAST/1X1_WALL_N1S1E0_PB_LANDMARK_WARBEAST.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_N1S1E4/1X1_WALL_N1S1E4_JT_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_N1S1E4/1X1_WALL_N1S1E4_LM_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_N2S2W0/1X1_WALL_N2S2W0_LM_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_N2S2W0/1X1_WALL_N2S2W0_PB_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_N2S2W0/1X1_WALL_N2S2W0_PB_B.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_N2S2W0/1X1_WALL_N2S2W0_PB_C.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_N2S2W0_LANDMARK_CEMETERY/1X1_WALL_N2S2W0_CEMETERY_LM_A_LANDMARK.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_N4E2W2/1X1_WALL_N4E2W2_JT_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_N4E2W2/1X1_WALL_N4E2W2_PB_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_S0E1W1/1X1_WALL_S0E1W1_JT_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_S0E1W1/1X1_WALL_S0E1W1_LM_A.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_S0E1W1_LANDMARK_CEMETERY/1X1_WALL_S0E1W1_JT_LANDMARK_CEMETERY.LAYOUT
+
+06:05:51: Chunk -MEDIA/LAYOUTS/ACT1/1X1_WALL_S0E1W1_LANDMARK_WARBEAST/1X1_WALL_S0E1W1_PB_LANDMARK_WARBEAST.LAYOUT
+
+06:05:51: Creating resource group MEDIA/MODELS/GRID/
+06:05:51: Added resource location 'MEDIA/MODELS/GRID/' of type 'PAK' to resource group 'MEDIA/MODELS/GRID/'
+06:05:51: Initialising resource group MEDIA/MODELS/GRID/
+06:05:51: Parsing scripts for resource group MEDIA/MODELS/GRID/
+06:05:51: Parsing script MEDIA/MODELS/GRID/GRID.MATERIAL
+06:05:51: Finished parsing scripts for resource group MEDIA/MODELS/GRID/
+06:05:51: Mesh: Loading MEDIA/MODELS/GRID/GRID.MESH.
+06:05:55: Released sounds : 0
+06:05:55: Released sounds : 0
+06:05:55: DefaultWorkQueue('Root') shutting down on thread main.
+06:05:55: *-*-* OGRE Shutdown
+06:05:55: Unregistering ResourceManager for type Compositor
+06:05:55: Unregistering ResourceManager for type Font
+06:05:55: Unregistering ResourceManager for type Skeleton
+06:05:55: Unregistering ResourceManager for type Mesh
+06:05:55: Unregistering ResourceManager for type HighLevelGpuProgram
+06:05:55: Uninstalling plugin: Octree & Terrain Scene Manager
+06:05:55: Plugin successfully uninstalled
+06:05:55: Unloading library .\Plugin_OctreeSceneManager
+06:05:55: Uninstalling plugin: Cg Program Manager
+06:05:55: Plugin successfully uninstalled
+06:05:55: Unloading library .\Plugin_CgProgramManager
+06:05:55: Uninstalling plugin: D3D9 RenderSystem
+06:05:55: D3D9 : Shutting down cleanly.
+06:05:55: Unregistering ResourceManager for type Texture
+06:05:55: Unregistering ResourceManager for type GpuProgram
+06:05:55: D3D9 : Direct3D9 Rendering Subsystem destroyed.
+06:05:55: Plugin successfully uninstalled
+06:05:55: Unloading library .\RenderSystem_Direct3D9
+06:05:55: Unregistering ResourceManager for type Material
