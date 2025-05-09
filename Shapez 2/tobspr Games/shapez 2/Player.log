@@ -1,0 +1,435 @@
+Mono path[0] = 'D:/Programas Sem Instalacao/Games/Shapez 2/shapez 2_Data/Managed'
+Mono config path = 'D:/Programas Sem Instalacao/Games/Shapez 2/MonoBleedingEdge/etc'
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Initialize engine version: 2022.3.42f1 (2dcb6a0abc42)
+[Subsystems] Discovering subsystems at path D:/Programas Sem Instalacao/Games/Shapez 2/shapez 2_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD  Radeon RX 7800 XT (ID=0x747e)
+    Vendor:   ATI
+    VRAM:     16156 MB
+    Driver:   32.0.13031.3015
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.523 seconds
+- Finished resetting the current domain, in  0.001 seconds
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initializing input.
+New input system (experimental) initialized
+Using Windows.Gaming.Input
+<RI> Input initialized.
+<RI> Initialized touch support.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 0.590600 ms
+Preload::Fetch build info
+Environment:: Build date: 2024-12-17 08:39:03Z
+Preload::Start
+Preload::Load mods
+Preload::Init settings
+GamePreferences:: Loaded.
+Not loading dev settings on non-prod build
+Preload::Load language
+Preload::Init volumes
+Preload::Init display
+GraphicSettings:: Applying
+Camera UICamera has no Volume component
+Init display settings
+DisplaySettings:: Prepare resolution, stored is 1920 x 1080 / Borderless
+DisplaySettings:: Fullscreen mode, closest supported resolution is 1920 x 1080 compared to desired 1920 x 1080
+DisplaySettings:: Set Resolution 1920 x 1080 mode MaximizedWindow
+Init sounds
+Init DOTWeen
+Preload::Start
+Mount PreloaderSplashState(Clone)
+MaximizedWindow is not currently supported on Windows, setting to FullsceenWindow instead
+Unmount PreloaderSplashState(Clone)
+Mount PreloaderPreloadState(Clone)
+Preloader:: Starting preload
+Preloader:: Loading defines
+Core:: DEVELOPMENT_BUILD: DISABLED
+Core:: UNITY_EDITOR: DISABLED
+Core:: SPZ_PLATFORM_STEAM: ENABLED
+Core:: SPZ_EDITION_FULL: ENABLED
+Core:: SPZ_EDITION_DEMO: DISABLED
+Preloader:: Init Application Handlers
+Preloader:: Init DOTWeen
+Preloader:: Reading build date
+Environment:: Build date: 2024-12-17 08:39:03Z
+Preloader:: Preparing statics
+Preloader:: Init keybindings
+Keyboard layout: 00000409
+Preloader:: Init savegames
+Preloader:: Creating savegames folder
+Preloader:: Loading settings
+Preloader:: Initializing Store SDK
+Preloader:: Init Volume Control
+Preloader:: Init analytics
+Preloader:: Loading global scene
+Preloader:: Global scene loaded
+Preloader:: Loading resources preloader
+Preloader:: Initializing Game Analytics
+Preloader:: Preloading resources
+Preloader:: Preloading shaders ...
+Preloader:: Preloaded 0 / 325 shaders
+Preloader:: Preloaded 5 / 325 shaders
+Preloader:: Preloaded 10 / 325 shaders
+Preloader:: Preloaded 15 / 325 shaders
+Preloader:: Preloaded 20 / 325 shaders
+Preloader:: Preloaded 25 / 325 shaders
+Preloader:: Preloaded 30 / 325 shaders
+Preloader:: Preloaded 35 / 325 shaders
+Preloader:: Preloaded 40 / 325 shaders
+Preloader:: Preloaded 45 / 325 shaders
+Preloader:: Preloaded 50 / 325 shaders
+Preloader:: Preloaded 55 / 325 shaders
+Preloader:: Preloaded 60 / 325 shaders
+Preloader:: Preloaded 65 / 325 shaders
+Preloader:: Preloaded 70 / 325 shaders
+Preloader:: Preloaded 75 / 325 shaders
+Preloader:: Preloaded 80 / 325 shaders
+Preloader:: Preloaded 85 / 325 shaders
+Preloader:: Preloaded 90 / 325 shaders
+Preloader:: Preloaded 95 / 325 shaders
+Preloader:: Preloaded 100 / 325 shaders
+Preloader:: Preloaded 105 / 325 shaders
+Preloader:: Preloaded 110 / 325 shaders
+Preloader:: Preloaded 115 / 325 shaders
+Preloader:: Preloaded 120 / 325 shaders
+Preloader:: Preloaded 125 / 325 shaders
+Preloader:: Preloaded 130 / 325 shaders
+Preloader:: Preloaded 135 / 325 shaders
+Preloader:: Preloaded 140 / 325 shaders
+Preloader:: Preloaded 145 / 325 shaders
+Preloader:: Preloaded 150 / 325 shaders
+Preloader:: Preloaded 155 / 325 shaders
+Preloader:: Preloaded 160 / 325 shaders
+Preloader:: Preloaded 165 / 325 shaders
+Preloader:: Preloaded 170 / 325 shaders
+Preloader:: Preloaded 175 / 325 shaders
+Preloader:: Preloaded 180 / 325 shaders
+Preloader:: Preloaded 185 / 325 shaders
+Preloader:: Preloaded 190 / 325 shaders
+Preloader:: Preloaded 195 / 325 shaders
+Preloader:: Preloaded 200 / 325 shaders
+Preloader:: Preloaded 205 / 325 shaders
+Preloader:: Preloaded 210 / 325 shaders
+Preloader:: Preloaded 215 / 325 shaders
+Preloader:: Preloaded 220 / 325 shaders
+Preloader:: Preloaded 225 / 325 shaders
+Preloader:: Preloaded 230 / 325 shaders
+Preloader:: Preloaded 235 / 325 shaders
+Preloader:: Preloaded 240 / 325 shaders
+Preloader:: Preloaded 245 / 325 shaders
+Preloader:: Preloaded 250 / 325 shaders
+Preloader:: Preloaded 255 / 325 shaders
+Preloader:: Preloaded 260 / 325 shaders
+Preloader:: Preloaded 265 / 325 shaders
+Preloader:: Preloaded 270 / 325 shaders
+Preloader:: Preloaded 275 / 325 shaders
+Preloader:: Preloaded 280 / 325 shaders
+Preloader:: Preloaded 285 / 325 shaders
+Preloader:: Preloaded 290 / 325 shaders
+Preloader:: Preloaded 295 / 325 shaders
+Preloader:: Preloaded 300 / 325 shaders
+Preloader:: Preloaded 305 / 325 shaders
+Preloader:: Preloaded 310 / 325 shaders
+Preloader:: Preloaded 315 / 325 shaders
+Preloader:: Preloaded 320 / 325 shaders
+Preloader:: Preloaded 325 / 325 shaders
+Preloader:: Resources preloaded.
+Preloader:: Creating localization
+Configured language is 'pt-BR'
+Preloader:: Loading game data
+Preloader:: Globals initialized.
+Preloader:: Initialized
+Finish loading sequence
+Unmount PreloaderPreloadState(Clone)
+Mount PreloaderSpecsState(Clone)
+Unmount PreloaderSpecsState(Clone)
+Mount PreloaderTelemetryState(Clone)
+Initializing analytics
+Initializing unity analytics ...
+Analytics initialized.
+Player id:
+Unmount PreloaderTelemetryState(Clone)
+Mount PreloaderGraphicSettingsState(Clone)
+Unmount PreloaderGraphicSettingsState(Clone)
+Mount PreloaderChangelogState(Clone)
+Loaded 49 changelog entries
+Unmount PreloaderChangelogState(Clone)
+Mount PreloaderDevAgreementState(Clone)
+Unmount PreloaderDevAgreementState(Clone)
+GraphicSettings:: Applying
+Camera UICamera has no Volume component
+Warning/GameAnalytics: Could not add error event: Datastore not initialized
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 2.989500 ms
+Unloading 629 unused Assets to reduce memory usage. Loaded Objects now: 14245.
+Total: 22.557200 ms (FindLiveObjects: 0.519900 ms CreateObjectMapping: 0.313900 ms MarkObjects: 21.476500 ms  DeleteObjects: 0.246700 ms)
+
+MenuController::Step 0: Init Globals
+MenuController::Step 1: Start
+Savegame version mismatch: Savegame has 1095, current is 1105 minimum is 1095
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+Background savegame: Scene Loaded
+Core:: Init
+Core:: Stage 1 - Init game options
+Core:: Stage 2 - Init player
+Core:: Stage 3 - Init savegame and mode
+Core:: Stage 4 - Init existing savegame memory with mode RegularGameMode
+Loaded 67 wiki entries
+Serialized upgrade 'RNFluidMinerExtension' not found.
+Warning/GameAnalytics: Could not add error event: Datastore not initialized
+Populating super chunk caches in radius of 10 around SuperChunkCoordinate(0, 0)
+Music manager: Update music to 1 tracks
+Music manager: Clip not preloaded, preloading: Shapez2_Demo_15_MenuVersion_Master
+MusicManager:: Fade in Shapez2_Demo_15_MenuVersion_Master
+GraphicSettings:: Applying
+Background savegame: Game core loaded
+Tutorial: Completed entry TGFirstLevel
+Tutorial: Completed entry TSTrains_DepotsAndWagons_Skill
+Tutorial: Completed entry TSTrains_Launchers_Skill
+Tutorial: Completed entry TSTrains_StopsAndLoaders_Skill
+Tutorial: Completed entry TSTrains_RailPlacement_Skill
+Tutorial: Completed entry TSIslands_SpaceBeltTunnels_Skill
+Tutorial: Completed entry TSIslands_SpaceBelt_Skill
+Tutorial: Completed entry TSSkillAcademy_ClearSelectionContents
+Tutorial: Completed entry TSSkillAcademy_FloorVisibility
+Tutorial: Completed entry TSSkillAcademy_Mirroring
+Tutorial: Completed entry TSSkillAcademy_MultiLayerHubDelivery
+Tutorial: Completed entry TSSkillAcademy_PasteBlueprint
+Tutorial: Completed entry TSSkillAcademy_Pipette
+Tutorial: Completed entry TSSkillAcademy_SelectConnectedBuildings
+Tutorial: Completed entry TSSkillAcademy_ShapeViewer
+Tutorial: Completed entry TSSkillAcademy_SwitchBuildingVariants
+MenuController::Step 2: Game loaded
+Loaded 49 changelog entries
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+Game to continue found, date = 08/05/2025 00:14:46 / C:/Users/ChouKpop/AppData/LocalLow/tobspr Games/shapez 2\savegames\d5a2f180-1137-4288-b660-57e589ca7635\backup-v45-2025-5-08--00-14-46--2609208.spz2
+Fetching news ...
+Rendering 2 news items
+Menu: Discovered savegames:0
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+GamePreferences:: Saved to file.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 2.600300 ms
+Unloading 18265 unused Assets to reduce memory usage. Loaded Objects now: 9115.
+Total: 59.215000 ms (FindLiveObjects: 1.053200 ms CreateObjectMapping: 0.772000 ms MarkObjects: 49.854500 ms  DeleteObjects: 7.535000 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 0.307400 ms
+Core:: Init
+Core:: Stage 1 - Init game options
+Core:: Stage 2 - Init player
+Core:: Stage 3 - Init savegame and mode
+Core:: Stage 4 - Init existing savegame C:/Users/ChouKpop/AppData/LocalLow/tobspr Games/shapez 2\savegames\d5a2f180-1137-4288-b660-57e589ca7635\backup-v45-2025-5-08--00-14-46--2609208.spz2 with mode RegularGameMode
+Loaded 60 wiki entries
+Populating super chunk caches in radius of 10 around SuperChunkCoordinate(0, 0)
+Updating music with 2 enabled packs.
+Music manager: Update music to 22 tracks
+Music manager: Clip not preloaded, preloading: 01_Sphere
+Music manager: Clip not preloaded, preloading: 02_The_Vortex_LTD
+Music manager: Clip not preloaded, preloading: 03_Operator's_Journey
+Music manager: Clip not preloaded, preloading: 04_Trains_Go_Choooo
+Music manager: Clip not preloaded, preloading: 05_Exploring_the_Void
+Music manager: Clip not preloaded, preloading: 06_Endless_Shapes
+Music manager: Clip not preloaded, preloading: 07_Dodecahedron
+Music manager: Clip not preloaded, preloading: 08_MAM
+Music manager: Clip not preloaded, preloading: 09_CwRwCwCw
+Music manager: Clip not preloaded, preloading: 10_Cubical_Cosmos
+Music manager: Clip not preloaded, preloading: 11_Stellar_Expanse
+Music manager: Clip not preloaded, preloading: 12_Deep_Space_Pyramid
+Music manager: Clip not preloaded, preloading: 01_Prism
+Music manager: Clip not preloaded, preloading: 02_Perpetual_Motion
+Music manager: Clip not preloaded, preloading: 03_Tetrahedron
+Music manager: Clip not preloaded, preloading: 04_Torus
+Music manager: Clip not preloaded, preloading: 05_Icosahedron
+Music manager: Clip not preloaded, preloading: 06_Belts_Be_Massive
+Music manager: Clip not preloaded, preloading: 07_Distant_Calls
+Music manager: Clip not preloaded, preloading: 08_Signals
+Music manager: Clip not preloaded, preloading: 09_Merging_Matter
+Music manager: Clip not preloaded, preloading: 10_Wired_Up
+MusicManager:: Fade in 07_Distant_Calls
+GraphicSettings:: Applying
+No toolbar configuration found at C:/Users/ChouKpop/AppData/LocalLow/tobspr Games/shapez 2\blueprints\toolbar.json
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 56531.
+Total: 41.477900 ms (FindLiveObjects: 3.501300 ms CreateObjectMapping: 1.727600 ms MarkObjects: 36.130900 ms  DeleteObjects: 0.117900 ms)
+
+MusicManager:: Fade in 10_Cubical_Cosmos
+Failed to consume right screen area / toolbar context token for HUDModularSidePanelPrefab(Clone) / HUDBuildingDetailsPrefab(Clone)
+Failed to consume toolbar context token for HUDContextualHotkeyActions / HUDModularSidePanelPrefab(Clone)
+MusicManager:: Fade in 12_Deep_Space_Pyramid
+MusicManager:: Fade in 04_Trains_Go_Choooo
+Failed to consume right screen area / toolbar context token for HUDModularSidePanelPrefab(Clone) / HUDBuildingDetailsPrefab(Clone)
+Failed to consume toolbar context token for HUDContextualHotkeyActions / HUDModularSidePanelPrefab(Clone)
+Failed to consume right screen area / toolbar context token for HUDModularSidePanelPrefab(Clone) / HUDBuildingDetailsPrefab(Clone)
+Failed to consume toolbar context token for HUDContextualHotkeyActions / HUDModularSidePanelPrefab(Clone)
+MusicManager:: Fade in 11_Stellar_Expanse
+MusicManager:: Fade in 10_Wired_Up
+Waiting for asynchronous operation.
+Warning/GameAnalytics: Could not add error event: Datastore not initialized
+MusicManager:: Fade in 07_Distant_Calls
+Waiting for asynchronous operation.
+Warning/GameAnalytics: Could not add error event: Datastore not initialized
+Tutorial: Completed entry TSIslands_DeleteIslandUndoRedo_Skill
+Tutorial: Completed entry TSSkillAcademy_SwitchBuildingVariants
+Tutorial: No skill academy tutorial right now & timer expired (lastTutorial=106,6228, now=1571,938). Showing pooled hint. Choose from 3 showable hints.
+Tutorial:   Pooled hint TSSkillAcademy_BindBlueprintToToolbar chosen @106,6228.
+Cannot Prepare a disabled VideoPlayer
+Warning/GameAnalytics: Could not add error event: Datastore not initialized
+GameCore - finished loading unloading scene
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 0.458700 ms
+MenuController::Step 0: Init Globals
+MenuController::Step 1: Start
+Savegame version mismatch: Savegame has 1095, current is 1105 minimum is 1095
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+Unloading 12824 unused Assets to reduce memory usage. Loaded Objects now: 14577.
+Total: 62.401600 ms (FindLiveObjects: 1.431100 ms CreateObjectMapping: 0.981800 ms MarkObjects: 54.053200 ms  DeleteObjects: 5.935200 ms)
+
+Background savegame: Scene Loaded
+Core:: Init
+Core:: Stage 1 - Init game options
+Core:: Stage 2 - Init player
+Core:: Stage 3 - Init savegame and mode
+Core:: Stage 4 - Init existing savegame memory with mode RegularGameMode
+Loaded 67 wiki entries
+Serialized upgrade 'RNFluidMinerExtension' not found.
+Warning/GameAnalytics: Could not add error event: Datastore not initialized
+Populating super chunk caches in radius of 10 around SuperChunkCoordinate(0, 0)
+Music manager: Update music to 1 tracks
+Music manager: Clip not preloaded, preloading: Shapez2_Demo_15_MenuVersion_Master
+MusicManager:: Fade in Shapez2_Demo_15_MenuVersion_Master
+GraphicSettings:: Applying
+Background savegame: Game core loaded
+Tutorial: Completed entry TGFirstLevel
+Tutorial: Completed entry TSTrains_DepotsAndWagons_Skill
+Tutorial: Completed entry TSTrains_Launchers_Skill
+Tutorial: Completed entry TSTrains_StopsAndLoaders_Skill
+Tutorial: Completed entry TSTrains_RailPlacement_Skill
+Tutorial: Completed entry TSIslands_SpaceBeltTunnels_Skill
+Tutorial: Completed entry TSIslands_SpaceBelt_Skill
+Tutorial: Completed entry TSSkillAcademy_ClearSelectionContents
+Tutorial: Completed entry TSSkillAcademy_FloorVisibility
+Tutorial: Completed entry TSSkillAcademy_Mirroring
+Tutorial: Completed entry TSSkillAcademy_MultiLayerHubDelivery
+Tutorial: Completed entry TSSkillAcademy_PasteBlueprint
+Tutorial: Completed entry TSSkillAcademy_Pipette
+Tutorial: Completed entry TSSkillAcademy_SelectConnectedBuildings
+Tutorial: Completed entry TSSkillAcademy_ShapeViewer
+Tutorial: Completed entry TSSkillAcademy_SwitchBuildingVariants
+MenuController::Step 2: Game loaded
+Loaded 49 changelog entries
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+Game to continue found, date = 08/05/2025 16:58:43 / C:/Users/ChouKpop/AppData/LocalLow/tobspr Games/shapez 2\savegames\d5a2f180-1137-4288-b660-57e589ca7635\backup-v49-2025-5-08--16-58-43--4182390.spz2
+Fetching news ...
+Rendering 2 news items
+Menu: Discovered savegames:0
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+Show Chooser
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+GamePreferences:: Saved to file.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 2.368100 ms
+Unloading 18266 unused Assets to reduce memory usage. Loaded Objects now: 9130.
+Total: 62.177600 ms (FindLiveObjects: 1.005900 ms CreateObjectMapping: 0.720500 ms MarkObjects: 53.371600 ms  DeleteObjects: 7.079200 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 0.356400 ms
+Core:: Init
+Core:: Stage 1 - Init game options
+Core:: Stage 2 - Init player
+Core:: Stage 3 - Init savegame and mode
+Core:: Stage 4 - Init existing savegame C:/Users/ChouKpop/AppData/LocalLow/tobspr Games/shapez 2\savegames\d5a2f180-1137-4288-b660-57e589ca7635\backup-v49-2025-5-08--16-58-43--4182390.spz2 with mode RegularGameMode
+Loaded 60 wiki entries
+Populating super chunk caches in radius of 10 around SuperChunkCoordinate(0, 0)
+Updating music with 2 enabled packs.
+Music manager: Update music to 22 tracks
+Music manager: Clip not preloaded, preloading: 01_Sphere
+Music manager: Clip not preloaded, preloading: 02_The_Vortex_LTD
+Music manager: Clip not preloaded, preloading: 03_Operator's_Journey
+Music manager: Clip not preloaded, preloading: 04_Trains_Go_Choooo
+Music manager: Clip not preloaded, preloading: 05_Exploring_the_Void
+Music manager: Clip not preloaded, preloading: 06_Endless_Shapes
+Music manager: Clip not preloaded, preloading: 07_Dodecahedron
+Music manager: Clip not preloaded, preloading: 08_MAM
+Music manager: Clip not preloaded, preloading: 09_CwRwCwCw
+Music manager: Clip not preloaded, preloading: 10_Cubical_Cosmos
+Music manager: Clip not preloaded, preloading: 11_Stellar_Expanse
+Music manager: Clip not preloaded, preloading: 12_Deep_Space_Pyramid
+Music manager: Clip not preloaded, preloading: 01_Prism
+Music manager: Clip not preloaded, preloading: 02_Perpetual_Motion
+Music manager: Clip not preloaded, preloading: 03_Tetrahedron
+Music manager: Clip not preloaded, preloading: 04_Torus
+Music manager: Clip not preloaded, preloading: 05_Icosahedron
+Music manager: Clip not preloaded, preloading: 06_Belts_Be_Massive
+Music manager: Clip not preloaded, preloading: 07_Distant_Calls
+Music manager: Clip not preloaded, preloading: 08_Signals
+Music manager: Clip not preloaded, preloading: 09_Merging_Matter
+Music manager: Clip not preloaded, preloading: 10_Wired_Up
+MusicManager:: Fade in 10_Cubical_Cosmos
+GraphicSettings:: Applying
+No toolbar configuration found at C:/Users/ChouKpop/AppData/LocalLow/tobspr Games/shapez 2\blueprints\toolbar.json
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 56629.
+Total: 42.564000 ms (FindLiveObjects: 3.387900 ms CreateObjectMapping: 2.038900 ms MarkObjects: 37.056100 ms  DeleteObjects: 0.080700 ms)
+
+GameCore - finished loading unloading scene
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 0.457100 ms
+MenuController::Step 0: Init Globals
+MenuController::Step 1: Start
+Savegame version mismatch: Savegame has 1095, current is 1105 minimum is 1095
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+Unloading 12819 unused Assets to reduce memory usage. Loaded Objects now: 14584.
+Total: 65.857400 ms (FindLiveObjects: 1.272300 ms CreateObjectMapping: 1.558500 ms MarkObjects: 56.666900 ms  DeleteObjects: 6.359400 ms)
+
+Background savegame: Scene Loaded
+Core:: Init
+Core:: Stage 1 - Init game options
+Core:: Stage 2 - Init player
+Core:: Stage 3 - Init savegame and mode
+Core:: Stage 4 - Init existing savegame memory with mode RegularGameMode
+Loaded 67 wiki entries
+Serialized upgrade 'RNFluidMinerExtension' not found.
+Warning/GameAnalytics: Could not add error event: Datastore not initialized
+Populating super chunk caches in radius of 10 around SuperChunkCoordinate(0, 0)
+Music manager: Update music to 1 tracks
+Music manager: Clip not preloaded, preloading: Shapez2_Demo_15_MenuVersion_Master
+MusicManager:: Fade in Shapez2_Demo_15_MenuVersion_Master
+GraphicSettings:: Applying
+Background savegame: Game core loaded
+Tutorial: Completed entry TGFirstLevel
+Tutorial: Completed entry TSTrains_DepotsAndWagons_Skill
+Tutorial: Completed entry TSTrains_Launchers_Skill
+Tutorial: Completed entry TSTrains_StopsAndLoaders_Skill
+Tutorial: Completed entry TSTrains_RailPlacement_Skill
+Tutorial: Completed entry TSIslands_SpaceBeltTunnels_Skill
+Tutorial: Completed entry TSIslands_SpaceBelt_Skill
+Tutorial: Completed entry TSSkillAcademy_ClearSelectionContents
+Tutorial: Completed entry TSSkillAcademy_FloorVisibility
+Tutorial: Completed entry TSSkillAcademy_Mirroring
+Tutorial: Completed entry TSSkillAcademy_MultiLayerHubDelivery
+Tutorial: Completed entry TSSkillAcademy_PasteBlueprint
+Tutorial: Completed entry TSSkillAcademy_Pipette
+Tutorial: Completed entry TSSkillAcademy_SelectConnectedBuildings
+Tutorial: Completed entry TSSkillAcademy_ShapeViewer
+Tutorial: Completed entry TSSkillAcademy_SwitchBuildingVariants
+MenuController::Step 2: Game loaded
+Loaded 49 changelog entries
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+Game to continue found, date = 08/05/2025 17:00:06 / C:/Users/ChouKpop/AppData/LocalLow/tobspr Games/shapez 2\savegames\d5a2f180-1137-4288-b660-57e589ca7635\backup-v55-2025-5-08--17-00-06--9493477.spz2
+Fetching news ...
+Rendering 2 news items
+Menu: Discovered savegames:0
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+Show Chooser
+Importing savegame from: C:\Users\ChouKpop\AppData\LocalLow\tobspr Games\shapez 2\savegames\d5a2f180-1137-4288-b660-57e589ca7635\backup-v55-2025-5-08--17-00-06--9493477.spz2
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True

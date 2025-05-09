@@ -1,0 +1,551 @@
+Mono path[0] = 'D:/Programas Sem Instalacao/Games/Shapez 2/shapez 2_Data/Managed'
+Mono config path = 'D:/Programas Sem Instalacao/Games/Shapez 2/MonoBleedingEdge/etc'
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Initialize engine version: 2022.3.42f1 (2dcb6a0abc42)
+[Subsystems] Discovering subsystems at path D:/Programas Sem Instalacao/Games/Shapez 2/shapez 2_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD  Radeon RX 7800 XT (ID=0x747e)
+    Vendor:   ATI
+    VRAM:     16156 MB
+    Driver:   32.0.13031.3015
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.987 seconds
+- Finished resetting the current domain, in  0.001 seconds
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initializing input.
+New input system (experimental) initialized
+Using Windows.Gaming.Input
+<RI> Input initialized.
+<RI> Initialized touch support.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 0.618900 ms
+Preload::Fetch build info
+Environment:: Build date: 2024-12-17 08:39:03Z
+Preload::Start
+Preload::Load mods
+Preload::Init settings
+GamePreferences:: Loaded.
+Not loading dev settings on non-prod build
+Preload::Load language
+Preload::Init volumes
+Preload::Init display
+GraphicSettings:: Applying
+Camera UICamera has no Volume component
+Init display settings
+DisplaySettings:: Prepare resolution, stored is 1920 x 1080 / Borderless
+DisplaySettings:: Fullscreen mode, closest supported resolution is 1920 x 1080 compared to desired 1920 x 1080
+DisplaySettings:: Set Resolution 1920 x 1080 mode MaximizedWindow
+Init sounds
+Init DOTWeen
+Preload::Start
+Mount PreloaderSplashState(Clone)
+MaximizedWindow is not currently supported on Windows, setting to FullsceenWindow instead
+Unmount PreloaderSplashState(Clone)
+Mount PreloaderPreloadState(Clone)
+Preloader:: Starting preload
+Preloader:: Loading defines
+Core:: DEVELOPMENT_BUILD: DISABLED
+Core:: UNITY_EDITOR: DISABLED
+Core:: SPZ_PLATFORM_STEAM: ENABLED
+Core:: SPZ_EDITION_FULL: ENABLED
+Core:: SPZ_EDITION_DEMO: DISABLED
+Preloader:: Init Application Handlers
+Preloader:: Init DOTWeen
+Preloader:: Reading build date
+Environment:: Build date: 2024-12-17 08:39:03Z
+Preloader:: Preparing statics
+Preloader:: Init keybindings
+Keyboard layout: 00000409
+Preloader:: Init savegames
+Preloader:: Creating savegames folder
+Preloader:: Loading settings
+Preloader:: Initializing Store SDK
+Preloader:: Init Volume Control
+Preloader:: Init analytics
+Preloader:: Loading global scene
+Preloader:: Global scene loaded
+Preloader:: Loading resources preloader
+Preloader:: Initializing Game Analytics
+Preloader:: Preloading resources
+Preloader:: Preloading shaders ...
+Preloader:: Preloaded 0 / 325 shaders
+Preloader:: Preloaded 5 / 325 shaders
+Preloader:: Preloaded 10 / 325 shaders
+Preloader:: Preloaded 15 / 325 shaders
+Preloader:: Preloaded 20 / 325 shaders
+Preloader:: Preloaded 25 / 325 shaders
+Preloader:: Preloaded 30 / 325 shaders
+Preloader:: Preloaded 35 / 325 shaders
+Preloader:: Preloaded 40 / 325 shaders
+Preloader:: Preloaded 45 / 325 shaders
+Preloader:: Preloaded 50 / 325 shaders
+Preloader:: Preloaded 55 / 325 shaders
+Preloader:: Preloaded 60 / 325 shaders
+Preloader:: Preloaded 65 / 325 shaders
+Preloader:: Preloaded 70 / 325 shaders
+Preloader:: Preloaded 75 / 325 shaders
+Preloader:: Preloaded 80 / 325 shaders
+Preloader:: Preloaded 85 / 325 shaders
+Preloader:: Preloaded 90 / 325 shaders
+Preloader:: Preloaded 95 / 325 shaders
+Preloader:: Preloaded 100 / 325 shaders
+Preloader:: Preloaded 105 / 325 shaders
+Preloader:: Preloaded 110 / 325 shaders
+Preloader:: Preloaded 115 / 325 shaders
+Preloader:: Preloaded 120 / 325 shaders
+Preloader:: Preloaded 125 / 325 shaders
+Preloader:: Preloaded 130 / 325 shaders
+Preloader:: Preloaded 135 / 325 shaders
+Preloader:: Preloaded 140 / 325 shaders
+Preloader:: Preloaded 145 / 325 shaders
+Preloader:: Preloaded 150 / 325 shaders
+Preloader:: Preloaded 155 / 325 shaders
+Preloader:: Preloaded 160 / 325 shaders
+Preloader:: Preloaded 165 / 325 shaders
+Preloader:: Preloaded 170 / 325 shaders
+Preloader:: Preloaded 175 / 325 shaders
+Preloader:: Preloaded 180 / 325 shaders
+Preloader:: Preloaded 185 / 325 shaders
+Preloader:: Preloaded 190 / 325 shaders
+Preloader:: Preloaded 195 / 325 shaders
+Preloader:: Preloaded 200 / 325 shaders
+Preloader:: Preloaded 205 / 325 shaders
+Preloader:: Preloaded 210 / 325 shaders
+Preloader:: Preloaded 215 / 325 shaders
+Preloader:: Preloaded 220 / 325 shaders
+Preloader:: Preloaded 225 / 325 shaders
+Preloader:: Preloaded 230 / 325 shaders
+Preloader:: Preloaded 235 / 325 shaders
+Preloader:: Preloaded 240 / 325 shaders
+Preloader:: Preloaded 245 / 325 shaders
+Preloader:: Preloaded 250 / 325 shaders
+Preloader:: Preloaded 255 / 325 shaders
+Preloader:: Preloaded 260 / 325 shaders
+Preloader:: Preloaded 265 / 325 shaders
+Preloader:: Preloaded 270 / 325 shaders
+Preloader:: Preloaded 275 / 325 shaders
+Preloader:: Preloaded 280 / 325 shaders
+Preloader:: Preloaded 285 / 325 shaders
+Preloader:: Preloaded 290 / 325 shaders
+Preloader:: Preloaded 295 / 325 shaders
+Preloader:: Preloaded 300 / 325 shaders
+Preloader:: Preloaded 305 / 325 shaders
+Preloader:: Preloaded 310 / 325 shaders
+Preloader:: Preloaded 315 / 325 shaders
+Preloader:: Preloaded 320 / 325 shaders
+Preloader:: Preloaded 325 / 325 shaders
+Preloader:: Resources preloaded.
+Preloader:: Creating localization
+Configured language is 'pt-BR'
+Preloader:: Loading game data
+Preloader:: Globals initialized.
+Preloader:: Initialized
+Finish loading sequence
+Unmount PreloaderPreloadState(Clone)
+Mount PreloaderSpecsState(Clone)
+Unmount PreloaderSpecsState(Clone)
+Mount PreloaderTelemetryState(Clone)
+Initializing analytics
+Initializing unity analytics ...
+Analytics initialized.
+Player id:
+Unmount PreloaderTelemetryState(Clone)
+Mount PreloaderGraphicSettingsState(Clone)
+Unmount PreloaderGraphicSettingsState(Clone)
+Mount PreloaderChangelogState(Clone)
+Loaded 49 changelog entries
+Unmount PreloaderChangelogState(Clone)
+Mount PreloaderDevAgreementState(Clone)
+Unmount PreloaderDevAgreementState(Clone)
+GraphicSettings:: Applying
+Camera UICamera has no Volume component
+Warning/GameAnalytics: Could not add error event: Datastore not initialized
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 3.088100 ms
+Unloading 629 unused Assets to reduce memory usage. Loaded Objects now: 14245.
+Total: 22.262200 ms (FindLiveObjects: 0.523900 ms CreateObjectMapping: 0.595000 ms MarkObjects: 20.921800 ms  DeleteObjects: 0.221300 ms)
+
+MenuController::Step 0: Init Globals
+MenuController::Step 1: Start
+Savegame version mismatch: Savegame has 1095, current is 1105 minimum is 1095
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+Background savegame: Scene Loaded
+Core:: Init
+Core:: Stage 1 - Init game options
+Core:: Stage 2 - Init player
+Core:: Stage 3 - Init savegame and mode
+Core:: Stage 4 - Init existing savegame memory with mode RegularGameMode
+Loaded 67 wiki entries
+Serialized upgrade 'RNFluidMinerExtension' not found.
+Warning/GameAnalytics: Could not add error event: Datastore not initialized
+Populating super chunk caches in radius of 10 around SuperChunkCoordinate(0, 0)
+Music manager: Update music to 1 tracks
+Music manager: Clip not preloaded, preloading: Shapez2_Demo_15_MenuVersion_Master
+MusicManager:: Fade in Shapez2_Demo_15_MenuVersion_Master
+GraphicSettings:: Applying
+Background savegame: Game core loaded
+Tutorial: Completed entry TGFirstLevel
+Tutorial: Completed entry TSTrains_DepotsAndWagons_Skill
+Tutorial: Completed entry TSTrains_Launchers_Skill
+Tutorial: Completed entry TSTrains_StopsAndLoaders_Skill
+Tutorial: Completed entry TSTrains_RailPlacement_Skill
+Tutorial: Completed entry TSIslands_SpaceBeltTunnels_Skill
+Tutorial: Completed entry TSIslands_SpaceBelt_Skill
+Tutorial: Completed entry TSSkillAcademy_ClearSelectionContents
+Tutorial: Completed entry TSSkillAcademy_FloorVisibility
+Tutorial: Completed entry TSSkillAcademy_Mirroring
+Tutorial: Completed entry TSSkillAcademy_MultiLayerHubDelivery
+Tutorial: Completed entry TSSkillAcademy_PasteBlueprint
+Tutorial: Completed entry TSSkillAcademy_Pipette
+Tutorial: Completed entry TSSkillAcademy_SelectConnectedBuildings
+Tutorial: Completed entry TSSkillAcademy_ShapeViewer
+Tutorial: Completed entry TSSkillAcademy_SwitchBuildingVariants
+MenuController::Step 2: Game loaded
+Loaded 49 changelog entries
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+Game to continue found, date = 08/05/2025 00:14:46 / C:/Users/ChouKpop/AppData/LocalLow/tobspr Games/shapez 2\savegames\d5a2f180-1137-4288-b660-57e589ca7635\backup-v45-2025-5-08--00-14-46--2609208.spz2
+Fetching news ...
+Rendering 2 news items
+Menu: Discovered savegames:0
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+Game to continue found, date = 08/05/2025 00:14:46 / C:/Users/ChouKpop/AppData/LocalLow/tobspr Games/shapez 2\savegames\d5a2f180-1137-4288-b660-57e589ca7635\backup-v45-2025-5-08--00-14-46--2609208.spz2
+Fetching news ...
+Rendering 2 news items
+Core:: ApplicationQuit
+GamePreferences:: Saved to file.
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [1.0 KB-2.0 KB]: 4401 frames, [2.0 KB-4.0 KB]: 313 frames, [4.0 KB-8.0 KB]: 21 frames, [8.0 KB-16.0 KB]: 194792 frames, [16.0 KB-32.0 KB]: 1057 frames, [32.0 KB-64.0 KB]: 16 frames, [64.0 KB-128.0 KB]: 13 frames, [128.0 KB-256.0 KB]: 15 frames, [256.0 KB-0.5 MB]: 8 frames, [0.5 MB-1.0 MB]: 12 frames, [1.0 MB-2.0 MB]: 1 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 1 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 5.1 MB
+      Peak Allocated Bytes 5.0 MB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 264 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 0.5 MB
+      Peak Allocated Bytes 504.8 KB
+      Overflow Count 6186
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 23.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 23.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 28.2 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 23.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 14]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 18.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 22.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 13]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 23.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 4
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 1.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 1.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 74.5 KB
+      Overflow Count 3
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 15
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 138 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 9]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 23.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 8]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 21.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 21.2 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 22.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 27.2 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 10]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 23.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_CloudJob.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 3.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_HIDInput]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 10.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 11]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 20.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 12]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 19.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 4406
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 22 Subsections = 22528 buckets. Failed count: 26454162
+        32B: 35 Subsections = 17920 buckets. Failed count: 16051388
+        48B: 51 Subsections = 17408 buckets. Failed count: 15183683
+        64B: 39 Subsections = 9984 buckets. Failed count: 792981
+        80B: 45 Subsections = 9216 buckets. Failed count: 591277
+        96B: 20 Subsections = 3413 buckets. Failed count: 7189421
+        112B: 26 Subsections = 3803 buckets. Failed count: 197441
+        128B: 18 Subsections = 2304 buckets. Failed count: 59637
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 4410 frames, [32.0 MB-64.0 MB]: 368 frames, [64.0 MB-128.0 MB]: 195873 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 4
+      Peak Allocated memory 84.9 MB
+      Peak Large allocation bytes 32.5 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 4255 frames, [32.0 MB-64.0 MB]: 523 frames, [64.0 MB-128.0 MB]: 195873 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 5
+      Peak Allocated memory 91.8 MB
+      Peak Large allocation bytes 40.5 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 3
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 12
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 22 Subsections = 22528 buckets. Failed count: 26454162
+        32B: 35 Subsections = 17920 buckets. Failed count: 16051388
+        48B: 51 Subsections = 17408 buckets. Failed count: 15183683
+        64B: 39 Subsections = 9984 buckets. Failed count: 792981
+        80B: 45 Subsections = 9216 buckets. Failed count: 591277
+        96B: 20 Subsections = 3413 buckets. Failed count: 7189421
+        112B: 26 Subsections = 3803 buckets. Failed count: 197441
+        128B: 18 Subsections = 2304 buckets. Failed count: 59637
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [32.0 KB-64.0 KB]: 84 frames, [64.0 KB-128.0 KB]: 4691 frames, [128.0 KB-256.0 KB]: 2 frames, [256.0 KB-0.5 MB]: 1 frames, [128.0 MB-256.0 MB]: 2 frames, [256.0 MB-0.50 GB]: 195871 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 25
+      Peak Allocated memory 396.1 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [8.0 MB-16.0 MB]: 4255 frames, [32.0 MB-64.0 MB]: 196396 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 4
+      Peak Allocated memory 48.5 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 38
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 22 Subsections = 22528 buckets. Failed count: 26454162
+        32B: 35 Subsections = 17920 buckets. Failed count: 16051388
+        48B: 51 Subsections = 17408 buckets. Failed count: 15183683
+        64B: 39 Subsections = 9984 buckets. Failed count: 792981
+        80B: 45 Subsections = 9216 buckets. Failed count: 591277
+        96B: 20 Subsections = 3413 buckets. Failed count: 7189421
+        112B: 26 Subsections = 3803 buckets. Failed count: 197441
+        128B: 18 Subsections = 2304 buckets. Failed count: 59637
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 4778 frames, [32.0 MB-64.0 MB]: 195873 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 8
+      Peak Allocated memory 40.3 MB
+      Peak Large allocation bytes 11.1 MB
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [64.0 MB-128.0 MB]: 200650 frames, [128.0 MB-256.0 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 11
+      Peak Allocated memory 135.0 MB
+      Peak Large allocation bytes 92.7 MB
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 2
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 22 Subsections = 22528 buckets. Failed count: 26454162
+        32B: 35 Subsections = 17920 buckets. Failed count: 16051388
+        48B: 51 Subsections = 17408 buckets. Failed count: 15183683
+        64B: 39 Subsections = 9984 buckets. Failed count: 792981
+        80B: 45 Subsections = 9216 buckets. Failed count: 591277
+        96B: 20 Subsections = 3413 buckets. Failed count: 7189421
+        112B: 26 Subsections = 3803 buckets. Failed count: 197441
+        128B: 18 Subsections = 2304 buckets. Failed count: 59637
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 522 frames, [8.0 KB-16.0 KB]: 4256 frames, [32.0 KB-64.0 KB]: 195873 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 38.5 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [8.0 KB-16.0 KB]: 4255 frames, [32.0 KB-64.0 KB]: 437 frames, [64.0 KB-128.0 KB]: 195959 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 83.4 KB
+      Peak Large allocation bytes 0 B

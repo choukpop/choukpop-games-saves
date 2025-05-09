@@ -1,0 +1,4 @@
+C:\Users\ChouKpop\AppData\LocalLow\tobspr Games
+
+cheats.enable
+research.set-points 200
