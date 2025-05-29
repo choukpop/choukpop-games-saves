@@ -281,6 +281,10 @@
         "version": ">=0.0.0",
         "enabled": true
       },
+      "ShinyToFinishes": {
+        "version": ">=0.0.0",
+        "enabled": true
+      },
       "ShortenHardDriveResearch": {
         "version": ">=0.0.0",
         "enabled": true
@@ -1023,19 +1027,19 @@
         "dependencies": null,
         "targets": {
           "LinuxServer": {
-            "hash": "8315c65f87cf7b87b8c16157723778c6161b27332654b557960a8f2341f785d7",
-            "link": "https://api.ficsit.app/v1/version/7uTm19vMR4nHQo/LinuxServer/download"
+            "hash": "9e20c54eb859debd81e9a98c8f975836ded3a3d0270a7b46ac6a7f5b7a208dfe",
+            "link": "https://api.ficsit.app/v1/version/6MkKZHNiQAbZxW/LinuxServer/download"
           },
           "Windows": {
-            "hash": "8fe1ea3dce4865bb0ace60fa09f9bd7dd5a690724ceb0bbddb1e90a21c6a8b86",
-            "link": "https://api.ficsit.app/v1/version/7uTm19vMR4nHQo/Windows/download"
+            "hash": "b95a5ff604b9d4b6c6c48e4c6acc38f09db16508b9fd9710e971a616496fb59c",
+            "link": "https://api.ficsit.app/v1/version/6MkKZHNiQAbZxW/Windows/download"
           },
           "WindowsServer": {
-            "hash": "3a7b3bb2e75321988e9b72eadd517ba07567e30a1b3243eba62e7889ca3acbbb",
-            "link": "https://api.ficsit.app/v1/version/7uTm19vMR4nHQo/WindowsServer/download"
+            "hash": "e93214133bc83b99607de6eb2d9b98dbdf21078b694f35ac128ba8db757b40b1",
+            "link": "https://api.ficsit.app/v1/version/6MkKZHNiQAbZxW/WindowsServer/download"
           }
         },
-        "version": "1.0.4"
+        "version": "1.1.1"
       },
       "MoreHardDriveRerolls": {
         "dependencies": null,
@@ -1262,6 +1266,24 @@
           }
         },
         "version": "1.0.5"
+      },
+      "ShinyToFinishes": {
+        "dependencies": null,
+        "targets": {
+          "LinuxServer": {
+            "hash": "f33c1271827ce73e24fa8152e6cb366069e3a6568a49e77b333fd93838a3547c",
+            "link": "https://api.ficsit.app/v1/version/CQuBwLBXcKWNHg/LinuxServer/download"
+          },
+          "Windows": {
+            "hash": "7c59fa6c6486831c29c1761de8aea2876f457b1f46da8b2812ff5b32376c4650",
+            "link": "https://api.ficsit.app/v1/version/CQuBwLBXcKWNHg/Windows/download"
+          },
+          "WindowsServer": {
+            "hash": "95db3a80704f42ee3d15592c07e1709e0f105dbd8ebeba32f4f3958f5d34a124",
+            "link": "https://api.ficsit.app/v1/version/CQuBwLBXcKWNHg/WindowsServer/download"
+          }
+        },
+        "version": "1.0.0"
       },
       "ShortenHardDriveResearch": {
         "dependencies": null,
