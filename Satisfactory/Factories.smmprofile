@@ -11,7 +11,7 @@
       },
       "AllNodesPure": {
         "version": ">=0.0.0",
-        "enabled": false
+        "enabled": true
       },
       "AllPolesHaveLights": {
         "version": ">=0.0.0",
@@ -89,13 +89,9 @@
         "version": ">=0.0.0",
         "enabled": false
       },
-      "FixReliableBufferOverflow": {
-        "version": ">=0.0.0",
-        "enabled": false
-      },
       "FlashlightSettings": {
         "version": ">=0.0.0",
-        "enabled": true
+        "enabled": false
       },
       "FluidTeleporter": {
         "version": ">=1.0.16",
@@ -103,7 +99,7 @@
       },
       "FreeFluids": {
         "version": ">=0.0.0",
-        "enabled": false
+        "enabled": true
       },
       "GameTime": {
         "version": ">=0.0.0",
@@ -305,10 +301,6 @@
         "version": ">=0.0.0",
         "enabled": false
       },
-      "Stats": {
-        "version": ">=0.0.0",
-        "enabled": false
-      },
       "StickyResourceMarkers": {
         "version": ">=0.0.0",
         "enabled": false
@@ -369,6 +361,24 @@
   },
   "lockfile": {
     "mods": {
+      "AllNodesPure": {
+        "dependencies": null,
+        "targets": {
+          "LinuxServer": {
+            "hash": "14ff062e28654b938f82ce1e58cc9209b217195403393f1e53f471d8d0e192ac",
+            "link": "https://api.ficsit.app/v1/version/8PGFFv7PqTjs6j/LinuxServer/download"
+          },
+          "Windows": {
+            "hash": "153ff55657ddaf4c34ec34200dfc3787d82a1b34f731dad537270d9236610044",
+            "link": "https://api.ficsit.app/v1/version/8PGFFv7PqTjs6j/Windows/download"
+          },
+          "WindowsServer": {
+            "hash": "260fa2dcec301ead1b7ed4dacaa016b01ce49013dc30ced854645788c8e888f4",
+            "link": "https://api.ficsit.app/v1/version/8PGFFv7PqTjs6j/WindowsServer/download"
+          }
+        },
+        "version": "1.0.8"
+      },
       "AllPolesHaveLights": {
         "dependencies": null,
         "targets": {
@@ -651,24 +661,6 @@
         },
         "version": "1.0.5"
       },
-      "FlashlightSettings": {
-        "dependencies": null,
-        "targets": {
-          "LinuxServer": {
-            "hash": "127f0d904c4f187de04394eb3c6024e04a3e932fc6534ceda8e0cd62d952c184",
-            "link": "https://api.ficsit.app/v1/version/7Sut6LpKsViu74/LinuxServer/download"
-          },
-          "Windows": {
-            "hash": "6c65801077722653abfdcc95c56b0609a4a1e7f7b7a92f7b26f1d138ebf62882",
-            "link": "https://api.ficsit.app/v1/version/7Sut6LpKsViu74/Windows/download"
-          },
-          "WindowsServer": {
-            "hash": "00f0db03a8c9329b8d413a4fbae6bdee9ee03be1c4737c47e6e6050c63d2f926",
-            "link": "https://api.ficsit.app/v1/version/7Sut6LpKsViu74/WindowsServer/download"
-          }
-        },
-        "version": "1.1.2"
-      },
       "FluidTeleporter": {
         "dependencies": null,
         "targets": {
@@ -683,6 +675,24 @@
           "WindowsServer": {
             "hash": "144a333a6b06c3ba458c38bde0c858ff9f331af7a059ad3356806722d9c620a4",
             "link": "https://api.ficsit.app/v1/version/8ezNhTHrwvZuUC/WindowsServer/download"
+          }
+        },
+        "version": "1.0.16"
+      },
+      "FreeFluids": {
+        "dependencies": null,
+        "targets": {
+          "LinuxServer": {
+            "hash": "6eccf77710944e02da8918bab6bebaced3a0e3224161a25ee6a4b19ab3b0250f",
+            "link": "https://api.ficsit.app/v1/version/76Z76shsHiTJT5/LinuxServer/download"
+          },
+          "Windows": {
+            "hash": "64d2a63ed0733974f023385b77b43f5b51bdf51e11532d5bf7d9271eed6ba2cc",
+            "link": "https://api.ficsit.app/v1/version/76Z76shsHiTJT5/Windows/download"
+          },
+          "WindowsServer": {
+            "hash": "fb0912a4c266099d8e9e0f6d2aa4e6e904acafffde57ae171edfb90637989a62",
+            "link": "https://api.ficsit.app/v1/version/76Z76shsHiTJT5/WindowsServer/download"
           }
         },
         "version": "1.0.16"
