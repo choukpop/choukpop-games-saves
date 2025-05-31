@@ -1,0 +1,14 @@
+//StorageTeleporter/Items/HUB_Interface/Desc_HUB_Interface.Desc_HUB_Interface_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "ST HUB Interface",
+"NameShort": "",
+"Description": "Access the Storage Teleporter HUB UI from anywhere in the world",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_StorageTeleporter_C",
+"StackSize": "Medium"
+}

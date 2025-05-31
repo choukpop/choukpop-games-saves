@@ -1,0 +1,18 @@
+//Game/FactoryGame/Buildable/Factory/Train/Signal/Desc_RailroadBlockSignal.Desc_RailroadBlockSignal_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Block Signal",
+"NameShort": "",
+"Description": "Directs the movement of trains to avoid collisions and bottlenecks.
+
+Block Signals can be placed on Railways to create 'Blocks' between them. When a train is occupying one of these Blocks, other trains will be unable to enter it.
+
+Caution: Signals are directional! Trains are unable to move against this direction, so be sure to set up Signals in both directions for bi-directional Railways.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Vehicles_C",
+"StackSize": "Medium"
+}

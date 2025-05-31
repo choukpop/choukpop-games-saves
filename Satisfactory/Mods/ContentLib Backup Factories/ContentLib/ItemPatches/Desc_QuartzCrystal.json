@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/QuartzCrystal/Desc_QuartzCrystal.Desc_QuartzCrystal_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Quartz Crystal",
+"NameShort": "",
+"Description": "Derived from Raw Quartz. Used in the production of advanced radar technology and high-quality display screens.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Minerals_C",
+"StackSize": "Big"
+}

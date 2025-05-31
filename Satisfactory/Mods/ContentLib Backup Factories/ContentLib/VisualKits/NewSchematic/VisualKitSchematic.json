@@ -1,0 +1,5 @@
+{
+    "$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_VisualKit.json",
+	"BigIcon": "NewSchematicIcon",
+	"SmallIcon": "NewSchematicIcon"
+}

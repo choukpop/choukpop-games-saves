@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/PlutoniumFuelRods/Mesh/SM_PlutoniumFuelRods_01.SM_PlutoniumFuelRods_01",
+	"BigIcon": "/PackingExpansion/Icons/Plutonium_Fuel_Rod_Pack.Plutonium_Fuel_Rod_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Plutonium_Fuel_Rod_Pack.Plutonium_Fuel_Rod_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

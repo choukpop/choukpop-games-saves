@@ -1,0 +1,25 @@
+//MagicMachine/Recipe_Items/U1/MEle10.MEle10_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Biochemical Sculptor",
+"Ingredients": [
+
+],
+"Products": [
+{
+      "Item": "Desc_SpaceElevatorPart_10",
+      "Amount": 11
+ }
+],
+"ManufacturingDuration": 0.5,
+"ProducedIn": ["MagicMachine_C"],
+"OverrideCategory": "Cat_SpaceElevator_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_Magic_C"],
+"ManualManufacturingDuration":0.5,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

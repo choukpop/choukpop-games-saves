@@ -1,0 +1,27 @@
+//Dispenser/Recipes/Recipe_Dispenser.Recipe_Dispenser_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Item Dispenser",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_IronRod",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_Rotor",
+      "Amount": 4
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Dispenser",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schem_Dispenser_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

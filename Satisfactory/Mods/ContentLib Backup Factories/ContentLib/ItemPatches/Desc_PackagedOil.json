@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_PackagedOil.Desc_PackagedOil_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Packaged Oil",
+"NameShort": "Oil",
+"Description": "Crude Oil, packaged for alternative transport. Can be used as fuel for vehicles.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 320.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Packaging_C",
+"StackSize": "Medium"
+}

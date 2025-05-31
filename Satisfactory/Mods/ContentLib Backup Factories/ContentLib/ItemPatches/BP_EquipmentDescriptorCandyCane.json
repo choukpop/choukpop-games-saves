@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Equipment/StunSpear/BP_EquipmentDescriptorCandyCane.BP_EquipmentDescriptorCandyCane_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Candy Cane Basher",
+"NameShort": "",
+"Description": "Self-defense is now not only fun, but also delicious for the target! Do not lick or consume.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Weapons_C",
+"StackSize": "One"
+}

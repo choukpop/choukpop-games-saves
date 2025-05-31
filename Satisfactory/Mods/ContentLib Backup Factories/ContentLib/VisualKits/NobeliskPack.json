@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Equipment/NobeliskDetonator/Mesh/NobeliskExplosive.NobeliskExplosive",
+	"BigIcon": "/PackingExpansion/Icons/Nobelisk_Pack.Nobelisk_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Nobelisk_Pack.Nobelisk_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

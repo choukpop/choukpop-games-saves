@@ -1,0 +1,23 @@
+//Game/FactoryGame/Buildable/Factory/Train/Signal/Recipe_RailroadPathSignal.Recipe_RailroadPathSignal_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Path Signal",
+"Ingredients": [
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_Computer",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RailroadPathSignal",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_6-7_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

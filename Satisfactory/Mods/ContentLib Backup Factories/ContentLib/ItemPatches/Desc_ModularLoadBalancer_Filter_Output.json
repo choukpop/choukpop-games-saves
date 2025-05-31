@@ -1,0 +1,14 @@
+//LoadBalancers/Buildable/FilterModule/OutputOnly/Desc_ModularLoadBalancer_Filter_Output.Desc_ModularLoadBalancer_Filter_Output_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Output Only Filter Module",
+"NameShort": "",
+"Description": "Has only an Output. A filter can be defined for the Output. The filtered output is prioritized over non-filtered modules.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Logistics_C",
+"StackSize": "One"
+}

@@ -1,0 +1,28 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/New_Update9/Recipe_Alternate_SteelPipe_Iron.Recipe_Alternate_SteelPipe_Iron_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Iron Pipe",
+"Ingredients": [
+{
+      "Item": "Desc_IronIngot",
+      "Amount": 20
+ }
+],
+"Products": [
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 5
+ }
+],
+"ManufacturingDuration": 12.0,
+"ProducedIn": ["Build_ConstructorMk1_C"],
+"OverrideCategory": "Cat_StandardParts_C",
+"ManufacturingMenuPriority": 15.0,
+"UnlockedBy": ["Schematic_Alternate_SteelPipe_Iron_C"],
+"ManualManufacturingDuration":1188.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

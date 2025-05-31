@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Window_01.Recipe_Roof_Window_01_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Flat Roof",
+"Ingredients": [
+{
+      "Item": "Desc_Cement",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_Silica",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Roof_Window_01",
+      "Amount": 1
+ }],
+"UnlockedBy": ["CBG_Roofs_Basic_Glass_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

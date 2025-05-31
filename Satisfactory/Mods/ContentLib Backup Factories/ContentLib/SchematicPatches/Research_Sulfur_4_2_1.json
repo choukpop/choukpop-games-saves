@@ -1,0 +1,35 @@
+//Game/FactoryGame/Schematics/Research/Sulfur_RS/Research_Sulfur_4_2_1.Research_Sulfur_4_2_1_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Discontinued - Rifle Cartridges",
+"Type": "MAM",
+"VisualKit": "Research_Sulfur_4_2_1_C",
+"Description": "OLD! No longer in use",
+"Cost": [{
+      "Item": "Desc_Gunpowder",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_Rubber",
+      "Amount": 200
+ }],
+"Category": "SC_Organisation_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 3.0,
+"Tier": 3,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_Cartridge_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

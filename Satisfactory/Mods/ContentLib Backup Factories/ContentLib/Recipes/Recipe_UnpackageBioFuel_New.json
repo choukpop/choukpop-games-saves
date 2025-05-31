@@ -1,0 +1,31 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Unpackage Liquid Biofuel",
+"Ingredients": [
+{
+      "Item": "Desc_PackagedBiofuel",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_LiquidBiofuel",
+      "Amount": 2000
+ },
+{
+      "Item": "Desc_FluidCanister",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 2.0,
+"ProducedIn": ["Build_Packager_C"],
+"OverrideCategory": "Cat_Unpackaging_C",
+"ManufacturingMenuPriority": 3.0,
+"UnlockedBy": ["Schematic_5-4-1_C"],
+"ManualManufacturingDuration":2.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

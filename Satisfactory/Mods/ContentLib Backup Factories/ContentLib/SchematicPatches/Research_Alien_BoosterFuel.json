@@ -1,0 +1,35 @@
+//Game/FactoryGame/Schematics/Research/AlienTech_RS/Research_Alien_BoosterFuel.Research_Alien_BoosterFuel_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Alien Power Matrix",
+"Type": "MAM",
+"VisualKit": "Research_Alien_BoosterFuel_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_SingularityCell",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_CrystalShard",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_SAMFluctuator",
+      "Amount": 500
+ }],
+"Category": "SC_Organisation_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 3.0,
+"Tier": 0,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_AlienPowerFuel_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

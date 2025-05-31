@@ -1,0 +1,31 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alternate: Caterium Circuit Board",
+"Ingredients": [
+{
+      "Item": "Desc_Plastic",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_HighSpeedWire",
+      "Amount": 30
+ }
+],
+"Products": [
+{
+      "Item": "Desc_CircuitBoard",
+      "Amount": 7
+ }
+],
+"ManufacturingDuration": 48.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_Electronics_C",
+"ManufacturingMenuPriority": 6.0,
+"UnlockedBy": ["Schematic_Alternate_CircuitBoard2_C"],
+"ManualManufacturingDuration":48.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

@@ -1,0 +1,36 @@
+//Game/FactoryGame/Recipes/Equipment/Recipe_CandyCaneBasher.Recipe_CandyCaneBasher_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Candy Cane Basher",
+"Ingredients": [
+{
+      "Item": "BP_EquipmentDescriptorShockShank",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_CandyCane",
+      "Amount": 25
+ },
+{
+      "Item": "Desc_Gift",
+      "Amount": 15
+ }
+],
+"Products": [
+{
+      "Item": "BP_EquipmentDescriptorCandyCane",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 80.0,
+"ProducedIn": [],
+"OverrideCategory": "Cat_Weapons_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Research_XMas_1-1_C"],
+"ManualManufacturingDuration":80.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

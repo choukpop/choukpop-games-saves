@@ -1,0 +1,27 @@
+//GlassFluidTank/Rec_GlassTank_4Pipes.Rec_GlassTank_4Pipes_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Glass Fluid Buffer 4 pipes",
+"Ingredients": [
+{
+      "Item": "Desc_SteelPlateReinforced",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_CopperSheet",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_Plastic",
+      "Amount": 25
+ }
+],
+"Products": [
+{
+      "Item": "Desc_GlassTank_4pipes",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schem_Glass_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

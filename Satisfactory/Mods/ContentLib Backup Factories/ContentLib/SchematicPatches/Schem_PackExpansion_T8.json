@@ -1,0 +1,27 @@
+//PackingExpansion/Schem_PackExpansion_T8.Schem_PackExpansion_T8_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "T8 Packing Expansion",
+"Type": "Milestone",
+"VisualKit": "Schem_PackExpansion_T8_C",
+"Description": "",
+"Cost": [{
+      "Item": "AlcladAluSheetPack",
+      "Amount": 5
+ }],
+"Category": "SC_Production_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 60.0,
+"Tier": 8,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["UraniumPack_C","UraniumUnp_C","EncasedUraniumCellPack_C","EncasedUraniumCellUnp_C","ElectromagneticRodPack_C","ElectromagneticRodUnp_C","UraniumFuelRodPack_C","UraniumFuelRodUnp_C","MagneticFieldGeneratorPack_C","MagneticFieldGeneratorUnp_C","NitrogenGasCondensed_C","NitrogenGasUnp_C","EmptyFluidTankPack_C","EmptyFluidTankUnp_C","PackNitrogenGasPack_C","PackNitrogenGasUnp_C","CoolingSystemPack_C","CoolingSystemUnp_C","FusedModularFramePack_C","FusedModularFrameUnp_C","HeatSinkPack_C","HeatSinkUnp_C","TurboMotorPack_C","TurboMotorUnp_C","ThermalPropulsionRocketPack_C","ThermalPropulsionRocketUnp_C","NitricAcidCondensed_C","NitricAcidUnp_C","PackNitricAcidPack_C","PackNitricAcidUnp_C","NonFissibleUraniumPack_C","NonfissibleUraniumUnp_C","PlutoniumPelletPack_C","PlutoniumPelletUnp_C","EncasedPlutoniumCellPack_C","EncasedPlutoniumCellUnp_C","PlutoniumFuelRodPack_C","PlutoniumFuelRodUnp_C","CopperPowderPack_C","CopperPowderUnp_C","PressureConversionCubePack_C","PressureConversionCubeUnp_C","NuclearPastaPack_C","NuclearPastaUnp_C","PlutoniumWastePack_C","PlutoniumWasteUnp_C","UraniumWastePack_C","UraniumWasteUnp_C","NukeNobeliskPack_C","NukeNobeliskUnp_C","PackRocketFuelPack_C","PackRocketFuelUnp_C","RocketFuelCondensed_C","RocketFuelUnp_C","DissolvedSilicaCondensed_C","DissolvedSilicaUnp_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

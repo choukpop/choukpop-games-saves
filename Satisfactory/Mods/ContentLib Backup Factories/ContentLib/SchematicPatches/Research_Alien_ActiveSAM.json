@@ -1,0 +1,27 @@
+//Game/FactoryGame/Schematics/Research/AlienTech_RS/Research_Alien_ActiveSAM.Research_Alien_ActiveSAM_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "SAM Reanimation",
+"Type": "MAM",
+"VisualKit": "Research_Alien_ActiveSAM_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_SAM",
+      "Amount": 20
+ }],
+"Category": "SC_Organisation_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 3.0,
+"Tier": 0,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_IngotSAM_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

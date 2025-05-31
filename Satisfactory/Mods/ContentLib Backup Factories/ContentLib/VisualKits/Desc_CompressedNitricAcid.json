@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/HeavyOilResidue/SM_HeavyOilResidue_01.SM_HeavyOilResidue_01",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/NitricAcid/UI/IconDesc_NitricAcid_256.IconDesc_NitricAcid_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/NitricAcid/UI/IconDesc_NitricAcid_256.IconDesc_NitricAcid_256",
+	"FluidColor":
+	{
+		"r": 217,
+		"g": 217,
+		"b": 162,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 217,
+		"g": 217,
+		"b": 105,
+		"a": 0
+	}
+}

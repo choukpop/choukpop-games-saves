@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/AlienDNACapsule/Mesh/Alien_DNA_Capsule_01_.Alien_DNA_Capsule_01_",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/AlienDNACapsule/UI/IconDesc_AlienDNA_256.IconDesc_AlienDNA_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/AlienDNACapsule/UI/IconDesc_AlienDNA_256.IconDesc_AlienDNA_256",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

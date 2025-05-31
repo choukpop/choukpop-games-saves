@@ -1,0 +1,17 @@
+//Game/FactoryGame/Resource/Parts/PlutoniumFuelRods/Desc_PlutoniumFuelRod.Desc_PlutoniumFuelRod_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Plutonium Fuel Rod",
+"NameShort": "",
+"Description": "Used as fuel for Nuclear Power Plants.
+
+Caution: Produces radioactive Plutonium Waste when consumed.
+Caution: HIGHLY Radioactive.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 1500000.0,
+"RadioactiveDecay": 250.0,
+"Form": "Solid",
+"Category": "Cat_Nuclear_C",
+"StackSize": "Small"
+}

@@ -1,0 +1,18 @@
+//Game/FactoryGame/Buildable/Factory/GeneratorNuclear/Desc_GeneratorNuclear.Desc_GeneratorNuclear_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Nuclear Power Plant",
+"NameShort": "",
+"Description": "Consumes Nuclear Fuel Rods and Water to produce electricity for the power grid.
+
+Produces Nuclear Waste, which is extracted via the Conveyor Belt output.
+
+Caution: Always generates power at the set clock speed. Shuts down if fuel requirements are not met.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Power_C",
+"StackSize": "Medium"
+}

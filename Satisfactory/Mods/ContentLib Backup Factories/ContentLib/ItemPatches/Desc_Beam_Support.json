@@ -1,0 +1,15 @@
+//Game/FactoryGame/Prototype/Buildable/Beams/Desc_Beam_Support.Desc_Beam_Support_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Beam Support",
+"NameShort": "",
+"Description": "Snaps to Beams and various other structural buildings.
+Used to aesthetically connect beams to surfaces.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Decor_C",
+"StackSize": "Medium"
+}

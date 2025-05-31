@@ -1,0 +1,27 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alternate: Steel Rod",
+"Ingredients": [
+{
+      "Item": "Desc_SteelIngot",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_IronRod",
+      "Amount": 4
+ }
+],
+"ManufacturingDuration": 5.0,
+"ProducedIn": ["Build_ConstructorMk1_C"],
+"OverrideCategory": "Cat_StandardParts_C",
+"ManufacturingMenuPriority": 2.0,
+"UnlockedBy": ["Schematic_Alternate_SteelRod_C"],
+"ManualManufacturingDuration":5.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

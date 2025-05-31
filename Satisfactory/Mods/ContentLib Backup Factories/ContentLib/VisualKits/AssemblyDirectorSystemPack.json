@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/AssemblyControlUnit/Mesh/SM_AssemblyControlUnit_01.SM_AssemblyControlUnit_01",
+	"BigIcon": "/PackingExpansion/Icons/Assembly_Director_System_Pack.Assembly_Director_System_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Assembly_Director_System_Pack.Assembly_Director_System_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

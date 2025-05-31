@@ -1,0 +1,27 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alt: Pure Aluminum Ingot Pack",
+"Ingredients": [
+{
+      "Item": "AluminumScrapPack",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "AluminumIngotPack",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 50.0,
+"ProducedIn": ["Build_SmelterMk1_C"],
+"OverrideCategory": "Cat_Ingots_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T7_C"],
+"ManualManufacturingDuration":50.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

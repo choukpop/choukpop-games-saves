@@ -1,0 +1,32 @@
+//Game/FactoryGame/Recipes/OilRefinery/Recipe_PackagedBiofuel.Recipe_PackagedBiofuel_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Packaged Liquid Biofuel",
+"Ingredients": [
+{
+      "Item": "Desc_LiquidBiofuel",
+      "Amount": 2000
+ },
+{
+      "Item": "Desc_FluidCanister",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_PackagedBiofuel",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 3.0,
+"ProducedIn": ["Build_Packager_C"],
+"OverrideCategory": "Cat_Packaging_C",
+"ManufacturingMenuPriority": 3.0,
+"UnlockedBy": ["Schematic_5-4_C"],
+"ManualManufacturingDuration":3.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

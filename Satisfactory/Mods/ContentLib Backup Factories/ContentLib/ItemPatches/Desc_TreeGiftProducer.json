@@ -1,0 +1,15 @@
+//Game/FactoryGame/Buildable/Factory/Holiday/Build_TreeGiftProducer/Desc_TreeGiftProducer.Desc_TreeGiftProducer_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "FICSMAS Gift Tree",
+"NameShort": "",
+"Description": "A festively disguised production building. Reminder: Nothing is ever truly free.
+Produces 15 Gifts per minute.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_FICSMAS_C",
+"StackSize": "Medium"
+}

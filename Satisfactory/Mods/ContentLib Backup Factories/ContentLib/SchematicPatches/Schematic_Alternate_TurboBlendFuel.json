@@ -1,0 +1,24 @@
+//Game/FactoryGame/Schematics/Alternate/New_Update4/Schematic_Alternate_TurboBlendFuel.Schematic_Alternate_TurboBlendFuel_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Alternate: Turbo Blend Fuel",
+"Type": "Alternate",
+"VisualKit": "Schematic_Alternate_TurboBlendFuel_C",
+"Description": "",
+"Cost": [],
+"Category": "SC_Logistics_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 0.0,
+"Tier": 0,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_Alternate_TurboBlendFuel_C","Recipe_PackagedTurboFuel_C","Recipe_UnpackageTurboFuel_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

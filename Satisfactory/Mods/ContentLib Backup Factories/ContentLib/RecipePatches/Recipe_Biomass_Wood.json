@@ -1,0 +1,28 @@
+//Game/FactoryGame/Recipes/Constructor/Recipe_Biomass_Wood.Recipe_Biomass_Wood_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Biomass (Wood)",
+"Ingredients": [
+{
+      "Item": "Desc_Wood",
+      "Amount": 4
+ }
+],
+"Products": [
+{
+      "Item": "Desc_GenericBiomass",
+      "Amount": 20
+ }
+],
+"ManufacturingDuration": 4.0,
+"ProducedIn": ["Build_ConstructorMk1_C","FGBuildableAutomatedWorkBench"],
+"OverrideCategory": "Cat_Biomass_C",
+"ManufacturingMenuPriority": 2.0,
+"UnlockedBy": ["Schematic_Tutorial5_C"],
+"ManualManufacturingDuration":4.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

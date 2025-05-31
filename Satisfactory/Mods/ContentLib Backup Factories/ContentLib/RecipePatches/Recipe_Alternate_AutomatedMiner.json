@@ -1,0 +1,32 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/New_Update4/Recipe_Alternate_AutomatedMiner.Recipe_Alternate_AutomatedMiner_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Automated Miner",
+"Ingredients": [
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 4
+ },
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 4
+ }
+],
+"Products": [
+{
+      "Item": "BP_ItemDescriptorPortableMiner",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 60.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_Hands_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schematic_Alternate_AutomatedMiner_C"],
+"ManualManufacturingDuration":60.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

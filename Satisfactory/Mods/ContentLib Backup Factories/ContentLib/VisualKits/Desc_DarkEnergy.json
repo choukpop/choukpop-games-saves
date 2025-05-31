@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/HeavyOilResidue/SM_HeavyOilResidue_01.SM_HeavyOilResidue_01",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/DarkEnergy/UI/IconDesc_DarkEnergy_256.IconDesc_DarkEnergy_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/DarkEnergy/UI/IconDesc_DarkEnergy_256.IconDesc_DarkEnergy_256",
+	"FluidColor":
+	{
+		"r": 253,
+		"g": 175,
+		"b": 249,
+		"a": 150
+	},
+	"GasColor":
+	{
+		"r": 6,
+		"g": 25,
+		"b": 159,
+		"a": 33
+	}
+}

@@ -1,0 +1,15 @@
+//Game/FactoryGame/Resource/Parts/AluminumIngot/Desc_AluminumIngot.Desc_AluminumIngot_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Aluminum Ingot",
+"NameShort": "AL",
+"Description": "Smelted from Aluminum Scrap, which is refined from Alumina Solution.
+Used to produce specialized aluminum-based parts.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Ingots_C",
+"StackSize": "Medium"
+}

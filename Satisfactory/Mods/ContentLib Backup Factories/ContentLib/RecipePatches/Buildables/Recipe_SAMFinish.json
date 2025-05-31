@@ -1,0 +1,13 @@
+//ExtraFinishes/Master/Recipes/Recipe_SAMFinish.Recipe_SAMFinish_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "SAM Finish",
+"Ingredients": [
+
+],
+"Products": [
+],
+"UnlockedBy": ["Schematic_ExtraFinishes_SAM_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_WorkBench.Recipe_WorkBench_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Crafting Bench",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_IronRod",
+      "Amount": 3
+ }
+],
+"Products": [
+{
+      "Item": "Desc_WorkBench",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_StartingRecipes_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

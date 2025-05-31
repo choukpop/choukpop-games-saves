@@ -1,0 +1,31 @@
+//Game/FactoryGame/Buildable/Factory/Train/Station/Recipe_TrainStation.Recipe_TrainStation_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Train Station",
+"Ingredients": [
+{
+      "Item": "Desc_SteelPlateReinforced",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_Plastic",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_Wire",
+      "Amount": 200
+ }
+],
+"Products": [
+{
+      "Item": "Desc_TrainStation",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_6-3_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

@@ -1,0 +1,39 @@
+//Dispenser/Schematics/Schem_DispenserMk2.Schem_DispenserMk2_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Industrial Dispenser",
+"Type": "Milestone",
+"VisualKit": "Schem_DispenserMk2_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_SteelPlate",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 500
+ },
+{
+      "Item": "Desc_Stator",
+      "Amount": 50
+ }],
+"Category": "",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 60.0,
+"Tier": 3,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_DispenserMk2_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

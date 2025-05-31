@@ -1,0 +1,27 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_PipelinePumpMK2.Recipe_PipelinePumpMK2_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Pipeline Pump Mk.2",
+"Ingredients": [
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_Motor",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_Plastic",
+      "Amount": 10
+ }
+],
+"Products": [
+{
+      "Item": "Desc_PipelinePumpMk2",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_6-5_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

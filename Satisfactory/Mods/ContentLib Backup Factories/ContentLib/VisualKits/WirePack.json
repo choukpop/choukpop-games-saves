@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/Wire/SM_Wire_01.SM_Wire_01",
+	"BigIcon": "/PackingExpansion/Icons/Wire_Pack.Wire_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Wire_Pack.Wire_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

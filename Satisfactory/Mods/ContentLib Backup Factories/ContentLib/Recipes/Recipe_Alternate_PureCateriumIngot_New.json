@@ -1,0 +1,31 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alternate: Pure Caterium Ingot",
+"Ingredients": [
+{
+      "Item": "Desc_OreGold",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_Water",
+      "Amount": 2000
+ }
+],
+"Products": [
+{
+      "Item": "Desc_GoldIngot",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 5.0,
+"ProducedIn": ["Build_OilRefinery_C"],
+"OverrideCategory": "Cat_Ingots_C",
+"ManufacturingMenuPriority": 4.0,
+"UnlockedBy": ["Schematic_Alternate_PureCateriumIngot_C"],
+"ManualManufacturingDuration":5.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

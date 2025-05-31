@@ -1,0 +1,27 @@
+//Game/FactoryGame/Recipes/Vehicle/Recipe_Tractor.Recipe_Tractor_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Tractor",
+"Ingredients": [
+{
+      "Item": "Desc_ModularFrame",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_Rotor",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 10
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Tractor",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_3-3_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

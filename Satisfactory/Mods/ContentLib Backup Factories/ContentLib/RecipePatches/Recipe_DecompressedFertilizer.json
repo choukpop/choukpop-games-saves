@@ -1,0 +1,28 @@
+//ArgualFluidPressurizer/Compatibility/FicsitFarming/PressurizedFluids/Fertilizer/Recipes/Recipe_DecompressedFertilizer.Recipe_DecompressedFertilizer_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Decompressed Fertilizer",
+"Ingredients": [
+{
+      "Item": "Desc_CompressedFertilizer",
+      "Amount": 400
+ }
+],
+"Products": [
+{
+      "Item": "",
+      "Amount": 4000
+ }
+],
+"ManufacturingDuration": 2.0,
+"ProducedIn": ["Build_PressureModulator_C"],
+"OverrideCategory": "Cat_Decompressing_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schematic_ArgualFluidPressurizer_Tier6_PressureModulation_FicsitFarming_Hidden_C"],
+"ManualManufacturingDuration":2.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

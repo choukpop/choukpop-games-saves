@@ -1,0 +1,35 @@
+//Game/FactoryGame/Schematics/Research/Quartz_RS/Research_Quartz_4_1.Research_Quartz_4_1_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Radio Signal Scanning",
+"Type": "MAM",
+"VisualKit": "Research_Quartz_4_1_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_CrystalOscillator",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_Motor",
+      "Amount": 100
+ },
+{
+      "Item": "BP_EquipmentDescriptorObjectScanner",
+      "Amount": 1
+ }],
+"Category": "SC_Organisation_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 3.0,
+"Tier": 3,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": [],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

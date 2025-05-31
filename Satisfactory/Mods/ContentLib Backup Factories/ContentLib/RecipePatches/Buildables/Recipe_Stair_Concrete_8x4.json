@@ -1,0 +1,23 @@
+//Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Stair_Concrete_8x4.Recipe_Stair_Concrete_8x4_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Foundation Stairs (4 m)",
+"Ingredients": [
+{
+      "Item": "Desc_Cement",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Stair_Concrete_8x4",
+      "Amount": 1
+ }],
+"UnlockedBy": ["CBG_Stairs_Concrete_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

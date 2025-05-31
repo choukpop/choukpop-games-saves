@@ -1,0 +1,31 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_OilRefinery.Recipe_OilRefinery_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Refinery",
+"Ingredients": [
+{
+      "Item": "Desc_Motor",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_SteelPlateReinforced",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 30
+ },
+{
+      "Item": "Desc_CopperSheet",
+      "Amount": 20
+ }
+],
+"Products": [
+{
+      "Item": "Desc_OilRefinery",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_5-1_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_PipeStorageTank.Recipe_PipeStorageTank_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Fluid Buffer",
+"Ingredients": [
+{
+      "Item": "Desc_CopperSheet",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_ModularFrame",
+      "Amount": 5
+ }
+],
+"Products": [
+{
+      "Item": "Desc_PipeStorageTank",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_3-1_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

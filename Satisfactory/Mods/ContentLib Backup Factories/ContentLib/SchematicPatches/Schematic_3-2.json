@@ -1,0 +1,39 @@
+//Game/FactoryGame/Schematics/Progression/Schematic_3-2.Schematic_3-2_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Logistics Mk.2",
+"Type": "Milestone",
+"VisualKit": "Schematic_3-2_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_IronRod",
+      "Amount": 300
+ },
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 300
+ }],
+"Category": "SC_Logistics_C",
+"SubCategories": [],
+"MenuPriority": 5.0,
+"Time": 360.0,
+"Tier": 2,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_ConveyorBeltMk2_C","Recipe_ConveyorPoleStackable_C","Recipe_ConveyorLiftMk2_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

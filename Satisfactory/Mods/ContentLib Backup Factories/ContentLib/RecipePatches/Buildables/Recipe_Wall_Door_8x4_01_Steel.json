@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Door_8x4_01_Steel.Recipe_Wall_Door_8x4_01_Steel_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Center Door Wall",
+"Ingredients": [
+{
+      "Item": "Desc_Cement",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_SteelPlate",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Wall_Door_8x4_01_Steel",
+      "Amount": 1
+ }],
+"UnlockedBy": ["CBG_Steel_Walls_Doors_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

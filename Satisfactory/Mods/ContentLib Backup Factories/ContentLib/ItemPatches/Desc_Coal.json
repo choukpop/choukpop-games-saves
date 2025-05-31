@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Coal",
+"NameShort": "cOaL",
+"Description": "Mainly used as fuel for vehicles & Coal-Powered Generators, or in Steel production.",
+"CanBeDiscarded": true,
+"RememberPickUp": true,
+"EnergyValue": 300.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_RawMaterials_C",
+"StackSize": "Medium"
+}

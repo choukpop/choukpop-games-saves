@@ -1,0 +1,17 @@
+//Game/FactoryGame/Buildable/Factory/PipeValve/Desc_Valve.Desc_Valve_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Valve",
+"NameShort": "",
+"Description": "Limits Pipeline flow rates.
+Can be attached to a Pipeline.
+
+NOTE: Has an in- and output direction.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Logistics_C",
+"StackSize": "Medium"
+}

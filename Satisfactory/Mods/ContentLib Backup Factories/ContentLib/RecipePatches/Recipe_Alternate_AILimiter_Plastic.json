@@ -1,0 +1,32 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/New_Update9/Recipe_Alternate_AILimiter_Plastic.Recipe_Alternate_AILimiter_Plastic_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Plastic AI Limiter",
+"Ingredients": [
+{
+      "Item": "Desc_HighSpeedWire",
+      "Amount": 30
+ },
+{
+      "Item": "Desc_Plastic",
+      "Amount": 7
+ }
+],
+"Products": [
+{
+      "Item": "Desc_CircuitBoardHighSpeed",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 15.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_Electronics_C",
+"ManufacturingMenuPriority": 10.0,
+"UnlockedBy": ["Schematic_Alternate_AILimiter_Plastic_C"],
+"ManualManufacturingDuration":1485.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

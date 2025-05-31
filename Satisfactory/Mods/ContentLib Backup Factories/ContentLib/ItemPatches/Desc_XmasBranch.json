@@ -1,0 +1,14 @@
+//Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBranch.Desc_XmasBranch_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "FICSMAS Tree Branch",
+"NameShort": "",
+"Description": "This FICSMAS Tree Branch is very different from regular tree branches: it's used to produce parts and buildings during the FICSMAS event, rather than for combustion.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_FICSMAS_C",
+"StackSize": "Huge"
+}

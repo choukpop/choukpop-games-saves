@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/PackingExpansion/Icons/Heavy_Oil_Residue_Pack-modified.Heavy_Oil_Residue_Pack-modified",
+	"SmallIcon": "/PackingExpansion/Icons/Heavy_Oil_Residue_Pack-modified.Heavy_Oil_Residue_Pack-modified",
+	"FluidColor":
+	{
+		"r": 122,
+		"g": 0,
+		"b": 140,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 122,
+		"g": 0,
+		"b": 140,
+		"a": 0
+	}
+}

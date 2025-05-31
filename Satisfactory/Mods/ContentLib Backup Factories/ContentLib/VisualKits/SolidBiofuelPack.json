@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/SolidBiofuel/SM_SolidBiofuel_01.SM_SolidBiofuel_01",
+	"BigIcon": "/PackingExpansion/Icons/Solid_Biofuel_pack.Solid_Biofuel_pack",
+	"SmallIcon": "/PackingExpansion/Icons/Solid_Biofuel_pack.Solid_Biofuel_pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

@@ -1,0 +1,31 @@
+//KPrivateCodeLib/SubSystem/NetworkSchematic_Unlock_Push.NetworkSchematic_Unlock_Push_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Inventory Push Module",
+"Type": "MAM",
+"VisualKit": "NetworkSchematic_Unlock_Push_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_ResourceSinkCoupon",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 50
+ }],
+"Category": "",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 3.0,
+"Tier": 0,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": [],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

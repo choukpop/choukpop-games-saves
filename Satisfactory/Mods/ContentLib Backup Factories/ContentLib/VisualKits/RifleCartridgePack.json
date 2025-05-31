@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Equipment/Rifle/Mesh/SM_RifleMagDrop_Regular_01.SM_RifleMagDrop_Regular_01",
+	"BigIcon": "/PackingExpansion/Icons/Rifle_Ammo_Pack.Rifle_Ammo_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Rifle_Ammo_Pack.Rifle_Ammo_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

@@ -1,0 +1,39 @@
+//Game/FactoryGame/Schematics/Progression/Schematic_9-2.Schematic_9-2_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Quantum Encoding",
+"Type": "Milestone",
+"VisualKit": "Schematic_9-2_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_TimeCrystal",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_FicsiteMesh",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_MotorLightweight",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_ComputerSuper",
+      "Amount": 400
+ }],
+"Category": "SC_Production_C",
+"SubCategories": [],
+"MenuPriority": 2.0,
+"Time": 1200.0,
+"Tier": 9,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_QuantumEncoder_C","Recipe_QuantumEnergy_C","Recipe_DarkEnergy_C","Recipe_DarkMatter_C","Recipe_SuperpositionOscillator_C","Recipe_TemporalProcessor_C","Recipe_SpaceElevatorPart_12_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

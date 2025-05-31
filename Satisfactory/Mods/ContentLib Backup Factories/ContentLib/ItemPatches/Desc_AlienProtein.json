@@ -1,0 +1,15 @@
+//Game/FactoryGame/Resource/Parts/AlienProtein/Desc_AlienProtein.Desc_AlienProtein_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Alien Protein",
+"NameShort": "",
+"Description": "Ground-up Alien Remains in a neat little package.
+Used for medical purposes and to research alien organisms.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_AlienRemains_C",
+"StackSize": "Medium"
+}

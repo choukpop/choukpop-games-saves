@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_StandaloneWidgetSign_Portrait.Recipe_StandaloneWidgetSign_Portrait_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Portrait Sign",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 4
+ },
+{
+      "Item": "Desc_QuartzCrystal",
+      "Amount": 10
+ }
+],
+"Products": [
+{
+      "Item": "Desc_StandaloneWidgetSign_Portrait",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_DisplaySigns_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

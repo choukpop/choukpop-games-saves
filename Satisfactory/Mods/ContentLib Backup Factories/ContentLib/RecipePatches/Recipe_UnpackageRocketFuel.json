@@ -1,0 +1,32 @@
+//Game/FactoryGame/Recipes/Packager/Recipe_UnpackageRocketFuel.Recipe_UnpackageRocketFuel_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Unpackage Rocket Fuel",
+"Ingredients": [
+{
+      "Item": "Desc_PackagedRocketFuel",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RocketFuel",
+      "Amount": 2000
+ },
+{
+      "Item": "Desc_GasTank",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 1.0,
+"ProducedIn": ["Build_Packager_C"],
+"OverrideCategory": "Cat_Unpackaging_C",
+"ManufacturingMenuPriority": 6.0,
+"UnlockedBy": ["Research_Sulfur_RocketFuel_C"],
+"ManualManufacturingDuration":1.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

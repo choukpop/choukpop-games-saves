@@ -1,0 +1,15 @@
+//Game/FactoryGame/Resource/Parts/RocketFuel/Desc_RocketFuel.Desc_RocketFuel_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Rocket Fuel",
+"NameShort": "Rocket",
+"Description": "A high-impulse compressed gas fuel.
+Can be used as-is to power Fuel-Powered Generators, or packaged to be used as fuel for vehicles or the Jetpack.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 3.6,
+"RadioactiveDecay": 0.0,
+"Form": "Gas",
+"Category": "Cat_Fuel_C",
+"StackSize": "Fluid"
+}

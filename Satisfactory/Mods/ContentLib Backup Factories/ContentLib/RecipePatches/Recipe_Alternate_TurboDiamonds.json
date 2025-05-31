@@ -1,0 +1,32 @@
+//PackingExpansion/Recipes/Recipe_Alternate_TurboDiamonds.Recipe_Alternate_TurboDiamonds_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alt: Turbo Diamonds Pack",
+"Ingredients": [
+{
+      "Item": "CoalPack",
+      "Amount": 30
+ },
+{
+      "Item": "PackTurbofuelPack",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "DiamondsPack",
+      "Amount": 3
+ }
+],
+"ManufacturingDuration": 75.0,
+"ProducedIn": ["Build_HadronCollider_C"],
+"OverrideCategory": "Cat_AdvancedRefinement_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T9_C"],
+"ManualManufacturingDuration":75.0,
+"VariablePowerConsumptionConstant": 250.0,
+"VariablePowerConsumptionFactor": 500.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_PipelinePump.Recipe_PipelinePump_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Pipeline Pump Mk.1",
+"Ingredients": [
+{
+      "Item": "Desc_CopperSheet",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_Rotor",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_PipelinePump",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_3-1_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

@@ -1,0 +1,31 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Caterium Ore (Quartz) Pack",
+"Ingredients": [
+{
+      "Item": "ReanimatedSAMPack",
+      "Amount": 1
+ },
+{
+      "Item": "RawQuartzPack",
+      "Amount": 12
+ }
+],
+"Products": [
+{
+      "Item": "CateriumOrePack",
+      "Amount": 12
+ }
+],
+"ManufacturingDuration": 150.0,
+"ProducedIn": ["Build_Converter_C"],
+"OverrideCategory": "Cat_RawConversion_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T9_C"],
+"ManualManufacturingDuration":150.0,
+"VariablePowerConsumptionConstant": 100.0,
+"VariablePowerConsumptionFactor": 400.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

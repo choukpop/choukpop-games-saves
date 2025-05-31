@@ -1,0 +1,35 @@
+//Game/FactoryGame/Schematics/Research/Sulfur_RS/Research_Sulfur_TurboFuel.Research_Sulfur_TurboFuel_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Turbofuel",
+"Type": "MAM",
+"VisualKit": "Research_Sulfur_TurboFuel_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_HardDrive",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_CompactedCoal",
+      "Amount": 15
+ },
+{
+      "Item": "Desc_Fuel",
+      "Amount": 50
+ }],
+"Category": "SC_Organisation_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 3.0,
+"Tier": 3,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_Alternate_Turbofuel_C","Recipe_PackagedTurboFuel_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

@@ -1,0 +1,32 @@
+//Game/FactoryGame/Recipes/SpaceElevatorParts/Recipe_SpaceElevatorPart_9.Recipe_SpaceElevatorPart_9_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Nuclear Pasta",
+"Ingredients": [
+{
+      "Item": "Desc_CopperDust",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_PressureConversionCube",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_SpaceElevatorPart_9",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 120.0,
+"ProducedIn": ["Build_HadronCollider_C"],
+"OverrideCategory": "Cat_SpaceElevator_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schematic_8-5_C"],
+"ManualManufacturingDuration":120.0,
+"VariablePowerConsumptionConstant": 500.0,
+"VariablePowerConsumptionFactor": 1000.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

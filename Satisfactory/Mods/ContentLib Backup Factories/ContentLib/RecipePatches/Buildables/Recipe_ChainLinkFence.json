@@ -1,0 +1,19 @@
+//Game/FactoryGame/Recipes/Buildings/Fence/Recipe_ChainLinkFence.Recipe_ChainLinkFence_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Construction Fence",
+"Ingredients": [
+{
+      "Item": "Desc_IronRod",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_ChainLinkFence",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_Fences_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

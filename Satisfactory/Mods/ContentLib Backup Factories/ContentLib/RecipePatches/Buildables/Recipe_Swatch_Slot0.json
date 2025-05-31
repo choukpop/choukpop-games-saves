@@ -1,0 +1,13 @@
+//Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot0.Recipe_Swatch_Slot0_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "N/A",
+"Ingredients": [
+
+],
+"Products": [
+],
+"UnlockedBy": ["CustomizerUnlock_ColourSwatches_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

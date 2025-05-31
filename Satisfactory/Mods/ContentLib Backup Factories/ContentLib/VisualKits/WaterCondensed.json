@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/PackagedWater/SM_PackedWater_01.SM_PackedWater_01",
+	"BigIcon": "/PackingExpansion/Icons/Water_Pack-modified.Water_Pack-modified",
+	"SmallIcon": "/PackingExpansion/Icons/Water_Pack-modified.Water_Pack-modified",
+	"FluidColor":
+	{
+		"r": 0,
+		"g": 45,
+		"b": 228,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 0,
+		"g": 45,
+		"b": 228,
+		"a": 0
+	}
+}

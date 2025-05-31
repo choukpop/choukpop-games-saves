@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/HeavyOilResidue/SM_HeavyOilResidue_01.SM_HeavyOilResidue_01",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/QuantumEnergy/IconDesc_QuantumEnergy_256.IconDesc_QuantumEnergy_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/QuantumEnergy/IconDesc_QuantumEnergy_256.IconDesc_QuantumEnergy_256",
+	"FluidColor":
+	{
+		"r": 118,
+		"g": 245,
+		"b": 232,
+		"a": 90
+	},
+	"GasColor":
+	{
+		"r": 76,
+		"g": 102,
+		"b": 132,
+		"a": 0
+	}
+}

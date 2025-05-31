@@ -1,0 +1,32 @@
+//Game/FactoryGame/Recipes/OilRefinery/Recipe_ResidualPlastic.Recipe_ResidualPlastic_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Residual Plastic",
+"Ingredients": [
+{
+      "Item": "Desc_PolymerResin",
+      "Amount": 6
+ },
+{
+      "Item": "Desc_Water",
+      "Amount": 2000
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Plastic",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 6.0,
+"ProducedIn": ["Build_OilRefinery_C"],
+"OverrideCategory": "Cat_SolidOilProducts_C",
+"ManufacturingMenuPriority": 1.0,
+"UnlockedBy": ["Schematic_5-1-1_C"],
+"ManualManufacturingDuration":6.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

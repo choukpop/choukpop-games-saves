@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/World/Environment/Swamp/EdibleMushroom/Mesh/SM_Mushroom_01_ConveyorMesh.SM_Mushroom_01_ConveyorMesh",
+	"BigIcon": "/Game/FactoryGame/Resource/Environment/DesertShroom/UI/Mushroom_256.Mushroom_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Environment/DesertShroom/UI/Mushroom_256.Mushroom_256",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

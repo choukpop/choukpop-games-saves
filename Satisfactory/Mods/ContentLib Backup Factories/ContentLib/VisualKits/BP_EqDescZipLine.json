@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Equipment/Zipline/Mesh/SM_Zipline_conveyor_01.SM_Zipline_conveyor_01",
+	"BigIcon": "/Game/FactoryGame/Equipment/Zipline/UI/IconDesc_Zipline_256.IconDesc_Zipline_256",
+	"SmallIcon": "/Game/FactoryGame/Equipment/Zipline/UI/IconDesc_Zipline_256.IconDesc_Zipline_256",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

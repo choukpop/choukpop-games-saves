@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/Motor/SM_Engine_01.SM_Engine_01",
+	"BigIcon": "/PackingExpansion/Icons/Motor_Pack.Motor_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Motor_Pack.Motor_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

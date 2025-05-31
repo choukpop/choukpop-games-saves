@@ -1,0 +1,35 @@
+//Game/FactoryGame/Schematics/Progression/Schematic_6-7.Schematic_6-7_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Railway Signalling",
+"Type": "Milestone",
+"VisualKit": "Schematic_6-7_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_Computer",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 400
+ },
+{
+      "Item": "Desc_CopperSheet",
+      "Amount": 1000
+ }],
+"Category": "SC_Logistics_C",
+"SubCategories": [],
+"MenuPriority": 3.0,
+"Time": 300.0,
+"Tier": 6,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_RailroadBlockSignal_C","Recipe_RailroadPathSignal_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

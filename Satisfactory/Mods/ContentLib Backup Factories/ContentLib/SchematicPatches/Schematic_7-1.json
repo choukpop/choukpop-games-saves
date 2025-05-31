@@ -1,0 +1,39 @@
+//Game/FactoryGame/Schematics/Progression/Schematic_7-1.Schematic_7-1_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Bauxite Refinement",
+"Type": "Milestone",
+"VisualKit": "Schematic_7-1_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_Computer",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_Motor",
+      "Amount": 250
+ },
+{
+      "Item": "Desc_Rubber",
+      "Amount": 500
+ }],
+"Category": "SC_Production_C",
+"SubCategories": [],
+"MenuPriority": 1.0,
+"Time": 600.0,
+"Tier": 7,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_AluminaSolution_C","Recipe_PackagedAlumina_C","Recipe_AluminumScrap_C","Recipe_IngotAluminum_C","Recipe_AluminumSheet_C","Recipe_AluminumCasing_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

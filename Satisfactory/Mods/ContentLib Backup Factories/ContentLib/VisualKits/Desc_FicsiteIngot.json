@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/FicsiteIngot/SM_FicsiteIngot.SM_FicsiteIngot",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/FicsiteIngot/UI/IconDesc_FicsiteIngot_256.IconDesc_FicsiteIngot_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/FicsiteIngot/UI/IconDesc_FicsiteIngot_256.IconDesc_FicsiteIngot_256",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

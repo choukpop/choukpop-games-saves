@@ -1,0 +1,16 @@
+//FactorioMachine/Building/Rec_YouModMachine.Rec_YouModMachine_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "You Mod Machine - Factorio",
+"Ingredients": [
+
+],
+"Products": [
+{
+      "Item": "Desc_YouModMachine",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schem_YouModMachine_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

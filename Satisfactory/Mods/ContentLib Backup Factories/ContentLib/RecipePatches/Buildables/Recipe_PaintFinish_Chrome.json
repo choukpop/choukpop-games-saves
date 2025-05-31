@@ -1,0 +1,13 @@
+//Game/FactoryGame/Buildable/-Shared/Customization/PaintFinishes/Metals/Recipe_PaintFinish_Chrome.Recipe_PaintFinish_Chrome_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Chrome Finish",
+"Ingredients": [
+
+],
+"Products": [
+],
+"UnlockedBy": ["ResourceSink_Chrome_PaintFinish_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

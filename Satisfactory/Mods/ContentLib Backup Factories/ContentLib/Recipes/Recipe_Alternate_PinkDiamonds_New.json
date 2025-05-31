@@ -1,0 +1,31 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alt: Pink Diamonds Pack",
+"Ingredients": [
+{
+      "Item": "CoalPack",
+      "Amount": 8
+ },
+{
+      "Item": "QuartzCrystalPack",
+      "Amount": 3
+ }
+],
+"Products": [
+{
+      "Item": "DiamondsPack",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 100.0,
+"ProducedIn": ["Build_Converter_C"],
+"OverrideCategory": "Cat_AdvancedRefinement_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T9_C"],
+"ManualManufacturingDuration":100.0,
+"VariablePowerConsumptionConstant": 100.0,
+"VariablePowerConsumptionFactor": 300.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

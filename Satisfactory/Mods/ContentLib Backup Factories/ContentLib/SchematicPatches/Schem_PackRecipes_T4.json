@@ -1,0 +1,27 @@
+//PackingExpansion/Schem_PackRecipes_T4.Schem_PackRecipes_T4_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "T4 Packing Manufacturing Recipes",
+"Type": "Milestone",
+"VisualKit": "Schem_PackRecipes_T4_C",
+"Description": "",
+"Cost": [{
+      "Item": "SteelBeamPack",
+      "Amount": 5
+ }],
+"Category": "SC_Production_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 60.0,
+"Tier": 4,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_Stator_C","Recipe_Motor_C","Recipe_AutomatedWiring_C","Recipe_EncasedIndustrialBeam_C","Recipe_Alternate_EncasedIndustrialPipe_C","Recipe_Alternate_QuickwireStator_C","Recipe_AILimiter_C","Recipe_Alternate_InsulatedCable_C","Recipe_Alternate_QuickwireCable_C","Recipe_Alternate_SteelCoatedPlate_C","Recipe_Alternate_AdheredIronPlate_C","Recipe_Alternate_RubberConcrete_C","Recipe_Alternate_CoatedIronPlate_C","Recipe_EmptyCanister_C","Recipe_PackageWater_C","Recipe_UnpackWater_C","Recipe_PackageCrudeOil_C","Recipe_UnpackCrudeOil_C","Recipe_PackageHeavyOilResidue_C","Recipe_UnpackHeavyOilResidue_C","Recipe_PackageLiquidBiofuel_C","Recipe_UnpackLiquidBiofuel_C","Recipe_PackageFuel_C","Recipe_UnpackFuel_C","Recipe_PackageTurbofuel_C","Recipe_UnpackTurbofuel_C","Recipe_Alternate_CoatedIronCanister_C","Recipe_Alternate_SteelCanister_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

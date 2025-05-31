@@ -1,0 +1,31 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alternate: Cheap Silica",
+"Ingredients": [
+{
+      "Item": "Desc_RawQuartz",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_Stone",
+      "Amount": 5
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Silica",
+      "Amount": 7
+ }
+],
+"ManufacturingDuration": 8.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_Minerals_C",
+"ManufacturingMenuPriority": 3.0,
+"UnlockedBy": ["Schematic_Alternate_Silica_C"],
+"ManualManufacturingDuration":8.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

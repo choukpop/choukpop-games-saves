@@ -1,0 +1,39 @@
+//Game/FactoryGame/Schematics/Progression/Schematic_2-1.Schematic_2-1_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Part Assembly",
+"Type": "Milestone",
+"VisualKit": "Schematic_2-1_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_Cable",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_IronRod",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_IronScrew",
+      "Amount": 500
+ },
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 300
+ }],
+"Category": "SC_Logistics_C",
+"SubCategories": [],
+"MenuPriority": 1.0,
+"Time": 360.0,
+"Tier": 2,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_AssemblerMk1_C","Recipe_CopperSheet_C","Recipe_Rotor_C","Recipe_ModularFrame_C","Recipe_SpaceElevatorPart_1_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

@@ -1,0 +1,15 @@
+//Game/FactoryGame/Resource/Equipment/Zipline/BP_EqDescZipLine.BP_EqDescZipLine_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Zipline",
+"NameShort": "",
+"Description": "Provides faster traversal of factories by allowing pioneers to zip along Power lines.
+Activate the Zipline and aim at a nearby Power Line to connect to it.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Hands_C",
+"StackSize": "One"
+}

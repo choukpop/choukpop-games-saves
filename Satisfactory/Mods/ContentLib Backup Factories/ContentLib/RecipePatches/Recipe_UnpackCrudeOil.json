@@ -1,0 +1,32 @@
+//PackingExpansion/Recipes/Recipe_UnpackCrudeOil.Recipe_UnpackCrudeOil_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Unpackage Crude Oil",
+"Ingredients": [
+{
+      "Item": "PackCrudeOilPack",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "CrudeOilCondensed",
+      "Amount": 2000
+ },
+{
+      "Item": "EmptyCanisterPack",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 50.0,
+"ProducedIn": ["Build_Packager_C"],
+"OverrideCategory": "Cat_Unpackaging_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T4_C"],
+"ManualManufacturingDuration":50.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

@@ -1,0 +1,39 @@
+//Game/FactoryGame/Schematics/Progression/Schematic_9-4.Schematic_9-4_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Spatial Energy Regulation",
+"Type": "Milestone",
+"VisualKit": "Schematic_9-4_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_QuantumOscillator",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_MotorLightweight",
+      "Amount": 250
+ },
+{
+      "Item": "Desc_ModularFrameLightweight",
+      "Amount": 500
+ },
+{
+      "Item": "Desc_SAMFluctuator",
+      "Amount": 1000
+ }],
+"Category": "SC_Production_C",
+"SubCategories": [],
+"MenuPriority": 4.0,
+"Time": 600.0,
+"Tier": 9,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_Portal_C","Recipe_PortalSatellite_C","Recipe_SingularityCell_C","Recipe_SpaceElevatorPart_11_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

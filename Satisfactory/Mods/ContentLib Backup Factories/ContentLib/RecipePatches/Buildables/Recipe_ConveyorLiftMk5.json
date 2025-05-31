@@ -1,0 +1,19 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk5.Recipe_ConveyorLiftMk5_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Conveyor Lift Mk.5",
+"Ingredients": [
+{
+      "Item": "Desc_AluminumPlate",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_ConveyorLiftMk5",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_7-2_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

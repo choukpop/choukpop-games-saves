@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Equipment/JumpingStilts/Mesh/JumpingStilts_02.JumpingStilts_02",
+	"BigIcon": "/Game/FactoryGame/Equipment/JumpingStilts/UI/IconDesc_SprintingStilts_256.IconDesc_SprintingStilts_256",
+	"SmallIcon": "/Game/FactoryGame/Equipment/JumpingStilts/UI/IconDesc_SprintingStilts_256.IconDesc_SprintingStilts_256",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

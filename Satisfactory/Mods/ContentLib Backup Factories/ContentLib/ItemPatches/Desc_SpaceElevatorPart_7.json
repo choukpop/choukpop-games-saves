@@ -1,0 +1,16 @@
+//Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_7.Desc_SpaceElevatorPart_7_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Assembly Director System",
+"NameShort": "",
+"Description": "Project Part #6. Ship via the Space Elevator to complete phases of Project Assembly.
+
+This extremely fast and precise computing system is specifically designed to direct the Project Assembly: Assembly Phase.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_SpaceElevator_C",
+"StackSize": "Small"
+}

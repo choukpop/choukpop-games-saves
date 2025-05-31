@@ -1,0 +1,16 @@
+//Game/FactoryGame/Resource/Parts/SAMIngot/Desc_SAMIngot.Desc_SAMIngot_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Reanimated SAM",
+"NameShort": "",
+"Description": "The active and contained form of the Strange Alien Matter.
+
+Proper electromagnetic containment is required, as it appears to be able to manipulate the atomic bonds of any matter it comes into contact with.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Electronics_C",
+"StackSize": "Medium"
+}

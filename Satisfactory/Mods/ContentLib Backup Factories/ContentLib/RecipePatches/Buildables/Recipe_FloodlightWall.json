@@ -1,0 +1,27 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_FloodlightWall.Recipe_FloodlightWall_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Wall-Mounted Flood Light",
+"Ingredients": [
+{
+      "Item": "Desc_HighSpeedWire",
+      "Amount": 25
+ },
+{
+      "Item": "Desc_CopperSheet",
+      "Amount": 4
+ },
+{
+      "Item": "Desc_SteelPlateReinforced",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_FloodlightWall",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_LightTower_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}
