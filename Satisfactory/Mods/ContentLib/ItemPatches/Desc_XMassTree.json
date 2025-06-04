@@ -1,0 +1,14 @@
+//Game/FactoryGame/Events/Christmas/Buildings/TreeDecor/Desc_XMassTree.Desc_XMassTree_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Giant FICSMAS Tree",
+"NameShort": "",
+"Description": "Decorate this unique one-of-a-kind tree by progressing through the FICSMAS Holiday Event in the MAM.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_FICSMAS_C",
+"StackSize": "One"
+}

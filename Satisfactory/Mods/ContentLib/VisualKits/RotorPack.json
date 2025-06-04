@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/Rotor/SM_Rotor_01.SM_Rotor_01",
+	"BigIcon": "/PackingExpansion/Icons/Rotor_Pack.Rotor_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Rotor_Pack.Rotor_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

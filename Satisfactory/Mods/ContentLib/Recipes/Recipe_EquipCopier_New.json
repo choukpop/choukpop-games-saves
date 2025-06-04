@@ -1,0 +1,35 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Recipe Copier Hand Tool",
+"Ingredients": [
+{
+      "Item": "BP_EquipmentDescriptorObjectScanner",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_Wire",
+      "Amount": 30
+ },
+{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 10
+ }
+],
+"Products": [
+{
+      "Item": "Desc_EquipRecipeCopier",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 40.0,
+"ProducedIn": [],
+"OverrideCategory": "Cat_Hands_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_RecipeCopier_HandTool_C"],
+"ManualManufacturingDuration":40.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

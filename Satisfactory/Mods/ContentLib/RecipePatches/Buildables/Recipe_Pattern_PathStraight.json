@@ -1,0 +1,13 @@
+//Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Pathways/Recipe_Pattern_PathStraight.Recipe_Pattern_PathStraight_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "N/A",
+"Ingredients": [
+
+],
+"Products": [
+],
+"UnlockedBy": ["ResourceSink_Pathways_FoundationPatterns_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

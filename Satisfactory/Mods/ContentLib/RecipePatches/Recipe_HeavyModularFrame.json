@@ -1,0 +1,40 @@
+//PackingExpansion/Recipes/Recipe_HeavyModularFrame.Recipe_HeavyModularFrame_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Heavy Modular Frame Pack",
+"Ingredients": [
+{
+      "Item": "ModularFramePack",
+      "Amount": 5
+ },
+{
+      "Item": "SteelPipePack",
+      "Amount": 20
+ },
+{
+      "Item": "EncasedIndustrialBeamPack",
+      "Amount": 5
+ },
+{
+      "Item": "ScrewPack",
+      "Amount": 120
+ }
+],
+"Products": [
+{
+      "Item": "HeavyModularFramePack",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 750.0,
+"ProducedIn": ["Build_ManufacturerMk1_C"],
+"OverrideCategory": "Cat_StandardParts_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T5_C"],
+"ManualManufacturingDuration":450.000031,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

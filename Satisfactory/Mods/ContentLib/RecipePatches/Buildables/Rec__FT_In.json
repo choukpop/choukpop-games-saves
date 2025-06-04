@@ -1,0 +1,27 @@
+//FluidTeleporter/NewFluidTeleporter/Rec__FT_In.Rec__FT_In_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Fluid Teleporter Input",
+"Ingredients": [
+{
+      "Item": "Desc_IronRod",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_CopperSheet",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_Rotor",
+      "Amount": 50
+ }
+],
+"Products": [
+{
+      "Item": "Desc__FT_In",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schem_FluidTeleporter_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

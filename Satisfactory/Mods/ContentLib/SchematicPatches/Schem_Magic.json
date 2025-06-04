@@ -1,0 +1,24 @@
+//MagicMachine/Schem_Magic.Schem_Magic_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Magic Machine",
+"Type": "Milestone",
+"VisualKit": "Schem_Magic_C",
+"Description": "",
+"Cost": [],
+"Category": "",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 0.0,
+"Tier": 0,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Rec_Magic_C","MAdaptiveControl_C","MAILimiter_C","MAlcladAluminum_C","MAlienCarapace_C","MAlienOrgans_C","MAluminumScrap_C","MAluminunIngot_C","MAutomatedWiring_C","MBaconAgaric_C","MBattery_C","MBauxite_C","MBeacon_C","MBerylNut_C","MBiomass_C","MBlackPowder_C","MBladeRunners_C","MCable_C","MCartridge_C","MCateriumIngot_C","MCateriumOre_C","MChainsaw_C","MCircuitBoard_C","MCoal_C","MColorGun_C","MCompactedCoal_C","MComputer_C","MConcrete_C","MCopperIngot_C","MCopperOre_C","MCopperSheet_C","MCrystalOscillator_C","MElectromagneticRod_C","MEmptyCanister_C","MEncasedIndustrialBeam_C","MEncasedUraniumCell_C","MFabric_C","MFilter_C","MGasMask_C","MHazmatSuit_C","MHeatSink_C","MHeavyModularFrame_C","MHighSpeedConnector_C","MIodineInfusedFilter_C","MIronIngot_C","MIronOre_C","MIronPlate_C","MIronRod_C","MJetPack_C","MLeaves_C","MLimestone_C","MMedicinalInhaler_C","MModularEngine_C","MModularFrame_C","MMotor_C","MMycelia_C","MNobelisk_C","MNobeliskDetonator_C","MNuclearFuelRod_C","MNuclearWaste_C","MObjectScanner_C","MPackagedFuel_C","MPackagedHeavyOil_C","MPackagedLiquidBioFuel_C","MPackagedOil_C","MPackagedTurboFuel_C","MPackagedWater_C","MPaleberry_C","MParachute_C","MPetroleumCoke_C","MPlastic_C","MPolymerResin_C","MPortableMiner_C","MPowerShard_C","MQuartzCrystal_C","MQuickwire_C","MRadioControlUnit_C","MRawQuartz_C","MRebarGun_C","MReinforcedIron_C","MRifle_C","MRotor_C","MRubber_C","MScrew_C","MSilica_C","MSmartPlating_C","MSolidBiofuel_C","MSpikedRebar_C","MStator_C","MSteelBeam_C","MSteelIngot_C","MSteelPipe_C","MSulfur_C","MSupercomputer_C","MTurboMotor_C","MUranium_C","MUraniumPellet_C","MVersatileFramework_C","MWire_C","MWood_C","MXenoBasher_C","MXenoZapper_C","MAluminaSolution_C","MCrudeOil_C","MFuel_C","MHeavyOilResidue_C","MLiquidBiofuel_C","MSulfuricAcid_C","MTurbofuel_C","MWater_C","Rec_MagicEnergy_C","Recipe_MagicWIP_C","MNitricAcid_C","MNitrogenGas_C","MAluminumCasing_C","MAssembDirec_C","MCoolingSystem_C","MCopper_C","MEmptyFluidTank_C","MEncPlut_C","MFusedModularFrame_C","MHover_C","MMagField_C","MNonFiss_C","MPackAlumin_C","MPackNitrAcid_C","MPackNitrogen_C","MPackSulfAcid_C","MPlutFuelRod_C","MPlutPellet_C","MPlutWaste_C","MPressConve_C","MQuantumComputer_C","MSAM_C","MSpaceElevatorPart_9_C","MSuperPosition_C","MThermProp_C","MZip_C","Recipe_Unsink_C","Rec_StackWIP_C","Rec_Random_C","Rec_Magic_C","MAlienProtein_C","MBoombox_C","MExplosiveRebar_C","MHatcherRemains_C","MHomingAmmo_C","MOrganicCapsuleData_C","MShatterRebar_C","MSmokelessPowder_C","MStingerRemains_C","MStunRebar_C","MTurboRifleAmmo_C","Rec_Magic_2_C","Rec_StackWIP_2_C","Rec_FluidSpawner_C","Spawn_Fluid_Rec_C","M_ClusterNobelisk_C","M_GasNobelisk_C","M_NukeNobelisk_C","M_PulseNobelisk_C","M_TurboRifleAmmo_C","MDark_C","MExited_C","MIonized_C","MRocket_C","MAlienPowerMatrix_C","MDarkMatterCrystal_C","MDiamonds_C","MEle10_C","MEle11_C","MEle12_C","MFicsiteIngot_C","MFicsiteTrigon_C","MFicsonium_C","MFicsoniumFR_C","MNeural_C","MPackagedIonized_C","MPackagedRocket_C","MQuantumComp_C","MReanimatedSAM_C","MSAMFluctuator_C","MSingularityCell_C","MTimeCrystal_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

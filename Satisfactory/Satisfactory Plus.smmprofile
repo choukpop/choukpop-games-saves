@@ -217,6 +217,10 @@
         "version": ">=0.0.0",
         "enabled": false
       },
+      "NoneEquipment": {
+        "version": ">=0.0.0",
+        "enabled": true
+      },
       "NuclearWasteCheat": {
         "version": ">=0.0.0",
         "enabled": true
@@ -1148,6 +1152,24 @@
           }
         },
         "version": "1.0.2"
+      },
+      "NoneEquipment": {
+        "dependencies": null,
+        "targets": {
+          "LinuxServer": {
+            "hash": "c8d8c7ebf6b01522f1ad96f2c498a6d6e2af0ea67bcc9d9aa015ac6153317a9c",
+            "link": "https://api.ficsit.app/v1/version/B6VHXLcSmFUvnq/LinuxServer/download"
+          },
+          "Windows": {
+            "hash": "0e518a35b91c288b1a9625755ed2399423d9166a94ef9584f92ac3a520f4155d",
+            "link": "https://api.ficsit.app/v1/version/B6VHXLcSmFUvnq/Windows/download"
+          },
+          "WindowsServer": {
+            "hash": "219bcdc42e55187f4c61bcf5c125ba7b4010a8b4cccb382fbf62d7bc99f1598b",
+            "link": "https://api.ficsit.app/v1/version/B6VHXLcSmFUvnq/WindowsServer/download"
+          }
+        },
+        "version": "2.0.9"
       },
       "NuclearWasteCheat": {
         "dependencies": null,

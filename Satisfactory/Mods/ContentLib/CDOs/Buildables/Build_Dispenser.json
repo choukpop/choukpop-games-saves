@@ -1,0 +1,44 @@
+{
+  "Class": "/Dispenser/Buildable/Build_Dispenser.Build_Dispenser_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 0.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.6
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": false
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 5.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Item Dispenser"
+ },
+{
+"Property": "mDescription",
+"Value": "Dispenses 1 stack of items per use from the front. 16 slot buffer inventory. Accepts a belt input."
+ },
+{
+"Property": "mHologramClass",
+"Value": "FGStackableStorageHologram"
+ },
+{
+"Property": "mInventorySizeX",
+"Value": 8
+ },
+{
+"Property": "mInventorySizeY",
+"Value": 2
+ },
+{
+"Property": "mStackingHeight",
+"Value": 400.0
+ }]
+}

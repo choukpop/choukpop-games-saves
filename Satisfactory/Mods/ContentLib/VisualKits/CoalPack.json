@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/RawResources/Ores/Meshes/SM_CoalOre_01.SM_CoalOre_01",
+	"BigIcon": "/PackingExpansion/Icons/Coal_Pack.Coal_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Coal_Pack.Coal_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

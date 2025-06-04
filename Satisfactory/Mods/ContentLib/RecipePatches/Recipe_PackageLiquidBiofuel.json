@@ -1,0 +1,32 @@
+//PackingExpansion/Recipes/Recipe_PackageLiquidBiofuel.Recipe_PackageLiquidBiofuel_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Package Liquid Biofuel",
+"Ingredients": [
+{
+      "Item": "LiquidBiofuelCondensed",
+      "Amount": 2000
+ },
+{
+      "Item": "EmptyCanisterPack",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "PackLiquidBiofuelPack",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 75.0,
+"ProducedIn": ["Build_Packager_C"],
+"OverrideCategory": "Cat_Packaging_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T4_C"],
+"ManualManufacturingDuration":75.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

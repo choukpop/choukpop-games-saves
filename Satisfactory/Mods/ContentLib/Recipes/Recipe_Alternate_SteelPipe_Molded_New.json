@@ -1,0 +1,31 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alternate: Molded Steel Pipe",
+"Ingredients": [
+{
+      "Item": "Desc_SteelIngot",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 3
+ }
+],
+"Products": [
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 5
+ }
+],
+"ManufacturingDuration": 6.0,
+"ProducedIn": ["Build_FoundryMk1_C"],
+"OverrideCategory": "Cat_StandardParts_C",
+"ManufacturingMenuPriority": 3.0,
+"UnlockedBy": ["Schematic_Alternate_SteelPipe_Molded_C"],
+"ManualManufacturingDuration":594.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

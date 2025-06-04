@@ -1,0 +1,31 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alt: Steel Rotor Pack",
+"Ingredients": [
+{
+      "Item": "SteelPipePack",
+      "Amount": 2
+ },
+{
+      "Item": "WirePack",
+      "Amount": 6
+ }
+],
+"Products": [
+{
+      "Item": "RotorPack",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 300.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_IndustrialParts_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T3_C"],
+"ManualManufacturingDuration":240.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

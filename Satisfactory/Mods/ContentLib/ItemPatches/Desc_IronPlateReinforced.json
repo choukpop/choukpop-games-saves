@@ -1,0 +1,15 @@
+//Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Reinforced Iron Plate",
+"NameShort": "",
+"Description": "Used for crafting.
+A sturdier and more durable Iron Plate.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_StandardParts_C",
+"StackSize": "Medium"
+}

@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorAttachmentMerger.Recipe_ConveyorAttachmentMerger_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Conveyor Merger",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_IronRod",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_ConveyorAttachmentMerger",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_1-2_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

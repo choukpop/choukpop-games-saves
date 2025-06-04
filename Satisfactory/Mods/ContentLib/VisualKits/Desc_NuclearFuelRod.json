@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/NuclearFuelRod/SM_NuclearFuelRod_01.SM_NuclearFuelRod_01",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/NuclearFuelRod/UI/IconDesc_NuclearFuelRod_256.IconDesc_NuclearFuelRod_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/NuclearFuelRod/UI/IconDesc_NuclearFuelRod_256.IconDesc_NuclearFuelRod_256",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

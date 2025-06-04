@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Equipment/BoomBox/Mesh/SM_BoomBox_01.SM_BoomBox_01",
+	"BigIcon": "/Game/FactoryGame/Equipment/BoomBox/UI/IconDesc_Boombox_256.IconDesc_Boombox_256",
+	"SmallIcon": "/Game/FactoryGame/Equipment/BoomBox/UI/IconDesc_Boombox_256.IconDesc_Boombox_256",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

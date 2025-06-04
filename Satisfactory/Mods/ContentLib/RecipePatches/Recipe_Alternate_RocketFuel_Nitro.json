@@ -1,0 +1,44 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/Alt_Tier9/Recipe_Alternate_RocketFuel_Nitro.Recipe_Alternate_RocketFuel_Nitro_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alternate: Nitro Rocket Fuel",
+"Ingredients": [
+{
+      "Item": "Desc_LiquidFuel",
+      "Amount": 4000
+ },
+{
+      "Item": "Desc_NitrogenGas",
+      "Amount": 3000
+ },
+{
+      "Item": "Desc_Sulfur",
+      "Amount": 4
+ },
+{
+      "Item": "Desc_Coal",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_RocketFuel",
+      "Amount": 6000
+ },
+{
+      "Item": "Desc_CompactedCoal",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 2.4,
+"ProducedIn": ["Build_Blender_C"],
+"OverrideCategory": "Cat_Fuel_C",
+"ManufacturingMenuPriority": 3.0,
+"UnlockedBy": ["Schematic_Alternate_RocketFuel_Nitro_C"],
+"ManualManufacturingDuration":237.600006,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

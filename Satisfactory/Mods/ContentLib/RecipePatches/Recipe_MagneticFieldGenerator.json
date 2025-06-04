@@ -1,0 +1,32 @@
+//PackingExpansion/Recipes/Recipe_MagneticFieldGenerator.Recipe_MagneticFieldGenerator_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Magnetic Field Generator Pack",
+"Ingredients": [
+{
+      "Item": "VersatileFrameworkPack",
+      "Amount": 5
+ },
+{
+      "Item": "ElectromagneticRodPack",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "MagneticFieldGeneratorPack",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 3000.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_SpaceElevator_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T8_C"],
+"ManualManufacturingDuration":3000.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

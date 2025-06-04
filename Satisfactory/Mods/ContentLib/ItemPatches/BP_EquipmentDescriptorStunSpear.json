@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Equipment/StunSpear/BP_EquipmentDescriptorStunSpear.BP_EquipmentDescriptorStunSpear_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Xeno-Basher",
+"NameShort": "",
+"Description": "A heavy self-defense electroshock melee weapon.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Weapons_C",
+"StackSize": "One"
+}

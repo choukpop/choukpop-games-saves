@@ -1,0 +1,27 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Steel Pipe Pack",
+"Ingredients": [
+{
+      "Item": "SteelIngotPack",
+      "Amount": 3
+ }
+],
+"Products": [
+{
+      "Item": "SteelPipePack",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 150.0,
+"ProducedIn": ["Build_ConstructorMk1_C"],
+"OverrideCategory": "Cat_StandardParts_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T3_C"],
+"ManualManufacturingDuration":150.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

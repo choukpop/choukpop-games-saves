@@ -1,0 +1,35 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_DroneStation.Recipe_DroneStation_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Drone Port",
+"Ingredients": [
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_HighSpeedConnector",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_AluminumPlate",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_AluminumCasing",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_ModularFrameLightweight",
+      "Amount": 10
+ }
+],
+"Products": [
+{
+      "Item": "Desc_DroneStation",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_7-4_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

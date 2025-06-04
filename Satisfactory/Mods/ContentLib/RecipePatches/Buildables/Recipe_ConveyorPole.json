@@ -1,0 +1,27 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorPole.Recipe_ConveyorPole_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Conveyor Pole",
+"Ingredients": [
+{
+      "Item": "Desc_IronRod",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_ConveyorPole",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_Tutorial3_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

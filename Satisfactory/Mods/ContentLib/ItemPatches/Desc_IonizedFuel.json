@@ -1,0 +1,15 @@
+//Game/FactoryGame/Resource/Parts/IonizedFuel/Desc_IonizedFuel.Desc_IonizedFuel_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Ionized Fuel",
+"NameShort": "Ion",
+"Description": "Fuel that has been ionized, allowing it to deliver incredible output.
+Can be used as-is to power Fuel-Powered Generators, or packaged to be used as fuel for vehicles or the Jetpack.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 5.0,
+"RadioactiveDecay": 0.0,
+"Form": "Gas",
+"Category": "Cat_Fuel_C",
+"StackSize": "Fluid"
+}

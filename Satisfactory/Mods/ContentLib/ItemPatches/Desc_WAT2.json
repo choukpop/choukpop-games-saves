@@ -1,0 +1,14 @@
+//Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Mercer Sphere",
+"NameShort": "",
+"Description": "A weird alien phenomenon. While the sphere appears liquid, it behaves like a solid and does not have any detectable mass. It seems to somehow interact with and have awareness of its environment.",
+"CanBeDiscarded": false,
+"RememberPickUp": true,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "",
+"StackSize": "Small"
+}

@@ -1,0 +1,14 @@
+//Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Somersloop",
+"NameShort": "",
+"Description": "An odd alien object with a mind-bending, yet somehow familiar shape. It emits an unsettling energy.",
+"CanBeDiscarded": false,
+"RememberPickUp": true,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "",
+"StackSize": "Small"
+}

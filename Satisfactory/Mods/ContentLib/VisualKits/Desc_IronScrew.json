@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/IronScrew/SM_IronScrew_01.SM_IronScrew_01",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/IronScrew/UI/IconDesc_IronScrews_256.IconDesc_IronScrews_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/IronScrew/UI/IconDesc_IronScrews_256.IconDesc_IronScrews_256",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

@@ -1,0 +1,27 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_UJellyLandingPad.Recipe_UJellyLandingPad_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "U-Jelly Landing Pad",
+"Ingredients": [
+{
+      "Item": "Desc_Rotor",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_Cable",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_GenericBiomass",
+      "Amount": 200
+ }
+],
+"Products": [
+{
+      "Item": "Desc_LandingPad",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_2-3_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

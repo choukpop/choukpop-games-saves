@@ -1,0 +1,24 @@
+//Game/FactoryGame/Schematics/Alternate/Parts/Schematic_Alternate_Rotor.Schematic_Alternate_Rotor_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Alternate: Steel Rotor",
+"Type": "Alternate",
+"VisualKit": "Schematic_Alternate_Rotor_C",
+"Description": "",
+"Cost": [],
+"Category": "SC_Logistics_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 0.0,
+"Tier": 4,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_Alternate_Rotor_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

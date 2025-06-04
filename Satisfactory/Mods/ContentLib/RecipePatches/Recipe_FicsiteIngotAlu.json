@@ -1,0 +1,32 @@
+//PackingExpansion/Recipes/Recipe_FicsiteIngotAlu.Recipe_FicsiteIngotAlu_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Ficsite Ingot (Alu) Pack",
+"Ingredients": [
+{
+      "Item": "ReanimatedSAMPack",
+      "Amount": 2
+ },
+{
+      "Item": "AluminumIngotPack",
+      "Amount": 4
+ }
+],
+"Products": [
+{
+      "Item": "FicsiteIngotPack",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 50.0,
+"ProducedIn": ["Build_Converter_C"],
+"OverrideCategory": "Cat_Ingots_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T9_C"],
+"ManualManufacturingDuration":50.0,
+"VariablePowerConsumptionConstant": 100.0,
+"VariablePowerConsumptionFactor": 300.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

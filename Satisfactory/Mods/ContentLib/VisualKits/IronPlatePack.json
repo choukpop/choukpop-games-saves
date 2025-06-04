@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/IronPlate/SM_IronPlate_01.SM_IronPlate_01",
+	"BigIcon": "/PackingExpansion/Icons/Iron_Plate_Pack.Iron_Plate_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Iron_Plate_Pack.Iron_Plate_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

@@ -1,0 +1,49 @@
+{
+  "Class": "/PackingExpansion/Generators/GeneratorCoal/Build_GeneratorCoalPack.Build_GeneratorCoalPack_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 0.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.6
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": true
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 5.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "PE Coal Generator"
+ },
+{
+"Property": "mDescription",
+"Value": "Burns Packaged Coal to boil Pressurized Water, the produced steam rotates turbines to generate electricty for the power grid.
+Has a Conveyor Belt and Pipe input, so both the Coal and Water supply can be automated."
+ },
+{
+"Property": "mHologramClass",
+"Value": "FGFactoryHologram"
+ },
+{
+"Property": "mPowerProduction",
+"Value": 75.0
+ },
+{
+"Property": "mSupplementalResourceClass",
+"Value": "WaterCondensed_C"
+ },
+{
+"Property": "mSupplementalLoadAmount",
+"Value": 1000
+ },
+{
+"Property": "mIsFullBlast",
+"Value": true
+ }]
+}

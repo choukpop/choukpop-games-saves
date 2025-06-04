@@ -1,0 +1,39 @@
+//StorageTeleporter/Schematics/ST_Schematic.ST_Schematic_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Storage Teleporter",
+"Type": "Milestone",
+"VisualKit": "ST_Schematic_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_Computer",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_CrystalOscillator",
+      "Amount": 25
+ },
+{
+      "Item": "Desc_CircuitBoardHighSpeed",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_Cable",
+      "Amount": 2000
+ }],
+"Category": "",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 60.0,
+"Tier": 5,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_HUB_Interface_C","Recipe_STHub_C","ItemTeleporter_Recipe_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

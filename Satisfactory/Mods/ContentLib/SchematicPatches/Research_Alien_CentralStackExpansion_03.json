@@ -1,0 +1,31 @@
+//Game/FactoryGame/Schematics/Research/AlienTech_RS/Research_Alien_CentralStackExpansion_03.Research_Alien_CentralStackExpansion_03_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Depot Expansion (400%)",
+"Type": "MAM",
+"VisualKit": "Research_Alien_CentralStackExpansion_03_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_WAT2",
+      "Amount": 13
+ },
+{
+      "Item": "Desc_SAMFluctuator",
+      "Amount": 151
+ }],
+"Category": "SC_Organisation_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 3.0,
+"Tier": 0,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": [],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

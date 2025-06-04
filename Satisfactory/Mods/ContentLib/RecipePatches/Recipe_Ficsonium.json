@@ -1,0 +1,36 @@
+//Game/FactoryGame/Recipes/Converter/Recipe_Ficsonium.Recipe_Ficsonium_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Ficsonium",
+"Ingredients": [
+{
+      "Item": "Desc_PlutoniumWaste",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_SingularityCell",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_DarkEnergy",
+      "Amount": 20000
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Ficsonium",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 6.0,
+"ProducedIn": ["Build_HadronCollider_C"],
+"OverrideCategory": "Cat_Nuclear_C",
+"ManufacturingMenuPriority": 2.0,
+"UnlockedBy": ["Schematic_9-5_C"],
+"ManualManufacturingDuration":0.0,
+"VariablePowerConsumptionConstant": 500.0,
+"VariablePowerConsumptionFactor": 1000.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

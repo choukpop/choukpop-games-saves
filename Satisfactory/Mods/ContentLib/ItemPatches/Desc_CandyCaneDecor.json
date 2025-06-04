@@ -1,0 +1,19 @@
+//Game/FactoryGame/Events/Christmas/Buildings/CandyCaneDecor/Desc_CandyCaneDecor.Desc_CandyCaneDecor_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "FICSMAS Candy Cane",
+"NameShort": "",
+"Description": "A giant Candy Cane decoration.
+
+- Not for consumption.
+- Do not inhale close to it without appropriate protection.
+- Do not put in your eyes.
+- Keep away from overly curious wildlife.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_FICSMAS_C",
+"StackSize": "Medium"
+}

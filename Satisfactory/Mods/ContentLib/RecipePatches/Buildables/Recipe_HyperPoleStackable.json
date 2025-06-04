@@ -1,0 +1,27 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_HyperPoleStackable.Recipe_HyperPoleStackable_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Stackable Hypertube Support",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 4
+ },
+{
+      "Item": "Desc_IronRod",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_HyperPoleStackable",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_4-4_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

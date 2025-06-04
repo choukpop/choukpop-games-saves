@@ -1,0 +1,27 @@
+//Game/FactoryGame/Events/Christmas/Buildings/TreeDecor/Recipe_XMassTree.Recipe_XMassTree_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Giant FICSMAS Tree",
+"Ingredients": [
+{
+      "Item": "Desc_XmasBranch",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 500
+ }
+],
+"Products": [
+{
+      "Item": "Desc_XMassTree",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Research_XMas_1_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

@@ -1,0 +1,39 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_AlienPowerBuilding.Recipe_AlienPowerBuilding_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alien Power Augmenter",
+"Ingredients": [
+{
+      "Item": "Desc_WAT1",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_SAMFluctuator",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_Cable",
+      "Amount": 100
+ },
+{
+      "Item": "Desc_SteelPlateReinforced",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_Motor",
+      "Amount": 25
+ },
+{
+      "Item": "Desc_Computer",
+      "Amount": 10
+ }
+],
+"Products": [
+{
+      "Item": "Desc_AlienPowerBuilding",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Research_Alien_PowerBooster_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

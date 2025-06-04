@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Fence/Recipe_Barrier_Low_01.Recipe_Barrier_Low_01_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Low Barrier",
+"Ingredients": [
+{
+      "Item": "Desc_Cement",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Barrier_Low_01",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_FactoryBarrier2_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

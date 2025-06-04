@@ -1,0 +1,23 @@
+//GameTime/Clock/Rec_Clock_3.Rec_Clock_3_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Billboard Clock",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_Cable",
+      "Amount": 10
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Clock_3",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schem_Clock_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

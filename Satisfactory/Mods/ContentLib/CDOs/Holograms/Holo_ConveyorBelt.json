@@ -1,0 +1,16 @@
+{
+  "Class": "/Game/FactoryGame/Buildable/Factory/-Shared/Holo_ConveyorBelt.Holo_ConveyorBelt_C",
+  "Edits": [
+{
+"Property": "mBendRadius",
+"Value": 199.0
+ },
+{
+"Property": "mMaxSplineLenght",
+"Value": 5600.100098
+ },
+{
+"Property": "mMaxIncline",
+"Value": 35.0
+ }]
+}

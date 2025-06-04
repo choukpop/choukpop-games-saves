@@ -1,0 +1,16 @@
+//GameTime/Clock/Desc_Clock.Desc_Clock_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "3D Clock",
+"NameShort": "",
+"Description": "Put on your factory to see your system time. 
+
+Interact with it to change 12/24 hours.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_TradingPost_C",
+"StackSize": "One"
+}

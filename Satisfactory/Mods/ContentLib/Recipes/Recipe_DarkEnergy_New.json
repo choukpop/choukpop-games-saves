@@ -1,0 +1,27 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Dark Matter Residue",
+"Ingredients": [
+{
+      "Item": "Desc_SAMIngot",
+      "Amount": 5
+ }
+],
+"Products": [
+{
+      "Item": "Desc_DarkEnergy",
+      "Amount": 10000
+ }
+],
+"ManufacturingDuration": 6.0,
+"ProducedIn": ["Build_Converter_C"],
+"OverrideCategory": "Cat_Quantum_C",
+"ManufacturingMenuPriority": 2.0,
+"UnlockedBy": ["Schematic_9-2_C"],
+"ManualManufacturingDuration":6.0,
+"VariablePowerConsumptionConstant": 100.0,
+"VariablePowerConsumptionFactor": 300.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

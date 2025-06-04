@@ -1,0 +1,39 @@
+//SifTeleporter/Schematics/Schematic_TeleporterMk1.Schematic_TeleporterMk1_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "High-Tech Transportation",
+"Type": "Milestone",
+"VisualKit": "Schematic_TeleporterMk1_C",
+"Description": "Unlock instant travel, although it comes at a price since it uses A LOT of energy.",
+"Cost": [{
+      "Item": "Desc_ComputerSuper",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_CircuitBoardHighSpeed",
+      "Amount": 25
+ },
+{
+      "Item": "Desc_CrystalOscillator",
+      "Amount": 25
+ },
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 10
+ }],
+"Category": "SC_Logistics_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 60.0,
+"Tier": 6,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_TeleporterMk1_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

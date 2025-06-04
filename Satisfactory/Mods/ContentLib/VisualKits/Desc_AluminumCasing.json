@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/AluminumCasing/Mesh/SM_AluminumCasing_01.SM_AluminumCasing_01",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/AluminumCasing/UI/IconDesc_AluminiumCasing_256.IconDesc_AluminiumCasing_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/AluminumCasing/UI/IconDesc_AluminiumCasing_256.IconDesc_AluminiumCasing_256",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

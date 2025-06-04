@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/RawResources/CrudeOil/Mesh/CrudeOilBarrel.CrudeOilBarrel",
+	"BigIcon": "/PackingExpansion/Icons/Packaged_Oil_Pack.Packaged_Oil_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Packaged_Oil_Pack.Packaged_Oil_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

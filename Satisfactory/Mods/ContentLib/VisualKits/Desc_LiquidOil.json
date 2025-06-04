@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/RawResources/CrudeOil/Mesh/CrudeOilBarrel.CrudeOilBarrel",
+	"BigIcon": "/Game/FactoryGame/Resource/RawResources/CrudeOil/UI/LiquidOil_Pipe_512.LiquidOil_Pipe_512",
+	"SmallIcon": "/Game/FactoryGame/Resource/RawResources/CrudeOil/UI/LiquidOil_Pipe_512.LiquidOil_Pipe_512",
+	"FluidColor":
+	{
+		"r": 25,
+		"g": 0,
+		"b": 25,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

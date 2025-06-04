@@ -1,0 +1,31 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Homing Rifle Ammo",
+"Ingredients": [
+{
+      "Item": "Desc_CartridgeStandard",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_HighSpeedConnector",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_CartridgeSmartProjectile",
+      "Amount": 10
+ }
+],
+"ManufacturingDuration": 24.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_Ammunition_C",
+"ManufacturingMenuPriority": 302.0,
+"UnlockedBy": ["Research_Caterium_6_3_C"],
+"ManualManufacturingDuration":16.000008,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

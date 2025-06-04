@@ -1,0 +1,16 @@
+//Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_6.Desc_SpaceElevatorPart_6_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Magnetic Field Generator",
+"NameShort": "",
+"Description": "Project Part #7. Ship via the Space Elevator to complete phases of Project Assembly.
+
+These modular generators use superconducting magnets and vast amounts of electricity to produce a powerful and easily expandable magnetic field.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_SpaceElevator_C",
+"StackSize": "Small"
+}

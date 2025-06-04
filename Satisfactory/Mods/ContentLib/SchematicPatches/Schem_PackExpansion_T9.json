@@ -1,0 +1,27 @@
+//PackingExpansion/Schem_PackExpansion_T9.Schem_PackExpansion_T9_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "T9 Packing Expansion",
+"Type": "Milestone",
+"VisualKit": "Schem_PackExpansion_T9_C",
+"Description": "",
+"Cost": [{
+      "Item": "CoolingSystemPack",
+      "Amount": 2
+ }],
+"Category": "SC_Production_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 60.0,
+"Tier": 9,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["DiamondPack_C","DiamondUnp_C","AlienPowerMatrixPack_C","AlienPowerMatrixUnp_C","DarkMatterResidueCondensed_C","DarkMatterResidueUnp_C","PowerShardPack_C","PowerShardUnp_C","SuperpositionOscillatorPack_C","SuperpositionOscillatorUnp_C","ExcitedPhotonicMatterCondensed_C","ExcitedPhotonicMatterUnp_C","TimeCrystalPack_C","TimeCrystalUnp_C","DarkMatterCrystalPack_C","DarkMatterCrystalUnp_C","IonizedFuelCondensed_C","IonizedFuelUnp_C","PackIonizedFuelPack_C","PackIonizedFuelUnp_C","FicsiteIngotPack_C","FicsiteIngotUnp_C","FicsiteTrigonPack_C","FicsiteTrigonUnp_C","BiochemicalSculptorPack_C","BiochemicalSculptorUnp_C","NeuralQuantumProcessorPack_C","NeuralQuantumProcessorUnp_C","AIExpansionServerPack_C","AIExpansionServerUnp_C","SingularityCellPack_C","SingularityCellUnp_C","BallisticWarpDrivePack_C","BallisticWarpDriveUnp_C","FicsoniumPack_C","FicsoniumUnp_C","FicsoniumFuelRodPack_C","FicsoniumFuelRodUnp_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

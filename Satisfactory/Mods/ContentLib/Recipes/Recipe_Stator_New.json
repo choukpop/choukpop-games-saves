@@ -1,0 +1,31 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Stator",
+"Ingredients": [
+{
+      "Item": "Desc_SteelPipe",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_Wire",
+      "Amount": 8
+ }
+],
+"Products": [
+{
+      "Item": "Desc_Stator",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 12.0,
+"ProducedIn": ["Build_AssemblerMk1_C","FGBuildableAutomatedWorkBench"],
+"OverrideCategory": "Cat_IndustrialParts_C",
+"ManufacturingMenuPriority": 3.0,
+"UnlockedBy": ["Schematic_4-1_C"],
+"ManualManufacturingDuration":18.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": false
+}

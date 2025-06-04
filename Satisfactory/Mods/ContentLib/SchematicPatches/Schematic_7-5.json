@@ -1,0 +1,39 @@
+//Game/FactoryGame/Schematics/Progression/Schematic_7-5.Schematic_7-5_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Control System Development",
+"Type": "Milestone",
+"VisualKit": "Schematic_7-5_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_AluminumPlate",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_AluminumCasing",
+      "Amount": 400
+ },
+{
+      "Item": "Desc_Computer",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_Plastic",
+      "Amount": 1000
+ }],
+"Category": "SC_Logistics_C",
+"SubCategories": [],
+"MenuPriority": 5.0,
+"Time": 900.0,
+"Tier": 7,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_SulfuricAcid_C","Recipe_PackagedSulfuricAcid_C","Recipe_Battery_C","Recipe_RadioControlUnit_C","Recipe_ComputerSuper_C","Recipe_SpaceElevatorPart_7_C","Recipe_Blender_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

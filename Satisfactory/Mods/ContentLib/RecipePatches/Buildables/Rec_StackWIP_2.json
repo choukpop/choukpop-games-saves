@@ -1,0 +1,16 @@
+//MagicMachine/Stackable/Rec_StackWIP_2.Rec_StackWIP_2_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "MMMS Small",
+"Ingredients": [
+
+],
+"Products": [
+{
+      "Item": "Desc_StackWIP_2",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schem_Magic_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

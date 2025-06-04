@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/NuclearFuelRod/SM_NuclearFuelRod_01.SM_NuclearFuelRod_01",
+	"BigIcon": "/PackingExpansion/Icons/Uranium_Fuel_Rod_Pack.Uranium_Fuel_Rod_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Uranium_Fuel_Rod_Pack.Uranium_Fuel_Rod_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

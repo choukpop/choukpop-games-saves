@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/SmartPlate/SM_SmartPlate_01.SM_SmartPlate_01",
+	"BigIcon": "/PackingExpansion/Icons/Smart_Plating_Pack.Smart_Plating_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Smart_Plating_Pack.Smart_Plating_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

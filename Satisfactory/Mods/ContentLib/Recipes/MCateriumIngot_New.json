@@ -1,0 +1,24 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Caterium Ingot",
+"Ingredients": [
+
+],
+"Products": [
+{
+      "Item": "Desc_GoldIngot",
+      "Amount": 33
+ }
+],
+"ManufacturingDuration": 0.5,
+"ProducedIn": ["MagicMachine_C"],
+"OverrideCategory": "Cat_Ingots_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_Magic_C"],
+"ManualManufacturingDuration":0.5,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

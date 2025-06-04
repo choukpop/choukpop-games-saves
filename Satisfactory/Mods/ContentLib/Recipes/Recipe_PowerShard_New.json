@@ -1,0 +1,43 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Power Shard Pack",
+"Ingredients": [
+{
+      "Item": "TimeCrystalPack",
+      "Amount": 2
+ },
+{
+      "Item": "DarkMatterCrystalPack",
+      "Amount": 2
+ },
+{
+      "Item": "QuartzCrystalPack",
+      "Amount": 12
+ },
+{
+      "Item": "ExcitedPhotonicMatterCondensed",
+      "Amount": 12000
+ }
+],
+"Products": [
+{
+      "Item": "PowerShardPack",
+      "Amount": 1
+ },
+{
+      "Item": "DarkMatterResidueCondensed",
+      "Amount": 12000
+ }
+],
+"ManufacturingDuration": 300.0,
+"ProducedIn": ["Build_QuantumEncoder_C"],
+"OverrideCategory": "Cat_PowerShards_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T9_C"],
+"ManualManufacturingDuration":300.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 2000.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

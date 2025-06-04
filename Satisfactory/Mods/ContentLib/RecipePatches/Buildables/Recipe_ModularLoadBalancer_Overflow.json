@@ -1,0 +1,23 @@
+//LoadBalancers/Recipes/Recipe_ModularLoadBalancer_Overflow.Recipe_ModularLoadBalancer_Overflow_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Overflow Module",
+"Ingredients": [
+{
+      "Item": "Desc_ModularFrame",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_Motor",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_ModularLoadBalancer_Overflow",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_ModularLoadBalancers_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

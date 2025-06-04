@@ -1,0 +1,15 @@
+//Game/FactoryGame/Buildable/Factory/PipelineSupportWall/Desc_PipelineSupportWall.Desc_PipelineSupportWall_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Pipeline Wall Support",
+"NameShort": "",
+"Description": "Attaches to Walls.
+Used to connect Pipelines over longer distances.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Logistics_C",
+"StackSize": "Medium"
+}

@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/SnowballProjectile/Desc_SnowballProjectile.Desc_SnowballProjectile_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Snowball",
+"NameShort": "",
+"Description": "Compressed dihydrogen monoxide crystals for weaponized fun!",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_FICSMAS_C",
+"StackSize": "Medium"
+}

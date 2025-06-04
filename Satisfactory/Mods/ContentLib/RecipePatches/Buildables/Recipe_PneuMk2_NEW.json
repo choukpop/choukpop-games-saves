@@ -1,0 +1,27 @@
+//PneumaticFrackingMachine/Recipe_PneuMk2_NEW.Recipe_PneuMk2_NEW_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Mk2  Pneumatic Fracking Machine",
+"Ingredients": [
+{
+      "Item": "Desc_Motor",
+      "Amount": 15
+ },
+{
+      "Item": "Desc_SteelPlateReinforced",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_Cable",
+      "Amount": 60
+ }
+],
+"Products": [
+{
+      "Item": "BuildDesc_PneuMk2",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schema_Mk2_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

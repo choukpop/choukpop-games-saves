@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Fused Modular Frame",
+"NameShort": "",
+"Description": "A corrosion-resistant, nitride-hardened, highly-robust-yet-lightweight modular frame.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_IndustrialParts_C",
+"StackSize": "Small"
+}

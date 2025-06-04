@@ -1,0 +1,23 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_StorageHazard.Recipe_StorageHazard_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Hazard Storage Box",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 6
+ },
+{
+      "Item": "Desc_IronRod",
+      "Amount": 6
+ }
+],
+"Products": [
+{
+      "Item": "Desc_StorageHazard",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_HazardBoxSkin_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

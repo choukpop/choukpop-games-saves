@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/SpikedRebar/Desc_SpikedRebar.Desc_SpikedRebar_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Iron Rebar",
+"NameShort": "IR",
+"Description": "Can be shot using the Rebar Gun for self-defense purposes.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Ammunition_C",
+"StackSize": "Medium"
+}

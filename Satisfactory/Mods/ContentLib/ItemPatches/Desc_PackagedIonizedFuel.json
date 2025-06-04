@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/IonizedFuel/Desc_PackagedIonizedFuel.Desc_PackagedIonizedFuel_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Packaged Ionized Fuel",
+"NameShort": "Ion",
+"Description": "Ionized Fuel, packaged for alternative transport. Can be used as fuel for vehicles and the Jetpack.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 10000.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Packaging_C",
+"StackSize": "Medium"
+}

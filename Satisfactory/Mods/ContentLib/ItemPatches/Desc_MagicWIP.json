@@ -1,0 +1,14 @@
+//MagicMachine/NewMagic/Desc_MagicWIP.Desc_MagicWIP_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "MM Modded Solids",
+"NameShort": "",
+"Description": "Produces every items you have in the game.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Cheat_C",
+"StackSize": "Medium"
+}

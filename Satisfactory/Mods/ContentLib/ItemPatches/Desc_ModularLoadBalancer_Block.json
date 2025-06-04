@@ -1,0 +1,14 @@
+//LoadBalancers/Buildable/Block/Desc_ModularLoadBalancer_Block.Desc_ModularLoadBalancer_Block_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Block Module",
+"NameShort": "",
+"Description": "No input or output. Can be used to space out and connect other modules.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Logistics_C",
+"StackSize": "One"
+}

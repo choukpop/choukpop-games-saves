@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/DefaultItemMesh.DefaultItemMesh",
+	"BigIcon": "/PackingExpansion/Icons/Alumina_Solution_Pack-modified.Alumina_Solution_Pack-modified",
+	"SmallIcon": "/PackingExpansion/Icons/Alumina_Solution_Pack-modified.Alumina_Solution_Pack-modified",
+	"FluidColor":
+	{
+		"r": 181,
+		"g": 181,
+		"b": 181,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 181,
+		"g": 181,
+		"b": 181,
+		"a": 0
+	}
+}

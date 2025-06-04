@@ -1,0 +1,14 @@
+//PackingExpansion/Items/AluminaCondensed.AluminaCondensed_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Pressurized Alumina Solution",
+"NameShort": "",
+"Description": "Packing Expansion Mod",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Liquid",
+"Category": "",
+"StackSize": "Fluid"
+}

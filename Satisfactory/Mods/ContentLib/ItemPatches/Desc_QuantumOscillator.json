@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/QuantumOscillator/Desc_QuantumOscillator.Desc_QuantumOscillator_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Superposition Oscillator",
+"NameShort": "",
+"Description": "An oscillator circuit that uses the mechanical resonance of a vibrating crystal to create a string vibration with a precise frequency. Often used in teleportation technology and dimensional manipulation.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Quantum_C",
+"StackSize": "Medium"
+}

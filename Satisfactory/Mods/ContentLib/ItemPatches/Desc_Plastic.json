@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Plastic",
+"NameShort": "",
+"Description": "Versatile and easy to manufacture, this material has a wide range of uses.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_SolidOilProducts_C",
+"StackSize": "Big"
+}

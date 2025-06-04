@@ -1,0 +1,14 @@
+//Game/FactoryGame/Equipment/RebarGun/Ammo/Desc_Rebar_Explosive.Desc_Rebar_Explosive_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Explosive Rebar",
+"NameShort": "ER",
+"Description": "Explodes on impact, dealing heavy damage.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Ammunition_C",
+"StackSize": "Medium"
+}

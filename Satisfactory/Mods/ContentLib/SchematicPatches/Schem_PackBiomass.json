@@ -1,0 +1,27 @@
+//PackingExpansion/Schem_PackBiomass.Schem_PackBiomass_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "PE Biomass Generator",
+"Type": "Milestone",
+"VisualKit": "Schem_PackBiomass_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_IronRod",
+      "Amount": 20
+ }],
+"Category": "SC_Power_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 30.0,
+"Tier": 1,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_GeneratorBiomass_Automated_Pack_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

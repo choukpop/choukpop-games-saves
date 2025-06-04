@@ -1,0 +1,14 @@
+//Game/FactoryGame/Buildable/Factory/PipeHyperSupport/Desc_PipeHyperSupport.Desc_PipeHyperSupport_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Hypertube Support",
+"NameShort": "",
+"Description": "Supports Hypertubes, allowing them to stretch over longer distances.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Vehicles_C",
+"StackSize": "Medium"
+}

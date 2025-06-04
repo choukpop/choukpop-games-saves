@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Equipment/NailGun/Desc_RebarGun.Desc_RebarGun_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Rebar Gun (OLD)",
+"NameShort": "",
+"Description": "The Rebar Gun is an improvised weapon, used to protect yourself from dangerous wildlife.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "",
+"StackSize": "One"
+}

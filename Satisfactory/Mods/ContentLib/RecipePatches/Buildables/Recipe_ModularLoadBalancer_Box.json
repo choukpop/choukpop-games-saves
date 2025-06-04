@@ -1,0 +1,19 @@
+//LoadBalancers/Recipes/Recipe_ModularLoadBalancer_Box.Recipe_ModularLoadBalancer_Box_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Modular Load Balancer Box",
+"Ingredients": [
+{
+      "Item": "Desc_ModularFrame",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_ModularLoadBalancer_Box",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_ModularLoadBalancers_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

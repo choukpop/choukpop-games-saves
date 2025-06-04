@@ -1,0 +1,31 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Pulse Nobelisk Pack",
+"Ingredients": [
+{
+      "Item": "NobeliskPack",
+      "Amount": 5
+ },
+{
+      "Item": "CrystalOscillatorPack",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "PulseNobeliskPack",
+      "Amount": 5
+ }
+],
+"ManufacturingDuration": 1500.0,
+"ProducedIn": ["Build_AssemblerMk1_C"],
+"OverrideCategory": "Cat_Ammunition_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T5_C"],
+"ManualManufacturingDuration":1500.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

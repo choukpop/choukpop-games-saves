@@ -1,0 +1,35 @@
+//Game/FactoryGame/Schematics/Progression/Schematic_3-1.Schematic_3-1_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Coal Power",
+"Type": "Milestone",
+"VisualKit": "Schematic_3-1_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_IronPlateReinforced",
+      "Amount": 150
+ },
+{
+      "Item": "Desc_Rotor",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_Cable",
+      "Amount": 500
+ }],
+"Category": "SC_Logistics_C",
+"SubCategories": [],
+"MenuPriority": 1.0,
+"Time": 480.0,
+"Tier": 3,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_GeneratorCoal_C","Recipe_WaterPump_C","Recipe_Pipeline_C","Recipe_PipeSupport_C","Recipe_PipelineJunction_Cross_C","Recipe_PipelinePump_C","Recipe_PipeStorageTank_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

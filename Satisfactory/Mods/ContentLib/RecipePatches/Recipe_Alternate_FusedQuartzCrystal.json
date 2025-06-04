@@ -1,0 +1,32 @@
+//PackingExpansion/Recipes/Recipe_Alternate_FusedQuartzCrystal.Recipe_Alternate_FusedQuartzCrystal_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Alt: Fused Quartz Crystal Pack",
+"Ingredients": [
+{
+      "Item": "RawQuartzPack",
+      "Amount": 25
+ },
+{
+      "Item": "CoalPack",
+      "Amount": 12
+ }
+],
+"Products": [
+{
+      "Item": "QuartzCrystalPack",
+      "Amount": 18
+ }
+],
+"ManufacturingDuration": 500.0,
+"ProducedIn": ["Build_FoundryMk1_C"],
+"OverrideCategory": "Cat_Minerals_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T2_C"],
+"ManualManufacturingDuration":250.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

@@ -1,0 +1,31 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Alt: Leached Iron Ingot Pack",
+"Ingredients": [
+{
+      "Item": "IronOrePack",
+      "Amount": 5
+ },
+{
+      "Item": "SulfuricAcidCondensed",
+      "Amount": 1000
+ }
+],
+"Products": [
+{
+      "Item": "IronIngotPack",
+      "Amount": 10
+ }
+],
+"ManufacturingDuration": 150.0,
+"ProducedIn": ["Build_OilRefinery_C"],
+"OverrideCategory": "Cat_Ingots_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schem_PackRecipes_T5_C"],
+"ManualManufacturingDuration":150.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

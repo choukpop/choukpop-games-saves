@@ -1,0 +1,39 @@
+//Game/FactoryGame/Schematics/Progression/Schematic_8-2.Schematic_8-2_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Advanced Aluminum Production",
+"Type": "Milestone",
+"VisualKit": "Schematic_8-2_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_ModularFrameLightweight",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_AluminumCasing",
+      "Amount": 200
+ },
+{
+      "Item": "Desc_AluminumPlate",
+      "Amount": 400
+ },
+{
+      "Item": "Desc_Wire",
+      "Amount": 3000
+ }],
+"Category": "SC_Production_C",
+"SubCategories": [],
+"MenuPriority": 3.0,
+"Time": 900.0,
+"Tier": 8,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_FrackingSmasher_C","Recipe_FrackingExtractor_C","Recipe_GasTank_C","Recipe_PackagedNitrogen_C","Recipe_HeatSink_C","Recipe_CoolingSystem_C","Recipe_FusedModularFrame_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

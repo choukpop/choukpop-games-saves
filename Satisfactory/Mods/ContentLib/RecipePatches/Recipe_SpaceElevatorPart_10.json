@@ -1,0 +1,36 @@
+//Game/FactoryGame/Recipes/SpaceElevatorParts/Recipe_SpaceElevatorPart_10.Recipe_SpaceElevatorPart_10_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Biochemical Sculptor",
+"Ingredients": [
+{
+      "Item": "Desc_SpaceElevatorPart_7",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_FicsiteMesh",
+      "Amount": 80
+ },
+{
+      "Item": "Desc_Water",
+      "Amount": 20000
+ }
+],
+"Products": [
+{
+      "Item": "Desc_SpaceElevatorPart_10",
+      "Amount": 4
+ }
+],
+"ManufacturingDuration": 120.0,
+"ProducedIn": ["Build_Blender_C"],
+"OverrideCategory": "Cat_SpaceElevator_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schematic_9-1_C"],
+"ManualManufacturingDuration":120.0,
+"VariablePowerConsumptionConstant": 500.0,
+"VariablePowerConsumptionFactor": 1000.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

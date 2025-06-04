@@ -1,0 +1,31 @@
+//InfiniteZoop/ResearchNodes/InfiniteZoop_ResearchNode1.InfiniteZoop_ResearchNode1_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "15 Zoops",
+"Type": "MAM",
+"VisualKit": "InfiniteZoop_ResearchNode1_C",
+"Description": "+5 Zoops",
+"Cost": [{
+      "Item": "Desc_IronPlate",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 50
+ }],
+"Category": "SC_Organisation_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 10.0,
+"Tier": 1,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": [],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

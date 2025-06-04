@@ -1,0 +1,35 @@
+//ModularStations/Buildables/CargoPlatform/Recipe_TrainPlatformDockingSide_Underfed.Recipe_TrainPlatformDockingSide_Underfed_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Freight Platform (Ports Below)",
+"Ingredients": [
+{
+      "Item": "Desc_Motor",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_SteelPlateReinforced",
+      "Amount": 5
+ },
+{
+      "Item": "Desc_Plastic",
+      "Amount": 25
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 25
+ },
+{
+      "Item": "Desc_Wire",
+      "Amount": 100
+ }
+],
+"Products": [
+{
+      "Item": "Desc_TrainPlatformDockingSide_Underfed",
+      "Amount": 1
+ }],
+"UnlockedBy": ["ResourceSink_ModularStations3_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

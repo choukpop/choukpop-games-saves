@@ -1,0 +1,44 @@
+//Game/FactoryGame/Recipes/Blender/Recipe_NonFissileUranium.Recipe_NonFissileUranium_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Non-Fissile Uranium",
+"Ingredients": [
+{
+      "Item": "Desc_NuclearWaste",
+      "Amount": 15
+ },
+{
+      "Item": "Desc_Silica",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_NitricAcid",
+      "Amount": 6000
+ },
+{
+      "Item": "Desc_SulfuricAcid",
+      "Amount": 6000
+ }
+],
+"Products": [
+{
+      "Item": "Desc_NonFissibleUranium",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_Water",
+      "Amount": 6000
+ }
+],
+"ManufacturingDuration": 24.0,
+"ProducedIn": ["Build_Blender_C"],
+"OverrideCategory": "Cat_Nuclear_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schematic_8-5_C"],
+"ManualManufacturingDuration":24.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

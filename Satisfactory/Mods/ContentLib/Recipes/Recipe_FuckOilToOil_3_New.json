@@ -1,0 +1,31 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Crude Oil",
+"Ingredients": [
+{
+      "Item": "Desc_AeratedOil",
+      "Amount": 20000
+ },
+{
+      "Item": "Desc_Stone",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_LiquidOil",
+      "Amount": 20000
+ }
+],
+"ManufacturingDuration": 2.0,
+"ProducedIn": ["Build_OilRefinery_C"],
+"OverrideCategory": "Cat_Unpackaging_C",
+"ManufacturingMenuPriority": 0.0,
+"UnlockedBy": ["Schema_Mk2_C"],
+"ManualManufacturingDuration":2.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

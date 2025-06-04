@@ -1,0 +1,23 @@
+//Game/FactoryGame/Events/Christmas/Buildings/PowerLineLights/Recipe_xmassLights.Recipe_xmassLights_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "FICSMAS Power Light",
+"Ingredients": [
+{
+      "Item": "Desc_Cable",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_XmasBallCluster",
+      "Amount": 1
+ }
+],
+"Products": [
+{
+      "Item": "Desc_xmassLights",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Research_XMas_3-1_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

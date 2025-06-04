@@ -1,0 +1,27 @@
+//PackingExpansion/Schem_PackExpansion_T4.Schem_PackExpansion_T4_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "T4 Packing Expansion",
+"Type": "Milestone",
+"VisualKit": "Schem_PackExpansion_T4_C",
+"Description": "",
+"Cost": [{
+      "Item": "SteelPipePack",
+      "Amount": 10
+ }],
+"Category": "SC_Production_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 60.0,
+"Tier": 4,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["StatorPack_C","StatorUnp_C","MotorPack_C","MotorUnp_C","AutomatedWiringPack_C","AutomatedWiringUnp_C","EncasedIndustrialBeamPack_C","EncasedIndustrialBeamUnp_C","AILimiterPack_C","AILimiterUnp_C","EmptyCanisterPack_C","EmptyCanisterUnp_C","PackWaterPack_C","PackWaterUnp_C","PackCrudeOilPack_C","PackCrudeOilUnp_C","PackHeavyOilResiduePack_C","PackHeavyOilResidueUnp_C","PackLiquidBiofuelPack_C","PackLiquidBiofuelUnp_C","PackFuelPack_C","PackFuelUnp_C","PackTurbofuelPack_C","PackTurbofuelUnp_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

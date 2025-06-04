@@ -1,0 +1,44 @@
+{
+  "Class": "/Dispenser/Buildable/Build_DispenserMk2.Build_DispenserMk2_C",
+  "Edits": [
+{
+"Property": "mPowerConsumption",
+"Value": 0.0
+ },
+{
+"Property": "mPowerConsumptionExponent",
+"Value": 1.6
+ },
+{
+"Property": "mDoesHaveShutdownAnimation",
+"Value": false
+ },
+{
+"Property": "mMinimumStoppedTime",
+"Value": 5.0
+ },
+{
+"Property": "mDisplayName",
+"Value": "Industrial Dispenser"
+ },
+{
+"Property": "mDescription",
+"Value": "Dispenses 1 stack of items per use from the front. 48 slot buffer inventory. Accepts two belt inputs."
+ },
+{
+"Property": "mHologramClass",
+"Value": "FGStackableStorageHologram"
+ },
+{
+"Property": "mInventorySizeX",
+"Value": 8
+ },
+{
+"Property": "mInventorySizeY",
+"Value": 6
+ },
+{
+"Property": "mStackingHeight",
+"Value": 800.0
+ }]
+}

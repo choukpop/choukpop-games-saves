@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Equipment/GasMask/Mesh/GasMask_Filter.GasMask_Filter",
+	"BigIcon": "/PackingExpansion/Icons/Gas_Filter_Pack.Gas_Filter_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Gas_Filter_Pack.Gas_Filter_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

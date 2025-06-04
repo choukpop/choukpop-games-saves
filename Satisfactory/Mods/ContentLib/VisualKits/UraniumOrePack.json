@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/RawResources/Ores/Meshes/SM_UraniumOre_01.SM_UraniumOre_01",
+	"BigIcon": "/PackingExpansion/Icons/Uranium_Pack.Uranium_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Uranium_Pack.Uranium_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

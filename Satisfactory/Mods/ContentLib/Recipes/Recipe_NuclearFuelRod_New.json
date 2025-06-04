@@ -1,0 +1,35 @@
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "New Uranium Fuel Rod",
+"Ingredients": [
+{
+      "Item": "Desc_UraniumCell",
+      "Amount": 50
+ },
+{
+      "Item": "Desc_SteelPlateReinforced",
+      "Amount": 3
+ },
+{
+      "Item": "Desc_ElectromagneticControlRod",
+      "Amount": 5
+ }
+],
+"Products": [
+{
+      "Item": "Desc_NuclearFuelRod",
+      "Amount": 1
+ }
+],
+"ManufacturingDuration": 150.0,
+"ProducedIn": ["Build_ManufacturerMk1_C"],
+"OverrideCategory": "Cat_Nuclear_C",
+"ManufacturingMenuPriority": 1.0,
+"UnlockedBy": ["Schematic_8-1_C"],
+"ManualManufacturingDuration":150.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 1.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}

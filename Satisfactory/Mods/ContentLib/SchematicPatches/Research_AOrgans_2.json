@@ -1,0 +1,35 @@
+//Game/FactoryGame/Schematics/Research/AlienOrganisms_RS/Research_AOrgans_2.Research_AOrgans_2_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Protein Inhaler",
+"Type": "MAM",
+"VisualKit": "Research_AOrgans_2_C",
+"Description": "",
+"Cost": [{
+      "Item": "Desc_AlienProtein",
+      "Amount": 2
+ },
+{
+      "Item": "Desc_Nut",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_Rotor",
+      "Amount": 50
+ }],
+"Category": "SC_Organisation_C",
+"SubCategories": [],
+"MenuPriority": 0.0,
+"Time": 3.0,
+"Tier": 3,
+"InventorySlotsToGive": 0,
+"ArmSlotsToGive": 0,
+"Recipes": ["Recipe_MedicinalInhalerAlienOrgans_C"],
+"DependsOn": [],
+"ItemsToGive": [],
+"ClearSubCategories": true,
+"ClearCost": true,
+"ClearRecipes": true,
+"ClearDeps": false,
+"ClearItemsToGive": false
+}

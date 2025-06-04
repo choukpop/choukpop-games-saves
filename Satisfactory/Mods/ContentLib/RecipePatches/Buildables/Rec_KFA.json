@@ -1,0 +1,19 @@
+//KeysForAll/Building/Rec_KFA.Rec_KFA_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "Keybind a CHAT COMMAND",
+"Ingredients": [
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 2
+ }
+],
+"Products": [
+{
+      "Item": "Desc_KFA",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schem_KFA_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

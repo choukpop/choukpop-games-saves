@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/Geometry/Meshes/1M_Cube_Chamfer.1M_Cube_Chamfer",
+	"BigIcon": "/Game/FactoryGame/Buildable/Factory/MinerMK1/UI/IconDesc_MinerMk1_512.IconDesc_MinerMk1_512",
+	"SmallIcon": "/Game/FactoryGame/Buildable/Factory/MinerMK1/UI/IconDesc_MinerMk1_512.IconDesc_MinerMk1_512",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

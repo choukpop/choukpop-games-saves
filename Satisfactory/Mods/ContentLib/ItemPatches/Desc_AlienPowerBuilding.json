@@ -1,0 +1,16 @@
+//Game/FactoryGame/Buildable/Factory/AlienPower/Desc_AlienPowerBuilding.Desc_AlienPowerBuilding_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Alien Power Augmenter",
+"NameShort": "",
+"Description": "Generates power based on the total amount of power on the attached power grid.
+
+This experimental technology is somehow able to extract power from the Somersloop by blasting it with energy.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_Power_C",
+"StackSize": "Medium"
+}

@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/CoolingSystem/Mesh/SM_CoolingSystem_01.SM_CoolingSystem_01",
+	"BigIcon": "/PackingExpansion/Icons/Cooling_System_Pack.Cooling_System_Pack",
+	"SmallIcon": "/PackingExpansion/Icons/Cooling_System_Pack.Cooling_System_Pack",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

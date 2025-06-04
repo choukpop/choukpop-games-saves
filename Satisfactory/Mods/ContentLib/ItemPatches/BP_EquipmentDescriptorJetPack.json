@@ -1,0 +1,17 @@
+//Game/FactoryGame/Resource/Equipment/JetPack/BP_EquipmentDescriptorJetPack.BP_EquipmentDescriptorJetPack_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Jetpack",
+"NameShort": "",
+"Description": "Allows pioneers to travel through the air with increased control.
+
+Fuel is automatically consumed from the pioneer's inventory to refill the Jetpack while on the ground.
+Different fuel types can be used and provide different levels of Jetpack efficiency. The preferred fuel type will be used if available, and can be set in the equipment inventory.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Body_C",
+"StackSize": "One"
+}

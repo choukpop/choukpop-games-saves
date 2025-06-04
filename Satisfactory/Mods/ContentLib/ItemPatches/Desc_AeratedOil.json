@@ -1,0 +1,14 @@
+//PneumaticFrackingMachine/Desc_AeratedOil.Desc_AeratedOil_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Aerated Crude Oil",
+"NameShort": "",
+"Description": "Must be vented in the refinery. ",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Liquid",
+"Category": "Cat_AdvancedRefinement_C",
+"StackSize": "Fluid"
+}

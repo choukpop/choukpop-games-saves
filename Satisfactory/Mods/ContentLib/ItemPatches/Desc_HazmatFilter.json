@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/IodineInfusedFilter/Desc_HazmatFilter.Desc_HazmatFilter_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Iodine-Infused Filter",
+"NameShort": "",
+"Description": "Absorbs radioactive particles when used with the Hazmat Suit.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Consumables_C",
+"StackSize": "Small"
+}

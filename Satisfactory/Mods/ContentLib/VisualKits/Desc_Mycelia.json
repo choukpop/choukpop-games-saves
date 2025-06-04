@@ -1,0 +1,19 @@
+{
+	"Mesh": "/Game/FactoryGame/Resource/Parts/Mycelia/SM_Mycelia_01.SM_Mycelia_01",
+	"BigIcon": "/Game/FactoryGame/Resource/Parts/GenericBiomass/UI/IconDesc_Mycelia_256.IconDesc_Mycelia_256",
+	"SmallIcon": "/Game/FactoryGame/Resource/Parts/GenericBiomass/UI/IconDesc_Mycelia_256.IconDesc_Mycelia_256",
+	"FluidColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	},
+	"GasColor":
+	{
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 0
+	}
+}

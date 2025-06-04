@@ -1,0 +1,16 @@
+//Game/FactoryGame/Buildable/-Shared/Customization/Materials/Recipe_Material_Wall_Concrete.Recipe_Material_Wall_Concrete_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+"Name": "N/A",
+"Ingredients": [
+{
+      "Item": "Desc_Cement",
+      "Amount": 2
+ }
+],
+"Products": [
+],
+"UnlockedBy": ["ResourceSink_Customizer_ConcreteWallMaterial_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

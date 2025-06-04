@@ -1,0 +1,14 @@
+//GameTime/Clock/Desc_Clock_2.Desc_Clock_2_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Pointer Clock",
+"NameShort": "",
+"Description": "One more clock.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 0.0,
+"RadioactiveDecay": 0.0,
+"Form": "Invalid",
+"Category": "BC_TradingPost_C",
+"StackSize": "One"
+}

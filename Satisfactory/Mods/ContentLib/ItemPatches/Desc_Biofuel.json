@@ -1,0 +1,14 @@
+//Game/FactoryGame/Resource/Parts/BioFuel/Desc_Biofuel.Desc_Biofuel_C
+{
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+"Name": "Solid Biofuel",
+"NameShort": "",
+"Description": "The most energy-efficient form of solid Biomass. Can be used as fuel for the Chainsaw.",
+"CanBeDiscarded": true,
+"RememberPickUp": false,
+"EnergyValue": 450.0,
+"RadioactiveDecay": 0.0,
+"Form": "Solid",
+"Category": "Cat_Biomass_C",
+"StackSize": "Big"
+}
