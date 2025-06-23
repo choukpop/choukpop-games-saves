@@ -24,7 +24,7 @@
   "setting.general-settings.color-visualization-scheme": "RGB",
   "setting.general-settings.preload-intro-shown": "1",
   "setting.general-settings.last-changelog-entry": "0.0.9-rc7",
-  "setting.general-settings.tutorial-completed": "0",
+  "setting.general-settings.tutorial-completed": "1",
   "setting.interface-settings.ui-scale": "Scale100",
   "setting.interface-settings.copy-bp-to-clipboard": "1",
   "setting.interface-settings.menu-transitions": "1",
@@ -274,7 +274,7 @@
   "visualization.space-path.enabled": "1",
   "visualization.wagon-cargo.enabled": "1",
   "visualization.train-cargo.enabled": "1",
-  "visualization.building-conflict-indicators.enabled": "0",
+  "visualization.building-conflict-indicators.enabled": "1",
   "debug-stats-visible": "0",
   "menu.news.2025-05-07_update_message.seen": "1"
 }

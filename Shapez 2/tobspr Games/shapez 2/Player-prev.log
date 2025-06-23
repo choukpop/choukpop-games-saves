@@ -11,7 +11,7 @@ Direct3D:
     VRAM:     16156 MB
     Driver:   32.0.13031.3015
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  6.987 seconds
+- Loaded All Assemblies, in  6.523 seconds
 - Finished resetting the current domain, in  0.001 seconds
 D3D11 device created for Microsoft Media Foundation video decoding.
 <RI> Initializing input.
@@ -20,7 +20,7 @@ Using Windows.Gaming.Input
 <RI> Input initialized.
 <RI> Initialized touch support.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-UnloadTime: 0.618900 ms
+UnloadTime: 0.590600 ms
 Preload::Fetch build info
 Environment:: Build date: 2024-12-17 08:39:03Z
 Preload::Start
@@ -164,9 +164,9 @@ Camera UICamera has no Volume component
 Warning/GameAnalytics: Could not add error event: Datastore not initialized
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-UnloadTime: 3.088100 ms
+UnloadTime: 2.989500 ms
 Unloading 629 unused Assets to reduce memory usage. Loaded Objects now: 14245.
-Total: 22.262200 ms (FindLiveObjects: 0.523900 ms CreateObjectMapping: 0.595000 ms MarkObjects: 20.921800 ms  DeleteObjects: 0.221300 ms)
+Total: 22.557200 ms (FindLiveObjects: 0.519900 ms CreateObjectMapping: 0.313900 ms MarkObjects: 21.476500 ms  DeleteObjects: 0.246700 ms)
 
 MenuController::Step 0: Init Globals
 MenuController::Step 1: Start
@@ -212,20 +212,452 @@ Rendering 2 news items
 Menu: Discovered savegames:0
 SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
 SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
-Game to continue found, date = 08/05/2025 00:14:46 / C:/Users/ChouKpop/AppData/LocalLow/tobspr Games/shapez 2\savegames\d5a2f180-1137-4288-b660-57e589ca7635\backup-v45-2025-5-08--00-14-46--2609208.spz2
+GamePreferences:: Saved to file.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 2.600300 ms
+Unloading 18265 unused Assets to reduce memory usage. Loaded Objects now: 9115.
+Total: 59.215000 ms (FindLiveObjects: 1.053200 ms CreateObjectMapping: 0.772000 ms MarkObjects: 49.854500 ms  DeleteObjects: 7.535000 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 0.307400 ms
+Core:: Init
+Core:: Stage 1 - Init game options
+Core:: Stage 2 - Init player
+Core:: Stage 3 - Init savegame and mode
+Core:: Stage 4 - Init existing savegame C:/Users/ChouKpop/AppData/LocalLow/tobspr Games/shapez 2\savegames\d5a2f180-1137-4288-b660-57e589ca7635\backup-v45-2025-5-08--00-14-46--2609208.spz2 with mode RegularGameMode
+Loaded 60 wiki entries
+Populating super chunk caches in radius of 10 around SuperChunkCoordinate(0, 0)
+Updating music with 2 enabled packs.
+Music manager: Update music to 22 tracks
+Music manager: Clip not preloaded, preloading: 01_Sphere
+Music manager: Clip not preloaded, preloading: 02_The_Vortex_LTD
+Music manager: Clip not preloaded, preloading: 03_Operator's_Journey
+Music manager: Clip not preloaded, preloading: 04_Trains_Go_Choooo
+Music manager: Clip not preloaded, preloading: 05_Exploring_the_Void
+Music manager: Clip not preloaded, preloading: 06_Endless_Shapes
+Music manager: Clip not preloaded, preloading: 07_Dodecahedron
+Music manager: Clip not preloaded, preloading: 08_MAM
+Music manager: Clip not preloaded, preloading: 09_CwRwCwCw
+Music manager: Clip not preloaded, preloading: 10_Cubical_Cosmos
+Music manager: Clip not preloaded, preloading: 11_Stellar_Expanse
+Music manager: Clip not preloaded, preloading: 12_Deep_Space_Pyramid
+Music manager: Clip not preloaded, preloading: 01_Prism
+Music manager: Clip not preloaded, preloading: 02_Perpetual_Motion
+Music manager: Clip not preloaded, preloading: 03_Tetrahedron
+Music manager: Clip not preloaded, preloading: 04_Torus
+Music manager: Clip not preloaded, preloading: 05_Icosahedron
+Music manager: Clip not preloaded, preloading: 06_Belts_Be_Massive
+Music manager: Clip not preloaded, preloading: 07_Distant_Calls
+Music manager: Clip not preloaded, preloading: 08_Signals
+Music manager: Clip not preloaded, preloading: 09_Merging_Matter
+Music manager: Clip not preloaded, preloading: 10_Wired_Up
+MusicManager:: Fade in 07_Distant_Calls
+GraphicSettings:: Applying
+No toolbar configuration found at C:/Users/ChouKpop/AppData/LocalLow/tobspr Games/shapez 2\blueprints\toolbar.json
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 56531.
+Total: 41.477900 ms (FindLiveObjects: 3.501300 ms CreateObjectMapping: 1.727600 ms MarkObjects: 36.130900 ms  DeleteObjects: 0.117900 ms)
+
+MusicManager:: Fade in 10_Cubical_Cosmos
+Failed to consume right screen area / toolbar context token for HUDModularSidePanelPrefab(Clone) / HUDBuildingDetailsPrefab(Clone)
+Failed to consume toolbar context token for HUDContextualHotkeyActions / HUDModularSidePanelPrefab(Clone)
+MusicManager:: Fade in 12_Deep_Space_Pyramid
+MusicManager:: Fade in 04_Trains_Go_Choooo
+Failed to consume right screen area / toolbar context token for HUDModularSidePanelPrefab(Clone) / HUDBuildingDetailsPrefab(Clone)
+Failed to consume toolbar context token for HUDContextualHotkeyActions / HUDModularSidePanelPrefab(Clone)
+Failed to consume right screen area / toolbar context token for HUDModularSidePanelPrefab(Clone) / HUDBuildingDetailsPrefab(Clone)
+Failed to consume toolbar context token for HUDContextualHotkeyActions / HUDModularSidePanelPrefab(Clone)
+MusicManager:: Fade in 11_Stellar_Expanse
+MusicManager:: Fade in 10_Wired_Up
+Waiting for asynchronous operation.
+Warning/GameAnalytics: Could not add error event: Datastore not initialized
+MusicManager:: Fade in 07_Distant_Calls
+Waiting for asynchronous operation.
+Warning/GameAnalytics: Could not add error event: Datastore not initialized
+Tutorial: Completed entry TSIslands_DeleteIslandUndoRedo_Skill
+Tutorial: Completed entry TSSkillAcademy_SwitchBuildingVariants
+Tutorial: No skill academy tutorial right now & timer expired (lastTutorial=106,6228, now=1571,938). Showing pooled hint. Choose from 3 showable hints.
+Tutorial:   Pooled hint TSSkillAcademy_BindBlueprintToToolbar chosen @106,6228.
+Cannot Prepare a disabled VideoPlayer
+Warning/GameAnalytics: Could not add error event: Datastore not initialized
+GameCore - finished loading unloading scene
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 0.458700 ms
+MenuController::Step 0: Init Globals
+MenuController::Step 1: Start
+Savegame version mismatch: Savegame has 1095, current is 1105 minimum is 1095
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+Unloading 12824 unused Assets to reduce memory usage. Loaded Objects now: 14577.
+Total: 62.401600 ms (FindLiveObjects: 1.431100 ms CreateObjectMapping: 0.981800 ms MarkObjects: 54.053200 ms  DeleteObjects: 5.935200 ms)
+
+Background savegame: Scene Loaded
+Core:: Init
+Core:: Stage 1 - Init game options
+Core:: Stage 2 - Init player
+Core:: Stage 3 - Init savegame and mode
+Core:: Stage 4 - Init existing savegame memory with mode RegularGameMode
+Loaded 67 wiki entries
+Serialized upgrade 'RNFluidMinerExtension' not found.
+Warning/GameAnalytics: Could not add error event: Datastore not initialized
+Populating super chunk caches in radius of 10 around SuperChunkCoordinate(0, 0)
+Music manager: Update music to 1 tracks
+Music manager: Clip not preloaded, preloading: Shapez2_Demo_15_MenuVersion_Master
+MusicManager:: Fade in Shapez2_Demo_15_MenuVersion_Master
+GraphicSettings:: Applying
+Background savegame: Game core loaded
+Tutorial: Completed entry TGFirstLevel
+Tutorial: Completed entry TSTrains_DepotsAndWagons_Skill
+Tutorial: Completed entry TSTrains_Launchers_Skill
+Tutorial: Completed entry TSTrains_StopsAndLoaders_Skill
+Tutorial: Completed entry TSTrains_RailPlacement_Skill
+Tutorial: Completed entry TSIslands_SpaceBeltTunnels_Skill
+Tutorial: Completed entry TSIslands_SpaceBelt_Skill
+Tutorial: Completed entry TSSkillAcademy_ClearSelectionContents
+Tutorial: Completed entry TSSkillAcademy_FloorVisibility
+Tutorial: Completed entry TSSkillAcademy_Mirroring
+Tutorial: Completed entry TSSkillAcademy_MultiLayerHubDelivery
+Tutorial: Completed entry TSSkillAcademy_PasteBlueprint
+Tutorial: Completed entry TSSkillAcademy_Pipette
+Tutorial: Completed entry TSSkillAcademy_SelectConnectedBuildings
+Tutorial: Completed entry TSSkillAcademy_ShapeViewer
+Tutorial: Completed entry TSSkillAcademy_SwitchBuildingVariants
+MenuController::Step 2: Game loaded
+Loaded 49 changelog entries
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+Game to continue found, date = 08/05/2025 16:58:43 / C:/Users/ChouKpop/AppData/LocalLow/tobspr Games/shapez 2\savegames\d5a2f180-1137-4288-b660-57e589ca7635\backup-v49-2025-5-08--16-58-43--4182390.spz2
 Fetching news ...
 Rendering 2 news items
+Menu: Discovered savegames:0
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+Show Chooser
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+GamePreferences:: Saved to file.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 2.368100 ms
+Unloading 18266 unused Assets to reduce memory usage. Loaded Objects now: 9130.
+Total: 62.177600 ms (FindLiveObjects: 1.005900 ms CreateObjectMapping: 0.720500 ms MarkObjects: 53.371600 ms  DeleteObjects: 7.079200 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 0.356400 ms
+Core:: Init
+Core:: Stage 1 - Init game options
+Core:: Stage 2 - Init player
+Core:: Stage 3 - Init savegame and mode
+Core:: Stage 4 - Init existing savegame C:/Users/ChouKpop/AppData/LocalLow/tobspr Games/shapez 2\savegames\d5a2f180-1137-4288-b660-57e589ca7635\backup-v49-2025-5-08--16-58-43--4182390.spz2 with mode RegularGameMode
+Loaded 60 wiki entries
+Populating super chunk caches in radius of 10 around SuperChunkCoordinate(0, 0)
+Updating music with 2 enabled packs.
+Music manager: Update music to 22 tracks
+Music manager: Clip not preloaded, preloading: 01_Sphere
+Music manager: Clip not preloaded, preloading: 02_The_Vortex_LTD
+Music manager: Clip not preloaded, preloading: 03_Operator's_Journey
+Music manager: Clip not preloaded, preloading: 04_Trains_Go_Choooo
+Music manager: Clip not preloaded, preloading: 05_Exploring_the_Void
+Music manager: Clip not preloaded, preloading: 06_Endless_Shapes
+Music manager: Clip not preloaded, preloading: 07_Dodecahedron
+Music manager: Clip not preloaded, preloading: 08_MAM
+Music manager: Clip not preloaded, preloading: 09_CwRwCwCw
+Music manager: Clip not preloaded, preloading: 10_Cubical_Cosmos
+Music manager: Clip not preloaded, preloading: 11_Stellar_Expanse
+Music manager: Clip not preloaded, preloading: 12_Deep_Space_Pyramid
+Music manager: Clip not preloaded, preloading: 01_Prism
+Music manager: Clip not preloaded, preloading: 02_Perpetual_Motion
+Music manager: Clip not preloaded, preloading: 03_Tetrahedron
+Music manager: Clip not preloaded, preloading: 04_Torus
+Music manager: Clip not preloaded, preloading: 05_Icosahedron
+Music manager: Clip not preloaded, preloading: 06_Belts_Be_Massive
+Music manager: Clip not preloaded, preloading: 07_Distant_Calls
+Music manager: Clip not preloaded, preloading: 08_Signals
+Music manager: Clip not preloaded, preloading: 09_Merging_Matter
+Music manager: Clip not preloaded, preloading: 10_Wired_Up
+MusicManager:: Fade in 10_Cubical_Cosmos
+GraphicSettings:: Applying
+No toolbar configuration found at C:/Users/ChouKpop/AppData/LocalLow/tobspr Games/shapez 2\blueprints\toolbar.json
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 56629.
+Total: 42.564000 ms (FindLiveObjects: 3.387900 ms CreateObjectMapping: 2.038900 ms MarkObjects: 37.056100 ms  DeleteObjects: 0.080700 ms)
+
+GameCore - finished loading unloading scene
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 0.457100 ms
+MenuController::Step 0: Init Globals
+MenuController::Step 1: Start
+Savegame version mismatch: Savegame has 1095, current is 1105 minimum is 1095
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+Unloading 12819 unused Assets to reduce memory usage. Loaded Objects now: 14584.
+Total: 65.857400 ms (FindLiveObjects: 1.272300 ms CreateObjectMapping: 1.558500 ms MarkObjects: 56.666900 ms  DeleteObjects: 6.359400 ms)
+
+Background savegame: Scene Loaded
+Core:: Init
+Core:: Stage 1 - Init game options
+Core:: Stage 2 - Init player
+Core:: Stage 3 - Init savegame and mode
+Core:: Stage 4 - Init existing savegame memory with mode RegularGameMode
+Loaded 67 wiki entries
+Serialized upgrade 'RNFluidMinerExtension' not found.
+Warning/GameAnalytics: Could not add error event: Datastore not initialized
+Populating super chunk caches in radius of 10 around SuperChunkCoordinate(0, 0)
+Music manager: Update music to 1 tracks
+Music manager: Clip not preloaded, preloading: Shapez2_Demo_15_MenuVersion_Master
+MusicManager:: Fade in Shapez2_Demo_15_MenuVersion_Master
+GraphicSettings:: Applying
+Background savegame: Game core loaded
+Tutorial: Completed entry TGFirstLevel
+Tutorial: Completed entry TSTrains_DepotsAndWagons_Skill
+Tutorial: Completed entry TSTrains_Launchers_Skill
+Tutorial: Completed entry TSTrains_StopsAndLoaders_Skill
+Tutorial: Completed entry TSTrains_RailPlacement_Skill
+Tutorial: Completed entry TSIslands_SpaceBeltTunnels_Skill
+Tutorial: Completed entry TSIslands_SpaceBelt_Skill
+Tutorial: Completed entry TSSkillAcademy_ClearSelectionContents
+Tutorial: Completed entry TSSkillAcademy_FloorVisibility
+Tutorial: Completed entry TSSkillAcademy_Mirroring
+Tutorial: Completed entry TSSkillAcademy_MultiLayerHubDelivery
+Tutorial: Completed entry TSSkillAcademy_PasteBlueprint
+Tutorial: Completed entry TSSkillAcademy_Pipette
+Tutorial: Completed entry TSSkillAcademy_SelectConnectedBuildings
+Tutorial: Completed entry TSSkillAcademy_ShapeViewer
+Tutorial: Completed entry TSSkillAcademy_SwitchBuildingVariants
+MenuController::Step 2: Game loaded
+Loaded 49 changelog entries
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+Game to continue found, date = 08/05/2025 17:00:06 / C:/Users/ChouKpop/AppData/LocalLow/tobspr Games/shapez 2\savegames\d5a2f180-1137-4288-b660-57e589ca7635\backup-v55-2025-5-08--17-00-06--9493477.spz2
+Fetching news ...
+Rendering 2 news items
+Menu: Discovered savegames:0
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+Show Chooser
+Importing savegame from: C:\Users\ChouKpop\AppData\LocalLow\tobspr Games\shapez 2\savegames\d5a2f180-1137-4288-b660-57e589ca7635\backup-v55-2025-5-08--17-00-06--9493477.spz2
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+GamePreferences:: Saved to file.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 1.891300 ms
+Unloading 18263 unused Assets to reduce memory usage. Loaded Objects now: 9134.
+Total: 68.307400 ms (FindLiveObjects: 0.980900 ms CreateObjectMapping: 0.694200 ms MarkObjects: 57.001400 ms  DeleteObjects: 9.630400 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 0.317500 ms
+Core:: Init
+Core:: Stage 1 - Init game options
+Core:: Stage 2 - Init player
+Core:: Stage 3 - Init savegame and mode
+Core:: Stage 4 - Init existing savegame C:/Users/ChouKpop/AppData/LocalLow/tobspr Games/shapez 2\savegames\30a013bd-b286-4056-b265-6e9cd2f6c693\backup-v1-2025-5-08--17-00-58--3353965.spz2 with mode RegularGameMode
+Loaded 60 wiki entries
+Populating super chunk caches in radius of 10 around SuperChunkCoordinate(0, 0)
+Updating music with 2 enabled packs.
+Music manager: Update music to 22 tracks
+Music manager: Clip not preloaded, preloading: 01_Sphere
+Music manager: Clip not preloaded, preloading: 02_The_Vortex_LTD
+Music manager: Clip not preloaded, preloading: 03_Operator's_Journey
+Music manager: Clip not preloaded, preloading: 04_Trains_Go_Choooo
+Music manager: Clip not preloaded, preloading: 05_Exploring_the_Void
+Music manager: Clip not preloaded, preloading: 06_Endless_Shapes
+Music manager: Clip not preloaded, preloading: 07_Dodecahedron
+Music manager: Clip not preloaded, preloading: 08_MAM
+Music manager: Clip not preloaded, preloading: 09_CwRwCwCw
+Music manager: Clip not preloaded, preloading: 10_Cubical_Cosmos
+Music manager: Clip not preloaded, preloading: 11_Stellar_Expanse
+Music manager: Clip not preloaded, preloading: 12_Deep_Space_Pyramid
+Music manager: Clip not preloaded, preloading: 01_Prism
+Music manager: Clip not preloaded, preloading: 02_Perpetual_Motion
+Music manager: Clip not preloaded, preloading: 03_Tetrahedron
+Music manager: Clip not preloaded, preloading: 04_Torus
+Music manager: Clip not preloaded, preloading: 05_Icosahedron
+Music manager: Clip not preloaded, preloading: 06_Belts_Be_Massive
+Music manager: Clip not preloaded, preloading: 07_Distant_Calls
+Music manager: Clip not preloaded, preloading: 08_Signals
+Music manager: Clip not preloaded, preloading: 09_Merging_Matter
+Music manager: Clip not preloaded, preloading: 10_Wired_Up
+MusicManager:: Fade in 01_Sphere
+GraphicSettings:: Applying
+No toolbar configuration found at C:/Users/ChouKpop/AppData/LocalLow/tobspr Games/shapez 2\blueprints\toolbar.json
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 56633.
+Total: 45.417600 ms (FindLiveObjects: 3.251200 ms CreateObjectMapping: 1.896400 ms MarkObjects: 40.174100 ms  DeleteObjects: 0.095500 ms)
+
+SavegameCoordinator:: Transitioning current savegame into scenario default-scenario
+GamePreferences:: Saved to file.
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 0.373700 ms
+Unloading 14030 unused Assets to reduce memory usage. Loaded Objects now: 9113.
+Total: 66.066300 ms (FindLiveObjects: 1.029200 ms CreateObjectMapping: 0.749900 ms MarkObjects: 57.557000 ms  DeleteObjects: 6.729900 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 0.353300 ms
+Core:: Init
+Core:: Stage 1 - Init game options
+Core:: Stage 2 - Init player
+Core:: Stage 3 - Init savegame and mode
+Core:: Stage 4 - Init existing savegame C:/Users/ChouKpop/AppData/LocalLow/tobspr Games/shapez 2\savegames\30a013bd-b286-4056-b265-6e9cd2f6c693\backup-v2-2025-5-08--17-02-34--9319315.spz2 with mode RegularGameMode
+Loaded 67 wiki entries
+Populating super chunk caches in radius of 10 around SuperChunkCoordinate(0, 0)
+Updating music with 2 enabled packs.
+Music manager: Update music to 22 tracks
+Music manager: Clip not preloaded, preloading: 01_Sphere
+Music manager: Clip not preloaded, preloading: 02_The_Vortex_LTD
+Music manager: Clip not preloaded, preloading: 03_Operator's_Journey
+Music manager: Clip not preloaded, preloading: 04_Trains_Go_Choooo
+Music manager: Clip not preloaded, preloading: 05_Exploring_the_Void
+Music manager: Clip not preloaded, preloading: 06_Endless_Shapes
+Music manager: Clip not preloaded, preloading: 07_Dodecahedron
+Music manager: Clip not preloaded, preloading: 08_MAM
+Music manager: Clip not preloaded, preloading: 09_CwRwCwCw
+Music manager: Clip not preloaded, preloading: 10_Cubical_Cosmos
+Music manager: Clip not preloaded, preloading: 11_Stellar_Expanse
+Music manager: Clip not preloaded, preloading: 12_Deep_Space_Pyramid
+Music manager: Clip not preloaded, preloading: 01_Prism
+Music manager: Clip not preloaded, preloading: 02_Perpetual_Motion
+Music manager: Clip not preloaded, preloading: 03_Tetrahedron
+Music manager: Clip not preloaded, preloading: 04_Torus
+Music manager: Clip not preloaded, preloading: 05_Icosahedron
+Music manager: Clip not preloaded, preloading: 06_Belts_Be_Massive
+Music manager: Clip not preloaded, preloading: 07_Distant_Calls
+Music manager: Clip not preloaded, preloading: 08_Signals
+Music manager: Clip not preloaded, preloading: 09_Merging_Matter
+Music manager: Clip not preloaded, preloading: 10_Wired_Up
+MusicManager:: Fade in 03_Operator's_Journey
+GraphicSettings:: Applying
+No toolbar configuration found at C:/Users/ChouKpop/AppData/LocalLow/tobspr Games/shapez 2\blueprints\toolbar.json
+Cannot Prepare a disabled VideoPlayer
+Warning/GameAnalytics: Could not add error event: Datastore not initialized
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 86017.
+Total: 49.523100 ms (FindLiveObjects: 6.640500 ms CreateObjectMapping: 2.090700 ms MarkObjects: 40.632900 ms  DeleteObjects: 0.158500 ms)
+
+Tutorial: Completed entry TSIslands_EnterIslandMode_Skill
+Cannot Prepare a disabled VideoPlayer
+Warning/GameAnalytics: Could not add error event: Datastore not initialized
+GameCore - finished loading unloading scene
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 0.404400 ms
+MenuController::Step 0: Init Globals
+MenuController::Step 1: Start
+Savegame version mismatch: Savegame has 1095, current is 1105 minimum is 1095
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+Unloading 12819 unused Assets to reduce memory usage. Loaded Objects now: 14590.
+Total: 65.860100 ms (FindLiveObjects: 1.399800 ms CreateObjectMapping: 0.881400 ms MarkObjects: 58.017000 ms  DeleteObjects: 5.561400 ms)
+
+Background savegame: Scene Loaded
+Core:: Init
+Core:: Stage 1 - Init game options
+Core:: Stage 2 - Init player
+Core:: Stage 3 - Init savegame and mode
+Core:: Stage 4 - Init existing savegame memory with mode RegularGameMode
+Loaded 67 wiki entries
+Serialized upgrade 'RNFluidMinerExtension' not found.
+Warning/GameAnalytics: Could not add error event: Datastore not initialized
+Populating super chunk caches in radius of 10 around SuperChunkCoordinate(0, 0)
+Music manager: Update music to 1 tracks
+Music manager: Clip not preloaded, preloading: Shapez2_Demo_15_MenuVersion_Master
+MusicManager:: Fade in Shapez2_Demo_15_MenuVersion_Master
+GraphicSettings:: Applying
+Background savegame: Game core loaded
+Tutorial: Completed entry TGFirstLevel
+Tutorial: Completed entry TSTrains_DepotsAndWagons_Skill
+Tutorial: Completed entry TSTrains_Launchers_Skill
+Tutorial: Completed entry TSTrains_StopsAndLoaders_Skill
+Tutorial: Completed entry TSTrains_RailPlacement_Skill
+Tutorial: Completed entry TSIslands_SpaceBeltTunnels_Skill
+Tutorial: Completed entry TSIslands_SpaceBelt_Skill
+Tutorial: Completed entry TSSkillAcademy_ClearSelectionContents
+Tutorial: Completed entry TSSkillAcademy_FloorVisibility
+Tutorial: Completed entry TSSkillAcademy_Mirroring
+Tutorial: Completed entry TSSkillAcademy_MultiLayerHubDelivery
+Tutorial: Completed entry TSSkillAcademy_PasteBlueprint
+Tutorial: Completed entry TSSkillAcademy_Pipette
+Tutorial: Completed entry TSSkillAcademy_SelectConnectedBuildings
+Tutorial: Completed entry TSSkillAcademy_ShapeViewer
+Tutorial: Completed entry TSSkillAcademy_SwitchBuildingVariants
+MenuController::Step 2: Game loaded
+Loaded 49 changelog entries
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+Game to continue found, date = 08/05/2025 17:02:57 / C:/Users/ChouKpop/AppData/LocalLow/tobspr Games/shapez 2\savegames\30a013bd-b286-4056-b265-6e9cd2f6c693\backup-v3-2025-5-08--17-02-57--2672095.spz2
+Fetching news ...
+Rendering 2 news items
+Menu: Discovered savegames:0
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+Marking tutorial as completed due to existing compatible non-onboarding savegame
+SavegameSerializer:: Read savegame with game mode RegularGameMode, checkpoints: True
+GamePreferences:: Saved to file.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 1.928800 ms
+Unloading 18344 unused Assets to reduce memory usage. Loaded Objects now: 9140.
+Total: 72.211100 ms (FindLiveObjects: 1.002000 ms CreateObjectMapping: 0.639400 ms MarkObjects: 61.957100 ms  DeleteObjects: 8.612200 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 0.278700 ms
+Core:: Init
+Core:: Stage 1 - Init game options
+Core:: Stage 2 - Init player
+Core:: Stage 3 - Init savegame and mode
+Core:: Stage 4 - Init existing savegame C:/Users/ChouKpop/AppData/LocalLow/tobspr Games/shapez 2\savegames\30a013bd-b286-4056-b265-6e9cd2f6c693\backup-v3-2025-5-08--17-02-57--2672095.spz2 with mode RegularGameMode
+Loaded 67 wiki entries
+Populating super chunk caches in radius of 10 around SuperChunkCoordinate(0, 0)
+Updating music with 2 enabled packs.
+Music manager: Update music to 22 tracks
+Music manager: Clip not preloaded, preloading: 01_Sphere
+Music manager: Clip not preloaded, preloading: 02_The_Vortex_LTD
+Music manager: Clip not preloaded, preloading: 03_Operator's_Journey
+Music manager: Clip not preloaded, preloading: 04_Trains_Go_Choooo
+Music manager: Clip not preloaded, preloading: 05_Exploring_the_Void
+Music manager: Clip not preloaded, preloading: 06_Endless_Shapes
+Music manager: Clip not preloaded, preloading: 07_Dodecahedron
+Music manager: Clip not preloaded, preloading: 08_MAM
+Music manager: Clip not preloaded, preloading: 09_CwRwCwCw
+Music manager: Clip not preloaded, preloading: 10_Cubical_Cosmos
+Music manager: Clip not preloaded, preloading: 11_Stellar_Expanse
+Music manager: Clip not preloaded, preloading: 12_Deep_Space_Pyramid
+Music manager: Clip not preloaded, preloading: 01_Prism
+Music manager: Clip not preloaded, preloading: 02_Perpetual_Motion
+Music manager: Clip not preloaded, preloading: 03_Tetrahedron
+Music manager: Clip not preloaded, preloading: 04_Torus
+Music manager: Clip not preloaded, preloading: 05_Icosahedron
+Music manager: Clip not preloaded, preloading: 06_Belts_Be_Massive
+Music manager: Clip not preloaded, preloading: 07_Distant_Calls
+Music manager: Clip not preloaded, preloading: 08_Signals
+Music manager: Clip not preloaded, preloading: 09_Merging_Matter
+Music manager: Clip not preloaded, preloading: 10_Wired_Up
+MusicManager:: Fade in 05_Icosahedron
+GraphicSettings:: Applying
+No toolbar configuration found at C:/Users/ChouKpop/AppData/LocalLow/tobspr Games/shapez 2\blueprints\toolbar.json
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 85905.
+Total: 49.288900 ms (FindLiveObjects: 6.537300 ms CreateObjectMapping: 1.899100 ms MarkObjects: 40.736700 ms  DeleteObjects: 0.115500 ms)
+
+Tutorial: Completed entry TSIslands_0_PlaceShapeMiner
+Cannot Prepare a disabled VideoPlayer
+Tutorial: Completed entry TSIslands_ShapeMinerExtension_Skill
+Tutorial: Completed flag DeletedIslands
+Tutorial: Completed entry TSIslands_1_ConnectMinerSpaceBelt
+Tutorial: Completed entry TSIslands_SpaceBelt_Skill
+MusicManager:: Fade in 08_MAM
+MusicManager:: Fade in 09_Merging_Matter
+Tutorial: No skill academy tutorial right now & timer expired (lastTutorial=1974,1, now=2394,103). Showing pooled hint. Choose from 3 showable hints.
+Tutorial:   Pooled hint TSSkillAcademy_SaveBlueprintToLibrary chosen @1900,241.
+Cannot Prepare a disabled VideoPlayer
+Tutorial: Completed entry TSSkillAcademy_SaveBlueprintToLibrary
+Tutorial: Pooled hint TSSkillAcademy_SaveBlueprintToLibrary expired at 2397,662 (shown 2394,103).
 Core:: ApplicationQuit
 GamePreferences:: Saved to file.
 Memory Statistics:
 [ALLOC_TEMP_TLS] TLS Allocator
   StackAllocators : 
     [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [1.0 KB-2.0 KB]: 4401 frames, [2.0 KB-4.0 KB]: 313 frames, [4.0 KB-8.0 KB]: 21 frames, [8.0 KB-16.0 KB]: 194792 frames, [16.0 KB-32.0 KB]: 1057 frames, [32.0 KB-64.0 KB]: 16 frames, [64.0 KB-128.0 KB]: 13 frames, [128.0 KB-256.0 KB]: 15 frames, [256.0 KB-0.5 MB]: 8 frames, [0.5 MB-1.0 MB]: 12 frames, [1.0 MB-2.0 MB]: 1 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 1 frames
+      Peak usage frame count: [1.0 KB-2.0 KB]: 5405 frames, [2.0 KB-4.0 KB]: 18667 frames, [4.0 KB-8.0 KB]: 78655 frames, [8.0 KB-16.0 KB]: 17780 frames, [16.0 KB-32.0 KB]: 3327 frames, [32.0 KB-64.0 KB]: 65 frames, [64.0 KB-128.0 KB]: 223876 frames, [128.0 KB-256.0 KB]: 123884 frames, [256.0 KB-0.5 MB]: 58 frames, [0.5 MB-1.0 MB]: 32 frames, [1.0 MB-2.0 MB]: 1 frames, [2.0 MB-4.0 MB]: 9 frames, [4.0 MB-8.0 MB]: 6 frames
       Initial Block Size 4.0 MB
-      Current Block Size 5.1 MB
-      Peak Allocated Bytes 5.0 MB
-      Overflow Count 0
+      Current Block Size 7.8 MB
+      Peak Allocated Bytes 7.8 MB
+      Overflow Count 14
     [ALLOC_TEMP_Loading.AsyncRead]
       Initial Block Size 64.0 KB
       Current Block Size 64.0 KB
@@ -235,7 +667,7 @@ Memory Statistics:
       Initial Block Size 256.0 KB
       Current Block Size 0.5 MB
       Peak Allocated Bytes 504.8 KB
-      Overflow Count 6186
+      Overflow Count 55195
     [ALLOC_TEMP_Background Job.Worker 8]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
@@ -244,12 +676,12 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 6]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 23.7 KB
+      Peak Allocated Bytes 43.4 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 0]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 23.7 KB
+      Peak Allocated Bytes 26.4 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 10]
       Initial Block Size 32.0 KB
@@ -264,7 +696,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 5]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 28.2 KB
+      Peak Allocated Bytes 26.9 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 14]
       Initial Block Size 32.0 KB
@@ -279,22 +711,22 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 4]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 23.7 KB
+      Peak Allocated Bytes 38.0 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 14]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 18.6 KB
+      Peak Allocated Bytes 26.9 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 3]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 22.6 KB
+      Peak Allocated Bytes 27.4 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 13]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 23.7 KB
+      Peak Allocated Bytes 26.4 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 12]
       Initial Block Size 32.0 KB
@@ -330,7 +762,7 @@ Memory Statistics:
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
       Peak Allocated Bytes 74.5 KB
-      Overflow Count 3
+      Overflow Count 19
     [ALLOC_TEMP_AssetGarbageCollectorHelper] x 15
       Initial Block Size 64.0 KB
       Current Block Size 64.0 KB
@@ -344,7 +776,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 9]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 23.7 KB
+      Peak Allocated Bytes 26.4 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 13]
       Initial Block Size 32.0 KB
@@ -354,37 +786,37 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 8]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 21.4 KB
+      Peak Allocated Bytes 26.4 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 7]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 21.2 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 1]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 22.6 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 2]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 27.2 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 3]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
+      Peak Allocated Bytes 26.4 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 11]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
       Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 28.2 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 304 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 43.4 KB
+      Overflow Count 0
     [ALLOC_TEMP_Job.Worker 10]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 23.7 KB
+      Peak Allocated Bytes 27.4 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 0]
       Initial Block Size 32.0 KB
@@ -404,17 +836,17 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 11]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 20.5 KB
+      Peak Allocated Bytes 26.4 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 12]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 19.4 KB
+      Peak Allocated Bytes 26.4 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 4]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
+      Peak Allocated Bytes 304 B
       Overflow Count 0
     [ALLOC_TEMP_BatchDeleteObjects]
       Initial Block Size 64.0 KB
@@ -422,32 +854,32 @@ Memory Statistics:
       Peak Allocated Bytes 54 B
       Overflow Count 0
 [ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 4406
+  Peak main deferred allocation count 55860
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 22 Subsections = 22528 buckets. Failed count: 26454162
-        32B: 35 Subsections = 17920 buckets. Failed count: 16051388
-        48B: 51 Subsections = 17408 buckets. Failed count: 15183683
-        64B: 39 Subsections = 9984 buckets. Failed count: 792981
-        80B: 45 Subsections = 9216 buckets. Failed count: 591277
-        96B: 20 Subsections = 3413 buckets. Failed count: 7189421
-        112B: 26 Subsections = 3803 buckets. Failed count: 197441
-        128B: 18 Subsections = 2304 buckets. Failed count: 59637
+        16B: 22 Subsections = 22528 buckets. Failed count: 59693516
+        32B: 35 Subsections = 17920 buckets. Failed count: 38230187
+        48B: 51 Subsections = 17408 buckets. Failed count: 141382723
+        64B: 39 Subsections = 9984 buckets. Failed count: 2072566
+        80B: 45 Subsections = 9216 buckets. Failed count: 1461265
+        96B: 20 Subsections = 3413 buckets. Failed count: 17706818
+        112B: 26 Subsections = 3803 buckets. Failed count: 503604
+        128B: 18 Subsections = 2304 buckets. Failed count: 288509
     [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [16.0 MB-32.0 MB]: 4410 frames, [32.0 MB-64.0 MB]: 368 frames, [64.0 MB-128.0 MB]: 195873 frames
+      Peak usage frame count: [16.0 MB-32.0 MB]: 4424 frames, [32.0 MB-64.0 MB]: 1529 frames, [64.0 MB-128.0 MB]: 465812 frames
       Requested Block Size 16.0 MB
-      Peak Block count 4
-      Peak Allocated memory 84.9 MB
+      Peak Block count 6
+      Peak Allocated memory 119.3 MB
       Peak Large allocation bytes 32.5 MB
     [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [16.0 MB-32.0 MB]: 4255 frames, [32.0 MB-64.0 MB]: 523 frames, [64.0 MB-128.0 MB]: 195873 frames
+      Peak usage frame count: [16.0 MB-32.0 MB]: 4266 frames, [32.0 MB-64.0 MB]: 1901 frames, [64.0 MB-128.0 MB]: 462925 frames, [128.0 MB-256.0 MB]: 2673 frames
       Requested Block Size 16.0 MB
-      Peak Block count 5
-      Peak Allocated memory 91.8 MB
-      Peak Large allocation bytes 40.5 MB
+      Peak Block count 15
+      Peak Allocated memory 247.6 MB
+      Peak Large allocation bytes 51.0 MB
 [ALLOC_TEMP_JOB_1_FRAME]
   Initial Block Size 2.0 MB
   Used Block Count 0
@@ -466,58 +898,58 @@ Memory Statistics:
 [ALLOC_TEMP_JOB_ASYNC (Background)]
   Initial Block Size 1.0 MB
   Used Block Count 1
-  Overflow Count (too large) 3
+  Overflow Count (too large) 19
   Overflow Count (full) 0
 [ALLOC_GFX] Dual Thread Allocator
-  Peak main deferred allocation count 12
+  Peak main deferred allocation count 2196
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 22 Subsections = 22528 buckets. Failed count: 26454162
-        32B: 35 Subsections = 17920 buckets. Failed count: 16051388
-        48B: 51 Subsections = 17408 buckets. Failed count: 15183683
-        64B: 39 Subsections = 9984 buckets. Failed count: 792981
-        80B: 45 Subsections = 9216 buckets. Failed count: 591277
-        96B: 20 Subsections = 3413 buckets. Failed count: 7189421
-        112B: 26 Subsections = 3803 buckets. Failed count: 197441
-        128B: 18 Subsections = 2304 buckets. Failed count: 59637
+        16B: 22 Subsections = 22528 buckets. Failed count: 59693516
+        32B: 35 Subsections = 17920 buckets. Failed count: 38230187
+        48B: 51 Subsections = 17408 buckets. Failed count: 141382723
+        64B: 39 Subsections = 9984 buckets. Failed count: 2072566
+        80B: 45 Subsections = 9216 buckets. Failed count: 1461265
+        96B: 20 Subsections = 3413 buckets. Failed count: 17706818
+        112B: 26 Subsections = 3803 buckets. Failed count: 503604
+        128B: 18 Subsections = 2304 buckets. Failed count: 288509
     [ALLOC_GFX_MAIN]
-      Peak usage frame count: [32.0 KB-64.0 KB]: 84 frames, [64.0 KB-128.0 KB]: 4691 frames, [128.0 KB-256.0 KB]: 2 frames, [256.0 KB-0.5 MB]: 1 frames, [128.0 MB-256.0 MB]: 2 frames, [256.0 MB-0.50 GB]: 195871 frames
+      Peak usage frame count: [32.0 KB-64.0 KB]: 87 frames, [64.0 KB-128.0 KB]: 4679 frames, [128.0 KB-256.0 KB]: 2 frames, [256.0 KB-0.5 MB]: 1066 frames, [128.0 MB-256.0 MB]: 893 frames, [256.0 MB-0.50 GB]: 465038 frames
       Requested Block Size 16.0 MB
-      Peak Block count 25
-      Peak Allocated memory 396.1 MB
+      Peak Block count 27
+      Peak Allocated memory 425.8 MB
       Peak Large allocation bytes 0 B
     [ALLOC_GFX_THREAD]
-      Peak usage frame count: [8.0 MB-16.0 MB]: 4255 frames, [32.0 MB-64.0 MB]: 196396 frames
+      Peak usage frame count: [8.0 MB-16.0 MB]: 4266 frames, [32.0 MB-64.0 MB]: 467499 frames
       Requested Block Size 16.0 MB
       Peak Block count 4
-      Peak Allocated memory 48.5 MB
+      Peak Allocated memory 52.4 MB
       Peak Large allocation bytes 0 B
 [ALLOC_CACHEOBJECTS] Dual Thread Allocator
-  Peak main deferred allocation count 38
+  Peak main deferred allocation count 6080
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 22 Subsections = 22528 buckets. Failed count: 26454162
-        32B: 35 Subsections = 17920 buckets. Failed count: 16051388
-        48B: 51 Subsections = 17408 buckets. Failed count: 15183683
-        64B: 39 Subsections = 9984 buckets. Failed count: 792981
-        80B: 45 Subsections = 9216 buckets. Failed count: 591277
-        96B: 20 Subsections = 3413 buckets. Failed count: 7189421
-        112B: 26 Subsections = 3803 buckets. Failed count: 197441
-        128B: 18 Subsections = 2304 buckets. Failed count: 59637
+        16B: 22 Subsections = 22528 buckets. Failed count: 59693516
+        32B: 35 Subsections = 17920 buckets. Failed count: 38230187
+        48B: 51 Subsections = 17408 buckets. Failed count: 141382723
+        64B: 39 Subsections = 9984 buckets. Failed count: 2072566
+        80B: 45 Subsections = 9216 buckets. Failed count: 1461265
+        96B: 20 Subsections = 3413 buckets. Failed count: 17706818
+        112B: 26 Subsections = 3803 buckets. Failed count: 503604
+        128B: 18 Subsections = 2304 buckets. Failed count: 288509
     [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [16.0 MB-32.0 MB]: 4778 frames, [32.0 MB-64.0 MB]: 195873 frames
+      Peak usage frame count: [16.0 MB-32.0 MB]: 5834 frames, [32.0 MB-64.0 MB]: 465931 frames
       Requested Block Size 4.0 MB
-      Peak Block count 8
-      Peak Allocated memory 40.3 MB
+      Peak Block count 9
+      Peak Allocated memory 42.1 MB
       Peak Large allocation bytes 11.1 MB
     [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [64.0 MB-128.0 MB]: 200650 frames, [128.0 MB-256.0 MB]: 1 frames
+      Peak usage frame count: [64.0 MB-128.0 MB]: 471764 frames, [128.0 MB-256.0 MB]: 1 frames
       Requested Block Size 4.0 MB
       Peak Block count 11
       Peak Allocated memory 135.0 MB
@@ -529,22 +961,22 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 22 Subsections = 22528 buckets. Failed count: 26454162
-        32B: 35 Subsections = 17920 buckets. Failed count: 16051388
-        48B: 51 Subsections = 17408 buckets. Failed count: 15183683
-        64B: 39 Subsections = 9984 buckets. Failed count: 792981
-        80B: 45 Subsections = 9216 buckets. Failed count: 591277
-        96B: 20 Subsections = 3413 buckets. Failed count: 7189421
-        112B: 26 Subsections = 3803 buckets. Failed count: 197441
-        128B: 18 Subsections = 2304 buckets. Failed count: 59637
+        16B: 22 Subsections = 22528 buckets. Failed count: 59693516
+        32B: 35 Subsections = 17920 buckets. Failed count: 38230187
+        48B: 51 Subsections = 17408 buckets. Failed count: 141382723
+        64B: 39 Subsections = 9984 buckets. Failed count: 2072566
+        80B: 45 Subsections = 9216 buckets. Failed count: 1461265
+        96B: 20 Subsections = 3413 buckets. Failed count: 17706818
+        112B: 26 Subsections = 3803 buckets. Failed count: 503604
+        128B: 18 Subsections = 2304 buckets. Failed count: 288509
     [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 522 frames, [8.0 KB-16.0 KB]: 4256 frames, [32.0 KB-64.0 KB]: 195873 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 502 frames, [8.0 KB-16.0 KB]: 4267 frames, [32.0 KB-64.0 KB]: 466996 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
       Peak Allocated memory 38.5 KB
       Peak Large allocation bytes 0 B
     [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [8.0 KB-16.0 KB]: 4255 frames, [32.0 KB-64.0 KB]: 437 frames, [64.0 KB-128.0 KB]: 195959 frames
+      Peak usage frame count: [8.0 KB-16.0 KB]: 4266 frames, [32.0 KB-64.0 KB]: 414 frames, [64.0 KB-128.0 KB]: 467085 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
       Peak Allocated memory 83.4 KB
