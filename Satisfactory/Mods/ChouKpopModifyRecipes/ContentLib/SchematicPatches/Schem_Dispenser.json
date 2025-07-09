@@ -1,0 +1,38 @@
+//Dispenser/Schematics/Schem_Dispenser.Schem_Dispenser_C
+{
+      "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+      "Name": "Item Dispensers",
+      "Type": "Milestone",
+      "VisualKit": "Schem_Dispenser_C",
+      "Description": "",
+      "Cost": [
+            {
+                  "Item": "Desc_IronPlate",
+                  "Amount": 100
+            },
+            {
+                  "Item": "Desc_IronRod",
+                  "Amount": 100
+            },
+            {
+                  "Item": "Desc_Rotor",
+                  "Amount": 20
+            }
+      ],
+      "Category": "",
+      "SubCategories": [],
+      "MenuPriority": 0.0,
+      "Time": 60.0,
+      "Tier": 2,
+      "Recipes": [
+            "Recipe_Dispenser_C",
+            "Recipe_MiniDispenser_C"
+      ],
+      "DependsOn": [],
+      "ItemsToGive": [],
+      "ClearSubCategories": true,
+      "ClearCost": true,
+      "ClearRecipes": true,
+      "ClearDeps": false,
+      "ClearItemsToGive": false
+}

@@ -4,20 +4,20 @@
       "Name": "Industrial Dispenser",
       "Ingredients": [
             {
+                  "Item": "Desc_IronPlate",
+                  "Amount": 50
+            },
+            {
+                  "Item": "Desc_IronRod",
+                  "Amount": 50
+            },
+            {
+                  "Item": "Desc_Rotor",
+                  "Amount": 10
+            },
+            {
                   "Item": "Desc_ModularFrame",
                   "Amount": 5
-            },
-            {
-                  "Item": "Desc_SteelPlate",
-                  "Amount": 20
-            },
-            {
-                  "Item": "Desc_SteelPipe",
-                  "Amount": 20
-            },
-            {
-                  "Item": "Desc_Stator",
-                  "Amount": 2
             }
       ],
       "Products": [

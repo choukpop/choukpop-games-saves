@@ -1,0 +1,31 @@
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
+    "Name": "Cheat: Plutonium Waste",
+    "Ingredients": [
+        {
+            "Item": "Desc_PlutoniumWaste",
+            "Amount": 100
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_PlutoniumWaste",
+            "Amount": 0
+        }
+    ],
+    "ManufacturingDuration": 120.0,
+    "ProducedIn": [
+        "Build_ConstructorMk1_C"
+    ],
+    "OverrideCategory": "Cat_Nuclear_C",
+    "ManufacturingMenuPriority": 2.0,
+    "UnlockedBy": [
+        "Schematic_8-1_C"
+    ],
+    "ManualManufacturingDuration": 0.0,
+    "VariablePowerConsumptionConstant": 0.0,
+    "VariablePowerConsumptionFactor": 1.0,
+    "ClearIngredients": true,
+    "ClearProducts": true,
+    "ClearBuilders": true
+}

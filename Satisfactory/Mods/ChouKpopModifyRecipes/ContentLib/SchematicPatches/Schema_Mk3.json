@@ -1,0 +1,50 @@
+//PneumaticFrackingMachine/Schema_Mk3.Schema_Mk3_C
+{
+      "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
+      "Name": "Pneumatic Extractor Mk3",
+      "Type": "Milestone",
+      "VisualKit": "Schema_Mk3_C",
+      "Description": "",
+      "Cost": [
+            {
+                  "Item": "Desc_Motor",
+                  "Amount": 100
+            },
+            {
+                  "Item": "Desc_SteelPlateReinforced",
+                  "Amount": 100
+            },
+            {
+                  "Item": "Desc_SteelPlate",
+                  "Amount": 200
+            },
+            {
+                  "Item": "Desc_CopperSheet",
+                  "Amount": 500
+            },
+            {
+                  "Item": "Desc_ModularFrameHeavy",
+                  "Amount": 25
+            },
+            {
+                  "Item": "Desc_IronPlateReinforced",
+                  "Amount": 200
+            }
+      ],
+      "Category": "",
+      "SubCategories": [],
+      "MenuPriority": 2.0,
+      "Time": 600.0,
+      "Tier": 6,
+      "Recipes": [
+            "Recipe_PneuMk3_NEW_C",
+            "Recipe_FuckOilToOil_3_C"
+      ],
+      "DependsOn": [],
+      "ItemsToGive": [],
+      "ClearSubCategories": true,
+      "ClearCost": true,
+      "ClearRecipes": true,
+      "ClearDeps": false,
+      "ClearItemsToGive": false
+}
