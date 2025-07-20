@@ -1,0 +1,6 @@
+{
+    "Smelting": { "name_contains": "Placeable_CookingStand_Smelter" },
+    "Purifying": { "name_contains": "Placeable_CookingStand_Purifier", "has_custom_processing_models": false },
+    "Roasting": { "name_contains": "Placeable_CookingStand_Food" },
+    "Liquefying": { "name_contains": "Placeable_CookingStand_PaintMill" }
+}

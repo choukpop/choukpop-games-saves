@@ -1,0 +1,16 @@
+{
+    "CircuitBoard": { //name of the item to process
+        "cook_time": 90, //time (in seconds) it takes to process the item
+        "result": "CopperIngot", //what item is created by the processing
+        "amount": 1, //how much of that item
+        "raw_model": {
+            "raw": "SeaVine", //'model' to use while processing (will load the model associated with this item)
+            "cooked": true //if 'cooked' is true, it will use the cooked model instead
+        },
+      "cooked_model": {
+            "raw": "CopperOre"
+            //if cooked is omitted, it will default to true for "cooked_model" and false for "raw_model"
+      },
+      "processing_kind": "Smelting" //should match the name declared in the ProcessingBlocks file
+    }
+}

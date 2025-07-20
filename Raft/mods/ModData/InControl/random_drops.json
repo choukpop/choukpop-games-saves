@@ -1,0 +1,14 @@
+{
+    "Pickup_Floating_Barrel": {
+        "items": {
+            "Sand": 5,
+            "Clay": 5
+        }
+    },
+    "Pickup_Floating_Box": {
+        "items": {
+            "Sand": 5,
+            "Clay": 5
+        }
+    }
+}
