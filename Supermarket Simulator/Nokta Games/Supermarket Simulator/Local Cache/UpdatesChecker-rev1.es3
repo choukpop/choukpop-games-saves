@@ -1,0 +1,113 @@
+{
+	"lastVersionData" : {
+		"__type" : "System.Collections.Generic.Dictionary`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UpdatesChecker.Helper+ModInfo, UpdatesChecker, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null]],mscorlib",
+		"value" : {"BepInEx.MelonLoader.Loader.UnityMono":{
+				"clientModId" : "BepInEx.MelonLoader.Loader.UnityMono",
+				"name" : "Bepinex loader for MelonLoader mods",
+				"latestVersion" : "2.1.0",
+				"error" : null,
+				"fetchData" : {
+					"ticks" : 638889494157154408
+				}
+			},"BetterSaveSystemRevived":{
+				"clientModId" : "BetterSaveSystemRevived",
+				"name" : "Better Save System Revived",
+				"latestVersion" : "2.1.4",
+				"error" : null,
+				"fetchData" : {
+					"ticks" : 638889494157154408
+				}
+			},"com.bepis.bepinex.configurationmanager":{
+				"clientModId" : "com.bepis.bepinex.configurationmanager",
+				"name" : "Bepinex Configuration Manager",
+				"latestVersion" : "18.4",
+				"error" : null,
+				"fetchData" : {
+					"ticks" : 638889494157154408
+				}
+			},"CustomerCounter":{
+				"clientModId" : "CustomerCounter",
+				"name" : "Customer Counter",
+				"latestVersion" : "1.0.1",
+				"error" : null,
+				"fetchData" : {
+					"ticks" : 638889494157154408
+				}
+			},"FasterCustomers":{
+				"clientModId" : "FasterCustomers",
+				"name" : "Faster Customers",
+				"latestVersion" : "1.2.2",
+				"error" : null,
+				"fetchData" : {
+					"ticks" : 638889494157154408
+				}
+			},"FastForwardFixesAddon":{
+				"clientModId" : "FastForwardFixesAddon",
+				"name" : "Fast Forward Fixes Addon",
+				"latestVersion" : "2.0.0",
+				"error" : null,
+				"fetchData" : {
+					"ticks" : 638889494157154408
+				}
+			},"shaklin.TextureReplacer":{
+				"clientModId" : "shaklin.TextureReplacer",
+				"name" : "TextureReplacer",
+				"latestVersion" : "1.3.6",
+				"error" : null,
+				"fetchData" : {
+					"ticks" : 638889494157154408
+				}
+			},"SmartPocketBoxes":{
+				"clientModId" : "SmartPocketBoxes",
+				"name" : "Smart Pocket Boxes",
+				"latestVersion" : "1.4.6",
+				"error" : null,
+				"fetchData" : {
+					"ticks" : 638889494157154408
+				}
+			},"SpawnCustomerRevival":{
+				"clientModId" : "SpawnCustomerRevival",
+				"name" : "Spawn A Customer Revival",
+				"latestVersion" : "1.0.0",
+				"error" : null,
+				"fetchData" : {
+					"ticks" : 638889494157154408
+				}
+			},"Tobey.FileTree":{
+				"clientModId" : "Tobey.FileTree",
+				"name" : "Tobey's File Tree",
+				"latestVersion" : "1.0.1",
+				"error" : null,
+				"fetchData" : {
+					"ticks" : 638889494157154408
+				}
+			},"UnrestrictedPlacement":{
+				"clientModId" : "UnrestrictedPlacement",
+				"name" : "Unrestricted Placement",
+				"latestVersion" : "1.3.0",
+				"error" : null,
+				"fetchData" : {
+					"ticks" : 638889494157154408
+				}
+			},"UpdatesChecker":{
+				"clientModId" : "UpdatesChecker",
+				"name" : "Updates Checker",
+				"latestVersion" : "1.3.1",
+				"error" : null,
+				"fetchData" : {
+					"ticks" : 638889494157154408
+				}
+			}
+		}
+	},
+	"supportedModsData" : {
+		"__type" : "UpdatesChecker.Helper+SupportedModsData,UpdatesChecker",
+		"value" : {
+			"date" : {
+				"ticks" : 638889494150853516
+			},
+			"supported" : {"AdjustableCheckoutLine":"1191","AutoOpenEmptyBoxes":"1012","AutoShoppingCart":"480","AutoSave":"755","AutoToolSwitcher":"974","BatchBoosting":"876","BetterLights":"889","BetterLoans":"804","BetterSaveSystemRevived":"896","BoostTweaks":"880","ChangeCurrency":"46","CheatsUnlocked":"1196","Checkout Theme":"81","ClearCart":"651","com.bepis.bepinex.configurationmanager":"1136","com.dsld.autopriceupdater":"7","com.yourname.supermarketsimulator.trainer":"1043","com.bepinex.plugin.ss.bgmuter":"1127","com.bepinex.plugin.ss.smartstocker":"953","CustomerAlerts":"960","CustomerCounter":"1218","CustomShelves":"1128","CrateToRack":"1018","DespawnOnCheckout":"114","DisableShelves":"49","DiscountHelper":"1243","EasyCleaning":"973","EMarket":"752","EZDelivery":"58","FasterBoxOpening":"1024","FasterCustomers":"980","FasterPainting":"1193","FasterProductPlacement":"1015","FasterRefuelling":"1135","FastForwardFixesAddon":"978","FastForwardNormalWalkingSpeedAddon":"835","FastForwardSpeedIndicatorFixAddon":"978","FillMyCart":"1260","FNK_Consolidator":"721","FNK_NPCTweaks":"719","FPSCounter":"1059","FuelConsumptionRate":"1133","FullBoost":"881","FurniturePainter":"773","FurnitureRemover":"669","IgnoreUnlistedItems":"513","jp.tsuteto.sms.EmployeeTrainingProgram":"539","LessDirtAndGarbageAndDust":"972","LessDoppelgangerCustomers":"991","LessFrequentShoplifters":"989","LessNeedyCustomers":"811","LessPickyCustomers":"831","LiteCityMode":"1179","LocalMarketExpressDelivery":"1145","LocalMarketLoadingService":"1189","LongerBoosts":"875","LongerDays":"806","MagicRestocker":"428","MapTeleport":"1151","MaxBackupCount":"976","ModdedProductsRemover":"975","MoreDetailedComputerInventory":"986","MoreDetailedTabletInventory":"984","MoreProducts":"726","MoreWorkers":"1021","MoreWorkersInteractions":"982","MotivatedWorkers":"883","MoveLightSwitch":"1174","NoMoreAccidentalBoosts":"1175","NoMoreDoorsRevival":"1190","NoMoreScaleBellSound":"1022","OneClickPurchaseWholesaleProducts":"1143","OnlineOrderFrequencyControl":"1233","OvertimeRestockers":"817","PaintAndTileQuantityTweaks":"1008","Pallets_Display":"700","PayementMethodChoice":"977","PersistentPlayerLocation":"1142","PriceHelper":"824","PricingTweaks":"944","ProductPlacementHelper":"998","QuietVehicles":"1208","RackRefill":"743","RDC Tweaks":"121","RemoteProductPlacement":"1009","RestockingRefillRate":"985","ScamSimulator":"1217","ScannableLocalMarketProducts":"1139","shaklin.MoveTrashBin":"334","shaklin.NPCsCustomNames":"116","shaklin.RadioSpeaker":"311","shaklin.SoundReplacer":"220","shaklin.TextureReplacer":"70","SirW_CustomHints":"759","SlowerRunningShoplifters":"1003","SmartPocketBoxes":"23","SmartPocketBoxesInteractionHintsAddon":"983","SpawnCustomerRevival":"1222","Stock Manager":"4","StoreDeliveryFixesAddon":"1051","StoreDeliveryTabletAddon":"988","StoreExpansion":"1154","SummonVehicle":"1149","TimePause":"1202","Tips":"1023","TdoStatisticsFixesAddon":"1053","TrashAnywhere":"747","TreasureTrash":"767","TwitchIntegration":"215","UnlimitedTruckCapacity":"1180","UnlockRequirementBypass":"996","UpdatesChecker":"1032","UprightFreezers":"280","UnrestrictedPlacement":"55","WholesaleFrequencyControl":"1200","WorkerOptions":"801","BepInEx.MelonLoader.Loader.UnityMono":"9","Tobey.FileTree":"9"
+			}
+		}
+	}
+}
