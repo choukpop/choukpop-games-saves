@@ -1,0 +1,6 @@
+Stone
+Wood
+$overclockCoreSlot
+$overclockSpeedCore
+$overclockEfficiencyCore
+$overclockProductivityCore
