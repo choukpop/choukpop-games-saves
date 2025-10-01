@@ -1,5 +1,3 @@
-Stone
-Wood
 $overclockCoreSlot
 $overclockSpeedCore
 $overclockEfficiencyCore

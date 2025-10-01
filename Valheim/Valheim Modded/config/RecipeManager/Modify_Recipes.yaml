@@ -45,7 +45,7 @@ recipeModifications:
     recipeName: Recipe_Bronze
     craftedAt: forge
     minStationLevel: 1
-    craftAmount: 2
+    craftAmount: 3
     recipe:
       anyOneResource: false
       ingredients:
@@ -62,7 +62,7 @@ recipeModifications:
     recipeName: Recipe_Bronze5
     craftedAt: forge
     minStationLevel: 1
-    craftAmount: 10
+    craftAmount: 15
     recipe:
       anyOneResource: false
       ingredients:
