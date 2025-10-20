@@ -3,7 +3,8 @@
 <plist version="1.0">
     <dict>
         <key>launch_count</key>
-        <integer>6</integer>
+        <integer>9</integer>
+        <key>push_noti_rationale_shown</key>
         <key>volume_fx</key>
         <real>0.2300000</real>
         <key>launch</key>
@@ -32,22 +33,24 @@
         <real>0.0500000</real>
         <key>joystick_settings</key>
         <dict>
-            <key>RateLimitDelayRepeat</key>
-            <real>0.1500000</real>
             <key>JoystickSpeed</key>
-            <real>600.0000000</real>
+            <real>600.0000000000000000</real>
+            <key>RateLimitDelayRepeat</key>
+            <real>0.1500000000000000</real>
             <key>JoystickPower</key>
-            <real>3.0000000</real>
-            <key>NavKeyStep</key>
-            <real>20.0000000</real>
+            <real>3.0000000000000000</real>
             <key>JoystickRampUpTime</key>
-            <real>0.2500000</real>
+            <real>0.2500000000000000</real>
+            <key>NavKeyStep</key>
+            <real>20.0000000000000000</real>
             <key>RateLimitDelay</key>
-            <real>0.4000000</real>
+            <real>0.4000000000000000</real>
             <key>JoystickAxisThreshold</key>
-            <real>0.1000000</real>
+            <real>0.1000000000000000</real>
             <key>NavKeyStepAlt</key>
-            <real>100.0000000</real>
+            <real>100.0000000000000000</real>
+            <key>VibrationStrength</key>
+            <real>1.0000000000000000</real>
         </dict>
         <key>victory_count</key>
         <integer>5</integer>
