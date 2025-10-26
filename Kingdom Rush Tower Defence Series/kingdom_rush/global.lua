@@ -1,7 +1,7 @@
 local obj1 = {
 	["first_launch_time"] = 1729203698;
 	["marketing"] = {
-		["session_count"] = 9;
+		["session_count"] = 22;
 	};
 }
 return obj1

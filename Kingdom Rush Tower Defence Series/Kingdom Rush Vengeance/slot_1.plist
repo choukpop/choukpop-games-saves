@@ -321,6 +321,19 @@
                 <key>available</key>
                 <false/>
             </dict>
+            <key>KR4_TOWER_OGRES</key>
+            <dict>
+                <key>key</key>
+                <string>KR4_TOWER_OGRES</string>
+                <key>selected</key>
+                <false/>
+                <key>position</key>
+                <integer>-1</integer>
+                <key>purchased</key>
+                <false/>
+                <key>new</key>
+                <false/>
+            </dict>
         </dict>
         <key>veznan</key>
         <dict>
@@ -1071,10 +1084,112 @@
                     <key>dif_campaign</key>
                     <integer>0</integer>
                 </dict>
+                <dict>
+                    <key>level_index</key>
+                    <integer>37</integer>
+                    <key>status</key>
+                    <integer>2</integer>
+                    <key>seen_mode_notification</key>
+                    <false/>
+                    <key>stars</key>
+                    <integer>0</integer>
+                    <key>heroic</key>
+                    <false/>
+                    <key>dif_heroic</key>
+                    <integer>0</integer>
+                    <key>iron</key>
+                    <false/>
+                    <key>dif_iron</key>
+                    <integer>0</integer>
+                    <key>dif_campaign</key>
+                    <integer>0</integer>
+                </dict>
+                <dict>
+                    <key>level_index</key>
+                    <integer>38</integer>
+                    <key>status</key>
+                    <integer>0</integer>
+                    <key>seen_mode_notification</key>
+                    <false/>
+                    <key>stars</key>
+                    <integer>0</integer>
+                    <key>heroic</key>
+                    <false/>
+                    <key>dif_heroic</key>
+                    <integer>0</integer>
+                    <key>iron</key>
+                    <false/>
+                    <key>dif_iron</key>
+                    <integer>0</integer>
+                    <key>dif_campaign</key>
+                    <integer>0</integer>
+                </dict>
+                <dict>
+                    <key>level_index</key>
+                    <integer>39</integer>
+                    <key>status</key>
+                    <integer>0</integer>
+                    <key>seen_mode_notification</key>
+                    <false/>
+                    <key>stars</key>
+                    <integer>0</integer>
+                    <key>heroic</key>
+                    <false/>
+                    <key>dif_heroic</key>
+                    <integer>0</integer>
+                    <key>iron</key>
+                    <false/>
+                    <key>dif_iron</key>
+                    <integer>0</integer>
+                    <key>dif_campaign</key>
+                    <integer>0</integer>
+                </dict>
+                <dict>
+                    <key>level_index</key>
+                    <integer>40</integer>
+                    <key>status</key>
+                    <integer>0</integer>
+                    <key>seen_mode_notification</key>
+                    <false/>
+                    <key>stars</key>
+                    <integer>0</integer>
+                    <key>heroic</key>
+                    <false/>
+                    <key>dif_heroic</key>
+                    <integer>0</integer>
+                    <key>iron</key>
+                    <false/>
+                    <key>dif_iron</key>
+                    <integer>0</integer>
+                    <key>dif_campaign</key>
+                    <integer>0</integer>
+                </dict>
+                <dict>
+                    <key>level_index</key>
+                    <integer>41</integer>
+                    <key>status</key>
+                    <integer>0</integer>
+                    <key>seen_mode_notification</key>
+                    <false/>
+                    <key>stars</key>
+                    <integer>0</integer>
+                    <key>heroic</key>
+                    <false/>
+                    <key>dif_heroic</key>
+                    <integer>0</integer>
+                    <key>iron</key>
+                    <false/>
+                    <key>dif_iron</key>
+                    <integer>0</integer>
+                    <key>dif_campaign</key>
+                    <integer>0</integer>
+                </dict>
             </array>
             <key>dlc_purchased</key>
             <dict>
                 <key>KR4_DLC_SANDSTORM</key>
+                <false/>
+                <key>KR4_DLC_PIRATES</key>
                 <false/>
             </dict>
         </dict>
@@ -1154,25 +1269,25 @@
                         <key>key</key>
                         <string>onix_arrows</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>1</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>quiver_of_sorrow</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>1</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>shield_of_shadows</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>1</integer>
                     </dict>
                     <dict>
                         <key>key</key>
                         <string>ultimate</string>
                         <key>level</key>
-                        <integer>0</integer>
+                        <integer>1</integer>
                     </dict>
                 </array>
             </dict>
@@ -1820,6 +1935,52 @@
                     </dict>
                 </array>
             </dict>
+            <key>KR4_HERO_LUCERNA</key>
+            <dict>
+                <key>xp</key>
+                <integer>52500</integer>
+                <key>level</key>
+                <integer>5</integer>
+                <key>selected</key>
+                <false/>
+                <key>new</key>
+                <false/>
+                <key>purchased</key>
+                <false/>
+                <key>skills</key>
+                <array>
+                    <dict>
+                        <key>key</key>
+                        <string>scurvy_vissage</string>
+                        <key>level</key>
+                        <integer>0</integer>
+                    </dict>
+                    <dict>
+                        <key>key</key>
+                        <string>fire_at_will</string>
+                        <key>level</key>
+                        <integer>0</integer>
+                    </dict>
+                    <dict>
+                        <key>key</key>
+                        <string>damned_crew</string>
+                        <key>level</key>
+                        <integer>0</integer>
+                    </dict>
+                    <dict>
+                        <key>key</key>
+                        <string>pirates_pillage</string>
+                        <key>level</key>
+                        <integer>0</integer>
+                    </dict>
+                    <dict>
+                        <key>key</key>
+                        <string>ultimate</string>
+                        <key>level</key>
+                        <integer>0</integer>
+                    </dict>
+                </array>
+            </dict>
         </dict>
         <key>upgrades</key>
         <dict>
@@ -2100,13 +2261,10 @@
             <dict>
                 <key>tooltip_notification_tip_1</key>
                 <true/>
-                <key>stonebeard_geomancer</key>
                 <key>tooltip_notification_tip_2</key>
                 <true/>
                 <key>tooltip_notification_tip_3</key>
                 <true/>
-                <key>sulfur_alchemist</key>
-                <key>quarry_worker</key>
             </dict>
             <key>enemies</key>
             <dict>
@@ -2118,6 +2276,8 @@
                 <true/>
                 <key>bruiser</key>
                 <true/>
+                <key>sulfur_alchemist</key>
+                <true/>
                 <key>chomp_bot</key>
                 <true/>
                 <key>smokebeard_engineer</key>
@@ -2126,9 +2286,6 @@
                 <true/>
                 <key>tinbeard_gunman</key>
                 <true/>
-                <key>tooltip_notification_tip_3</key>
-                <key>sulfur_alchemist</key>
-                <true/>
                 <key>quarry_worker</key>
                 <true/>
                 <key>stonebeard_geomancer</key>
@@ -2136,7 +2293,7 @@
             </dict>
         </dict>
         <key>save_version</key>
-        <integer>5</integer>
+        <integer>6</integer>
         <key>power_ups</key>
         <dict>
             <key>KR4_POWER_UP_BOMB</key>
@@ -3311,6 +3468,84 @@
                 <key>conditions</key>
                 <array/>
             </dict>
+            <key>KR4_ACHIEVEMENT_GARFIO</key>
+            <dict>
+                <key>id</key>
+                <string>KR4_ACHIEVEMENT_GARFIO</string>
+                <key>award_collected</key>
+                <false/>
+                <key>earned</key>
+                <false/>
+                <key>quantity_current</key>
+                <integer>0</integer>
+                <key>conditions</key>
+                <array/>
+            </dict>
+            <key>KR4_ACHIEVEMENT_CHICKENS</key>
+            <dict>
+                <key>id</key>
+                <string>KR4_ACHIEVEMENT_CHICKENS</string>
+                <key>award_collected</key>
+                <false/>
+                <key>earned</key>
+                <false/>
+                <key>quantity_current</key>
+                <integer>0</integer>
+                <key>conditions</key>
+                <array/>
+            </dict>
+            <key>KR4_ACHIEVEMENT_MONKEY_THREE_HEADS</key>
+            <dict>
+                <key>id</key>
+                <string>KR4_ACHIEVEMENT_MONKEY_THREE_HEADS</string>
+                <key>award_collected</key>
+                <false/>
+                <key>earned</key>
+                <false/>
+                <key>quantity_current</key>
+                <integer>0</integer>
+                <key>conditions</key>
+                <array/>
+            </dict>
+            <key>KR4_ACHIEVEMENT_SHARK</key>
+            <dict>
+                <key>id</key>
+                <string>KR4_ACHIEVEMENT_SHARK</string>
+                <key>award_collected</key>
+                <false/>
+                <key>earned</key>
+                <false/>
+                <key>quantity_current</key>
+                <integer>0</integer>
+                <key>conditions</key>
+                <array/>
+            </dict>
+            <key>KR4_ACHIEVEMENT_TREASURE_MAP</key>
+            <dict>
+                <key>id</key>
+                <string>KR4_ACHIEVEMENT_TREASURE_MAP</string>
+                <key>award_collected</key>
+                <false/>
+                <key>earned</key>
+                <false/>
+                <key>quantity_current</key>
+                <integer>0</integer>
+                <key>conditions</key>
+                <array/>
+            </dict>
+            <key>KR4_ACHIEVEMENT_PIRATES_END</key>
+            <dict>
+                <key>id</key>
+                <string>KR4_ACHIEVEMENT_PIRATES_END</string>
+                <key>award_collected</key>
+                <false/>
+                <key>earned</key>
+                <false/>
+                <key>quantity_current</key>
+                <integer>0</integer>
+                <key>conditions</key>
+                <array/>
+            </dict>
             <key>KR4_ACHIEVEMENT_PEERLESS_DEFENDER</key>
             <dict>
                 <key>id</key>
@@ -3431,6 +3666,8 @@
                 <true/>
                 <key>hero_isfet_mummy</key>
                 <true/>
+                <key>gollum</key>
+                <true/>
                 <key>warmongers_soldier_orc_captain</key>
                 <true/>
                 <key>quarry_worker</key>
@@ -3446,7 +3683,7 @@
         <key>showed_tip_tower_room_dlc_badge</key>
         <false/>
         <key>showed_tip_hero_room_dlc_badge</key>
-        <false/>
+        <true/>
         <key>has_rated_game</key>
         <false/>
     </dict>

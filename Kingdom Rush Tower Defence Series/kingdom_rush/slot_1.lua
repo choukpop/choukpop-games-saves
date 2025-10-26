@@ -12,16 +12,16 @@ local obj1 = {
 		["EARN15_STARS"] = 36;
 		["EARN30_STARS"] = 36;
 		["EARN45_STARS"] = 36;
-		["EASY_TOWER_BUILDER"] = 241;
+		["EASY_TOWER_BUILDER"] = 242;
 		["ENTANGLED"] = 142;
 		["FIRST_BLOOD"] = 6893;
-		["GI_JOE"] = 854;
-		["HARD_TOWER_BUILDER"] = 241;
+		["GI_JOE"] = 857;
+		["HARD_TOWER_BUILDER"] = 242;
 		["HERO_HARD"] = 10;
 		["HERO_MEDIUM"] = 10;
 		["HOLY_CHORUS"] = 75;
 		["MEDIC"] = 4954;
-		["MEDIUM_TOWER_BUILDER"] = 241;
+		["MEDIUM_TOWER_BUILDER"] = 242;
 		["MULTIKILL"] = 6893;
 		["REAL_STATE"] = 14;
 		["ROCKETEER"] = 20;
@@ -71,7 +71,7 @@ local obj1 = {
 	["difficulty"] = 1;
 	["gems"] = 2835;
 	["heroes"] = {
-		["selected"] = "hero_denas";
+		["selected"] = "hero_elora";
 		["status"] = {
 			["hero_10yr"] = {
 				["skills"] = {
@@ -190,18 +190,60 @@ local obj1 = {
 			["stars"] = 3;
 		};
 		[13] = {
+			[1] = 1;
+			["stars"] = 3;
 		};
 		[14] = {
+			[1] = 1;
+			["stars"] = 3;
 		};
 		[15] = {
+			[1] = 1;
+			["stars"] = 3;
 		};
 		[16] = {
+			[1] = 1;
+			["stars"] = 3;
+		};
+		[17] = {
+			[1] = 1;
+			["stars"] = 3;
 		};
 		[18] = {
+			[1] = 1;
+			["stars"] = 3;
+		};
+		[19] = {
+			[1] = 1;
+			["stars"] = 3;
 		};
 		[20] = {
+			[1] = 1;
+			["stars"] = 3;
+		};
+		[21] = {
+			[1] = 1;
+			["stars"] = 3;
+		};
+		[22] = {
+			[1] = 1;
+			["stars"] = 3;
 		};
 		[23] = {
+			[1] = 1;
+			["stars"] = 3;
+		};
+		[24] = {
+			[1] = 1;
+			["stars"] = 3;
+		};
+		[25] = {
+			[1] = 1;
+			["stars"] = 3;
+		};
+		[26] = {
+			[1] = 1;
+			["stars"] = 3;
 		};
 	};
 	["seen"] = {
@@ -210,6 +252,7 @@ local obj1 = {
 		["TIP_ARMOR"] = true;
 		["TIP_ARMOR_HARD"] = true;
 		["TIP_ARMOR_MAGIC"] = true;
+		["TIP_ELITE"] = true;
 		["TIP_HEROES"] = true;
 		["TIP_RALLY"] = true;
 		["TIP_STRATEGY"] = true;
@@ -294,13 +337,13 @@ local obj1 = {
 		["tower_tesla"] = true;
 	};
 	["upgrades"] = {
-		["archers"] = 3;
-		["barracks"] = 4;
-		["engineers"] = 4;
-		["mages"] = 4;
-		["rain"] = 2;
-		["reinforcements"] = 3;
+		["archers"] = 5;
+		["barracks"] = 5;
+		["engineers"] = 5;
+		["mages"] = 5;
+		["rain"] = 5;
+		["reinforcements"] = 5;
 	};
-	["version_string"] = "kr1-desktop-5.6.12";
+	["version_string"] = "kr1-desktop-5.6.09";
 }
 return obj1

@@ -1,6 +1,6 @@
 local obj1 = {
 	["fps"] = 60;
-	["fullscreen"] = true;
+	["fullscreen"] = false;
 	["height"] = 1080;
 	["highdpi"] = false;
 	["large_pointer"] = false;

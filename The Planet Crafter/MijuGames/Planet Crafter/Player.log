@@ -1,0 +1,404 @@
+Mono path[0] = 'D:/SteamLibrary/steamapps/common/The Planet Crafter/Planet Crafter_Data/Managed'
+Mono config path = 'D:/SteamLibrary/steamapps/common/The Planet Crafter/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.0.49f1 (840e0a9776d9)
+[Subsystems] Discovering subsystems at path D:/SteamLibrary/steamapps/common/The Planet Crafter/Planet Crafter_Data/UnitySubsystems
+kGfxThreadingModeSplitJobs is not supported on Direct3D 11. Reverting to kGfxThreadingModeClientWorkerJobs instead.
+GfxDevice: creating device client; kGfxThreadingModeClientWorkerJobs
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD  Radeon RX 7800 XT (ID=0x747e)
+    Vendor:   ATI
+    VRAM:     16368 MB
+    Driver:   32.0.21025.10016
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.150 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+D3D11 device created for Microsoft Media Foundation video decoding.
+ArgumentException: No such field defined in class SpaceCraft.MeteoHandler
+Parameter name: meteoEvents
+  at HarmonyLib.Public.Patching.HarmonyManipulator.EmitCallParameter (System.Reflection.MethodInfo patch, System.Boolean allowFirsParamPassthrough, Mono.Cecil.Cil.VariableDefinition& tmpObjectVar, System.Collections.Generic.List`1[HarmonyLib.Public.Patching.HarmonyManipulator+ArgumentBoxInfo]& tmpBoxVars) [0x002b6] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at HarmonyLib.Public.Patching.HarmonyManipulator.WritePostfixes (HarmonyLib.Internal.Util.ILEmitter+Label returnLabel) [0x001a5] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at HarmonyLib.Public.Patching.HarmonyManipulator.WriteImpl () [0x00234] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+Rethrow as HarmonyException: IL Compile Error (unknown location)
+  at HarmonyLib.Public.Patching.HarmonyManipulator.WriteImpl () [0x00378] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at HarmonyLib.Public.Patching.HarmonyManipulator.Process (MonoMod.Cil.ILContext ilContext, System.Reflection.MethodBase originalMethod) [0x00042] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at HarmonyLib.Public.Patching.HarmonyManipulator.Manipulate (System.Reflection.MethodBase original, HarmonyLib.PatchInfo patchInfo, MonoMod.Cil.ILContext ctx) [0x00006] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at HarmonyLib.Public.Patching.HarmonyManipulator.Manipulate (System.Reflection.MethodBase original, MonoMod.Cil.ILContext ctx) [0x00007] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at HarmonyLib.Public.Patching.ManagedMethodPatcher.Manipulator (MonoMod.Cil.ILContext ctx) [0x00012] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at MonoMod.Cil.ILContext.Invoke (MonoMod.Cil.ILContext+Manipulator manip) [0x00087] in <6733e342b5b549bba815373898724469>:0 
+  at MonoMod.RuntimeDetour.ILHook+Context.InvokeManipulator (Mono.Cecil.MethodDefinition def, MonoMod.Cil.ILContext+Manipulator cb) [0x00012] in <4e2760c7517c4ea79c633d67e84b319f>:0 
+  at (wrapper dynamic-method) MonoMod.RuntimeDetour.ILHook+Context.DMD<MonoMod.RuntimeDetour.ILHook+Context::Refresh>(MonoMod.RuntimeDetour.ILHook/Context)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<MonoMod.RuntimeDetour.ILHook+Context::Refresh>?1610369698(object)
+  at HarmonyLib.Internal.RuntimeFixes.StackTraceFixes.OnILChainRefresh (System.Object self) [0x00000] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at MonoMod.RuntimeDetour.ILHook.Apply () [0x00059] in <4e2760c7517c4ea79c633d67e84b319f>:0 
+  at HarmonyLib.Public.Patching.ManagedMethodPatcher.DetourTo (System.Reflection.MethodBase replacement) [0x00047] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+Rethrow as HarmonyException: IL Compile Error (unknown location)
+  at HarmonyLib.Public.Patching.ManagedMethodPatcher.DetourTo (System.Reflection.MethodBase replacement) [0x0005f] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at HarmonyLib.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, HarmonyLib.PatchInfo patchInfo) [0x00033] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+Rethrow as HarmonyException: IL Compile Error (unknown location)
+  at HarmonyLib.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, HarmonyLib.PatchInfo patchInfo) [0x0005d] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at HarmonyXInterop.HarmonyInterop.ApplyPatch (System.Reflection.MethodBase target, HarmonyXInterop.PatchInfoWrapper add, HarmonyXInterop.PatchInfoWrapper remove) [0x00096] in <fad57eaa588e4bad9c9b36ddd04a7f1c>:0 
+  at HarmonyLib.Internal.MethodPatcher.Apply () [0x000f1] in <9b2425ba62f440b691e7c3d339511e93>:0 
+  at HarmonyLib.PatchProcessor.Patch () [0x00155] in <9b2425ba62f440b691e7c3d339511e93>:0 
+  at HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) [0x00076] in <9b2425ba62f440b691e7c3d339511e93>:0 
+  at HarmonyLib.Harmony.CreateAndPatchAll (System.Reflection.Assembly assembly, System.String harmonyInstanceId) [0x0001e] in <9b2425ba62f440b691e7c3d339511e93>:0 
+  at BetterMeteorites.BepInExPlugin.Awake () [0x000d8] in <bbe76d744b7a49a08d7655803c919243>:0 
+UnityEngine.GameObject:Internal_AddComponentWithType_Injected(IntPtr, Type)
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent(Type)
+BepInEx.Bootstrap.Chainloader:Start()
+UnityEngine.Application:.cctor()
+UnityEngine.InputSystem.InputManager:InitializeData()
+UnityEngine.InputSystem.InputManager:Initialize(IInputRuntime, InputSettings)
+UnityEngine.InputSystem.InputSystem:InitializeInPlayer(IInputRuntime, InputSettings)
+UnityEngine.InputSystem.InputSystem:.cctor()
+
+
+Fixing BepInEx Logging
+  BepInEx version   : 5.4.23.4
+  Application       : Planet Crafter (1.526)
+  Unity version     : 6000.0.49f1
+  Runtime version   : Mono 6.13.0 (Visual Studio built mono)
+  CLR version       : 4.0.30319.42000
+  System & Platform : X64, Microsoft Windows NT 10.0.26100.0
+  Processor         : AMD Ryzen 7 5800X 8-Core Processor  
+  Cores & Memory    : 16 threads, 16 GB RAM
+  Achievements      : Enabled
+
+[Info   :   BepInEx] Loading [Better Meteorites 0.2.0]
+[Info   :   BepInEx] Loading [Delete 0.5.1]
+[Info   :   BepInEx] Loading [Resource Scan 0.1.0]
+[Info   :   BepInEx] Loading [Spawn Object 0.7.0]
+[Info   :   BepInEx] Loading [(Cheat) Inventory Stacking 1.0.2.0]
+[Info   :(Cheat) Inventory Stacking] Plugin is loaded!
+[Info   :(Cheat) Inventory Stacking] Mod akarnokd.theplanetcraftermods.cheatcraftfromnearbycontainers not found.
+[Info   :(Cheat) Inventory Stacking] Mod valriz.theplanetcrafter.storagebuffer not found.
+[Info   :   BepInEx] Loading [(Feat) Command Console 1.0.1.30]
+[Info   :(Feat) Command Console] Plugin is loaded!
+[Info   :(Feat) Command Console] Mod akarnokd.theplanetcraftermods.cheatinventorystacking found, using it's services.
+[Info   :   BepInEx] Loading [(Misc) Mod Enabler 1.0.0.14]
+[Info   :(Misc) Mod Enabler] Checking for BepInEx.cfg HideManagerGameObject
+[Info   :(Misc) Mod Enabler]     HideManagerGameObject = true, all is ok
+[Info   :   BepInEx] Loading [(UI) Mod Config Menu 1.0.0.19]
+[Info   :(UI) Mod Config Menu] Plugin is loaded!
+[Info   :   BepInEx] Loading [The Planet Crafter Plugin ContainerAutoDeposit 1.0.0]
+[Info   :The Planet Crafter Plugin ContainerAutoDeposit] Plugin dev.jamarir.theplanetcrafter.containerautodeposit is loaded!
+[Info   :   BepInEx] Loading [PlanetCrafterZoom 1.0.0]
+[Message:   BepInEx] Chainloader startup complete
+<RI> Initializing input.
+Using Windows.Gaming.Input
+<RI> Initialized touch support.
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.ReplaceMaterials) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.ReplaceMaterials) on this Behaviour is missing!
+The referenced script (SpaceCraft.ReplaceMaterials) on this Behaviour is missing!
+The referenced script (SpaceCraft.ReplaceMaterials) on this Behaviour is missing!
+The referenced script (SpaceCraft.ReplaceMaterials) on this Behaviour is missing!
+The referenced script (SpaceCraft.ReplaceMaterials) on this Behaviour is missing!
+The referenced script (SpaceCraft.ReplaceMaterials) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Tile5x5x2_Lounge') is missing!
+A scripted object (probably SpaceCraft.ReplaceMaterials?) has a different serialization layout when loading. (Read 32 bytes but expected 172 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'Tile5x5x2_Kitchen') is missing!
+A scripted object (probably SpaceCraft.ReplaceMaterials?) has a different serialization layout when loading. (Read 32 bytes but expected 172 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'Tile5x5x2_Mechanical') is missing!
+A scripted object (probably SpaceCraft.ReplaceMaterials?) has a different serialization layout when loading. (Read 32 bytes but expected 172 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'Tile5x5x2_Greenhouse') is missing!
+A scripted object (probably SpaceCraft.ReplaceMaterials?) has a different serialization layout when loading. (Read 32 bytes but expected 172 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'Tile5x5x2_ControlRoom') is missing!
+A scripted object (probably SpaceCraft.ReplaceMaterials?) has a different serialization layout when loading. (Read 32 bytes but expected 172 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'Tile5x5x2_Sport') is missing!
+A scripted object (probably SpaceCraft.ReplaceMaterials?) has a different serialization layout when loading. (Read 32 bytes but expected 172 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'RocketMap4') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object '1rst floor') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object '_Interior') is missing!
+The referenced script on this Behaviour (Game Object 'Rocks') is missing!
+The referenced script on this Behaviour (Game Object 'Structure') is missing!
+The referenced script on this Behaviour (Game Object 'P_Escape_Pod_01') is missing!
+The referenced script on this Behaviour (Game Object 'Heater3') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container (1)') is missing!
+The referenced script on this Behaviour (Game Object 'Button_Squared_Orange') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Interior_block_bigRoom_01') is missing!
+A scripted object (probably SpaceCraft.ReplaceMaterials?) has a different serialization layout when loading. (Read 32 bytes but expected 52 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object '2nd floor') is missing!
+The referenced script on this Behaviour (Game Object 'Corridor A') is missing!
+The referenced script on this Behaviour (Game Object '1st floor') is missing!
+UnloadTime: 1.445300 ms
+The referenced script (SpaceCraft.ItemsOrderChanger) on this Behaviour is missing!
+The referenced script (SpaceCraft.ItemsOrderChanger) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'OrderChangerConstructibles') is missing!
+A scripted object (probably SpaceCraft.ItemsOrderChanger?) has a different serialization layout when loading. (Read 32 bytes but expected 84 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'OrderChangerItems') is missing!
+A scripted object (probably SpaceCraft.ItemsOrderChanger?) has a different serialization layout when loading. (Read 32 bytes but expected 84 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 14.686700 ms
+Unloading 562 unused Assets to reduce memory usage. Loaded Objects now: 179052.
+Total: 52.029900 ms (FindLiveObjects: 8.688200 ms CreateObjectMapping: 11.431900 ms MarkObjects: 31.220100 ms  DeleteObjects: 0.689400 ms)
+
+The referenced script (SpaceCraft.ReplaceMaterials) on this Behaviour is missing!
+The referenced script (SpaceCraft.ReplaceMaterials) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Surface') is missing!
+A scripted object (probably SpaceCraft.ReplaceMaterials?) has a different serialization layout when loading. (Read 32 bytes but expected 784 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'Decoys') is missing!
+A scripted object (probably SpaceCraft.ReplaceMaterials?) has a different serialization layout when loading. (Read 32 bytes but expected 784 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'Decoys') is missing!
+Renderer 'MESH_LOD3 (1)' is registered with more than one LODGroup ('Bigs' and 'Bigs 2').
+Renderer 'MESH_LOD3 (1)' is registered with more than one LODGroup ('Bigs' and 'Bigs 2').
+Renderer 'ClawRock_5 (1)' is registered with more than one LODGroup ('ClawRock_5 (1)' and 'Large').
+Renderer 'ClawRock_5 (1)' is registered with more than one LODGroup ('ClawRock_5 (1)' and 'Large').
+Renderer 'ClawRock_5 (4)' is registered with more than one LODGroup ('ClawRock_5 (4)' and 'Fine').
+Renderer 'ClawRock_5 (4)' is registered with more than one LODGroup ('ClawRock_5 (4)' and 'Fine').
+Renderer 'ClawRock_5 (3)' is registered with more than one LODGroup ('ClawRock_5 (3)' and 'Large').
+Renderer 'ClawRock_5 (3)' is registered with more than one LODGroup ('ClawRock_5 (3)' and 'Large').
+ModPlanetLoaded (1): akarnokd.theplanetcraftermods.featcommandconsole
+[Debug  :   BepInEx] [UnityInput] Unknown key name: OEM1, skipping remapping
+[Debug  :   BepInEx] [UnityInput] Unknown key name: OEM2, skipping remapping
+[Debug  :   BepInEx] [UnityInput] Unknown key name: OEM3, skipping remapping
+[Debug  :   BepInEx] [UnityInput] Unknown key name: OEM4, skipping remapping
+[Debug  :   BepInEx] [UnityInput] Unknown key name: OEM5, skipping remapping
+[Debug  :   BepInEx] [UnityInput] Unknown key name: IMESelected, skipping remapping
+[Debug  :   BepInEx] [UnityInput] Using NewInputSystem
+ModPlanetLoaded (2): akarnokd.theplanetcraftermods.featcommandconsole
+The referenced script on this Behaviour (Game Object 'Rocks') is missing!
+The referenced script on this Behaviour (Game Object 'Smalls') is missing!
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 293082.
+Total: 52.022300 ms (FindLiveObjects: 17.866300 ms CreateObjectMapping: 12.799100 ms MarkObjects: 20.487000 ms  DeleteObjects: 0.869600 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 293082.
+Total: 51.531800 ms (FindLiveObjects: 17.377400 ms CreateObjectMapping: 11.651300 ms MarkObjects: 22.216800 ms  DeleteObjects: 0.285800 ms)
+
+The referenced script on this Behaviour (Game Object 'Minables') is missing!
+RuntimeNavMeshBuilder: Source mesh ClawRock_4_LOD3 is skipped because it does not allow read access
+RuntimeNavMeshBuilder: Source mesh ClawCrackedRock_1 is skipped because it does not allow read access
+RuntimeNavMeshBuilder: Source mesh ClawRock_4_LOD3 is skipped because it does not allow read access
+No mesh data available for mesh Aluminium_LOD0 on particle system ParticlesRocks. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "SceneContainer-Sector-BetweenGreyAndCanyons/Sector-ProceduralWreck-NearGrey/Decoys/Ship/Wall_Normal_Simple_09 (40)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "SceneContainer-Sector-BetweenGreyAndCanyons/Sector-ProceduralWreck-NearGrey/Decoys/Ship/Wall_Normal_Simple_09 (38)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "SceneContainer-Sector-BetweenGreyAndCanyons/Sector-ProceduralWreck-NearGrey/Decoys/Ship/Wall_Normal_Simple_09 (36)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "SceneContainer-Sector-BetweenGreyAndCanyons/Sector-ProceduralWreck-NearGrey/Decoys/Ship/Wall_Normal_Simple_09 (41)"
+No mesh data available for mesh Aluminium_LOD0 on particle system ParticlesRocks. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+RuntimeNavMeshBuilder: Source mesh ClawCrackedRock_1 is skipped because it does not allow read access
+RuntimeNavMeshBuilder: Source mesh ClawRock_4_LOD3 is skipped because it does not allow read access
+RuntimeNavMeshBuilder: Source mesh ClawRock_4_LOD3 is skipped because it does not allow read access
+No mesh data available for mesh Aluminium_LOD0 on particle system ParticlesRocks. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+No mesh data available for mesh Aluminium_LOD0 on particle system ParticlesRocks. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+No mesh data available for mesh Aluminium_LOD0 on particle system ParticlesRocks. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+RuntimeNavMeshBuilder: Source mesh ClawCrackedRock_1 is skipped because it does not allow read access
+RuntimeNavMeshBuilder: Source mesh ClawRock_4_LOD3 is skipped because it does not allow read access
+RuntimeNavMeshBuilder: Source mesh ClawRock_4_LOD3 is skipped because it does not allow read access
+No mesh data available for mesh Aluminium_LOD0 on particle system ParticlesRocks. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+No mesh data available for mesh Aluminium_LOD0 on particle system ParticlesRocks. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+No mesh data available for mesh Aluminium_LOD0 on particle system ParticlesRocks. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "SceneContainer-Sector-BetweenGreyAndCanyons/Sector-ProceduralWreck-NearGrey/Decoys/Ship/Wall_Normal_Simple_09 (40)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "SceneContainer-Sector-BetweenGreyAndCanyons/Sector-ProceduralWreck-NearGrey/Decoys/Ship/Wall_Normal_Simple_09 (38)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "SceneContainer-Sector-BetweenGreyAndCanyons/Sector-ProceduralWreck-NearGrey/Decoys/Ship/Wall_Normal_Simple_09 (36)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "SceneContainer-Sector-BetweenGreyAndCanyons/Sector-ProceduralWreck-NearGrey/Decoys/Ship/Wall_Normal_Simple_09 (41)"
+RuntimeNavMeshBuilder: Source mesh ClawCrackedRock_1 is skipped because it does not allow read access
+RuntimeNavMeshBuilder: Source mesh ClawRock_4_LOD3 is skipped because it does not allow read access
+RuntimeNavMeshBuilder: Source mesh ClawRock_4_LOD3 is skipped because it does not allow read access
+No mesh data available for mesh Aluminium_LOD0 on particle system ParticlesRocks. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+No mesh data available for mesh Aluminium_LOD0 on particle system ParticlesRocks. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1302 unused Assets to reduce memory usage. Loaded Objects now: 293078.
+Total: 56.526900 ms (FindLiveObjects: 18.777400 ms CreateObjectMapping: 12.883200 ms MarkObjects: 22.972200 ms  DeleteObjects: 1.893700 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1996 unused Assets to reduce memory usage. Loaded Objects now: 292938.
+Total: 54.262300 ms (FindLiveObjects: 18.567200 ms CreateObjectMapping: 12.185800 ms MarkObjects: 22.272700 ms  DeleteObjects: 1.236200 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 81.708200 ms
+Unloading 1179 unused Assets to reduce memory usage. Loaded Objects now: 163985.
+Total: 44.026500 ms (FindLiveObjects: 6.465800 ms CreateObjectMapping: 9.751900 ms MarkObjects: 19.386800 ms  DeleteObjects: 8.421700 ms)
+
+The referenced script (SpaceCraft.ItemsOrderChanger) on this Behaviour is missing!
+The referenced script (SpaceCraft.ItemsOrderChanger) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'OrderChangerConstructibles') is missing!
+A scripted object (probably SpaceCraft.ItemsOrderChanger?) has a different serialization layout when loading. (Read 32 bytes but expected 84 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'OrderChangerItems') is missing!
+A scripted object (probably SpaceCraft.ItemsOrderChanger?) has a different serialization layout when loading. (Read 32 bytes but expected 84 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.076800 ms
+Unloading 406 unused Assets to reduce memory usage. Loaded Objects now: 179132.
+Total: 36.534300 ms (FindLiveObjects: 7.688300 ms CreateObjectMapping: 9.647500 ms MarkObjects: 18.566800 ms  DeleteObjects: 0.631500 ms)
+
+The referenced script (SpaceCraft.ReplaceMaterials) on this Behaviour is missing!
+The referenced script (SpaceCraft.ReplaceMaterials) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Surface') is missing!
+A scripted object (probably SpaceCraft.ReplaceMaterials?) has a different serialization layout when loading. (Read 32 bytes but expected 784 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'Decoys') is missing!
+A scripted object (probably SpaceCraft.ReplaceMaterials?) has a different serialization layout when loading. (Read 32 bytes but expected 784 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'Decoys') is missing!
+Renderer 'MESH_LOD3 (1)' is registered with more than one LODGroup ('Bigs' and 'Bigs 2').
+Renderer 'MESH_LOD3 (1)' is registered with more than one LODGroup ('Bigs' and 'Bigs 2').
+Renderer 'ClawRock_5 (1)' is registered with more than one LODGroup ('ClawRock_5 (1)' and 'Large').
+Renderer 'ClawRock_5 (1)' is registered with more than one LODGroup ('ClawRock_5 (1)' and 'Large').
+Renderer 'ClawRock_5 (4)' is registered with more than one LODGroup ('ClawRock_5 (4)' and 'Fine').
+Renderer 'ClawRock_5 (4)' is registered with more than one LODGroup ('ClawRock_5 (4)' and 'Fine').
+Renderer 'ClawRock_5 (3)' is registered with more than one LODGroup ('ClawRock_5 (3)' and 'Large').
+Renderer 'ClawRock_5 (3)' is registered with more than one LODGroup ('ClawRock_5 (3)' and 'Large').
+ModPlanetLoaded (1): akarnokd.theplanetcraftermods.featcommandconsole
+ModPlanetLoaded (2): akarnokd.theplanetcraftermods.featcommandconsole
+The referenced script on this Behaviour (Game Object 'Rocks') is missing!
+The referenced script on this Behaviour (Game Object 'Smalls') is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.ReplaceMaterials) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.CleanGameObjectHierarchy) on this Behaviour is missing!
+The referenced script (SpaceCraft.ReplaceMaterials) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+A scripted object (probably SpaceCraft.ReplaceMaterials?) has a different serialization layout when loading. (Read 32 bytes but expected 52 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'Interior_block_bigRoom_01') is missing!
+A scripted object (probably SpaceCraft.ReplaceMaterials?) has a different serialization layout when loading. (Read 32 bytes but expected 52 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script on this Behaviour (Game Object '_Interior') is missing!
+The referenced script on this Behaviour (Game Object 'Container') is missing!
+The referenced script (SpaceCraft.ReplaceMaterials) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'P_Stargate_01 1') is missing!
+A scripted object (probably SpaceCraft.ReplaceMaterials?) has a different serialization layout when loading. (Read 32 bytes but expected 760 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+RuntimeNavMeshBuilder: Source mesh Meta_Beam_05 is skipped because it does not allow read access
+RuntimeNavMeshBuilder: Source mesh Meta_Beam_05 is skipped because it does not allow read access
+RuntimeNavMeshBuilder: Source mesh Meta_Beam_05 is skipped because it does not allow read access
+RuntimeNavMeshBuilder: Source mesh Meta_Beam_05 is skipped because it does not allow read access
+RuntimeNavMeshBuilder: Source mesh Meta_Beam_05 is skipped because it does not allow read access
+RuntimeNavMeshBuilder: Source mesh Meta_Beam_05 is skipped because it does not allow read access
+The referenced script on this Behaviour (Game Object 'Rocks') is missing!
+The referenced script on this Behaviour (Game Object 'Smalls') is missing!
+The referenced script on this Behaviour (Game Object 'Minables') is missing!
+RuntimeNavMeshBuilder: Source mesh ClawCrackedRock_1 is skipped because it does not allow read access
+RuntimeNavMeshBuilder: Source mesh ClawRock_4_LOD3 is skipped because it does not allow read access
+RuntimeNavMeshBuilder: Source mesh ClawRock_4_LOD3 is skipped because it does not allow read access
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 328 unused Assets to reduce memory usage. Loaded Objects now: 292296.
+Total: 53.841200 ms (FindLiveObjects: 17.981600 ms CreateObjectMapping: 11.922100 ms MarkObjects: 23.221000 ms  DeleteObjects: 0.716000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 292296.
+Total: 54.347100 ms (FindLiveObjects: 17.627300 ms CreateObjectMapping: 11.395000 ms MarkObjects: 25.022000 ms  DeleteObjects: 0.302200 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 66.672500 ms
+Unloading 963 unused Assets to reduce memory usage. Loaded Objects now: 164226.
+Total: 47.836400 ms (FindLiveObjects: 6.491600 ms CreateObjectMapping: 9.591400 ms MarkObjects: 23.262600 ms  DeleteObjects: 8.490200 ms)
+
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.

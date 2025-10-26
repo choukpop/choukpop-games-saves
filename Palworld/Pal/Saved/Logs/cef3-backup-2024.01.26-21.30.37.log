@@ -1,7 +1,0 @@
-[0126/201801.347:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 43
-[0126/201909.940:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
-[0126/212842.174:ERROR:cache_util_win.cc(20)] Unable to move the cache: Acesso negado. (0x5)
-[0126/212842.174:ERROR:cache_util.cc(144)] Unable to move cache folder C:/Users/ChouKpop/AppData/Local/Pal/Saved/webcache_4430\Cache to C:/Users/ChouKpop/AppData/Local/Pal/Saved/webcache_4430\old_Cache_000
-[0126/212842.174:ERROR:disk_cache.cc(184)] Unable to create cache
-[0126/212847.112:WARNING:value_store_frontend.cc(45)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[0126/213037.417:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
