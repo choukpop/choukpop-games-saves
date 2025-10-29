@@ -1,0 +1,65 @@
+"870780"
+{
+	"ChangeNumber"		"55"
+	"ostype"		"0"
+	"preferences_data"
+	{
+		"root"		"0"
+		"size"		"766"
+		"localtime"		"1751146459"
+		"time"		"1751146458"
+		"remotetime"		"1751146458"
+		"sha"		"d5d2910977aac3c771008c4cd658ffe69fed2cb2"
+		"syncstate"		"1"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+	"savegame-slot-00_meta"
+	{
+		"root"		"0"
+		"size"		"32"
+		"localtime"		"1751147070"
+		"time"		"1761520487"
+		"remotetime"		"1761520487"
+		"sha"		"613b4e1b1fc6a3391148aa3bd884e75775d77c09"
+		"syncstate"		"1"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+	"savegame-slot-00_global"
+	{
+		"root"		"0"
+		"size"		"2455"
+		"localtime"		"1751147070"
+		"time"		"1751147069"
+		"remotetime"		"1751147069"
+		"sha"		"a0e423f00d4d9d8e47ff3f94baba57792614c644"
+		"syncstate"		"1"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+	"savegame-slot-00_persistent"
+	{
+		"root"		"0"
+		"size"		"92660"
+		"localtime"		"1761520769"
+		"time"		"1761520768"
+		"remotetime"		"1761520768"
+		"sha"		"e6217c10a03c2858cc79f9e69dcf9808bcfbc66f"
+		"syncstate"		"1"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+	"savegame-slot-00_hub"
+	{
+		"root"		"0"
+		"size"		"27627"
+		"localtime"		"1761520702"
+		"time"		"1761520701"
+		"remotetime"		"1761520701"
+		"sha"		"625507034fe831e8a808ca5aac4f9d124564cdb4"
+		"syncstate"		"1"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+}

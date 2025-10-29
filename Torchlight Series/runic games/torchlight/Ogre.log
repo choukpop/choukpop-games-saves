@@ -1,133 +1,133 @@
-05:23:40: Creating resource group General
-05:23:40: Creating resource group Internal
-05:23:40: Creating resource group Autodetect
-05:23:40: SceneManagerFactory for type 'DefaultSceneManager' registered.
-05:23:40: Registering ResourceManager for type Material
-05:23:40: Registering ResourceManager for type Mesh
-05:23:40: Registering ResourceManager for type Skeleton
-05:23:40: MovableObjectFactory for type 'ParticleSystem' registered.
-05:23:40: OverlayElementFactory for type Panel registered.
-05:23:40: OverlayElementFactory for type BorderPanel registered.
-05:23:40: OverlayElementFactory for type TextArea registered.
-05:23:40: Registering ResourceManager for type Font
-05:23:40: ArchiveFactory for archive type FileSystem registered.
-05:23:40: ArchiveFactory for archive type Zip registered.
-05:23:40: FreeImage version: 3.10.0
-05:23:40: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
-05:23:40: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2
-05:23:40: DDS codec registering
-05:23:40: Registering ResourceManager for type HighLevelGpuProgram
-05:23:40: Registering ResourceManager for type Compositor
-05:23:40: MovableObjectFactory for type 'Entity' registered.
-05:23:40: MovableObjectFactory for type 'Light' registered.
-05:23:40: MovableObjectFactory for type 'BillboardSet' registered.
-05:23:40: MovableObjectFactory for type 'ManualObject' registered.
-05:23:40: MovableObjectFactory for type 'BillboardChain' registered.
-05:23:40: MovableObjectFactory for type 'RibbonTrail' registered.
-05:23:40: Loading library .\RenderSystem_Direct3D9
-05:23:41: Installing plugin: D3D9 RenderSystem
-05:23:41: D3D9 : Direct3D9 Rendering Subsystem created.
-05:23:41: D3D9: Driver Detection Starts
-05:23:41: D3D9: Driver Detection Ends
-05:23:41: Plugin successfully installed
-05:23:41: Loading library .\Plugin_ParticleFX
-05:23:41: Installing plugin: ParticleFX
-05:23:41: Particle Emitter Type 'Point' registered
-05:23:41: Particle Emitter Type 'Box' registered
-05:23:41: Particle Emitter Type 'Ellipsoid' registered
-05:23:41: Particle Emitter Type 'Cylinder' registered
-05:23:41: Particle Emitter Type 'Ring' registered
-05:23:41: Particle Emitter Type 'HollowEllipsoid' registered
-05:23:41: Particle Affector Type 'LinearForce' registered
-05:23:41: Particle Affector Type 'ColourFader' registered
-05:23:41: Particle Affector Type 'ColourFader2' registered
-05:23:41: Particle Affector Type 'ColourImage' registered
-05:23:41: Particle Affector Type 'ColourInterpolator' registered
-05:23:41: Particle Affector Type 'Scaler' registered
-05:23:41: Particle Affector Type 'Rotator' registered
-05:23:41: Particle Affector Type 'DirectionRandomiser' registered
-05:23:41: Particle Affector Type 'DeflectorPlane' registered
-05:23:41: Plugin successfully installed
-05:23:41: Loading library .\Plugin_CgProgramManager
-05:23:41: Installing plugin: Cg Program Manager
-05:23:41: Plugin successfully installed
-05:23:41: Loading library .\Plugin_OctreeSceneManager
-05:23:41: Installing plugin: Octree & Terrain Scene Manager
-05:23:41: Plugin successfully installed
-05:23:41: Loading library .\ParticleUniverse
-05:23:41: Installing plugin: ParticleUniverse
-05:23:41: MovableObjectFactory for type 'PUParticleSystem' registered.
-05:23:41: MovableObjectFactory for type 'BoxSet' registered.
-05:23:41: MovableObjectFactory for type 'SphereSet' registered.
-05:23:41: ParticleUniverse: Particle Renderer Type 'Billboard' registered
-05:23:41: ParticleUniverse: Particle Renderer Type 'Box' registered
-05:23:41: ParticleUniverse: Particle Renderer Type 'Sphere' registered
-05:23:41: ParticleUniverse: Particle Renderer Type 'Entity' registered
-05:23:41: ParticleUniverse: Particle Renderer Type 'RibbonTrail' registered
-05:23:41: ParticleUniverse: Particle Renderer Type 'Light' registered
-05:23:41: ParticleUniverse: Particle Emitter Type 'Point' registered
-05:23:41: ParticleUniverse: Particle Emitter Type 'Line' registered
-05:23:41: ParticleUniverse: Particle Emitter Type 'Box' registered
-05:23:41: ParticleUniverse: Particle Emitter Type 'Circle' registered
-05:23:41: ParticleUniverse: Particle Emitter Type 'SphereSurface' registered
-05:23:41: ParticleUniverse: Particle Emitter Type 'Vertex' registered
-05:23:41: ParticleUniverse: Particle Emitter Type 'MeshSurface' registered
-05:23:41: ParticleUniverse: Particle Emitter Type 'Position' registered
-05:23:41: ParticleUniverse: Particle Emitter Type 'Slave' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'Dummy01' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'LinearForce' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'Gravity' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'ParticleFollower' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'Vortex' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'Randomiser' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'Line' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'Scale' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'GeometryRotator' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'TextureRotator' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'TextureAnimator' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'Jet' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'Align' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'FlockCentering' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'CollisionAvoidance' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'VelocityMatching' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'Colour' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'SineForce' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'Dummy02' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'SphereCollider' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'PlaneCollider' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'BoxCollider' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'InterParticleCollider' registered
-05:23:41: ParticleUniverse: Particle Affector Type 'PathFollower' registered
-05:23:41: ParticleUniverse: Particle Observer Type 'OnExpire' registered
-05:23:41: ParticleUniverse: Particle Observer Type 'OnEmission' registered
-05:23:41: ParticleUniverse: Particle Observer Type 'OnCount' registered
-05:23:41: ParticleUniverse: Particle Observer Type 'OnEventFlag' registered
-05:23:41: ParticleUniverse: Particle Observer Type 'OnCollision' registered
-05:23:41: ParticleUniverse: Particle Observer Type 'OnVelocity' registered
-05:23:41: ParticleUniverse: Particle Observer Type 'OnTime' registered
-05:23:41: ParticleUniverse: Particle Observer Type 'OnPosition' registered
-05:23:41: ParticleUniverse: Particle Observer Type 'OnClear' registered
-05:23:41: ParticleUniverse: Particle Observer Type 'OnQuota' registered
-05:23:41: ParticleUniverse: Particle Observer Type 'OnRandom' registered
-05:23:41: ParticleUniverse: Particle EventHandler Type 'DoExpire' registered
-05:23:41: ParticleUniverse: Particle EventHandler Type 'DoFreeze' registered
-05:23:41: ParticleUniverse: Particle EventHandler Type 'DoPlacementParticle' registered
-05:23:41: ParticleUniverse: Particle EventHandler Type 'DoStopSystem' registered
-05:23:41: ParticleUniverse: Particle EventHandler Type 'DoEnableComponent' registered
-05:23:41: ParticleUniverse: Particle EventHandler Type 'DoAffector' registered
-05:23:41: ParticleUniverse: Particle EventHandler Type 'DoScale' registered
-05:23:41: ParticleUniverse: Particle Extern Type 'Gravity' registered
-05:23:41: ParticleUniverse: Particle Extern Type 'SphereCollider' registered
-05:23:41: ParticleUniverse: Particle Extern Type 'BoxCollider' registered
-05:23:41: ParticleUniverse: Particle Extern Type 'Vortex' registered
-05:23:41: ParticleUniverse: Particle Behaviour Type 'Slave' registered
-05:23:41: Plugin successfully installed
-05:23:41: *-*-* OGRE Initialising
-05:23:41: *-*-* Version 1.6.4 (Shoggoth)
-05:23:41: Path for saving is ... C:/Users/ChouKpop/AppData/Roaming/Runic Games/Torchlight/SAVE
-05:23:41: Setting YRatio Init - 1.40625
-05:23:52: CreateViewports AspectRatio message - 1920 x 1080
-05:23:52: CreateViewports AspectRatio message AR - 1.77778
-05:23:52: GAMEUI AspectRatio message - 1920 x 1080
-05:23:52: GAMEUI AspectRatio message AR - 1.77778
-05:24:55: Saving character to :C:/Users/ChouKpop/AppData/Roaming/Runic Games/Torchlight/save/save.tmp
+00:36:31: Creating resource group General
+00:36:31: Creating resource group Internal
+00:36:31: Creating resource group Autodetect
+00:36:31: SceneManagerFactory for type 'DefaultSceneManager' registered.
+00:36:31: Registering ResourceManager for type Material
+00:36:31: Registering ResourceManager for type Mesh
+00:36:31: Registering ResourceManager for type Skeleton
+00:36:31: MovableObjectFactory for type 'ParticleSystem' registered.
+00:36:31: OverlayElementFactory for type Panel registered.
+00:36:31: OverlayElementFactory for type BorderPanel registered.
+00:36:31: OverlayElementFactory for type TextArea registered.
+00:36:31: Registering ResourceManager for type Font
+00:36:31: ArchiveFactory for archive type FileSystem registered.
+00:36:31: ArchiveFactory for archive type Zip registered.
+00:36:31: FreeImage version: 3.10.0
+00:36:31: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+00:36:31: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2
+00:36:31: DDS codec registering
+00:36:31: Registering ResourceManager for type HighLevelGpuProgram
+00:36:31: Registering ResourceManager for type Compositor
+00:36:31: MovableObjectFactory for type 'Entity' registered.
+00:36:31: MovableObjectFactory for type 'Light' registered.
+00:36:31: MovableObjectFactory for type 'BillboardSet' registered.
+00:36:31: MovableObjectFactory for type 'ManualObject' registered.
+00:36:31: MovableObjectFactory for type 'BillboardChain' registered.
+00:36:31: MovableObjectFactory for type 'RibbonTrail' registered.
+00:36:31: Loading library .\RenderSystem_Direct3D9
+00:36:31: Installing plugin: D3D9 RenderSystem
+00:36:31: D3D9 : Direct3D9 Rendering Subsystem created.
+00:36:31: D3D9: Driver Detection Starts
+00:36:31: D3D9: Driver Detection Ends
+00:36:31: Plugin successfully installed
+00:36:31: Loading library .\Plugin_ParticleFX
+00:36:31: Installing plugin: ParticleFX
+00:36:31: Particle Emitter Type 'Point' registered
+00:36:31: Particle Emitter Type 'Box' registered
+00:36:31: Particle Emitter Type 'Ellipsoid' registered
+00:36:31: Particle Emitter Type 'Cylinder' registered
+00:36:31: Particle Emitter Type 'Ring' registered
+00:36:31: Particle Emitter Type 'HollowEllipsoid' registered
+00:36:31: Particle Affector Type 'LinearForce' registered
+00:36:31: Particle Affector Type 'ColourFader' registered
+00:36:31: Particle Affector Type 'ColourFader2' registered
+00:36:31: Particle Affector Type 'ColourImage' registered
+00:36:31: Particle Affector Type 'ColourInterpolator' registered
+00:36:31: Particle Affector Type 'Scaler' registered
+00:36:31: Particle Affector Type 'Rotator' registered
+00:36:31: Particle Affector Type 'DirectionRandomiser' registered
+00:36:31: Particle Affector Type 'DeflectorPlane' registered
+00:36:31: Plugin successfully installed
+00:36:31: Loading library .\Plugin_CgProgramManager
+00:36:31: Installing plugin: Cg Program Manager
+00:36:31: Plugin successfully installed
+00:36:31: Loading library .\Plugin_OctreeSceneManager
+00:36:31: Installing plugin: Octree & Terrain Scene Manager
+00:36:31: Plugin successfully installed
+00:36:31: Loading library .\ParticleUniverse
+00:36:31: Installing plugin: ParticleUniverse
+00:36:31: MovableObjectFactory for type 'PUParticleSystem' registered.
+00:36:31: MovableObjectFactory for type 'BoxSet' registered.
+00:36:31: MovableObjectFactory for type 'SphereSet' registered.
+00:36:31: ParticleUniverse: Particle Renderer Type 'Billboard' registered
+00:36:31: ParticleUniverse: Particle Renderer Type 'Box' registered
+00:36:31: ParticleUniverse: Particle Renderer Type 'Sphere' registered
+00:36:31: ParticleUniverse: Particle Renderer Type 'Entity' registered
+00:36:31: ParticleUniverse: Particle Renderer Type 'RibbonTrail' registered
+00:36:31: ParticleUniverse: Particle Renderer Type 'Light' registered
+00:36:31: ParticleUniverse: Particle Emitter Type 'Point' registered
+00:36:31: ParticleUniverse: Particle Emitter Type 'Line' registered
+00:36:31: ParticleUniverse: Particle Emitter Type 'Box' registered
+00:36:31: ParticleUniverse: Particle Emitter Type 'Circle' registered
+00:36:31: ParticleUniverse: Particle Emitter Type 'SphereSurface' registered
+00:36:31: ParticleUniverse: Particle Emitter Type 'Vertex' registered
+00:36:31: ParticleUniverse: Particle Emitter Type 'MeshSurface' registered
+00:36:31: ParticleUniverse: Particle Emitter Type 'Position' registered
+00:36:31: ParticleUniverse: Particle Emitter Type 'Slave' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'Dummy01' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'LinearForce' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'Gravity' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'ParticleFollower' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'Vortex' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'Randomiser' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'Line' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'Scale' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'GeometryRotator' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'TextureRotator' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'TextureAnimator' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'Jet' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'Align' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'FlockCentering' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'CollisionAvoidance' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'VelocityMatching' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'Colour' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'SineForce' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'Dummy02' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'SphereCollider' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'PlaneCollider' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'BoxCollider' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'InterParticleCollider' registered
+00:36:31: ParticleUniverse: Particle Affector Type 'PathFollower' registered
+00:36:31: ParticleUniverse: Particle Observer Type 'OnExpire' registered
+00:36:31: ParticleUniverse: Particle Observer Type 'OnEmission' registered
+00:36:31: ParticleUniverse: Particle Observer Type 'OnCount' registered
+00:36:31: ParticleUniverse: Particle Observer Type 'OnEventFlag' registered
+00:36:31: ParticleUniverse: Particle Observer Type 'OnCollision' registered
+00:36:31: ParticleUniverse: Particle Observer Type 'OnVelocity' registered
+00:36:31: ParticleUniverse: Particle Observer Type 'OnTime' registered
+00:36:31: ParticleUniverse: Particle Observer Type 'OnPosition' registered
+00:36:31: ParticleUniverse: Particle Observer Type 'OnClear' registered
+00:36:31: ParticleUniverse: Particle Observer Type 'OnQuota' registered
+00:36:31: ParticleUniverse: Particle Observer Type 'OnRandom' registered
+00:36:31: ParticleUniverse: Particle EventHandler Type 'DoExpire' registered
+00:36:31: ParticleUniverse: Particle EventHandler Type 'DoFreeze' registered
+00:36:31: ParticleUniverse: Particle EventHandler Type 'DoPlacementParticle' registered
+00:36:31: ParticleUniverse: Particle EventHandler Type 'DoStopSystem' registered
+00:36:31: ParticleUniverse: Particle EventHandler Type 'DoEnableComponent' registered
+00:36:31: ParticleUniverse: Particle EventHandler Type 'DoAffector' registered
+00:36:31: ParticleUniverse: Particle EventHandler Type 'DoScale' registered
+00:36:31: ParticleUniverse: Particle Extern Type 'Gravity' registered
+00:36:31: ParticleUniverse: Particle Extern Type 'SphereCollider' registered
+00:36:31: ParticleUniverse: Particle Extern Type 'BoxCollider' registered
+00:36:31: ParticleUniverse: Particle Extern Type 'Vortex' registered
+00:36:31: ParticleUniverse: Particle Behaviour Type 'Slave' registered
+00:36:31: Plugin successfully installed
+00:36:31: *-*-* OGRE Initialising
+00:36:31: *-*-* Version 1.6.4 (Shoggoth)
+00:36:31: Path for saving is ... C:/Users/ChouKpop/AppData/Roaming/Runic Games/Torchlight/SAVE
+00:36:31: Setting YRatio Init - 1.40625
+00:36:47: CreateViewports AspectRatio message - 1920 x 1080
+00:36:47: CreateViewports AspectRatio message AR - 1.77778
+00:36:47: GAMEUI AspectRatio message - 1920 x 1080
+00:36:47: GAMEUI AspectRatio message AR - 1.77778
+00:37:22: Saving character to :C:/Users/ChouKpop/AppData/Roaming/Runic Games/Torchlight/save/save.tmp
