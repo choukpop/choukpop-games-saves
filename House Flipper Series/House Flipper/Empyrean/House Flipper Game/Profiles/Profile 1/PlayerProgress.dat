@@ -7,6 +7,7 @@
   "hgtvMapOpen": false,
   "profileName": "Raiden",
   "flamethrowerFuelLvl": 0.15,
+  "moneyEarnedFromRent": 0.0,
   "gardenCompetitionPresence": {
     "$id": "2",
     "firstCompetitionPresence": "0001-01-01T00:00:00",
@@ -23,24 +24,27 @@
       "SmallFirstHouse"
     ],
     "soldHouseScenes": [],
+    "rentedHouseScenes": {
+      "$id": "5"
+    },
     "hasEverBoughtAnyHouse": false
   },
   "coursesProgress": {
-    "$id": "5",
+    "$id": "6",
     "boughtCourses": []
   },
   "tutorialProgress": {
-    "$id": "6",
+    "$id": "7",
     "openFrontDoor": false,
     "thrownTheTrash": true,
     "triedToOpenLockedDoor": false,
     "findKey": false
   },
   "ordersProgress": {
-    "$id": "7",
+    "$id": "8",
     "orderProgresses": [
       {
-        "$id": "8",
+        "$id": "9",
         "id": 1,
         "isRead": true,
         "isDone": true,
@@ -48,7 +52,7 @@
         "completition": 100
       },
       {
-        "$id": "9",
+        "$id": "10",
         "id": 10,
         "isRead": false,
         "isDone": false,
@@ -56,7 +60,7 @@
         "completition": 0
       },
       {
-        "$id": "10",
+        "$id": "11",
         "id": 11,
         "isRead": false,
         "isDone": false,
@@ -64,7 +68,7 @@
         "completition": 0
       },
       {
-        "$id": "11",
+        "$id": "12",
         "id": 12,
         "isRead": false,
         "isDone": false,
@@ -72,7 +76,7 @@
         "completition": 0
       },
       {
-        "$id": "12",
+        "$id": "13",
         "id": 13,
         "isRead": false,
         "isDone": false,
@@ -80,7 +84,7 @@
         "completition": 0
       },
       {
-        "$id": "13",
+        "$id": "14",
         "id": 14,
         "isRead": false,
         "isDone": false,
@@ -88,7 +92,7 @@
         "completition": 0
       },
       {
-        "$id": "14",
+        "$id": "15",
         "id": 15,
         "isRead": false,
         "isDone": false,
@@ -96,7 +100,7 @@
         "completition": 0
       },
       {
-        "$id": "15",
+        "$id": "16",
         "id": 16,
         "isRead": false,
         "isDone": false,
@@ -104,7 +108,7 @@
         "completition": 0
       },
       {
-        "$id": "16",
+        "$id": "17",
         "id": 17,
         "isRead": false,
         "isDone": false,
@@ -112,7 +116,7 @@
         "completition": 0
       },
       {
-        "$id": "17",
+        "$id": "18",
         "id": 2,
         "isRead": false,
         "isDone": false,
@@ -120,7 +124,7 @@
         "completition": 0
       },
       {
-        "$id": "18",
+        "$id": "19",
         "id": 20,
         "isRead": false,
         "isDone": false,
@@ -128,7 +132,7 @@
         "completition": 0
       },
       {
-        "$id": "19",
+        "$id": "20",
         "id": 21,
         "isRead": false,
         "isDone": false,
@@ -136,7 +140,7 @@
         "completition": 0
       },
       {
-        "$id": "20",
+        "$id": "21",
         "id": 39,
         "isRead": false,
         "isDone": false,
@@ -144,7 +148,7 @@
         "completition": 0
       },
       {
-        "$id": "21",
+        "$id": "22",
         "id": 44,
         "isRead": false,
         "isDone": false,
@@ -152,7 +156,7 @@
         "completition": 0
       },
       {
-        "$id": "22",
+        "$id": "23",
         "id": 3,
         "isRead": false,
         "isDone": false,
@@ -160,7 +164,7 @@
         "completition": 0
       },
       {
-        "$id": "23",
+        "$id": "24",
         "id": 4,
         "isRead": false,
         "isDone": false,
@@ -168,7 +172,7 @@
         "completition": 0
       },
       {
-        "$id": "24",
+        "$id": "25",
         "id": 5,
         "isRead": false,
         "isDone": false,
@@ -176,7 +180,7 @@
         "completition": 0
       },
       {
-        "$id": "25",
+        "$id": "26",
         "id": 6,
         "isRead": false,
         "isDone": false,
@@ -184,7 +188,7 @@
         "completition": 0
       },
       {
-        "$id": "26",
+        "$id": "27",
         "id": 63,
         "isRead": false,
         "isDone": false,
@@ -192,7 +196,7 @@
         "completition": 0
       },
       {
-        "$id": "27",
+        "$id": "28",
         "id": 7,
         "isRead": false,
         "isDone": false,
@@ -200,7 +204,7 @@
         "completition": 0
       },
       {
-        "$id": "28",
+        "$id": "29",
         "id": 8,
         "isRead": false,
         "isDone": false,
@@ -208,7 +212,7 @@
         "completition": 0
       },
       {
-        "$id": "29",
+        "$id": "30",
         "id": 80,
         "isRead": false,
         "isDone": false,
@@ -216,7 +220,7 @@
         "completition": 0
       },
       {
-        "$id": "30",
+        "$id": "31",
         "id": 81,
         "isRead": false,
         "isDone": false,
@@ -224,7 +228,7 @@
         "completition": 0
       },
       {
-        "$id": "31",
+        "$id": "32",
         "id": 82,
         "isRead": false,
         "isDone": false,
@@ -232,7 +236,7 @@
         "completition": 0
       },
       {
-        "$id": "32",
+        "$id": "33",
         "id": 83,
         "isRead": false,
         "isDone": false,
@@ -240,7 +244,7 @@
         "completition": 0
       },
       {
-        "$id": "33",
+        "$id": "34",
         "id": 9,
         "isRead": false,
         "isDone": false,
@@ -248,16 +252,8 @@
         "completition": 0
       },
       {
-        "$id": "34",
-        "id": 91,
-        "isRead": false,
-        "isDone": false,
-        "isUnlockedByCode": false,
-        "completition": 0
-      },
-      {
         "$id": "35",
-        "id": 88,
+        "id": 95,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -265,7 +261,7 @@
       },
       {
         "$id": "36",
-        "id": 86,
+        "id": 96,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -273,7 +269,7 @@
       },
       {
         "$id": "37",
-        "id": 92,
+        "id": 97,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -281,7 +277,7 @@
       },
       {
         "$id": "38",
-        "id": 93,
+        "id": 100,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -289,7 +285,7 @@
       },
       {
         "$id": "39",
-        "id": 90,
+        "id": 105,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -297,7 +293,7 @@
       },
       {
         "$id": "40",
-        "id": 84,
+        "id": 103,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -305,7 +301,7 @@
       },
       {
         "$id": "41",
-        "id": 89,
+        "id": 104,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -313,7 +309,7 @@
       },
       {
         "$id": "42",
-        "id": 94,
+        "id": 102,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -321,7 +317,7 @@
       },
       {
         "$id": "43",
-        "id": 87,
+        "id": 98,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -329,7 +325,7 @@
       },
       {
         "$id": "44",
-        "id": 85,
+        "id": 107,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -337,7 +333,7 @@
       },
       {
         "$id": "45",
-        "id": 22,
+        "id": 101,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -345,7 +341,7 @@
       },
       {
         "$id": "46",
-        "id": 23,
+        "id": 106,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -353,7 +349,7 @@
       },
       {
         "$id": "47",
-        "id": 24,
+        "id": 99,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -361,7 +357,7 @@
       },
       {
         "$id": "48",
-        "id": 25,
+        "id": 91,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -369,7 +365,7 @@
       },
       {
         "$id": "49",
-        "id": 26,
+        "id": 88,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -377,7 +373,7 @@
       },
       {
         "$id": "50",
-        "id": 27,
+        "id": 86,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -385,7 +381,7 @@
       },
       {
         "$id": "51",
-        "id": 28,
+        "id": 92,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -393,7 +389,7 @@
       },
       {
         "$id": "52",
-        "id": 29,
+        "id": 93,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -401,7 +397,7 @@
       },
       {
         "$id": "53",
-        "id": 30,
+        "id": 90,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -409,7 +405,7 @@
       },
       {
         "$id": "54",
-        "id": 31,
+        "id": 84,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -417,7 +413,7 @@
       },
       {
         "$id": "55",
-        "id": 32,
+        "id": 89,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -425,7 +421,7 @@
       },
       {
         "$id": "56",
-        "id": 33,
+        "id": 94,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -433,7 +429,7 @@
       },
       {
         "$id": "57",
-        "id": 34,
+        "id": 87,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -441,7 +437,7 @@
       },
       {
         "$id": "58",
-        "id": 35,
+        "id": 85,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -449,7 +445,7 @@
       },
       {
         "$id": "59",
-        "id": 36,
+        "id": 22,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -457,7 +453,7 @@
       },
       {
         "$id": "60",
-        "id": 37,
+        "id": 23,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -465,7 +461,7 @@
       },
       {
         "$id": "61",
-        "id": 38,
+        "id": 24,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -473,7 +469,7 @@
       },
       {
         "$id": "62",
-        "id": 52,
+        "id": 25,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -481,7 +477,7 @@
       },
       {
         "$id": "63",
-        "id": 40,
+        "id": 26,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -489,7 +485,7 @@
       },
       {
         "$id": "64",
-        "id": 49,
+        "id": 27,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -497,7 +493,7 @@
       },
       {
         "$id": "65",
-        "id": 41,
+        "id": 28,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -505,7 +501,7 @@
       },
       {
         "$id": "66",
-        "id": 42,
+        "id": 29,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -513,7 +509,7 @@
       },
       {
         "$id": "67",
-        "id": 43,
+        "id": 30,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -521,7 +517,7 @@
       },
       {
         "$id": "68",
-        "id": 47,
+        "id": 31,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -529,7 +525,7 @@
       },
       {
         "$id": "69",
-        "id": 46,
+        "id": 32,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -537,7 +533,7 @@
       },
       {
         "$id": "70",
-        "id": 45,
+        "id": 33,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -545,7 +541,7 @@
       },
       {
         "$id": "71",
-        "id": 50,
+        "id": 34,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -553,7 +549,7 @@
       },
       {
         "$id": "72",
-        "id": 48,
+        "id": 35,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -561,7 +557,7 @@
       },
       {
         "$id": "73",
-        "id": 57,
+        "id": 36,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -569,7 +565,7 @@
       },
       {
         "$id": "74",
-        "id": 62,
+        "id": 37,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -577,7 +573,7 @@
       },
       {
         "$id": "75",
-        "id": 68,
+        "id": 38,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -585,7 +581,7 @@
       },
       {
         "$id": "76",
-        "id": 53,
+        "id": 52,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -593,7 +589,7 @@
       },
       {
         "$id": "77",
-        "id": 60,
+        "id": 40,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -601,7 +597,7 @@
       },
       {
         "$id": "78",
-        "id": 67,
+        "id": 49,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -609,7 +605,7 @@
       },
       {
         "$id": "79",
-        "id": 61,
+        "id": 41,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -617,7 +613,7 @@
       },
       {
         "$id": "80",
-        "id": 64,
+        "id": 42,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -625,7 +621,7 @@
       },
       {
         "$id": "81",
-        "id": 66,
+        "id": 43,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -633,7 +629,7 @@
       },
       {
         "$id": "82",
-        "id": 65,
+        "id": 47,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -641,7 +637,7 @@
       },
       {
         "$id": "83",
-        "id": 58,
+        "id": 46,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -649,7 +645,7 @@
       },
       {
         "$id": "84",
-        "id": 56,
+        "id": 45,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -657,7 +653,7 @@
       },
       {
         "$id": "85",
-        "id": 59,
+        "id": 50,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -665,7 +661,7 @@
       },
       {
         "$id": "86",
-        "id": 55,
+        "id": 48,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -673,7 +669,7 @@
       },
       {
         "$id": "87",
-        "id": 54,
+        "id": 57,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -681,7 +677,7 @@
       },
       {
         "$id": "88",
-        "id": 70,
+        "id": 62,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -689,7 +685,7 @@
       },
       {
         "$id": "89",
-        "id": 71,
+        "id": 68,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -697,7 +693,7 @@
       },
       {
         "$id": "90",
-        "id": 72,
+        "id": 53,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -705,7 +701,7 @@
       },
       {
         "$id": "91",
-        "id": 73,
+        "id": 60,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -713,7 +709,7 @@
       },
       {
         "$id": "92",
-        "id": 74,
+        "id": 67,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -721,7 +717,7 @@
       },
       {
         "$id": "93",
-        "id": 79,
+        "id": 61,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -729,7 +725,7 @@
       },
       {
         "$id": "94",
-        "id": 76,
+        "id": 64,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -737,7 +733,7 @@
       },
       {
         "$id": "95",
-        "id": 77,
+        "id": 66,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -745,7 +741,7 @@
       },
       {
         "$id": "96",
-        "id": 78,
+        "id": 65,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -753,7 +749,7 @@
       },
       {
         "$id": "97",
-        "id": 69,
+        "id": 58,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -761,7 +757,7 @@
       },
       {
         "$id": "98",
-        "id": 75,
+        "id": 56,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -769,7 +765,7 @@
       },
       {
         "$id": "99",
-        "id": 18,
+        "id": 59,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -777,7 +773,7 @@
       },
       {
         "$id": "100",
-        "id": 19,
+        "id": 55,
         "isRead": false,
         "isDone": false,
         "isUnlockedByCode": false,
@@ -785,6 +781,118 @@
       },
       {
         "$id": "101",
+        "id": 54,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "102",
+        "id": 70,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "103",
+        "id": 71,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "104",
+        "id": 72,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "105",
+        "id": 73,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "106",
+        "id": 74,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "107",
+        "id": 79,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "108",
+        "id": 76,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "109",
+        "id": 77,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "110",
+        "id": 78,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "111",
+        "id": 69,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "112",
+        "id": 75,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "113",
+        "id": 18,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "114",
+        "id": 19,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "115",
         "id": 51,
         "isRead": false,
         "isDone": false,
@@ -794,20 +902,20 @@
     ]
   },
   "adoptionProgress": {
-    "$id": "102",
+    "$id": "116",
     "petTypes": [],
     "animalTypes": []
   },
   "farmAchievementsProgress": {
-    "$id": "103",
+    "$id": "117",
     "jumpsOverObstacle": 0,
     "madePhoto": false,
     "usedWatering": false
   },
   "skills": {
-    "$id": "104",
+    "$id": "118",
     "cleaning": {
-      "$id": "105",
+      "$id": "119",
       "eyeOfTheMotherInLaw": 1,
       "fastHands": 0,
       "longDistance": 0,
@@ -815,7 +923,7 @@
       "isCertificated": false
     },
     "demolition": {
-      "$id": "106",
+      "$id": "120",
       "tempo": 0,
       "muscle": 0,
       "biggerHammer": 0,
@@ -823,7 +931,7 @@
       "isCertificated": false
     },
     "painting": {
-      "$id": "107",
+      "$id": "121",
       "paintingBase": 0,
       "fastHands": 0,
       "paintMore": 0,
@@ -831,7 +939,7 @@
       "isCertificated": false
     },
     "building": {
-      "$id": "108",
+      "$id": "122",
       "bricklayer": 0,
       "mason": 0,
       "fixer": 0,
@@ -839,7 +947,7 @@
       "isCertificated": false
     },
     "design": {
-      "$id": "109",
+      "$id": "123",
       "designer": 0,
       "strongMan": 0,
       "shop": 0,
@@ -847,7 +955,7 @@
       "isCertificated": false
     },
     "negotiation": {
-      "$id": "110",
+      "$id": "124",
       "negotiatePrice": 0,
       "fasterOrder": 0,
       "higherPayment": 0,
@@ -855,7 +963,7 @@
       "isCertificated": false
     },
     "handyman": {
-      "$id": "111",
+      "$id": "125",
       "fitter": 0,
       "plasterer": 0,
       "tiler": 0,
@@ -863,7 +971,7 @@
       "isCertificated": false
     },
     "gardener": {
-      "$id": "112",
+      "$id": "126",
       "quick": 0,
       "equipped": 0,
       "sense": 0,
@@ -871,7 +979,7 @@
       "isCertificated": false
     },
     "farmer": {
-      "$id": "113",
+      "$id": "127",
       "deligentFarmer": 0,
       "animalWhisperer": 0,
       "highTechFarmer": 0,
@@ -879,16 +987,24 @@
       "isCertificated": false
     },
     "architect": {
-      "$id": "114",
+      "$id": "128",
       "fastestBricklayer": 0,
       "scroogeMcBrick": 0,
       "miracleWorker": 0,
       "numberOfPerksAvailable": 0,
       "isCertificated": false
+    },
+    "restaurateur": {
+      "$id": "129",
+      "masterChef": 0,
+      "landlord": 0,
+      "restaurantPrecision": 0,
+      "numberOfPerksAvailable": 0,
+      "isCertificated": false
     }
   },
   "statistics": {
-    "$id": "115",
+    "$id": "130",
     "cleaned": 73,
     "throwed": 39,
     "destroyed": 0,
@@ -921,8 +1037,12 @@
     "fertilizedPlants": 0,
     "minutesPlayed": 15,
     "totalSecondsPassed": 781,
+    "preparedDishes": 0,
+    "rentedHouses": 0,
+    "designedTableware": 0,
+    "landInHotWater": 0,
     "cropMemory": {
-      "$id": "116",
+      "$id": "131",
       "totalCropUnitsCollected": 0,
       "cornCollected": 0,
       "sunflowersCollected": 0,
@@ -930,17 +1050,18 @@
       "tomatoesCollected": 0,
       "potatoesCollected": 0,
       "carrotsCollected": 0
-    }
+    },
+    "rentCollectionSecondsPassed": 1
   },
   "currentOfficeHouse": {
-    "$id": "117",
+    "$id": "132",
     "baseScene": "62a2addb1b5eff74983367119a78f658",
     "exteriorScene": "7e786d781a2303f40bc97393d4c4c358",
     "interiorScene": null
   },
   "currentOfficeHouseCreatedDateTime": "0001-01-01T00:00:00",
   "avaialbleTools": {
-    "$id": "118",
+    "$id": "133",
     "tools": [
       0,
       10,
@@ -966,11 +1087,14 @@
     3,
     4,
     5,
-    6
+    6,
+    7,
+    8,
+    9
   ],
   "unlockedHousesToBuy": [],
   "mainPopupsUnlocked": {
-    "$id": "119",
+    "$id": "134",
     "NewGame": true,
     "GardenOrder": true,
     "HgtvDlc": true,
@@ -983,13 +1107,13 @@
     "Tablet": true
   },
   "appraisersKnownFacts": {
-    "$id": "120"
+    "$id": "135"
   },
   "cameraMapTypeSpawnPosition": {
-    "$id": "121"
+    "$id": "136"
   },
   "recentItems": {
-    "$id": "122",
+    "$id": "137",
     "recentlyViewedItems": [
       "439bcbda91d79f64f992238cb8e615a6"
     ],
@@ -998,6 +1122,8 @@
     ]
   },
   "adoptedPetsFromOrders": {
-    "$id": "123"
-  }
+    "$id": "138"
+  },
+  "unlockedRecipes": [],
+  "tablewarePresets": []
 }

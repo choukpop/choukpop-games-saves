@@ -1,0 +1,697 @@
+Mono path[0] = 'D:/Programas Sem Instalacao/Games/Steam Games/House Flipper Series/House Flipper/HouseFlipper_Data/Managed'
+Mono config path = 'D:/Programas Sem Instalacao/Games/Steam Games/House Flipper Series/House Flipper/MonoBleedingEdge/etc'
+Initialize engine version: 2019.4.39f1 (78d14dfa024b)
+[Subsystems] Discovering subsystems at path D:/Programas Sem Instalacao/Games/Steam Games/House Flipper Series/House Flipper/HouseFlipper_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD  Radeon RX 7800 XT (ID=0x747e)
+    Vendor:   
+    VRAM:     16368 MB
+    Driver:   32.0.21025.10016
+Begin MonoManager ReloadAssembly
+- Completed reload, in 10.282 seconds
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 10.554700 ms
+Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled). 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Odin Serializer detected whitelisted runtime platform WindowsPlayer and memory read test succeeded; enabling all unaligned memory read/writes. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unknown arguments: D:\Programas Sem Instalacao\Games\Steam Games\House Flipper Series\House Flipper\HouseFlipper.exe 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+OS: Windows 11  (10.0.26100) 64bit
+CPU: AMD Ryzen 7 5800X 8-Core Processor 
+GPU: AMD  Radeon RX 7800 XT type: Direct3D11 version: Direct3D 11.0 [level 11.1]
+VRAM: 16368MB
+RAM: 16310MB
+DeviceModel: MS-7C56 (Micro-Star International Co., Ltd.)
+Shader level: 50 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Prefs ready 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Init: Toggles Panel 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Init: Screenshot Panel 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Couldn't load Modules system 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Init: Emotion Panel 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Init: SendButton 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Init: Window 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Init: Popup 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Init: BugReporting Canvas(Clone) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 9387.
+Total: 30.212100 ms (FindLiveObjects: 0.367800 ms CreateObjectMapping: 0.114000 ms MarkObjects: 29.711800 ms  DeleteObjects: 0.018200 ms)
+
+Either assetReference is null (True) or assetReference is invalid 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Either assetReference is null (True) or assetReference is invalid 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 2b50 -> priority: 1 
+  Thread -> id: 32dc -> priority: 1 
+  Thread -> id: 3c84 -> priority: 1 
+  Thread -> id: 3b44 -> priority: 1 
+[BuildInfoLoader] initialized: {
+  "git log": "\"f96609c1c2b1ef1ae1754553746187b998894727 2024-11-26 11:56:55 +0100\"",
+  "modified files": null,
+  "build host": "BLD-03",
+  "build time": "2024-11-26 11:38:45",
+  "appVer": "[release] 1.24331 (f9660)",
+  "Environment": "Build",
+  "branch": "f96609c1c2b1ef1ae1754553746187b998894727",
+  "commit": "f96609c1c2b1ef1ae1754553746187b998894727"
+} 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+InstalledUICulture: pt-PT, CurrentUICulture: pt-PT, CurrentCulture: pt-PT
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+InstalledUICulture: pt-PT, CurrentUICulture: en-US, CurrentCulture: en-US
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SettingsPrefs] Initialize 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Either assetReference is null (True) or assetReference is invalid 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: CoreBundles\core_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: core_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: CoreBundles\core_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: core_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: CoreBundles\full_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: full_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: CoreBundles\full_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: full_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: CoreBundles\full_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: full_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_cyberpunk_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_cyberpunk_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_dineout_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_dineout_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_farm_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_farm_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_gardens_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_gardens_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_hgtv_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_hgtv_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_luxury_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_luxury_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_pets_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_pets_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_popart_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_popart_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_preppers_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_preppers_deps 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_cyberpunk_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_cyberpunk_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_dineout_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_dineout_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_farm_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_farm_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_gardens_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_gardens_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_hgtv_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_hgtv_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_luxury_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_luxury_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_pets_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_pets_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_popart_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_popart_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_preppers_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_preppers_assets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_cyberpunk_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_cyberpunk_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_dineout_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_dineout_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_farm_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_farm_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_gardens_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_gardens_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_hgtv_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_hgtv_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_luxury_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_luxury_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_pets_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_pets_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loading: AssetBundles\dlc_preppers_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_preppers_scenes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[RuntimeLoadingProgress] Took 00:00:25.4144388 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setup start house scene: SmallFirstHouse 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[ProjectGuidmapper] after init <B>40</B>.2s 4100 objects loaded 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Loading Start Scene <B>40</B>.2s 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script on this Behaviour (Game Object 'Plant_Fern') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Treebush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Treebush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_FlowersRedBush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_FlowersRedBush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Bush_B') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Bush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Bush_B') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Fern') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Treebush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Fern') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_FlowersRedBush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Bush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Bush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Bush_B') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Bush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_FlowersRedBush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Treebush') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Fern') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Plant_Bush_B') is missing! 
+(Filename:  Line: 334)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script (Unknown) on this Behaviour is missing! 
+(Filename:  Line: 199)
+
+The referenced script on this Behaviour (Game Object 'Renderer') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Renderer') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Renderer') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Renderer') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Renderer') is missing! 
+(Filename:  Line: 334)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 610)
+UnloadTime: 0.878400 ms
+[GameManagerLoader] before <B>51</B>.8s 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Failed to create agent because there is no valid NavMesh 
+(Filename:  Line: 634)
+
+[GameManagerLoader] after instantiate <B>51</B>.8s 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 1\PlayerProgress.dat. Attempts left: 5 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 2 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 1\UserSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 1 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 1\ArchivalSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 2\PlayerProgress.dat. Attempts left: 5 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 2\PlayerProgress.dat. Attempts left: 4 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 2\PlayerProgress.dat. Attempts left: 3 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 2\PlayerProgress.dat. Attempts left: 2 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 2\PlayerProgress.dat. Attempts left: 1 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 2\UserSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 2\ArchivalSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 3\PlayerProgress.dat. Attempts left: 5 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 3\PlayerProgress.dat. Attempts left: 4 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 3\PlayerProgress.dat. Attempts left: 3 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 3\PlayerProgress.dat. Attempts left: 2 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 3\PlayerProgress.dat. Attempts left: 1 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 3\UserSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 3\ArchivalSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 4\PlayerProgress.dat. Attempts left: 5 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 4\PlayerProgress.dat. Attempts left: 4 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 4\PlayerProgress.dat. Attempts left: 3 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 4\PlayerProgress.dat. Attempts left: 2 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 4\PlayerProgress.dat. Attempts left: 1 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 4\UserSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game\Profiles\Profile 4\ArchivalSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 1 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/ArchivalSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/CatchedTextures.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 3 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/CatchedTextures_AfterSummary.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 3 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/CatchedTextures_BeforeSummary.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/CatchedTextures_DoghouseName.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/CatchedTextures_Gallery.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/CatchedTextures_GallerySticker.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 2 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/CatchedTextures_Grass.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/CatchedTextures_Gravel.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/CatchedTextures_SpecialGrass.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/CatchedTextures_Windows.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/Farm\ArchivalSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/Farm\UserSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/Farm 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/Pets\ArchivalSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/Pets\UserSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/Pets 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 2 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/UserSaves 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Found 6 file saves at C:/Users/ChouKpop/AppData/LocalLow/Empyrean/House Flipper Game/Profiles/Profile 1/ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Saved player progress found: "" with name: "Raiden" with playtime: 15min with houses owned: 1 with houses sold: 0 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Saved player progress found: "Profile 1" with name: "Raiden" with playtime: 15min with houses owned: 1 with houses sold: 0 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Progress not found: "Profile 2" 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Progress not found: "Profile 3" 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Progress not found: "Profile 4" 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Load game progress 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Load before after progress 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Load hgtv order progress 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Initializing Steam Inventory 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SteamInventory.GetAllItems(out steamInventoryResult) : True -- -1 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+I have initialized PetsManager 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+No custom postprocesses for WindowsPlayer platform. Using default... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[UserManagement] current user: ChouKpop 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Discovered 0 controllers 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[BuildInfoLoader] initialized: {
+  "git log": "\"f96609c1c2b1ef1ae1754553746187b998894727 2024-11-26 11:56:55 +0100\"",
+  "modified files": null,
+  "build host": "BLD-03",
+  "build time": "2024-11-26 11:38:45",
+  "appVer": "[release] 1.24331 (f9660)",
+  "Environment": "Build",
+  "branch": "f96609c1c2b1ef1ae1754553746187b998894727",
+  "commit": "f96609c1c2b1ef1ae1754553746187b998894727"
+} 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[10/2/2025 9:52:48 PM] Log into the game with profile "Raiden" with played time: 00:15 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[GameManagerLoader] after awaken <B>57</B>.2s 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[SettingsPrefs] Initialize 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Loaded Start Scene <B>57</B>.3s 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[4701 - SteamInventoryFullUpdate] - -1 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[4701 - SteamInventoryFullUpdate] - -1 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 30963 unused Assets to reduce memory usage. Loaded Objects now: 70052.
+Total: 175.823600 ms (FindLiveObjects: 3.789300 ms CreateObjectMapping: 3.443000 ms MarkObjects: 160.313800 ms  DeleteObjects: 8.277100 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 610)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 70053.
+Total: 163.742100 ms (FindLiveObjects: 2.922000 ms CreateObjectMapping: 2.084700 ms MarkObjects: 158.588100 ms  DeleteObjects: 0.145900 ms)
+
+[empcon] Command interpreter not set. Using default. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Either assetReference is null (True) or assetReference is invalid 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+10/2/2025 9:53:01 PM - Saving HousePlayerProgress [QuitGameButton] 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Can't check Asset. Asset is null 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[CANT-SAVE] Base scene  not in guidmapper
+order type: HouseOrder
+mail order? False
+order number: 0
+dev note: 
+cost: 5000 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Game Exit 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+

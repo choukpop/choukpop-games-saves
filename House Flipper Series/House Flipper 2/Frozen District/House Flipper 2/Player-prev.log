@@ -1,0 +1,1897 @@
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Initialize engine version: 2022.3.51f1 (9f9d16c45e54)
+[Subsystems] Discovering subsystems at path D:/Programas Sem Instalacao/Games/Steam Games/House Flipper Series/House Flipper 2/HouseFlipper2_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD  Radeon RX 7800 XT (ID=0x747e)
+    Vendor:   ATI
+    VRAM:     16368 MB
+    Driver:   32.0.21025.10016
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initializing input.
+New input system (experimental) initialized
+Using Windows.Gaming.Input
+<RI> Initialized touch support.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 17.778000 ms
+[Executor] Start
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.ExecutorFramework.Executor:Start()
+
+[Executor] Entering mode EarlyBootstrapMode
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+Hf2 Splash Screen 4K (UnityEngine.VideoClip) prepared
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.AssetMapping.<AcquireAssetsByLabel>d__27`1:MoveNext()
+Empyrean.HouseFlipper2.AssetReferencersBootstrapSystem:LoadAssetReferencers()
+Empyrean.HouseFlipper2.<OnLoadAsync>d__2:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.<LoadSupermodules>d__4:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.<LoadSupermoduleFromBuild>d__6:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.<RunOnThreadPool>d__78:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+[ line 263116296]
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.AssetMapping.<AcquireAssetsByLabel>d__27`1:MoveNext()
+Empyrean.HouseFlipper2.AssetReferencersBootstrapSystem:LoadAssetReferencers()
+Empyrean.HouseFlipper2.<OnLoadAsync>d__2:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.<LoadSupermodules>d__4:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.<LoadSupermoduleFromBuild>d__6:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.<RunOnThreadPool>d__78:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+[ line 263116072]
+
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.AssetMapping.<AcquireAssetsByLabel>d__27`1:MoveNext()
+Empyrean.HouseFlipper2.AssetReferencersBootstrapSystem:LoadAssetReferencers()
+Empyrean.HouseFlipper2.<OnLoadAsync>d__2:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.<LoadSupermodules>d__4:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.<LoadSupermoduleFromBuild>d__6:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.<RunOnThreadPool>d__78:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+[ line 263116296]
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.AssetMapping.<AcquireAssetsByLabel>d__27`1:MoveNext()
+Empyrean.HouseFlipper2.AssetReferencersBootstrapSystem:LoadAssetReferencers()
+Empyrean.HouseFlipper2.<OnLoadAsync>d__2:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.<LoadSupermodules>d__4:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.<LoadSupermoduleFromBuild>d__6:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.<RunOnThreadPool>d__78:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+[ line 263116072]
+
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.AssetMapping.<AcquireAssetsByLabel>d__27`1:MoveNext()
+Empyrean.HouseFlipper2.AssetReferencersBootstrapSystem:LoadAssetReferencers()
+Empyrean.HouseFlipper2.<OnLoadAsync>d__2:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.<LoadSupermodules>d__4:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.<LoadSupermoduleFromBuild>d__6:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.<RunOnThreadPool>d__78:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+[ line 263116296]
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.AssetMapping.<AcquireAssetsByLabel>d__27`1:MoveNext()
+Empyrean.HouseFlipper2.AssetReferencersBootstrapSystem:LoadAssetReferencers()
+Empyrean.HouseFlipper2.<OnLoadAsync>d__2:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.<LoadSupermodules>d__4:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.<LoadSupermoduleFromBuild>d__6:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.<RunOnThreadPool>d__78:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+[ line 263116072]
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.AssetMapping.<AcquireAssetsByLabel>d__27`1:MoveNext()
+Empyrean.HouseFlipper2.AssetReferencersBootstrapSystem:LoadAssetReferencers()
+Empyrean.HouseFlipper2.<OnLoadAsync>d__2:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.<LoadSupermodules>d__4:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.<LoadSupermoduleFromBuild>d__6:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.<RunOnThreadPool>d__78:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+[ line 263116600]
+
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.AssetMapping.<AcquireAssetsByLabel>d__27`1:MoveNext()
+Empyrean.HouseFlipper2.AssetReferencersBootstrapSystem:LoadAssetReferencers()
+Empyrean.HouseFlipper2.<OnLoadAsync>d__2:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.<LoadSupermodules>d__4:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.<LoadSupermoduleFromBuild>d__6:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.<RunOnThreadPool>d__78:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+[ line 263116296]
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.AssetMapping.<AcquireAssetsByLabel>d__27`1:MoveNext()
+Empyrean.HouseFlipper2.AssetReferencersBootstrapSystem:LoadAssetReferencers()
+Empyrean.HouseFlipper2.<OnLoadAsync>d__2:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.<LoadSupermodules>d__4:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.<LoadSupermoduleFromBuild>d__6:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.<RunOnThreadPool>d__78:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+[ line 263116072]
+
+AMD_animated_4K_VP8_60fps_YUV420 (UnityEngine.VideoClip) prepared
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+AMD_animated_4K_VP8_60fps_YUV420 (UnityEngine.VideoClip) ended playing
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.HF2SplashScreen:OnVideoEnded(VideoPlayer)
+
+[FMOD] Please add an 'FMOD Studio Listener' component to your camera in the scene for correct 3D positioning of sounds.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+FMODUnity.RuntimeManager:Update()
+
+[Executor] Entering mode EarlyStartupMode
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.AssetMapping.<AcquireAssetsByLabel>d__27`1:MoveNext()
+System.Collections.Generic.List`1:AddEnumerable(IEnumerable`1)
+System.Collections.Generic.List`1:InsertRange(Int32, IEnumerable`1)
+Empyrean.HouseFlipper2.UI.MasterCanvasBootstrapSystem:InitAfterInjections()
+Empyrean.ExecutorFramework.Executor:PerformInjections(T)
+Empyrean.ExecutorFramework.Executor:GetOrMakeSystem(Type)
+Empyrean.ExecutorFramework.ExecutorMode:ModeCreate()
+Empyrean.ExecutorFramework.LoadingMode:ModeCreate()
+Empyrean.ExecutorFramework.Executor:GetOrMakeMode(Type)
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+[ line 263116024]
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.AssetMapping.<AcquireAssetsByLabel>d__27`1:MoveNext()
+System.Collections.Generic.List`1:AddEnumerable(IEnumerable`1)
+System.Collections.Generic.List`1:InsertRange(Int32, IEnumerable`1)
+Empyrean.HouseFlipper2.UI.MasterCanvasBootstrapSystem:InitAfterInjections()
+Empyrean.ExecutorFramework.Executor:PerformInjections(T)
+Empyrean.ExecutorFramework.Executor:GetOrMakeSystem(Type)
+Empyrean.ExecutorFramework.ExecutorMode:ModeCreate()
+Empyrean.ExecutorFramework.LoadingMode:ModeCreate()
+Empyrean.ExecutorFramework.Executor:GetOrMakeMode(Type)
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+[ line 263115800]
+
+The referenced script (Coffee.UIExtensions.UIParticle) on this Behaviour is missing!
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.AssetMapping.<AcquireAssetsByLabel>d__27`1:MoveNext()
+System.Collections.Generic.List`1:AddEnumerable(IEnumerable`1)
+System.Collections.Generic.List`1:InsertRange(Int32, IEnumerable`1)
+Empyrean.HouseFlipper2.UI.MasterCanvasBootstrapSystem:InitAfterInjections()
+Empyrean.ExecutorFramework.Executor:PerformInjections(T)
+Empyrean.ExecutorFramework.Executor:GetOrMakeSystem(Type)
+Empyrean.ExecutorFramework.ExecutorMode:ModeCreate()
+Empyrean.ExecutorFramework.LoadingMode:ModeCreate()
+Empyrean.ExecutorFramework.Executor:GetOrMakeMode(Type)
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+[ line 263114760]
+
+The referenced script on this Behaviour (Game Object 'Particles') is missing!
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.AssetMapping.<AcquireAssetsByLabel>d__27`1:MoveNext()
+System.Collections.Generic.List`1:AddEnumerable(IEnumerable`1)
+System.Collections.Generic.List`1:InsertRange(Int32, IEnumerable`1)
+Empyrean.HouseFlipper2.UI.MasterCanvasBootstrapSystem:InitAfterInjections()
+Empyrean.ExecutorFramework.Executor:PerformInjections(T)
+Empyrean.ExecutorFramework.Executor:GetOrMakeSystem(Type)
+Empyrean.ExecutorFramework.ExecutorMode:ModeCreate()
+Empyrean.ExecutorFramework.LoadingMode:ModeCreate()
+Empyrean.ExecutorFramework.Executor:GetOrMakeMode(Type)
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+[ line 263115800]
+
+The referenced script (Coffee.UIExtensions.UIParticle) on this Behaviour is missing!
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.AssetMapping.<AcquireAssetsByLabel>d__27`1:MoveNext()
+System.Collections.Generic.List`1:AddEnumerable(IEnumerable`1)
+System.Collections.Generic.List`1:InsertRange(Int32, IEnumerable`1)
+Empyrean.HouseFlipper2.UI.MasterCanvasBootstrapSystem:InitAfterInjections()
+Empyrean.ExecutorFramework.Executor:PerformInjections(T)
+Empyrean.ExecutorFramework.Executor:GetOrMakeSystem(Type)
+Empyrean.ExecutorFramework.ExecutorMode:ModeCreate()
+Empyrean.ExecutorFramework.LoadingMode:ModeCreate()
+Empyrean.ExecutorFramework.Executor:GetOrMakeMode(Type)
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+[ line 263114760]
+
+The referenced script on this Behaviour (Game Object 'Particles') is missing!
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.AssetMapping.<AcquireAssetsByLabel>d__27`1:MoveNext()
+System.Collections.Generic.List`1:AddEnumerable(IEnumerable`1)
+System.Collections.Generic.List`1:InsertRange(Int32, IEnumerable`1)
+Empyrean.HouseFlipper2.UI.MasterCanvasBootstrapSystem:InitAfterInjections()
+Empyrean.ExecutorFramework.Executor:PerformInjections(T)
+Empyrean.ExecutorFramework.Executor:GetOrMakeSystem(Type)
+Empyrean.ExecutorFramework.ExecutorMode:ModeCreate()
+Empyrean.ExecutorFramework.LoadingMode:ModeCreate()
+Empyrean.ExecutorFramework.Executor:GetOrMakeMode(Type)
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+[ line 263115800]
+
+Continuing startup...
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.PlatformIntegration.<Init>d__11:MoveNext()
+Empyrean.HouseFlipper2.PlatformIntegration.SteamPlatformIntegrationHelper:Init()
+Empyrean.HouseFlipper2.PlatformIntegration.<InitializePlatformIntegration>d__6:MoveNext()
+Empyrean.HouseFlipper2.PlatformIntegration.PlatformIntegrationSystem:InitAfterInjections()
+Empyrean.ExecutorFramework.Executor:PerformInjections(T)
+Empyrean.ExecutorFramework.Executor:GetOrMakeSystem(Type)
+Empyrean.ExecutorFramework.ExecutorMode:ModeCreate()
+Empyrean.ExecutorFramework.LoadingMode:ModeCreate()
+Empyrean.ExecutorFramework.Executor:GetOrMakeMode(Type)
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+[AVProMovieCapture] Init version: 5.0.2 (plugin v5.0.0f1-ultra) with GPU AMD  Radeon RX 7800 XT Direct3D 11.0 [level 11.1] OS: Windows 11  (10.0.26100) 64bit
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+RenderHeads.Media.AVProMovieCapture.CaptureBase:Awake()
+UnityEngine.Object:Instantiate(T)
+Empyrean.HouseFlipper2.RenderingBootstrapSystem:InitAfterInjections()
+Empyrean.ExecutorFramework.Executor:PerformInjections(T)
+Empyrean.ExecutorFramework.Executor:GetOrMakeSystem(Type)
+Empyrean.ExecutorFramework.ExecutorMode:ModeCreate()
+Empyrean.ExecutorFramework.LoadingMode:ModeCreate()
+Empyrean.ExecutorFramework.Executor:GetOrMakeMode(Type)
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+Switched to Online Networking.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.ExecutorFramework.Executor:PerformInjections(T)
+Empyrean.ExecutorFramework.Executor:GetOrMakeSystem(Type)
+Empyrean.ExecutorFramework.ExecutorMode:ModeCreate()
+Empyrean.ExecutorFramework.LoadingMode:ModeCreate()
+Empyrean.ExecutorFramework.Executor:GetOrMakeMode(Type)
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+[Executor] Entering mode BootstrapMode
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+Attempting unload of logosyfirm_4k-1
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.HF2SplashScreen:UnloadTheStuff()
+
+Attempting release of VideoRT
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.HF2SplashScreen:UnloadTheStuff()
+
+Build information
+Release: True
+
+Identifier: cor-20250514-110401-Core-win-b76d5e8c+2
+Project: Core
+Platform: StandaloneWindows64
+UTC DateTime: 2025-05-14 11:04:01
+Unity Version: 2022.3.51f1
+User: builder
+Machine: BLD-12
+Commit Hash: b76d5e8c20d294cb8f8389ec47f9c8887a083da4
+Core Commit Hash: b76d5e8c20d294cb8f8389ec47f9c8887a083da4
+Build link: https://build.empyrean.games/job/HF2-bulk-stable/912/
+
+Identifier: sup-20250514-104626-Singularity-win-b76d5e8c+2
+Project: Singularity
+Platform: StandaloneWindows64
+UTC DateTime: 2025-05-14 10:46:26
+Unity Version: 2022.3.51f1
+User: builder
+Machine: BLD-12
+Commit Hash: b76d5e8c20d294cb8f8389ec47f9c8887a083da4
+Core Commit Hash: b76d5e8c20d294cb8f8389ec47f9c8887a083da4
+Build link: https://build.empyrean.games/job/HF2-bulk-stable/912/
+App Version: 1.8.0.0
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.Config.LoadingConfigSystem:LogBuildInformation()
+Empyrean.HouseFlipper2.Config.<OnLoadAsync>d__5:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.Config.<InitializeMachineConfig>d__6:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.Storage.<LoadJson>d__5`1:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+Printing Build Infos for current build
+Identifier: cor-20250514-110401-Core-win-b76d5e8c+2
+Project: Core
+Platform: StandaloneWindows64
+UTC DateTime: 2025-05-14 11:04:01
+Unity Version: 2022.3.51f1
+User: builder
+Machine: BLD-12
+Commit Hash: b76d5e8c20d294cb8f8389ec47f9c8887a083da4
+Core Commit Hash: b76d5e8c20d294cb8f8389ec47f9c8887a083da4
+Build link: https://build.empyrean.games/job/HF2-bulk-stable/912/
+
+Printing Build Infos for current build
+Identifier: sup-20250514-104626-Singularity-win-b76d5e8c+2
+Project: Singularity
+Platform: StandaloneWindows64
+UTC DateTime: 2025-05-14 10:46:26
+Unity Version: 2022.3.51f1
+User: builder
+Machine: BLD-12
+Commit Hash: b76d5e8c20d294cb8f8389ec47f9c8887a083da4
+Core Commit Hash: b76d5e8c20d294cb8f8389ec47f9c8887a083da4
+Build link: https://build.empyrean.games/job/HF2-bulk-stable/912/
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.Config.<OnLoadAsync>d__5:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.Config.<InitializeMachineConfig>d__6:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.Storage.<LoadJson>d__5`1:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+preferredRegionCallback, r = eu, regionChoosingDS.translatedRegions:Europa Ocidental
+EUA, Leste
+EUA, Oeste
+Canadá
+Ásia
+Japão
+Austrália
+América do Sul
+Índia
+Europa Central e Oriental
+Rússia, Leste
+Coréia do Sul
+África do Sul
+Turquia
+EAU
+EUA, Centro-Sul
+Hong Kong
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.Config.Settings.GameplaySettingsHelper:<RefreshPhotonRegion>b__19_0(String)
+Empyrean.HouseFlipper2.Networking.PhotonBackend.Regions.<<PopulateRegions>g__SelectRegion|1>d:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSource`1:TrySignalCompletion(UniTaskStatus)
+Photon.Realtime.MonoBehaviourEmpty:Update()
+
+Region selected: eu
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.Networking.PhotonBackend.Regions.<<PopulateRegions>g__SelectRegion|1>d:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSource`1:TrySignalCompletion(UniTaskStatus)
+Photon.Realtime.MonoBehaviourEmpty:Update()
+
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.AssetMapping.<AcquireAssetsByLabel>d__27`1:MoveNext()
+System.Collections.Generic.List`1:AddEnumerable(IEnumerable`1)
+System.Collections.Generic.List`1:InsertRange(Int32, IEnumerable`1)
+Empyrean.HouseFlipper2.<OnLoadAsync>d__20:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+[ line 263116728]
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.AssetMapping.<AcquireAssetsByLabel>d__27`1:MoveNext()
+System.Collections.Generic.List`1:AddEnumerable(IEnumerable`1)
+System.Collections.Generic.List`1:InsertRange(Int32, IEnumerable`1)
+Empyrean.HouseFlipper2.<OnLoadAsync>d__20:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+[ line 263116504]
+
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.AssetMapping.<AcquireAssetsByLabel>d__27`1:MoveNext()
+System.Collections.Generic.List`1:AddEnumerable(IEnumerable`1)
+System.Collections.Generic.List`1:InsertRange(Int32, IEnumerable`1)
+Empyrean.HouseFlipper2.<OnLoadAsync>d__20:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+[ line 263116728]
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.AssetMapping.<AcquireAssetsByLabel>d__27`1:MoveNext()
+System.Collections.Generic.List`1:AddEnumerable(IEnumerable`1)
+System.Collections.Generic.List`1:InsertRange(Int32, IEnumerable`1)
+Empyrean.HouseFlipper2.<OnLoadAsync>d__20:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+[ line 263116504]
+
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.AssetMapping.<AcquireAssetsByLabel>d__27`1:MoveNext()
+System.Collections.Generic.List`1:AddEnumerable(IEnumerable`1)
+System.Collections.Generic.List`1:InsertRange(Int32, IEnumerable`1)
+Empyrean.HouseFlipper2.<OnLoadAsync>d__20:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+[ line 263116728]
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.AssetMapping.<AcquireAssetsByLabel>d__27`1:MoveNext()
+System.Collections.Generic.List`1:AddEnumerable(IEnumerable`1)
+System.Collections.Generic.List`1:InsertRange(Int32, IEnumerable`1)
+Empyrean.HouseFlipper2.<OnLoadAsync>d__20:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+[ line 263116504]
+
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.AssetMapping.<AcquireAssetsByLabel>d__27`1:MoveNext()
+System.Collections.Generic.List`1:AddEnumerable(IEnumerable`1)
+System.Collections.Generic.List`1:InsertRange(Int32, IEnumerable`1)
+Empyrean.HouseFlipper2.<OnLoadAsync>d__20:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+[ line 263116728]
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.AssetMapping.<AcquireAssetsByLabel>d__27`1:MoveNext()
+System.Collections.Generic.List`1:AddEnumerable(IEnumerable`1)
+System.Collections.Generic.List`1:InsertRange(Int32, IEnumerable`1)
+Empyrean.HouseFlipper2.<OnLoadAsync>d__20:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+[ line 263116504]
+
+[ModIOModSource] Not authenticated
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Empyrean.HouseFlipper2.Modding.ModIOModSource:GatherMods()
+Empyrean.HouseFlipper2.Modding.<GatherMods>d__23:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+OS: Windows 11  (10.0.26100) 64bit
+CPU: AMD Ryzen 7 5800X 8-Core Processor 
+GPU: AMD  Radeon RX 7800 XT type: Direct3D11 version: Direct3D 11.0 [level 11.1]
+VRAM: 16368MB
+RAM: 16310MB
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.PlayerDiagnostic.PlayerDiagnosticLogSystem:LogUserSystemInfo()
+Empyrean.HouseFlipper2.PlayerDiagnostic.PlayerDiagnosticLogSystem:InitAfterInjections()
+Empyrean.ExecutorFramework.Executor:PerformInjections(T)
+Empyrean.ExecutorFramework.Executor:GetOrMakeSystem(Type)
+Empyrean.ExecutorFramework.ExecutorMode:ModeCreate()
+Empyrean.ExecutorFramework.Executor:GetOrMakeMode(Type)
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+Free space: 298GB (305 922MB).
+Total space: 464GB.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.PlayerDiagnostic.<LogMainStorageFreeSpace>d__8:MoveNext()
+Empyrean.HouseFlipper2.PlayerDiagnostic.PlayerDiagnosticLogSystem:InitAfterInjections()
+Empyrean.ExecutorFramework.Executor:PerformInjections(T)
+Empyrean.ExecutorFramework.Executor:GetOrMakeSystem(Type)
+Empyrean.ExecutorFramework.ExecutorMode:ModeCreate()
+Empyrean.ExecutorFramework.Executor:GetOrMakeMode(Type)
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+[Executor] Entering mode StartupMode
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+Steam achievement: CharmingTalker unlocked
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.Achievements.SteamAchievementsAndStatsHelper:UpdateAchievement(AchievementApiKey)
+Empyrean.HouseFlipper2.Achievements.SteamAchievementsAndStatsHelper:UpdateProgressAchievement(AchievementApiKey, StatisticApiKey, Int32, Int32)
+Empyrean.HouseFlipper2.Achievements.<<TryUpdateAchievementStatistic>g__UpdateAchievementStatistic|0>d:MoveNext()
+Empyrean.HouseFlipper2.Achievements.AchievementUnlockingHelper:TryUpdateAchievementStatistic(AchievementApiKey, StatisticApiKey, Int32, Int32)
+Empyrean.HouseFlipper2.AchievementStatisticsHelper:HandleAnsweredTelephonesEvent(Int32)
+Empyrean.StuffOnFire.Observable`1:Set(T)
+Empyrean.HouseFlipper2.PlayerStatistics:Add(PlayerStatistics)
+Empyrean.HouseFlipper2.AchievementStatisticsHelper:GatherStatsFromProfiles()
+Empyrean.HouseFlipper2.Achievements.AchievementsAndStatsSystem:InitAfterInjections()
+Empyrean.ExecutorFramework.Executor:PerformInjections(T)
+Empyrean.ExecutorFramework.Executor:GetOrMakeSystem(Type)
+Empyrean.ExecutorFramework.ExecutorMode:ModeCreate()
+Empyrean.ExecutorFramework.Executor:GetOrMakeMode(Type)
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+Steam achievement: AsInstructed unlocked
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.Achievements.SteamAchievementsAndStatsHelper:UpdateAchievement(AchievementApiKey)
+Empyrean.HouseFlipper2.Achievements.SteamAchievementsAndStatsHelper:UnlockAchievement(AchievementApiKey)
+Empyrean.HouseFlipper2.Achievements.<<TryUnlockAchievement>g__UnlockAchievement|0>d:MoveNext()
+Empyrean.HouseFlipper2.Achievements.AchievementUnlockingHelper:TryUnlockAchievement(AchievementApiKey, Func`1)
+Empyrean.HouseFlipper2.AchievementStatisticsHelper:HandleCompletedAssembliesEvent(Int32)
+Empyrean.StuffOnFire.Observable`1:Set(T)
+Empyrean.HouseFlipper2.PlayerStatistics:Add(PlayerStatistics)
+Empyrean.HouseFlipper2.AchievementStatisticsHelper:GatherStatsFromProfiles()
+Empyrean.HouseFlipper2.Achievements.AchievementsAndStatsSystem:InitAfterInjections()
+Empyrean.ExecutorFramework.Executor:PerformInjections(T)
+Empyrean.ExecutorFramework.Executor:GetOrMakeSystem(Type)
+Empyrean.ExecutorFramework.ExecutorMode:ModeCreate()
+Empyrean.ExecutorFramework.Executor:GetOrMakeMode(Type)
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+[Executor] Entering mode ProfileSelectionMode
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+Steam User: RUNE
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.HFAnalytics.SteamAnalyticsHelper:HandleAfterInjections()
+Empyrean.HouseFlipper2.HFAnalytics.AnalyticsSystem:InitAfterInjections()
+Empyrean.ExecutorFramework.Executor:PerformInjections(T)
+Empyrean.ExecutorFramework.Executor:GetOrMakeSystem(Type)
+Empyrean.ExecutorFramework.ExecutorMode:ModeCreate()
+Empyrean.ExecutorFramework.Executor:GetOrMakeMode(Type)
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+[Executor] Entering mode MainMenuMode
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+Could not override binding as no existing binding was found with the id: 26be97b4-5e88-48a2-b207-1587936a9e0e
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Empyrean.HouseFlipper2.UI.Settings.KeybindingHelper:TranslateJsonBindings(String)
+Empyrean.HouseFlipper2.UI.Settings.<LoadUserRebindings>d__16:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.DevTools.<Intercept>d__14`1:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+[UnloadingHelper] UnloadWhateverIsLoaded starting.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.<UnloadWhateverIsLoaded>d__19:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.WaitUntilPromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 2346)
+Unloading 161 unused Assets to reduce memory usage. Loaded Objects now: 173929.
+Total: 170.125700 ms (FindLiveObjects: 8.150700 ms CreateObjectMapping: 9.976200 ms MarkObjects: 143.056400 ms  DeleteObjects: 0.660600 ms)
+
+[UnloadingHelper] UnloadWhateverIsLoaded ending.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.<UnloadWhateverIsLoaded>d__19:MoveNext()
+Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+Could not override binding as no existing binding was found with the id: 26be97b4-5e88-48a2-b207-1587936a9e0e
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Empyrean.HouseFlipper2.UI.Settings.KeybindingHelper:TranslateJsonBindings(String)
+Empyrean.HouseFlipper2.UI.Settings.<LoadUserRebindings>d__16:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.DevTools.<Intercept>d__14`1:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+[Executor] Entering mode ProfileSelectionMode
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+[Executor] Entering mode MainMenuMode
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+Could not override binding as no existing binding was found with the id: 26be97b4-5e88-48a2-b207-1587936a9e0e
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Empyrean.HouseFlipper2.UI.Settings.KeybindingHelper:TranslateJsonBindings(String)
+Empyrean.HouseFlipper2.UI.Settings.<LoadUserRebindings>d__16:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.DevTools.<Intercept>d__14`1:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+[UnloadingHelper] UnloadWhateverIsLoaded starting.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.<UnloadWhateverIsLoaded>d__19:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.WaitUntilPromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 2081)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 158653.
+Total: 155.518700 ms (FindLiveObjects: 7.657000 ms CreateObjectMapping: 8.012000 ms MarkObjects: 139.506600 ms  DeleteObjects: 0.342600 ms)
+
+[UnloadingHelper] UnloadWhateverIsLoaded ending.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.<UnloadWhateverIsLoaded>d__19:MoveNext()
+Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[Executor] Calling ExitGame
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.ExecutorFramework.Executor:ExitGame()
+UnityEngine.Events.UnityEvent:Invoke()
+Empyrean.CHWUI.CommonButton:OnSubmit()
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+[Executor] Calling OnGameExits
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.ExecutorFramework.Executor:CallOnGameExitsOnSystems()
+
+Analytics Dispatcher is already flushing.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Services.Analytics.AnalyticsServiceInstance:ApplicationQuit()
+Unity.Services.Analytics.AnalyticsContainer:CleanUp()
+
+Releasing render texture that is set as Camera.targetTexture!
+Releasing render texture that is set as Camera.targetTexture!
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+TextProperties or tmpText.font is null, this should not happen!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Empyrean.CHWUI.TextWrapper:RefreshPreferredValues()
+Empyrean.CHWUI.KeyDisplay:Load(String, Boolean)
+Empyrean.CHWUI.KeyTooltip:<UpdateTooltip>g__LoadBindingToDisplay|45_0(<>c__DisplayClass45_0&)
+Empyrean.CHWUI.KeyTooltip:UpdateTooltip(DeviceType)
+Empyrean.CHWUI.KeyTooltip:HandleBindingChanged(Object, InputActionChange)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange, Object)
+UnityEngine.InputSystem.InputActionState:NotifyListenersOfActionChange(InputActionChange)
+UnityEngine.InputSystem.InputActionState:RestoreActionStatesAfterReResolvingBindings(UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionState:FinishBindingResolution(Boolean, UnmanagedMemory, InputControlList`1, Boolean)
+UnityEngine.InputSystem.InputActionMap:ResolveBindings()
+UnityEngine.InputSystem.InputActionMap:LazyResolveBindings(Boolean)
+UnityEngine.InputSystem.InputActionState:OnDeviceChange(InputDevice, InputDeviceChange)
+UnityEngine.InputSystem.InputManager:RemoveDevice(InputDevice, Boolean)
+UnityEngine.InputSystem.UI.VirtualMouseInput:OnDisable()
+
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [8.0 KB-16.0 KB]: 11658 frames, [32.0 KB-64.0 KB]: 1111 frames, [64.0 KB-128.0 KB]: 5825 frames, [128.0 KB-256.0 KB]: 3 frames, [256.0 KB-0.5 MB]: 2 frames, [0.5 MB-1.0 MB]: 4 frames, [1.0 MB-2.0 MB]: 2 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 4 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 7.8 MB
+      Peak Allocated Bytes 7.8 MB
+      Overflow Count 34
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 128.0 KB
+      Peak Allocated Bytes 128.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 480.0 KB
+      Peak Allocated Bytes 321.9 KB
+      Overflow Count 14
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 51.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 48.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 51.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 51.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 14]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 48.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 51.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 13]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 48.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 16
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 2.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 1.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 71.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 15
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 138 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 9]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 50.3 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 8]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 51.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 51.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 51.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 51.3 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 10]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 51.3 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_CloudJob.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 16.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_HIDInput]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 10.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 11]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 48.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 12]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 51.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 22755
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 11 Subsections = 11264 buckets. Failed count: 320862
+        32B: 55 Subsections = 28160 buckets. Failed count: 312858
+        48B: 38 Subsections = 12970 buckets. Failed count: 1105394
+        64B: 37 Subsections = 9472 buckets. Failed count: 85732
+        80B: 60 Subsections = 12288 buckets. Failed count: 70210
+        96B: 25 Subsections = 4266 buckets. Failed count: 969425
+        112B: 17 Subsections = 2486 buckets. Failed count: 41554
+        128B: 13 Subsections = 1664 buckets. Failed count: 80219
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [128.0 MB-256.0 MB]: 11864 frames, [256.0 MB-0.50 GB]: 6746 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 18
+      Peak Allocated memory 272.5 MB
+      Peak Large allocation bytes 130.3 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [8.0 MB-16.0 MB]: 6791 frames, [16.0 MB-32.0 MB]: 6950 frames, [32.0 MB-64.0 MB]: 2219 frames, [64.0 MB-128.0 MB]: 2 frames, [128.0 MB-256.0 MB]: 2648 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 17
+      Peak Allocated memory 207.9 MB
+      Peak Large allocation bytes 16.0 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 2
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 2275
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 11 Subsections = 11264 buckets. Failed count: 320862
+        32B: 55 Subsections = 28160 buckets. Failed count: 312858
+        48B: 38 Subsections = 12970 buckets. Failed count: 1105394
+        64B: 37 Subsections = 9472 buckets. Failed count: 85732
+        80B: 60 Subsections = 12288 buckets. Failed count: 70210
+        96B: 25 Subsections = 4266 buckets. Failed count: 969425
+        112B: 17 Subsections = 2486 buckets. Failed count: 41554
+        128B: 13 Subsections = 1664 buckets. Failed count: 80219
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [256.0 KB-0.5 MB]: 19 frames, [0.5 MB-1.0 MB]: 1932 frames, [64.0 MB-128.0 MB]: 14022 frames, [128.0 MB-256.0 MB]: 2637 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 11
+      Peak Allocated memory 161.2 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [128.0 KB-256.0 KB]: 1951 frames, [256.0 KB-0.5 MB]: 9900 frames, [0.5 MB-1.0 MB]: 6759 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 0.8 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 4239
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 11 Subsections = 11264 buckets. Failed count: 320862
+        32B: 55 Subsections = 28160 buckets. Failed count: 312858
+        48B: 38 Subsections = 12970 buckets. Failed count: 1105394
+        64B: 37 Subsections = 9472 buckets. Failed count: 85732
+        80B: 60 Subsections = 12288 buckets. Failed count: 70210
+        96B: 25 Subsections = 4266 buckets. Failed count: 969425
+        112B: 17 Subsections = 2486 buckets. Failed count: 41554
+        128B: 13 Subsections = 1664 buckets. Failed count: 80219
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [32.0 MB-64.0 MB]: 1951 frames, [0.50 GB-1.00 GB]: 14200 frames, [1.00 GB-2.00 GB]: 2459 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 262
+      Peak Allocated memory 1.45 GB
+      Peak Large allocation bytes 0.84 GB
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [32.0 MB-64.0 MB]: 18609 frames, [64.0 MB-128.0 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 11
+      Peak Allocated memory 71.8 MB
+      Peak Large allocation bytes 30.1 MB
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 11 Subsections = 11264 buckets. Failed count: 320862
+        32B: 55 Subsections = 28160 buckets. Failed count: 312858
+        48B: 38 Subsections = 12970 buckets. Failed count: 1105394
+        64B: 37 Subsections = 9472 buckets. Failed count: 85732
+        80B: 60 Subsections = 12288 buckets. Failed count: 70210
+        96B: 25 Subsections = 4266 buckets. Failed count: 969425
+        112B: 17 Subsections = 2486 buckets. Failed count: 41554
+        128B: 13 Subsections = 1664 buckets. Failed count: 80219
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [8.0 KB-16.0 KB]: 1951 frames, [4.0 MB-8.0 MB]: 9707 frames, [8.0 MB-16.0 MB]: 190 frames, [16.0 MB-32.0 MB]: 3 frames, [32.0 MB-64.0 MB]: 7 frames, [64.0 MB-128.0 MB]: 6752 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 41
+      Peak Allocated memory 74.4 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [8.0 KB-16.0 KB]: 18610 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 13.0 KB
+      Peak Large allocation bytes 0 B
