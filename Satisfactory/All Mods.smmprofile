@@ -77,6 +77,10 @@
         "version": ">=0.0.0",
         "enabled": true
       },
+      "DigitalStorage": {
+        "version": ">=0.0.0",
+        "enabled": true
+      },
       "DirectToSplitter": {
         "version": ">=0.0.0",
         "enabled": true
@@ -153,6 +157,10 @@
         "version": ">=0.0.0",
         "enabled": true
       },
+      "InventorySpace2": {
+        "version": ">=0.0.0",
+        "enabled": true
+      },
       "InvisibleManta": {
         "version": ">=0.0.0",
         "enabled": true
@@ -226,6 +234,10 @@
         "enabled": false
       },
       "MoreTrinketsAndHelmets": {
+        "version": ">=0.0.0",
+        "enabled": true
+      },
+      "MultiRecipeMachine": {
         "version": ">=0.0.0",
         "enabled": true
       },
@@ -333,6 +345,10 @@
         "version": ">=0.0.0",
         "enabled": true
       },
+      "SmartFoundations": {
+        "version": ">=0.0.0",
+        "enabled": true
+      },
       "SpeedyResourceScanner": {
         "version": ">=0.0.0",
         "enabled": true
@@ -394,6 +410,10 @@
         "enabled": true
       },
       "VanishGiraffer": {
+        "version": ">=0.0.0",
+        "enabled": true
+      },
+      "VerticalLogisticsQoL": {
         "version": ">=0.0.0",
         "enabled": true
       },
@@ -600,12 +620,20 @@
       "BuildMenu": {
         "dependencies": null,
         "targets": {
+          "LinuxServer": {
+            "hash": "61ecdce9145b4bb93b2b8a672e220d692f937161e0fc915d5fabe6374a280345",
+            "link": "https://api.ficsit.app/v1/version/6MmdfU2VHtmzkS/LinuxServer/download"
+          },
           "Windows": {
-            "hash": "af09ebc5e1e7b341cdd039d10f8660dffc0672e04793445732a954f46c2ef1e0",
-            "link": "https://api.ficsit.app/v1/version/3HUEyaZrH3KZEe/Windows/download"
+            "hash": "bb7244b6a4ec7b704e2f6b5e59a791585e4efea9053930c7fa461388c1776a45",
+            "link": "https://api.ficsit.app/v1/version/6MmdfU2VHtmzkS/Windows/download"
+          },
+          "WindowsServer": {
+            "hash": "24d70de6bc0ae3432c0cc97b75f96770cbb7c28b3e197f803882ebdfe5f95f84",
+            "link": "https://api.ficsit.app/v1/version/6MmdfU2VHtmzkS/WindowsServer/download"
           }
         },
-        "version": "1.0.15"
+        "version": "1.0.17"
       },
       "BuildableResourceNodesRedux": {
         "dependencies": null,
@@ -647,11 +675,11 @@
         "dependencies": null,
         "targets": {
           "Windows": {
-            "hash": "c352ba076b4f502b673122c6e31a0e759387cf86b325fad41de6cff5a86e18ab",
-            "link": "https://api.ficsit.app/v1/version/31BKFotYAqZ1sT/Windows/download"
+            "hash": "827a2132e18f5bdcb209408073d3a4f1f97742409e46eb5ddb690481e30a4b6a",
+            "link": "https://api.ficsit.app/v1/version/CJ8g7Rcdhyzf9b/Windows/download"
           }
         },
-        "version": "1.0.34"
+        "version": "1.0.37"
       },
       "ContentLib": {
         "dependencies": null,
@@ -721,19 +749,37 @@
         "dependencies": null,
         "targets": {
           "LinuxServer": {
-            "hash": "d2b673dd8000ed0f7ca326a7ad4949c32d7bf297ddc71210825986759a88371a",
-            "link": "https://api.ficsit.app/v1/version/2MbJywqDfEazZm/LinuxServer/download"
+            "hash": "8d0e71924e7d0a47688c2b70b197bc661b540f8cc188c614446a5e2a46a7c6f6",
+            "link": "https://api.ficsit.app/v1/version/CKFqRGRah1tzT5/LinuxServer/download"
           },
           "Windows": {
-            "hash": "dd617d1184aac435b58524192274585bf61f0d3e74dfb09c534e36d425401be6",
-            "link": "https://api.ficsit.app/v1/version/2MbJywqDfEazZm/Windows/download"
+            "hash": "6b5615198b6a22c9c600d08a6a59708af237d3380008d997aa619df3cd28ab1f",
+            "link": "https://api.ficsit.app/v1/version/CKFqRGRah1tzT5/Windows/download"
           },
           "WindowsServer": {
-            "hash": "2fe358e40a9aacf7d658428c95a53257fc540b0889a09f643dd37560fe30ca0c",
-            "link": "https://api.ficsit.app/v1/version/2MbJywqDfEazZm/WindowsServer/download"
+            "hash": "54b8fff731aec1bef8da26eb1ed865c8c05616268fb60a15222d1b85bf55895d",
+            "link": "https://api.ficsit.app/v1/version/CKFqRGRah1tzT5/WindowsServer/download"
           }
         },
-        "version": "2.1.1"
+        "version": "2.3.2"
+      },
+      "DigitalStorage": {
+        "dependencies": null,
+        "targets": {
+          "LinuxServer": {
+            "hash": "90ded8ca0bc1d2053f953f5656b7640974c5b9dc0754698651bed17e79e63072",
+            "link": "https://api.ficsit.app/v1/version/EixY2iviamRt8k/LinuxServer/download"
+          },
+          "Windows": {
+            "hash": "e0b881c055140a5c5396487039fe35a84140ccd7b02a1f13193336b2f2dc1437",
+            "link": "https://api.ficsit.app/v1/version/EixY2iviamRt8k/Windows/download"
+          },
+          "WindowsServer": {
+            "hash": "3bb425aa7f1758f22377a47e0d6c70e0bf95903ab4d528e9e143b89f857dd65b",
+            "link": "https://api.ficsit.app/v1/version/EixY2iviamRt8k/WindowsServer/download"
+          }
+        },
+        "version": "1.3.11"
       },
       "DirectToSplitter": {
         "dependencies": null,
@@ -825,6 +871,24 @@
         },
         "version": "1.0.1"
       },
+      "EnhancedSorting": {
+        "dependencies": null,
+        "targets": {
+          "LinuxServer": {
+            "hash": "2f33b85d24c931a2b5ff880991fc80e8776612c4db480eaef88bcae5a84417e4",
+            "link": "https://api.ficsit.app/v1/version/7jg9JSNVA1WR56/LinuxServer/download"
+          },
+          "Windows": {
+            "hash": "853656dd19c419b4315a318e13e870e7be4084dbc15bf2c5c37c9d0cc48b80ec",
+            "link": "https://api.ficsit.app/v1/version/7jg9JSNVA1WR56/Windows/download"
+          },
+          "WindowsServer": {
+            "hash": "8789b24a76549a6fc2156fa3f2ca15555334de54c9ec8d0c18df34db88dbdd71",
+            "link": "https://api.ficsit.app/v1/version/7jg9JSNVA1WR56/WindowsServer/download"
+          }
+        },
+        "version": "1.0.3"
+      },
       "EquipmentKeyBindings": {
         "dependencies": null,
         "targets": {
@@ -865,11 +929,11 @@
         "dependencies": null,
         "targets": {
           "Windows": {
-            "hash": "52ca8a09ac242cc565d5edb5b79c0ae4818695c4df928c8fec9f2417f98281b1",
-            "link": "https://api.ficsit.app/v1/version/4MRY9hCKZbYxkC/Windows/download"
+            "hash": "75a7711f3e074442cb7d6d7bb9e30ba2985109d07ba12232029e7d8f239679d4",
+            "link": "https://api.ficsit.app/v1/version/D9gYh9L7owGVsf/Windows/download"
           }
         },
-        "version": "2.1.1"
+        "version": "2.1.5"
       },
       "FactorioMachine": {
         "dependencies": null,
@@ -1011,19 +1075,19 @@
         "dependencies": null,
         "targets": {
           "LinuxServer": {
-            "hash": "33e8e03c3d5005c996ef053f34b02cbe511d1dd78c39d7a6a1f16800b51aa094",
-            "link": "https://api.ficsit.app/v1/version/3B7qJFitStzZrp/LinuxServer/download"
+            "hash": "a4f23a4ffb9da354b8651b519934e961a32bbacf3b68ad36b4171ff736e1f400",
+            "link": "https://api.ficsit.app/v1/version/CYbQskERzkY37U/LinuxServer/download"
           },
           "Windows": {
-            "hash": "a27806e8198aedf0cfc1298b7e434eeb01ba318d0d6eaef1f8175be4d57f7303",
-            "link": "https://api.ficsit.app/v1/version/3B7qJFitStzZrp/Windows/download"
+            "hash": "c4ca09b47d4306f80065d01f0b62ffebeb710919685029720bfaf254e8967a9a",
+            "link": "https://api.ficsit.app/v1/version/CYbQskERzkY37U/Windows/download"
           },
           "WindowsServer": {
-            "hash": "165b256f10ba68f7d3c49c7a60ac0ad760739373d38cf2ba8f06210b5e3682fd",
-            "link": "https://api.ficsit.app/v1/version/3B7qJFitStzZrp/WindowsServer/download"
+            "hash": "f6259a56af2919fa498ce06eade0974b35715967bc8b489b74397051d39db35c",
+            "link": "https://api.ficsit.app/v1/version/CYbQskERzkY37U/WindowsServer/download"
           }
         },
-        "version": "1.0.6"
+        "version": "1.0.8"
       },
       "HardDriveCheat": {
         "dependencies": null,
@@ -1083,19 +1147,19 @@
         "dependencies": null,
         "targets": {
           "LinuxServer": {
-            "hash": "de9a626a5d0c6698639eb61889b226487c04058981a4c48e2500d73e89a56531",
-            "link": "https://api.ficsit.app/v1/version/6u2xnP7FTP6iBd/LinuxServer/download"
+            "hash": "a61d2704652f0493b7b4c9d9a9e155af0c9578da835392b73551b9a24dc6e5cf",
+            "link": "https://api.ficsit.app/v1/version/B8HN3tU49HFwCq/LinuxServer/download"
           },
           "Windows": {
-            "hash": "aac46ceada0fcc34e19d52dc93af3d10d46a0e8ee93e6f5dc8735746c716c16d",
-            "link": "https://api.ficsit.app/v1/version/6u2xnP7FTP6iBd/Windows/download"
+            "hash": "77d4ce00ac5dc2c326e6fea32b625cef579ad40f09301f30d9297d3946615040",
+            "link": "https://api.ficsit.app/v1/version/B8HN3tU49HFwCq/Windows/download"
           },
           "WindowsServer": {
-            "hash": "451e3618356db977492d150f1de6ae4391e84d5bba3c70907039d4e9941a9a5a",
-            "link": "https://api.ficsit.app/v1/version/6u2xnP7FTP6iBd/WindowsServer/download"
+            "hash": "f7e59b14700de85ee228dabeaf652806dec56950df776c88300289820726d4e1",
+            "link": "https://api.ficsit.app/v1/version/B8HN3tU49HFwCq/WindowsServer/download"
           }
         },
-        "version": "2.3.9"
+        "version": "2.5.5"
       },
       "InfiniteZoop": {
         "dependencies": null,
@@ -1114,6 +1178,24 @@
           }
         },
         "version": "1.9.5"
+      },
+      "InventorySpace2": {
+        "dependencies": null,
+        "targets": {
+          "LinuxServer": {
+            "hash": "2777b7a8810d038e5c4c1fd4b7a017fd702e944c8e7d3df95127fe9d17d2062f",
+            "link": "https://api.ficsit.app/v1/version/2Fa7GvfU5Qppq9/LinuxServer/download"
+          },
+          "Windows": {
+            "hash": "fd42961d415d78b5404e1ad2e5801b3a199e7ed6968b504bff80c70f781a5092",
+            "link": "https://api.ficsit.app/v1/version/2Fa7GvfU5Qppq9/Windows/download"
+          },
+          "WindowsServer": {
+            "hash": "750da8507c98adfabb40b52a21e5cd3e0443fc82540fa1762f171e8da4646e1f",
+            "link": "https://api.ficsit.app/v1/version/2Fa7GvfU5Qppq9/WindowsServer/download"
+          }
+        },
+        "version": "2.0.10"
       },
       "InvisibleManta": {
         "dependencies": null,
@@ -1165,73 +1247,73 @@
         "dependencies": null,
         "targets": {
           "LinuxServer": {
-            "hash": "214bc502458c8331ce88a737376ccdcc989e65848632d82313da42f18da0e84c",
-            "link": "https://api.ficsit.app/v1/version/7YW99JbfUyRa3a/LinuxServer/download"
+            "hash": "59f53b62e72a342e3ccf7fdb4051e809b57ea6560a1297ebd218bb2e680a9262",
+            "link": "https://api.ficsit.app/v1/version/ADHBPADrPPRc4X/LinuxServer/download"
           },
           "Windows": {
-            "hash": "3291cafeb5e175463464750cc43a55d11af8997842032d631bded5bd05339a7a",
-            "link": "https://api.ficsit.app/v1/version/7YW99JbfUyRa3a/Windows/download"
+            "hash": "5a6ec1db5b712ea38217ce6f3e6fec72796eb5f2c366e58ae537c3174c24f050",
+            "link": "https://api.ficsit.app/v1/version/ADHBPADrPPRc4X/Windows/download"
           },
           "WindowsServer": {
-            "hash": "e3bbd3ec38d324bb71c89cb3bf263d764a34e69d463ba8a94fde533f5b74aa63",
-            "link": "https://api.ficsit.app/v1/version/7YW99JbfUyRa3a/WindowsServer/download"
+            "hash": "e0def8ecbfef5ae811c0fd5a93166d09c3d77adfaa1910920d9db073222c93e1",
+            "link": "https://api.ficsit.app/v1/version/ADHBPADrPPRc4X/WindowsServer/download"
           }
         },
-        "version": "2.0.1"
+        "version": "2.1.1"
       },
       "KBFL": {
         "dependencies": null,
         "targets": {
           "LinuxServer": {
-            "hash": "4b79168f0b60ac913e0d70d972115fafcc5a619c1950fb7cb4973b60aad22dff",
-            "link": "https://api.ficsit.app/v1/version/B1r1BQ5ks1AYma/LinuxServer/download"
+            "hash": "2add363d85d87d878e8eac948ad1ae322a56a0a1b5bf33bb1d0ef1602b64edf7",
+            "link": "https://api.ficsit.app/v1/version/855x6QRcwFeJ8d/LinuxServer/download"
           },
           "Windows": {
-            "hash": "fbb9bd6a3d71b6f884282e16b3c3dd06ce109234d0fd9806a54a644af9430ab4",
-            "link": "https://api.ficsit.app/v1/version/B1r1BQ5ks1AYma/Windows/download"
+            "hash": "1ad4040ea10671974a81f9b3f61d780625a7fd5e53d101fc02056011b6184928",
+            "link": "https://api.ficsit.app/v1/version/855x6QRcwFeJ8d/Windows/download"
           },
           "WindowsServer": {
-            "hash": "4aaafe32ab5fe517a99bb25280534994639f88b1f1d40e6e81d843e41ad5a7ab",
-            "link": "https://api.ficsit.app/v1/version/B1r1BQ5ks1AYma/WindowsServer/download"
+            "hash": "d7789e52269ec876e817676d75a5baf0244e01d5aa05b896fa14e5322f31e202",
+            "link": "https://api.ficsit.app/v1/version/855x6QRcwFeJ8d/WindowsServer/download"
           }
         },
-        "version": "3.2.1"
+        "version": "3.3.2"
       },
       "KPrivateCodeLib": {
         "dependencies": null,
         "targets": {
           "LinuxServer": {
-            "hash": "347b802a8a3a58eb846d080dd965845401bf12c8787707016e78a63021708666",
-            "link": "https://api.ficsit.app/v1/version/BJE9eWfDg1etzW/LinuxServer/download"
+            "hash": "7673490abcd6e3d55b7e40268ddea18aaf5b78bb152d45e294e1f63738dd9222",
+            "link": "https://api.ficsit.app/v1/version/9JmrWsDvVPayW8/LinuxServer/download"
           },
           "Windows": {
-            "hash": "c754f75e1a1871dd002e327375ef0e6d9d4faed120f559d472ee53710d3cd259",
-            "link": "https://api.ficsit.app/v1/version/BJE9eWfDg1etzW/Windows/download"
+            "hash": "2995af56485d6a4358216e6e4143e7b242db2ed7969891ffeef24e0267b44d44",
+            "link": "https://api.ficsit.app/v1/version/9JmrWsDvVPayW8/Windows/download"
           },
           "WindowsServer": {
-            "hash": "d8da138e9dd3eb52ba7cc725f5c75ab5e36aa50af42c44b12283fc6431d09b10",
-            "link": "https://api.ficsit.app/v1/version/BJE9eWfDg1etzW/WindowsServer/download"
+            "hash": "c52bfdb7e4fc35665e468dee405f3f17d1191beaff4dc1e9734d0a80fc797be8",
+            "link": "https://api.ficsit.app/v1/version/9JmrWsDvVPayW8/WindowsServer/download"
           }
         },
-        "version": "3.2.1"
+        "version": "3.3.3"
       },
       "KUI": {
         "dependencies": null,
         "targets": {
           "LinuxServer": {
-            "hash": "125e79aad55ecb438d6f8b7686546b71a414f9310ab815112530fa0ed547de93",
-            "link": "https://api.ficsit.app/v1/version/4GuhLo88rRxcK2/LinuxServer/download"
+            "hash": "e3d2955a415e041d3a4f23aaf0fb0d165c31868ad0df41b36d6f43b12003d862",
+            "link": "https://api.ficsit.app/v1/version/9FWrmaBpQD7tUA/LinuxServer/download"
           },
           "Windows": {
-            "hash": "b4c3af4978816842c2e5a7ef62841d3187096108f31e961fb685cb96f83ad81a",
-            "link": "https://api.ficsit.app/v1/version/4GuhLo88rRxcK2/Windows/download"
+            "hash": "135136b9d61dc1ab0d96a28f688164f8a928883c576c3eac935f989a738ee6bf",
+            "link": "https://api.ficsit.app/v1/version/9FWrmaBpQD7tUA/Windows/download"
           },
           "WindowsServer": {
-            "hash": "b1b98afc69faa09ae68a2f712e3aebd466ef1a6fbb0ccc445ddc5191cf3785e8",
-            "link": "https://api.ficsit.app/v1/version/4GuhLo88rRxcK2/WindowsServer/download"
+            "hash": "ec09316d86cbdccdee62f0b4b9a3a415371dde1493aa169cb8cdf35e7598596d",
+            "link": "https://api.ficsit.app/v1/version/9FWrmaBpQD7tUA/WindowsServer/download"
           }
         },
-        "version": "3.2.1"
+        "version": "3.3.3"
       },
       "KeyBindForBlueprint": {
         "dependencies": null,
@@ -1265,37 +1347,37 @@
         "dependencies": null,
         "targets": {
           "LinuxServer": {
-            "hash": "b2692fb46d073e00342c736f54a778614441be7b81745d306408979dc68fc5d4",
-            "link": "https://api.ficsit.app/v1/version/2GRYfaN279wgrJ/LinuxServer/download"
+            "hash": "9439932c70bd40d626cfd6283972fb4d036e1435f9fa6d878379c6e61d4a8f58",
+            "link": "https://api.ficsit.app/v1/version/3pDZj5HEtquwKC/LinuxServer/download"
           },
           "Windows": {
-            "hash": "2ac090ae468dcde7036306454052a93204ea76aeff80332407b647f174e0f149",
-            "link": "https://api.ficsit.app/v1/version/2GRYfaN279wgrJ/Windows/download"
+            "hash": "b9aed0ac4120c48ad4a0a9787e59bf3b5ddc96c4d18a2562d45ca09bd8eb6f15",
+            "link": "https://api.ficsit.app/v1/version/3pDZj5HEtquwKC/Windows/download"
           },
           "WindowsServer": {
-            "hash": "920ec1268139b6385c1984525c6a259c5ebdcc5a2c5078f1ec7ff890093fce91",
-            "link": "https://api.ficsit.app/v1/version/2GRYfaN279wgrJ/WindowsServer/download"
+            "hash": "374e44717d81c07f4b23cf8bc9f90968025c87dedfc333c1766ec930a335e658",
+            "link": "https://api.ficsit.app/v1/version/3pDZj5HEtquwKC/WindowsServer/download"
           }
         },
-        "version": "1.15.11"
+        "version": "1.15.12"
       },
       "LongReach": {
         "dependencies": null,
         "targets": {
           "LinuxServer": {
-            "hash": "d40ff0017772e0b4e97f8fa0db40f975852f5560835b7e98b927c653c353550a",
-            "link": "https://api.ficsit.app/v1/version/5Tf5mtLterBK5/LinuxServer/download"
+            "hash": "f0580d565786a083d9d7eb606437c1355c5b0e0270520caa0b3462ebd4edbae4",
+            "link": "https://api.ficsit.app/v1/version/6KRVgS4Ui8U7yn/LinuxServer/download"
           },
           "Windows": {
-            "hash": "0273ca7981032b55cf96152f9e2a472faa6390f5447844c7178c50b2d406d588",
-            "link": "https://api.ficsit.app/v1/version/5Tf5mtLterBK5/Windows/download"
+            "hash": "2b0e10dc76562f152999af31556b0ef9de5f39adc58a3501639e9114c5577e01",
+            "link": "https://api.ficsit.app/v1/version/6KRVgS4Ui8U7yn/Windows/download"
           },
           "WindowsServer": {
-            "hash": "2436d563c9a0919d6898464a38348db6dac265417dd4a8e52c2c3c85e1a0c13c",
-            "link": "https://api.ficsit.app/v1/version/5Tf5mtLterBK5/WindowsServer/download"
+            "hash": "173e1223249fec604f433a974c5d25c19399fcfe250d3aee2a6e2e26b8fcafbd",
+            "link": "https://api.ficsit.app/v1/version/6KRVgS4Ui8U7yn/WindowsServer/download"
           }
         },
-        "version": "0.4.1"
+        "version": "0.4.2"
       },
       "MAMTips": {
         "dependencies": null,
@@ -1337,19 +1419,19 @@
         "dependencies": null,
         "targets": {
           "LinuxServer": {
-            "hash": "f95f5c108bbca2eee81611d53d5b241df6749433cdac2253769322ac7d28009f",
-            "link": "https://api.ficsit.app/v1/version/4q5dArjk1ZNhZ9/LinuxServer/download"
+            "hash": "65fbecb9f6806834d398ad9d5d80fde9cefed2d739361ba15354341ec46fc4d9",
+            "link": "https://api.ficsit.app/v1/version/mn7TLdK3nxDhN/LinuxServer/download"
           },
           "Windows": {
-            "hash": "7d61ab5ba5ecd27baa21e45d13ae6e2e96dd1bbe370961ffb49f4ecb439ffa9f",
-            "link": "https://api.ficsit.app/v1/version/4q5dArjk1ZNhZ9/Windows/download"
+            "hash": "7069633bb851b5275c7192136eaee7092e9ba10811ec913c09ce610054b42aa6",
+            "link": "https://api.ficsit.app/v1/version/mn7TLdK3nxDhN/Windows/download"
           },
           "WindowsServer": {
-            "hash": "314c2ea3c68aece10681ab258b2d194b8893c10f3950ff0019db79a3434b8c89",
-            "link": "https://api.ficsit.app/v1/version/4q5dArjk1ZNhZ9/WindowsServer/download"
+            "hash": "a699a278e2de49ab0146a9135a62b0d622a1e1761d0bd1f072afc66480a53e74",
+            "link": "https://api.ficsit.app/v1/version/mn7TLdK3nxDhN/WindowsServer/download"
           }
         },
-        "version": "1.0.43"
+        "version": "1.0.45"
       },
       "MapFunctionLibrary": {
         "dependencies": null,
@@ -1409,19 +1491,19 @@
         "dependencies": null,
         "targets": {
           "LinuxServer": {
-            "hash": "6d71d674ac22e97faeb880ce34c9a1eaa6fcd350260b629124aea3c91d5cfe09",
-            "link": "https://api.ficsit.app/v1/version/7CjAyfCqpqZSpC/LinuxServer/download"
+            "hash": "402b34552b9e148a2e43fdeec4c4862601f84a86370adf6c63bba9ab99e509c4",
+            "link": "https://api.ficsit.app/v1/version/ChQgRmCKmFdrUY/LinuxServer/download"
           },
           "Windows": {
-            "hash": "67787d303e726bec0087f9875692425fd145e03325eafbbbe008c5e1c4c9119e",
-            "link": "https://api.ficsit.app/v1/version/7CjAyfCqpqZSpC/Windows/download"
+            "hash": "71d0e504fcd7d78d420d1475b76d28e15acf706ebf7692ef527310d526681bfb",
+            "link": "https://api.ficsit.app/v1/version/ChQgRmCKmFdrUY/Windows/download"
           },
           "WindowsServer": {
-            "hash": "1691495be5af82132cadbd4d0ba1fa324e63f420faff5e311c6e8104eb95d5e9",
-            "link": "https://api.ficsit.app/v1/version/7CjAyfCqpqZSpC/WindowsServer/download"
+            "hash": "e37374a1b8edfb37de324b1b42fda82a0f80847cd640bdb8619bed491c6b4423",
+            "link": "https://api.ficsit.app/v1/version/ChQgRmCKmFdrUY/WindowsServer/download"
           }
         },
-        "version": "2.4.0"
+        "version": "2.4.2"
       },
       "ModularStations": {
         "dependencies": null,
@@ -1445,19 +1527,19 @@
         "dependencies": null,
         "targets": {
           "LinuxServer": {
-            "hash": "18ab4e5bacbc11420e4bea3554bde1b47fec46c459ef307d3918b598a820b85b",
-            "link": "https://api.ficsit.app/v1/version/EAeDTpuDAYi3RQ/LinuxServer/download"
+            "hash": "692e0f7cf620afc92f2244e66c658ccc2360572b1ceac198eb1c1d5b903cebb7",
+            "link": "https://api.ficsit.app/v1/version/3nfLa4Mm59dhnZ/LinuxServer/download"
           },
           "Windows": {
-            "hash": "3d3fe1eee6200b2435289aa44b876afa1a21cb5c50b504fa54cfc3ab070cf83a",
-            "link": "https://api.ficsit.app/v1/version/EAeDTpuDAYi3RQ/Windows/download"
+            "hash": "e8565106d24e7d7e56c95ed44cdad9e7221cd8fda3a465e8c418d1dbe74537dd",
+            "link": "https://api.ficsit.app/v1/version/3nfLa4Mm59dhnZ/Windows/download"
           },
           "WindowsServer": {
-            "hash": "3b44045a6628f5740fff52fb747183944f323f31ac6553c30e0211810ca57240",
-            "link": "https://api.ficsit.app/v1/version/EAeDTpuDAYi3RQ/WindowsServer/download"
+            "hash": "fff86424f9ba2d05424ff47af4746be702da7c0baa6cb57412045514bfd024eb",
+            "link": "https://api.ficsit.app/v1/version/3nfLa4Mm59dhnZ/WindowsServer/download"
           }
         },
-        "version": "2.1.35"
+        "version": "2.1.36"
       },
       "MoreHardDriveRerolls": {
         "dependencies": null,
@@ -1495,23 +1577,41 @@
         },
         "version": "1.0.3"
       },
+      "MultiRecipeMachine": {
+        "dependencies": null,
+        "targets": {
+          "LinuxServer": {
+            "hash": "89b0b2c042d17d209b05dd7bfe2cbc8b87874be0d6fdc739e6ccb3212f848701",
+            "link": "https://api.ficsit.app/v1/version/5BtKjjfjaYNYP/LinuxServer/download"
+          },
+          "Windows": {
+            "hash": "48d20e519f7568b17ad9f787ad0465b3fb11324cef35863765442657a3711f7d",
+            "link": "https://api.ficsit.app/v1/version/5BtKjjfjaYNYP/Windows/download"
+          },
+          "WindowsServer": {
+            "hash": "79bd8716c9cd3ded2a90c1b3565459420b3d7c2c254263f302e501b9af14bbdd",
+            "link": "https://api.ficsit.app/v1/version/5BtKjjfjaYNYP/WindowsServer/download"
+          }
+        },
+        "version": "1.0.8"
+      },
       "MultidimensionalFactory": {
         "dependencies": null,
         "targets": {
           "LinuxServer": {
-            "hash": "9e3a9aedc755df2ed16335ba83eceb4e134dffd468d476b495ab7015ac718c6d",
-            "link": "https://api.ficsit.app/v1/version/BjKfwuaBRUAgCG/LinuxServer/download"
+            "hash": "eda54875f40c01320804aa6166ba4c2556f21d5f256bafc34b519ab9e6b17a1a",
+            "link": "https://api.ficsit.app/v1/version/5Jy5Hn9aWk7TgC/LinuxServer/download"
           },
           "Windows": {
-            "hash": "3982bd40d904b64a1b69531b99fd2c7c377487be074f6dfab7b3dc2c6464a047",
-            "link": "https://api.ficsit.app/v1/version/BjKfwuaBRUAgCG/Windows/download"
+            "hash": "b76c4ef5a27958706a858d32c902ed2c16a7dd8b48e2394e33c6b10fbc5c92e8",
+            "link": "https://api.ficsit.app/v1/version/5Jy5Hn9aWk7TgC/Windows/download"
           },
           "WindowsServer": {
-            "hash": "c750ceccfaae29082e7b21a532691beac5fed19ecaaeab809100892e79573d05",
-            "link": "https://api.ficsit.app/v1/version/BjKfwuaBRUAgCG/WindowsServer/download"
+            "hash": "923e0dfd550165f869b5fabe9b5bda5126527be1ff14e7b1c3d12e220d29ba8c",
+            "link": "https://api.ficsit.app/v1/version/5Jy5Hn9aWk7TgC/WindowsServer/download"
           }
         },
-        "version": "1.0.12"
+        "version": "1.0.19"
       },
       "NoCreature": {
         "dependencies": null,
@@ -1779,19 +1879,19 @@
         "dependencies": null,
         "targets": {
           "LinuxServer": {
-            "hash": "f8cec7906024e110212e6d853b8f98209fb7bd13ab7371b0d5f934e0a754cc35",
-            "link": "https://api.ficsit.app/v1/version/AvoEJnjLCTJYdV/LinuxServer/download"
+            "hash": "25253107abc660efb44355fa8505678e59e164213e34c4af4e98640b398acb47",
+            "link": "https://api.ficsit.app/v1/version/8oX1eaFNfn7Fmz/LinuxServer/download"
           },
           "Windows": {
-            "hash": "2c0072c80ffc3c080b78d74f213b5f4bfe857c160e1ca3c7af7cc7785eadd9e8",
-            "link": "https://api.ficsit.app/v1/version/AvoEJnjLCTJYdV/Windows/download"
+            "hash": "14d1485b1fffa64d86805f42ab38d72c0852f89180a2d6dfdb8efbd3ad65ed1d",
+            "link": "https://api.ficsit.app/v1/version/8oX1eaFNfn7Fmz/Windows/download"
           },
           "WindowsServer": {
-            "hash": "60dd933219dabfb49bed5190d93c5cef182d948a19decafe8f34ec65a869ff60",
-            "link": "https://api.ficsit.app/v1/version/AvoEJnjLCTJYdV/WindowsServer/download"
+            "hash": "729a154f0ddcde094673720af771fa36781d4888332f9a17fbc36ae3d8895907",
+            "link": "https://api.ficsit.app/v1/version/8oX1eaFNfn7Fmz/WindowsServer/download"
           }
         },
-        "version": "2.0.10"
+        "version": "2.0.12"
       },
       "ResourceDestroyer": {
         "dependencies": null,
@@ -1915,11 +2015,15 @@
         "dependencies": null,
         "targets": {
           "Windows": {
-            "hash": "00ec70d2529d07a1aaf70c559bb186ed39ca9ed54f59fd8811ed069fcdd4d73a",
-            "link": "https://api.ficsit.app/v1/version/BUjgrBnVB4ZbC4/Windows/download"
+            "hash": "81a466b1cb04d66b46564c72f365425c11f35e5f7104c46b8be318ea70daccc3",
+            "link": "https://api.ficsit.app/v1/version/CXRkDbHM9hNTTL/Windows/download"
+          },
+          "WindowsServer": {
+            "hash": "f9c427d5b78d7ff03119565e44d0695ec9cabd0d9d1cc411987cb827f35640c3",
+            "link": "https://api.ficsit.app/v1/version/CXRkDbHM9hNTTL/WindowsServer/download"
           }
         },
-        "version": "1.0.2"
+        "version": "1.0.3"
       },
       "SkyUI": {
         "dependencies": null,
@@ -1956,6 +2060,20 @@
           }
         },
         "version": "2.6.0"
+      },
+      "SmartFoundations": {
+        "dependencies": null,
+        "targets": {
+          "Windows": {
+            "hash": "7642dec89d587d095a5e08c5e76d6084da9f0b4d2ba70d46148a5ea1e8c3052a",
+            "link": "https://api.ficsit.app/v1/version/7VJc7dLhidnuFB/Windows/download"
+          },
+          "WindowsServer": {
+            "hash": "74b1c27527a78d3720087cd196d692b88b4f3e28f94afbf553099350f8e0731d",
+            "link": "https://api.ficsit.app/v1/version/7VJc7dLhidnuFB/WindowsServer/download"
+          }
+        },
+        "version": "25.0.1"
       },
       "SpeedyResourceScanner": {
         "dependencies": null,
@@ -2051,19 +2169,19 @@
         "dependencies": null,
         "targets": {
           "LinuxServer": {
-            "hash": "44c8220f6fe89c39dcaf2461968ca73e21dc277bb954dd5f88d5bccb640739e8",
-            "link": "https://api.ficsit.app/v1/version/DPDB6nYpSdZw2R/LinuxServer/download"
+            "hash": "5aade13fafa689359798dfdd1feae9ccd7e6b7f2de6c1eeb958522c329426962",
+            "link": "https://api.ficsit.app/v1/version/FBwCjRmRF7PGR8/LinuxServer/download"
           },
           "Windows": {
-            "hash": "ea72643b4a81039c0724527a9d265042e4f60a5f245f8fbacb63e6225b3cfef6",
-            "link": "https://api.ficsit.app/v1/version/DPDB6nYpSdZw2R/Windows/download"
+            "hash": "96aae2b99c258c323af66fecbae351a41be8d987c4e284ffca4e79a7bfdfb753",
+            "link": "https://api.ficsit.app/v1/version/FBwCjRmRF7PGR8/Windows/download"
           },
           "WindowsServer": {
-            "hash": "c0070e944b9ed3bfc52e6c99ef6803aa4a945bdb5b2cc5bffa44c8741e25fa87",
-            "link": "https://api.ficsit.app/v1/version/DPDB6nYpSdZw2R/WindowsServer/download"
+            "hash": "e99328009ebee92269730e2e5cb9012233106bbc777662b5b95168c7b0a4d7bf",
+            "link": "https://api.ficsit.app/v1/version/FBwCjRmRF7PGR8/WindowsServer/download"
           }
         },
-        "version": "3.1.2"
+        "version": "3.1.3"
       },
       "TFIT": {
         "dependencies": null,
@@ -2115,37 +2233,37 @@
         "dependencies": null,
         "targets": {
           "LinuxServer": {
-            "hash": "8ca189b920c8cfd6f4d1c2c10a79df5dd7b4da5a4740390608b47e613f8458d9",
-            "link": "https://api.ficsit.app/v1/version/31harA4cifD6PE/LinuxServer/download"
+            "hash": "f056a9903e43ed04d46eb7b47a27433eb7270e1005c7843ddbee803b3382ba93",
+            "link": "https://api.ficsit.app/v1/version/BNDegeLRDUp29H/LinuxServer/download"
           },
           "Windows": {
-            "hash": "feb8cb6c84f12a762948a006a2fc190600e8d1d1b658fb5d0e5e25f6ca466c6f",
-            "link": "https://api.ficsit.app/v1/version/31harA4cifD6PE/Windows/download"
+            "hash": "d979c2ff265a479efe3bbed67baf583cd88092d8271d4255174595f8da9894e8",
+            "link": "https://api.ficsit.app/v1/version/BNDegeLRDUp29H/Windows/download"
           },
           "WindowsServer": {
-            "hash": "b6e43e5c901c59010907d14563550ca5f2e5f05654517a039b786b2b14186daa",
-            "link": "https://api.ficsit.app/v1/version/31harA4cifD6PE/WindowsServer/download"
+            "hash": "1af00421bb00e6cf16823df861ff379384aa48defa0d0fe7400679d85dd85ec4",
+            "link": "https://api.ficsit.app/v1/version/BNDegeLRDUp29H/WindowsServer/download"
           }
         },
-        "version": "1.0.3"
+        "version": "1.0.7"
       },
       "TruckStationsPlus": {
         "dependencies": null,
         "targets": {
           "LinuxServer": {
-            "hash": "866160c3fa65ea4ee9cc1f8a917a6b68b3696a63a5cd07dba00dc024d1677499",
-            "link": "https://api.ficsit.app/v1/version/7VYJcTrNMRbj7N/LinuxServer/download"
+            "hash": "3a0e6e165234edbd51dc392670d67e2fbaa6435de9c4e37bb6fd1f87dc53d923",
+            "link": "https://api.ficsit.app/v1/version/8W8LQoHxcpRWgb/LinuxServer/download"
           },
           "Windows": {
-            "hash": "406fc125f8cf91c9afb6a29703abbbe2e350197b13f7f7eaec24e34e7dbf3120",
-            "link": "https://api.ficsit.app/v1/version/7VYJcTrNMRbj7N/Windows/download"
+            "hash": "ed0a4c90253d9e48f99343eb7d946d511203ef719d0cb85898268a14427460c8",
+            "link": "https://api.ficsit.app/v1/version/8W8LQoHxcpRWgb/Windows/download"
           },
           "WindowsServer": {
-            "hash": "ddda27cc79c9d649e980571c58c928235e423ba29d5cd8ad98403c9640e0859f",
-            "link": "https://api.ficsit.app/v1/version/7VYJcTrNMRbj7N/WindowsServer/download"
+            "hash": "3f1723169b9227efdd25b61096ffa47a4c8baa69b4c74f903c0f150a63dc06f6",
+            "link": "https://api.ficsit.app/v1/version/8W8LQoHxcpRWgb/WindowsServer/download"
           }
         },
-        "version": "2.1.1"
+        "version": "2.1.2"
       },
       "UniversalSwatchSlots": {
         "dependencies": null,
@@ -2169,19 +2287,19 @@
         "dependencies": null,
         "targets": {
           "LinuxServer": {
-            "hash": "2afdd1443c89d252a4ca0ae40563320b7f5cb7a75358c43765eba70b6ce8bd10",
-            "link": "https://api.ficsit.app/v1/version/QA3ybqhbHbspS/LinuxServer/download"
+            "hash": "18fb85e5fe09dadc5c5580ea6b0df8d2d884e254a76b991cc68fccce3ccb85ec",
+            "link": "https://api.ficsit.app/v1/version/2qJbfaR3pUNWBx/LinuxServer/download"
           },
           "Windows": {
-            "hash": "522f8a46c1f7a060af1d2534bafe6751fe1bdb2bcaa18917218a427704d4249d",
-            "link": "https://api.ficsit.app/v1/version/QA3ybqhbHbspS/Windows/download"
+            "hash": "96f1637d02237f333adba41a0ed7b16b942db8c9d9ccc50dd54c8b8d719bf639",
+            "link": "https://api.ficsit.app/v1/version/2qJbfaR3pUNWBx/Windows/download"
           },
           "WindowsServer": {
-            "hash": "a46f3dcfd8bc6149b4e1d540c5dd7197db8df1fc1d82ab9fae23a44223cf3889",
-            "link": "https://api.ficsit.app/v1/version/QA3ybqhbHbspS/WindowsServer/download"
+            "hash": "ca97b3b459ea7fe6871ee396e1e98f791790e269adeb511a9c376fbe9b048c2a",
+            "link": "https://api.ficsit.app/v1/version/2qJbfaR3pUNWBx/WindowsServer/download"
           }
         },
-        "version": "0.3.0"
+        "version": "0.3.1"
       },
       "UtilityMod": {
         "dependencies": null,
@@ -2218,6 +2336,24 @@
           }
         },
         "version": "1.0.7"
+      },
+      "VerticalLogisticsQoL": {
+        "dependencies": null,
+        "targets": {
+          "LinuxServer": {
+            "hash": "76b4503a5d9998336bba8df903169b29184d57202a671a37b27b05a6c80549ca",
+            "link": "https://api.ficsit.app/v1/version/9zWqdaYvYEAThU/LinuxServer/download"
+          },
+          "Windows": {
+            "hash": "cbeffdcc05603d29a38518a62d1a550e6a2941f57149a5a214e80d7bde1176c3",
+            "link": "https://api.ficsit.app/v1/version/9zWqdaYvYEAThU/Windows/download"
+          },
+          "WindowsServer": {
+            "hash": "e0da254e02f62b4dd277eafa177fc6e68c64f13850bcd79cadea1e6f4f403923",
+            "link": "https://api.ficsit.app/v1/version/9zWqdaYvYEAThU/WindowsServer/download"
+          }
+        },
+        "version": "1.0.1"
       },
       "WPPRedux": {
         "dependencies": null,
@@ -2287,6 +2423,6 @@
     "version": 1
   },
   "metadata": {
-    "gameVersion": 433351
+    "gameVersion": 463028
   }
 }

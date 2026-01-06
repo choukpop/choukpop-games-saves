@@ -1,5 +1,0 @@
-Warning: Não é possível plantar Entities.Carrot em Grounds.Grassland.
-In: 
-plant(Entities.Carrot)
-     ^^               
---------------------------------------------------------------------
