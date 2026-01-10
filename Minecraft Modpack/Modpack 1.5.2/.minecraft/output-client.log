@@ -1,0 +1,310 @@
+2026-01-10 18:20:52 [CLIENT] [INFO] Setting user: ChouRaiden1337
+2026-01-10 18:20:52 [CLIENT] [INFO] LWJGL Version: 2.9.4
+2026-01-10 18:21:10 [CLIENT] [WARNING] TextureManager.createTexture called for file textures/blocks/craftingGrid.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:10 [CLIENT] [WARNING] TextureManager.createTexture called for file textures/blocks/missingno.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:10 [CLIENT] [WARNING] TextureManager.createTexture called for file textures/blocks/enderchest.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:11 [CLIENT] [WARNING] TextureManager.createTexture called for file textures/blocks/translocator.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/buildcraft/textures/blocks/oil_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/galacticraftcore/textures/blocks/oil_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/lava_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.biofuel.flowing.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.chocolatemilk.flowing.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.essence.flowing.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.meat.flowing.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.mushroomsoup.flowing.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.pinkslime.flowing.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.sewage.flowing.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.sludge.flowing.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/thaumcraft/textures/blocks/infusedore.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/blocks/Liquid_Ender_Flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/blocks/Liquid_Glowstone_Flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/blocks/Liquid_Redstone_Flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_alubrass_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_aluminum_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_alumite_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_ardite_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_bronze_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_cobalt_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_copper_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_cow_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_electrum_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_ender_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_ferrous_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_glass_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_gold_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_invar_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_iron_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_lead_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_manyullyn_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_obsidian_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_shiny_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_silver_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_steel_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_stone_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_tin_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_villager_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/slime_blue_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/water_flow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/Atum/textures/blocks/portal.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/ComputerCraft/textures/blocks/blink.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/ComputerCraft/textures/blocks/blinkAdvanced.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/buildcraft/textures/blocks/oil.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/fire_0.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/fire_1.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/galacticraftcore/textures/blocks/oil.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/lava.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/mystcraft/textures/blocks/portal.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/portal.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.biofuel.still.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.chocolatemilk.still.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.essence.still.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.meat.still.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.milk.flowing.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.milk.still.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.mushroomsoup.still.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.pinkslime.still.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.sewage.still.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.sludge.still.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/thaumcraft/textures/blocks/animatedglow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/thaumcraft/textures/blocks/candle.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/thaumcraft/textures/blocks/fluxgoo.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/blocks/Liquid_Ender_Still.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/blocks/Liquid_Glowstone_Still.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/blocks/Liquid_Lamp_Still.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/blocks/Liquid_Redstone_Still.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/blocks/Machine_Active_Assembler.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/blocks/Machine_Active_Charger.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/crops/berry_essence_ripe_fancy.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/crops/berry_essence_ripe_fast.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_alubrass.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_aluminum.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_alumite.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_ardite.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_bronze.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_cobalt.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_copper.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_cow.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_electrum.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_ender.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_ferrous.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_glass.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_gold.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_invar.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_iron.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_lead.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_manyullyn.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_obsidian.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_shiny.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_silver.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_steel.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_stone.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_tin.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_villager.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/slime_blue.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/twilightforest/textures/blocks/sort_leaves.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/twilightforest/textures/blocks/time_leaves.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: mods/twilightforest/textures/blocks/trans_leaves.txt
+2026-01-10 18:21:11 [CLIENT] [INFO] Found animation info for: textures/blocks/water.txt
+2026-01-10 18:21:12 [CLIENT] [WARNING] TextureManager.createTexture called for file mods/microblock/textures/items/sawIron.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:12 [CLIENT] [WARNING] TextureManager.createTexture called for file textures/items/missingno.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:12 [CLIENT] [WARNING] TextureManager.createTexture called for file mods/microblock/textures/items/sawDiamond.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:12 [CLIENT] [WARNING] TextureManager.createTexture called for file mods/wrcbe_addons/textures/items/remote_31.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:12 [CLIENT] [WARNING] TextureManager.createTexture called for file mods/microblock/textures/items/sawStone.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:13 [CLIENT] [WARNING] TextureManager.createTexture called for file mods/wrcbe_addons/textures/items/remote_15.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:13 [CLIENT] [INFO] Found animation info for: mods/thaumcraft/textures/items/lightningring.txt
+2026-01-10 18:21:13 [CLIENT] [INFO] Found animation info for: mods/galacticraftcore/textures/items/fuel_flow.txt
+2026-01-10 18:21:13 [CLIENT] [INFO] Found animation info for: textures/items/MeteorDetectorCrash.txt
+2026-01-10 18:21:13 [CLIENT] [INFO] Found animation info for: textures/items/MeteorDetectorProximity.txt
+2026-01-10 18:21:13 [CLIENT] [INFO] Found animation info for: textures/items/MeteorDetectorTime.txt
+2026-01-10 18:21:13 [CLIENT] [INFO] Found animation info for: mods/buildcraft/textures/items/fuel.txt
+2026-01-10 18:21:13 [CLIENT] [INFO] Found animation info for: textures/items/clock.txt
+2026-01-10 18:21:13 [CLIENT] [INFO] Found animation info for: textures/items/compass.txt
+2026-01-10 18:21:13 [CLIENT] [INFO] Found animation info for: mods/mystcraft/textures/items/liquid.txt
+2026-01-10 18:21:13 [CLIENT] [INFO] Found animation info for: mods/railcraft/textures/items/liquid.creosote.liquid.txt
+2026-01-10 18:21:13 [CLIENT] [INFO] Found animation info for: mods/railcraft/textures/items/liquid.steam.txt
+2026-01-10 18:21:13 [CLIENT] [INFO] Found animation info for: mods/thaumcraft/textures/items/essence.txt
+2026-01-10 18:21:13 [CLIENT] [INFO] Found animation info for: mods/thaumcraft/textures/items/tallow.txt
+2026-01-10 18:21:13 [CLIENT] [INFO] Found animation info for: mods/thaumcraft/textures/items/thaumometercore.txt
+2026-01-10 18:21:13 [CLIENT] [INFO] Found animation info for: mods/thaumcraft/textures/items/tripletreat.txt
+2026-01-10 18:21:13 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/items/BucketEnder.txt
+2026-01-10 18:21:13 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/items/BucketGlowstone.txt
+2026-01-10 18:21:13 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/items/BucketRedstone.txt
+2026-01-10 18:21:13 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/items/materials/material_essencecrystal.txt
+2026-01-10 18:21:13 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/items/oreberries/oreberry_essence.txt
+2026-01-10 18:21:15 [CLIENT] [WARNING] Failed to add pack.mcmeta in resources
+2026-01-10 18:21:15 [CLIENT] [WARNING] Failed to add READ_ME_I_AM_VERY_IMPORTANT in resources
+2026-01-10 18:21:23 [CLIENT] [WARNING] Failed to add pack.mcmeta in resources
+2026-01-10 18:21:23 [CLIENT] [WARNING] Failed to add READ_ME_I_AM_VERY_IMPORTANT in resources
+2026-01-10 18:21:23 [CLIENT] [WARNING] TextureManager.createTexture called for file textures/blocks/missingno.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:23 [CLIENT] [WARNING] TextureManager.createTexture called for file textures/blocks/enderchest.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:24 [CLIENT] [WARNING] TextureManager.createTexture called for file textures/blocks/translocator.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:24 [CLIENT] [WARNING] TextureManager.createTexture called for file textures/blocks/logisticsSolidBlock.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:24 [CLIENT] [WARNING] TextureManager.createTexture called for file textures/blocks/craftingGrid.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/buildcraft/textures/blocks/oil_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/galacticraftcore/textures/blocks/oil_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/lava_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.biofuel.flowing.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.chocolatemilk.flowing.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.essence.flowing.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.meat.flowing.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.mushroomsoup.flowing.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.pinkslime.flowing.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.sewage.flowing.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.sludge.flowing.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/thaumcraft/textures/blocks/infusedore.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/blocks/Liquid_Ender_Flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/blocks/Liquid_Glowstone_Flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/blocks/Liquid_Redstone_Flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_alubrass_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_aluminum_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_alumite_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_ardite_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_bronze_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_cobalt_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_copper_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_cow_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_electrum_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_ender_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_ferrous_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_glass_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_gold_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_invar_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_iron_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_lead_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_manyullyn_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_obsidian_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_shiny_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_silver_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_steel_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_stone_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_tin_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_villager_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/slime_blue_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/water_flow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/Atum/textures/blocks/portal.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/ComputerCraft/textures/blocks/blink.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/ComputerCraft/textures/blocks/blinkAdvanced.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/appeng/textures/blocks/BlockTransPlane.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/appeng/textures/blocks/MEWaiting.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/buildcraft/textures/blocks/oil.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/fire_0.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/fire_1.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/galacticraftcore/textures/blocks/oil.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/lava.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/mystcraft/textures/blocks/portal.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/portal.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.conveyor.active.black.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.conveyor.active.blue.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.conveyor.active.brown.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.conveyor.active.cyan.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.conveyor.active.default.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.conveyor.active.gray.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.conveyor.active.green.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.conveyor.active.lightblue.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.conveyor.active.lightgray.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.conveyor.active.lime.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.conveyor.active.magenta.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.conveyor.active.orange.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.conveyor.active.pink.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.conveyor.active.purple.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.conveyor.active.red.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.conveyor.active.white.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.conveyor.active.yellow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.biofuel.still.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.chocolatemilk.still.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.essence.still.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.meat.still.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.milk.flowing.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.milk.still.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.mushroomsoup.still.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.pinkslime.still.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.sewage.still.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.liquid.sludge.still.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.machine.blockbreaker.active.front.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.machine.breeder.active.front.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.machine.chronotyper.active.front.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.machine.fertilizer.active.front.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.machine.fruitpicker.active.front.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.machine.grinder.active.front.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.machine.harvester.active.front.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.machine.oilfabricator.active.back.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.machine.oilfabricator.active.front.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.machine.oilfabricator.active.left.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.machine.oilfabricator.active.right.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.machine.rancher.active.front.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/powercrystals/minefactoryreloaded/tile.mfr.machine.vet.active.front.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/railcraft/textures/blocks/signal.switch.routing.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/thaumcraft/textures/blocks/animatedglow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/thaumcraft/textures/blocks/candle.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/thaumcraft/textures/blocks/fluxgoo.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/blocks/Liquid_Ender_Still.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/blocks/Liquid_Glowstone_Still.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/blocks/Liquid_Lamp_Still.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/blocks/Liquid_Redstone_Still.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/blocks/Machine_Active_Assembler.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/blocks/Machine_Active_Charger.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/crops/berry_essence_ripe_fancy.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/crops/berry_essence_ripe_fast.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_alubrass.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_aluminum.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_alumite.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_ardite.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_bronze.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_cobalt.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_copper.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_cow.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_electrum.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_ender.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_ferrous.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_glass.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_gold.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_invar.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_iron.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_lead.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_manyullyn.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_obsidian.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_shiny.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_silver.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_steel.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_stone.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_tin.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/liquid_villager.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/blocks/slime_blue.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/twilightforest/textures/blocks/sort_leaves.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/twilightforest/textures/blocks/time_leaves.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: mods/twilightforest/textures/blocks/trans_leaves.txt
+2026-01-10 18:21:25 [CLIENT] [INFO] Found animation info for: textures/blocks/water.txt
+2026-01-10 18:21:26 [CLIENT] [WARNING] TextureManager.createTexture called for file textures/items/rapidBow.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:26 [CLIENT] [WARNING] TextureManager.createTexture called for file mods/microblock/textures/items/sawIron.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:26 [CLIENT] [WARNING] TextureManager.createTexture called for file textures/items/shadowPickaxe.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:26 [CLIENT] [WARNING] TextureManager.createTexture called for file textures/items/missingno.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:26 [CLIENT] [WARNING] TextureManager.createTexture called for file textures/items/rapidBow_pull_2.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:26 [CLIENT] [WARNING] TextureManager.createTexture called for file textures/items/rapidBow_pull_1.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:26 [CLIENT] [WARNING] TextureManager.createTexture called for file textures/items/rapidBow_pull_0.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:27 [CLIENT] [WARNING] TextureManager.createTexture called for file mods/wrcbe_addons/textures/items/triangulator.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:27 [CLIENT] [WARNING] TextureManager.createTexture called for file mods/microblock/textures/items/sawDiamond.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:27 [CLIENT] [WARNING] TextureManager.createTexture called for file mods/wrcbe_addons/textures/items/remote_31.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:27 [CLIENT] [WARNING] TextureManager.createTexture called for file mods/microblock/textures/items/sawStone.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:27 [CLIENT] [WARNING] TextureManager.createTexture called for file mods/wrcbe_addons/textures/items/remote_15.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:27 [CLIENT] [WARNING] TextureManager.createTexture called for file textures/items/shadowBlade.png, but that file does not exist. Ignoring.
+2026-01-10 18:21:27 [CLIENT] [INFO] Found animation info for: mods/thaumcraft/textures/items/lightningring.txt
+2026-01-10 18:21:27 [CLIENT] [INFO] Found animation info for: mods/galacticraftcore/textures/items/fuel_flow.txt
+2026-01-10 18:21:27 [CLIENT] [INFO] Found animation info for: textures/items/MeteorDetectorCrash.txt
+2026-01-10 18:21:27 [CLIENT] [INFO] Found animation info for: textures/items/MeteorDetectorProximity.txt
+2026-01-10 18:21:27 [CLIENT] [INFO] Found animation info for: textures/items/MeteorDetectorTime.txt
+2026-01-10 18:21:27 [CLIENT] [INFO] Found animation info for: mods/buildcraft/textures/items/fuel.txt
+2026-01-10 18:21:27 [CLIENT] [INFO] Found animation info for: textures/items/clock.txt
+2026-01-10 18:21:27 [CLIENT] [INFO] Found animation info for: textures/items/compass.txt
+2026-01-10 18:21:27 [CLIENT] [INFO] Found animation info for: mods/mystcraft/textures/items/liquid.txt
+2026-01-10 18:21:27 [CLIENT] [INFO] Found animation info for: mods/railcraft/textures/items/liquid.creosote.liquid.txt
+2026-01-10 18:21:27 [CLIENT] [INFO] Found animation info for: mods/railcraft/textures/items/liquid.steam.txt
+2026-01-10 18:21:27 [CLIENT] [INFO] Found animation info for: mods/thaumcraft/textures/items/essence.txt
+2026-01-10 18:21:27 [CLIENT] [INFO] Found animation info for: mods/thaumcraft/textures/items/tallow.txt
+2026-01-10 18:21:27 [CLIENT] [INFO] Found animation info for: mods/thaumcraft/textures/items/thaumometercore.txt
+2026-01-10 18:21:27 [CLIENT] [INFO] Found animation info for: mods/thaumcraft/textures/items/tripletreat.txt
+2026-01-10 18:21:27 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/items/BucketEnder.txt
+2026-01-10 18:21:27 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/items/BucketGlowstone.txt
+2026-01-10 18:21:27 [CLIENT] [INFO] Found animation info for: mods/thermalexpansion/textures/items/BucketRedstone.txt
+2026-01-10 18:21:27 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/items/materials/material_essencecrystal.txt
+2026-01-10 18:21:27 [CLIENT] [INFO] Found animation info for: mods/tinker/textures/items/oreberries/oreberry_essence.txt
+2026-01-10 18:21:30 [CLIENT] [INFO] Stopping!
