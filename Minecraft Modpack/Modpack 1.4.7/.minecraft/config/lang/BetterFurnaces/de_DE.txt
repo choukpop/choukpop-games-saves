@@ -1,0 +1,13 @@
+item.enderUpgrade.name = Kraftstoffeffizienz-Upgrade
+item.oreUpgrade.name = Erzverarbeitungs-Upgrade
+item.storageUpgrade.name = Speicherraum-Upgrade
+item.advEnderUpgrade.name = Fortgeschrittenes-Kraftstoffeffizienz-Upgrade
+item.advOreUpgrade.name = Fortgeschrittenes-Erzverarbeitungs-Upgrade
+item.liquidUpgrade.name = Fluessigkraftstoff-Upgrade
+item.icEnergyUpgrade.name = IC2-Elektro-Hitze-Quelle
+item.bcEnergyUpgrade.name = BC-Elektro-Hitze-Quelle
+itemGroup.betterfurnaces = Better Furnaces
+tile.bfurnace.ironfurnace.name = Eisen Ofen
+tile.bfurnace.goldfurnace.name = Gold Ofen
+tile.bfurnace.diamondfurnace.name = Diamant Ofen
+tile.bfurnace.extremefurnace.name = Extrem Ofen

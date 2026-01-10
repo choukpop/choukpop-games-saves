@@ -1,0 +1,13 @@
+item.enderUpgrade.name = Fuel Efficiency Upgrade
+item.oreUpgrade.name = Ore Processing Upgrade
+item.storageUpgrade.name = Storage Upgrade
+item.advEnderUpgrade.name = Advanced Fuel Efficiency Upgrade
+item.advOreUpgrade.name = Advanced Ore Processing Upgrade
+item.liquidUpgrade.name = Liquid Fuel Upgrade
+item.icEnergyUpgrade.name = IC2 Electric Heat Source
+item.bcEnergyUpgrade.name = BC Electric Heat Source
+itemGroup.betterfurnaces = Better Furnaces
+tile.bfurnace.ironfurnace.name = Iron Furnace
+tile.bfurnace.goldfurnace.name = Gold Furnace
+tile.bfurnace.diamondfurnace.name = Diamond Furnace
+tile.bfurnace.extremefurnace.name = Extreme Furnace

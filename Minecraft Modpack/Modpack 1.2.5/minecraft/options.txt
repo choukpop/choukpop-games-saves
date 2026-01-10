@@ -1,0 +1,50 @@
+music:0.0
+sound:0.4084507
+invertYMouse:false
+mouseSensitivity:0.5
+fov:1.0
+gamma:0.5
+viewDistance:2
+guiScale:3
+particles:1
+bobView:false
+anaglyph3d:false
+advancedOpengl:false
+fpsLimit:0
+difficulty:2
+fancyGraphics:false
+ao:true
+clouds:false
+skin:FAITHFUL TEKKIT.zip
+lastServer:
+lang:en_US
+key_key.attack:-100
+key_key.use:-99
+key_key.forward:17
+key_key.left:30
+key_key.back:31
+key_key.right:32
+key_key.jump:57
+key_key.sneak:42
+key_key.drop:16
+key_key.inventory:18
+key_key.chat:14
+key_key.playerlist:15
+key_key.pickItem:78
+key_Zoom:29
+key_Sort inventory:19
+key_ALT Key:56
+key_Boost Key:29
+key_Mode Switch Key:50
+key_laserKeyBinding:67
+key_Charge Item:47
+key_Toggle Active:34
+key_Extra Function:46
+key_Release Charge:19
+key_Gammabright:48
+key_Brighten:205
+key_Darken:203
+key_Reset Gamma:208
+key_key.matmos:65
+key_Gravi Fly Key:33
+key_Railcraft Anchor Aura:88

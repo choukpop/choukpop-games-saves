@@ -1,0 +1,29 @@
+{
+    "components": [
+        {
+            "cachedName": "LWJGL 2",
+            "cachedVersion": "2.9.4-nightly-20150209",
+            "dependencyOnly": true,
+            "uid": "org.lwjgl",
+            "version": "2.9.4-nightly-20150209"
+        },
+        {
+            "cachedName": "Minecraft",
+            "cachedRequires": [
+                {
+                    "suggests": "2.9.4-nightly-20150209",
+                    "uid": "org.lwjgl"
+                }
+            ],
+            "cachedVersion": "1.2.5",
+            "important": true,
+            "uid": "net.minecraft",
+            "version": "1.2.5"
+        },
+        {
+            "cachedName": "minecraft (jar mod)",
+            "uid": "org.multimc.jarmod.7fbd8336-4a1f-4d5a-aab3-875f5b6ad78f"
+        }
+    ],
+    "formatVersion": 1
+}

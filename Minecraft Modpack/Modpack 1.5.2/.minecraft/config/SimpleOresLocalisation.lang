@@ -1,0 +1,106 @@
+# Configuration file
+
+####################
+# armor names
+####################
+
+"armor names" {
+    S:AdamantiumBootsName=Adamantium Boots
+    S:AdamantiumChestName=Adamantium Chestplate
+    S:AdamantiumHelmName=Adamantium Helmet
+    S:AdamantiumLegsName=Adamantium Leggings
+    S:CopperBootsName=Copper Boots
+    S:CopperChestname=Copper Chestplate
+    S:CopperHelmName=Copper Helmet
+    S:CopperLegsName=Copper Leggings
+    S:MythrilBootsName=Mythril Boots
+    S:MythrilChestName=Mythril Chestplate
+    S:MythrilHelmName=Mythril Helmet
+    S:MythrilLegsName=Mythril Leggings
+    S:OnyxBootsName=Onyx Boots
+    S:OnyxChestName=Onyx Chestplate
+    S:OnyxHelmName=Onyx Helmet
+    S:OnyxLegsName=Onyx Leggings
+    S:SilverBootsName=Silver Boots
+    S:SilverChestName=Silver Chestplate
+    S:SilverHelmName=Silver Helmet
+    S:SilverLegsName=Silver Leggings
+}
+
+
+####################
+# block names
+####################
+
+"block names" {
+    S:AdamantiumBlockName=Adamantium Block
+    S:AdamantiumOreName=Adamantium Ore
+    S:CopperBlockName=Copper Block
+    S:CopperOreName=Copper Ore
+    S:MythrilBlockName=Mythril Block
+    S:MythrilFurnaceName=Mythril Furnace
+    S:MythrilFurnaceOnName=Mythril Furnace
+    S:MythrilOreName=Mythril Ore
+    S:OnyxBlockName=Onyx Block
+    S:OnyxFurnaceName=Onyx Furnace
+    S:OnyxFurnaceOnName=Onyx Furnace
+    S:OnyxOreName=Onyx Ore
+    S:SilverBlockName=Silver Block
+    S:SilverOreName=Silver Ore
+}
+
+
+####################
+# item names
+####################
+
+"item names" {
+    S:AdamantiumIngotName=Adamantium Ingot
+    S:CopperBucketName=Copper Bucket
+    S:CopperBucketWaterName=Copper Bucket of Water
+    S:CopperIngotName=Copper Ingot
+    S:MythrilIngotName=Mythril Ingot
+    S:MythrilRodName=Mythril Rod
+    S:OnyxGemName=Onyx
+    S:OnyxRodName=Onyx Rod
+    S:SilverIngotName=Silver Ingot
+    S:SilverRodName=Silver Rod
+}
+
+
+####################
+# tool names
+####################
+
+"tool names" {
+    S:AdamantiumAxeName=Adamantium Axe
+    S:AdamantiumHoeName=Adamantium Hoe
+    S:AdamantiumPickName=Adamantium Pickaxe
+    S:AdamantiumShovelName=Adamantium Shovel
+    S:AdamantiumSwordName=Adamantium Sword
+    S:CopperAxeName=Copper Axe
+    S:CopperHoeName=Copper Hoe
+    S:CopperPickName=Copper Pickaxe
+    S:CopperShovelName=Copper Shovel
+    S:CopperSwordName=Copper Sword
+    S:MythrilAxeName=Mythril Axe
+    S:MythrilBowName=Mythril Bow
+    S:MythrilHoeName=Mythril Hoe
+    S:MythrilPickName=Mythril Pickaxe
+    S:MythrilShovelName=Mythril Shovel
+    S:MythrilSwordName=Mythril Sword
+    S:OnyxAxeName=Onyx Axe
+    S:OnyxBowName=Onyx Bow
+    S:OnyxHoeName=Onyx Hoe
+    S:OnyxPickName=Onyx Pickaxe
+    S:OnyxShovelName=Onyx Shovel
+    S:OnyxSwordName=Onyx Sword
+    S:SilverAxeName=Silver Axe
+    S:SilverBowName=Silver Bow
+    S:SilverHoeName=Silver Hoe
+    S:SilverPickName=Silver Pickaxe
+    S:SilverShovelName=Silver Shovel
+    S:SilverSwordName=Silver Sword
+}
+
+

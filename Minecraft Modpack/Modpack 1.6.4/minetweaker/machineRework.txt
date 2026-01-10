@@ -1,0 +1,23 @@
+Tiered recipes
+
+Tier 1
+[Red Stone Plastic Sheet Red Stone]
+[Plastic Sheet PCB Plastic Sheet ]
+[Red Stone Plastic Sheet Red Stone]
+
+Tier 2
+[BP Plastic Sheet BP]
+[Plastic Sheet  Tier 1 Plastic Sheet]
+[PCB BP PCB]
+
+Tier 3
+[AP Plastic Sheet AP]
+[PCB Tier 2 PCB]
+[BP AP BP]
+
+Applied Energistics
+Tier 1
+ME Drive
+Access Terminal
+ME Chest
+ME Interface

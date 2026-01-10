@@ -1,0 +1,96 @@
+music:0.0
+sound:0.20422535
+invertYMouse:false
+mouseSensitivity:0.6056338
+fov:1.0
+gamma:0.0
+viewDistance:1
+guiScale:3
+particles:2
+bobView:false
+anaglyph3d:false
+advancedOpengl:true
+fpsLimit:0
+difficulty:0
+fancyGraphics:false
+ao:2
+clouds:false
+skin:Default
+lastServer:
+lang:en_US
+chatVisibility:0
+chatColors:true
+chatLinks:true
+chatLinksPrompt:true
+chatOpacity:1.0
+serverTextures:false
+snooperEnabled:true
+fullscreen:false
+enableVsync:false
+hideServerAddress:false
+advancedItemTooltips:false
+pauseOnLostFocus:true
+showCape:true
+touchscreen:false
+overrideWidth:0
+overrideHeight:0
+heldItemTooltips:true
+chatHeightFocused:1.0
+chatHeightUnfocused:0.44366196
+chatScale:1.0
+chatWidth:1.0
+key_key.attack:-100
+key_key.use:-99
+key_key.forward:17
+key_key.left:30
+key_key.back:31
+key_key.right:32
+key_key.jump:57
+key_key.sneak:42
+key_key.drop:16
+key_key.inventory:18
+key_key.chat:14
+key_key.playerlist:15
+key_key.pickItem:-98
+key_Zoom:44
+key_key.command:28
+key_key.craftpresence.config_keycode.name:41
+key_key.tarmor:24
+key_ALT Key:56
+key_Boost Key:20
+key_Mode Switch Key:50
+key_Side Inventory Key:46
+key_Gravi Fly Key:33
+key_key.extra:21
+key_key.charge:47
+key_key.toggle:34
+key_key.release:19
+key_Reposition Mob Portrait:52
+key_key.backpack.openBackpack:48
+key_Gammabright:34
+key_Brighten:205
+key_Darken:203
+key_Reset Gamma:208
+key_Open MPS Keybind GUI:37
+key_Go Down (MPS Flight Control):44
+key_Cycle Tool Backward (MPS):-1
+key_Cycle Tool Forward (MPS):-1
+key_Zoom (MPS):21
+key_Cosmetic (MPS):38
+key_key.craftingGrid:46
+key_key.wailaconfig:82
+key_key.wailadisplay:79
+key_[GC] Galaxy Map:50
+key_[GC] Open Spaceship Inventory:33
+key_[GC] Toggle Sensor Goggles Mode:37
+key_[GC] Vehicle Forward Key:17
+key_[GC] Vehicle Backward Key:31
+key_[GC] Vehicle Left Key:30
+key_[GC] Vehicle Right Key:32
+key_[GC] Vehicle Up Key:57
+key_[GC] Vehicle Down Key:42
+key_key.control:29
+key_keybind.loco.faster:52
+key_keybind.loco.slower:51
+key_keybind.loco.mode:50
+key_keybind.loco.whistle:49

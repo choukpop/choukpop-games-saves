@@ -1,0 +1,778 @@
+2025-03-21 18:11:46 [INFO] Forge Mod Loader version 2.2.106.176 for Minecraft c:1.2.5, s:1.2.5 loading
+2025-03-21 18:11:46 [INFO] Forge Mod Loader has detected optifine OptiFine_1.2.5_HD_C6, enabling compatibility features
+2025-03-21 18:11:46 [FINE] Attempting to load mods contained in the minecraft jar file and associated classes
+2025-03-21 18:11:46 [FINE] Found a minecraft related file at E:\Programas Sem Instalacao\MultiMC\jars\NewLaunch.jar, loading
+2025-03-21 18:11:46 [FINE] Found a minecraft related file at E:\Programas Sem Instalacao\MultiMC\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar, loading
+2025-03-21 18:11:46 [FINE] Found a minecraft related file at E:\Programas Sem Instalacao\MultiMC\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar, loading
+2025-03-21 18:11:46 [FINE] Found a minecraft related file at E:\Programas Sem Instalacao\MultiMC\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar, loading
+2025-03-21 18:11:46 [FINE] Found a minecraft related file at E:\Programas Sem Instalacao\MultiMC\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar, loading
+2025-03-21 18:11:46 [FINE] Found a minecraft related file at E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\bin\minecraft.jar, loading
+2025-03-21 18:11:46 [FINE] Found a mod class mod_WorldEditCUI in file minecraft.jar, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_WorldEditCUI found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_WorldEditCUI loaded
+2025-03-21 18:11:46 [FINE] Mod class mod_WorldEditCUI loaded successfully
+2025-03-21 18:11:46 [FINE] Found a mod class mod_Shelf in file minecraft.jar, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_Shelf found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_Shelf loaded
+2025-03-21 18:11:46 [FINE] Mod class mod_Shelf loaded successfully
+2025-03-21 18:11:46 [FINE] Found a mod class mod_NotEnoughItems in file minecraft.jar, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_NotEnoughItems found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_NotEnoughItems loaded
+2025-03-21 18:11:46 [FINE] Mod class mod_NotEnoughItems loaded successfully
+2025-03-21 18:11:46 [FINE] Found a mod class mod_MinecraftForge in file minecraft.jar, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_MinecraftForge found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_MinecraftForge loaded
+2025-03-21 18:11:46 [FINE] Mod class mod_MinecraftForge loaded successfully
+2025-03-21 18:11:46 [FINE] Found a mod class mod_InvTweaks in file minecraft.jar, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_InvTweaks found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_InvTweaks loaded
+2025-03-21 18:11:46 [FINE] Mod class mod_InvTweaks loaded successfully
+2025-03-21 18:11:46 [FINE] Found a mod class mod_dynamiclights in file minecraft.jar, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_dynamiclights found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_dynamiclights loaded
+2025-03-21 18:11:46 [FINE] Mod class mod_dynamiclights loaded successfully
+2025-03-21 18:11:46 [FINE] Found a mod class mod_3DItems in file minecraft.jar, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_3DItems found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_3DItems loaded
+2025-03-21 18:11:46 [FINE] Mod class mod_3DItems loaded successfully
+2025-03-21 18:11:46 [FINE] Minecraft jar mods loaded successfully
+2025-03-21 18:11:46 [INFO] Loading mods from E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods
+2025-03-21 18:11:46 [FINE] Found a zip or jar file [1.2.5]ReiMinimap_v3.2_04.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_ReiMinimap in file [1.2.5]ReiMinimap_v3.2_04.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_ReiMinimap found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_ReiMinimap loaded
+2025-03-21 18:11:46 [FINE] An error occured reading the info file for mod_ReiMinimap
+tp: Failed to find a field called ["logoFile"] at ["logoFile"] while resolving ["logoFile"] in [{"authors":["ReiFNSK"],"credits":"","description":"Minimap!","modid":"mod_ReiMinimap","name":"Rei's Minimap","version":""}].
+	at tp.a(SourceFile:23)
+	at fd.a(SourceFile:304)
+	at fd.a(SourceFile:129)
+	at cpw.mods.fml.client.FMLClientHandler.readMetadataFrom(FMLClientHandler.java:853)
+	at cpw.mods.fml.common.FMLCommonHandler.loadMetadataFor(FMLCommonHandler.java:566)
+	at cpw.mods.fml.common.Loader.loadModClass(Loader.java:528)
+	at cpw.mods.fml.common.Loader.attemptFileLoad(Loader.java:572)
+	at cpw.mods.fml.common.Loader.load(Loader.java:429)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:616)
+	at cpw.mods.fml.client.FMLClientHandler.onPreLoad(FMLClientHandler.java:200)
+	at net.minecraft.client.Minecraft.a(Minecraft.java:386)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:738)
+	at java.lang.Thread.run(Unknown Source)
+2025-03-21 18:11:46 [FINE] Mod class mod_ReiMinimap loaded successfully
+2025-03-21 18:11:46 [FINE] File [1.2.5]ReiMinimap_v3.2_04.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file AdvancedMachines_4.1_client.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_IC2AdvancedMachines in file AdvancedMachines_4.1_client.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_IC2AdvancedMachines found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_IC2AdvancedMachines loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in AdvancedMachines_4.1_client.zip for mod_IC2AdvancedMachines
+2025-03-21 18:11:46 [FINE] Mod class mod_IC2AdvancedMachines loaded successfully
+2025-03-21 18:11:46 [FINE] File AdvancedMachines_4.1_client.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file buildcraft-C-additionalbuildcraftobjects-100-patched-by-joserobjr.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_AdditionalBuildcraftObjects in file buildcraft-C-additionalbuildcraftobjects-100-patched-by-joserobjr.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_AdditionalBuildcraftObjects found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_AdditionalBuildcraftObjects loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in buildcraft-C-additionalbuildcraftobjects-100-patched-by-joserobjr.zip for mod_AdditionalBuildcraftObjects
+2025-03-21 18:11:46 [FINE] Mod class mod_AdditionalBuildcraftObjects loaded successfully
+2025-03-21 18:11:46 [FINE] File buildcraft-C-additionalbuildcraftobjects-100-patched-by-joserobjr.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file buildcraft-client-A-core-3.1.5.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_BuildCraftCore in file buildcraft-client-A-core-3.1.5.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_BuildCraftCore found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_BuildCraftCore loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in buildcraft-client-A-core-3.1.5.zip for mod_BuildCraftCore
+2025-03-21 18:11:46 [FINE] Mod class mod_BuildCraftCore loaded successfully
+2025-03-21 18:11:46 [FINE] File buildcraft-client-A-core-3.1.5.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file buildcraft-client-B-builders-3.1.5.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_BuildCraftBuilders in file buildcraft-client-B-builders-3.1.5.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_BuildCraftBuilders found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_BuildCraftBuilders loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in buildcraft-client-B-builders-3.1.5.zip for mod_BuildCraftBuilders
+2025-03-21 18:11:46 [FINE] Mod class mod_BuildCraftBuilders loaded successfully
+2025-03-21 18:11:46 [FINE] File buildcraft-client-B-builders-3.1.5.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file buildcraft-client-B-energy-3.1.5.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_BuildCraftEnergy in file buildcraft-client-B-energy-3.1.5.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_BuildCraftEnergy found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_BuildCraftEnergy loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in buildcraft-client-B-energy-3.1.5.zip for mod_BuildCraftEnergy
+2025-03-21 18:11:46 [FINE] Mod class mod_BuildCraftEnergy loaded successfully
+2025-03-21 18:11:46 [FINE] File buildcraft-client-B-energy-3.1.5.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file buildcraft-client-B-factory-3.1.5.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_BuildCraftFactory in file buildcraft-client-B-factory-3.1.5.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_BuildCraftFactory found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_BuildCraftFactory loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in buildcraft-client-B-factory-3.1.5.zip for mod_BuildCraftFactory
+2025-03-21 18:11:46 [FINE] Mod class mod_BuildCraftFactory loaded successfully
+2025-03-21 18:11:46 [FINE] File buildcraft-client-B-factory-3.1.5.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file buildcraft-client-B-transport-3.1.5.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_BuildCraftTransport in file buildcraft-client-B-transport-3.1.5.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_BuildCraftTransport found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_BuildCraftTransport loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in buildcraft-client-B-transport-3.1.5.zip for mod_BuildCraftTransport
+2025-03-21 18:11:46 [FINE] Mod class mod_BuildCraftTransport loaded successfully
+2025-03-21 18:11:46 [FINE] File buildcraft-client-B-transport-3.1.5.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file buildcraft-client-C-silicon-3.1.5.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_BuildCraftSilicon in file buildcraft-client-C-silicon-3.1.5.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_BuildCraftSilicon found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_BuildCraftSilicon loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in buildcraft-client-C-silicon-3.1.5.zip for mod_BuildCraftSilicon
+2025-03-21 18:11:46 [FINE] Mod class mod_BuildCraftSilicon loaded successfully
+2025-03-21 18:11:46 [FINE] File buildcraft-client-C-silicon-3.1.5.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file buildcraft-client-DA-additionalpipes-3.1.0.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_AdditionalPipes in file buildcraft-client-DA-additionalpipes-3.1.0.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_AdditionalPipes found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_AdditionalPipes loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in buildcraft-client-DA-additionalpipes-3.1.0.zip for mod_AdditionalPipes
+2025-03-21 18:11:46 [FINE] Mod class mod_AdditionalPipes loaded successfully
+2025-03-21 18:11:46 [FINE] File buildcraft-client-DA-additionalpipes-3.1.0.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file CodeChickenCore-Client 0.5.5.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class codechicken.core.mod_CodeChickenCore in file CodeChickenCore-Client 0.5.5.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class codechicken.core.mod_CodeChickenCore found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class codechicken.core.mod_CodeChickenCore loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in CodeChickenCore-Client 0.5.5.zip for mod_CodeChickenCore
+2025-03-21 18:11:46 [FINE] Mod class codechicken.core.mod_CodeChickenCore loaded successfully
+2025-03-21 18:11:46 [FINE] File CodeChickenCore-Client 0.5.5.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file CraftableDoubleSlab-1.0-mc1.2.5-joserobjr.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_CraftableDoubleSlab in file CraftableDoubleSlab-1.0-mc1.2.5-joserobjr.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_CraftableDoubleSlab found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_CraftableDoubleSlab loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in CraftableDoubleSlab-1.0-mc1.2.5-joserobjr.zip for mod_CraftableDoubleSlab
+2025-03-21 18:11:46 [FINE] Mod class mod_CraftableDoubleSlab loaded successfully
+2025-03-21 18:11:46 [FINE] Found a mod class mod_EECraftableDoubleSlabAddon in file CraftableDoubleSlab-1.0-mc1.2.5-joserobjr.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_EECraftableDoubleSlabAddon found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_EECraftableDoubleSlabAddon loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in CraftableDoubleSlab-1.0-mc1.2.5-joserobjr.zip for mod_EECraftableDoubleSlabAddon
+2025-03-21 18:11:46 [FINE] Mod class mod_EECraftableDoubleSlabAddon loaded successfully
+2025-03-21 18:11:46 [FINE] File CraftableDoubleSlab-1.0-mc1.2.5-joserobjr.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file EE2ClientV1.4.6.7.jar, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_EE in file EE2ClientV1.4.6.7.jar, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_EE found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_EE loaded
+2025-03-21 18:11:46 [FINE] Mod class mod_EE loaded successfully
+2025-03-21 18:11:46 [FINE] File EE2ClientV1.4.6.7.jar loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file EnderStorage-Client 1.1.5.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_EnderStorage in file EnderStorage-Client 1.1.5.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_EnderStorage found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_EnderStorage loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in EnderStorage-Client 1.1.5.zip for mod_EnderStorage
+2025-03-21 18:11:46 [FINE] Mod class mod_EnderStorage loaded successfully
+2025-03-21 18:11:46 [FINE] File EnderStorage-Client 1.1.5.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file forestry-client-A-1.4.8.6.jar, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class forestry.mod_Forestry in file forestry-client-A-1.4.8.6.jar, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class forestry.mod_Forestry found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class forestry.mod_Forestry loaded
+2025-03-21 18:11:46 [FINE] Mod class forestry.mod_Forestry loaded successfully
+2025-03-21 18:11:46 [FINE] File forestry-client-A-1.4.8.6.jar loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file Gammabright-v1.3-mc1.2.5.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_Gammabright in file Gammabright-v1.3-mc1.2.5.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_Gammabright found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_Gammabright loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in Gammabright-v1.3-mc1.2.5.zip for mod_Gammabright
+2025-03-21 18:11:46 [FINE] Mod class mod_Gammabright loaded successfully
+2025-03-21 18:11:46 [FINE] File Gammabright-v1.3-mc1.2.5.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file IC2addon.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_IC2Capacitors in file IC2addon.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_IC2Capacitors found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_IC2Capacitors loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in IC2addon.zip for mod_IC2Capacitors
+2025-03-21 18:11:46 [FINE] Mod class mod_IC2Capacitors loaded successfully
+2025-03-21 18:11:46 [FINE] File IC2addon.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file IC2NuclearControl_client_v1.1.10b.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_IC2NuclearControl in file IC2NuclearControl_client_v1.1.10b.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_IC2NuclearControl found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_IC2NuclearControl loaded
+2025-03-21 18:11:46 [FINE] Mod class mod_IC2NuclearControl loaded successfully
+2025-03-21 18:11:46 [FINE] File IC2NuclearControl_client_v1.1.10b.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file industrialcraft-2-client_1.97.jar, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_IC2 in file industrialcraft-2-client_1.97.jar, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_IC2 found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_IC2 loaded
+2025-03-21 18:11:46 [FINE] Mod class mod_IC2 loaded successfully
+2025-03-21 18:11:46 [FINE] File industrialcraft-2-client_1.97.jar loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file LogisticsPipes-BC3-0.2.5B.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_LogisticsPipes in file LogisticsPipes-BC3-0.2.5B.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_LogisticsPipes found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_LogisticsPipes loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in LogisticsPipes-BC3-0.2.5B.zip for mod_LogisticsPipes
+2025-03-21 18:11:46 [FINE] Mod class mod_LogisticsPipes loaded successfully
+2025-03-21 18:11:46 [FINE] File LogisticsPipes-BC3-0.2.5B.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file LumySkinPatch-for-MC-1.2.5-1.0.12.jar, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class net.thecondemned.LumySkinPatch.mod_LumySkinPatch in file LumySkinPatch-for-MC-1.2.5-1.0.12.jar, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class net.thecondemned.LumySkinPatch.mod_LumySkinPatch found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class net.thecondemned.LumySkinPatch.mod_LumySkinPatch loaded
+2025-03-21 18:11:46 [FINE] Mod class net.thecondemned.LumySkinPatch.mod_LumySkinPatch loaded successfully
+2025-03-21 18:11:46 [FINE] File LumySkinPatch-for-MC-1.2.5-1.0.12.jar loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file MAtmos_packaged.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_MAtmos_forModLoader in file MAtmos_packaged.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_MAtmos_forModLoader found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_MAtmos_forModLoader loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in MAtmos_packaged.zip for mod_MAtmos_forModLoader
+2025-03-21 18:11:46 [FINE] Mod class mod_MAtmos_forModLoader loaded successfully
+2025-03-21 18:11:46 [FINE] File MAtmos_packaged.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file mod_ironchests-client-3.8.0.40.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class cpw.mods.ironchest.mod_IronChest in file mod_ironchests-client-3.8.0.40.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class cpw.mods.ironchest.mod_IronChest found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class cpw.mods.ironchest.mod_IronChest loaded
+2025-03-21 18:11:46 [FINE] Mod class cpw.mods.ironchest.mod_IronChest loaded successfully
+2025-03-21 18:11:46 [FINE] File mod_ironchests-client-3.8.0.40.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file mod_zGraviSuite_1_2_client.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_GraviSuite in file mod_zGraviSuite_1_2_client.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_GraviSuite found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_GraviSuite loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in mod_zGraviSuite_1_2_client.zip for mod_GraviSuite
+2025-03-21 18:11:46 [FINE] Mod class mod_GraviSuite loaded successfully
+2025-03-21 18:11:46 [FINE] File mod_zGraviSuite_1_2_client.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a directory portalgun, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_PortalGun in directory portalgun, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_PortalGun found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_PortalGun loaded
+2025-03-21 18:11:46 [FINE] Successfully loaded mod class mod_PortalGun.class
+2025-03-21 18:11:46 [FINEST] Recursing into package portalgun
+2025-03-21 18:11:46 [FINEST] Recursing into package portalgun.overlay
+2025-03-21 18:11:46 [FINEST] Recursing into package resources
+2025-03-21 18:11:46 [FINEST] Recursing into package resources.sound
+2025-03-21 18:11:46 [FINEST] Recursing into package resources.sound.portalgun
+2025-03-21 18:11:46 [FINEST] Recursing into package resources.sound.portalgun.heploop
+2025-03-21 18:11:46 [FINEST] Recursing into package resources.sound.portalgun.radioloop
+2025-03-21 18:11:46 [FINEST] Recursing into package resources.sound.portalgun.turret
+2025-03-21 18:11:46 [FINEST] Recursing into package resources.streaming
+2025-03-21 18:11:46 [FINEST] Recursing into package resources.streaming.portalgun
+2025-03-21 18:11:46 [FINE] Directory portalgun loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file Railcraft_Client_5.4.7b.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_Railcraft in file Railcraft_Client_5.4.7b.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_Railcraft found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_Railcraft loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in Railcraft_Client_5.4.7b.zip for mod_Railcraft
+2025-03-21 18:11:46 [FINE] Mod class mod_Railcraft loaded successfully
+2025-03-21 18:11:46 [FINE] File Railcraft_Client_5.4.7b.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file RedPowerControl-2.0pr5b2.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_RedPowerControl in file RedPowerControl-2.0pr5b2.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_RedPowerControl found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_RedPowerControl loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in RedPowerControl-2.0pr5b2.zip for mod_RedPowerControl
+2025-03-21 18:11:46 [FINE] Mod class mod_RedPowerControl loaded successfully
+2025-03-21 18:11:46 [FINE] File RedPowerControl-2.0pr5b2.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file RedPowerCore-2.0pr5b2.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_RedPowerCore in file RedPowerCore-2.0pr5b2.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_RedPowerCore found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_RedPowerCore loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in RedPowerCore-2.0pr5b2.zip for mod_RedPowerCore
+2025-03-21 18:11:46 [FINE] Mod class mod_RedPowerCore loaded successfully
+2025-03-21 18:11:46 [FINE] File RedPowerCore-2.0pr5b2.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file RedPowerLighting-2.0pr5b2.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_RedPowerLighting in file RedPowerLighting-2.0pr5b2.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_RedPowerLighting found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_RedPowerLighting loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in RedPowerLighting-2.0pr5b2.zip for mod_RedPowerLighting
+2025-03-21 18:11:46 [FINE] Mod class mod_RedPowerLighting loaded successfully
+2025-03-21 18:11:46 [FINE] File RedPowerLighting-2.0pr5b2.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file RedPowerLogic-2.0pr5b2.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_RedPowerLogic in file RedPowerLogic-2.0pr5b2.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_RedPowerLogic found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_RedPowerLogic loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in RedPowerLogic-2.0pr5b2.zip for mod_RedPowerLogic
+2025-03-21 18:11:46 [FINE] Mod class mod_RedPowerLogic loaded successfully
+2025-03-21 18:11:46 [FINE] File RedPowerLogic-2.0pr5b2.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file RedPowerMachine-2.0pr5b2.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_RedPowerMachine in file RedPowerMachine-2.0pr5b2.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_RedPowerMachine found, loading
+2025-03-21 18:11:46 [FINE] ModLoader BaseMod class mod_RedPowerMachine loaded
+2025-03-21 18:11:46 [FINE] Failed to find mcmod.info file in RedPowerMachine-2.0pr5b2.zip for mod_RedPowerMachine
+2025-03-21 18:11:46 [FINE] Mod class mod_RedPowerMachine loaded successfully
+2025-03-21 18:11:46 [FINE] File RedPowerMachine-2.0pr5b2.zip loaded successfully
+2025-03-21 18:11:46 [FINE] Found a zip or jar file RedPowerWiring-2.0pr5b2.zip, attempting to load it
+2025-03-21 18:11:46 [FINE] Found a mod class mod_RedPowerWiring in file RedPowerWiring-2.0pr5b2.zip, attempting to load it
+2025-03-21 18:11:47 [FINE] ModLoader BaseMod class mod_RedPowerWiring found, loading
+2025-03-21 18:11:47 [FINE] ModLoader BaseMod class mod_RedPowerWiring loaded
+2025-03-21 18:11:47 [FINE] Failed to find mcmod.info file in RedPowerWiring-2.0pr5b2.zip for mod_RedPowerWiring
+2025-03-21 18:11:47 [FINE] Mod class mod_RedPowerWiring loaded successfully
+2025-03-21 18:11:47 [FINE] File RedPowerWiring-2.0pr5b2.zip loaded successfully
+2025-03-21 18:11:47 [FINE] Found a zip or jar file RedPowerWorld-2.0pr5b2.zip, attempting to load it
+2025-03-21 18:11:47 [FINE] Found a mod class mod_RedPowerWorld in file RedPowerWorld-2.0pr5b2.zip, attempting to load it
+2025-03-21 18:11:47 [FINE] ModLoader BaseMod class mod_RedPowerWorld found, loading
+2025-03-21 18:11:47 [FINE] ModLoader BaseMod class mod_RedPowerWorld loaded
+2025-03-21 18:11:47 [FINE] Failed to find mcmod.info file in RedPowerWorld-2.0pr5b2.zip for mod_RedPowerWorld
+2025-03-21 18:11:47 [FINE] Mod class mod_RedPowerWorld loaded successfully
+2025-03-21 18:11:47 [FINE] File RedPowerWorld-2.0pr5b2.zip loaded successfully
+2025-03-21 18:11:47 [FINE] Found a directory rei_minimap, attempting to load it
+2025-03-21 18:11:47 [INFO] Directory rei_minimap contained no mods
+2025-03-21 18:11:47 [FINE] Found a zip or jar file SneakyPipes-0.1.1.zip, attempting to load it
+2025-03-21 18:11:47 [FINE] Found a mod class mod_SneakyPipes in file SneakyPipes-0.1.1.zip, attempting to load it
+2025-03-21 18:11:47 [FINE] ModLoader BaseMod class mod_SneakyPipes found, loading
+2025-03-21 18:11:47 [FINE] ModLoader BaseMod class mod_SneakyPipes loaded
+2025-03-21 18:11:47 [FINE] Failed to find mcmod.info file in SneakyPipes-0.1.1.zip for mod_SneakyPipes
+2025-03-21 18:11:47 [FINE] Mod class mod_SneakyPipes loaded successfully
+2025-03-21 18:11:47 [FINE] File SneakyPipes-0.1.1.zip loaded successfully
+2025-03-21 18:11:47 [FINE] Found a zip or jar file Steves Carts 1.5.1.zip, attempting to load it
+2025-03-21 18:11:47 [FINE] Found a mod class mod_stevescarts in file Steves Carts 1.5.1.zip, attempting to load it
+2025-03-21 18:11:47 [FINE] ModLoader BaseMod class mod_stevescarts found, loading
+2025-03-21 18:11:47 [FINE] ModLoader BaseMod class mod_stevescarts loaded
+2025-03-21 18:11:47 [FINE] Mod class mod_stevescarts loaded successfully
+2025-03-21 18:11:47 [FINE] File Steves Carts 1.5.1.zip loaded successfully
+2025-03-21 18:11:47 [FINE] Found a zip or jar file ThaumCraft2.1.6d.zip, attempting to load it
+2025-03-21 18:11:47 [FINE] Found a mod class mod_ThaumCraft in file ThaumCraft2.1.6d.zip, attempting to load it
+2025-03-21 18:11:47 [FINE] ModLoader BaseMod class mod_ThaumCraft found, loading
+2025-03-21 18:11:47 [FINE] ModLoader BaseMod class mod_ThaumCraft loaded
+2025-03-21 18:11:47 [FINE] Failed to find mcmod.info file in ThaumCraft2.1.6d.zip for mod_ThaumCraft
+2025-03-21 18:11:47 [FINE] Mod class mod_ThaumCraft loaded successfully
+2025-03-21 18:11:47 [FINE] File ThaumCraft2.1.6d.zip loaded successfully
+2025-03-21 18:11:47 [FINE] Found a directory WorldEditCUI, attempting to load it
+2025-03-21 18:11:47 [INFO] Directory WorldEditCUI contained no mods
+2025-03-21 18:11:47 [FINE] Found a zip or jar file WR-CBE Addons-Client 1.2.2.3.zip, attempting to load it
+2025-03-21 18:11:47 [FINE] Found a mod class mod_WirelessRedstoneAddons in file WR-CBE Addons-Client 1.2.2.3.zip, attempting to load it
+2025-03-21 18:11:47 [FINE] ModLoader BaseMod class mod_WirelessRedstoneAddons found, loading
+2025-03-21 18:11:47 [FINE] ModLoader BaseMod class mod_WirelessRedstoneAddons loaded
+2025-03-21 18:11:47 [FINE] Failed to find mcmod.info file in WR-CBE Addons-Client 1.2.2.3.zip for mod_WirelessRedstoneAddons
+2025-03-21 18:11:47 [FINE] Mod class mod_WirelessRedstoneAddons loaded successfully
+2025-03-21 18:11:47 [FINE] File WR-CBE Addons-Client 1.2.2.3.zip loaded successfully
+2025-03-21 18:11:47 [FINE] Found a zip or jar file WR-CBE Core-Client 1.2.2.6.zip, attempting to load it
+2025-03-21 18:11:47 [FINE] Found a mod class mod_WirelessRedstoneCore in file WR-CBE Core-Client 1.2.2.6.zip, attempting to load it
+2025-03-21 18:11:47 [FINE] ModLoader BaseMod class mod_WirelessRedstoneCore found, loading
+2025-03-21 18:11:47 [FINE] ModLoader BaseMod class mod_WirelessRedstoneCore loaded
+2025-03-21 18:11:47 [FINE] Failed to find mcmod.info file in WR-CBE Core-Client 1.2.2.6.zip for mod_WirelessRedstoneCore
+2025-03-21 18:11:47 [FINE] Mod class mod_WirelessRedstoneCore loaded successfully
+2025-03-21 18:11:47 [FINE] File WR-CBE Core-Client 1.2.2.6.zip loaded successfully
+2025-03-21 18:11:47 [FINE] Found a zip or jar file WR-CBE RedPower-Client 1.2.2.3.zip, attempting to load it
+2025-03-21 18:11:47 [FINE] Found a mod class mod_WirelessRedstoneRedPower in file WR-CBE RedPower-Client 1.2.2.3.zip, attempting to load it
+2025-03-21 18:11:47 [FINE] ModLoader BaseMod class mod_WirelessRedstoneRedPower found, loading
+2025-03-21 18:11:47 [FINE] ModLoader BaseMod class mod_WirelessRedstoneRedPower loaded
+2025-03-21 18:11:47 [FINE] Failed to find mcmod.info file in WR-CBE RedPower-Client 1.2.2.3.zip for mod_WirelessRedstoneRedPower
+2025-03-21 18:11:47 [FINE] Mod class mod_WirelessRedstoneRedPower loaded successfully
+2025-03-21 18:11:47 [FINE] File WR-CBE RedPower-Client 1.2.2.3.zip loaded successfully
+2025-03-21 18:11:47 [INFO] Forge Mod Loader has loaded 47 mods
+2025-03-21 18:11:47 [FINE] Beginning mod pre-initialization
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\bin\minecraft.jar
+2025-03-21 18:11:47 [FINE] No MLProp configuration for mod_WorldEditCUI found or required. No file written
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\bin\minecraft.jar
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_Shelf : mod_Shelf.cfg
+2025-03-21 18:11:47 [FINEST] Configuration for mod_Shelf.ShelfID found values default: 132, configured: 132, interpreted: 132
+2025-03-21 18:11:47 [FINEST] Configuration for mod_Shelf.Render3DItems found values default: false, configured: false, interpreted: false
+2025-03-21 18:11:47 [FINEST] Configuration for mod_Shelf.RotateItems found values default: false, configured: false, interpreted: false
+2025-03-21 18:11:47 [FINE] Configuration for mod_Shelf written to mod_Shelf.cfg
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\bin\minecraft.jar
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_NotEnoughItems : mod_NotEnoughItems.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_NotEnoughItems found but not required. Attempting to rename file to mod_NotEnoughItems.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_NotEnoughItems renamed UNSUCCESSFULLY to mod_NotEnoughItems.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\bin\minecraft.jar
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_MinecraftForge : mod_MinecraftForge.cfg
+2025-03-21 18:11:47 [FINEST] Configuration for mod_MinecraftForge.DISABLE_DARK_ROOMS found values default: false, configured: false, interpreted: false
+2025-03-21 18:11:47 [FINEST] Configuration for mod_MinecraftForge.SPAWNER_ALLOW_ON_INVERTED found values default: true, configured: true, interpreted: true
+2025-03-21 18:11:47 [FINEST] Configuration for mod_MinecraftForge.SPAWNER_MAKE_MORE_RANDOM found values default: false, configured: false, interpreted: false
+2025-03-21 18:11:47 [FINE] Configuration for mod_MinecraftForge written to mod_MinecraftForge.cfg
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\bin\minecraft.jar
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_InvTweaks : mod_InvTweaks.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_InvTweaks found but not required. Attempting to rename file to mod_InvTweaks.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_InvTweaks renamed UNSUCCESSFULLY to mod_InvTweaks.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\bin\minecraft.jar
+2025-03-21 18:11:47 [FINE] No MLProp configuration for mod_dynamiclights found or required. No file written
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\bin\minecraft.jar
+2025-03-21 18:11:47 [FINE] No MLProp configuration for mod_3DItems found or required. No file written
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\[1.2.5]ReiMinimap_v3.2_04.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_ReiMinimap : mod_ReiMinimap.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_ReiMinimap found but not required. Attempting to rename file to mod_ReiMinimap.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_ReiMinimap renamed UNSUCCESSFULLY to mod_ReiMinimap.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\AdvancedMachines_4.1_client.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_IC2AdvancedMachines : mod_IC2AdvancedMachines.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_IC2AdvancedMachines found but not required. Attempting to rename file to mod_IC2AdvancedMachines.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_IC2AdvancedMachines renamed UNSUCCESSFULLY to mod_IC2AdvancedMachines.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\buildcraft-C-additionalbuildcraftobjects-100-patched-by-joserobjr.zip
+2025-03-21 18:11:47 [FINE] No MLProp configuration for mod_AdditionalBuildcraftObjects found or required. No file written
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\buildcraft-client-A-core-3.1.5.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_BuildCraftCore : mod_BuildCraftCore.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_BuildCraftCore found but not required. Attempting to rename file to mod_BuildCraftCore.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_BuildCraftCore renamed UNSUCCESSFULLY to mod_BuildCraftCore.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\buildcraft-client-B-builders-3.1.5.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_BuildCraftBuilders : mod_BuildCraftBuilders.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_BuildCraftBuilders found but not required. Attempting to rename file to mod_BuildCraftBuilders.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_BuildCraftBuilders renamed UNSUCCESSFULLY to mod_BuildCraftBuilders.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\buildcraft-client-B-energy-3.1.5.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_BuildCraftEnergy : mod_BuildCraftEnergy.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_BuildCraftEnergy found but not required. Attempting to rename file to mod_BuildCraftEnergy.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_BuildCraftEnergy renamed UNSUCCESSFULLY to mod_BuildCraftEnergy.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\buildcraft-client-B-factory-3.1.5.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_BuildCraftFactory : mod_BuildCraftFactory.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_BuildCraftFactory found but not required. Attempting to rename file to mod_BuildCraftFactory.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_BuildCraftFactory renamed UNSUCCESSFULLY to mod_BuildCraftFactory.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\buildcraft-client-B-transport-3.1.5.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_BuildCraftTransport : mod_BuildCraftTransport.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_BuildCraftTransport found but not required. Attempting to rename file to mod_BuildCraftTransport.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_BuildCraftTransport renamed UNSUCCESSFULLY to mod_BuildCraftTransport.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\buildcraft-client-C-silicon-3.1.5.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_BuildCraftSilicon : mod_BuildCraftSilicon.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_BuildCraftSilicon found but not required. Attempting to rename file to mod_BuildCraftSilicon.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_BuildCraftSilicon renamed UNSUCCESSFULLY to mod_BuildCraftSilicon.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\buildcraft-client-DA-additionalpipes-3.1.0.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_AdditionalPipes : mod_AdditionalPipes.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_AdditionalPipes found but not required. Attempting to rename file to mod_AdditionalPipes.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_AdditionalPipes renamed UNSUCCESSFULLY to mod_AdditionalPipes.cfg.bak
+2025-03-21 18:11:47 [INFO] MinecraftForge v3.3.8.164 Initialized
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\CodeChickenCore-Client 0.5.5.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_CodeChickenCore : mod_CodeChickenCore.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_CodeChickenCore found but not required. Attempting to rename file to mod_CodeChickenCore.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_CodeChickenCore renamed UNSUCCESSFULLY to mod_CodeChickenCore.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\CraftableDoubleSlab-1.0-mc1.2.5-joserobjr.zip
+2025-03-21 18:11:47 [FINE] No MLProp configuration for mod_CraftableDoubleSlab found or required. No file written
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\CraftableDoubleSlab-1.0-mc1.2.5-joserobjr.zip
+2025-03-21 18:11:47 [FINE] No MLProp configuration for mod_EECraftableDoubleSlabAddon found or required. No file written
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\EE2ClientV1.4.6.7.jar
+2025-03-21 18:11:47 [FINE] No MLProp configuration for mod_EE found or required. No file written
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\EnderStorage-Client 1.1.5.zip
+2025-03-21 18:11:47 [FINE] No MLProp configuration for mod_EnderStorage found or required. No file written
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\forestry-client-A-1.4.8.6.jar
+2025-03-21 18:11:47 [FINE] No MLProp configuration for mod_Forestry found or required. No file written
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\Gammabright-v1.3-mc1.2.5.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_Gammabright : mod_Gammabright.cfg
+2025-03-21 18:11:47 [FINEST] Configuration for mod_Gammabright.textShown found values default: Gammabright: %g, configured: Gammabright: %g, interpreted: Gammabright: %g
+2025-03-21 18:11:47 [FINEST] Configuration for mod_Gammabright.enabledBrightness found values default: 15.0, configured: 15.0, interpreted: 15.0
+2025-03-21 18:11:47 [FINEST] Configuration for mod_Gammabright.text_x found values default: 5, configured: 5, interpreted: 5
+2025-03-21 18:11:47 [FINEST] Configuration for mod_Gammabright.text_y found values default: 4, configured: 4, interpreted: 4
+2025-03-21 18:11:47 [FINEST] Configuration for mod_Gammabright.textColor found values default: FF7519, configured: FF7519, interpreted: FF7519
+2025-03-21 18:11:47 [FINEST] Configuration for mod_Gammabright.toggleSound found values default: true, configured: true, interpreted: true
+2025-03-21 18:11:47 [FINEST] Configuration for mod_Gammabright.increment found values default: 0.1, configured: 0.1, interpreted: 0.1
+2025-03-21 18:11:47 [FINEST] Configuration for mod_Gammabright.increment_sneak found values default: 1.0, configured: 1.0, interpreted: 1.0
+2025-03-21 18:11:47 [FINE] Configuration for mod_Gammabright written to mod_Gammabright.cfg
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\IC2addon.zip
+2025-03-21 18:11:47 [FINE] No MLProp configuration for mod_IC2Capacitors found or required. No file written
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\IC2NuclearControl_client_v1.1.10b.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_IC2NuclearControl : mod_IC2NuclearControl.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_IC2NuclearControl found but not required. Attempting to rename file to mod_IC2NuclearControl.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_IC2NuclearControl renamed UNSUCCESSFULLY to mod_IC2NuclearControl.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\industrialcraft-2-client_1.97.jar
+2025-03-21 18:11:47 [FINE] No MLProp configuration for mod_IC2 found or required. No file written
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\LogisticsPipes-BC3-0.2.5B.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_LogisticsPipes : mod_LogisticsPipes.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_LogisticsPipes found but not required. Attempting to rename file to mod_LogisticsPipes.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_LogisticsPipes renamed UNSUCCESSFULLY to mod_LogisticsPipes.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\LumySkinPatch-for-MC-1.2.5-1.0.12.jar
+2025-03-21 18:11:47 [FINE] No MLProp configuration for mod_LumySkinPatch found or required. No file written
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\MAtmos_packaged.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_MAtmos_forModLoader : mod_MAtmos_forModLoader.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_MAtmos_forModLoader found but not required. Attempting to rename file to mod_MAtmos_forModLoader.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_MAtmos_forModLoader renamed UNSUCCESSFULLY to mod_MAtmos_forModLoader.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\mod_ironchests-client-3.8.0.40.zip
+2025-03-21 18:11:47 [FINE] No MLProp configuration for mod_IronChest found or required. No file written
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\mod_zGraviSuite_1_2_client.zip
+2025-03-21 18:11:47 [FINE] No MLProp configuration for mod_GraviSuite found or required. No file written
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\portalgun
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_PortalGun : mod_PortalGun.cfg
+2025-03-21 18:11:47 [FINEST] Configuration for mod_PortalGun.wrongPlace found values default: 1, configured: 1, interpreted: 1
+2025-03-21 18:11:47 [FINE] Configuration for mod_PortalGun written to mod_PortalGun.cfg
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\Railcraft_Client_5.4.7b.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_Railcraft : mod_Railcraft.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_Railcraft found but not required. Attempting to rename file to mod_Railcraft.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_Railcraft renamed UNSUCCESSFULLY to mod_Railcraft.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\RedPowerControl-2.0pr5b2.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_RedPowerControl : mod_RedPowerControl.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_RedPowerControl found but not required. Attempting to rename file to mod_RedPowerControl.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_RedPowerControl renamed UNSUCCESSFULLY to mod_RedPowerControl.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\RedPowerCore-2.0pr5b2.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_RedPowerCore : mod_RedPowerCore.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_RedPowerCore found but not required. Attempting to rename file to mod_RedPowerCore.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_RedPowerCore renamed UNSUCCESSFULLY to mod_RedPowerCore.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\RedPowerLighting-2.0pr5b2.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_RedPowerLighting : mod_RedPowerLighting.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_RedPowerLighting found but not required. Attempting to rename file to mod_RedPowerLighting.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_RedPowerLighting renamed UNSUCCESSFULLY to mod_RedPowerLighting.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\RedPowerLogic-2.0pr5b2.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_RedPowerLogic : mod_RedPowerLogic.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_RedPowerLogic found but not required. Attempting to rename file to mod_RedPowerLogic.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_RedPowerLogic renamed UNSUCCESSFULLY to mod_RedPowerLogic.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\RedPowerMachine-2.0pr5b2.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_RedPowerMachine : mod_RedPowerMachine.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_RedPowerMachine found but not required. Attempting to rename file to mod_RedPowerMachine.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_RedPowerMachine renamed UNSUCCESSFULLY to mod_RedPowerMachine.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\RedPowerWiring-2.0pr5b2.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_RedPowerWiring : mod_RedPowerWiring.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_RedPowerWiring found but not required. Attempting to rename file to mod_RedPowerWiring.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_RedPowerWiring renamed UNSUCCESSFULLY to mod_RedPowerWiring.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\RedPowerWorld-2.0pr5b2.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_RedPowerWorld : mod_RedPowerWorld.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_RedPowerWorld found but not required. Attempting to rename file to mod_RedPowerWorld.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_RedPowerWorld renamed UNSUCCESSFULLY to mod_RedPowerWorld.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\SneakyPipes-0.1.1.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_SneakyPipes : mod_SneakyPipes.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_SneakyPipes found but not required. Attempting to rename file to mod_SneakyPipes.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_SneakyPipes renamed UNSUCCESSFULLY to mod_SneakyPipes.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\Steves Carts 1.5.1.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_stevescarts : mod_stevescarts.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_stevescarts found but not required. Attempting to rename file to mod_stevescarts.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_stevescarts renamed UNSUCCESSFULLY to mod_stevescarts.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\ThaumCraft2.1.6d.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_ThaumCraft : mod_ThaumCraft.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_ThaumCraft found but not required. Attempting to rename file to mod_ThaumCraft.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_ThaumCraft renamed UNSUCCESSFULLY to mod_ThaumCraft.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\WR-CBE Addons-Client 1.2.2.3.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_WirelessRedstoneAddons : mod_WirelessRedstoneAddons.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_WirelessRedstoneAddons found but not required. Attempting to rename file to mod_WirelessRedstoneAddons.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_WirelessRedstoneAddons renamed UNSUCCESSFULLY to mod_WirelessRedstoneAddons.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\WR-CBE Core-Client 1.2.2.6.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_WirelessRedstoneCore : mod_WirelessRedstoneCore.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_WirelessRedstoneCore found but not required. Attempting to rename file to mod_WirelessRedstoneCore.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_WirelessRedstoneCore renamed UNSUCCESSFULLY to mod_WirelessRedstoneCore.cfg.bak
+2025-03-21 18:11:47 [FINER] Pre-initializing E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.2.5\minecraft\mods\WR-CBE RedPower-Client 1.2.2.3.zip
+2025-03-21 18:11:47 [FINE] Reading existing configuration file for mod_WirelessRedstoneRedPower : mod_WirelessRedstoneRedPower.cfg
+2025-03-21 18:11:47 [FINE] MLProp configuration file for mod_WirelessRedstoneRedPower found but not required. Attempting to rename file to mod_WirelessRedstoneRedPower.cfg.bak
+2025-03-21 18:11:47 [FINE] Unused MLProp configuration file for mod_WirelessRedstoneRedPower renamed UNSUCCESSFULLY to mod_WirelessRedstoneRedPower.cfg.bak
+2025-03-21 18:11:47 [FINE] Mod pre-initialization complete
+2025-03-21 18:11:47 [FINE] Verifying mod dependencies are satisfied
+2025-03-21 18:11:47 [FINE] All dependencies are satisfied
+2025-03-21 18:11:47 [FINE] Sorting mods into an ordered list
+2025-03-21 18:11:47 [FINE] Sorted mod list:
+2025-03-21 18:11:47 [FINE] 	mod_CodeChickenCore: CodeChickenCore-Client 0.5.5.zip (before:*)
+2025-03-21 18:11:47 [FINE] 	mod_WorldEditCUI: minecraft.jar ()
+2025-03-21 18:11:47 [FINE] 	mod_Shelf: minecraft.jar ()
+2025-03-21 18:11:47 [FINE] 	mod_NotEnoughItems: minecraft.jar ()
+2025-03-21 18:11:47 [FINE] 	mod_MinecraftForge: minecraft.jar ()
+2025-03-21 18:11:47 [FINE] 	mod_InvTweaks: minecraft.jar ()
+2025-03-21 18:11:47 [FINE] 	mod_dynamiclights: minecraft.jar ()
+2025-03-21 18:11:47 [FINE] 	mod_3DItems: minecraft.jar ()
+2025-03-21 18:11:47 [FINE] 	mod_ReiMinimap: [1.2.5]ReiMinimap_v3.2_04.zip ()
+2025-03-21 18:11:47 [FINE] 	mod_IC2: industrialcraft-2-client_1.97.jar ()
+2025-03-21 18:11:47 [FINE] 	mod_IC2AdvancedMachines: AdvancedMachines_4.1_client.zip (after:mod_IC2)
+2025-03-21 18:11:47 [FINE] 	mod_AdditionalBuildcraftObjects: buildcraft-C-additionalbuildcraftobjects-100-patched-by-joserobjr.zip ()
+2025-03-21 18:11:47 [FINE] 	mod_BuildCraftCore: buildcraft-client-A-core-3.1.5.zip ()
+2025-03-21 18:11:47 [FINE] 	mod_BuildCraftBuilders: buildcraft-client-B-builders-3.1.5.zip ()
+2025-03-21 18:11:47 [FINE] 	mod_BuildCraftEnergy: buildcraft-client-B-energy-3.1.5.zip ()
+2025-03-21 18:11:47 [FINE] 	mod_BuildCraftFactory: buildcraft-client-B-factory-3.1.5.zip ()
+2025-03-21 18:11:47 [FINE] 	mod_BuildCraftTransport: buildcraft-client-B-transport-3.1.5.zip ()
+2025-03-21 18:11:47 [FINE] 	mod_BuildCraftSilicon: buildcraft-client-C-silicon-3.1.5.zip ()
+2025-03-21 18:11:47 [FINE] 	mod_AdditionalPipes: buildcraft-client-DA-additionalpipes-3.1.0.zip (after:mod_BuildCraftTransport)
+2025-03-21 18:11:47 [FINE] 	mod_CraftableDoubleSlab: CraftableDoubleSlab-1.0-mc1.2.5-joserobjr.zip ()
+2025-03-21 18:11:47 [FINE] 	mod_EECraftableDoubleSlabAddon: CraftableDoubleSlab-1.0-mc1.2.5-joserobjr.zip ()
+2025-03-21 18:11:47 [FINE] 	mod_EE: EE2ClientV1.4.6.7.jar ()
+2025-03-21 18:11:47 [FINE] 	mod_EnderStorage: EnderStorage-Client 1.1.5.zip ()
+2025-03-21 18:11:47 [FINE] 	mod_RedPowerWorld: RedPowerWorld-2.0pr5b2.zip ()
+2025-03-21 18:11:47 [FINE] 	mod_Forestry: forestry-client-A-1.4.8.6.jar (after:mod_IC2;after:mod_BuildCraftCore;after:mod_BuildCraftEnergy;after:mod_BuildCraftFactory;after:mod_BuildCraftSilicon;after:mod_BuildCraftTransport;after:mod_RedPowerWorld)
+2025-03-21 18:11:47 [FINE] 	mod_Gammabright: Gammabright-v1.3-mc1.2.5.zip ()
+2025-03-21 18:11:47 [FINE] 	IC2 Resistors: IC2addon.zip ()
+2025-03-21 18:11:47 [FINE] 	mod_IC2NuclearControl: IC2NuclearControl_client_v1.1.10b.zip (after:mod_IC2)
+2025-03-21 18:11:47 [FINE] 	mod_LogisticsPipes: LogisticsPipes-BC3-0.2.5B.zip (after:mod_BuildCraftCore;after:mod_BuildCraftTransport)
+2025-03-21 18:11:47 [FINE] 	mod_LumySkinPatch: LumySkinPatch-for-MC-1.2.5-1.0.12.jar ()
+2025-03-21 18:11:47 [FINE] 	mod_MAtmos_forModLoader: MAtmos_packaged.zip ()
+2025-03-21 18:11:47 [FINE] 	mod_IronChest: mod_ironchests-client-3.8.0.40.zip ()
+2025-03-21 18:11:47 [FINE] 	mod_GraviSuite: mod_zGraviSuite_1_2_client.zip (after:mod_IC2)
+2025-03-21 18:11:47 [FINE] 	mod_PortalGun: portalgun ()
+2025-03-21 18:11:47 [FINE] 	mod_Railcraft: Railcraft_Client_5.4.7b.zip (after:mod_BuildCraftCore;after:mod_Forestry;after:mod_IC2)
+2025-03-21 18:11:47 [FINE] 	mod_RedPowerControl: RedPowerControl-2.0pr5b2.zip ()
+2025-03-21 18:11:47 [FINE] 	mod_RedPowerCore: RedPowerCore-2.0pr5b2.zip ()
+2025-03-21 18:11:47 [FINE] 	mod_RedPowerLighting: RedPowerLighting-2.0pr5b2.zip ()
+2025-03-21 18:11:47 [FINE] 	mod_RedPowerLogic: RedPowerLogic-2.0pr5b2.zip ()
+2025-03-21 18:11:47 [FINE] 	mod_RedPowerMachine: RedPowerMachine-2.0pr5b2.zip ()
+2025-03-21 18:11:47 [FINE] 	mod_RedPowerWiring: RedPowerWiring-2.0pr5b2.zip ()
+2025-03-21 18:11:47 [FINE] 	mod_SneakyPipes: SneakyPipes-0.1.1.zip (after:mod_BuildCraftCore;after:mod_BuildCraftTransport)
+2025-03-21 18:11:47 [FINE] 	Steve's Carts: Steves Carts 1.5.1.zip ()
+2025-03-21 18:11:47 [FINE] 	mod_WirelessRedstoneCore: WR-CBE Core-Client 1.2.2.6.zip ()
+2025-03-21 18:11:47 [FINE] 	mod_WirelessRedstoneAddons: WR-CBE Addons-Client 1.2.2.3.zip (after:mod_WirelessRedstoneCore)
+2025-03-21 18:11:47 [FINE] 	mod_WirelessRedstoneRedPower: WR-CBE RedPower-Client 1.2.2.3.zip (after:mod_WirelessRedstoneCore)
+2025-03-21 18:11:47 [FINE] 	mod_ThaumCraft: ThaumCraft2.1.6d.zip (after:*)
+2025-03-21 18:11:47 [FINE] Beginning mod initialization
+2025-03-21 18:11:47 [FINER] Initializing mod_CodeChickenCore
+2025-03-21 18:11:47 [FINER] Initializing mod_WorldEditCUI
+2025-03-21 18:11:47 [FINER] Initializing mod_Shelf
+2025-03-21 18:11:47 [FINER] Initializing mod_NotEnoughItems
+2025-03-21 18:11:47 [FINER] Initializing mod_MinecraftForge
+2025-03-21 18:11:47 [FINER] Initializing mod_InvTweaks
+2025-03-21 18:11:47 [FINER] Initializing mod_dynamiclights
+2025-03-21 18:11:47 [FINER] Initializing mod_3DItems
+2025-03-21 18:11:47 [FINER] Initializing mod_ReiMinimap
+2025-03-21 18:11:47 [FINER] Initializing mod_IC2
+2025-03-21 18:11:48 [FINER] Initializing mod_IC2AdvancedMachines
+2025-03-21 18:11:48 [FINER] Initializing mod_AdditionalBuildcraftObjects
+2025-03-21 18:11:48 [FINER] Initializing mod_BuildCraftCore
+2025-03-21 18:11:48 [FINER] Initializing mod_BuildCraftBuilders
+2025-03-21 18:11:48 [FINER] Initializing mod_BuildCraftEnergy
+2025-03-21 18:11:48 [FINER] Initializing mod_BuildCraftFactory
+2025-03-21 18:11:48 [FINER] Initializing mod_BuildCraftTransport
+2025-03-21 18:11:48 [FINER] Initializing mod_BuildCraftSilicon
+2025-03-21 18:11:48 [FINER] Initializing mod_AdditionalPipes
+2025-03-21 18:11:48 [FINER] Initializing mod_CraftableDoubleSlab
+2025-03-21 18:11:48 [FINER] Initializing mod_EECraftableDoubleSlabAddon
+2025-03-21 18:11:48 [FINER] Initializing mod_EE
+2025-03-21 18:11:48 [FINER] Initializing mod_EnderStorage
+2025-03-21 18:11:48 [FINER] Initializing mod_RedPowerWorld
+2025-03-21 18:11:48 [FINER] Initializing mod_Forestry
+2025-03-21 18:11:48 [WARNING] Forestry: Unable to read from remote version authority.
+2025-03-21 18:11:48 [FINER] Breeding mode for bees set to NORMAL
+2025-03-21 18:11:48 [FINE] Found plugin for BuildCraft3
+2025-03-21 18:11:48 [FINE] Found plugin for EquivalentExchange
+2025-03-21 18:11:48 [FINE] Found plugin for Native Apiculture
+2025-03-21 18:11:48 [FINE] Found plugin for Native Arboriculture
+2025-03-21 18:11:48 [FINE] Found plugin for Core
+2025-03-21 18:11:48 [FINE] Found plugin for Native Cultivation
+2025-03-21 18:11:48 [FINE] Found plugin for Native Energy
+2025-03-21 18:11:48 [FINE] Found plugin for Native Factory
+2025-03-21 18:11:48 [FINE] Found plugin for Native Food
+2025-03-21 18:11:48 [FINE] Found plugin for Native Mail
+2025-03-21 18:11:48 [FINE] Found plugin for Native Storage
+2025-03-21 18:11:48 [FINE] Found plugin for IndustrialCraft2
+2025-03-21 18:11:48 [FINE] Found plugin for Apiarist's Pipe for BC3
+2025-03-21 18:11:48 [FINE] Found plugin for TerraFirmaCraft
+2025-03-21 18:11:48 [FINE] Found plugin for TwilightForest
+2025-03-21 18:11:49 [FINE] Skipped plugin class forestry.plugins.PluginForestryArboriculture because preconditions were not met.
+2025-03-21 18:11:49 [FINE] Skipped plugin class forestry.plugins.PluginTFCraft because preconditions were not met.
+2025-03-21 18:11:49 [FINE] Skipped plugin class forestry.plugins.PluginTwilightForest because preconditions were not met.
+2025-03-21 18:11:49 [FINER] Initializing mod_Gammabright
+2025-03-21 18:11:49 [FINER] Initializing IC2 Resistors
+2025-03-21 18:11:49 [FINER] Initializing mod_IC2NuclearControl
+2025-03-21 18:11:49 [FINER] Initializing mod_LogisticsPipes
+2025-03-21 18:11:49 [FINER] Initializing mod_LumySkinPatch
+2025-03-21 18:11:49 [INFO] [LumySkinPatch] Patching ahw to fix skin issue on Minecraft 1.2.5 ...
+2025-03-21 18:11:49 [INFO] [LumySkinPatch] ahw patched!
+2025-03-21 18:11:49 [INFO] [LumySkinPatch] Patching mx to fix skin issue on Minecraft 1.2.5 ...
+2025-03-21 18:11:49 [INFO] [LumySkinPatch] mx patched!
+2025-03-21 18:11:49 [FINER] Initializing mod_MAtmos_forModLoader
+2025-03-21 18:11:49 [FINER] Initializing mod_IronChest
+2025-03-21 18:11:49 [FINER] Initializing mod_GraviSuite
+2025-03-21 18:11:49 [FINER] Initializing mod_PortalGun
+2025-03-21 18:11:49 [FINER] Initializing mod_Railcraft
+2025-03-21 18:11:49 [FINER] [Railcraft] Core Module: Bronze detected, adding alternative minecart recipe: ingotBronze, id=30246
+2025-03-21 18:11:49 [FINER] [Railcraft] Core Module: Bronze detected, adding alternative minecart recipe: ingotBronze, id=5261
+2025-03-21 18:11:49 [FINER] [Railcraft] Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreTin, id=248 meta=0
+2025-03-21 18:11:49 [FINER] [Railcraft] Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: woodRubber, id=243 meta=0
+2025-03-21 18:11:49 [FINER] [Railcraft] Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreUranium, id=247 meta=0
+2025-03-21 18:11:49 [FINER] [Railcraft] Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreCopper, id=249 meta=0
+2025-03-21 18:11:49 [FINER] [Railcraft] IC2 Module: Tin detected, adding Energy Detector recipe: id=30247
+2025-03-21 18:11:49 [FINER] [Railcraft] IC2 Module: Tin detected, adding Energy Detector recipe: id=5260
+2025-03-21 18:11:49 [FINER] Initializing mod_RedPowerControl
+2025-03-21 18:11:49 [FINER] Initializing mod_RedPowerCore
+2025-03-21 18:11:49 [FINER] Initializing mod_RedPowerLighting
+2025-03-21 18:11:49 [FINER] Initializing mod_RedPowerLogic
+2025-03-21 18:11:49 [FINER] Initializing mod_RedPowerMachine
+2025-03-21 18:11:49 [FINER] Initializing mod_RedPowerWiring
+2025-03-21 18:11:49 [FINER] Initializing mod_SneakyPipes
+2025-03-21 18:11:49 [FINER] Initializing Steve's Carts
+2025-03-21 18:11:49 [FINER] Initializing mod_WirelessRedstoneCore
+2025-03-21 18:11:49 [FINER] Initializing mod_WirelessRedstoneAddons
+2025-03-21 18:11:49 [FINER] Initializing mod_WirelessRedstoneRedPower
+2025-03-21 18:11:49 [FINER] [Railcraft] IC2 Module: Tin detected, adding Energy Detector recipe: id=1257
+2025-03-21 18:11:49 [FINE] Starting BuildCraft 3.1.5
+2025-03-21 18:11:49 [FINE] Copyright (c) SpaceToad, 2011
+2025-03-21 18:11:49 [FINE] http://www.mod-buildcraft.com
+2025-03-21 18:11:49 [FINER] Initializing mod_ThaumCraft
+2025-03-21 18:11:50 [FINE] Mod initialization complete
+2025-03-21 18:11:50 [FINE] Beginning mod post-initialization
+2025-03-21 18:11:50 [FINER] Post-initializing mod_CodeChickenCore
+2025-03-21 18:11:50 [FINER] Post-initializing mod_WorldEditCUI
+2025-03-21 18:11:50 [FINER] Post-initializing mod_Shelf
+2025-03-21 18:11:50 [FINER] Post-initializing mod_NotEnoughItems
+2025-03-21 18:11:50 [FINER] Post-initializing mod_MinecraftForge
+2025-03-21 18:11:50 [FINER] Post-initializing mod_InvTweaks
+2025-03-21 18:11:50 [FINER] Post-initializing mod_dynamiclights
+2025-03-21 18:11:50 [FINER] Post-initializing mod_3DItems
+2025-03-21 18:11:50 [FINER] Post-initializing mod_ReiMinimap
+2025-03-21 18:11:50 [FINER] Post-initializing mod_IC2
+2025-03-21 18:11:50 [FINER] Post-initializing mod_IC2AdvancedMachines
+2025-03-21 18:11:50 [FINE] Overriding /gui/items.png @ 102 with /ic2/sprites/refinedIronDust.png. 83 slots remaining
+2025-03-21 18:11:50 [FINER] Post-initializing mod_AdditionalBuildcraftObjects
+2025-03-21 18:11:50 [FINER] Post-initializing mod_BuildCraftCore
+2025-03-21 18:11:50 [FINER] Post-initializing mod_BuildCraftBuilders
+2025-03-21 18:11:50 [FINER] Post-initializing mod_BuildCraftEnergy
+2025-03-21 18:11:50 [FINER] Post-initializing mod_BuildCraftFactory
+2025-03-21 18:11:50 [FINER] Post-initializing mod_BuildCraftTransport
+2025-03-21 18:11:50 [FINER] Post-initializing mod_BuildCraftSilicon
+2025-03-21 18:11:50 [FINER] Post-initializing mod_AdditionalPipes
+2025-03-21 18:11:50 [FINER] Post-initializing mod_CraftableDoubleSlab
+2025-03-21 18:11:50 [FINER] Post-initializing mod_EECraftableDoubleSlabAddon
+2025-03-21 18:11:50 [FINER] Post-initializing mod_EE
+2025-03-21 18:11:50 [FINER] Post-initializing mod_EnderStorage
+2025-03-21 18:11:50 [FINER] Post-initializing mod_RedPowerWorld
+2025-03-21 18:11:50 [FINER] [Railcraft] Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreSilver, id=140 meta=3
+2025-03-21 18:11:50 [FINER] [Railcraft] Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreTin, id=140 meta=4
+2025-03-21 18:11:50 [FINER] [Railcraft] Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreCopper, id=140 meta=5
+2025-03-21 18:11:50 [FINER] [Railcraft] Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: woodRubber, id=143 meta=0
+2025-03-21 18:11:50 [FINER] Post-initializing mod_Forestry
+2025-03-21 18:11:50 [FINE] Using buildcraft.energy.PneumaticPowerFramework as framework.
+2025-03-21 18:11:50 [FINER] Registering ore apatite.
+2025-03-21 18:11:50 [FINER] [Railcraft] Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreApatite, id=198 meta=0
+2025-03-21 18:11:50 [FINER] [Railcraft] Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreCopper, id=198 meta=1
+2025-03-21 18:11:50 [FINER] [Railcraft] Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreTin, id=198 meta=2
+2025-03-21 18:11:50 [FINEST] Registering boiler package: Apiary (Meta: 7)
+2025-03-21 18:11:50 [FINEST] Registering mill package: Apiarist's Chest (Meta: 3)
+2025-03-21 18:11:50 [FINEST] Registering mill package: Analyzer (Meta: 4)
+2025-03-21 18:11:50 [FINEST] Registering planter package: Arboretum (Meta: 0)
+2025-03-21 18:11:50 [FINEST] Registering planter package: Farm (Meta: 1)
+2025-03-21 18:11:50 [FINEST] Registering planter package: Rubber Plantation (Meta: 2)
+2025-03-21 18:11:50 [FINEST] Registering planter package: Pumpkin Farm (Meta: 3)
+2025-03-21 18:11:50 [FINEST] Registering planter package: Peat Bog (Meta: 4)
+2025-03-21 18:11:50 [FINEST] Registering planter package: Mushroom Farm (Meta: 5)
+2025-03-21 18:11:50 [FINEST] Registering planter package: Netherwart Farm (Meta: 6)
+2025-03-21 18:11:50 [FINEST] Registering harvester package: Logger (Meta: 0)
+2025-03-21 18:11:50 [FINEST] Registering harvester package: Combine (Meta: 1)
+2025-03-21 18:11:50 [FINEST] Registering harvester package: Rubber Harvester (Meta: 2)
+2025-03-21 18:11:50 [FINEST] Registering harvester package: Pumpkin Harvester (Meta: 3)
+2025-03-21 18:11:50 [FINEST] Registering harvester package: Turbary (Meta: 4)
+2025-03-21 18:11:50 [FINEST] Registering harvester package: Cacti Harvester (Meta: 5)
+2025-03-21 18:11:50 [FINEST] Registering harvester package: Mushroom Picker (Meta: 6)
+2025-03-21 18:11:50 [FINEST] Registering harvester package: Sugar Cane Harvester (Meta: 7)
+2025-03-21 18:11:50 [FINEST] Registering harvester package: Infernal Combine (Meta: 8)
+2025-03-21 18:11:50 [FINEST] Registering mill package: Forester (Meta: 0)
+2025-03-21 18:11:50 [FINEST] Registering mill package: Treetap (Meta: 2)
+2025-03-21 18:11:50 [FINEST] Registering engine package: Biogas Engine (Meta: 0)
+2025-03-21 18:11:50 [FINEST] Registering engine package: Peat-Fired Engine (Meta: 1)
+2025-03-21 18:11:50 [FINEST] Registering engine package: Electrical Engine (Meta: 2)
+2025-03-21 18:11:50 [FINEST] Registering boiler package: Bio Power Generator (Meta: 4)
+2025-03-21 18:11:50 [FINEST] Registering boiler package: Fermenter (Meta: 0)
+2025-03-21 18:11:50 [FINEST] Registering boiler package: Still (Meta: 1)
+2025-03-21 18:11:50 [FINEST] Registering boiler package: Bottler (Meta: 2)
+2025-03-21 18:11:50 [FINEST] Registering boiler package: Raintank (Meta: 3)
+2025-03-21 18:11:51 [FINEST] Registering boiler package: Carpenter (Meta: 5)
+2025-03-21 18:11:51 [FINEST] Registering boiler package: Moistener (Meta: 6)
+2025-03-21 18:11:51 [FINEST] Registering boiler package: Centrifuge (Meta: 8)
+2025-03-21 18:11:51 [FINEST] Registering boiler package: Squeezer (Meta: 9)
+2025-03-21 18:11:51 [FINEST] Registering boiler package: Thermionic Fabricator (Meta: 11)
+2025-03-21 18:11:51 [FINEST] Registering mill package: Rainmaker (Meta: 1)
+2025-03-21 18:11:51 [FINEST] Registering mill package: Mailbox (Meta: 5)
+2025-03-21 18:11:51 [FINEST] Registering mill package: Trader (Meta: 6)
+2025-03-21 18:11:51 [FINEST] Registering mill package: Philatelist (Meta: 7)
+2025-03-21 18:11:51 [FINER] Post-initializing mod_Gammabright
+2025-03-21 18:11:51 [FINER] Post-initializing IC2 Resistors
+2025-03-21 18:11:51 [FINER] Post-initializing mod_IC2NuclearControl
+2025-03-21 18:11:51 [FINER] Post-initializing mod_LogisticsPipes
+2025-03-21 18:11:51 [FINE] Additional pipes detected, adding compatibility
+2025-03-21 18:11:51 [FINER] Post-initializing mod_LumySkinPatch
+2025-03-21 18:11:51 [FINER] Post-initializing mod_MAtmos_forModLoader
+2025-03-21 18:11:51 [FINER] Post-initializing mod_IronChest
+2025-03-21 18:11:51 [FINE] mod_IronChest registered chests with Equivalent Exchange
+2025-03-21 18:11:51 [FINER] Post-initializing mod_GraviSuite
+2025-03-21 18:11:51 [FINER] Post-initializing mod_PortalGun
+2025-03-21 18:11:51 [FINER] Post-initializing mod_Railcraft
+2025-03-21 18:11:51 [FINER] [Railcraft] Factory Module: Refined Iron detected, adding alternative recipes: ingotRefinedIron, id=30249
+2025-03-21 18:11:51 [FINER] [Railcraft] Factory Module: Bronze detected, adding alternative recipes: ingotBronze, id=30246
+2025-03-21 18:11:51 [FINER] [Railcraft] Factory Module: Bronze detected, adding alternative recipes: ingotBronze, id=5261
+2025-03-21 18:11:51 [FINER] Post-initializing mod_RedPowerControl
+2025-03-21 18:11:51 [FINER] Post-initializing mod_RedPowerCore
+2025-03-21 18:11:51 [FINER] Post-initializing mod_RedPowerLighting
+2025-03-21 18:11:51 [FINER] Post-initializing mod_RedPowerLogic
+2025-03-21 18:11:51 [FINER] Post-initializing mod_RedPowerMachine
+2025-03-21 18:11:51 [FINER] Post-initializing mod_RedPowerWiring
+2025-03-21 18:11:51 [FINER] Post-initializing mod_SneakyPipes
+2025-03-21 18:11:51 [FINER] Post-initializing Steve's Carts
+2025-03-21 18:11:51 [FINER] Post-initializing mod_WirelessRedstoneCore
+2025-03-21 18:11:51 [FINER] Post-initializing mod_WirelessRedstoneAddons
+2025-03-21 18:11:51 [FINER] Post-initializing mod_WirelessRedstoneRedPower
+2025-03-21 18:11:51 [FINER] Post-initializing mod_ThaumCraft
+2025-03-21 18:11:51 [FINE] Mod post-initialization complete
+2025-03-21 18:11:51 [INFO] Forge Mod Loader load complete, 47 mods loaded
+2025-03-21 18:12:04 [FINER] Registered texture override 5 (5) on Portal_TextureAnimation (52)
+2025-03-21 18:12:04 [FINER] Registered texture override 252 (252) on FXAnimatedTexture (0)
+2025-03-21 18:12:04 [FINER] Registered texture override 253 (253) on FXAnimatedTexture (0)
+2025-03-21 18:12:04 [FINER] Registered texture override 254 (254) on FXAnimatedTexture (0)
+2025-03-21 18:12:04 [FINER] Registered texture override 61 (61) on TextureVoidCompassFX (1)
+2025-03-21 18:12:04 [FINER] Registered texture override 239 (239) on TextureAnimFX (0)
+2025-03-21 18:12:04 [FINER] Registered texture override 255 (255) on TextureAnimFX (0)
+2025-03-21 18:12:04 [FINER] Registered texture override 102 (102) on /gui/items.png (231)
+2025-03-21 18:12:04 [INFO] [Thaumcraft] Loading custom sounds.
+2025-03-21 18:12:04 [INFO] [Thaumcraft] Loaded 0 research projects.
+2025-03-21 18:12:04 [INFO] [Thaumcraft] Loaded 2 special tiles.
+2025-03-21 18:12:04 [INFO] [Thaumcraft] Loaded 1354 auras.
+2025-03-21 18:12:05 [INFO] Old IC2 recipe handlers not registred. Trying use other way.
+2025-03-21 18:12:05 [FINE] Secret recipe hiding in IC2: enabled
+2025-03-21 18:12:05 [FINE] [EE2] Loaded EE2-IC2 Addon
+2025-03-21 18:12:05 [FINE] [EE2] Loaded EE2-IC2 Addon
+2025-03-21 18:12:05 [FINE] [EE2] Loaded EE2-RP2 Core Addon
+2025-03-21 18:12:05 [FINE] [EE2] Loaded EE2-RP2 World Addon
+2025-03-21 18:12:05 [FINER] [EE2] Forestry detected; attempting to initialize Forestry addon
+2025-03-21 18:12:05 [FINER] [EE2] Forestry addon initialized
+2025-03-21 18:12:05 [FINE] [EE2] Loaded EE2-IC2 Addon
+2025-03-21 18:12:05 [FINE] [EE2] Loaded EE2-RP2 Core Addon
+2025-03-21 18:12:05 [FINE] [Railcraft] IC2 Module: IC2 Detected, creating Energy Cart and Energy Loader recipes.
+2025-03-21 18:12:05 [INFO] [Thaumcraft] Saving data.
+2025-03-21 18:12:06 [INFO] [Thaumcraft] Saving data.
+2025-03-21 18:12:11 [INFO] Old IC2 recipe handlers has been removed
+2025-03-21 18:12:45 [INFO] [Thaumcraft] Saving data.

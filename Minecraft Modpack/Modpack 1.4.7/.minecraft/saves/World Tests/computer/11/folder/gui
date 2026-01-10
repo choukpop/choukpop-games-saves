@@ -1,0 +1,13 @@
+term.setBackgroundColor(colors.black)
+term.setTextColor(colors.white)
+
+local monitor = peripheral.wrap("right")
+monitor.setBackgroundColor(colors.blue)
+monitor.setTextColor(colors.white)
+write("ChouKpop")
+
+
+
+
+
+

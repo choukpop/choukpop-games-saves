@@ -1,0 +1,43 @@
+// Configuration File. Enter custom shiny Items here if you want to.
+//
+// Specification:
+// ItemID:MaximalBrightness:Lightrange:ItemLightTimeLimit:WorksUnderwater
+//
+//
+// note ItemLightTimeLimit and WorksUnderwater are optional. You do not need to specify values. Defaults are -1 (shines so long the item exists) and 1 (works underwater)
+// you MUST put the values in the order provided. If you only want to change WorksUnderwater, input -1 for ItemTimeLimit
+// Time Limit is in Seconds
+//
+// Like this: 50:15:31:-1:0
+//
+//
+// for Item IDs consult http://www.minecraftwiki.net/wiki/Data_values. Supports custom IDs. Supports worn armor pieces.
+// Brightness ranges from 9 (barely visible) to 15 (sunlit)
+//
+// oh and you can specify the toggle button
+//ToggleButton:L
+//
+//
+// default - Torches
+50:15:31:-1:0
+//
+// default - Glowstone
+89:12:25
+//
+// default - Glowstone Dust
+348:10:21
+//
+// default - Lit Pumpkin / Jack o Lantern
+91:15:31
+//
+// default - Bucket of Lava
+327:15:31
+//
+// default - Redstone
+331:10:21
+//
+// default - Redstone Torch
+76:10:21
+//
+// default - Ambrosium Torch (Aethermod)
+//182:15:31

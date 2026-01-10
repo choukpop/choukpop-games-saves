@@ -1,0 +1,96 @@
+music:0.0
+sound:0.6056338
+invertYMouse:false
+mouseSensitivity:0.6056338
+fov:1.0
+gamma:0.0
+viewDistance:1
+guiScale:3
+particles:2
+bobView:false
+anaglyph3d:false
+advancedOpengl:true
+fpsLimit:0
+difficulty:0
+fancyGraphics:false
+ao:0
+clouds:false
+skin:Faithful32 1.6.4.zip
+lastServer:
+lang:en_US
+chatVisibility:0
+chatColors:true
+chatLinks:true
+chatLinksPrompt:true
+chatOpacity:1.0
+serverTextures:false
+snooperEnabled:true
+fullscreen:false
+enableVsync:false
+hideServerAddress:false
+advancedItemTooltips:true
+pauseOnLostFocus:true
+showCape:true
+touchscreen:false
+overrideWidth:0
+overrideHeight:0
+heldItemTooltips:true
+chatHeightFocused:1.0
+chatHeightUnfocused:0.44366196
+chatScale:1.0
+chatWidth:1.0
+key_key.attack:-100
+key_key.use:-99
+key_key.forward:17
+key_key.left:30
+key_key.back:31
+key_key.right:32
+key_key.jump:57
+key_key.sneak:42
+key_key.drop:16
+key_key.inventory:18
+key_key.chat:14
+key_key.playerlist:15
+key_key.pickItem:-98
+key_Zoom:44
+key_key.command:28
+key_key.tarmor:24
+key_key.tcapes.reload:88
+key_IC2 ALT Key:0
+key_IC2 Boost Key:20
+key_IC2 Mode Switch Key:52
+key_IC2 Side Inventory Key:51
+key_IC2 Hub Expand Key:0
+key_Gravi Fly Key:33
+key_key.extra:0
+key_key.charge:0
+key_key.toggle:0
+key_key.release:0
+key_Activate Veinminer:33
+key_Toggle chunk loading boundries:0
+key_key.backpack.openBackpack:47
+key_Mekanism Mode Switch:53
+key_Mekanism Voice:0
+key_[GC] Galaxy Map:39
+key_[GC] Open Spaceship Inventory:33
+key_[GC] Toggle Sensor Goggles Mode:40
+key_[GC] Vehicle Forward Key:17
+key_[GC] Vehicle Backward Key:31
+key_[GC] Vehicle Left Key:30
+key_[GC] Vehicle Right Key:32
+key_[GC] Vehicle Up Key:57
+key_[GC] Vehicle Down Key:42
+key_Gammabright:34
+key_Brighten:0
+key_Darken:0
+key_Reset Gamma:0
+key_Change Wand Focus:0
+key_Cloud:0
+key_Empower/Quell Flux Tool/Weapon:49
+key_key.craftingGrid:0
+key_key.control:29
+key_waila.keybind.wailaconfig:82
+key_waila.keybind.wailadisplay:0
+key_waila.keybind.liquid:0
+key_waila.keybind.recipe:0
+key_waila.keybind.usage:0

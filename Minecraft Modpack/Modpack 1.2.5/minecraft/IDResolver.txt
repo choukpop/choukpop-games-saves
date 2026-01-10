@@ -1,0 +1,20 @@
+May 23, 2015 10:14:32 PM IDResolver reloadIDs
+INFO: IDResolver - Loaded 1 IDs sucessfully.
+May 23, 2015 10:14:32 PM IDResolver reloadIDs
+INFO: IDResolver - Loaded 2 Mod Priorities sucessfully.
+May 23, 2015 10:14:32 PM IDResolver updateTickSettings
+INFO: IDResolver - 'UpdateTickSettings' called.
+May 23, 2015 10:14:32 PM mod_IDResolver <clinit>
+INFO: IDResolver - Unable to get itemSpritesLeft field from Modloader. Assuming FML Handling.
+May 23, 2015 10:14:32 PM mod_IDResolver <clinit>
+INFO: ID Resolver - Block hook is disabled or not working! Block conflicts will not be resolved correctly.
+May 23, 2015 10:14:32 PM mod_IDResolver <clinit>
+INFO: ID Resolver - Item hook is disabled or not working! Item conflicts will not be resolved correctly.
+May 23, 2015 10:14:40 PM IDResolver reloadIDs
+INFO: IDResolver - Loaded 1 IDs sucessfully.
+May 23, 2015 10:14:40 PM IDResolver reloadIDs
+INFO: IDResolver - Loaded 2 Mod Priorities sucessfully.
+May 23, 2015 10:14:40 PM IDResolver updateTickSettings
+INFO: IDResolver - 'UpdateTickSettings' called.
+May 23, 2015 10:14:40 PM IDResolver updateTickSettings
+INFO: IDResolver - 'UpdateTickSettings' called.

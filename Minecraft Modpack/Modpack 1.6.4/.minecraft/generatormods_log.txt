@@ -1,0 +1,12 @@
+Probability of ruin generation attempt per chunk explored is 0.025, with 1 tries per chunk.
+There was a problem loading the great wall mod: Could not find directory /greatwall in the config folder E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.6.4\.minecraft\config\generatormods!
+There was a problem loading the walled city mod: Could not find directory /walledcity in the config folder E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.6.4\.minecraft\config\generatormods!
+Probability of ruin generation attempt per chunk explored is 0.025, with 1 tries per chunk.
+There was a problem loading the great wall mod: Could not find directory /greatwall in the config folder E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.6.4\.minecraft\config\generatormods!
+There was a problem loading the walled city mod: Could not find directory /walledcity in the config folder E:\Programas Sem Instalacao\MultiMC\instances\Modpack 1.6.4\.minecraft\config\generatormods!
+Probability of ruin generation attempt per chunk explored is 0.025, with 1 tries per chunk.
+There was a problem loading the great wall mod: Could not find directory /greatwall in the config folder E:\Programas Sem Instalacao\Prism Launcher\instances\Modpack 1.6.4\.minecraft\config\generatormods!
+There was a problem loading the walled city mod: Could not find directory /walledcity in the config folder E:\Programas Sem Instalacao\Prism Launcher\instances\Modpack 1.6.4\.minecraft\config\generatormods!
+Probability of ruin generation attempt per chunk explored is 0.025, with 1 tries per chunk.
+There was a problem loading the great wall mod: Could not find directory /greatwall in the config folder E:\Programas Sem Instalacao\Prism Launcher\instances\Modpack 1.6.4\.minecraft\config\generatormods!
+There was a problem loading the walled city mod: Could not find directory /walledcity in the config folder E:\Programas Sem Instalacao\Prism Launcher\instances\Modpack 1.6.4\.minecraft\config\generatormods!
