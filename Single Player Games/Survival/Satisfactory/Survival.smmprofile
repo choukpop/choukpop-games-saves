@@ -25,6 +25,10 @@
         "version": ">=0.0.0",
         "enabled": false
       },
+      "AlwaysAurora": {
+        "version": ">=0.0.0",
+        "enabled": true
+      },
       "ArgualFluidPressurizer": {
         "version": ">=0.0.0",
         "enabled": true
@@ -484,6 +488,24 @@
           }
         },
         "version": "1.0.12"
+      },
+      "AlwaysAurora": {
+        "dependencies": null,
+        "targets": {
+          "LinuxServer": {
+            "hash": "678acef060be10bfb3b7f4d0a204ff4217b64192f4e3b3a1627bd205b705555a",
+            "link": "https://api.ficsit.app/v1/version/ExdEcHVpFmPhto/LinuxServer/download"
+          },
+          "Windows": {
+            "hash": "a9796ee43482207ef03be968c956f47dd061cb3fd2ce1d5cd02ce3122ad6b753",
+            "link": "https://api.ficsit.app/v1/version/ExdEcHVpFmPhto/Windows/download"
+          },
+          "WindowsServer": {
+            "hash": "dfb732f8239418634901d2e30e313d7c0499076d526afbff5b5b3a2dfc7eda7a",
+            "link": "https://api.ficsit.app/v1/version/ExdEcHVpFmPhto/WindowsServer/download"
+          }
+        },
+        "version": "1.1.0"
       },
       "ArgualFluidPressurizer": {
         "dependencies": null,
