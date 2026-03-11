@@ -67,7 +67,7 @@
       },
       "CreativeCheatButtons": {
         "version": ">=0.0.0",
-        "enabled": false
+        "enabled": true
       },
       "DDRate": {
         "version": ">=0.0.0",
@@ -97,6 +97,10 @@
         "version": ">=0.0.0",
         "enabled": false
       },
+      "EarlyPowerStorage": {
+        "version": ">=0.0.0",
+        "enabled": false
+      },
       "EfficiencyCheckerMod": {
         "version": ">=0.0.0",
         "enabled": true
@@ -114,6 +118,10 @@
         "enabled": true
       },
       "FG_DiscordRP": {
+        "version": ">=0.0.0",
+        "enabled": true
+      },
+      "FastForward": {
         "version": ">=0.0.0",
         "enabled": true
       },
@@ -603,6 +611,24 @@
         },
         "version": "1.3.0"
       },
+      "CreativeCheatButtons": {
+        "dependencies": null,
+        "targets": {
+          "LinuxServer": {
+            "hash": "fd4eecd610796f69fb0a68a39cfbe46cf0351e1363d3ea5668bb332f1a471129",
+            "link": "https://api.ficsit.app/v1/version/7Chxu2MQyBWkvi/LinuxServer/download"
+          },
+          "Windows": {
+            "hash": "edd4653f3b53bd736ff0a36af2bb1bf6812fb691f1dbf4373bb86477dc65073f",
+            "link": "https://api.ficsit.app/v1/version/7Chxu2MQyBWkvi/Windows/download"
+          },
+          "WindowsServer": {
+            "hash": "198a143c094cb0cf8bb05243b09ba66637a533aa65c89715747d1f4c8ef33c81",
+            "link": "https://api.ficsit.app/v1/version/7Chxu2MQyBWkvi/WindowsServer/download"
+          }
+        },
+        "version": "1.0.0"
+      },
       "DDRate": {
         "dependencies": null,
         "targets": {
@@ -802,6 +828,24 @@
           }
         },
         "version": "2.1.5"
+      },
+      "FastForward": {
+        "dependencies": null,
+        "targets": {
+          "LinuxServer": {
+            "hash": "a817c20801e8089186e0051b2e907de098defd7fbd6ca5a5a7ffafd1d7002963",
+            "link": "https://api.ficsit.app/v1/version/4W664nXfDzNV2o/LinuxServer/download"
+          },
+          "Windows": {
+            "hash": "c4b81a27a5c47555ab34860d26571fac6007d2e570ec98f225740c2aab1aca3e",
+            "link": "https://api.ficsit.app/v1/version/4W664nXfDzNV2o/Windows/download"
+          },
+          "WindowsServer": {
+            "hash": "9533d9764044d5826557cfe1f38bc8558ac3d5bd936ea9fb1e734b55fc9eb11d",
+            "link": "https://api.ficsit.app/v1/version/4W664nXfDzNV2o/WindowsServer/download"
+          }
+        },
+        "version": "1.0.6"
       },
       "FasterManualCraftingRedux": {
         "dependencies": null,
