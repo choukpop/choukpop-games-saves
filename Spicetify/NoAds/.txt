@@ -1,0 +1,4 @@
+C:\Users\ChouKpop\AppData\Local\spicetify\Themes
+
+spicetify config current_theme NoAds
+spicetify apply

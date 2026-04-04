@@ -1,0 +1,4 @@
+
+#main-view > div:has(> div[data-testid="test-ref-div"]) {
+    display: none !important;
+}
