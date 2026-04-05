@@ -249,11 +249,12 @@
             "ImageZoom": {
                 "enabled": true,
                 "size": 100,
-                "zoom": 2,
+                "zoom": 1,
                 "saveZoomValues": true,
                 "nearestNeighbour": false,
                 "square": false,
-                "zoomSpeed": 0.5
+                "zoomSpeed": 0.5,
+                "invertScroll": true
             },
             "ImplicitRelationships": {
                 "enabled": false
@@ -286,9 +287,6 @@
                 "enabled": false
             },
             "MessageLogger": {
-                "enabled": false
-            },
-            "MessageTags": {
                 "enabled": false
             },
             "MoreQuickReactions": {
@@ -497,12 +495,13 @@
             "Translate": {
                 "enabled": true,
                 "autoTranslate": false,
-                "receivedInput": "pt",
+                "receivedInput": "en",
                 "service": "google",
-                "receivedOutput": "en",
+                "receivedOutput": "pt",
                 "sentInput": "pt",
                 "sentOutput": "en",
-                "showAutoTranslateTooltip": true
+                "showAutoTranslateTooltip": true,
+                "deeplApiKey": ""
             },
             "TypingIndicator": {
                 "enabled": true,
@@ -583,6 +582,12 @@
             },
             "SupportHelper": {
                 "enabled": true
+            },
+            "CustomCommands": {
+                "enabled": false
+            },
+            "NoDefaultHangStatus": {
+                "enabled": false
             }
         },
         "uiElements": {
@@ -599,7 +604,7 @@
             "authenticated": false,
             "url": "https://api.vencord.dev/",
             "settingsSync": false,
-            "settingsSyncVersion": 1768658128349
+            "settingsSyncVersion": 1775270496731
         }
     },
     "quickCss": ""
