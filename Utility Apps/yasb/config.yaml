@@ -29,7 +29,7 @@ bars:
       left:
       - home
       - active_window
-      - taskbar
+      # - taskbar
       center:
       - quick_launch
       - launchpad
@@ -38,7 +38,7 @@ bars:
       - update_check
       - media
       right:
-      - systray
+      # - systray
       - cpu
       - memory
       - gpu
@@ -608,7 +608,7 @@ widgets:
       blur_background: True
       animation_duration: 300
       button_row: 3
-      menu_style: "popup"
+      menu_style: "fullscreen"
       popup:
         blur: true
         round_corners: true

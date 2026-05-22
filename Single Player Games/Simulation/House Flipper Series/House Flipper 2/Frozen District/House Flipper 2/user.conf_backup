@@ -1,18 +1,24 @@
 {
-  "activeProfile": 1,
+  "activeProfile": 0,
   "globalVerticalMovement": true,
   "measurementsSystem": 0,
   "inputActionMode": 0,
+  "cameraMode": 0,
   "displayedTimeType": 1,
   "modsEnabled": true,
-  "lastVersion": "1.9.4.0",
+  "lastVersion": "1.12.0.0",
   "moddingTermsOfUseAccepted": false,
   "sandboxAutosaveEnabled": true,
   "sandboxAutosaveInterval": {
-    "intervalMins": 5
+    "intervalMins": 15
   },
   "recapDisabled": true,
+  "inviteOnlyLobby": false,
   "photonRegion": "eu",
-  "gamesightPopupShown": true,
-  "gamesightEnabled": true
+  "recapQuality": 0,
+  "crosshairSpriteId": 2,
+  "crosshairColorIndex": 5,
+  "crosshairSize": 0,
+  "gamesightEnabled": true,
+  "gamesightPopupShown": true
 }
