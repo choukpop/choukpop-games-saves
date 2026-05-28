@@ -28,15 +28,13 @@ Direct3D:
 [Physics::Module] Threading Mode: Multi-Threaded
 <RI> Initializing input.
 Using Windows.Gaming.Input
-UnloadTime: 0.377300 ms
+UnloadTime: 0.458900 ms
 ThreadLog initialized.
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 
-Direct3D: detected that using refresh rate causes time drift. Will stop trusting refresh rate until the game window is moved.
-Direct3D: detected that vsync is broken (it does not limit frame rate properly). Delta time will now be calculated using cpu-side time stampling until the game window is moved.
 [Executor] Start
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -87,7 +85,7 @@ Empyrean.HouseFlipper2.<LoadSupermoduleFromBuild>d__7:MoveNext()
 Cysharp.Threading.Tasks.<RunOnThreadPool>d__78:MoveNext()
 Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
 
-[ line -1416373144]
+[ line 454614056]
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -103,7 +101,7 @@ Empyrean.HouseFlipper2.<LoadSupermoduleFromBuild>d__7:MoveNext()
 Cysharp.Threading.Tasks.<RunOnThreadPool>d__78:MoveNext()
 Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
 
-[ line -1416373496]
+[ line 454613704]
 
 The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -119,7 +117,7 @@ Empyrean.HouseFlipper2.<LoadSupermoduleFromBuild>d__7:MoveNext()
 Cysharp.Threading.Tasks.<RunOnThreadPool>d__78:MoveNext()
 Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
 
-[ line -1416373144]
+[ line 454614056]
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -135,7 +133,7 @@ Empyrean.HouseFlipper2.<LoadSupermoduleFromBuild>d__7:MoveNext()
 Cysharp.Threading.Tasks.<RunOnThreadPool>d__78:MoveNext()
 Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
 
-[ line -1416373496]
+[ line 454613704]
 
 The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -151,7 +149,7 @@ Empyrean.HouseFlipper2.<LoadSupermoduleFromBuild>d__7:MoveNext()
 Cysharp.Threading.Tasks.<RunOnThreadPool>d__78:MoveNext()
 Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
 
-[ line -1416373144]
+[ line 454614056]
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -167,7 +165,7 @@ Empyrean.HouseFlipper2.<LoadSupermoduleFromBuild>d__7:MoveNext()
 Cysharp.Threading.Tasks.<RunOnThreadPool>d__78:MoveNext()
 Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
 
-[ line -1416373496]
+[ line 454613704]
 
 The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -183,7 +181,7 @@ Empyrean.HouseFlipper2.<LoadSupermoduleFromBuild>d__7:MoveNext()
 Cysharp.Threading.Tasks.<RunOnThreadPool>d__78:MoveNext()
 Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
 
-[ line -1416373144]
+[ line 454614056]
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -199,7 +197,7 @@ Empyrean.HouseFlipper2.<LoadSupermoduleFromBuild>d__7:MoveNext()
 Cysharp.Threading.Tasks.<RunOnThreadPool>d__78:MoveNext()
 Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
 
-[ line -1416373496]
+[ line 454613704]
 
 Hf2 Splash Screen 4K (UnityEngine.VideoClip) ended playing
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
@@ -229,11 +227,35 @@ UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:LogWarning(Object)
 FMODUnity.RuntimeManager:Update()
 
+FailedStartupDetectionSystem OnModeExit Empyrean.HouseFlipper2.EarlyBootstrapMode -> Empyrean.HouseFlipper2.EarlyStartupMode
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.StartupWatchdogSystem:OnModeExit()
+Empyrean.ExecutorFramework.Phase`1:Execute(T)
+Empyrean.ExecutorFramework.Phase`1:Execute()
+Empyrean.ExecutorFramework.ExecutorMode:ModeExit()
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
 [Executor] Entering mode EarlyStartupMode
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+FailedStartupDetectionSystem OnModeExit Empyrean.HouseFlipper2.EarlyStartupMode -> Empyrean.HouseFlipper2.StartupMode
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.StartupWatchdogSystem:OnModeExit()
+Empyrean.ExecutorFramework.Phase`1:Execute(T)
+Empyrean.ExecutorFramework.Phase`1:Execute()
+Empyrean.ExecutorFramework.ExecutorMode:ModeExit()
 Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
 Empyrean.ExecutorFramework.Executor:Update()
 
@@ -254,7 +276,7 @@ Empyrean.ExecutorFramework.Executor:GetOrMakeMode(Type)
 Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
 Empyrean.ExecutorFramework.Executor:Update()
 
-[ line -1416373240]
+[ line 454613912]
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -273,7 +295,7 @@ Empyrean.ExecutorFramework.Executor:GetOrMakeMode(Type)
 Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
 Empyrean.ExecutorFramework.Executor:Update()
 
-[ line -1416373592]
+[ line 454613560]
 
 The referenced script (Coffee.UIExtensions.UIParticle) on this Behaviour is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -292,7 +314,7 @@ Empyrean.ExecutorFramework.Executor:GetOrMakeMode(Type)
 Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
 Empyrean.ExecutorFramework.Executor:Update()
 
-[ line -1416374264]
+[ line 454612888]
 
 The referenced script on this Behaviour (Game Object 'Particles') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -311,7 +333,7 @@ Empyrean.ExecutorFramework.Executor:GetOrMakeMode(Type)
 Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
 Empyrean.ExecutorFramework.Executor:Update()
 
-[ line -1416373592]
+[ line 454613560]
 
 [Steam] DLC Installed: Deluxe
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
@@ -453,28 +475,28 @@ Empyrean.HouseFlipper2.HF2SplashScreen:UnloadTheStuff()
 Build information
 Release: True
 
-Identifier: cor-20260520-174159-Core-win-b4707b38+13
+Identifier: cor-20260522-041042-Core-win-7dbb2615+13
 Project: Core
 Platform: StandaloneWindows64
-UTC DateTime: 2026-05-20 17:41:59
+UTC DateTime: 2026-05-22 04:10:42
 Unity Version: 6000.3.7f1
 User: builder
-Machine: BLD-15
-Commit Hash: b4707b38abcc21bed75bd3ac6392e679d5b8e9df
-Core Commit Hash: b4707b38abcc21bed75bd3ac6392e679d5b8e9df
-Build link: https://build.empyrean.games/job/HF2-bulk-stable/1603/
+Machine: BLD-10
+Commit Hash: 7dbb261555018d205b98d356b313355c9abd7c5c
+Core Commit Hash: 7dbb261555018d205b98d356b313355c9abd7c5c
+Build link: https://build.empyrean.games/job/HF2-bulk-stable/1611/
 
-Identifier: sup-20260520-173811-Singularity-win-b4707b38+5
+Identifier: sup-20260522-040058-Singularity-win-7dbb2615+5
 Project: Singularity
 Platform: StandaloneWindows64
-UTC DateTime: 2026-05-20 17:38:11
+UTC DateTime: 2026-05-22 04:00:58
 Unity Version: 6000.3.7f1
 User: builder
-Machine: BLD-15
-Commit Hash: b4707b38abcc21bed75bd3ac6392e679d5b8e9df
-Core Commit Hash: b4707b38abcc21bed75bd3ac6392e679d5b8e9df
-Build link: https://build.empyrean.games/job/HF2-bulk-stable/1603/
-App Version: 1.12.0.0
+Machine: BLD-10
+Commit Hash: 7dbb261555018d205b98d356b313355c9abd7c5c
+Core Commit Hash: 7dbb261555018d205b98d356b313355c9abd7c5c
+Build link: https://build.empyrean.games/job/HF2-bulk-stable/1611/
+App Version: 1.12.1.0
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
@@ -491,28 +513,28 @@ Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
 Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
 
 Printing Build Infos for current build
-Identifier: cor-20260520-174159-Core-win-b4707b38+13
+Identifier: cor-20260522-041042-Core-win-7dbb2615+13
 Project: Core
 Platform: StandaloneWindows64
-UTC DateTime: 2026-05-20 17:41:59
+UTC DateTime: 2026-05-22 04:10:42
 Unity Version: 6000.3.7f1
 User: builder
-Machine: BLD-15
-Commit Hash: b4707b38abcc21bed75bd3ac6392e679d5b8e9df
-Core Commit Hash: b4707b38abcc21bed75bd3ac6392e679d5b8e9df
-Build link: https://build.empyrean.games/job/HF2-bulk-stable/1603/
+Machine: BLD-10
+Commit Hash: 7dbb261555018d205b98d356b313355c9abd7c5c
+Core Commit Hash: 7dbb261555018d205b98d356b313355c9abd7c5c
+Build link: https://build.empyrean.games/job/HF2-bulk-stable/1611/
 
 Printing Build Infos for current build
-Identifier: sup-20260520-173811-Singularity-win-b4707b38+5
+Identifier: sup-20260522-040058-Singularity-win-7dbb2615+5
 Project: Singularity
 Platform: StandaloneWindows64
-UTC DateTime: 2026-05-20 17:38:11
+UTC DateTime: 2026-05-22 04:00:58
 Unity Version: 6000.3.7f1
 User: builder
-Machine: BLD-15
-Commit Hash: b4707b38abcc21bed75bd3ac6392e679d5b8e9df
-Core Commit Hash: b4707b38abcc21bed75bd3ac6392e679d5b8e9df
-Build link: https://build.empyrean.games/job/HF2-bulk-stable/1603/
+Machine: BLD-10
+Commit Hash: 7dbb261555018d205b98d356b313355c9abd7c5c
+Core Commit Hash: 7dbb261555018d205b98d356b313355c9abd7c5c
+Build link: https://build.empyrean.games/job/HF2-bulk-stable/1611/
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
@@ -527,7 +549,7 @@ Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
 Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
 Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
 
-[ItemArticleServices] 5901 articles loaded [321] ms.
+[ItemArticleServices] 5901 articles loaded [319] ms.
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
@@ -567,7 +589,7 @@ Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
 Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
 Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
 
-[ line -1416373960]
+[ line 454613272]
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -590,7 +612,7 @@ Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
 Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
 Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
 
-[ line -1416374312]
+[ line 454612920]
 
 The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -613,7 +635,7 @@ Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
 Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
 Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
 
-[ line -1416373960]
+[ line 454613272]
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -636,7 +658,7 @@ Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
 Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
 Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
 
-[ line -1416374312]
+[ line 454612920]
 
 The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -659,7 +681,7 @@ Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
 Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
 Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
 
-[ line -1416373960]
+[ line 454613272]
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -682,7 +704,7 @@ Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
 Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
 Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
 
-[ line -1416374312]
+[ line 454612920]
 
 The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -705,7 +727,7 @@ Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
 Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
 Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
 
-[ line -1416373960]
+[ line 454613272]
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -728,7 +750,7 @@ Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
 Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
 Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
 
-[ line -1416374312]
+[ line 454612920]
 
 The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -751,7 +773,7 @@ Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
 Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
 Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
 
-[ line -1416373960]
+[ line 454613272]
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -774,7 +796,7 @@ Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
 Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
 Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
 
-[ line -1416374312]
+[ line 454612920]
 
 ActiveFiltersDisplayPanel.UpdateDisplay - any filters active = False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
@@ -802,6 +824,18 @@ Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
 Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
 Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
 
+FailedStartupDetectionSystem OnModeExit Empyrean.HouseFlipper2.BootstrapMode -> Empyrean.HouseFlipper2.StartupMode
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.StartupWatchdogSystem:OnModeExit()
+Empyrean.ExecutorFramework.Phase`1:Execute(T)
+Empyrean.ExecutorFramework.Phase`1:Execute()
+Empyrean.ExecutorFramework.ExecutorMode:ModeExit()
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
 OS: Windows 11  (10.0.26200)
 CPU: AMD Ryzen 7 5800X 8-Core Processor 
 GPU: NVIDIA GeForce RTX 4090 type: Direct3D12 version: Direct3D 12 [level 12.2]
@@ -819,7 +853,7 @@ Empyrean.ExecutorFramework.Executor:GetOrMakeMode(Type)
 Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
 Empyrean.ExecutorFramework.Executor:Update()
 
-Free space: 324GB (332 048MB).
+Free space: 341GB (349 686MB).
 Total space: 464GB.
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -869,6 +903,30 @@ Empyrean.ExecutorFramework.Phase`1:Execute(T)
 Empyrean.ExecutorFramework.Phase`1:Execute()
 Empyrean.ExecutorFramework.Executor:Update()
 
+FailedStartupDetectionSystem OnModeExit Empyrean.HouseFlipper2.StartupMode -> Empyrean.HouseFlipper2.ProfileSelectionMode
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.StartupWatchdogSystem:OnModeExit()
+Empyrean.ExecutorFramework.Phase`1:Execute(T)
+Empyrean.ExecutorFramework.Phase`1:Execute()
+Empyrean.ExecutorFramework.ExecutorMode:ModeExit()
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
+FailedStartupDetectionSystem OnModeExit Empyrean.HouseFlipper2.ProfileSelectionMode, time: 29,25163
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.StartupWatchdogSystem:OnModeExit()
+Empyrean.ExecutorFramework.Phase`1:Execute(T)
+Empyrean.ExecutorFramework.Phase`1:Execute()
+Empyrean.ExecutorFramework.ExecutorMode:ModeExit()
+Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
+Empyrean.ExecutorFramework.Executor:Update()
+
 Curl error 42: Callback aborted
 [Executor] Entering mode ProfileSelectionMode
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
@@ -877,41 +935,6 @@ UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
 Empyrean.ExecutorFramework.Executor:Update()
-
-preferredRegionCallback, r = eu, regionChoosingDS.translatedRegions:Europa Ocidental
-EUA, Leste
-EUA, Oeste
-Canadá
-Ásia
-Japão
-Austrália
-América do Sul
-Índia
-Europa Central e Oriental
-Rússia, Leste
-Coréia do Sul
-África do Sul
-Turquia
-EAU
-EUA, Centro-Sul
-Hong Kong
-UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-Empyrean.HouseFlipper2.Networking.PhotonBackend.Regions.RegionChoosingHelper:<RefreshPhotonRegion>b__11_0(String)
-Empyrean.HouseFlipper2.Networking.PhotonBackend.Regions.<<PopulateRegions>g__SelectRegion|1>d:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSource`1:TrySignalCompletion(UniTaskStatus)
-Photon.Realtime.MonoBehaviourEmpty:Update()
-
-Region selected: eu
-UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-Empyrean.HouseFlipper2.Networking.PhotonBackend.Regions.<<PopulateRegions>g__SelectRegion|1>d:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSource`1:TrySignalCompletion(UniTaskStatus)
-Photon.Realtime.MonoBehaviourEmpty:Update()
 
 Unlock Buyers On Activate Profile
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
@@ -927,7 +950,7 @@ UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&
 UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
 UnityEngine.EventSystems.EventSystem:Update()
 
-Steam User: Rabadon's Deathcap
+Steam User: Diana
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
@@ -963,19 +986,6 @@ Empyrean.ExecutorFramework.Phase`1:Execute(T)
 Empyrean.ExecutorFramework.Phase`1:Execute()
 Empyrean.ExecutorFramework.Executor:Update()
 
-Could not override binding as no existing binding was found with the id: 26be97b4-5e88-48a2-b207-1587936a9e0e
-UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-Empyrean.HouseFlipper2.UI.Settings.KeybindingHelper:TranslateJsonBindings(String)
-Empyrean.HouseFlipper2.UI.Settings.<LoadUserRebindings>d__16:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Empyrean.HouseFlipper2.DevTools.<Intercept>d__14`1:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
-Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
-
 [UnloadingHelper] UnloadWhateverIsLoaded starting.
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -986,7 +996,7 @@ Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
 Cysharp.Threading.Tasks.WaitUntilPromise:MoveNext()
 Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
 
-RAM usage (MB): 2 638/32 693 - 8.07 %
+RAM usage (MB): 2 688/32 693 - 8.22 %
 Reason: Started unloading whatever is loaded
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -999,9 +1009,9 @@ Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
 Cysharp.Threading.Tasks.WaitUntilPromise:MoveNext()
 Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
 
-Unloading 6 Unused Serialized files (Serialized files now loaded: 125)
-Unloading 197 unused Assets to reduce memory usage. Loaded Objects now: 168851.
-Total: 107.589600 ms (FindLiveObjects: 9.446600 ms CreateObjectMapping: 12.846400 ms MarkObjects: 84.532700 ms  DeleteObjects: 0.763500 ms)
+Unloading 5 Unused Serialized files (Serialized files now loaded: 125)
+Unloading 197 unused Assets to reduce memory usage. Loaded Objects now: 168881.
+Total: 94.824700 ms (FindLiveObjects: 10.285800 ms CreateObjectMapping: 13.526100 ms MarkObjects: 70.455500 ms  DeleteObjects: 0.556700 ms)
 
 [UnloadingHelper] UnloadWhateverIsLoaded ending.
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
@@ -1011,7 +1021,7 @@ UnityEngine.Debug:Log(Object)
 Empyrean.HouseFlipper2.<UnloadWhateverIsLoaded>d__24:MoveNext()
 UnityEngine.Awaitable:RunContinuation()
 
-RAM usage (MB): 2 634/32 693 - 8.06 %
+RAM usage (MB): 2 684/32 693 - 8.21 %
 Reason: Finished unloading whatever is loaded
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -1032,6 +1042,41 @@ Empyrean.HouseFlipper2.Modding.<<GatherMods>g__GetModsFromSource|0>d:MoveNext()
 Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
 Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
 Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+preferredRegionCallback, r = eu, regionChoosingDS.translatedRegions:Europa Ocidental
+EUA, Leste
+EUA, Oeste
+Canadá
+Ásia
+Japão
+Austrália
+América do Sul
+Índia
+Europa Central e Oriental
+Rússia, Leste
+Coréia do Sul
+África do Sul
+Turquia
+EAU
+EUA, Centro-Sul
+Hong Kong
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.Networking.PhotonBackend.Regions.RegionChoosingHelper:<RefreshPhotonRegion>b__11_0(String)
+Empyrean.HouseFlipper2.Networking.PhotonBackend.Regions.<<PopulateRegions>g__SelectRegion|1>d:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSource`1:TrySignalCompletion(UniTaskStatus)
+Photon.Realtime.MonoBehaviourEmpty:Update()
+
+Region selected: eu
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.Networking.PhotonBackend.Regions.<<PopulateRegions>g__SelectRegion|1>d:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSource`1:TrySignalCompletion(UniTaskStatus)
+Photon.Realtime.MonoBehaviourEmpty:Update()
 
 [ParcelDataStore] Set parcel: 'D1-0 Starter house'
 The previous parcel was: ''
@@ -1070,8 +1115,8 @@ Cysharp.Threading.Tasks.WaitUntilPromise:MoveNext()
 Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 125)
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 169740.
-Total: 82.471300 ms (FindLiveObjects: 8.480700 ms CreateObjectMapping: 10.629900 ms MarkObjects: 63.114300 ms  DeleteObjects: 0.245900 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 169766.
+Total: 88.409000 ms (FindLiveObjects: 8.916800 ms CreateObjectMapping: 13.563800 ms MarkObjects: 65.599700 ms  DeleteObjects: 0.328100 ms)
 
 [UnloadingHelper] UnloadWhateverIsLoaded ending.
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
@@ -1103,13 +1148,20 @@ Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__C
 Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
 Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
 Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
+Empyrean.HouseFlipper2.FrameBalancer`1:ExecuteOn(IEnumerable`1)
+Empyrean.HouseFlipper2.ParcelPersistence.<LoadPuppets>d__81:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.ParcelLoadingSystem:LoadPuppets(ParcelData)
+Empyrean.HouseFlipper2.ParcelPersistence.<LoadParcelFromData>d__73:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.<LoadParcelDataAsync>d__68:MoveNext()
+Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`2:SetResult(T)
+Empyrean.HouseFlipper2.ParcelPersistence.<LoadParcelFromPath>d__70:MoveNext()
 Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+Empyrean.HouseFlipper2.<MigrateParcelString>d__13:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
 
-[ line -1416373208]
+[ line 454612248]
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -1122,13 +1174,72 @@ Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__C
 Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
 Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
 Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
+Empyrean.HouseFlipper2.FrameBalancer`1:ExecuteOn(IEnumerable`1)
+Empyrean.HouseFlipper2.ParcelPersistence.<LoadPuppets>d__81:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.ParcelLoadingSystem:LoadPuppets(ParcelData)
+Empyrean.HouseFlipper2.ParcelPersistence.<LoadParcelFromData>d__73:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.<LoadParcelDataAsync>d__68:MoveNext()
+Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`2:SetResult(T)
+Empyrean.HouseFlipper2.ParcelPersistence.<LoadParcelFromPath>d__70:MoveNext()
 Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+Empyrean.HouseFlipper2.<MigrateParcelString>d__13:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
 
-[ line -1416373560]
+[ line 454611896]
+
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
+Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
+Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
+Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
+Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
+Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
+Empyrean.HouseFlipper2.FrameBalancer`1:ExecuteOn(IEnumerable`1)
+Empyrean.HouseFlipper2.ParcelPersistence.<LoadPuppets>d__81:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.ParcelLoadingSystem:LoadPuppets(ParcelData)
+Empyrean.HouseFlipper2.ParcelPersistence.<LoadParcelFromData>d__73:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.<LoadParcelDataAsync>d__68:MoveNext()
+Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`2:SetResult(T)
+Empyrean.HouseFlipper2.ParcelPersistence.<LoadParcelFromPath>d__70:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.<MigrateParcelString>d__13:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+[ line 454612248]
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
+Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
+Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
+Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
+Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
+Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
+Empyrean.HouseFlipper2.FrameBalancer`1:ExecuteOn(IEnumerable`1)
+Empyrean.HouseFlipper2.ParcelPersistence.<LoadPuppets>d__81:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.ParcelLoadingSystem:LoadPuppets(ParcelData)
+Empyrean.HouseFlipper2.ParcelPersistence.<LoadParcelFromData>d__73:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.<LoadParcelDataAsync>d__68:MoveNext()
+Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`2:SetResult(T)
+Empyrean.HouseFlipper2.ParcelPersistence.<LoadParcelFromPath>d__70:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Empyrean.HouseFlipper2.<MigrateParcelString>d__13:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.<RunOnThreadPool>d__82`1:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+[ line 454611896]
 
 The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -1147,7 +1258,7 @@ Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
 Cysharp.Threading.Tasks.YieldPromise:MoveNext()
 Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
 
-[ line -1416373208]
+[ line 454614008]
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -1166,1010 +1277,7 @@ Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
 Cysharp.Threading.Tasks.YieldPromise:MoveNext()
 Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
 
-[ line -1416373560]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373224]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373224]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373208]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.ParcelDataStore:GetPuppetPrefab(PuppetData)
-Empyrean.HouseFlipper2.ParcelDataStore:CreatePuppetFromData(PuppetData)
-Empyrean.HouseFlipper2.ParcelPersistence.<>c__DisplayClass81_0:<LoadPuppets>g__CreateAndSetupPuppetAndUpdateProgress|0(PuppetData, Int32)
-Empyrean.HouseFlipper2.FrameBalancerIndexer`1:<GetAction>b__3_0(T)
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<ExecuteOn>d__3:MoveNext()
-Empyrean.HouseFlipper2.<Balance>d__6:MoveNext()
-Empyrean.HouseFlipper2.<Continue>d__4:MoveNext()
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.YieldPromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-
-[ line -1416373560]
-
-The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.PuppetSpawner:GetPrefab()
-Empyrean.HouseFlipper2.PuppetSpawner:SpawnPuppet()
-Empyrean.HouseFlipper2.PuppetSpawner:TrySpawn(EnvironmentDataStore)
-Empyrean.HouseFlipper2.PuppetSpawnerUtils:SetupRandomly(IReadOnlyList`1, Int32, int2Bounds, EnvironmentDataStore)
-Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, EnvironmentCustomSettingsData)
-Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
-UnityEngine.Awaitable:RunContinuation()
-
-[ line -1416373480]
+[ line 454613656]
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -2184,7 +1292,7 @@ Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, Enviro
 Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
 UnityEngine.Awaitable:RunContinuation()
 
-[ line -1416373832]
+[ line 454613656]
 
 The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -2199,7 +1307,7 @@ Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, Enviro
 Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
 UnityEngine.Awaitable:RunContinuation()
 
-[ line -1416373480]
+[ line 454613672]
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -2214,7 +1322,22 @@ Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, Enviro
 Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
 UnityEngine.Awaitable:RunContinuation()
 
-[ line -1416373832]
+[ line 454613320]
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.HouseFlipper2.PuppetSpawner:GetPrefab()
+Empyrean.HouseFlipper2.PuppetSpawner:SpawnPuppet()
+Empyrean.HouseFlipper2.PuppetSpawner:TrySpawn(EnvironmentDataStore)
+Empyrean.HouseFlipper2.PuppetSpawnerUtils:SetupRandomly(IReadOnlyList`1, Int32, int2Bounds, EnvironmentDataStore)
+Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, EnvironmentCustomSettingsData)
+Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
+UnityEngine.Awaitable:RunContinuation()
+
+[ line 454613656]
 
 The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -2229,7 +1352,7 @@ Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, Enviro
 Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
 UnityEngine.Awaitable:RunContinuation()
 
-[ line -1416373480]
+[ line 454613672]
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -2244,7 +1367,7 @@ Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, Enviro
 Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
 UnityEngine.Awaitable:RunContinuation()
 
-[ line -1416373832]
+[ line 454613320]
 
 The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -2259,7 +1382,7 @@ Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, Enviro
 Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
 UnityEngine.Awaitable:RunContinuation()
 
-[ line -1416373480]
+[ line 454613672]
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -2274,7 +1397,7 @@ Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, Enviro
 Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
 UnityEngine.Awaitable:RunContinuation()
 
-[ line -1416373832]
+[ line 454613320]
 
 The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -2289,7 +1412,7 @@ Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, Enviro
 Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
 UnityEngine.Awaitable:RunContinuation()
 
-[ line -1416373480]
+[ line 454613672]
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -2304,22 +1427,7 @@ Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, Enviro
 Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
 UnityEngine.Awaitable:RunContinuation()
 
-[ line -1416373832]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.PuppetSpawner:GetPrefab()
-Empyrean.HouseFlipper2.PuppetSpawner:SpawnPuppet()
-Empyrean.HouseFlipper2.PuppetSpawner:TrySpawn(EnvironmentDataStore)
-Empyrean.HouseFlipper2.PuppetSpawnerUtils:SetupRandomly(IReadOnlyList`1, Int32, int2Bounds, EnvironmentDataStore)
-Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, EnvironmentCustomSettingsData)
-Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
-UnityEngine.Awaitable:RunContinuation()
-
-[ line -1416373496]
+[ line 454613320]
 
 The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -2334,7 +1442,7 @@ Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, Enviro
 Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
 UnityEngine.Awaitable:RunContinuation()
 
-[ line -1416373480]
+[ line 454613672]
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -2349,22 +1457,7 @@ Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, Enviro
 Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
 UnityEngine.Awaitable:RunContinuation()
 
-[ line -1416373832]
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
-UnityEngine.AssetBundle:LoadAsset(String)
-Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
-Empyrean.AssetMapping.Locator:GetObject()
-Empyrean.HouseFlipper2.PuppetSpawner:GetPrefab()
-Empyrean.HouseFlipper2.PuppetSpawner:SpawnPuppet()
-Empyrean.HouseFlipper2.PuppetSpawner:TrySpawn(EnvironmentDataStore)
-Empyrean.HouseFlipper2.PuppetSpawnerUtils:SetupRandomly(IReadOnlyList`1, Int32, int2Bounds, EnvironmentDataStore)
-Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, EnvironmentCustomSettingsData)
-Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
-UnityEngine.Awaitable:RunContinuation()
-
-[ line -1416373496]
+[ line 454613320]
 
 The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -2379,7 +1472,7 @@ Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, Enviro
 Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
 UnityEngine.Awaitable:RunContinuation()
 
-[ line -1416373480]
+[ line 454613672]
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -2394,7 +1487,7 @@ Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, Enviro
 Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
 UnityEngine.Awaitable:RunContinuation()
 
-[ line -1416373832]
+[ line 454613320]
 
 The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -2409,7 +1502,7 @@ Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, Enviro
 Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
 UnityEngine.Awaitable:RunContinuation()
 
-[ line -1416373480]
+[ line 454613672]
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -2424,7 +1517,7 @@ Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, Enviro
 Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
 UnityEngine.Awaitable:RunContinuation()
 
-[ line -1416373832]
+[ line 454613320]
 
 The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -2439,7 +1532,7 @@ Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, Enviro
 Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
 UnityEngine.Awaitable:RunContinuation()
 
-[ line -1416373480]
+[ line 454613672]
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -2454,7 +1547,22 @@ Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, Enviro
 Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
 UnityEngine.Awaitable:RunContinuation()
 
-[ line -1416373832]
+[ line 454613320]
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.HouseFlipper2.PuppetSpawner:GetPrefab()
+Empyrean.HouseFlipper2.PuppetSpawner:SpawnPuppet()
+Empyrean.HouseFlipper2.PuppetSpawner:TrySpawn(EnvironmentDataStore)
+Empyrean.HouseFlipper2.PuppetSpawnerUtils:SetupRandomly(IReadOnlyList`1, Int32, int2Bounds, EnvironmentDataStore)
+Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, EnvironmentCustomSettingsData)
+Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
+UnityEngine.Awaitable:RunContinuation()
+
+[ line 454613656]
 
 The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -2469,7 +1577,7 @@ Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, Enviro
 Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
 UnityEngine.Awaitable:RunContinuation()
 
-[ line -1416373480]
+[ line 454613672]
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -2484,7 +1592,22 @@ Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, Enviro
 Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
 UnityEngine.Awaitable:RunContinuation()
 
-[ line -1416373832]
+[ line 454613320]
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.HouseFlipper2.PuppetSpawner:GetPrefab()
+Empyrean.HouseFlipper2.PuppetSpawner:SpawnPuppet()
+Empyrean.HouseFlipper2.PuppetSpawner:TrySpawn(EnvironmentDataStore)
+Empyrean.HouseFlipper2.PuppetSpawnerUtils:SetupRandomly(IReadOnlyList`1, Int32, int2Bounds, EnvironmentDataStore)
+Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, EnvironmentCustomSettingsData)
+Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
+UnityEngine.Awaitable:RunContinuation()
+
+[ line 454613656]
 
 The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -2499,7 +1622,7 @@ Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, Enviro
 Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
 UnityEngine.Awaitable:RunContinuation()
 
-[ line -1416373480]
+[ line 454613672]
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
@@ -2514,7 +1637,187 @@ Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, Enviro
 Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
 UnityEngine.Awaitable:RunContinuation()
 
-[ line -1416373832]
+[ line 454613320]
+
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.HouseFlipper2.PuppetSpawner:GetPrefab()
+Empyrean.HouseFlipper2.PuppetSpawner:SpawnPuppet()
+Empyrean.HouseFlipper2.PuppetSpawner:TrySpawn(EnvironmentDataStore)
+Empyrean.HouseFlipper2.PuppetSpawnerUtils:SetupRandomly(IReadOnlyList`1, Int32, int2Bounds, EnvironmentDataStore)
+Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, EnvironmentCustomSettingsData)
+Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
+UnityEngine.Awaitable:RunContinuation()
+
+[ line 454613672]
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.HouseFlipper2.PuppetSpawner:GetPrefab()
+Empyrean.HouseFlipper2.PuppetSpawner:SpawnPuppet()
+Empyrean.HouseFlipper2.PuppetSpawner:TrySpawn(EnvironmentDataStore)
+Empyrean.HouseFlipper2.PuppetSpawnerUtils:SetupRandomly(IReadOnlyList`1, Int32, int2Bounds, EnvironmentDataStore)
+Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, EnvironmentCustomSettingsData)
+Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
+UnityEngine.Awaitable:RunContinuation()
+
+[ line 454613320]
+
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.HouseFlipper2.PuppetSpawner:GetPrefab()
+Empyrean.HouseFlipper2.PuppetSpawner:SpawnPuppet()
+Empyrean.HouseFlipper2.PuppetSpawner:TrySpawn(EnvironmentDataStore)
+Empyrean.HouseFlipper2.PuppetSpawnerUtils:SetupRandomly(IReadOnlyList`1, Int32, int2Bounds, EnvironmentDataStore)
+Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, EnvironmentCustomSettingsData)
+Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
+UnityEngine.Awaitable:RunContinuation()
+
+[ line 454613672]
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.HouseFlipper2.PuppetSpawner:GetPrefab()
+Empyrean.HouseFlipper2.PuppetSpawner:SpawnPuppet()
+Empyrean.HouseFlipper2.PuppetSpawner:TrySpawn(EnvironmentDataStore)
+Empyrean.HouseFlipper2.PuppetSpawnerUtils:SetupRandomly(IReadOnlyList`1, Int32, int2Bounds, EnvironmentDataStore)
+Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, EnvironmentCustomSettingsData)
+Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
+UnityEngine.Awaitable:RunContinuation()
+
+[ line 454613320]
+
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.HouseFlipper2.PuppetSpawner:GetPrefab()
+Empyrean.HouseFlipper2.PuppetSpawner:SpawnPuppet()
+Empyrean.HouseFlipper2.PuppetSpawner:TrySpawn(EnvironmentDataStore)
+Empyrean.HouseFlipper2.PuppetSpawnerUtils:SetupRandomly(IReadOnlyList`1, Int32, int2Bounds, EnvironmentDataStore)
+Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, EnvironmentCustomSettingsData)
+Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
+UnityEngine.Awaitable:RunContinuation()
+
+[ line 454613672]
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.HouseFlipper2.PuppetSpawner:GetPrefab()
+Empyrean.HouseFlipper2.PuppetSpawner:SpawnPuppet()
+Empyrean.HouseFlipper2.PuppetSpawner:TrySpawn(EnvironmentDataStore)
+Empyrean.HouseFlipper2.PuppetSpawnerUtils:SetupRandomly(IReadOnlyList`1, Int32, int2Bounds, EnvironmentDataStore)
+Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, EnvironmentCustomSettingsData)
+Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
+UnityEngine.Awaitable:RunContinuation()
+
+[ line 454613320]
+
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.HouseFlipper2.PuppetSpawner:GetPrefab()
+Empyrean.HouseFlipper2.PuppetSpawner:SpawnPuppet()
+Empyrean.HouseFlipper2.PuppetSpawner:TrySpawn(EnvironmentDataStore)
+Empyrean.HouseFlipper2.PuppetSpawnerUtils:SetupRandomly(IReadOnlyList`1, Int32, int2Bounds, EnvironmentDataStore)
+Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, EnvironmentCustomSettingsData)
+Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
+UnityEngine.Awaitable:RunContinuation()
+
+[ line 454613672]
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.HouseFlipper2.PuppetSpawner:GetPrefab()
+Empyrean.HouseFlipper2.PuppetSpawner:SpawnPuppet()
+Empyrean.HouseFlipper2.PuppetSpawner:TrySpawn(EnvironmentDataStore)
+Empyrean.HouseFlipper2.PuppetSpawnerUtils:SetupRandomly(IReadOnlyList`1, Int32, int2Bounds, EnvironmentDataStore)
+Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, EnvironmentCustomSettingsData)
+Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
+UnityEngine.Awaitable:RunContinuation()
+
+[ line 454613320]
+
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.HouseFlipper2.PuppetSpawner:GetPrefab()
+Empyrean.HouseFlipper2.PuppetSpawner:SpawnPuppet()
+Empyrean.HouseFlipper2.PuppetSpawner:TrySpawn(EnvironmentDataStore)
+Empyrean.HouseFlipper2.PuppetSpawnerUtils:SetupRandomly(IReadOnlyList`1, Int32, int2Bounds, EnvironmentDataStore)
+Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, EnvironmentCustomSettingsData)
+Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
+UnityEngine.Awaitable:RunContinuation()
+
+[ line 454613672]
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.HouseFlipper2.PuppetSpawner:GetPrefab()
+Empyrean.HouseFlipper2.PuppetSpawner:SpawnPuppet()
+Empyrean.HouseFlipper2.PuppetSpawner:TrySpawn(EnvironmentDataStore)
+Empyrean.HouseFlipper2.PuppetSpawnerUtils:SetupRandomly(IReadOnlyList`1, Int32, int2Bounds, EnvironmentDataStore)
+Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, EnvironmentCustomSettingsData)
+Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
+UnityEngine.Awaitable:RunContinuation()
+
+[ line 454613320]
+
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.HouseFlipper2.PuppetSpawner:GetPrefab()
+Empyrean.HouseFlipper2.PuppetSpawner:SpawnPuppet()
+Empyrean.HouseFlipper2.PuppetSpawner:TrySpawn(EnvironmentDataStore)
+Empyrean.HouseFlipper2.PuppetSpawnerUtils:SetupRandomly(IReadOnlyList`1, Int32, int2Bounds, EnvironmentDataStore)
+Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, EnvironmentCustomSettingsData)
+Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
+UnityEngine.Awaitable:RunContinuation()
+
+[ line 454613672]
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.AssetBundle:LoadAsset_Internal(String, Type)
+UnityEngine.AssetBundle:LoadAsset(String)
+Empyrean.AssetMapping.Locator:LoadObjectFromBundle()
+Empyrean.AssetMapping.Locator:GetObject()
+Empyrean.HouseFlipper2.PuppetSpawner:GetPrefab()
+Empyrean.HouseFlipper2.PuppetSpawner:SpawnPuppet()
+Empyrean.HouseFlipper2.PuppetSpawner:TrySpawn(EnvironmentDataStore)
+Empyrean.HouseFlipper2.PuppetSpawnerUtils:SetupRandomly(IReadOnlyList`1, Int32, int2Bounds, EnvironmentDataStore)
+Empyrean.HouseFlipper2.EnvironmentHelper:SetGovernor(EnvironmentGovernor, EnvironmentCustomSettingsData)
+Empyrean.HouseFlipper2.<SetEnvironmentAsync>d__7:MoveNext()
+UnityEngine.Awaitable:RunContinuation()
+
+[ line 454613320]
 
 footstepsHandler is null, footsteps SFX may not work properly
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
@@ -2651,7 +1954,7 @@ Empyrean.ExecutorFramework.ExecutorMode:ModeEnter()
 Empyrean.ExecutorFramework.Executor:DoSwitchMode(Type&)
 Empyrean.ExecutorFramework.Executor:Update()
 
-[ParcelEnterParcelExitSystem]  OnModeEnter ending, it took 99 ms
+[ParcelEnterParcelExitSystem]  OnModeEnter ending, it took 227 ms
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
@@ -2688,6 +1991,64 @@ Empyrean.ExecutorFramework.Phase`1:Execute(T)
 Empyrean.ExecutorFramework.Phase`1:Execute()
 Empyrean.ExecutorFramework.Executor:Update()
 
+[Current Tool] [Tool] Flipper Build Walls Tool.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:Log(Object, Object)
+Empyrean.HouseFlipper2.CurrentToolSystem:PerformToolSwitch()
+Empyrean.HouseFlipper2.CurrentToolSystem:OnTick()
+Empyrean.ExecutorFramework.Phase`1:Execute(T)
+Empyrean.ExecutorFramework.Phase`1:Execute()
+Empyrean.ExecutorFramework.Executor:Update()
+
+[Current Tool] [Tool] Wall Smasher Tool with mode [Tool] Wall Smasher Tool (Empyrean.HouseFlipper2.WallSmasherTool).
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:Log(Object, Object)
+Empyrean.HouseFlipper2.CurrentToolSystem:PerformToolSwitch()
+Empyrean.HouseFlipper2.CurrentToolSystem:OnTick()
+Empyrean.ExecutorFramework.Phase`1:Execute(T)
+Empyrean.ExecutorFramework.Phase`1:Execute()
+Empyrean.ExecutorFramework.Executor:Update()
+
+[Current Tool] [Tool] Flipper Build Walls Tool.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:Log(Object, Object)
+Empyrean.HouseFlipper2.CurrentToolSystem:PerformToolSwitch()
+Empyrean.HouseFlipper2.CurrentToolSystem:OnTick()
+Empyrean.ExecutorFramework.Phase`1:Execute(T)
+Empyrean.ExecutorFramework.Phase`1:Execute()
+Empyrean.ExecutorFramework.Executor:Update()
+
+[Current Tool] [Tool] Hands Tool with mode [Tool] Hands Tool (Empyrean.HouseFlipper2.HandsTool).
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:Log(Object, Object)
+Empyrean.HouseFlipper2.CurrentToolSystem:PerformToolSwitch()
+Empyrean.HouseFlipper2.CurrentToolSystem:OnTick()
+Empyrean.ExecutorFramework.Phase`1:Execute(T)
+Empyrean.ExecutorFramework.Phase`1:Execute()
+Empyrean.ExecutorFramework.Executor:Update()
+
+ActiveFiltersDisplayPanel.UpdateDisplay - any filters active = False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.UI.Shop.ActiveFiltersDisplayPanel:UpdateDisplay()
+Empyrean.HouseFlipper2.UI.Shop.BrowsingPanelFiltersHandler:HandleShopRebuild()
+Empyrean.HouseFlipper2.UI.Shop.ShopScreen:HandleArticleTreeReloaded()
+Empyrean.HouseFlipper2.ArticleTreeHelper:Reload()
+Empyrean.ExecutorFramework.Signal:Broadcast()
+Empyrean.HouseFlipper2.UI.<ApplyPerkChangesAsync>d__5:MoveNext()
+Cysharp.Threading.Tasks.DelayFramePromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+
 Saving parcel started
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -2695,11 +2056,11 @@ UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 Empyrean.HouseFlipper2.ParcelPersistence.<Save>d__8:MoveNext()
 Empyrean.HouseFlipper2.ParcelPersistence.SavingHelper:Save(Boolean)
-Empyrean.HouseFlipper2.ParcelPersistence.AutoSavingHelper:Save()
-Empyrean.HouseFlipper2.<SaveAndGoToMainMenu>d__6:MoveNext()
-Empyrean.HouseFlipper2.MainMenuHelper:SaveAndGoToMainMenu()
-Empyrean.HouseFlipper2.UI.<<SaveAndGoToMainMenu>g__GoToMainMenuAsync|38_1>d:MoveNext()
-Empyrean.HouseFlipper2.UI.PauseMenuButtonsSet:SaveAndGoToMainMenu()
+Empyrean.HouseFlipper2.ParcelPersistence.<<Save>g__SaveWithNotification|11_1>d:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.<Save>d__11:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.ManualSavingHelper:Save()
+Empyrean.HouseFlipper2.UI.<<HandleSave>g__SaveAsync|34_0>d:MoveNext()
+Empyrean.HouseFlipper2.UI.PauseMenuButtonsSet:HandleSave()
 UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
 UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
 UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
@@ -2718,11 +2079,11 @@ Empyrean.HouseFlipper2.ParcelPersistence.StoryParcelsManagementHelper:SaveActive
 Empyrean.HouseFlipper2.ParcelPersistence.<TryToSaveParcel>d__9:MoveNext()
 Empyrean.HouseFlipper2.ParcelPersistence.<Save>d__8:MoveNext()
 Empyrean.HouseFlipper2.ParcelPersistence.SavingHelper:Save(Boolean)
-Empyrean.HouseFlipper2.ParcelPersistence.AutoSavingHelper:Save()
-Empyrean.HouseFlipper2.<SaveAndGoToMainMenu>d__6:MoveNext()
-Empyrean.HouseFlipper2.MainMenuHelper:SaveAndGoToMainMenu()
-Empyrean.HouseFlipper2.UI.<<SaveAndGoToMainMenu>g__GoToMainMenuAsync|38_1>d:MoveNext()
-Empyrean.HouseFlipper2.UI.PauseMenuButtonsSet:SaveAndGoToMainMenu()
+Empyrean.HouseFlipper2.ParcelPersistence.<<Save>g__SaveWithNotification|11_1>d:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.<Save>d__11:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.ManualSavingHelper:Save()
+Empyrean.HouseFlipper2.UI.<<HandleSave>g__SaveAsync|34_0>d:MoveNext()
+Empyrean.HouseFlipper2.UI.PauseMenuButtonsSet:HandleSave()
 UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
 UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
 UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
@@ -2742,16 +2103,238 @@ Empyrean.HouseFlipper2.ParcelPersistence.StoryParcelsManagementHelper:SaveActive
 Empyrean.HouseFlipper2.ParcelPersistence.<TryToSaveParcel>d__9:MoveNext()
 Empyrean.HouseFlipper2.ParcelPersistence.<Save>d__8:MoveNext()
 Empyrean.HouseFlipper2.ParcelPersistence.SavingHelper:Save(Boolean)
-Empyrean.HouseFlipper2.ParcelPersistence.AutoSavingHelper:Save()
-Empyrean.HouseFlipper2.<SaveAndGoToMainMenu>d__6:MoveNext()
-Empyrean.HouseFlipper2.MainMenuHelper:SaveAndGoToMainMenu()
-Empyrean.HouseFlipper2.UI.<<SaveAndGoToMainMenu>g__GoToMainMenuAsync|38_1>d:MoveNext()
-Empyrean.HouseFlipper2.UI.PauseMenuButtonsSet:SaveAndGoToMainMenu()
+Empyrean.HouseFlipper2.ParcelPersistence.<<Save>g__SaveWithNotification|11_1>d:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.<Save>d__11:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.ManualSavingHelper:Save()
+Empyrean.HouseFlipper2.UI.<<HandleSave>g__SaveAsync|34_0>d:MoveNext()
+Empyrean.HouseFlipper2.UI.PauseMenuButtonsSet:HandleSave()
 UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
 UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
 UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
 UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
 UnityEngine.EventSystems.EventSystem:Update()
+
+[ParcelPersistenceHelper] SaveActiveParcel ending.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.ParcelPersistence.<SaveActiveParcel>d__56:MoveNext()
+Empyrean.HouseFlipper2.Storage.<Save>d__12:MoveNext()
+Empyrean.HouseFlipper2.Storage.<Save>d__13:MoveNext()
+Cysharp.Threading.Tasks.WhenAllPromise:TryInvokeContinuation(WhenAllPromise, Awaiter&)
+Cysharp.Threading.Tasks.<>c:<.ctor>b__3_0(Object)
+Empyrean.HouseFlipper2.Storage.<<Save>g__WriteAsJson|1>d:MoveNext()
+Empyrean.HouseFlipper2.DevTools.<Intercept>d__14`1:MoveNext()
+Empyrean.HouseFlipper2.DevTools.<<Intercept>g__VoidTask|1>d:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSource:TrySignalCompletion(UniTaskStatus)
+Empyrean.HouseFlipper2.<<Execute>g__Task|0>d:MoveNext()
+Empyrean.StorageAPI.PC.<Dispatch>d__0:MoveNext()
+Empyrean.StorageAPI.Utils.<RunOnThreadPool>d__5:MoveNext()
+Cysharp.Threading.Tasks.<RunOnThreadPool>d__78:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+Saving parcel ended: Yes
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.ParcelPersistence.<Save>d__8:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.<TryToSaveParcel>d__9:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.<SaveActiveParcelInStoryMode>d__33:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.<SaveActiveParcel>d__56:MoveNext()
+Empyrean.HouseFlipper2.Storage.<Save>d__12:MoveNext()
+Empyrean.HouseFlipper2.Storage.<Save>d__13:MoveNext()
+Cysharp.Threading.Tasks.WhenAllPromise:TryInvokeContinuation(WhenAllPromise, Awaiter&)
+Cysharp.Threading.Tasks.<>c:<.ctor>b__3_0(Object)
+Empyrean.HouseFlipper2.Storage.<<Save>g__WriteAsJson|1>d:MoveNext()
+Empyrean.HouseFlipper2.DevTools.<Intercept>d__14`1:MoveNext()
+Empyrean.HouseFlipper2.DevTools.<<Intercept>g__VoidTask|1>d:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSource:TrySignalCompletion(UniTaskStatus)
+Empyrean.HouseFlipper2.<<Execute>g__Task|0>d:MoveNext()
+Empyrean.StorageAPI.PC.<Dispatch>d__0:MoveNext()
+Empyrean.StorageAPI.Utils.<RunOnThreadPool>d__5:MoveNext()
+Cysharp.Threading.Tasks.<RunOnThreadPool>d__78:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+Saving parcel started
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.ParcelPersistence.<Save>d__8:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.SavingHelper:Save(Boolean)
+Empyrean.HouseFlipper2.ParcelPersistence.<<Save>g__SaveWithNotification|11_1>d:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.<Save>d__11:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.ManualSavingHelper:Save()
+Empyrean.HouseFlipper2.UI.<<HandleSave>g__SaveAsync|34_0>d:MoveNext()
+Empyrean.HouseFlipper2.UI.PauseMenuButtonsSet:HandleSave()
+Empyrean.HouseFlipper2.UI.MainMenuScreen:OnInterfaceSubmit()
+Empyrean.HouseFlipper2.InterfaceInputHandlingSystem:CallHandler()
+Empyrean.HouseFlipper2.InterfaceInputHandlingSystem:OnTick()
+Empyrean.ExecutorFramework.Phase`1:Execute(T)
+Empyrean.ExecutorFramework.Phase`1:Execute()
+Empyrean.ExecutorFramework.Executor:Update()
+
+[ParcelPersistenceHelper] SaveActiveParcel starting.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.ParcelPersistence.<SaveActiveParcel>d__56:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.ParcelPersistenceHelper:SaveActiveParcel(Boolean)
+Empyrean.HouseFlipper2.ParcelPersistence.<SaveActiveParcelInStoryMode>d__33:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.StoryParcelsManagementHelper:SaveActiveParcelInStoryMode()
+Empyrean.HouseFlipper2.ParcelPersistence.<TryToSaveParcel>d__9:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.<Save>d__8:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.SavingHelper:Save(Boolean)
+Empyrean.HouseFlipper2.ParcelPersistence.<<Save>g__SaveWithNotification|11_1>d:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.<Save>d__11:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.ManualSavingHelper:Save()
+Empyrean.HouseFlipper2.UI.<<HandleSave>g__SaveAsync|34_0>d:MoveNext()
+Empyrean.HouseFlipper2.UI.PauseMenuButtonsSet:HandleSave()
+Empyrean.HouseFlipper2.UI.MainMenuScreen:OnInterfaceSubmit()
+Empyrean.HouseFlipper2.InterfaceInputHandlingSystem:CallHandler()
+Empyrean.HouseFlipper2.InterfaceInputHandlingSystem:OnTick()
+Empyrean.ExecutorFramework.Phase`1:Execute(T)
+Empyrean.ExecutorFramework.Phase`1:Execute()
+Empyrean.ExecutorFramework.Executor:Update()
+
+[ParcelPersistenceHelper] CreateSaveParcel 'D1-0 Starter house'
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.ParcelPersistence.ParcelPersistenceHelper:CreateSaveParcel(Maybe`1, Boolean, Maybe`1)
+Empyrean.HouseFlipper2.ParcelPersistence.<SaveActiveParcel>d__56:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.ParcelPersistenceHelper:SaveActiveParcel(Boolean)
+Empyrean.HouseFlipper2.ParcelPersistence.<SaveActiveParcelInStoryMode>d__33:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.StoryParcelsManagementHelper:SaveActiveParcelInStoryMode()
+Empyrean.HouseFlipper2.ParcelPersistence.<TryToSaveParcel>d__9:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.<Save>d__8:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.SavingHelper:Save(Boolean)
+Empyrean.HouseFlipper2.ParcelPersistence.<<Save>g__SaveWithNotification|11_1>d:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.<Save>d__11:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.ManualSavingHelper:Save()
+Empyrean.HouseFlipper2.UI.<<HandleSave>g__SaveAsync|34_0>d:MoveNext()
+Empyrean.HouseFlipper2.UI.PauseMenuButtonsSet:HandleSave()
+Empyrean.HouseFlipper2.UI.MainMenuScreen:OnInterfaceSubmit()
+Empyrean.HouseFlipper2.InterfaceInputHandlingSystem:CallHandler()
+Empyrean.HouseFlipper2.InterfaceInputHandlingSystem:OnTick()
+Empyrean.ExecutorFramework.Phase`1:Execute(T)
+Empyrean.ExecutorFramework.Phase`1:Execute()
+Empyrean.ExecutorFramework.Executor:Update()
+
+[ParcelPersistenceHelper] SaveActiveParcel ending.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.ParcelPersistence.<SaveActiveParcel>d__56:MoveNext()
+Empyrean.HouseFlipper2.Storage.<Save>d__12:MoveNext()
+Empyrean.HouseFlipper2.Storage.<Save>d__13:MoveNext()
+Cysharp.Threading.Tasks.WhenAllPromise:TryInvokeContinuation(WhenAllPromise, Awaiter&)
+Cysharp.Threading.Tasks.<>c:<.ctor>b__3_0(Object)
+Empyrean.HouseFlipper2.Storage.<<Save>g__WriteAsJson|1>d:MoveNext()
+Empyrean.HouseFlipper2.DevTools.<Intercept>d__14`1:MoveNext()
+Empyrean.HouseFlipper2.DevTools.<<Intercept>g__VoidTask|1>d:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSource:TrySignalCompletion(UniTaskStatus)
+Empyrean.HouseFlipper2.<<Execute>g__Task|0>d:MoveNext()
+Empyrean.StorageAPI.PC.<Dispatch>d__0:MoveNext()
+Empyrean.StorageAPI.Utils.<RunOnThreadPool>d__5:MoveNext()
+Cysharp.Threading.Tasks.<RunOnThreadPool>d__78:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+Saving parcel ended: Yes
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.ParcelPersistence.<Save>d__8:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.<TryToSaveParcel>d__9:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.<SaveActiveParcelInStoryMode>d__33:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.<SaveActiveParcel>d__56:MoveNext()
+Empyrean.HouseFlipper2.Storage.<Save>d__12:MoveNext()
+Empyrean.HouseFlipper2.Storage.<Save>d__13:MoveNext()
+Cysharp.Threading.Tasks.WhenAllPromise:TryInvokeContinuation(WhenAllPromise, Awaiter&)
+Cysharp.Threading.Tasks.<>c:<.ctor>b__3_0(Object)
+Empyrean.HouseFlipper2.Storage.<<Save>g__WriteAsJson|1>d:MoveNext()
+Empyrean.HouseFlipper2.DevTools.<Intercept>d__14`1:MoveNext()
+Empyrean.HouseFlipper2.DevTools.<<Intercept>g__VoidTask|1>d:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSource:TrySignalCompletion(UniTaskStatus)
+Empyrean.HouseFlipper2.<<Execute>g__Task|0>d:MoveNext()
+Empyrean.StorageAPI.PC.<Dispatch>d__0:MoveNext()
+Empyrean.StorageAPI.Utils.<RunOnThreadPool>d__5:MoveNext()
+Cysharp.Threading.Tasks.<RunOnThreadPool>d__78:MoveNext()
+Cysharp.Threading.Tasks.Internal.ContinuationQueue:RunCore()
+
+Saving parcel started
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.ParcelPersistence.<Save>d__8:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.SavingHelper:Save(Boolean)
+Empyrean.HouseFlipper2.ParcelPersistence.AutoSavingHelper:Save()
+Empyrean.HouseFlipper2.<SaveAndGoToMainMenu>d__6:MoveNext()
+Empyrean.HouseFlipper2.MainMenuHelper:SaveAndGoToMainMenu()
+Empyrean.HouseFlipper2.UI.<<SaveAndGoToMainMenu>g__GoToMainMenuAsync|36_1>d:MoveNext()
+Empyrean.HouseFlipper2.UI.PauseMenuButtonsSet:SaveAndGoToMainMenu()
+Empyrean.HouseFlipper2.UI.MainMenuScreen:OnInterfaceSubmit()
+Empyrean.HouseFlipper2.InterfaceInputHandlingSystem:CallHandler()
+Empyrean.HouseFlipper2.InterfaceInputHandlingSystem:OnTick()
+Empyrean.ExecutorFramework.Phase`1:Execute(T)
+Empyrean.ExecutorFramework.Phase`1:Execute()
+Empyrean.ExecutorFramework.Executor:Update()
+
+[ParcelPersistenceHelper] SaveActiveParcel starting.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.ParcelPersistence.<SaveActiveParcel>d__56:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.ParcelPersistenceHelper:SaveActiveParcel(Boolean)
+Empyrean.HouseFlipper2.ParcelPersistence.<SaveActiveParcelInStoryMode>d__33:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.StoryParcelsManagementHelper:SaveActiveParcelInStoryMode()
+Empyrean.HouseFlipper2.ParcelPersistence.<TryToSaveParcel>d__9:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.<Save>d__8:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.SavingHelper:Save(Boolean)
+Empyrean.HouseFlipper2.ParcelPersistence.AutoSavingHelper:Save()
+Empyrean.HouseFlipper2.<SaveAndGoToMainMenu>d__6:MoveNext()
+Empyrean.HouseFlipper2.MainMenuHelper:SaveAndGoToMainMenu()
+Empyrean.HouseFlipper2.UI.<<SaveAndGoToMainMenu>g__GoToMainMenuAsync|36_1>d:MoveNext()
+Empyrean.HouseFlipper2.UI.PauseMenuButtonsSet:SaveAndGoToMainMenu()
+Empyrean.HouseFlipper2.UI.MainMenuScreen:OnInterfaceSubmit()
+Empyrean.HouseFlipper2.InterfaceInputHandlingSystem:CallHandler()
+Empyrean.HouseFlipper2.InterfaceInputHandlingSystem:OnTick()
+Empyrean.ExecutorFramework.Phase`1:Execute(T)
+Empyrean.ExecutorFramework.Phase`1:Execute()
+Empyrean.ExecutorFramework.Executor:Update()
+
+[ParcelPersistenceHelper] CreateSaveParcel 'D1-0 Starter house'
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.ParcelPersistence.ParcelPersistenceHelper:CreateSaveParcel(Maybe`1, Boolean, Maybe`1)
+Empyrean.HouseFlipper2.ParcelPersistence.<SaveActiveParcel>d__56:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.ParcelPersistenceHelper:SaveActiveParcel(Boolean)
+Empyrean.HouseFlipper2.ParcelPersistence.<SaveActiveParcelInStoryMode>d__33:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.StoryParcelsManagementHelper:SaveActiveParcelInStoryMode()
+Empyrean.HouseFlipper2.ParcelPersistence.<TryToSaveParcel>d__9:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.<Save>d__8:MoveNext()
+Empyrean.HouseFlipper2.ParcelPersistence.SavingHelper:Save(Boolean)
+Empyrean.HouseFlipper2.ParcelPersistence.AutoSavingHelper:Save()
+Empyrean.HouseFlipper2.<SaveAndGoToMainMenu>d__6:MoveNext()
+Empyrean.HouseFlipper2.MainMenuHelper:SaveAndGoToMainMenu()
+Empyrean.HouseFlipper2.UI.<<SaveAndGoToMainMenu>g__GoToMainMenuAsync|36_1>d:MoveNext()
+Empyrean.HouseFlipper2.UI.PauseMenuButtonsSet:SaveAndGoToMainMenu()
+Empyrean.HouseFlipper2.UI.MainMenuScreen:OnInterfaceSubmit()
+Empyrean.HouseFlipper2.InterfaceInputHandlingSystem:CallHandler()
+Empyrean.HouseFlipper2.InterfaceInputHandlingSystem:OnTick()
+Empyrean.ExecutorFramework.Phase`1:Execute(T)
+Empyrean.ExecutorFramework.Phase`1:Execute()
+Empyrean.ExecutorFramework.Executor:Update()
 
 [ParcelPersistenceHelper] SaveActiveParcel ending.
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
@@ -2868,9 +2451,23 @@ Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
 Cysharp.Threading.Tasks.WaitUntilPromise:MoveNext()
 Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
 
-Unloading 2 Unused Serialized files (Serialized files now loaded: 132)
-Unloading 508 unused Assets to reduce memory usage. Loaded Objects now: 216341.
-Total: 101.426100 ms (FindLiveObjects: 13.109700 ms CreateObjectMapping: 13.488000 ms MarkObjects: 72.120800 ms  DeleteObjects: 2.707100 ms)
+ActiveFiltersDisplayPanel.UpdateDisplay - any filters active = False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper2.UI.Shop.ActiveFiltersDisplayPanel:UpdateDisplay()
+Empyrean.HouseFlipper2.UI.Shop.BrowsingPanelFiltersHandler:HandleShopRebuild()
+Empyrean.HouseFlipper2.UI.Shop.ShopScreen:HandleArticleTreeReloaded()
+Empyrean.HouseFlipper2.ArticleTreeHelper:Reload()
+Empyrean.ExecutorFramework.Signal:Broadcast()
+Empyrean.HouseFlipper2.UI.<ApplyPerkChangesAsync>d__5:MoveNext()
+Cysharp.Threading.Tasks.DelayFramePromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 131)
+Unloading 206 unused Assets to reduce memory usage. Loaded Objects now: 213247.
+Total: 137.316600 ms (FindLiveObjects: 22.012500 ms CreateObjectMapping: 19.539000 ms MarkObjects: 90.895500 ms  DeleteObjects: 4.867800 ms)
 
 [UnloadingHelper] UnloadWhateverIsLoaded ending.
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
@@ -2888,11 +2485,11 @@ UnityEngine.Debug:Log(Object)
 Empyrean.ExecutorFramework.Executor:ExitGame()
 UnityEngine.Events.UnityEvent:Invoke()
 Empyrean.CHWUI.CommonButton:OnSubmit()
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
-UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
-UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
+Empyrean.HouseFlipper2.InterfaceInputHandlingSystem:CallHandler()
+Empyrean.HouseFlipper2.InterfaceInputHandlingSystem:OnTick()
+Empyrean.ExecutorFramework.Phase`1:Execute(T)
+Empyrean.ExecutorFramework.Phase`1:Execute()
+Empyrean.ExecutorFramework.Executor:Update()
 
 [Executor] Calling OnGameExits
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
@@ -2915,5 +2512,3 @@ Releasing render texture that is set as Camera.targetTexture!
 Input System module state changed to: ShutdownInProgress.
 Input System polling thread exited.
 Input System module state changed to: Shutdown.
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.

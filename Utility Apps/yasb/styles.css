@@ -56,28 +56,35 @@
   margin: 0;
   padding: 0;
 }
+
 .yasb-bar {
   padding: var(--padding-normal);
   margin: 0;
   background-color: var(--bg-taskbar);
 }
+
 .widget {
   padding: var(--padding-normal);
   margin: var(--margin-widget);
   border-radius: var(--radius-normal);
 }
+
 .widget:hover {
   background-color: var(--bg-hover-primary);
 }
+
 .widget .label {
   padding: var(--padding-label);
   font-family: var(--font-name-primary);
 }
-.widget .label.alt {
-}
+
+.widget .label.alt {}
+
 .icon {
   font-size: var(--text-xl);
 }
+
+
 
 /* Tooltip */
 .tooltip {
@@ -91,50 +98,64 @@
   font-weight: var(--font-bold);
 }
 
+
+
 /* Home */
-.home-widget {
-}
+.home-widget {}
+
 .home-widget .icon {
   font-size: var(--text-lg);
 }
+
 .home-menu {
   background-color: var(--bg-primary);
 }
+
 .home-menu .menu-item {
   padding: var(--padding-menu);
   font-size: var(--text-lg);
   font-weight: var(--font-bold);
 }
+
 .home-menu .menu-item:hover {
   background-color: var(--bg-hover-primary);
 }
+
 .home-menu .separator {
   max-height: 1px;
   background-color: var(--color-grey);
 }
 
+
+
 /* Weather */
 .weather-widget .icon {
   margin: 0 2px 0 0;
 }
+
 .weather-widget .icon.sunnyDay {
   color: var(--color-yellow);
 }
+
 .weather-widget .icon.clearNight {
   font-size: var(--text-xl);
   color: var(--color-light-blue);
 }
+
 /* Weather Card */
 .weather-card {
   background-color: var(--bg-primary);
 }
+
 .weather-card-today .label {
   font-size: var(--text-normal);
 }
+
 .weather-card-today .label.location {
   font-size: var(--text-2xl);
   font-weight: var(--font-bold);
 }
+
 .weather-card-today .label.alert {
   font-size: var(--text-normal);
   font-weight: var(--font-bold);
@@ -143,6 +164,7 @@
   border-radius: var(--radius-normal);
   padding: 5px 0;
 }
+
 .weather-card-day {
   border-radius: var(--radius-normal);
 }
@@ -167,15 +189,19 @@
 }
 
 .weather-card .hourly-data {
-  background-color: var(--color-purple); /* <- Curve color */
+  background-color: var(--color-purple);
+  /* <- Curve color */
   font-size: var(--text-normal);
   font-weight: var(--font-bold);
 }
+
+
 
 /* Clock */
 .calendar {
   background-color: var(--bg-primary);
 }
+
 .calendar .calendar-table,
 .calendar .calendar-table::item {
   background-color: transparent;
@@ -187,11 +213,13 @@
   border: none;
   outline: none;
 }
+
 .calendar .calendar-table::item:selected {
   color: var(--text-primary);
   background-color: var(--bg-hover-primary);
   border-radius: var(--radius-normal);
 }
+
 .calendar .day-label,
 .calendar .month-label,
 .calendar .date-label,
@@ -202,52 +230,64 @@
   min-width: 250px;
   max-width: 270px;
 }
+
 .calendar .week-label,
 .calendar .holiday-label {
   font-size: var(--text-normal);
   font-weight: var(--font-bold);
   color: var(--text-secondary);
 }
+
 .calendar .holiday-label {
   color: var(--text-primary);
   font-weight: var(--font-bold);
 }
+
 .calendar .month-label {
   font-weight: normal;
 }
+
 .calendar .date-label {
   font-size: 89px;
   font-weight: var(--font-bold-xl);
   margin-top: -12px;
 }
 
+
+
 /* Volume */
 .volume-slider {
   padding: 8px;
 }
-.volume-slider::groove {
-}
-.volume-slider::handle {
-}
+
+.volume-slider::groove {}
+
+.volume-slider::handle {}
+
 .audio-menu {
   background-color: var(--bg-primary);
 }
+
 .audio-container .device {
   padding: var(--padding-volume);
 
-font-size: var(--text-normal);
+  font-size: var(--text-normal);
   border: 1px solid transparent;
   border-radius: var(--radius-normal);
 }
+
 .audio-container .device.selected {
   background-color: var(--bg-hover-secondary);
   border: 1px solid var(--color-grey);
 }
+
 .audio-container .device:hover {
   background-color: var(--bg-hover-primary);
 }
-.volume-widget .progress-circle {
-}
+
+.volume-widget .progress-circle {}
+
+
 
 /* Power Menu */
 .uptime {
@@ -256,12 +296,14 @@ font-size: var(--text-normal);
   color: var(--text-primary);
   font-weight: var(--font-bold);
 }
-.power-menu-widget .label {
-}
+
+.power-menu-widget .label {}
+
 .power-menu-popup {
   background-color: var(--bg-hover-fourth);
   border-radius: var(--radius-normal);
 }
+
 .power-menu-popup .button {
   padding: 0;
   width: 240px;
@@ -273,264 +315,262 @@ font-size: var(--text-normal);
   border: 1px solid var(--color-grey);
   margin: var(--margin-normal);
 }
+
 .power-menu-popup .button.hover {
   background-color: var(--bg-hover-primary);
   border: 1px solid var(--color-grey);
 }
+
 .power-menu-popup .button .label {
   margin-bottom: var(--margin-normal);
   font-size: var(--text-lg);
   font-weight: var(--font-bold);
 }
+
 .power-menu-popup .button .icon {
   font-size: var(--text-5xl);
   padding-top: var(--margin-normal);
 }
+
 .power-menu-popup .button.cancel .icon {
   color: var(--color-green);
 }
+
 .power-menu-popup .button.cancel .label {
   color: var(--color-green);
 }
+
 .power-menu-popup .button.shutdown .icon {
   color: var(--color-red);
 }
+
 .power-menu-popup .button.shutdown .label {
   color: var(--color-red);
 }
 
 
 
-.power-menu-compact {}
-.power-menu-compact .profile-info {}
-.power-menu-compact .profile-info .profile-avatar {}
-.power-menu-compact .profile-info .profile-username {}
-.power-menu-compact .profile-info .profile-account-type {}
-.power-menu-compact .profile-info .profile-email {}
-.power-menu-compact .profile-info .manage-accounts {}
-.power-menu-compact .buttons {} /* Container for the buttons */
-.power-menu-compact .button {}
-.power-menu-compact .button.hover {}
-.power-menu-compact .button .icon {}
-.power-menu-compact .button .label {}
-/* Styles for specific buttons */
-.power-menu-compact .button.shutdown {}
-.power-menu-compact .button.restart {}
-.power-menu-compact .button.signout {}
-.power-menu-compact .button.hibernate {}
-.power-menu-compact .button.sleep {}
-.power-menu-compact .button.lock {}
-.power-menu-compact .button.force-shutdown {}
-.power-menu-compact .button.force-restart {}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Quick Launch Widget */
 .quick-launch-widget .icon {
-    font-size: 14px;
-    padding: 0 4px;
+  font-size: 14px;
+  padding: 0 4px;
 }
+
 .quick-launch-widget .icon:hover {
-    color: #fff;
+  color: #fff;
 }
 
 /* Quick Launch Popup - main window */
 .quick-launch-popup .container {
-    background-color: rgba(29, 29, 29, 0.452);
+  background-color: rgba(29, 29, 29, 0.452);
 }
+
 /* Search bar container */
 .quick-launch-popup .search {
-    padding: 12px 16px;
-    background-color: transparent;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 12px 16px;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
+
 /* Search loader line color */
 .quick-launch-popup .search .loader-line {
-    color: #449bff;
+  color: #449bff;
 }
+
 .quick-launch-popup .search .search-icon {
-    font-family: "Segoe Fluent Icons";
-    font-size: 18px;
-    color: rgba(255, 255, 255, 0.6);
-    padding-right: 8px;
-    min-width: 18px;
+  font-family: "Segoe Fluent Icons";
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.6);
+  padding-right: 8px;
+  min-width: 18px;
 }
+
 .quick-launch-popup .search .search-submit-icon {
-    font-family: "Segoe Fluent Icons";
-    font-size: 18px;
-    color: rgba(255, 255, 255, 0.6);
-    min-width: 18px;
+  font-family: "Segoe Fluent Icons";
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.6);
+  min-width: 18px;
 }
+
 .quick-launch-popup .search .search-input {
-    background: transparent;
-    border: none;
-    color: #ffffff;
-    font-size: 16px;
-    font-family: "Segoe UI";
-    font-weight: 400;
-    padding: 4px 0;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Segoe UI";
+  font-weight: 400;
+  padding: 4px 0;
 }
+
 /* Search prefix styling (e.g., ">" for commands) */
 .quick-launch-popup .search .prefix {
-    background: #2167d8;
-    border-radius: 6px;
-    color: #ffffff;
-    padding: -2px 8px 0px 8px;
-    margin-top: 2px;
-    margin-right: 4px;
-    font-size: 13px;
-    font-weight: 600;
-    font-family: "Segoe UI";
-    max-height: 28px;
+  background: #2167d8;
+  border-radius: 6px;
+  color: #ffffff;
+  padding: -2px 8px 0px 8px;
+  margin-top: 2px;
+  margin-right: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Segoe UI";
+  max-height: 28px;
 }
 
 /* Results list */
 .quick-launch-popup .results {
-    background: transparent;
-    padding: 8px;
+  background: transparent;
+  padding: 8px;
 }
+
 /* Individual result item here you can set font szie for title */
 .quick-launch-popup .results-list-view {
-    font-size: 16px;
-    font-family: "Segoe UI";
-    font-weight: 600;
-    color: #ffffff;
+  font-size: 16px;
+  font-family: "Segoe UI";
+  font-weight: 600;
+  color: #ffffff;
 }
+
 .quick-launch-popup .results-list-view .description {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 11px;
-    font-family: "Segoe UI";
-    font-weight: 600;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 11px;
+  font-family: "Segoe UI";
+  font-weight: 600;
 }
+
 .quick-launch-popup .results-list-view .separator {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 13px;
-    font-family: 'Segoe UI';
-    font-weight: 600;
-    padding: 4px 0 4px 12px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 13px;
+  font-family: 'Segoe UI';
+  font-weight: 600;
+  padding: 4px 0 4px 12px;
 }
+
 /* Result item hover and selected states */
 .quick-launch-popup .results-list-view::item {
-    padding: 12px;
-    border-radius: 8px;
+  padding: 12px;
+  border-radius: 8px;
 }
+
 .quick-launch-popup .results-list-view::item:hover,
 .quick-launch-popup .results-list-view::item:selected {
-    background-color: rgba(128, 130, 158, 0.1);
+  background-color: rgba(128, 130, 158, 0.1);
 }
+
 /* Empty state when no results found */
 .quick-launch-popup .results-empty-text {
-    font-size: 24px;
-    font-family: "Segoe UI";
-    color: rgb(255, 255, 255);
-    padding-top: 8px;
+  font-size: 24px;
+  font-family: "Segoe UI";
+  color: rgb(255, 255, 255);
+  padding-top: 8px;
 }
 
 /* Preview Pane */
 .quick-launch-popup .preview {
-    background: rgba(0, 0, 0, 0);
-    border-left: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(0, 0, 0, 0);
+  border-left: 1px solid rgba(255, 255, 255, 0.06);
 }
+
 .quick-launch-popup .preview .preview-text {
-    font-size: 13px;
-    color: rgba(255, 255, 255, 0.85);
-    padding: 8px 12px;
-    font-family: "Segoe UI";
-    background-color: rgba(255, 255, 255, 0.03);
-    border: none;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.85);
+  padding: 8px 12px;
+  font-family: "Segoe UI";
+  background-color: rgba(255, 255, 255, 0.03);
+  border: none;
 }
+
 .quick-launch-popup .preview .preview-image {
-    background-color: rgba(255, 255, 255, 0.03);
-    padding: 8px 12px;
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 8px 12px;
 }
+
 .quick-launch-popup .preview .preview-meta {
-    padding: 6px 12px;
-    border-top: 1px solid rgba(255, 255, 255, 0.06);
-    font-family: "Segoe UI";
+  padding: 6px 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  font-family: "Segoe UI";
 }
+
 .quick-launch-popup .preview .preview-meta .preview-title {
-    font-size: 14px;
-    font-weight: 600;
-    color: rgb(255, 255, 255);
-    font-family: "Segoe UI";
-    margin-bottom: 10px;
-    margin-left: -2px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  font-family: "Segoe UI";
+  margin-bottom: 10px;
+  margin-left: -2px;
 }
 
 .quick-launch-popup .preview .preview-meta .preview-subtitle {
-    font-size: 12px;
-    color: rgba(255, 255, 255, 0.8);
-    font-family: "Segoe UI";
-    padding-bottom: 1px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Segoe UI";
+  padding-bottom: 1px;
 }
 
 /* Preview inline edit form (.preview.edit) */
 .quick-launch-popup .preview.edit .preview-title {
-    font-size: 13px;
-    font-family: "Segoe UI";
-    font-weight: 600;
-    color: #ffffff;
-    padding: 8px 12px 4px 12px;
+  font-size: 13px;
+  font-family: "Segoe UI";
+  font-weight: 600;
+  color: #ffffff;
+  padding: 8px 12px 4px 12px;
 }
+
 .quick-launch-popup .preview.edit .preview-line-edit {
-    background: rgba(255, 255, 255, 0.06);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    border-radius: 4px;
-    color: #ffffff;
-    font-size: 13px;
-    font-family: "Segoe UI";
-    padding: 6px 8px;
-    margin: 0 12px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 13px;
+  font-family: "Segoe UI";
+  padding: 6px 8px;
+  margin: 0 12px;
 }
+
 .quick-launch-popup .preview.edit .preview-line-edit:focus {
-    border-color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.3);
 }
+
 .quick-launch-popup .preview.edit .preview-text-edit {
-    background: rgba(255, 255, 255, 0.06);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    border-radius: 4px;
-    color: #ffffff;
-    font-size: 13px;
-    font-family: "Segoe UI";
-    padding: 6px 8px;
-    margin: 0 12px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 13px;
+  font-family: "Segoe UI";
+  padding: 6px 8px;
+  margin: 0 12px;
 }
+
 .quick-launch-popup .preview.edit .preview-text-edit:focus {
-    border-color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.3);
 }
+
 .quick-launch-popup .preview.edit .preview-actions {
-    padding: 8px 12px;
+  padding: 8px 12px;
 }
+
 .quick-launch-popup .preview.edit .preview-btn {
-    background: rgb(45, 46, 48);
-    border: none;
-    border-radius: 4px;
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 12px;
-    font-family: "Segoe UI";
-    font-weight: 600;
-    padding: 4px 16px;
+  background: rgb(45, 46, 48);
+  border: none;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 12px;
+  font-family: "Segoe UI";
+  font-weight: 600;
+  padding: 4px 16px;
 }
+
 .quick-launch-popup .preview.edit .preview-btn:hover {
-    background: rgb(59, 60, 63);
+  background: rgb(59, 60, 63);
 }
+
 .quick-launch-popup .preview.edit .preview-btn.save {
-    background: rgb(12, 81, 190);
-    color: #ffffff;
+  background: rgb(12, 81, 190);
+  color: #ffffff;
 }
+
 .quick-launch-popup .preview.edit .preview-btn.save:hover {
-    background: rgb(19, 90, 204);
+  background: rgb(19, 90, 204);
 }
 
 
@@ -550,6 +590,7 @@ font-size: var(--text-normal);
   color: var(--text-primary);
   font-weight: var(--font-bold);
 }
+
 .launchpad .context-menu::item {
   background-color: transparent;
   padding: 6px 12px;
@@ -557,17 +598,21 @@ font-size: var(--text-normal);
   border-radius: var(--radius-normal);
   min-width: 100px;
 }
+
 .launchpad .context-menu::item:selected {
   background-color: var(--bg-hover-primary);
 }
+
 .launchpad .context-menu::item:pressed {
   /* background-color: #3a3a3a; */
 }
+
 .launchpad .context-menu::separator {
   height: 1px;
   background-color: var(--color-grey);
   margin: 4px 8px;
 }
+
 .launchpad .context-menu::item:disabled {
   color: var(--color-grey);
   background-color: transparent;
@@ -577,6 +622,7 @@ font-size: var(--text-normal);
 .launchpad .app-dialog {
   background-color: var(--bg-secondary);
 }
+
 .launchpad .app-dialog .buttons-container {
   margin-top: 16px;
   border-top: 1px solid #000;
@@ -584,11 +630,13 @@ font-size: var(--text-normal);
   min-height: 80px;
   padding: 0 20px 0 20px;
 }
+
 .launchpad .app-dialog .message {
   font-size: var(--text-normal);
   font-weight: var(--font-bold);
   padding: 10px 0;
 }
+
 .launchpad .app-dialog .title-field,
 .launchpad .app-dialog .path-field,
 .launchpad .app-dialog .icon-field {
@@ -602,12 +650,14 @@ font-size: var(--text-normal);
   margin: 10px 0px 5px 0;
   min-height: 30px;
 }
+
 .launchpad .app-dialog .title-field:focus,
 .launchpad .app-dialog .path-field:focus,
 .launchpad .app-dialog .icon-field:focus {
   border-bottom-color: var(--color-green);
   background-color: var(--bg-hover-primary);
 }
+
 .launchpad .app-dialog .button {
   background-color: var(--color-dark-grey);
   border: none;
@@ -620,43 +670,53 @@ font-size: var(--text-normal);
   min-height: 28px;
   outline: none;
 }
+
 .launchpad .app-dialog .buttons-container .button {
   margin: 10px 0 5px 0px;
   font-size: var(--text-normal);
 }
+
 .launchpad .app-dialog .button:focus {
   border: 1px solid var(--color-grey);
 }
+
 .launchpad .app-dialog .button:focus,
 .launchpad .app-dialog .button:hover {
   background-color: var(--bg-hover-third);
 }
-.launchpad .app-dialog .button:pressed {
-}
+
+.launchpad .app-dialog .button:pressed {}
+
 .launchpad .app-dialog .button.add,
 .launchpad .app-dialog .button.save {
   background-color: var(--color-green);
 }
+
 .launchpad .app-dialog .button.add:focus,
 .launchpad .app-dialog .button.save:focus,
 .launchpad .app-dialog .button.add:hover,
 .launchpad .app-dialog .button.save:hover {
   background-color: var(--color-light-green);
 }
+
 .launchpad .app-dialog .button.add:pressed,
 .launchpad .app-dialog .button.save:pressed {
   background-color: var(--color-light-green);
 }
+
 .launchpad .app-dialog .button.delete {
   background-color: var(--color-red);
 }
+
 .launchpad .app-dialog .button.delete:focus,
 .launchpad .app-dialog .button.delete:hover {
   background-color: var(--color-light-red);
 }
+
 .launchpad .app-dialog .button.delete:pressed {
   background-color: var(--color-red);
 }
+
 .launchpad .app-dialog .warning-message {
   background-color: var(--color-dark-red);
   border: 1px solid var(--color-red);
@@ -668,11 +728,13 @@ font-size: var(--text-normal);
   padding: 8px 12px;
   margin: 4px 0px;
 }
+
 /* Launchpad popup style */
 .launchpad .drop-overlay {
   background-color: red;
   border: 4px dashed var(--color-green);
 }
+
 .launchpad .drop-overlay .text {
   color: var(--text-primary);
   font-family: var(--font-name-primary);
@@ -680,14 +742,17 @@ font-size: var(--text-normal);
   font-weight: var(--font-bold);
   text-transform: uppercase;
 }
+
 .launchpad .launchpad-container {
   background-color: var(--bg-primary);
 }
+
 .launchpad .search-container {
   min-height: 80px;
   margin: 0;
   padding: 0;
 }
+
 .launchpad .search-input {
   max-width: 400px;
   padding: 8px 12px;
@@ -699,14 +764,17 @@ font-size: var(--text-normal);
   background-color: var(--bg-hover-primary);
   color: var(--text-primary);
 }
+
 .launchpad .search-input:focus {
   border: 1px solid var(--color-grey);
   background-color: var(--bg-hover-third);
 }
+
 .launchpad .launchpad-scroll-area {
   background-color: transparent;
   border: none;
 }
+
 .launchpad .app-icon {
   border-radius: var(--radius-normal);
   padding-top: 20px;
@@ -716,45 +784,43 @@ font-size: var(--text-normal);
   min-height: 90px;
   max-height: 90px;
 }
+
 .launchpad .app-icon:focus {
   border: 1px solid var(--color-grey);
   background-color: var(--bg-hover-secondary);
 }
+
 .launchpad .app-icon:hover {
   border: 1px solid var(--color-grey);
   background-color: var(--bg-hover-primary);
 }
+
 .launchpad .app-icon .title {
   color: var(--text-primary);
   font-size: var(--text-normal);
   margin-top: 2px;
   font-weight: var(--font-bold);
 }
+
 /* App icon .launchpad .app-icon or URL icon .launchpad .app-icon.url */
 .launchpad .app-icon.url .title {
   color: #52f1d2;
 }
+
 .launchpad .app-icon .icon {
   padding: 0;
   margin: 0;
 }
 
-/* Cpu */
-.cpu-widget .icon {
-  font-size: var(--text-normal);
-  padding-bottom: 1px;
-}
-.cpu-widget .label {
-  padding-top: 1px;
-  font-family: var(--font-name-secondary);
-}
+
 
 /* Disk */
-.disk-widget {
-}
+.disk-widget {}
+
 .disk-group {
   background-color: var(--bg-primary);
 }
+
 .disk-group-row {
   min-width: 270px;
   max-width: 320px;
@@ -765,10 +831,12 @@ font-size: var(--text-normal);
   border-radius: var(--radius-normal);
   border: 1px solid transparent;
 }
+
 .disk-group-row:hover {
   background-color: var(--bg-hover-primary);
   border: 1px solid var(--color-grey);
 }
+
 .disk-group-label-bar {
   margin-bottom: var(--margin-lg);
   max-height: 8px;
@@ -776,245 +844,73 @@ font-size: var(--text-normal);
   background-color: var(--bg-hover-primary);
   border-radius: 4px;
 }
+
 .disk-group-label-bar::chunk {
   background-color: var(--color-green);
   border-radius: 4px;
 }
+
 .disk-group-label {
   font-size: var(--text-normal);
 }
+
 .disk-group-label-size {
   font-size: var(--text-normal);
   color: var(--text-secondary);
 }
 
-/* Traffic */
-.traffic-widget {
-}
-.traffic-widget .icon.offline {
-  color: var(--color-red);
-}
-.traffic-menu {
-  background-color: var(--bg-primary);
-  min-width: 320px;
-}
-.traffic-menu .header {
-  /* border-bottom: 1px solid red; */
-  /* background-color: rgba(24, 25, 27, 0.8); */
-}
-.traffic-menu .header .title {
-  padding: 14px;
-  font-size: var(--text-xl);
-  font-weight: var(--font-bold);
-}
-.traffic-menu .header .reset-button {
-  font-size: var(--text-small);
-  padding: var(--padding-button);
-  margin-right: 14px;
-  border-radius: var(--radius-normal);
-  font-weight: var(--font-bold);
-  background-color: transparent;
-}
-.traffic-menu .reset-button:hover {
-  color: #ffffff;
-  background-color: var(--bg-hover-primary);
-  border: 1px solid var(--color-grey);
-}
-.traffic-menu .reset-button:pressed {
-}
-/* Speed column styles */
-.traffic-menu .download-speed,
-.traffic-menu .upload-speed {
-  background-color: transparent;
-  padding: 10px;
-  margin-right: 12px;
-  margin-left: 12px;
-  margin-top: 16px;
-  margin-bottom: 0;
-  /* border-bottom: 1px solid rgba(255, 255, 255, 0.2); */
-}
-.traffic-menu .download-speed {
-  margin-left: 12px;
-  margin-right: 12px;
-}
-.traffic-menu .speed-separator {
-  max-width: 1px;
-  background-color: transparent;
-  margin: 32px 0 16px 0;
-}
-.traffic-menu .upload-speed-value,
-.traffic-menu .download-speed-value {
-  font-size: var(--text-3xl);
-  font-weight: var(--font-bold-xl);
-  color: var(--text-primary);
-}
-.traffic-menu .upload-speed-unit,
-.traffic-menu .download-speed-unit {
-  font-size: var(--text-normal);
-  font-weight: var(--font-bold);
-  padding-top: var(--margin-normal);
-}
-.traffic-menu .upload-speed-placeholder,
-.traffic-menu .download-speed-placeholder {
-  color: var(--text-secondary);
-  font-size: var(--text-small);
-  padding-bottom: 18px;
-}
 
-/* Section and data styles */
-.traffic-menu .section-title {
-  font-size: var(--text-small);
-  font-weight: var(--font-bold);
-  color: var(--text-primary);
-  margin-bottom: 4px;
-}
-.traffic-menu .session-section,
-.traffic-menu .today-section,
-.traffic-menu .alltime-section {
-  margin: 8px 8px 0 8px;
-  padding: 0 10px 10px 10px;
-  background-color: transparent;
-  /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
-}
-.traffic-menu .data-text {
-  font-size: var(--text-normal);
-  color: var(--text-secondary);
-  padding: var(--margin-small);
-}
-.traffic-menu .data-value {
-  font-weight: var(--font-bold);
-  font-size: var(--text-normal);
-  padding: var(--margin-small);
-}
-
-/* Interface and Internet info styles */
-.traffic-menu .interface-info {
-  margin-top: 12px;
-  /* background-color: var(--bg-hover-primary); */
-  border-top: 1px solid var(--bg-hover-third);
-}
-.traffic-menu .interface-info,
-.traffic-menu .internet-info {
-  font-size: var(--text-small);
-  color: var(--text-secondary);
-  padding: 8px 0;
-  font-family: var(--font-name-primary);
-}
-.traffic-menu .internet-info {
-}
-.traffic-menu .internet-info.connected {
-  background-color: var(--color-dark-green);
-  color: var(--color-light-green);
-}
-.traffic-menu .internet-info.disconnected {
-  background-color: var(--color-dark-red);
-  color: var(--color-light-red);
-}
 
 /* Taskbar */
-.taskbar-widget {
-  margin-left: 27px;
-}
+.taskbar-widget {}
+
 .taskbar-widget:hover {
   background-color: transparent;
 }
+
 .taskbar-widget .app-container {
   border-radius: var(--radius-normal);
   /* border-radius: 0; */
   padding: 0 7px;
   margin: 0 1px;
 }
+
 .taskbar-widget .app-container:hover {
   background-color: var(--bg-hover-primary);
 }
+
 .taskbar-widget .app-container.foreground {
   /* border-bottom: 2px solid var(--color-green); */
   background-color: var(--bg-hover-third);
 }
+
 .taskbar-widget .app-container.flashing {
   background-color: var(--color-red);
 }
+
 .taskbar-widget .app-container .app-title {
   padding-left: 4px;
 }
+
 /* Taskbar preview popup is very limited in styling options, do not use margins/paddings here */
 .taskbar-preview {
   border-radius: var(--radius-normal);
   background-color: var(--bg-secondary);
   border: 1px solid var(--color-grey);
 }
+
 .taskbar-preview .header {
   padding-bottom: 18px;
   padding-top: var(--margin-normal);
 }
+
 .taskbar-preview .header .title {
   color: var(--text-primary);
   font-weight: var(--font-bold);
   font-size: var(--text-normal);
 }
 
-/* Systray */
-.systray {
-  background: transparent;
-  border: none;
-  margin: 0;
-  background-color: transparent;
-}
-.systray:hover {
-  background: transparent;
-}
 
-.systray .unpinned-container {
-  border-radius: 0;
-  /* background-color: transparent; */
-  margin: 2px;
-  padding: 0 4px;
-  border-right: 1px solid var(--text-secondary);
-  /* background-color: var(--bg-hover-primary); */
-}
-
-.systray .pinned-container {
-  padding: 0 4px;
-}
-
-.systray .pinned-container:hover {
-  background: transparent;
-}
-
-.systray .pinned-container[forceshow="true"] {
-}
-
-.systray .button {
-  padding: 0px 4px;
-  border-radius: var(--radius-normal);
-  padding: 6px 6px;
-  outline: none;
-}
-
-.systray .button .icon {
-}
-
-.systray .button:hover {
-  background-color: var(--bg-hover-primary);
-}
-
-.systray .button[dragging="true"] {
-  background-color: var(--bg-hover-primary);
-  border-color: var(--color-green);
-}
-
-.systray .unpinned-visibility-btn {
-  border-radius: 0px;
-  height: 20px;
-  width: 16px;
-  outline: none;
-}
-
-.systray .unpinned-visibility-btn:checked {
-}
-
-.systray .unpinned-visibility-btn:hover {
-}
 
 /* Media */
 .media-widget {
@@ -1024,12 +920,14 @@ font-size: var(--text-normal);
   border-radius: var(--radius-normal);
   background-color: var(--bg-hover-secondary);
 }
+
 .media-widget .label {
   color: var(--text-primary);
   padding: 2px 10px;
   padding-right: 4px;
   font-size: var(--text-small);
 }
+
 .media-widget .btn {
   color: var(--text-secondary);
   padding: 0 4px;
@@ -1037,12 +935,15 @@ font-size: var(--text-normal);
   font-family: var(--font-name-icons);
   font-weight: var(--font-normal);
 }
+
 .media-widget .btn:hover {
   color: var(--text-primary);
 }
+
 .media-widget .btn.play {
   font-size: var(--text-lg);
 }
+
 .media-widget .btn.disabled:hover,
 .media-widget .btn.disabled {
   color: var(--color-light-grey);
@@ -1054,6 +955,7 @@ font-size: var(--text-normal);
   max-width: 540px;
   background-color: var(--bg-primary);
 }
+
 .media-menu .title,
 .media-menu .artist,
 .media-menu .source {
@@ -1062,11 +964,13 @@ font-size: var(--text-normal);
   margin-left: 20px;
   font-family: var(--font-name-primary);
 }
+
 .media-menu .artist {
   font-size: var(--text-normal);
   color: var(--text-secondary);
   margin-top: 4px;
 }
+
 .media-menu .source {
   font-size: 11px;
   color: var(--text-secondary);
@@ -1077,6 +981,7 @@ font-size: var(--text-normal);
   font-family: var(--font-name-primary);
   margin-top: 10px;
 }
+
 .media-menu .btn {
   font-family: var(--font-name-icons);
   font-size: var(--text-lg);
@@ -1088,20 +993,25 @@ font-size: var(--text-normal);
   max-height: 40px;
   border-radius: 20px;
 }
+
 .media-menu .btn.prev {
   margin-left: 10px;
 }
+
 .media-menu .btn:hover {
   color: var(--text-primary);
   background-color: var(--bg-hover-primary);
 }
+
 .media-menu .btn.play {
   background-color: var(--bg-hover-primary);
   font-size: 20px;
 }
+
 .media-menu .btn.play:hover {
   background-color: var(--bg-hover-third);
 }
+
 .media-menu .btn.disabled:hover,
 .media-menu .btn.disabled {
   color: var(--color-light-grey);
@@ -1115,23 +1025,27 @@ font-size: var(--text-normal);
   margin-top: 20px;
   min-width: 100px;
 }
+
 .media-menu .progress-slider {
   height: 10px;
   margin: 10px 4px 14px 4px;
   border-radius: 2px;
 }
+
 .media-menu .progress-slider::groove {
   background: transparent;
   height: 4px;
   border-radius: 2px;
   background: var(--color-grey);
 }
+
 .media-menu .progress-slider::groove:hover {
   background: transparent;
   height: 6px;
   border-radius: 3px;
   background: var(--color-grey);
 }
+
 .media-menu .progress-slider::sub-page {
   background: var(--color-light-green);
   border-radius: 3px;
@@ -1144,24 +1058,29 @@ font-size: var(--text-normal);
   border-radius: 16px;
   margin-left: 10px;
 }
+
 .media-menu .app-volume-container .volume-slider::groove {
   background: var(--bg-hover-primary);
   width: 4px;
   border-radius: 2px;
 }
+
 .media-menu .app-volume-container .volume-slider::add-page {
   background: var(--color-light-green);
   border-radius: 2px;
 }
+
 .media-menu .app-volume-container .volume-slider::groove:hover {
   background: var(--bg-hover-primary);
   width: 6px;
   border-radius: 3px;
 }
+
 .media-menu .app-volume-container .volume-slider::sub-page {
   background: var(--bg-hover-primary);
   border-radius: 3px;
 }
+
 .media-menu .app-volume-container .mute-button,
 .media-menu .app-volume-container .unmute-button {
   font-size: var(--text-lg);
@@ -1169,71 +1088,575 @@ font-size: var(--text-normal);
   font-family: var(--font-name-icons);
   margin-top: 4px;
 }
+
 .media-menu .app-volume-container .unmute-button {
   color: var(--text-secondary);
 }
 
+
+
+/* Language */
 .language-menu {
-    background-color: rgba(17, 17, 27, 0.4);
-    min-width: 300px;
-}
-.language-menu .header {
-    font-family: 'Segoe UI';
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 2px;
-    padding: 12px;
-    background-color: rgba(17, 17, 27, 0.6);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-.language-menu .footer {
-    font-family: 'Segoe UI';
-    font-size: 12px;
-    font-weight: 600;
-    padding: 12px;
-    margin-top: 2px;
-    color: #9399b2;
-    background-color: rgba(17, 17, 27, 0.6);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-.language-menu .footer:hover {
-    background-color: rgba(36, 36, 51, 0.6);
-    color: #fff;
-}
-.language-menu .language-item {
-    padding: 6px 12px;
-    margin: 2px 4px;
-}
-.language-menu .language-item.active {
-    background-color:rgba(255, 255, 255, 0.1);
-    border-radius: 4px;
-}
-.language-menu .language-item:hover {
-    background-color: rgba(255, 255, 255, 0.05);
-}
-.language-menu .language-item.active:hover {
-    background-color:rgba(255, 255, 255, 0.1);
-    border-radius: 4px;
-}
-.language-menu .language-item .code {
-    font-weight: 900;
-    font-size: 14px;
-    min-width: 40px;
-    text-transform: uppercase;
-}
-.language-menu .language-item .icon {
-    font-size: 16px;
-    margin-right: 8px;
-    color: #fff;
-}
-.language-menu .language-item .name {
-    font-weight: 600;
-    font-family: 'Segoe UI';
-    font-size: 14px;
-}
-.language-menu .language-item .layout {
-    font-weight: 600;
-    font-family: 'Segoe UI';
-    font-size: 12px;
+  background-color: rgba(17, 17, 27, 0.4);
+  min-width: 300px;
 }
 
+.language-menu .header {
+  font-family: 'Segoe UI';
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  padding: 12px;
+  background-color: rgba(17, 17, 27, 0.6);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.language-menu .footer {
+  font-family: 'Segoe UI';
+  font-size: 12px;
+  font-weight: 600;
+  padding: 12px;
+  margin-top: 2px;
+  color: #9399b2;
+  background-color: rgba(17, 17, 27, 0.6);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.language-menu .footer:hover {
+  background-color: rgba(36, 36, 51, 0.6);
+  color: #fff;
+}
+
+.language-menu .language-item {
+  padding: 6px 12px;
+  margin: 2px 4px;
+}
+
+.language-menu .language-item.active {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.language-menu .language-item:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.language-menu .language-item.active:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.language-menu .language-item .code {
+  font-weight: 900;
+  font-size: 14px;
+  min-width: 40px;
+  text-transform: uppercase;
+}
+
+.language-menu .language-item .icon {
+  font-size: 16px;
+  margin-right: 8px;
+  color: #fff;
+}
+
+.language-menu .language-item .name {
+  font-weight: 600;
+  font-family: 'Segoe UI';
+  font-size: 14px;
+}
+
+.language-menu .language-item .layout {
+  font-weight: 600;
+  font-family: 'Segoe UI';
+  font-size: 12px;
+}
+
+
+
+/* Systray */
+.systray {
+  background: transparent;
+  border: none;
+  margin: 0;
+}
+
+.systray .unpinned-container {
+  background: transparent;
+}
+
+.systray .pinned-container {
+  background: transparent;
+}
+
+.systray .button {
+  border-radius: 4px;
+  padding: 2px;
+}
+
+.systray .button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Icon being dragged, we already apply some transparency to it so you don't need to use it */
+.systray .button.dragging {}
+
+.systray .button.drag-over {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.systray .pinned-container.drop-target {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.systray .unpinned-visibility-btn {
+  border-radius: 4px;
+  height: 20px;
+  width: 16px;
+  border: none;
+  outline: none;
+}
+
+.systray .unpinned-visibility-btn:checked {
+  background: transparent;
+}
+
+.systray .unpinned-visibility-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Popup styles (when show_in_popup is true) */
+
+/* The icon the drag is hovering over (drop target icon) */
+.systray-popup .button.drag-over {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Icon being dragged, we already apply some transparency to it so you don't need to use it */
+.systray-popup .button.dragging {}
+
+.systray .pinned-container.pinned-container.drop-target {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.systray-popup {
+  background-color: rgba(48, 48, 48, 0.6);
+  padding: 4px;
+}
+
+.systray-popup .button {
+  padding: 10px;
+  margin: 0;
+  border: 0;
+  border-radius: 6px;
+}
+
+.systray-popup .button:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+
+
+/* Memory RAM */
+.memory-widget {
+  padding: 0 8px;
+}
+
+.memory-widget .widget-container .label {
+  font-size: 13px;
+  color: #cdd6f4;
+}
+
+.memory-widget .widget-container .icon {
+  font-size: 14px;
+  color: #89b4fa;
+}
+
+.memory-widget .widget-container .label.status-low {
+  color: #a6e3a1;
+  /* Green */
+}
+
+.memory-widget .widget-container .label.status-medium {
+  color: #f9e2af;
+  /* Yellow */
+}
+
+.memory-widget .widget-container .label.status-high {
+  color: #fab387;
+  /* Orange */
+}
+
+.memory-widget .widget-container .label.status-critical {
+  color: #f38ba8;
+  /* Red */
+}
+
+/* Progress bar customization */
+.memory-widget .progress-circle {
+  margin-right: 6px;
+}
+
+
+
+.memory-popup {
+  background-color: rgba(28, 28, 28, 0.7);
+  min-width: 400px;
+}
+
+.memory-popup .header {
+  background: transparent;
+  padding: 12px 16px;
+}
+
+.memory-popup .header .text {
+  font-size: 16px;
+  font-family: "Segoe UI";
+  color: rgb(255, 255, 255);
+}
+
+.memory-popup .header .pin-btn {
+  font-size: 14px;
+  background: transparent;
+  font-family: "Segoe Fluent Icons";
+  border: none;
+  padding: 6px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.memory-popup .header .pin-btn:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.memory-popup .header .pin-btn.pinned {
+  color: #ffffff;
+}
+
+/* Graph area */
+.memory-popup .graph-container {
+  background: transparent;
+  min-height: 64px;
+}
+
+.memory-popup .memory-graph {
+  color: #0f6bff;
+  /* <-- set the graph line/fill color */
+}
+
+.memory-popup .memory-graph-grid {
+  color: rgba(255, 255, 255, 0.05);
+  /* set the grid line color */
+}
+
+.memory-popup .graph-title {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Segoe UI';
+  padding: 0px 0px 4px 14px;
+}
+
+/* Stats grid */
+.memory-popup .stats {
+  background: transparent;
+  padding: 16px;
+}
+
+.memory-popup .stats .stat-item {
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: 8px;
+}
+
+.memory-popup .stats .stat-label {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.65);
+  font-family: 'Segoe UI';
+  font-weight: 400;
+  padding: 6px 4px 2px 4px;
+}
+
+.memory-popup .stats .stat-value {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: 'Segoe UI';
+  padding: 0 4px 12px 4px;
+}
+
+
+
+/* CPU */
+.cpu-widget {
+  padding: 0 8px;
+}
+
+.cpu-widget .widget-container .label {
+  font-size: 13px;
+  color: #cdd6f4;
+}
+
+.cpu-widget .widget-container .icon {
+  font-size: 14px;
+  color: #89b4fa;
+}
+
+.cpu-widget .widget-container .label.status-low {
+  color: #a6e3a1;
+  /* Green */
+}
+
+.cpu-widget .widget-container .label.status-medium {
+  color: #f9e2af;
+  /* Yellow */
+}
+
+.cpu-widget .widget-container .label.status-high {
+  color: #fab387;
+  /* Orange */
+}
+
+.cpu-widget .widget-container .label.status-critical {
+  color: #f38ba8;
+  /* Red */
+}
+
+/* Progress bar customization */
+.cpu-widget .progress-circle {
+  margin-right: 6px;
+}
+
+
+
+.cpu-popup {
+  background-color: rgba(28, 28, 28, 0.7);
+  min-width: 400px;
+}
+
+.cpu-popup .header {
+  background: transparent;
+  padding: 12px 16px;
+}
+
+.cpu-popup .header .text {
+  font-size: 16px;
+  font-family: "Segoe UI";
+  color: rgb(255, 255, 255);
+}
+
+.cpu-popup .header .pin-btn {
+  font-size: 14px;
+  background: transparent;
+  font-family: "Segoe Fluent Icons";
+  border: none;
+  padding: 6px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.cpu-popup .header .pin-btn:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.cpu-popup .header .pin-btn.pinned {
+  color: #ffffff;
+}
+
+/* Graph area */
+.cpu-popup .graph-container {
+  background: transparent;
+  min-height: 64px;
+}
+
+.cpu-popup .cpu-graph {
+  color: #0f6bff;
+  /* <-- set the graph line/fill color */
+}
+
+.cpu-popup .cpu-graph-grid {
+  color: rgba(255, 255, 255, 0.05);
+  /* set the grid line color */
+}
+
+.cpu-popup .graph-title {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Segoe UI';
+  padding: 0px 0px 4px 14px;
+}
+
+/* Stats grid */
+.cpu-popup .stats {
+  background: transparent;
+  padding: 16px;
+}
+
+.cpu-popup .stats .stat-item {
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: 8px;
+}
+
+.cpu-popup .stats .stat-label {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.65);
+  font-family: 'Segoe UI';
+  font-weight: 400;
+  padding: 6px 4px 2px 4px;
+}
+
+.cpu-popup .stats .stat-value {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: 'Segoe UI';
+  padding: 0 4px 12px 4px;
+}
+
+
+
+/* GPU */
+.gpu-widget {
+  padding: 0 8px;
+}
+
+.gpu-widget .widget-container .label {
+  font-size: 13px;
+  color: #cdd6f4;
+}
+
+.gpu-widget .widget-container .icon {
+  font-size: 14px;
+  color: #89b4fa;
+}
+
+.gpu-widget .widget-container .label.status-low {
+  color: #a6e3a1;
+  /* Green */
+}
+
+.gpu-widget .widget-container .label.status-medium {
+  color: #f9e2af;
+  /* Yellow */
+}
+
+.gpu-widget .widget-container .label.status-high {
+  color: #fab387;
+  /* Orange */
+}
+
+.gpu-widget .widget-container .label.status-critical {
+  color: #f38ba8;
+  /* Red */
+}
+
+/* Progress bar customization */
+.gpu-widget .progress-circle {
+  margin-right: 6px;
+}
+
+
+
+.gpu-popup {
+  background-color: rgba(28, 28, 28, 0.7);
+  min-width: 400px;
+}
+
+.gpu-popup .header {
+  background: transparent;
+  padding: 12px 16px;
+}
+
+.gpu-popup .header .text {
+  font-size: 16px;
+  font-family: "Segoe UI";
+  color: rgb(255, 255, 255);
+}
+
+.gpu-popup .header .pin-btn {
+  font-size: 14px;
+  background: transparent;
+  font-family: "Segoe Fluent Icons";
+  border: none;
+  padding: 6px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.gpu-popup .header .pin-btn:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.gpu-popup .header .pin-btn.pinned {
+  color: #ffffff;
+}
+
+/* Graph area */
+.gpu-popup .graph-container {
+  background: transparent;
+  min-height: 64px;
+}
+
+.gpu-popup .gpu-graph {
+  color: #0f6bff;
+  /* set the graph line/fill color */
+}
+
+.gpu-popup .gpu-graph-grid {
+  color: rgba(255, 255, 255, 0.05);
+  /* set the grid line color */
+}
+
+.gpu-popup .gpu-temp-graph {
+  color: #ff6b35;
+  /* orange for temperature */
+}
+
+.gpu-popup .gpu-temp-graph-grid {
+  color: rgba(255, 255, 255, 0.05);
+  /* set the grid line color */
+}
+
+.gpu-popup .graph-title {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Segoe UI';
+  padding: 0px 0px 4px 14px;
+  margin-top: 12px;
+  /* Add top margin to separate from 2nd graph */
+}
+
+.gpu-popup .graph-title.first {
+  margin-top: 0px;
+  /* Remove top margin for the first graph title */
+}
+
+/* Stats grid */
+.gpu-popup .stats {
+  background: transparent;
+  padding: 16px;
+}
+
+.gpu-popup .stats .stat-item {
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: 8px;
+}
+
+.gpu-popup .stats .stat-label {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.65);
+  font-family: 'Segoe UI';
+  font-weight: 400;
+  padding: 6px 4px 2px 4px;
+}
+
+.gpu-popup .stats .stat-value {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: 'Segoe UI';
+  padding: 0 4px 12px 4px;
+}

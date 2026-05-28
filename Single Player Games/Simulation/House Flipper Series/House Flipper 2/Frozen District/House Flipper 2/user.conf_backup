@@ -6,7 +6,7 @@
   "cameraMode": 0,
   "displayedTimeType": 1,
   "modsEnabled": true,
-  "lastVersion": "1.12.0.0",
+  "lastVersion": "1.12.1.0",
   "moddingTermsOfUseAccepted": false,
   "sandboxAutosaveEnabled": true,
   "sandboxAutosaveInterval": {
@@ -15,7 +15,7 @@
   "recapDisabled": true,
   "inviteOnlyLobby": false,
   "photonRegion": "eu",
-  "recapQuality": 0,
+  "recapQuality": 1,
   "crosshairSpriteId": 2,
   "crosshairColorIndex": 5,
   "crosshairSize": 0,

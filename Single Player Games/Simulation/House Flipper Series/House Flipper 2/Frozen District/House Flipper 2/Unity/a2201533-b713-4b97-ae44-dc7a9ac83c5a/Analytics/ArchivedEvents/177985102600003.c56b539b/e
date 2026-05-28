@@ -1,0 +1,4 @@
+(s)|{"appid":"a2201533-b713-4b97-ae44-dc7a9ac83c5a","userid":"a3e434e8df3ddc24b994e10c563b8899","sessionid":8567604406437860021,"platform":"WindowsPlayer","platformid":2,"sdk_ver":"u6000.3.7f1","runMode":"human-hub","sdk_rev":"696ec25a53d1","session_count":23,"localprojectid":"10b2e018e46924443931bb43b0c43679","build_guid":"01ea6c107eef43b8a17b0c6cb9cdf319","deviceid":"a82aaf72ca393d186157094ac5614f4ca1d0a1b2","identity_token":"a3e434e8df3ddc24b994e10c563b8899"}
+(g)|2
+{"type":"analytics.appRunning.v1","msg":{"duration":300,"local_time_offset":0,"ts":1779851026266,"t_since_start":302004333}}
+{"type":"analytics.input_shutdown.v1","msg":{"max_num_devices":3,"max_state_size_in_bytes":648,"total_event_bytes":1550984,"total_event_count":28116,"total_frame_count":78653,"total_event_processing_time":1.8611382246017457,"assembly_info":"Unity.InputSystem, Version=1.18.0.0, Culture=neutral, PublicKeyToken=null","ts":1779851133257,"t_since_start":408995677}}
