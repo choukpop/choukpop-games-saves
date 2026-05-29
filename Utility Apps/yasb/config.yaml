@@ -6,25 +6,33 @@ bars:
     enabled: true
     screens:
     - 'primary'
-    class_name: "yasb-bar"
+    class_name: 'yasb-bar'
     alignment:
-      position: "top"
-      center: false
+      position: 'top'
+      align: 'center'
+    animation:
+      enabled: true
+      duration: 800
     blur_effect:
       enabled: true
       acrylic: true
       dark_mode: true
       round_corners: false
-      border_color: '#6500ff'
+      border_color: 'None'
     window_flags:
-      always_on_top: false
+      always_on_top: true
       windows_app_bar: false
       hide_on_fullscreen: true
       hide_on_maximized: true
       auto_hide: false
     dimensions:
-      width: "100%"
-      height: 36
+      width: '100%'
+      height: 32
+    padding:
+      top: 4
+      left: 4
+      bottom: 0
+      right: 4
     widgets:
       left:
       - home
@@ -39,63 +47,90 @@ bars:
       - update_check
       - media
       right:
-
       - cpu
       - memory
       - gpu
-      # - disk
+      - disk
       - volume
-      # - settings
       # - notifications
       - language
+      # - settings
       - power_menu
 
 widgets:
   home:
-    type: "yasb.home.HomeWidget"
+    type: 'yasb.home.HomeWidget'
     options:
-      label: "\ue62a"
+      # label: "\ue62a"
+      label: "\udb80\udf5c"
       menu_list:
-        - { title: "\uE617  User Home", path: "~" }
-        - { title: "\uF115  AppData Roaming", path: "~\\AppData\\Roaming" }
-        - { title: "\uF115  AppData Local", path: "~\\AppData\\Local" }
-        - { title: "\uF115  AppData LocalLow", path: "~\\AppData\\LocalLow" }
-        - { title: "\uF115  GitHub Backups", path: "D:\\Bibliotecas\\Others\\GitHub" }
+        - { title: '\uE617  User Home', path: '~' }
+        - { title: '\uF115  AppData Roaming', path: '~\\AppData\\Roaming' }
+        - { title: '\uF115  AppData Local', path: '~\\AppData\\Local' }
+        - { title: '\uF115  AppData LocalLow', path: '~\\AppData\\LocalLow' }
+        - { title: '\uF115  GitHub Backups', path: 'D:\\Bibliotecas\\Others\\GitHub' }
       system_menu: true
       power_menu: false
       blur: true
-      border_color: '#6500ff'
-      round_corners_type: "normal"
+      border_color: 'None'
+      round_corners_type: 'normal'
       menu_labels:
-        about: "\ue66A  About This PC"
-        system: "\uF423  System Settings"
-        task_manager: "\uf437  Task Manager"
-        hibernate: "\uf28e  Hibernate"
-        sleep: "\u23fe   Sleep"
-        restart: "\uead2   Restart"
-        shutdown: "\uf011   Shutdown"
-        lock: "\uea75   Lock"
-        logout: "\udb80\udf43   Logout"
+        about: '\ue66A  About This PC'
+        system: '\uF423  System Settings'
+        task_manager: '\uf437  Task Manager'
+        hibernate: '\uf28e  Hibernate'
+        sleep: '\u23fe   Sleep'
+        restart: '\uead2   Restart'
+        shutdown: '\uf011   Shutdown'
+        lock: '\uea75   Lock'
+        logout: '\udb80\udf43   Logout'
+      distance: 10
+      container_padding:
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+
+  systray:
+    type: 'yasb.systray.SystrayWidget'
+    options:
+      class_name: 'systray'
+      label_collapsed: '▼' # ◀ ▶ ▼ ▲
+      label_expanded: '▲'
+      label_position: 'left' # Can be 'left' or 'right'
+      icon_size: 16
+      icons_per_row: 5
+      pin_click_modifier: 'alt'
+      show_in_popup: true
+      popup:
+        blur: true
+        alignment: 'center'
+        direction: 'down'
+        offset_top: 4
+        offset_left: 44
+      show_unpinned: true
+      show_unpinned_button: true
+      use_hook: false
 
   active_window:
-    type: "yasb.active_window.ActiveWindowWidget"
+    type: 'yasb.active_window.ActiveWindowWidget'
     options:
       label: "{win[title]}"
       label_alt: "[class_name='{win[class_name]}' exe='{win[process][name]}' hwnd={win[hwnd]}]"
-      label_no_window: "WAIFUS GOSTOSAS"
+      label_no_window: 'WAIFUS GOSTOSAS'
       label_icon: true
       label_icon_size: 16
       max_length: 20
-      max_length_ellipsis: "..."
+      max_length_ellipsis: '...'
       monitor_exclusive: false
       label_shadow:
         enabled: false
-        color: "white"
+        color: 'white'
         radius: 3
         offset: [1, 1]
 
   taskbar:
-    type: "yasb.taskbar.TaskbarWidget"
+    type: 'yasb.taskbar.TaskbarWidget'
     options:
       icon_size: 16
       tooltip: true
@@ -119,10 +154,10 @@ widgets:
 
 
   quick_launch:
-    type: "yasb.quick_launch.QuickLaunchWidget"
+    type: 'yasb.quick_launch.QuickLaunchWidget'
     options:
-      label: "<span>\uf002</span>"
-      search_placeholder: "Search applications..."
+      label: "\uf002"
+      search_placeholder: 'Search applications...'
       max_results: 30
       show_icons: true
       icon_size: 32
@@ -130,77 +165,77 @@ widgets:
         width: 720
         height: 600
         blur: true
-        round_corners: true
-        round_corners_type: "normal"
-        border_color: '#6500ff'
+        round_corners: false
+        round_corners_type: 'normal'
+        border_color: 'None'
         dark_mode: true 
       providers:
         apps:
           enabled: true
-          prefix: "*"
+          prefix: '*'
           priority: 0
           show_recent: true 
           max_recent: 5
           show_description: true
-        # Ex: "= 2+2"
+        # Ex: '= 2+2'
         calculator:
           enabled: true
-          prefix: "="
+          prefix: '='
           priority: 1
-        # Ex: "$ 100 USD BRL"
+        # Ex: '$ 100 USD BRL'
         currency:
           enabled: true
-          prefix: "$"
+          prefix: '$'
           priority: 2
-        # Ex: "? como instalar python"
+        # Ex: '? como instalar python'
         web_search:
           enabled: true
-          prefix: "?"
+          prefix: '?'
           priority: 3
-          engine: "brave"
-        # Ex: "> restart"
+          engine: 'brave'
+        # Ex: '> restart'
         system_commands:
           enabled: true
-          prefix: ">"
+          prefix: '>'
           priority: 4
-        # Ex: "@ bluetooth"
+        # Ex: '@ bluetooth'
         settings:
-          enabled: True
-          prefix: "@"         
+          enabled: true
+          prefix: '@'         
           priority: 5
         kill_process:
           enabled: true
-          prefix: "kk"
+          prefix: 'kk'
           priority: 6
         file_search:
           enabled: true
-          prefix: "/"
+          prefix: '/'
           priority: 7
-          backend: "everything"
+          backend: 'everything'
           show_path: true
         emoji:
           enabled: true
-          prefix: ":"
+          prefix: ':'
           priority: 8
         ip_info:
           enabled: true
-          prefix: "ip"
+          prefix: 'ip'
           priority: 9
         vscode:
           enabled: true
-          prefix: "vsc"
+          prefix: 'vsc'
           priority: 10
       callbacks:
-        on_left: "toggle_quick_launch"
+        on_left: 'toggle_quick_launch'
       keybindings:
-        - keys: "alt+space"
-          action: "toggle_quick_launch"
+        - keys: 'alt+space'
+          action: 'toggle_quick_launch'
 
   launchpad:
-    type: "yasb.launchpad.LaunchpadWidget"
+    type: 'yasb.launchpad.LaunchpadWidget'
     options:
-      label: "<span>\udb85\uddfc</span>"
-      search_placeholder: "Search apps..."
+      label: "\udb85\uddfc"
+      search_placeholder: 'Search apps...'
       app_icon_size: 48
       window:
         fullscreen: false
@@ -209,33 +244,23 @@ widgets:
         overlay_block: true
       window_style:
         enable_blur: true
-        round_corners: true
-        round_corners_type: "normal"
-        border_color: '#6500ff'
+        round_corners: false
+        round_corners_type: 'normal'
+        border_color: 'None'
       window_animation:
         fade_in_duration: 200
         fade_out_duration: 200
       callbacks:
-        on_left: "toggle_launchpad"
-      app_title_shadow:
-        enabled: true
-        color: "#00000090"
-        offset: [1, 1]
-        radius: 2
-      app_icon_shadow:
-        enabled: true
-        color: "#00000090"
-        offset: [0, 2]
-        radius: 8
+        on_left: 'toggle_launchpad'
 
   clock:
-    type: "yasb.clock.ClockWidget"
+    type: 'yasb.clock.ClockWidget'
     options:
       label: "{%a %d %b %H:%M}"
       label_alt: "{%A, %d %B %Y, %H:%M}"
-      locale: "pt_PT"
+      locale: 'pt_PT'
       update_interval: 1000
-      timezones: ["Europe/London"]
+      timezones: ['Europe/London']
       icons:
         clock_01: "\uDB85\uDC3F"
         clock_02: "\uDB85\uDC40"
@@ -250,29 +275,29 @@ widgets:
         clock_11: "\uDB85\uDC49"
         clock_12: "\uDB85\uDC4A"
       calendar:
-        blur: True
-        round_corners: True
-        round_corners_type: "normal"
-        border_color: "#6500ff"
-        alignment: "center"
-        direction: "down"
+        blur: true
+        round_corners: true
+        round_corners_type: 'normal'
+        border_color: 'None'
+        alignment: 'center'
+        direction: 'down'
         show_holidays: true
         show_week_numbers: true
-        country_code: "PT"
-        holiday_color: "#0065ff"
+        country_code: 'PT'
+        holiday_color: '#0065ff'
 
   weather:
-    type: "yasb.weather.WeatherWidget"
+    type: 'yasb.weather.WeatherWidget'
     options:
-      label: "<span>{icon}</span> {temp}"
-      label_alt: "<span>{icon}</span> {location}: {temp}, Min {min_temp}, Max {max_temp}, Wind {wind}"
-      api_key: "3bf4cf9a7c3f40d6b31174128242807"
+      label: "{icon} {temp}"
+      label_alt: "{icon} {location}: {temp}, Min {min_temp}, Max {max_temp}, Wind {wind}"
+      api_key: '3bf4cf9a7c3f40d6b31174128242807'
       update_interval: 600
       hide_decimal: true
-      location: "Lisboa, Portugal"
+      location: 'Lisboa, Portugal'
       callbacks:
-        on_left: "toggle_card"
-        on_middle: "toggle_label"
+        on_left: 'toggle_card'
+        on_middle: 'toggle_label'
       icons:
         sunnyDay: "\ue30d"
         clearNight: "\ue32b"
@@ -292,47 +317,47 @@ widgets:
       weather_card:
         blur: true
         round_corners: true
-        round_corners_type: "normal"
-        border_color: '#6500ff'
-        alignment: "center"
-        direction: "down"
+        round_corners_type: 'normal'
+        border_color: '#None'
+        alignment: 'center'
+        direction: 'down'
         icon_size: 64
         show_hourly_forecast: true
-        time_format: "24h"
+        time_format: '24h'
         hourly_point_spacing: 76
         hourly_icon_size: 32
         icon_smoothing: true
         temp_line_width: 3
 
   update_check:
-    type: "yasb.update_check.UpdateCheckWidget"
+    type: 'yasb.update_check.UpdateCheckWidget'
     options:
       windows_update:
         enabled: false
-        label: "<span>\uF0AB</span> {count}"
+        label: "\uF0AB {count}"
         interval: 1440
         exclude: []
       winget_update:
         enabled: true
-        label: "<span>\uF0AB</span> {count}"
+        label: "\uF0AB {count}"
         interval: 240
         exclude: []
       label_shadow:
         enabled: true
-        color: "black"
+        color: 'black'
         radius: 3
         offset: [1, 1]
 
   media:
-    type: "yasb.media.MediaWidget"
+    type: 'yasb.media.MediaWidget'
     options:
       label: "{title} - {artist}"
-      label_alt: ""
+      label_alt: ''
       hide_empty: true
       callbacks:
-        on_left: "toggle_media_menu"
-        on_middle: "do_nothing"
-        on_right: "do_nothing"
+        on_left: 'toggle_media_menu'
+        on_middle: 'do_nothing'
+        on_right: 'do_nothing'
       max_field_size:
         label: 30
         label_alt: 30
@@ -351,10 +376,10 @@ widgets:
       media_menu:
         blur: true
         round_corners: true
-        round_corners_type: "normal"
-        border_color: '#6500ff'
-        alignment: "center"
-        direction: "down"
+        round_corners_type: 'normal'
+        border_color: 'None'
+        alignment: 'center'
+        direction: 'down'
         offset_top: 6
         offset_left: 0
         thumbnail_corner_radius: 8
@@ -371,38 +396,14 @@ widgets:
       scrolling_label:
         enabled: false
         update_interval_ms: 13
-        style: "left" # can be "left", "right", "bounce", "bounce-ease"
-        separator: "    |    "
+        style: 'left' # can be 'left', 'right', 'bounce', 'bounce-ease'
+        separator: '    |    '
         label_padding: 10
-
-  systray:
-    type: "yasb.systray.SystrayWidget"
-    options:
-      class_name: "systray"
-      label_collapsed: "▼" # ◀ ▶ ▼ ▲
-      label_expanded: "▲"
-      label_position: "left" # Can be "left" or "right"
-      icon_size: 16
-      icons_per_row: 5
-      pin_click_modifier: "alt"
-      show_in_popup: true
-      popup:
-        blur: true
-        round_corners: true
-        round_corners_type: "normal"
-        border_color: '#6500ff'
-        alignment: "center"
-        direction: "down"
-        offset_top: 4
-        offset_left: 4
-      show_unpinned: true
-      show_unpinned_button: true
-      use_hook: false
 
 
 
   cpu:
-    type: "yasb.cpu.CpuWidget"
+    type: 'yasb.cpu.CpuWidget'
     options:
       label: "\uf4bc {info[percent][total]}%"
       label_alt: "\uf4bc {info[freq][current]} Mhz {info[histograms][cores]}"
@@ -423,9 +424,9 @@ widgets:
         - "\u2588" # 80%+
       histogram_num_columns: 8
       callbacks:
-        on_left: "toggle_menu"
-        on_middle: "exec cmd /c Taskmgr"
-        on_right: "toggle_label"
+        on_left: 'toggle_menu'
+        on_middle: 'exec cmd /c Taskmgr'
+        on_right: 'toggle_label'
       menu:
         enabled: true
         show_graph: true
@@ -433,20 +434,20 @@ widgets:
         graph_history_size: 60
       label_shadow:
         enabled: true
-        color: "black"
+        color: 'black'
         radius: 3
         offset: [1, 1]
 
   memory:
-    type: "yasb.memory.MemoryWidget"
+    type: 'yasb.memory.MemoryWidget'
     options:
       label: "\uefc5 {virtual_mem_percent}%"
       label_alt: "\uefc5 {virtual_mem_free}/{virtual_mem_total} SWAP: {swap_mem_percent}%"
       update_interval: 5000
       callbacks:
-        on_left: "toggle_menu"
-        on_middle: "do_nothing"
-        on_right: "toggle_label"
+        on_left: 'toggle_menu'
+        on_middle: 'do_nothing'
+        on_right: 'toggle_label'
       memory_thresholds:
         low: 25
         medium: 50
@@ -463,7 +464,7 @@ widgets:
         - "\u2588" # 80%+
       label_shadow:
         enabled: true
-        color: "black"
+        color: 'black'
         radius: 3
         offset: [1, 1]
       menu:
@@ -473,7 +474,7 @@ widgets:
         graph_history_size: 60
 
   gpu:
-    type: "yasb.gpu.GpuWidget"
+    type: 'yasb.gpu.GpuWidget'
     options:
       label: "\uF4BC {info[utilization]}%"
       label_alt: "\uF4BC {info[temp]}\xB0C | {info[mem_used]} / {info[mem_total]}"
@@ -494,9 +495,9 @@ widgets:
         - "\u2588" # 80%+
       histogram_num_columns: 8
       callbacks:
-        on_left: "toggle_menu"
-        on_middle: "do_nothing"
-        on_right: "toggle_label"
+        on_left: 'toggle_menu'
+        on_middle: 'do_nothing'
+        on_right: 'toggle_label'
       menu:
         enabled: true
         show_graph: true
@@ -504,59 +505,59 @@ widgets:
         graph_history_size: 60
 
   disk:
-    type: "yasb.disk.DiskWidget"
+    type: 'yasb.disk.DiskWidget'
     options:
       label: "{volume_label}: {space[used][percent]}"
       label_alt: "{volume_label}: {space[used][gb]} / {space[total][gb]}"
-      volume_label: "C"
+      volume_label: 'C'
       decimal_display: 1
       update_interval: 60
       group_label:
         volume_labels:
           [
-            "C",
-            "D",
-            "E",
-            "F",
-            "G",
-            "H",
-            "I",
-            "J",
-            "K",
-            "L",
-            "M",
-            "N",
-            "O",
-            "P",
-            "Q",
-            "R",
-            "S",
-            "T",
-            "U",
-            "V",
-            "W",
-            "X",
-            "Y",
-            "Z",
+            'C',
+            'D',
+            'E',
+            'F',
+            'G',
+            'H',
+            'I',
+            'J',
+            'K',
+            'L',
+            'M',
+            'N',
+            'O',
+            'P',
+            'Q',
+            'R',
+            'S',
+            'T',
+            'U',
+            'V',
+            'W',
+            'X',
+            'Y',
+            'Z',
           ]
         show_label_name: true
-        blur: True
-        round_corners: True
-        round_corners_type: "normal"
-        border_color: '#6500ff'
-        alignment: "center"
-        direction: "down"
+        blur: true
+        round_corners: true
+        round_corners_type: 'normal'
+        border_color: 'None'
+        alignment: 'center'
+        direction: 'down'
       callbacks:
-        on_left: "toggle_group"
-        on_middle: "toggle_label"
-        # on_right: "exec explorer C:\\" # Open disk C in file explorer
+        on_left: 'toggle_group'
+        on_middle: 'toggle_label'
+        # on_right: 'exec explorer C:\\' # Open disk C in file explorer
       disk_thresholds:
         low: 25
         medium: 50
         high: 90
 
   volume:
-    type: "yasb.volume.VolumeWidget"
+    type: 'yasb.volume.VolumeWidget'
     options:
       label: "{icon} {level}"
       # label_alt: "{volume}"
@@ -568,79 +569,70 @@ widgets:
         - "\uf027" # Icon for 31-60% volume
         - "\uf028" # Icon for 61-100% volume
       callbacks:
-        on_middle: "toggle_mute"
-        on_right: "exec cmd.exe /c start ms-settings:sound"
+        on_middle: 'toggle_mute'
+        on_right: 'exec cmd.exe /c start ms-settings:sound'
       audio_menu:
         blur: true
         round_corners: true
-        round_corners_type: "normal"
-        border_color: '#6500ff'
-        alignment: "center"
-        direction: "down"
+        round_corners_type: 'normal'
+        border_color: 'None'
+        alignment: 'center'
+        direction: 'down'
 
   settings:
-    type: "yasb.applications.ApplicationsWidget"
+    type: 'yasb.applications.ApplicationsWidget'
     options:
-      label: "{data}"
+      label: '{data}'
       app_list:
-        - { icon: "\ue690", launch: "quick_settings" }
+        - { icon: "\ue690", launch: 'quick_settings' }
 
   notifications:
-    type: "yasb.notifications.NotificationsWidget"
+    type: 'yasb.notifications.NotificationsWidget'
     options:
-      label: "<span>\udb80\udd78</span> {count}"
-      tooltip: false
+      label: "\udb80\udd78 {count}"
+      tooltip: true
       callbacks:
-        on_left: "toggle_notification"
-        on_right: "do_nothing"
-        on_middle: "do_nothing"
+        on_left: 'toggle_notification'
+        on_right: 'do_nothing'
+        on_middle: 'do_nothing'
 
   language:
-    type: "yasb.language.LanguageWidget"
+    type: 'yasb.language.LanguageWidget'
     options:
       label: "{lang[language_code]}-{lang[country_code]}"
       label_alt: "{lang[full_name]}"
       update_interval: 100
       callbacks:
-        on_left: "toggle_menu"
-        on_middle: "do_nothing"
-        on_right: "toggle_label"
+        on_left: 'toggle_menu'
+        on_middle: 'do_nothing'
+        on_right: 'toggle_label'
       language_menu:
         blur: true
         round_corners: true
-        round_corners_type: "normal"
-        border_color: '#6500ff'
-        alignment: "center"
-        direction: "down"
+        round_corners_type: 'normal'
+        border_color: 'None'
+        alignment: 'center'
+        direction: 'down'
         offset_top: 6
         offset_left: 0
         show_layout_icon: true
         layout_icon: "\uf11c"
 
   power_menu:
-    type: "yasb.power_menu.PowerMenuWidget"
+    type: 'yasb.power_menu.PowerMenuWidget'
     options:
       label: "\uf011"
-      uptime: True
-      blur: False
-      blur_background: True
+      uptime: true
+      show_user: true
+      blur: false
+      blur_background: true
       animation_duration: 300
       button_row: 3
-      menu_style: "fullscreen"
-      popup:
-        blur: true
-        round_corners: true
-        round_corners_type: "normal"
-        border_color: "System"
-        alignment: "right"
-        direction: "down"
-        offset_top: 6
-        offset_left: 0
       profile_image_size: 64
       buttons:
-        lock: ["\uea75", "Lock"]
-        signout: ["\udb80\udf43", "Sign out"]
-        shutdown: ["\uf011", "Shut Down"]
-        restart: ["\uead2", "Restart"]
-        hibernate: ["\uf28e", "Hibernate"]
-        cancel: ["\udb81\udf3a", "Cancel"]
+        lock: ["\uea75", 'Lock']
+        signout: ["\udb80\udf43", 'Sign out']
+        shutdown: ["\uf011", 'Shut Down']
+        restart: ["\uead2", 'Restart']
+        hibernate: ["\uf28e", 'Hibernate']
+        cancel: ["\udb81\udf3a", 'Cancel']

@@ -1,1 +1,39 @@
 C:\Users\ChouKpop\.config\yasb
+
+.power-menu-widget .label{color:var(--red);font-size:14px}
+.power-menu-overlay{background-color:#0000004d}
+.power-menu-overlay .uptime{font-size:14px;margin-bottom:12px;color:var(--overlay2);font-weight:600}
+.power-menu-popup{background-color:#1e1e2ee6;padding:28px;border-radius:12px;border:1px solid #b4befe1a}
+.power-menu-popup .profile-info{padding:0 0 16px;border-bottom:1px solid #ffffff14;margin-bottom:14px}
+.power-menu-popup .profile-info .profile-username{font-size:20px;font-weight:600;color:var(--text)}
+.power-menu-popup .profile-info .profile-account-type{font-size:12px;color:var(--overlay1)}
+.power-menu-popup .button{padding:0;min-width:130px;max-width:130px;min-height:90px;border-radius:10px;background-color:var(--surface0);border:1px solid #ffffff0f;margin:6px}
+.power-menu-popup .button.hover{background-color:var(--surface1);border-color:var(--lavender)}
+.power-menu-popup .button .label{font-size:12px;font-weight:600;color:var(--subtext1);margin-bottom:6px}
+.power-menu-popup .button .icon{font-size:28px;color:#ffffff40;padding-top:6px;font-family:"JetBrainsMono NFP"}
+.power-menu-popup .button.hover .label,.power-menu-popup .button.hover .icon{color:var(--text)}
+.power-menu-popup .button.cancel .icon{color:#f38ba880}
+.power-menu-popup .button.cancel .label{color:var(--red)}
+.power-menu-popup .button.shutdown .icon{color:#89b4fa80}
+.power-menu-popup .button.shutdown .label{color:var(--blue)}
+
+  power_menu:
+    type: "yasb.power_menu.PowerMenuWidget"
+    options:
+      label: "<span>\uf011</span>"
+      uptime: true
+      show_user: true
+      blur: false
+      blur_background: true
+      animation_duration: 120
+      button_row: 3
+      profile_image_size: 80
+      buttons:
+        lock: ["\uea75", "Lock"]
+        sleep: ["\u23fe", "Sleep"]
+        restart: ["\uead2", "Restart"]
+        shutdown: ["\uf011", "Shut Down"]
+        signout: ["\udb80\udf43", "Sign out"]
+        cancel: ["\udb81\udf3a", "Cancel"]
+
+
