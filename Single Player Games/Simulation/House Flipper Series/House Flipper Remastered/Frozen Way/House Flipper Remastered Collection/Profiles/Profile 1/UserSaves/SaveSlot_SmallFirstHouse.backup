@@ -1,0 +1,162 @@
+{
+  "$id": "1",
+  "forceFreshStart": false,
+  "version": 3,
+  "isImported": false,
+  "gardenCompetitionStatistics": {
+    "$id": "2"
+  },
+  "houseInfo": {
+    "$id": "3",
+    "baseScene": "62a2addb1b5eff74983367119a78f658",
+    "exteriorScene": "7e786d781a2303f40bc97393d4c4c358",
+    "interiorScene": null
+  },
+  "dateTime": "2026-06-12T17:44:21.5244594+01:00",
+  "createdDateTime": "0001-01-01T00:00:00",
+  "houseAlias": {
+    "$id": "4",
+    "houseLocTrait": "",
+    "aliasValue": "",
+    "houseArea": 0.0
+  },
+  "modifiedOuterWalls": [],
+  "modifiedWallsToRebuild": [],
+  "modifiedWalls": [],
+  "compressedWallSides": [],
+  "modifiedStandaloneWallSides": [],
+  "modifiedFloors": [],
+  "modifiedCeilings": [],
+  "bulbSettings": [],
+  "modifiedItems": [],
+  "spawnedPetDirts": [],
+  "modifiedMagnets": [],
+  "turfCreated": [],
+  "modifiedCavities": [],
+  "extendedDirts": [],
+  "cleanedWindowsGuids": [],
+  "cleanedCleanablesGuids": [],
+  "destroyedCockroachesNests": [],
+  "magnetsNeverWhiteAgain": [],
+  "modifiedReplaceableItems": [],
+  "repairedCockpits": [],
+  "prefabSwaps": [],
+  "brokenSubitems": [],
+  "deviceStateSetterStates": [],
+  "pileOfRubbishModifications": [],
+  "pileOfSnowModifications": [],
+  "marchingPavementsModifications": [],
+  "decisionsMade": [],
+  "cursesProgress": [],
+  "cursePopupChoiceMade": false,
+  "plotTwistActivated": [],
+  "actionWithTriggerActivated": [],
+  "windowInstallations": [],
+  "wallInstallations": [],
+  "changedWindowModifications": [],
+  "placedSoil": [],
+  "soilSaveInitiated": false,
+  "destroyableItemModifications": [],
+  "destroyedWalls": [],
+  "architectBalconyMarkers": [],
+  "architectRooftopPortals": [],
+  "architectWallLines": [],
+  "architectFloorSquares": [],
+  "modifiedFloorsDictionary": {
+    "$id": "5"
+  },
+  "houseExtensionsPrice": 0.0,
+  "profitInfoData": {
+    "$id": "6",
+    "profitInfo": {
+      "$id": "7",
+      "PurchaseHouse": {
+        "$id": "8",
+        "moneyValue": -100360.0,
+        "type": "PurchaseHouse"
+      },
+      "RenovationCost": {
+        "$id": "9",
+        "moneyValue": 0.0,
+        "type": "RenovationCost"
+      },
+      "FurnitureBought": {
+        "$id": "10",
+        "moneyValue": 0.0,
+        "type": "FurnitureBought"
+      },
+      "FurnitureSold": {
+        "$id": "11",
+        "moneyValue": 0.0,
+        "type": "FurnitureSold"
+      },
+      "HouseSale": {
+        "$id": "12",
+        "moneyValue": 0.0,
+        "type": "HouseSale"
+      },
+      "Negotiation": {
+        "$id": "13",
+        "moneyValue": 0.0,
+        "type": "Negotiation"
+      },
+      "BreakingNegotiationPenalty": {
+        "$id": "14",
+        "moneyValue": 0.0,
+        "type": "BreakingNegotiationPenalty"
+      },
+      "Profit": {
+        "$id": "15",
+        "moneyValue": -100360.0,
+        "type": "PurchaseHouse"
+      }
+    }
+  },
+  "questStatistics": {
+    "$id": "16",
+    "Throwed": {
+      "$id": "17",
+      "toDo": 0,
+      "done": 17
+    },
+    "Cleaned": {
+      "$id": "18",
+      "toDo": 0,
+      "done": 50
+    },
+    "Mounted": {
+      "$id": "19",
+      "toDo": 0,
+      "done": 2
+    },
+    "WeedsRemoved": {
+      "$id": "20",
+      "toDo": 0,
+      "done": 177
+    }
+  },
+  "otherStatistics": {
+    "$id": "21"
+  },
+  "beforeAfterTexturesId": [],
+  "mowableState": null,
+  "moleModification": {
+    "$id": "22",
+    "config": null,
+    "systemGuid": null
+  },
+  "gravelState": null,
+  "totalCostOfBoughtGravel": 0.0,
+  "totalPriceOfGrassFromTurfRoller": 0.0,
+  "playingOnMapTime": 0.0,
+  "orderBudget": null,
+  "introCutscenesPlayed": [],
+  "luxuryDialogueWindows": [],
+  "gridFirstCorner": {
+    "$id": "23",
+    "x": -12.5,
+    "y": 0.0,
+    "z": -12.5
+  },
+  "houseBuyer": null
+}

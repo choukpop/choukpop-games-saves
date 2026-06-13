@@ -12,10 +12,10 @@ bars:
       align: 'center'
     animation:
       enabled: true
-      duration: 800
+      duration: 200
     blur_effect:
       enabled: true
-      acrylic: true
+      acrylic: false
       dark_mode: true
       round_corners: false
       border_color: 'None'
@@ -26,13 +26,13 @@ bars:
       hide_on_maximized: true
       auto_hide: false
     dimensions:
-      width: '100%'
+      width: "100%"
       height: 32
     padding:
-      top: 4
-      left: 4
+      top: 0
+      left: 0
       bottom: 0
-      right: 4
+      right: 0
     widgets:
       left:
       - home
@@ -50,10 +50,10 @@ bars:
       - cpu
       - memory
       - gpu
-      - disk
+      # - disk
       - volume
       # - notifications
-      - language
+      # - language
       # - settings
       - power_menu
 
@@ -64,26 +64,26 @@ widgets:
       # label: "\ue62a"
       label: "\udb80\udf5c"
       menu_list:
-        - { title: '\uE617  User Home', path: '~' }
-        - { title: '\uF115  AppData Roaming', path: '~\\AppData\\Roaming' }
-        - { title: '\uF115  AppData Local', path: '~\\AppData\\Local' }
-        - { title: '\uF115  AppData LocalLow', path: '~\\AppData\\LocalLow' }
-        - { title: '\uF115  GitHub Backups', path: 'D:\\Bibliotecas\\Others\\GitHub' }
+        - { title: "\uE617  User Home", path: '~' }
+        - { title: "\uF115  AppData Roaming", path: '~\\AppData\\Roaming' }
+        - { title: "\uF115  AppData Local", path: '~\\AppData\\Local' }
+        - { title: "\uF115  AppData LocalLow", path: '~\\AppData\\LocalLow' }
+        - { title: "\uF115  GitHub Backups", path: 'D:\\Bibliotecas\\Others\\GitHub' }
       system_menu: true
       power_menu: false
       blur: true
       border_color: 'None'
       round_corners_type: 'normal'
       menu_labels:
-        about: '\ue66A  About This PC'
-        system: '\uF423  System Settings'
-        task_manager: '\uf437  Task Manager'
-        hibernate: '\uf28e  Hibernate'
-        sleep: '\u23fe   Sleep'
-        restart: '\uead2   Restart'
-        shutdown: '\uf011   Shutdown'
-        lock: '\uea75   Lock'
-        logout: '\udb80\udf43   Logout'
+        about: "\ue66A  About This PC"
+        system: "\uF423  System Settings"
+        task_manager: "\uf437  Task Manager"
+        hibernate: "\uf28e  Hibernate"
+        sleep: "\u23fe   Sleep"
+        restart: "\uead2   Restart"
+        shutdown: "\uf011   Shutdown"
+        lock: "\uea75   Lock"
+        logout: "\udb80\udf43   Logout"
       distance: 10
       container_padding:
         top: 0
@@ -228,7 +228,7 @@ widgets:
       callbacks:
         on_left: 'toggle_quick_launch'
       keybindings:
-        - keys: 'alt+space'
+        - keys: 'ctrl+alt+space'
           action: 'toggle_quick_launch'
 
   launchpad:
@@ -252,6 +252,9 @@ widgets:
         fade_out_duration: 200
       callbacks:
         on_left: 'toggle_launchpad'
+      keybindings:
+        - keys: 'shift+alt+space'
+          action: 'toggle_launchpad'
 
   clock:
     type: 'yasb.clock.ClockWidget'
@@ -289,8 +292,8 @@ widgets:
   weather:
     type: 'yasb.weather.WeatherWidget'
     options:
-      label: "{icon} {temp}"
-      label_alt: "{icon} {location}: {temp}, Min {min_temp}, Max {max_temp}, Wind {wind}"
+      label: "<span>{icon}</span> {temp}"
+      label_alt: "<span>{icon}</span> {location}: {temp}, Min {min_temp}, Max {max_temp}, Wind {wind}"
       api_key: '3bf4cf9a7c3f40d6b31174128242807'
       update_interval: 600
       hide_decimal: true
@@ -318,7 +321,7 @@ widgets:
         blur: true
         round_corners: true
         round_corners_type: 'normal'
-        border_color: '#None'
+        border_color: 'None'
         alignment: 'center'
         direction: 'down'
         icon_size: 64
@@ -359,8 +362,8 @@ widgets:
         on_middle: 'do_nothing'
         on_right: 'do_nothing'
       max_field_size:
-        label: 30
-        label_alt: 30
+        label: 20
+        label_alt: 20
       show_thumbnail: false
       controls_only: false
       controls_left: true
@@ -394,13 +397,11 @@ widgets:
         prev_track: "\ue892"
         next_track: "\ue893"
       scrolling_label:
-        enabled: false
-        update_interval_ms: 13
+        enabled: true
+        update_interval_ms: 50
         style: 'left' # can be 'left', 'right', 'bounce', 'bounce-ease'
         separator: '    |    '
         label_padding: 10
-
-
 
   cpu:
     type: 'yasb.cpu.CpuWidget'
@@ -578,6 +579,13 @@ widgets:
         border_color: 'None'
         alignment: 'center'
         direction: 'down'
+        show_apps: true
+        show_app_labels: true
+        show_app_icons: true
+        show_apps_expanded: false
+        app_icons:
+          toggle_down: "\uf078"
+          toggle_up: "\uf077"
 
   settings:
     type: 'yasb.applications.ApplicationsWidget'

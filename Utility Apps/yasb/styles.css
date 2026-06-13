@@ -42,7 +42,7 @@
     --margin-lg: 12px;
     --padding-label: 0px 2px 2px 2px;
     --padding-menu: 12px 84px 12px 14px;
-    --padding-volume: 12px 14px;
+    --padding-volume: 8px 12px;
     --padding-button: 4px 8px;
     --margin-widget: 4px 0;
     --padding-tooltip: 12px 24px;
@@ -61,7 +61,7 @@
     padding: var(--padding-normal);
     margin: 0;
     background-color: var(--bg-taskbar);
-    border-radius: 8px;
+    /* border-radius: 8px; */
 }
 
 .widget {
@@ -253,29 +253,79 @@
 
 
 /* Volume */
-.volume-slider {
-    padding: 8px;
-}
-
 .audio-menu {
-    background-color: var(--bg-primary);
+    background-color: rgba(17, 17, 27, 0.4);
+    min-width: 300px;
 }
 
-.audio-container .device {
+/* System volume */
+.audio-menu .system-volume-container .volume-slider {
+    border: none;
+    margin-left: 32px;
+}
+
+/* Device list styles */
+.audio-menu .audio-container .device {
+    background-color: transparent;
+    border: none;
     padding: var(--padding-volume);
+    margin: 2px 0;
     font-size: var(--text-normal);
-    border: 1px solid transparent;
-    border-radius: var(--radius-normal);
+    border-radius: 4px;
 }
 
-.audio-container .device.selected {
-    background-color: var(--bg-hover-secondary);
-    border: 1px solid var(--color-grey);
+.audio-menu .audio-container .device.selected {
+    background-color: rgba(255, 255, 255, 0.085);
+
 }
 
-.audio-container .device:hover {
-    background-color: var(--bg-hover-primary);
+.audio-menu .audio-container .device:hover {
+    background-color: rgba(255, 255, 255, 0.06);
 }
+
+/* Toggle button for application volumes (if is enabled) */
+.audio-menu .toggle-apps {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    border-radius: 4px;
+}
+
+.audio-menu .toggle-apps.expanded {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.audio-menu .toggle-apps:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+
+}
+
+/* Container for application volumes (if is enabled) */
+.audio-menu .apps-container {
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.062)
+}
+
+.audio-menu .apps-container .app-volume .app-icon-container {
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 6px;
+    margin-right: 8px;
+}
+
+.audio-menu .apps-container .app-volume .app-icon-container:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
 
 
 
@@ -375,14 +425,6 @@
     font-size: 12px;
     color: var(--color-light-grey);
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -981,8 +1023,8 @@
 }
 
 .media-menu {
-    min-width: 540px;
-    max-width: 540px;
+    min-width: 480px;
+    max-width: 480px;
     background-color: var(--bg-primary);
 }
 
@@ -1077,7 +1119,7 @@
 }
 
 .media-menu .progress-slider::sub-page {
-    background: var(--color-light-green);
+    background: var(--color-purple);
     border-radius: 3px;
     height: 4px;
 }
@@ -1096,7 +1138,7 @@
 }
 
 .media-menu .app-volume-container .volume-slider::add-page {
-    background: var(--color-light-green);
+    background: var(--color-purple);
     border-radius: 2px;
 }
 

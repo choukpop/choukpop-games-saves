@@ -1,0 +1,2924 @@
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.15f1 (c1aa84e375f6)
+[Subsystems] Discovering subsystems at path D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data/UnitySubsystems
+[D3D12 Device Filter] Vendor Name: ATI
+[D3D12 Device Filter] Device Name: AMD  Radeon RX 7800 XT
+[D3D12 Device Filter] Driver Version: 32.0.31019.2002
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 16177 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeClientWorkerJobs
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD  Radeon RX 7800 XT (ID=0x747e)
+    Vendor:   ATI
+    VRAM:     16177 MB
+    Driver:   32.0.31019.2002
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 0.777700 ms
+Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled).
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Sirenix.Serialization.UnitySerializationInitializer:Initialize()
+
+Odin Serializer detected whitelisted runtime platform WindowsPlayer and memory read test succeeded; enabling all unaligned memory read/writes.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Sirenix.Serialization.ArchitectureInfo:SetRuntimePlatform(RuntimePlatform)
+Sirenix.Serialization.UnitySerializationInitializer:Initialize()
+
+Unknown arguments: D:\SteamLibrary\steamapps\common\House Flipper Remastered Collection\HouseFlipper.exe
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+RuntimeArgumentParserBackend:Parse()
+RuntimeConfiguration:.cctor()
+GameLoader:Awake()
+
+OS: Windows 11  (10.0.26200)
+CPU: AMD Ryzen 7 5800X 8-Core Processor 
+GPU: AMD  Radeon RX 7800 XT type: Direct3D11 version: Direct3D 11.0 [level 11.1]
+VRAM: 16177MB
+RAM: 32693MB
+DeviceModel: MS-7C56 (Micro-Star International Co., Ltd.)
+Shader level: 50
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper.SystemInfoDebug:Execute()
+GameLoader:Awake()
+
+Prefs ready
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayerPrefsInit:InitializationFinished()
+GameLoader:Awake()
+
+Init: Toggles Panel
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper.BugReporter.BaseClassWithInit:Init(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BugReporterWindow:OnInit(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BaseClassWithInit:Init(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BugReporter:OnInit(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BaseClassWithInit:Init(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BugReporter:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+GameLoader:Awake()
+
+Init: Screenshot Panel
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper.BugReporter.BaseClassWithInit:Init(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BugReporterWindow:OnInit(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BaseClassWithInit:Init(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BugReporter:OnInit(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BaseClassWithInit:Init(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BugReporter:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+GameLoader:Awake()
+
+Init: Emotion Panel
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper.BugReporter.BaseClassWithInit:Init(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BugReporterWindow:OnInit(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BaseClassWithInit:Init(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BugReporter:OnInit(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BaseClassWithInit:Init(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BugReporter:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+GameLoader:Awake()
+
+Init: SendButton
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper.BugReporter.BaseClassWithInit:Init(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BugReporterWindow:OnInit(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BaseClassWithInit:Init(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BugReporter:OnInit(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BaseClassWithInit:Init(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BugReporter:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+GameLoader:Awake()
+
+Init: Window
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper.BugReporter.BaseClassWithInit:Init(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BugReporter:OnInit(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BaseClassWithInit:Init(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BugReporter:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+GameLoader:Awake()
+
+Init: Popup
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper.BugReporter.BaseClassWithInit:Init(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BugReporter:OnInit(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BaseClassWithInit:Init(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BugReporter:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+GameLoader:Awake()
+
+Init: BugReporting Canvas(Clone)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper.BugReporter.BaseClassWithInit:Init(BugReporterData)
+Empyrean.HouseFlipper.BugReporter.BugReporter:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+GameLoader:Awake()
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 11524.
+Total: 27.761800 ms (FindLiveObjects: 0.684900 ms CreateObjectMapping: 0.835600 ms MarkObjects: 24.225500 ms  DeleteObjects: 2.015100 ms)
+
+Either assetReference is null (True) or assetReference is invalid
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+HF.Censor.CensoredAssets`1:TryLoadAsset(CensoredObjectType, Func`2, Action`1)
+HF.Censor.CensoredImage:Start()
+
+Either assetReference is null (True) or assetReference is invalid
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+HF.Censor.CensoredAssets`1:TryLoadAsset(CensoredObjectType, Func`2, Action`1)
+HF.Censor.CensoredImage:Start()
+
+[BuildInfoLoader] initialized: {
+  "git log": "add45f6bfe58fd71dbdefa5bd031edc49c76074d 2026-06-11 16:31:28 +0200",
+  "modified files": "144",
+  "build host": "FWWS018",
+  "build time": "2026-06-11 18:16:13",
+  "appVer": "[develop] 1.26162 ()",
+  "Environment": "Build",
+  "branch": "add45f6bfe58fd71dbdefa5bd031edc49c76074d"
+}
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Start>d__9:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+InstalledUICulture: pt-PT, CurrentUICulture: pt-PT, CurrentCulture: pt-PT
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PinkDanishWallsFixer:Execute()
+<Start>d__9:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+InstalledUICulture: pt-PT, CurrentUICulture: en-US, CurrentCulture: en-US
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Start>d__9:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[SettingsPrefs] Initialize
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SettingsPrefs:Initialize()
+<Start>d__9:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Either assetReference is null (True) or assetReference is invalid
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+HF.Censor.CensoredAssets`1:TryLoadAsset(CensoredObjectType, Func`2, Action`1)
+HF.Censor.CensoredImage:Start()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../CoreBundles\core_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+HF.AssetManagement.RuntimeLoader:Load()
+HF.AssetManagement.AssetBundlesLoader:Load(CompletionListener)
+<LoadGameEnumerator>d__15:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Direct3D: detected that using refresh rate causes time drift. Will stop trusting refresh rate until the game window is moved.
+[RuntimeLoadingProgress] Loaded bundle: core_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleRegular(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../CoreBundles\core_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: core_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleWithAssets(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../CoreBundles\shareditems_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: shareditems_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleWithAssets(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../CoreBundles\full_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: full_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleRegular(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../CoreBundles\full_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: full_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleWithAssets(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../CoreBundles\full_scenes
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: full_scenes
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleRegular(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_cyberpunk_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_cyberpunk_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleRegular(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_dineout_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_dineout_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleRegular(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_farm_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_farm_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleRegular(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_gardens_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_gardens_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleRegular(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_heart_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_heart_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleRegular(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_luxury_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_luxury_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleRegular(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_party_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_party_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleRegular(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_pets_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_pets_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleRegular(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_popart_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_popart_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleRegular(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_preppers_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_preppers_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleRegular(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_sunsetbay_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_sunsetbay_deps
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleRegular(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_cyberpunk_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_cyberpunk_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleWithAssets(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_dineout_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_dineout_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleWithAssets(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_farm_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_farm_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleWithAssets(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_gardens_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_gardens_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleWithAssets(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_heart_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_heart_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleWithAssets(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_luxury_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_luxury_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleWithAssets(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_party_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_party_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleWithAssets(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_pets_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_pets_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleWithAssets(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_popart_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_popart_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleWithAssets(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_preppers_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_preppers_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleWithAssets(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_sunsetbay_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_sunsetbay_assets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleWithAssets(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_cyberpunk_scenes
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_cyberpunk_scenes
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleRegular(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_dineout_scenes
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_dineout_scenes
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleRegular(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_farm_scenes
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_farm_scenes
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleRegular(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_gardens_scenes
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_gardens_scenes
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleRegular(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_heart_scenes
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_heart_scenes
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleRegular(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_luxury_scenes
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_luxury_scenes
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleRegular(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_pets_scenes
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_pets_scenes
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleRegular(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_preppers_scenes
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_preppers_scenes
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleRegular(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loading: D:/SteamLibrary/steamapps/common/House Flipper Remastered Collection/HouseFlipper_Data\../AssetBundles\dlc_sunsetbay_scenes
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:Load()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Loaded bundle: dlc_sunsetbay_scenes
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundle(AsyncOperation)
+HF.AssetManagement.RuntimeLoadingProgress:HandleLoadedBundleRegular(AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[RuntimeLoadingProgress] Took 00:00:22.5267550
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:LoadNext()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+Setup start house scene: SmallFirstHouse
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.AssetManagement.RuntimeLoadingProgress:LoadNext()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[ProjectGuidmapper] after init <B>24</B>.9s 2303 objects loaded
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Load>d__37:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+InstantResponseEvent`1:Invoke(T)
+HF.AssetManagement.AssetBundlesLoader:HandleLoadingCompleted(LoadedAssets)
+LazyInitEvent:Invoke()
+HF.AssetManagement.RuntimeLoadingProgress:LoadNext()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+Loading Start Scene <B>24</B>.9s
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<DoContinueLoadingAfterBundlesLoaded>d__17:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+LazyInitEvent:Invoke()
+HF.AssetManagement.RuntimeLoadingProgress:LoadNext()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'PrivacyUnityButton') is missing!
+Direct3D: detected that vsync is broken (it does not limit frame rate properly). Delta time will now be calculated using cpu-side time stampling until the game window is moved.
+The referenced script on this Behaviour (Game Object 'HTraceAO Final Pass') is missing!
+The referenced script on this Behaviour (Game Object 'HTraceAO Main Pass') is missing!
+The referenced script on this Behaviour (Game Object 'HTraceAO Pre Pass') is missing!
+Unloading 3 Unused Serialized files (Serialized files now loaded: 687)
+UnloadTime: 0.596200 ms
+Failed to create agent because there is no valid NavMesh
+[GameManagerLoader] before <B>30</B>.3s
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameManagerLoader:Awake()
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+GameManagerLoader:Awake()
+
+[ line 1780081288]
+
+[GameManagerLoader] after instantiate <B>30</B>.5s
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 1\PlayerProgress.dat. Attempts left: 5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 1\PlayerProgress.dat. Attempts left: 4
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 1\PlayerProgress.dat. Attempts left: 3
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 1\PlayerProgress.dat. Attempts left: 2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 1\PlayerProgress.dat. Attempts left: 1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 1\UserSaves
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+HF.IO.Backend.SystemIO.SystemIOHouseSaves:FetchHouses()
+HF.IO.Backend.SystemIO.SystemIOProfile:LoadHouseSaves()
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 1\ArchivalSaves
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+HF.IO.Backend.SystemIO.SystemIOHouseSaves:FetchHouses()
+HF.IO.Backend.SystemIO.SystemIOProfile:LoadHouseSaves()
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 2\PlayerProgress.dat. Attempts left: 5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 2\PlayerProgress.dat. Attempts left: 4
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 2\PlayerProgress.dat. Attempts left: 3
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 2\PlayerProgress.dat. Attempts left: 2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 2\PlayerProgress.dat. Attempts left: 1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 2\UserSaves
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+HF.IO.Backend.SystemIO.SystemIOHouseSaves:FetchHouses()
+HF.IO.Backend.SystemIO.SystemIOProfile:LoadHouseSaves()
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 2\ArchivalSaves
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+HF.IO.Backend.SystemIO.SystemIOHouseSaves:FetchHouses()
+HF.IO.Backend.SystemIO.SystemIOProfile:LoadHouseSaves()
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 3\PlayerProgress.dat. Attempts left: 5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 3\PlayerProgress.dat. Attempts left: 4
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 3\PlayerProgress.dat. Attempts left: 3
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 3\PlayerProgress.dat. Attempts left: 2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 3\PlayerProgress.dat. Attempts left: 1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 3\UserSaves
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+HF.IO.Backend.SystemIO.SystemIOHouseSaves:FetchHouses()
+HF.IO.Backend.SystemIO.SystemIOProfile:LoadHouseSaves()
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 3\ArchivalSaves
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+HF.IO.Backend.SystemIO.SystemIOHouseSaves:FetchHouses()
+HF.IO.Backend.SystemIO.SystemIOProfile:LoadHouseSaves()
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 4\PlayerProgress.dat. Attempts left: 5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 4\PlayerProgress.dat. Attempts left: 4
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 4\PlayerProgress.dat. Attempts left: 3
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 4\PlayerProgress.dat. Attempts left: 2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 4\PlayerProgress.dat. Attempts left: 1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 4\UserSaves
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+HF.IO.Backend.SystemIO.SystemIOHouseSaves:FetchHouses()
+HF.IO.Backend.SystemIO.SystemIOProfile:LoadHouseSaves()
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 4\ArchivalSaves
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+HF.IO.Backend.SystemIO.SystemIOHouseSaves:FetchHouses()
+HF.IO.Backend.SystemIO.SystemIOProfile:LoadHouseSaves()
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 5\PlayerProgress.dat. Attempts left: 5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 5\PlayerProgress.dat. Attempts left: 4
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 5\PlayerProgress.dat. Attempts left: 3
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 5\PlayerProgress.dat. Attempts left: 2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SystemIOProfile Trying to load player progress C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 5\PlayerProgress.dat. Attempts left: 1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 5\UserSaves
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+HF.IO.Backend.SystemIO.SystemIOHouseSaves:FetchHouses()
+HF.IO.Backend.SystemIO.SystemIOProfile:LoadHouseSaves()
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 5\ArchivalSaves
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+HF.IO.Backend.SystemIO.SystemIOHouseSaves:FetchHouses()
+HF.IO.Backend.SystemIO.SystemIOProfile:LoadHouseSaves()
+HF.IO.Backend.SystemIO.SystemIOProfile:.ctor(Int32, String)
+HF.IO.Backend.SystemIO.SystemIOProfiles:.ctor()
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection/Profiles/Profile 1/ArchivalSaves
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection/Profiles/Profile 1/CatchedTextures.dat
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection/Profiles/Profile 1/CatchedTextures_AfterSummary.dat
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection/Profiles/Profile 1/CatchedTextures_BeforeSummary.dat
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection/Profiles/Profile 1/CatchedTextures_DoghouseName.dat
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection/Profiles/Profile 1/CatchedTextures_Gallery.dat
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection/Profiles/Profile 1/CatchedTextures_GallerySticker.dat
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection/Profiles/Profile 1/CatchedTextures_Grass.dat
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection/Profiles/Profile 1/CatchedTextures_Gravel.dat
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection/Profiles/Profile 1/CatchedTextures_SpecialGrass.dat
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection/Profiles/Profile 1/CatchedTextures_Windows.dat
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection/Profiles/Profile 1/Farm\ArchivalSaves
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection/Profiles/Profile 1/Farm\UserSaves
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection/Profiles/Profile 1/Farm
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection/Profiles/Profile 1/Pets\ArchivalSaves
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection/Profiles/Profile 1/Pets\UserSaves
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection/Profiles/Profile 1/Pets
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection/Profiles/Profile 1/UserSaves
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection/Profiles/Profile 1/
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+Empyrean.HouseFlipper.SaveFilesCleaner:DeleteTmpTrashFiles(String)
+HF.IO.Backend.SystemIO.StandaloneIOBackend:OnInit()
+PlayerProgress:GetProfile(Int32)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Progress not found: ""
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Creating new empty player progress: "Default"
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayerProgress:GetNewPlayerProgressObjectWithNullChecks(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Assets.Code.Player.PlayerController:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+Code.GameManagers.PlayerPositionManager:InstantiatePlayer()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+[Player Profile] Initialization
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper.ProfilesFromSingleSave:Execute()
+Empyrean.HouseFlipper.PlayerProfile:EnsureProfilesExistsAndInitialize()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Saved player progress found: "" with name: "Default" with playtime: 1min with houses owned: 1 with houses sold: 0
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgress(String)
+Empyrean.HouseFlipper.ProfilesFromSingleSave:Execute()
+Empyrean.HouseFlipper.PlayerProfile:EnsureProfilesExistsAndInitialize()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Saved player progress found: "Profile 1" with name: "Default" with playtime: 1min with houses owned: 1 with houses sold: 0
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayerProgress:LoadProfileProgressFile(String)
+Empyrean.HouseFlipper.PlayerProfile:LoadProfileProgresses()
+Empyrean.HouseFlipper.PlayerProfile:EnsureProfilesExistsAndInitialize()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Progress not found: "Profile 2"
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PlayerProgress:LoadProfileProgressFile(String)
+Empyrean.HouseFlipper.PlayerProfile:LoadProfileProgresses()
+Empyrean.HouseFlipper.PlayerProfile:EnsureProfilesExistsAndInitialize()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Progress not found: "Profile 3"
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PlayerProgress:LoadProfileProgressFile(String)
+Empyrean.HouseFlipper.PlayerProfile:LoadProfileProgresses()
+Empyrean.HouseFlipper.PlayerProfile:EnsureProfilesExistsAndInitialize()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Progress not found: "Profile 4"
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PlayerProgress:LoadProfileProgressFile(String)
+Empyrean.HouseFlipper.PlayerProfile:LoadProfileProgresses()
+Empyrean.HouseFlipper.PlayerProfile:EnsureProfilesExistsAndInitialize()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Progress not found: "Profile 5"
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PlayerProgress:LoadProfileProgressFile(String)
+Empyrean.HouseFlipper.PlayerProfile:LoadProfileProgresses()
+Empyrean.HouseFlipper.PlayerProfile:EnsureProfilesExistsAndInitialize()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Going to create new game progress
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameProgress:LoadOrCreate()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Load game progress
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameProgress:LoadOrCreate()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Going to create new before after progress
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper.HGTV.BeforeAfter.BeforeAfterPlayerProgress:LoadOrCreate()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Load before after progress
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper.HGTV.BeforeAfter.BeforeAfterPlayerProgress:LoadOrCreate()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Going to create new hgtv order progress
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper.HGTV.AchievementsLogic.HgtvOrderDecisionsProgress:LoadOrCreate()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Load hgtv order progress
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper.HGTV.AchievementsLogic.HgtvOrderDecisionsProgress:LoadOrCreate()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+Initializing Steam Inventory
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SteamHfInventory:DoInitialize()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+SteamInventory.GetAllItems(out steamInventoryResult) : True -- 0
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SteamHfInventory:DoInitialize()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+[UserManagement] current user: Diana
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.Social.Users.UserManagement:PassUserDataChange(User)
+HF.Social.Users.UserManagement:.cctor()
+Empyrean.HouseFlipper.Tablet.AvatarUpload:.cctor()
+Empyrean.HouseFlipper.Tablet.GalleryView:OnInitialise()
+Empyrean.HouseFlipper.Tablet.TabletViewController:Init()
+Empyrean.HouseFlipper.Tablet.TabletController:Init()
+Empyrean.HouseFlipper.Tablet.Tablet:CreateNewTablet()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+UnityEngine.Object:Instantiate(T, Transform, Boolean)
+SettingsView:OnInit()
+BaseMenuViewWithSidePanel:Init()
+MainMenu:Initialize()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+[ line 1780080040]
+
+The referenced script (UnityEngine.Analytics.DataPrivacyButton) on this Behaviour is missing!
+UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+UnityEngine.Object:Instantiate(T, Transform, Boolean)
+SettingsView:OnInit()
+BaseMenuViewWithSidePanel:Init()
+MainMenu:Initialize()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+[ line 1780080872]
+
+The referenced script on this Behaviour (Game Object 'PrivacyUnityButton') is missing!
+UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+UnityEngine.Object:Instantiate(T, Transform, Boolean)
+SettingsView:OnInit()
+BaseMenuViewWithSidePanel:Init()
+MainMenu:Initialize()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+[ line 1780081032]
+
+Discovered 0 controllers
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+HFPadSupport.SteamController.SteamBigPicture:GetAvailableControllers()
+HFPadSupport.SteamController.SteamBindingWindow:SetupDropdown()
+AbstractSettingsView:Init()
+SettingsView:OnInit()
+BaseMenuViewWithSidePanel:Init()
+MainMenu:Initialize()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+[BuildInfoLoader] initialized: {
+  "git log": "add45f6bfe58fd71dbdefa5bd031edc49c76074d 2026-06-11 16:31:28 +0200",
+  "modified files": "144",
+  "build host": "FWWS018",
+  "build time": "2026-06-11 18:16:13",
+  "appVer": "[develop] 1.26162 ()",
+  "Environment": "Build",
+  "branch": "add45f6bfe58fd71dbdefa5bd031edc49c76074d"
+}
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+[6/12/2026 5:42:05 PM] Log into the game with profile "Default" with played time: 00:01
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ActivityLogger:Init()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+[ActivityLogger] Creating activity log file
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ActivityLogger:Init()
+Code.GameManagers.GameManager:DoInitialize()
+Code.GameManagers.GameManager:AwakenTheGameManager()
+GameManagerLoader:Awake()
+
+[GameManagerLoader] after awaken <B>37</B>.1s
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameManagerLoader:Awake()
+
+[SettingsPrefs] Initialize
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SettingsPrefs:Initialize()
+GameManagerLoader:Awake()
+
+Loaded Start Scene <B>37</B>.2s
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+Found 0 file saves at C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Gallery
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.SafeSystemIO:GetFilesInDirectory(String)
+HF.IO.Backend.SystemIO.SystemIOGallery:GetPictures(Type)
+HF.Gold.PhotoMode.GalleryManager:Start()
+
+Cannot continue game. Is it a new profile?
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+MainMenu:SetButtonsEnableStatus()
+MainMenu:EnableMainMenu(Boolean)
+MainMenu:Start()
+
+[4700 - SteamInventoryResultReady] - 0 -- k_EResultFail
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SteamHfInventory:OnSteamInventoryResultReady(SteamInventoryResultReady_t)
+Steamworks.Callback`1:OnRunCallback(IntPtr)
+Steamworks.CallbackDispatcher:RunFrame(Boolean)
+
+SteamInventory.GetResultItems(0, null, out OutItemsArraySize) - False -- 0
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SteamHfInventory:GetItemsDetails()
+SteamHfInventory:OnSteamInventoryResultReady(SteamInventoryResultReady_t)
+Steamworks.Callback`1:OnRunCallback(IntPtr)
+Steamworks.CallbackDispatcher:RunFrame(Boolean)
+
+Highlighter Pass Reporting in
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HighlighterPass:Setup(ScriptableRenderContext, CommandBuffer)
+UnityEngine.Rendering.HighDefinition.<>c:<ExecuteInternal>b__39_0(ExecutePassData, UnsafeGraphContext)
+UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.NativePassCompiler:ExecuteRenderGraphPass(InternalRenderGraphContext&, RenderGraphResourceRegistry, RenderGraphPass)
+UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.NativePassCompiler:ExecuteGraph(InternalRenderGraphContext, RenderGraphResourceRegistry, List`1&)
+UnityEngine.Rendering.RenderGraphModule.RenderGraph:ExecuteNativeRenderGraph()
+UnityEngine.Rendering.RenderGraphModule.RenderGraph:EndRecordingAndExecute()
+UnityEngine.Rendering.HighDefinition.HDRenderPipeline:ExecuteWithRenderGraph(RenderRequest, AOVRequestData, List`1, List`1, ScriptableRenderContext, CommandBuffer)
+UnityEngine.Rendering.HighDefinition.HDRenderPipeline:ExecuteRenderRequest(RenderRequest, ScriptableRenderContext, CommandBuffer, AOVRequestData)
+UnityEngine.Rendering.HighDefinition.HDRenderPipeline:Render(ScriptableRenderContext, List`1)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+
+Unloading 37516 unused Assets to reduce memory usage. Loaded Objects now: 77557.
+Total: 99.166100 ms (FindLiveObjects: 12.154500 ms CreateObjectMapping: 13.483500 ms MarkObjects: 56.646800 ms  DeleteObjects: 16.880700 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 687)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 77596.
+Total: 78.507000 ms (FindLiveObjects: 10.609800 ms CreateObjectMapping: 8.057700 ms MarkObjects: 59.695700 ms  DeleteObjects: 0.143000 ms)
+
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House and Environment/House/Floor 0/Roomless/Cavities/Decal_BrickSmalllWall"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House and Environment/House/Floor 0/Roomless/Dirts/Decal14"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House and Environment/House/Floor 0/Roomless/Dirts/Decal21 (4)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House and Environment/House/Floor 0/Roomless/Dirts/Decal21"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House and Environment/Environment/Fence_Backyard_Tile (1)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House and Environment/House/Floor 1/Roomless/Dirts/Decal21 (14)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House and Environment/House/Floor 1/Roomless/Dirts/Decal21 (10)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House and Environment/House/Floor 1/Roomless/Dirts/Decal21 (17)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House and Environment/DLCS/PickUp/PostCorrection/DoorBackRight"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House and Environment/DLCS/PickUp/PostCorrection/DoorFrontRight"
+Cannot continue game. Is it a new profile?
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+MainMenu:SetButtonsEnableStatus()
+MainMenu:EnableMainMenu(Boolean)
+HF.AssetManagement.<ReportSceneLoadingProgress>d__12:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Either assetReference is null (True) or assetReference is invalid
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+HF.Censor.CensoredAssets`1:TryLoadAsset(CensoredObjectType, Func`2, Action`1)
+HF.Censor.CensoredImage:Start()
+
+Discovered 0 controllers
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+HFPadSupport.SteamController.SteamBigPicture:GetAvailableControllers()
+HFPadSupport.SteamController.SteamBindingWindow:SetupDropdown()
+HFPadSupport.SteamController.SteamBigPictureToggler:ToggleTargets()
+MainMenu:OpenSettingsView(MenuButtonFlags)
+MainMenuView:ButtonClickedHandler(MenuButton)
+UnityEngine.Events.UnityEvent:Invoke()
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+Either assetReference is null (True) or assetReference is invalid
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+HF.Censor.CensoredAssets`1:TryLoadAsset(CensoredObjectType, Func`2, Action`1)
+HF.Censor.CensoredImage:Start()
+
+[empcon] Command interpreter not set. Using default.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.Console.UI.ConsoleUI:InterpretInput()
+Empyrean.Console.UI.ConsoleUI:Refresh()
+
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+DG.Tweening.Core.Debugger:LogWarning(Object, Tween)
+DG.Tweening.TweenExtensions:IsPlaying(Tween)
+MessageSystem:Apply(SafeAreaOffset)
+Empyrean.HouseFlipper.SafeArea.SafeAreaManager:Update(Vector2)
+SafeAreaButton:ApplyValues()
+SafeAreaButton:RestoreAndApply(Result)
+Empyrean.HouseFlipper.SafeArea.SafeAreaDisplay:Update()
+
+ReLoad to profile: "Profile 1"
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper.PlayerProfile:LoadProfile(String)
+Empyrean.HouseFlipper.PlayerProfile:ChooseProfile(Int32)
+Empyrean.HouseFlipper.ProfilesView:LoadProfile(Int32)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+Load game progress
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameProgress:LoadOrCreate()
+Empyrean.HouseFlipper.PlayerProfile:LoadProfile(String)
+Empyrean.HouseFlipper.PlayerProfile:ChooseProfile(Int32)
+Empyrean.HouseFlipper.ProfilesView:LoadProfile(Int32)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+Load hgtv order progress
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper.HGTV.AchievementsLogic.HgtvOrderDecisionsProgress:LoadOrCreate()
+Empyrean.HouseFlipper.PlayerProfile:LoadProfile(String)
+Empyrean.HouseFlipper.PlayerProfile:ChooseProfile(Int32)
+Empyrean.HouseFlipper.ProfilesView:LoadProfile(Int32)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+Cannot continue game. Is it a new profile?
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+MainMenu:SetButtonsEnableStatus()
+MainMenu:EnableMainMenu(Boolean)
+Empyrean.HouseFlipper.ProfilesView:ExitProfilesView()
+Empyrean.HouseFlipper.ProfilesView:LoadProfile(Int32)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+Progress not found: ""
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PlayerProgress:LoadProfileProgressFile(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Code.GameManagers.GameManager:InitNewGame()
+NewGamePopup:ChooseLeftOption()
+<>c__DisplayClass14_0:<ShowConfirmationPopup>b__0()
+UnityEngine.Events.UnityEvent:Invoke()
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+Creating new empty player progress: "Default"
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayerProgress:GetNewPlayerProgressObjectWithNullChecks(String)
+PlayerProgress:LoadOrCreateProgressWithRestoredHouses(String)
+Assets.Code.Player.PlayerController:InitializeProgress(String)
+Code.GameManagers.GameManager:InitNewGame()
+NewGamePopup:ChooseLeftOption()
+<>c__DisplayClass14_0:<ShowConfirmationPopup>b__0()
+UnityEngine.Events.UnityEvent:Invoke()
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+6/12/2026 5:44:09 PM - Saving PlayerProgress [InitNewGame]
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper.SaveOrder:Log()
+Empyrean.HouseFlipper.SaveOrder:Execute()
+Empyrean.HouseFlipper.SaveHelper:Execute(SaveOrder)
+Code.GameManagers.GameManager:InitNewGame()
+NewGamePopup:ChooseLeftOption()
+<>c__DisplayClass14_0:<ShowConfirmationPopup>b__0()
+UnityEngine.Events.UnityEvent:Invoke()
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+<B>Loading house: 0. 35613_displayName - SmallFirstHouse/</B>
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Code.GameManagers.<LoadHouseCor>d__25:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 711)
+Unloading 771 unused Assets to reduce memory usage. Loaded Objects now: 82592.
+Total: 63.516300 ms (FindLiveObjects: 5.247900 ms CreateObjectMapping: 5.415700 ms MarkObjects: 50.882900 ms  DeleteObjects: 1.969000 ms)
+
+Highlighter Pass Reporting in
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HighlighterPass:Setup(ScriptableRenderContext, CommandBuffer)
+UnityEngine.Rendering.HighDefinition.<>c:<ExecuteInternal>b__39_0(ExecutePassData, UnsafeGraphContext)
+UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.NativePassCompiler:ExecuteRenderGraphPass(InternalRenderGraphContext&, RenderGraphResourceRegistry, RenderGraphPass)
+UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.NativePassCompiler:ExecuteGraph(InternalRenderGraphContext, RenderGraphResourceRegistry, List`1&)
+UnityEngine.Rendering.RenderGraphModule.RenderGraph:ExecuteNativeRenderGraph()
+UnityEngine.Rendering.RenderGraphModule.RenderGraph:EndRecordingAndExecute()
+UnityEngine.Rendering.HighDefinition.HDRenderPipeline:ExecuteWithRenderGraph(RenderRequest, AOVRequestData, List`1, List`1, ScriptableRenderContext, CommandBuffer)
+UnityEngine.Rendering.HighDefinition.HDRenderPipeline:ExecuteRenderRequest(RenderRequest, ScriptableRenderContext, CommandBuffer, AOVRequestData)
+UnityEngine.Rendering.HighDefinition.HDRenderPipeline:Render(ScriptableRenderContext, List`1)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+
+The referenced script on this Behaviour (Game Object 'HTraceAO Final Pass') is missing!
+The referenced script on this Behaviour (Game Object 'HTraceAO Pre Pass') is missing!
+The referenced script on this Behaviour (Game Object 'HTraceAO Main Pass') is missing!
+Unloading 3 Unused Serialized files (Serialized files now loaded: 711)
+UnloadTime: 6.855400 ms
+scn_Environment 4scene loaded in 0.7s
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Code.GameManagers.<LoadLevelCor>d__29:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Unloading 4728 unused Assets to reduce memory usage. Loaded Objects now: 91550.
+Total: 108.654600 ms (FindLiveObjects: 7.232700 ms CreateObjectMapping: 6.701300 ms MarkObjects: 77.143800 ms  DeleteObjects: 17.576300 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 704)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 91542.
+Total: 76.656900 ms (FindLiveObjects: 13.191600 ms CreateObjectMapping: 7.395700 ms MarkObjects: 55.597200 ms  DeleteObjects: 0.469700 ms)
+
+Player has just fallen in dead zone and will be repositioned
+	Click this message for details.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:Log(Object, Object)
+DeadZone:OnTriggerEnter(Collider)
+
+[PlayerPositionManager] No spawn point specified
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Code.GameManagers.PlayerPositionManager:ResetPlayerPositionAndRotation(Boolean)
+DeadZone:OnTriggerEnter(Collider)
+
+[scene-loader-counter] Setting scene change time to now
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Assets.Code.Share.Code.SceneLoadTimeCounter0:Awake()
+
+[scene-loader-counter] First <B>Awake</B> at: <B>170</B>.2s
+	(<B>0</B>.0s after scene change.)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+[scene-loader-counter] First <B>OnEnable</B> at: <B>170</B>.2s
+	(<B>0</B>.0s after scene change.)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+No WindowInteraction object in WindowGate. Are you sure WindowGate should be here?
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+
+No WindowInteraction object in WindowGate. Are you sure WindowGate should be here?
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+
+No WindowInteraction object in WindowGate. Are you sure WindowGate should be here?
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+
+No WindowInteraction object in WindowGate. Are you sure WindowGate should be here?
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+
+No WindowInteraction object in WindowGate. Are you sure WindowGate should be here?
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+
+[scene-loader-counter] Last <B>Awake</B> at: <B>170</B>.3s
+	(<B>0</B>.0s after scene change.)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+[scene-loader-counter] Last <B>OnEnable</B> at: <B>170</B>.3s
+	(<B>0</B>.0s after scene change.)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 705)
+[scene-loader-counter] First <B>Start</B> at: <B>170</B>.3s
+	(<B>0</B>.0s after scene change.)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+[scene-loader-counter] Last <B>Start</B> at: <B>170</B>.3s
+	(<B>0</B>.0s after scene change.)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+[scene-loader-counter] First <B>Update</B> at: <B>170</B>.3s
+	(<B>0</B>.0s after scene change.)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Assets.Code.Share.Code.SceneLoadTimeCounter0:Update()
+
+[scene-loader-counter] Last <B>Update</B> at: <B>170</B>.3s
+	(<B>0</B>.0s after scene change.)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Assets.Code.Share.Code.SceneLoadTimeCounter1:Update()
+
+SmallFirstHousescene loaded in 4.1s
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Code.GameManagers.<LoadLevelCor>d__29:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Unloading 3562 unused Assets to reduce memory usage. Loaded Objects now: 117967.
+Total: 94.069000 ms (FindLiveObjects: 8.825500 ms CreateObjectMapping: 6.972800 ms MarkObjects: 76.468000 ms  DeleteObjects: 1.802300 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 705)
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal25Leaking (11)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Outside/Varia/Decal24Leaking (2)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal25Leaking (9)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Outside/Varia/Decal24Leaking (3)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal24Leaking (13)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Outside/Varia/Decal24Leaking (4)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal24Leaking (18)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal25Leaking (3)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Outside/Varia/Decal24Leaking (10)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Outside/Varia/Decal24Leaking (5)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal24Leaking (17)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Outside/Varia/Decal24Leaking (11)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Outside/Varia/Decal24Leaking (8)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal24Leaking (14)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House/Floor 0/Roomless/Dirts/Decal25Leaking (7)"
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 117967.
+Total: 90.487100 ms (FindLiveObjects: 7.791600 ms CreateObjectMapping: 7.100500 ms MarkObjects: 75.177400 ms  DeleteObjects: 0.416500 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+[PlayerPositionManager]  No custom spawn point. Using gate data.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Code.GameManagers.PlayerPositionManager:SetPlayerSpawnTransform()
+Code.GameManagers.PlayerPositionManager:ResetPlayerPositionAndRotation(Boolean)
+Code.GameManagers.<LoadHouseCor>d__25:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Repositioning player, because it seems to be outside garden borders (-20.9, -9.6)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogError(Object, Object)
+Assets.Code.Player.PlayerController:ResetPositionIfOutOfGardenBorders()
+
+[PlayerPositionManager]  No custom spawn point. Using gate data.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Code.GameManagers.PlayerPositionManager:SetPlayerSpawnTransform()
+Code.GameManagers.PlayerPositionManager:ResetPlayerPositionAndRotation(Boolean)
+Assets.Code.Player.PlayerController:ResetPositionIfOutOfGardenBorders()
+
+6/12/2026 5:44:21 PM - Saving House [InitNewGame]
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper.SaveOrder:Log()
+Empyrean.HouseFlipper.SaveOrder:Execute()
+Empyrean.HouseFlipper.SaveHelper:Execute(SaveOrder)
+HFEvents:BroadcastHouseChanged(HouseInfo)
+Code.GameManagers.<LoadHouseCor>d__25:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Setting up player
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Code.GameManagers.HFSceneManager:EnablePlayerAndUpdateTools()
+<BroadcastFreshStartCor>d__29:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Occlusion Culling] not initialised (False)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Empyrean.HouseFlipper.OC.OcclusionCulling:SetCullingEnabled(Boolean)
+Empyrean.HouseFlipper.HGTV.BeforeAfter.BeforeAfterRanker:StartBeforeAfterSummary()
+LazyInitEvent:op_Addition(LazyInitEvent, LazyInitHandler)
+Empyrean.HouseFlipper.HGTV.BeforeAfter.BeforeAfterRanker:HandleInitialGrassCut()
+MowableManager:BroadcastInitialGrassCut()
+<CollectProgressOnStart>d__136:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 705)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 119101.
+Total: 83.215000 ms (FindLiveObjects: 9.785600 ms CreateObjectMapping: 5.831700 ms MarkObjects: 67.376900 ms  DeleteObjects: 0.220200 ms)
+
+Shader 'TextMeshPro/Distance Field On Top': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+DG.Tweening.Core.Debugger:LogWarning(Object, Tween)
+DG.Tweening.TweenExtensions:IsPlaying(Tween)
+RawMapImageHandler:OnPointerClick(PointerEventData)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+6/12/2026 5:45:57 PM - Saving HousePlayerProgress [BackToMainMenu]
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper.SaveOrder:Log()
+Empyrean.HouseFlipper.SaveOrder:Execute()
+Empyrean.HouseFlipper.SaveHelper:Execute(SaveOrder)
+MainMenu:BackToMainMenuClickHandler()
+MainMenuView:ButtonClickedHandler(MenuButton)
+UnityEngine.Events.UnityEvent:Invoke()
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+Start validating save file: C:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 1\PlayerProgress.dat
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.IO.Backend.SystemIO.<>c__DisplayClass22_0:<SavePlayerProgressWithValidation>b__0()
+System.Threading.Tasks.Task:Execute()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.Tasks.Task:ExecuteWithThreadLocal(Task&)
+System.Threading.Tasks.Task:ExecuteEntry(Boolean)
+System.Threading.ThreadPoolWorkQueue:Dispatch()
+
+Finished validating save fileC:/Users/ChouKpop/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection\Profiles\Profile 1\PlayerProgress.dat
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+System.Threading.Tasks.Task:Execute()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.Tasks.Task:ExecuteWithThreadLocal(Task&)
+System.Threading.Tasks.Task:ExecuteEntry(Boolean)
+System.Threading.ThreadPoolWorkQueue:Dispatch()
+
+Discord.ResultException: InternalError
+  at Discord.Discord..ctor (System.Int64 clientId, System.UInt64 flags) [0x00000] in <00000000000000000000000000000000>:0 
+  at HF.Social.RichPresence.DiscordRichPresenceBackend.Init () [0x00000] in <00000000000000000000000000000000>:0 
+  at HF.Social.RichPresence.DiscordRichPresenceBackendWrapper..ctor () [0x00000] in <00000000000000000000000000000000>:0 
+  at HF.Social.RichPresence.RichPresenceManager..cctor () [0x00000] in <00000000000000000000000000000000>:0 
+  at MainMenu.BackToMainMenuClickHandler () [0x00000] in <00000000000000000000000000000000>:0 
+  at MainMenuView.ButtonClickedHandler (MenuButton button) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMousePress (Rewired.Integration.UnityUI.RewiredPointerInputModule+MouseButtonEventData data) [0x00000] in <00000000000000000000000000000000>:0 
+  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMouseEvent (System.Int32 playerId, System.Int32 pointerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.Process () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <00000000000000000000000000000000>:0 
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+HF.Social.RichPresence.DiscordRichPresenceBackendWrapper:.ctor()
+HF.Social.RichPresence.RichPresenceManager:.cctor()
+MainMenu:BackToMainMenuClickHandler()
+MainMenuView:ButtonClickedHandler(MenuButton)
+UnityEngine.Events.UnityEvent:Invoke()
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+The referenced script on this Behaviour (Game Object 'HTraceAO Final Pass') is missing!
+The referenced script on this Behaviour (Game Object 'HTraceAO Main Pass') is missing!
+The referenced script on this Behaviour (Game Object 'HTraceAO Pre Pass') is missing!
+Unloading 2 Unused Serialized files (Serialized files now loaded: 715)
+UnloadTime: 40.546200 ms
+Failed to create agent because there is no valid NavMesh
+Unloading 10413 unused Assets to reduce memory usage. Loaded Objects now: 86686.
+Total: 89.764300 ms (FindLiveObjects: 9.899300 ms CreateObjectMapping: 6.534600 ms MarkObjects: 60.923400 ms  DeleteObjects: 12.406700 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 714)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 86637.
+Total: 78.533800 ms (FindLiveObjects: 6.755800 ms CreateObjectMapping: 6.689400 ms MarkObjects: 64.776700 ms  DeleteObjects: 0.311400 ms)
+
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House and Environment/House/Floor 0/Roomless/Cavities/Decal_BrickSmalllWall"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House and Environment/House/Floor 0/Roomless/Dirts/Decal14"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House and Environment/House/Floor 0/Roomless/Dirts/Decal21 (4)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House and Environment/House/Floor 0/Roomless/Dirts/Decal21"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House and Environment/Environment/Fence_Backyard_Tile (1)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House and Environment/House/Floor 1/Roomless/Dirts/Decal21 (14)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House and Environment/House/Floor 1/Roomless/Dirts/Decal21 (10)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House and Environment/House/Floor 1/Roomless/Dirts/Decal21 (17)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House and Environment/DLCS/PickUp/PostCorrection/DoorBackRight"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "House and Environment/DLCS/PickUp/PostCorrection/DoorFrontRight"
+6/12/2026 5:46:07 PM - Saving HousePlayerProgress [QuitGameButton]
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Empyrean.HouseFlipper.SaveOrder:Log()
+Empyrean.HouseFlipper.SaveOrder:Execute()
+Empyrean.HouseFlipper.SaveHelper:Execute(SaveOrder)
+Code.GameManagers.GameManager:SaveAndExit()
+UnityEngine.Events.UnityEvent:Invoke()
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+Can't check Asset. Asset is null
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+ProjectGuidmapperManager:HasAsset(Object)
+HouseSaveManager:CanSaveCurrentScene()
+HouseSaveManager:SaveCurrentGame(SaveType)
+Empyrean.HouseFlipper.SaveOrder:Execute()
+Empyrean.HouseFlipper.SaveHelper:Execute(SaveOrder)
+Code.GameManagers.GameManager:SaveAndExit()
+UnityEngine.Events.UnityEvent:Invoke()
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+[CANT-SAVE] Base scene  not in guidmapper
+order type: HouseOrder
+mail order? False
+order number: 0
+dev note: 
+cost: 5000
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+HouseSaveManager:CanSaveCurrentScene()
+HouseSaveManager:SaveCurrentGame(SaveType)
+Empyrean.HouseFlipper.SaveOrder:Execute()
+Empyrean.HouseFlipper.SaveHelper:Execute(SaveOrder)
+Code.GameManagers.GameManager:SaveAndExit()
+UnityEngine.Events.UnityEvent:Invoke()
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+Game Exit
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Code.GameManagers.<ExitGameCoroutine>d__232:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+UnityEngine.Events.UnityEvent:Invoke()
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.

@@ -1,0 +1,1228 @@
+{
+  "$id": "1",
+  "canContiueGame": true,
+  "hasFinishedGame": false,
+  "hasShownCredits": false,
+  "cheatModeTriggered": false,
+  "sunsetBayMapOpen": true,
+  "isCreativeMode": false,
+  "profileName": "Default",
+  "flamethrowerFuelLvl": 0.15,
+  "moneyEarnedFromRent": 0.0,
+  "gardenCompetitionPresence": {
+    "$id": "2",
+    "firstCompetitionPresence": "0001-01-01T00:00:00",
+    "previousCompetitionPresence": "0001-01-01T00:00:00",
+    "currentCompetitionPresence": "0001-01-01T00:00:00"
+  },
+  "moneyProgress": {
+    "$id": "3",
+    "_money": 107537.0
+  },
+  "housesProgress": {
+    "$id": "4",
+    "boughtHouseScenes": [
+      "SmallFirstHouse"
+    ],
+    "soldHouseScenes": [],
+    "rentedHouseScenes": {
+      "$id": "5"
+    },
+    "hasEverBoughtAnyHouse": false
+  },
+  "coursesProgress": {
+    "$id": "6",
+    "boughtCourses": []
+  },
+  "tutorialProgress": {
+    "$id": "7",
+    "openFrontDoor": false,
+    "thrownTheTrash": true,
+    "triedToOpenLockedDoor": false,
+    "findKey": false
+  },
+  "ordersProgress": {
+    "$id": "8",
+    "orderProgresses": [
+      {
+        "$id": "9",
+        "id": 1,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "10",
+        "id": 10,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "11",
+        "id": 11,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "12",
+        "id": 12,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "13",
+        "id": 13,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "14",
+        "id": 14,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "15",
+        "id": 15,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "16",
+        "id": 16,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "17",
+        "id": 17,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "18",
+        "id": 2,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "19",
+        "id": 20,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "20",
+        "id": 21,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "21",
+        "id": 39,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "22",
+        "id": 44,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "23",
+        "id": 3,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "24",
+        "id": 4,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "25",
+        "id": 5,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "26",
+        "id": 6,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "27",
+        "id": 63,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "28",
+        "id": 7,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "29",
+        "id": 8,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "30",
+        "id": 80,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "31",
+        "id": 81,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "32",
+        "id": 82,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "33",
+        "id": 83,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "34",
+        "id": 9,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "35",
+        "id": 95,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "36",
+        "id": 97,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "37",
+        "id": 100,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "38",
+        "id": 105,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "39",
+        "id": 103,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "40",
+        "id": 104,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "41",
+        "id": 102,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "42",
+        "id": 98,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "43",
+        "id": 107,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "44",
+        "id": 101,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "45",
+        "id": 106,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "46",
+        "id": 99,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "47",
+        "id": 91,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "48",
+        "id": 88,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "49",
+        "id": 86,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "50",
+        "id": 92,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "51",
+        "id": 93,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "52",
+        "id": 90,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "53",
+        "id": 84,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "54",
+        "id": 89,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "55",
+        "id": 94,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "56",
+        "id": 87,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "57",
+        "id": 85,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "58",
+        "id": 22,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "59",
+        "id": 23,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "60",
+        "id": 24,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "61",
+        "id": 25,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "62",
+        "id": 26,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "63",
+        "id": 27,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "64",
+        "id": 28,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "65",
+        "id": 29,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "66",
+        "id": 30,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "67",
+        "id": 31,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "68",
+        "id": 32,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "69",
+        "id": 33,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "70",
+        "id": 34,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "71",
+        "id": 35,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "72",
+        "id": 36,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "73",
+        "id": 37,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "74",
+        "id": 38,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "75",
+        "id": 52,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "76",
+        "id": 111,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "77",
+        "id": 109,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "78",
+        "id": 110,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "79",
+        "id": 112,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "80",
+        "id": 113,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "81",
+        "id": 108,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "82",
+        "id": 57,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "83",
+        "id": 62,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "84",
+        "id": 68,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "85",
+        "id": 53,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "86",
+        "id": 60,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "87",
+        "id": 67,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "88",
+        "id": 61,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "89",
+        "id": 64,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "90",
+        "id": 66,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "91",
+        "id": 65,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "92",
+        "id": 58,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "93",
+        "id": 56,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "94",
+        "id": 59,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "95",
+        "id": 55,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "96",
+        "id": 54,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "97",
+        "id": 70,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "98",
+        "id": 71,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "99",
+        "id": 72,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "100",
+        "id": 73,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "101",
+        "id": 74,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "102",
+        "id": 79,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "103",
+        "id": 76,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "104",
+        "id": 77,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "105",
+        "id": 78,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "106",
+        "id": 69,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "107",
+        "id": 75,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "108",
+        "id": 18,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "109",
+        "id": 19,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "110",
+        "id": 51,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "111",
+        "id": 40,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "112",
+        "id": 49,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "113",
+        "id": 41,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "114",
+        "id": 42,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "115",
+        "id": 43,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "116",
+        "id": 47,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "117",
+        "id": 46,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "118",
+        "id": 45,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "119",
+        "id": 50,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "120",
+        "id": 48,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      },
+      {
+        "$id": "121",
+        "id": 96,
+        "isRead": false,
+        "isDone": false,
+        "isUnlockedByCode": false,
+        "completition": 0
+      }
+    ]
+  },
+  "adoptionProgress": {
+    "$id": "122",
+    "petTypes": [],
+    "animalTypes": []
+  },
+  "farmAchievementsProgress": {
+    "$id": "123",
+    "jumpsOverObstacle": 0,
+    "madePhoto": false,
+    "usedWatering": false
+  },
+  "skills": {
+    "$id": "124",
+    "cleaning": {
+      "$id": "125",
+      "eyeOfTheMotherInLaw": 0,
+      "fastHands": 0,
+      "longDistance": 0,
+      "numberOfPerksAvailable": 0,
+      "isCertificated": false
+    },
+    "demolition": {
+      "$id": "126",
+      "tempo": 0,
+      "muscle": 0,
+      "biggerHammer": 0,
+      "numberOfPerksAvailable": 0,
+      "isCertificated": false
+    },
+    "painting": {
+      "$id": "127",
+      "paintingBase": 0,
+      "fastHands": 0,
+      "paintMore": 0,
+      "numberOfPerksAvailable": 0,
+      "isCertificated": false
+    },
+    "building": {
+      "$id": "128",
+      "bricklayer": 0,
+      "mason": 0,
+      "fixer": 0,
+      "numberOfPerksAvailable": 0,
+      "isCertificated": false
+    },
+    "design": {
+      "$id": "129",
+      "designer": 0,
+      "strongMan": 0,
+      "shop": 0,
+      "numberOfPerksAvailable": 0,
+      "isCertificated": false
+    },
+    "negotiation": {
+      "$id": "130",
+      "negotiatePrice": 0,
+      "fasterOrder": 0,
+      "higherPayment": 0,
+      "numberOfPerksAvailable": 0,
+      "isCertificated": false
+    },
+    "handyman": {
+      "$id": "131",
+      "fitter": 0,
+      "plasterer": 0,
+      "tiler": 0,
+      "numberOfPerksAvailable": 0,
+      "isCertificated": false
+    },
+    "gardener": {
+      "$id": "132",
+      "quick": 0,
+      "equipped": 0,
+      "sense": 0,
+      "numberOfPerksAvailable": 0,
+      "isCertificated": false
+    },
+    "farmer": {
+      "$id": "133",
+      "deligentFarmer": 0,
+      "animalWhisperer": 0,
+      "highTechFarmer": 0,
+      "numberOfPerksAvailable": 0,
+      "isCertificated": false
+    },
+    "architect": {
+      "$id": "134",
+      "fastestBricklayer": 0,
+      "scroogeMcBrick": 0,
+      "miracleWorker": 0,
+      "numberOfPerksAvailable": 0,
+      "isCertificated": false
+    },
+    "restaurateur": {
+      "$id": "135",
+      "masterChef": 0,
+      "landlord": 0,
+      "restaurantPrecision": 0,
+      "numberOfPerksAvailable": 0,
+      "isCertificated": false
+    }
+  },
+  "statistics": {
+    "$id": "136",
+    "cleaned": 0,
+    "throwed": 16,
+    "destroyed": 0,
+    "build": 0,
+    "painted": 0,
+    "tiled": 0,
+    "paneled": 0,
+    "plastered": 0,
+    "sold": 0,
+    "mounted": 0,
+    "bought": 0,
+    "completedOrders": 0,
+    "soldHouses": 0,
+    "windowsCleaned": 0,
+    "cockroachNestsDestroyed": 0,
+    "plantsPlanted": 0,
+    "mowingGrassTime": 0.0,
+    "lawnsMowed": 0,
+    "weedsRemoved": 0,
+    "pondsBuried": 0,
+    "cutTrees": 0,
+    "molesFled": 0,
+    "carrotsPlanted": 0,
+    "filledWithWater": 0,
+    "windowsChanged": 0,
+    "furnituresRenovated": 0,
+    "buildingsErected": 0,
+    "harvestedCrops": 0,
+    "harvestedAnimalProducts": 0,
+    "fertilizedPlants": 0,
+    "minutesPlayed": 2,
+    "totalSecondsPassed": 97,
+    "preparedDishes": 0,
+    "rentedHouses": 0,
+    "designedTableware": 0,
+    "landInHotWater": 0,
+    "cropMemory": {
+      "$id": "137",
+      "totalCropUnitsCollected": 0,
+      "cornCollected": 0,
+      "sunflowersCollected": 0,
+      "pumpkinsCollected": 0,
+      "tomatoesCollected": 0,
+      "potatoesCollected": 0,
+      "carrotsCollected": 0
+    },
+    "rentCollectionSecondsPassed": 1
+  },
+  "currentOfficeHouse": {
+    "$id": "138",
+    "baseScene": "62a2addb1b5eff74983367119a78f658",
+    "exteriorScene": "7e786d781a2303f40bc97393d4c4c358",
+    "interiorScene": null
+  },
+  "currentOfficeHouseCreatedDateTime": "0001-01-01T00:00:00",
+  "avaialbleTools": {
+    "$id": "139",
+    "tools": [
+      0,
+      10,
+      8,
+      9,
+      11,
+      23,
+      24,
+      27,
+      30,
+      45,
+      46,
+      47,
+      50
+    ]
+  },
+  "toolsUsedInUnlockingToolQuest": [],
+  "usedDlc": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "unlockedHousesToBuy": [],
+  "mainPopupsUnlocked": {
+    "$id": "140",
+    "NewGame": true,
+    "Scroll": true,
+    "Laptop": true,
+    "TopDownViewTool": true,
+    "ChangeRoof": true
+  },
+  "appraisersKnownFacts": {
+    "$id": "141"
+  },
+  "cameraMapTypeSpawnPosition": {
+    "$id": "142",
+    "SunsetBay": {
+      "$id": "143",
+      "x": -0.4409046,
+      "y": 0.8,
+      "z": 2.75,
+      "normalized": {
+        "x": -0.152154639,
+        "y": 0.2760772,
+        "z": 0.9490154,
+        "normalized": {
+          "x": -0.152154654,
+          "y": 0.276077241,
+          "z": 0.9490155,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 0.9999999,
+        "sqrMagnitude": 0.9999998
+      },
+      "magnitude": 2.89774013,
+      "sqrMagnitude": 8.396897
+    }
+  },
+  "recentItems": {
+    "$id": "144",
+    "recentlyViewedItems": [],
+    "recentlyBoughtItems": [],
+    "favouriteItems": []
+  },
+  "adoptedPetsFromOrders": {
+    "$id": "145"
+  },
+  "unlockedRecipes": [],
+  "tablewarePresets": [],
+  "houseDiscountProgress": {
+    "$id": "146",
+    "progressLookup": {
+      "$id": "147",
+      "0": {
+        "$id": "148",
+        "discountType": -1,
+        "discountStart": "0001-01-01T00:00:00",
+        "discountDuration": 0,
+        "sameDiscountForAll": false,
+        "discountState": 0,
+        "discountLookupFilled": false,
+        "DiscountsLookup": {}
+      },
+      "1": {
+        "$id": "149",
+        "discountType": -1,
+        "discountStart": "0001-01-01T00:00:00",
+        "discountDuration": 0,
+        "sameDiscountForAll": false,
+        "discountState": 0,
+        "discountLookupFilled": false,
+        "DiscountsLookup": {}
+      },
+      "2": {
+        "$id": "150",
+        "discountType": -1,
+        "discountStart": "0001-01-01T00:00:00",
+        "discountDuration": 0,
+        "sameDiscountForAll": false,
+        "discountState": 0,
+        "discountLookupFilled": false,
+        "DiscountsLookup": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,918 @@
+{
+  "$id": "1",
+  "forceFreshStart": false,
+  "version": 3,
+  "isImported": false,
+  "gardenCompetitionStatistics": {
+    "$id": "2",
+    "Crop Garden Contest": {
+      "$id": "3",
+      "startTrashCount": 185,
+      "maxGainedScore": -2147483648,
+      "gardenCompetitionName": "Crop Garden Contest"
+    },
+    "Modern Garden Contest": {
+      "$id": "4",
+      "startTrashCount": 185,
+      "maxGainedScore": -2147483648,
+      "gardenCompetitionName": "Modern Garden Contest"
+    },
+    "English Garden Contest": {
+      "$id": "5",
+      "startTrashCount": 185,
+      "maxGainedScore": -2147483648,
+      "gardenCompetitionName": "English Garden Contest"
+    },
+    "American Garden Contest": {
+      "$id": "6",
+      "startTrashCount": 185,
+      "maxGainedScore": -2147483648,
+      "gardenCompetitionName": "American Garden Contest"
+    },
+    "Japanese Garden Contest": {
+      "$id": "7",
+      "startTrashCount": 185,
+      "maxGainedScore": -2147483648,
+      "gardenCompetitionName": "Japanese Garden Contest"
+    }
+  },
+  "houseInfo": {
+    "$id": "8",
+    "baseScene": "62a2addb1b5eff74983367119a78f658",
+    "exteriorScene": "7e786d781a2303f40bc97393d4c4c358",
+    "interiorScene": null
+  },
+  "dateTime": "2026-06-12T17:45:57.140862+01:00",
+  "createdDateTime": "0001-01-01T00:00:00",
+  "houseAlias": {
+    "$id": "9",
+    "houseLocTrait": "Houses/35613_displayName",
+    "aliasValue": "",
+    "houseArea": 20.1875
+  },
+  "modifiedOuterWalls": [],
+  "modifiedWallsToRebuild": [],
+  "modifiedWalls": [],
+  "compressedWallSides": [],
+  "modifiedStandaloneWallSides": [],
+  "modifiedFloors": [],
+  "modifiedCeilings": [],
+  "bulbSettings": [],
+  "modifiedItems": [
+    {
+      "$id": "10",
+      "isDestroyed": true,
+      "sceneGuid": "40f687af-4b92-4c86-be58-685e69d01cff",
+      "currentItemState": {
+        "$id": "11",
+        "actualPrice": 0.0,
+        "dynamicItemTags": [
+          "3c1d3e4cd9eb2614785c7a173d3c3544",
+          "da8397c405e848e46ae092e2b1da9092"
+        ]
+      }
+    },
+    {
+      "$id": "12",
+      "isDestroyed": true,
+      "sceneGuid": "de5ab452-57e3-4e1b-b915-c4fe9b1988d2",
+      "currentItemState": {
+        "$id": "13",
+        "actualPrice": 0.0,
+        "dynamicItemTags": [
+          "3c1d3e4cd9eb2614785c7a173d3c3544",
+          "da8397c405e848e46ae092e2b1da9092"
+        ]
+      }
+    },
+    {
+      "$id": "14",
+      "isDestroyed": true,
+      "sceneGuid": "2061ea06-e8c8-4c77-a2a1-367d6ffe9d0b",
+      "currentItemState": {
+        "$id": "15",
+        "actualPrice": 0.0,
+        "dynamicItemTags": [
+          "3c1d3e4cd9eb2614785c7a173d3c3544",
+          "da8397c405e848e46ae092e2b1da9092"
+        ]
+      }
+    },
+    {
+      "$id": "16",
+      "isDestroyed": true,
+      "sceneGuid": "58af55d2-0073-4047-b27a-aee8c658e77f",
+      "currentItemState": {
+        "$id": "17",
+        "actualPrice": 0.0,
+        "dynamicItemTags": [
+          "3c1d3e4cd9eb2614785c7a173d3c3544",
+          "da8397c405e848e46ae092e2b1da9092"
+        ]
+      }
+    },
+    {
+      "$id": "18",
+      "isDestroyed": true,
+      "sceneGuid": "eb901bec-002f-4821-89cf-9593a1149a82",
+      "currentItemState": {
+        "$id": "19",
+        "actualPrice": 0.0,
+        "dynamicItemTags": [
+          "3c1d3e4cd9eb2614785c7a173d3c3544",
+          "da8397c405e848e46ae092e2b1da9092"
+        ]
+      }
+    },
+    {
+      "$id": "20",
+      "isDestroyed": true,
+      "sceneGuid": "970f3d0d-f707-4baf-9d50-1a4b67e66573",
+      "currentItemState": {
+        "$id": "21",
+        "actualPrice": 0.0,
+        "dynamicItemTags": [
+          "3c1d3e4cd9eb2614785c7a173d3c3544",
+          "da8397c405e848e46ae092e2b1da9092"
+        ]
+      }
+    },
+    {
+      "$id": "22",
+      "isDestroyed": true,
+      "sceneGuid": "ab862b6c-2b58-48db-b278-f03bcf4d67db",
+      "currentItemState": {
+        "$id": "23",
+        "actualPrice": 0.0,
+        "dynamicItemTags": [
+          "3c1d3e4cd9eb2614785c7a173d3c3544",
+          "da8397c405e848e46ae092e2b1da9092"
+        ]
+      }
+    },
+    {
+      "$id": "24",
+      "isDestroyed": true,
+      "sceneGuid": "d0ca3b7e-4677-4550-b896-478e94b42c2b",
+      "currentItemState": {
+        "$id": "25",
+        "actualPrice": 0.0,
+        "dynamicItemTags": [
+          "3c1d3e4cd9eb2614785c7a173d3c3544",
+          "da8397c405e848e46ae092e2b1da9092"
+        ]
+      }
+    },
+    {
+      "$id": "26",
+      "isDestroyed": true,
+      "sceneGuid": "0f7cdf0a-3f7b-46c5-bfbe-6403d8d4d043",
+      "currentItemState": {
+        "$id": "27",
+        "actualPrice": 0.0,
+        "dynamicItemTags": [
+          "3c1d3e4cd9eb2614785c7a173d3c3544",
+          "da8397c405e848e46ae092e2b1da9092",
+          "a84366521064f4048a609960fe3d3b95"
+        ]
+      }
+    },
+    {
+      "$id": "28",
+      "isDestroyed": true,
+      "sceneGuid": "cc0c1058-5293-4b5e-ab81-6c62bc5db82b",
+      "currentItemState": {
+        "$id": "29",
+        "actualPrice": 0.0,
+        "dynamicItemTags": [
+          "3c1d3e4cd9eb2614785c7a173d3c3544",
+          "da8397c405e848e46ae092e2b1da9092"
+        ]
+      }
+    },
+    {
+      "$id": "30",
+      "isDestroyed": true,
+      "sceneGuid": "bc3f7936-9899-42a8-af50-8bb2cb67b0b4",
+      "currentItemState": {
+        "$id": "31",
+        "actualPrice": 0.0,
+        "dynamicItemTags": [
+          "3c1d3e4cd9eb2614785c7a173d3c3544",
+          "da8397c405e848e46ae092e2b1da9092",
+          "a84366521064f4048a609960fe3d3b95"
+        ]
+      }
+    },
+    {
+      "$id": "32",
+      "isDestroyed": true,
+      "sceneGuid": "b2b35385-04b2-48f3-9b73-acc232389b27",
+      "currentItemState": {
+        "$id": "33",
+        "actualPrice": 0.0,
+        "dynamicItemTags": [
+          "3c1d3e4cd9eb2614785c7a173d3c3544",
+          "da8397c405e848e46ae092e2b1da9092"
+        ]
+      }
+    },
+    {
+      "$id": "34",
+      "isDestroyed": true,
+      "sceneGuid": "2a5a227d-0b6b-4f56-8ad6-1f439a1b87da",
+      "currentItemState": {
+        "$id": "35",
+        "actualPrice": 0.0,
+        "dynamicItemTags": [
+          "3c1d3e4cd9eb2614785c7a173d3c3544",
+          "da8397c405e848e46ae092e2b1da9092"
+        ]
+      }
+    },
+    {
+      "$id": "36",
+      "prefab": "c47ebb4334c50dd43b9bcc851eecc6dd",
+      "isDestroyed": false,
+      "sceneGuid": "abdd491c-efe9-41d0-ab5f-42328ad23231",
+      "position": {
+        "$id": "37",
+        "x": -4.09999943,
+        "y": 0.7431275,
+        "z": 3.74999762
+      },
+      "rotation": {
+        "$id": "38",
+        "x": -0.000340772676,
+        "y": 20.1446877,
+        "z": 1.13283731E-05
+      },
+      "itemScale": {
+        "$id": "39",
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.00000024
+      },
+      "price": 10.0,
+      "currentItemState": {
+        "$id": "40",
+        "actualPrice": 5.0
+      },
+      "pickupable": true
+    },
+    {
+      "$id": "41",
+      "prefab": "a4643c513a11ffa42bb6405ad1bef367",
+      "isDestroyed": false,
+      "sceneGuid": "12e9962e-513d-4b8a-8b92-dfdd37c285ed",
+      "position": {
+        "$id": "42",
+        "x": -3.779,
+        "y": 0.743127644,
+        "z": 3.856
+      },
+      "rotation": {
+        "$id": "43",
+        "x": 1.08369619E-07,
+        "y": 211.421875,
+        "z": -3.8525468E-07
+      },
+      "itemScale": {
+        "$id": "44",
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "currentItemState": {
+        "$id": "45",
+        "actualPrice": 0.0
+      },
+      "pickupable": true
+    },
+    {
+      "$id": "46",
+      "prefab": "6507e189a24ce604c8ea2348c38a9488",
+      "isDestroyed": false,
+      "sceneGuid": "a3770d33-5ef3-4771-a05e-7f1bb69e95be",
+      "position": {
+        "$id": "47",
+        "x": -3.472806,
+        "y": 0.7431275,
+        "z": 4.107509
+      },
+      "rotation": {
+        "$id": "48",
+        "x": -6.660099E-05,
+        "y": 80.0848,
+        "z": 2.61473724E-06
+      },
+      "itemScale": {
+        "$id": "49",
+        "x": 1.00000024,
+        "y": 1.00000024,
+        "z": 1.00000024
+      },
+      "price": 26.3,
+      "currentItemState": {
+        "$id": "50",
+        "actualPrice": 13.15
+      },
+      "pickupable": true
+    },
+    {
+      "$id": "51",
+      "prefab": "557e711e9b98f4048a9b7502969083b2",
+      "isDestroyed": false,
+      "sceneGuid": "ca3f14c5-e964-4b6e-9413-d8ecf2290e63",
+      "position": {
+        "$id": "52",
+        "x": -3.29296732,
+        "y": 0.7423826,
+        "z": 4.190559
+      },
+      "rotation": {
+        "$id": "53",
+        "x": 2.33058449E-06,
+        "y": 179.082275,
+        "z": 3.2998264E-07
+      },
+      "itemScale": {
+        "$id": "54",
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "price": 15.0,
+      "currentItemState": {
+        "$id": "55",
+        "actualPrice": 7.5
+      },
+      "pickupable": true
+    },
+    {
+      "$id": "56",
+      "prefab": "0e215a06b651ec44c906b077421183a6",
+      "isDestroyed": false,
+      "sceneGuid": "5b24d827-ab7d-4e5e-99ca-67ac63a85380",
+      "position": {
+        "$id": "57",
+        "x": -3.31868267,
+        "y": 0.743127465,
+        "z": 3.86009979
+      },
+      "rotation": {
+        "$id": "58",
+        "x": -1.99682636E-05,
+        "y": 72.44737,
+        "z": 2.034493E-06
+      },
+      "itemScale": {
+        "$id": "59",
+        "x": 1.00000048,
+        "y": 1.00000024,
+        "z": 1.00000048
+      },
+      "price": 25.0,
+      "currentItemState": {
+        "$id": "60",
+        "actualPrice": 12.5
+      },
+      "pickupable": true
+    },
+    {
+      "$id": "61",
+      "prefab": "956233037ddac234c986ae1a809a2352",
+      "isDestroyed": false,
+      "sceneGuid": "edcd1624-6e63-4a8c-a7cb-8f350cad9b1d",
+      "position": {
+        "$id": "62",
+        "x": -3.87447238,
+        "y": 0.7431275,
+        "z": 4.261254
+      },
+      "rotation": {
+        "$id": "63",
+        "x": 2.252724E-06,
+        "y": 41.62618,
+        "z": 1.54612209E-07
+      },
+      "itemScale": {
+        "$id": "64",
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "price": 65.0,
+      "currentItemState": {
+        "$id": "65",
+        "actualPrice": 32.5
+      },
+      "pickupable": true
+    },
+    {
+      "$id": "66",
+      "isDestroyed": true,
+      "sceneGuid": "20161603-224b-4ed8-b042-e8adce8d6235",
+      "currentItemState": {
+        "$id": "67",
+        "actualPrice": 0.0,
+        "dynamicItemTags": [
+          "3c1d3e4cd9eb2614785c7a173d3c3544",
+          "da8397c405e848e46ae092e2b1da9092"
+        ]
+      }
+    },
+    {
+      "$id": "68",
+      "prefab": "9d121069050de0e4cb4e7bcf50776a53",
+      "isDestroyed": false,
+      "variants": [
+        0
+      ],
+      "sceneGuid": "505fb487-12fc-46ff-a83d-5fcfb4095ec0",
+      "position": {
+        "$id": "69",
+        "x": -4.26999855,
+        "y": 0.7431276,
+        "z": 4.020002
+      },
+      "rotation": {
+        "$id": "70",
+        "x": -3.283221E-07,
+        "y": 170.647339,
+        "z": 1.98224348E-06
+      },
+      "itemScale": {
+        "$id": "71",
+        "x": 1.00000024,
+        "y": 1.0,
+        "z": 1.00000024
+      },
+      "price": 5.0,
+      "currentItemState": {
+        "$id": "72",
+        "actualPrice": 2.5
+      },
+      "pickupable": true
+    },
+    {
+      "$id": "73",
+      "prefab": "2be91f59d51d7224f98e88fea6cad651",
+      "isDestroyed": false,
+      "variants": [
+        0
+      ],
+      "sceneGuid": "7cf9cd64-6f4f-449b-b03a-be081c45391b",
+      "position": {
+        "$id": "74",
+        "x": -4.26901531,
+        "y": 0.758442163,
+        "z": 4.02027035
+      },
+      "rotation": {
+        "$id": "75",
+        "x": 4.07140533E-06,
+        "y": 170.647308,
+        "z": 1.126857E-05
+      },
+      "itemScale": {
+        "$id": "76",
+        "x": 1.00000024,
+        "y": 1.0,
+        "z": 1.00000024
+      },
+      "price": 5.0,
+      "currentItemState": {
+        "$id": "77",
+        "actualPrice": 2.5
+      },
+      "pickupable": true
+    },
+    {
+      "$id": "78",
+      "isDestroyed": true,
+      "sceneGuid": "68005c81-cc57-4097-bd91-5ce89dc6c9ee",
+      "currentItemState": {
+        "$id": "79",
+        "actualPrice": 0.0,
+        "dynamicItemTags": [
+          "3c1d3e4cd9eb2614785c7a173d3c3544",
+          "da8397c405e848e46ae092e2b1da9092"
+        ]
+      }
+    },
+    {
+      "$id": "80",
+      "prefab": "8c5831498f015b94d811e0e1248c1c4f",
+      "isDestroyed": false,
+      "sceneGuid": "07f438bc-919c-4538-9135-151a875f78e0",
+      "position": {
+        "$id": "81",
+        "x": -4.41894531,
+        "y": 0.7431276,
+        "z": 3.78103018
+      },
+      "rotation": {
+        "$id": "82",
+        "x": -0.000104077168,
+        "y": 125.853287,
+        "z": 5.444865E-08
+      },
+      "itemScale": {
+        "$id": "83",
+        "x": 1.0000006,
+        "y": 1.00000048,
+        "z": 1.00000024
+      },
+      "price": 55.0,
+      "currentItemState": {
+        "$id": "84",
+        "actualPrice": 22.275,
+        "wasDamaged": true,
+        "isPlacedByUser": false
+      },
+      "pickupable": true
+    },
+    {
+      "$id": "85",
+      "isDestroyed": true,
+      "sceneGuid": "258df68b-66c6-4d71-828f-13554f3b23be",
+      "currentItemState": {
+        "$id": "86",
+        "actualPrice": 0.0,
+        "dynamicItemTags": [
+          "3c1d3e4cd9eb2614785c7a173d3c3544",
+          "da8397c405e848e46ae092e2b1da9092"
+        ]
+      }
+    },
+    {
+      "$id": "87",
+      "prefab": "81b6a1cfae33b6441a441d776a9a8a1c",
+      "isDestroyed": false,
+      "variants": [
+        11,
+        2
+      ],
+      "sceneGuid": "a6f3b16b-ab35-4d1e-9956-243a1fc89ebe",
+      "position": {
+        "$id": "88",
+        "x": -5.25,
+        "y": 2.75,
+        "z": 1.7
+      },
+      "rotation": {
+        "$id": "89",
+        "x": 0.0,
+        "y": 0.0,
+        "z": 4.26886828E-07
+      },
+      "itemScale": {
+        "$id": "90",
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "price": 130.0,
+      "currentItemState": {
+        "$id": "91",
+        "actualPrice": 40.0
+      },
+      "replaceableLightSaveData": {
+        "$id": "92",
+        "intensityMultiplier": 1.0,
+        "colorR": 1.0,
+        "colorG": 1.0,
+        "colorB": 1.0
+      },
+      "pickupable": true
+    }
+  ],
+  "spawnedPetDirts": [],
+  "modifiedMagnets": [
+    {
+      "$id": "93",
+      "modifiedMagnet": {
+        "$id": "94",
+        "prefab": "b74a4f265b94c2140b153b948a4fe80c",
+        "isDestroyed": false,
+        "sceneGuid": "56a50673-9475-468c-9823-e0b938ffe8bd",
+        "position": {
+          "$id": "95",
+          "x": -7.50000048,
+          "y": 0.0,
+          "z": 4.0
+        },
+        "rotation": {
+          "$id": "96",
+          "x": 0.0,
+          "y": 90.0,
+          "z": 0.0
+        },
+        "itemScale": {
+          "$id": "97",
+          "x": 1.00000048,
+          "y": 1.0,
+          "z": 1.00000048
+        },
+        "price": 1899.0,
+        "currentItemState": {
+          "$id": "98",
+          "actualPrice": 1899.0
+        },
+        "isMounted": true,
+        "hasMagnetPosition": true
+      },
+      "modifiedItem": {
+        "$id": "99",
+        "prefab": "eeacf2cd84750754ba3394d3247c2a84",
+        "isDestroyed": false,
+        "sceneGuid": "3bfcf737-917e-40c2-82e4-8aea478fe444",
+        "position": {
+          "$id": "100",
+          "x": -7.4800005,
+          "y": 0.0,
+          "z": 4.0
+        },
+        "rotation": {
+          "$id": "101",
+          "x": 0.0,
+          "y": 90.0,
+          "z": 0.0
+        },
+        "itemScale": {
+          "$id": "102",
+          "x": 0.0100000165,
+          "y": 0.01,
+          "z": 0.0100000165
+        },
+        "price": 50.0,
+        "currentItemState": {
+          "$id": "103",
+          "actualPrice": 25.0
+        }
+      }
+    },
+    {
+      "$id": "104",
+      "modifiedMagnet": {
+        "$id": "105",
+        "prefab": "a32f053956b90df48846d4cb645b85b5",
+        "isDestroyed": false,
+        "sceneGuid": "e079bbc5-3e63-4364-b6b4-7a502982e318",
+        "position": {
+          "$id": "106",
+          "x": -6.955,
+          "y": 0.0,
+          "z": 5.49999857
+        },
+        "rotation": {
+          "$id": "107",
+          "x": 0.0,
+          "y": 180.0,
+          "z": 0.0
+        },
+        "itemScale": {
+          "$id": "108",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "price": 2249.0,
+        "currentItemState": {
+          "$id": "109",
+          "actualPrice": 2249.0
+        },
+        "isMounted": true,
+        "hasMagnetPosition": true
+      },
+      "modifiedItem": {
+        "$id": "110",
+        "prefab": "2701fe8dfdc3cfb4c9dd19e0276ecc14",
+        "isDestroyed": false,
+        "variants": [
+          1,
+          2,
+          1
+        ],
+        "sceneGuid": "3453dfff-ecef-4d20-975a-0a561514ba1c",
+        "position": {
+          "$id": "111",
+          "x": -6.955,
+          "y": 0.00400000066,
+          "z": 5.015999
+        },
+        "rotation": {
+          "$id": "112",
+          "x": 0.0,
+          "y": 180.0,
+          "z": 0.0
+        },
+        "itemScale": {
+          "$id": "113",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "price": 649.0,
+        "currentItemState": {
+          "$id": "114",
+          "actualPrice": 14.5
+        }
+      }
+    }
+  ],
+  "turfCreated": [],
+  "modifiedCavities": [],
+  "extendedDirts": [],
+  "cleanedWindowsGuids": [],
+  "cleanedCleanablesGuids": [],
+  "destroyedCockroachesNests": [],
+  "magnetsNeverWhiteAgain": [
+    "5a8807e5-1b8f-45f8-927e-ac77e71f68fa",
+    "07c3520a-88a2-43a4-8e15-ff5aac305c18",
+    "b12c8e7f-f401-47a3-ba66-94566d4d7f8e",
+    "8d0585b9-2ad8-459e-991d-f1d054fb32f8",
+    "385afdd6-1595-46b9-bafa-3086e05c1db7",
+    "3532725e-f638-42ff-b8ec-f3f8e8e02bbd",
+    "d055faf1-757a-41d2-b989-44e50c8366f2",
+    "815eaed3-34e5-4389-bc17-7e57cdd8023c",
+    "05d14c80-0358-400a-8e28-52c8f31c548a",
+    "ea6cd244-f754-441a-9910-c476eb26ae50",
+    "f027feab-93a4-4976-aada-9fe2f43ebe37",
+    "55cdfe8f-e8fa-4ae2-9582-27ae2072de5e"
+  ],
+  "modifiedReplaceableItems": [],
+  "repairedCockpits": [],
+  "prefabSwaps": [],
+  "brokenSubitems": [],
+  "deviceStateSetterStates": [
+    {
+      "$id": "115",
+      "deviceStateSetterGuid": "26a5584a-6b43-4a78-97d2-8bf56664bf3f",
+      "itemInsideGuid": null,
+      "magnetDevicePrepared": true
+    },
+    {
+      "$id": "116",
+      "deviceStateSetterGuid": "1a1dd172-79fc-4375-a55d-6c964403fe00",
+      "itemInsideGuid": null,
+      "magnetDevicePrepared": true
+    }
+  ],
+  "pileOfRubbishModifications": [],
+  "pileOfSnowModifications": [],
+  "marchingPavementsModifications": [],
+  "decisionsMade": [],
+  "cursesProgress": [],
+  "cursePopupChoiceMade": false,
+  "plotTwistActivated": [],
+  "actionWithTriggerActivated": [],
+  "windowInstallations": [],
+  "wallInstallations": [],
+  "changedWindowModifications": [],
+  "placedSoil": [],
+  "soilSaveInitiated": false,
+  "destroyableItemModifications": [],
+  "destroyedWalls": [],
+  "architectBalconyMarkers": [],
+  "architectRooftopPortals": [],
+  "architectWallLines": [],
+  "architectFloorSquares": [],
+  "modifiedFloorsDictionary": {
+    "$id": "117"
+  },
+  "houseExtensionsPrice": 0.0,
+  "profitInfoData": {
+    "$id": "118",
+    "profitInfo": {
+      "$id": "119",
+      "PurchaseHouse": {
+        "$id": "120",
+        "moneyValue": -100360.0,
+        "type": "PurchaseHouse"
+      },
+      "RenovationCost": {
+        "$id": "121",
+        "moneyValue": 0.0,
+        "type": "RenovationCost"
+      },
+      "FurnitureBought": {
+        "$id": "122",
+        "moneyValue": 0.0,
+        "type": "FurnitureBought"
+      },
+      "FurnitureSold": {
+        "$id": "123",
+        "moneyValue": 0.0,
+        "type": "FurnitureSold"
+      },
+      "HouseSale": {
+        "$id": "124",
+        "moneyValue": 0.0,
+        "type": "HouseSale"
+      },
+      "Negotiation": {
+        "$id": "125",
+        "moneyValue": 0.0,
+        "type": "Negotiation"
+      },
+      "BreakingNegotiationPenalty": {
+        "$id": "126",
+        "moneyValue": 0.0,
+        "type": "BreakingNegotiationPenalty"
+      },
+      "Profit": {
+        "$id": "127",
+        "moneyValue": -100360.0,
+        "type": "PurchaseHouse"
+      }
+    }
+  },
+  "questStatistics": {
+    "$id": "128",
+    "Throwed": {
+      "$id": "129",
+      "toDo": 16,
+      "done": 17
+    },
+    "Cleaned": {
+      "$id": "130",
+      "toDo": 0,
+      "done": 50
+    },
+    "Mounted": {
+      "$id": "131",
+      "toDo": 0,
+      "done": 2
+    },
+    "WeedsRemoved": {
+      "$id": "132",
+      "toDo": 0,
+      "done": 177
+    }
+  },
+  "otherStatistics": {
+    "$id": "133"
+  },
+  "beforeAfterTexturesId": [
+    {
+      "$id": "134",
+      "beforeId": 3578044320,
+      "afterId": null
+    },
+    {
+      "$id": "135",
+      "beforeId": 1128200,
+      "afterId": null
+    },
+    {
+      "$id": "136",
+      "beforeId": 472505968,
+      "afterId": null
+    },
+    {
+      "$id": "137",
+      "beforeId": 1190557144,
+      "afterId": null
+    },
+    {
+      "$id": "138",
+      "beforeId": 1908608320,
+      "afterId": null
+    }
+  ],
+  "mowableState": {
+    "$id": "139",
+    "mainLawnState": {
+      "$id": "140",
+      "grassMode": 2,
+      "progress": 1.0,
+      "baseProgress": null,
+      "textureId": 1781286262,
+      "isOldScaleCorrectionSystem": null
+    },
+    "lawnAreasStates": null
+  },
+  "moleModification": {
+    "$id": "141",
+    "config": {
+      "$id": "142"
+    },
+    "systemGuid": "877f6436-bd5b-4633-b9a2-dc4732faa597"
+  },
+  "gravelState": null,
+  "totalCostOfBoughtGravel": 0.0,
+  "totalPriceOfGrassFromTurfRoller": 0.0,
+  "playingOnMapTime": 93.85462,
+  "orderBudget": null,
+  "introCutscenesPlayed": [],
+  "luxuryDialogueWindows": [],
+  "gridFirstCorner": {
+    "$id": "143",
+    "x": -18.0,
+    "y": 0.0,
+    "z": -16.0
+  },
+  "houseBuyer": null
+}

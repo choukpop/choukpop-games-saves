@@ -1,0 +1,145 @@
+{
+  "$id": "1",
+  "inventorySaveData": [
+    {
+      "$id": "2",
+      "name": "Items/Corn",
+      "prefabGuid": "ab9b7bd19d050694a8feedb2dfae71c1",
+      "cropType": 1,
+      "heldAmount": 10
+    },
+    {
+      "$id": "3",
+      "name": "Items/Sunflower",
+      "prefabGuid": "15f93d8c0267cf44c9eecda27cdaf916",
+      "cropType": 2,
+      "heldAmount": 10
+    },
+    {
+      "$id": "4",
+      "name": "Items/PumpkinFarm",
+      "prefabGuid": "86427c68cf2e41d44860ef9d22c06c41",
+      "cropType": 3,
+      "heldAmount": 10
+    },
+    {
+      "$id": "5",
+      "name": "Items/Tomato",
+      "prefabGuid": "406e91b5b91689a41bc8602423533aa8",
+      "cropType": 4,
+      "heldAmount": 10
+    },
+    {
+      "$id": "6",
+      "name": "Items/Potato",
+      "prefabGuid": "b04991b6694978a4b85a179bcb4dbf9f",
+      "cropType": 5,
+      "heldAmount": 10
+    },
+    {
+      "$id": "7",
+      "name": "Items/CowMilkItem",
+      "prefabGuid": "9abb719034ca94747bcff6383d9c712d",
+      "cropType": 6,
+      "heldAmount": 10
+    },
+    {
+      "$id": "8",
+      "name": "Apple",
+      "prefabGuid": "7cfa6e817b72e634389011b5a6f22b52",
+      "cropType": 7,
+      "heldAmount": 10
+    },
+    {
+      "$id": "9",
+      "name": "Butter",
+      "prefabGuid": "13042f4f82c5e2149af8a7eae9fbb0d2",
+      "cropType": 8,
+      "heldAmount": 10
+    },
+    {
+      "$id": "10",
+      "name": "Items/farm_01684",
+      "prefabGuid": "7536d6e85bc671d4abfe144921853010",
+      "cropType": 9,
+      "heldAmount": 10
+    },
+    {
+      "$id": "11",
+      "name": "Cucumber",
+      "prefabGuid": "9be8d43577eba384ea86839ba23e25e1",
+      "cropType": 10,
+      "heldAmount": 10
+    },
+    {
+      "$id": "12",
+      "name": "Honey",
+      "prefabGuid": "0a41bb00953656f4082dae5ae6cc7af4",
+      "cropType": 11,
+      "heldAmount": 10
+    },
+    {
+      "$id": "13",
+      "name": "Strawberry",
+      "prefabGuid": "03e39fbd92c9fb148ad0f0a99d708da7",
+      "cropType": 12,
+      "heldAmount": 10
+    },
+    {
+      "$id": "14",
+      "name": "Straw",
+      "prefabGuid": "d0a4de3c148ee234c8cec88cf3253c36",
+      "cropType": 13,
+      "heldAmount": 10
+    },
+    {
+      "$id": "15",
+      "name": "Turnip",
+      "prefabGuid": "22b627f0580864741b01e6719b522b69",
+      "cropType": 14,
+      "heldAmount": 10
+    },
+    {
+      "$id": "16",
+      "name": "Wheat",
+      "prefabGuid": "dc95c908cce2b304fa50c0c44fae5f5c",
+      "cropType": 15,
+      "heldAmount": 10
+    },
+    {
+      "$id": "17",
+      "name": "Items/SheepWool",
+      "prefabGuid": "88ad7e661ce7f6242a10ffcca339a23b",
+      "cropType": 16,
+      "heldAmount": 10
+    },
+    {
+      "$id": "18",
+      "name": "Items/ChickenEgg",
+      "prefabGuid": "11537a1011a71784d86d7e585881273e",
+      "cropType": 17,
+      "heldAmount": 10
+    },
+    {
+      "$id": "19",
+      "name": "Items/Truffles",
+      "prefabGuid": "88619d75f4a02c1479b281e6f02e09ce",
+      "cropType": 18,
+      "heldAmount": 10
+    },
+    {
+      "$id": "20",
+      "name": "Items/AlpacaWool",
+      "prefabGuid": "0fab9e541cd0fd845a28e82ec296ae42",
+      "cropType": 19,
+      "heldAmount": 10
+    },
+    {
+      "$id": "21",
+      "name": "Items/GoatMilkItem",
+      "prefabGuid": "2476115a0b6f4d2418aa929b1e7d6a4c",
+      "cropType": 20,
+      "heldAmount": 10
+    }
+  ]
+}
