@@ -5,7 +5,8 @@ bars:
   status-bar:
     enabled: true
     screens:
-    - 'primary'
+    - 'OZDSP24PRO'
+    - '27B3HA2'
     class_name: 'yasb-bar'
     alignment:
       position: 'top'
@@ -147,7 +148,8 @@ widgets:
         padding: 8
         margin: 8
       ignore_apps:
-        processes: []
+        processes:
+        - "steam-idle.exe"
         titles: []
         classes: []
 
