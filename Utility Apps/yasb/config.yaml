@@ -70,6 +70,7 @@ widgets:
         - { title: "\uF115  AppData Local", path: '~\\AppData\\Local' }
         - { title: "\uF115  AppData LocalLow", path: '~\\AppData\\LocalLow' }
         - { title: "\uF115  GitHub Backups", path: 'D:\\Bibliotecas\\Others\\GitHub' }
+        - { title: "\uF115  Shortcut Apps", path: 'D:\\Bibliotecas\\Others\\Shortcut Apps' }
       system_menu: true
       power_menu: false
       blur: true
