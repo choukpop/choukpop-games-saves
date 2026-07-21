@@ -1,0 +1,7590 @@
+{
+	"Progression" : {
+		"__type" : "SaveManager+ProgressionContainer,Assembly-CSharp",
+		"value" : {
+		"UnlockedLicenses" : [
+			21,22
+		],
+		"LoanDatas" : [
+			{
+				"LoanID" : 1,
+				"TermLength" : -1,
+				"RemainingPayments" : -1,
+				"Taken" : false
+			},{
+				"LoanID" : 2,
+				"TermLength" : -1,
+				"RemainingPayments" : -1,
+				"Taken" : false
+			},{
+				"LoanID" : 3,
+				"TermLength" : -1,
+				"RemainingPayments" : -1,
+				"Taken" : false
+			},{
+				"LoanID" : 4,
+				"TermLength" : -1,
+				"RemainingPayments" : -1,
+				"Taken" : false
+			},{
+				"LoanID" : 5,
+				"TermLength" : -1,
+				"RemainingPayments" : -1,
+				"Taken" : false
+			},{
+				"LoanID" : 6,
+				"TermLength" : -1,
+				"RemainingPayments" : -1,
+				"Taken" : false
+			},{
+				"LoanID" : 7,
+				"TermLength" : -1,
+				"RemainingPayments" : -1,
+				"Taken" : false
+			}
+		],
+		"Money" : 1444.24915,
+		"CartData" : {
+			"ProductInCarts" : [
+				
+			],
+			"FurnituresInCarts" : [
+				
+			],
+			"BucketsInCarts" : [
+				
+			],
+			"FloorBoxesInCarts" : [
+				
+			]
+		},
+		"BoxDatas" : [
+			{
+				"m_UID" : 49,
+				"Size" : 2,
+				"Transform" : {
+					"Position" : {
+						"x" : -5.145661,
+						"y" : 0.005527869,
+						"z" : 5.5551405
+					},
+					"Rotation" : {
+						"x" : -5.610672E-07,
+						"y" : 0.2588188,
+						"z" : -2.947569E-07,
+						"w" : 0.965925932
+					}
+				},
+				"IsOpen" : true,
+				"ProductID" : -1,
+				"ProductCount" : 0
+			},{
+				"m_UID" : 1,
+				"Size" : 2,
+				"Transform" : {
+					"Position" : {
+						"x" : -7.295325,
+						"y" : 0.00552795827,
+						"z" : 5.847361
+					},
+					"Rotation" : {
+						"x" : 8.64432348E-09,
+						"y" : 0.7071068,
+						"z" : 6.133045E-09,
+						"w" : -0.7071068
+					}
+				},
+				"IsOpen" : true,
+				"ProductID" : 66,
+				"ProductCount" : 4
+			},{
+				"m_UID" : 2,
+				"Size" : 5,
+				"Transform" : {
+					"Position" : {
+						"x" : -6.43193054,
+						"y" : -0.000783413649,
+						"z" : 0.365280777
+					},
+					"Rotation" : {
+						"x" : 1.42420873E-07,
+						"y" : 1,
+						"z" : 5.04026652E-08,
+						"w" : -7.878132E-08
+					}
+				},
+				"IsOpen" : true,
+				"ProductID" : 85,
+				"ProductCount" : 1
+			},{
+				"m_UID" : 3,
+				"Size" : 2,
+				"Transform" : {
+					"Position" : {
+						"x" : -6.995645,
+						"y" : 0.005527854,
+						"z" : 0.335512429
+					},
+					"Rotation" : {
+						"x" : -4.86863261E-09,
+						"y" : 1,
+						"z" : 3.08603525E-08,
+						"w" : -3.968208E-08
+					}
+				},
+				"IsOpen" : true,
+				"ProductID" : 147,
+				"ProductCount" : 1
+			},{
+				"m_UID" : 4,
+				"Size" : 1,
+				"Transform" : {
+					"Position" : {
+						"x" : -7.33528662,
+						"y" : 0.008464687,
+						"z" : 6.660215
+					},
+					"Rotation" : {
+						"x" : -1.18257518E-07,
+						"y" : 0.7071068,
+						"z" : -4.285745E-08,
+						"w" : -0.7071068
+					}
+				},
+				"IsOpen" : true,
+				"ProductID" : 151,
+				"ProductCount" : 1
+			}
+		],
+		"VehicleDatas" : [
+			
+		],
+		"FurnitureBoxDatas" : [
+			
+		],
+		"BucketBoxDatas" : [
+			
+		],
+		"DisplayDatas" : [
+			{
+				"Transform" : {
+					"Position" : {
+						"x" : -1.07230389,
+						"y" : 0.009999998,
+						"z" : 0.3250053
+					},
+					"Rotation" : {
+						"x" : 0,
+						"y" : 0,
+						"z" : 0,
+						"w" : 1
+					}
+				},
+				"DisplaySlots" : [
+					{
+						"Products" : {33:12
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {70:11
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {33:11
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {70:7
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {33:7
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {70:12
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {33:9
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {70:10
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					}
+				],
+				"FurnitureID" : 1
+			},{
+				"Transform" : {
+					"Position" : {
+						"x" : -3.08716917,
+						"y" : 0.009999998,
+						"z" : 0.326253533
+					},
+					"Rotation" : {
+						"x" : 0,
+						"y" : 0,
+						"z" : 0,
+						"w" : 1
+					}
+				},
+				"DisplaySlots" : [
+					{
+						"Products" : {83:8
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {84:12
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {83:8
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {84:12
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {83:8
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {84:12
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {83:5
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {84:10
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					}
+				],
+				"FurnitureID" : 1
+			},{
+				"Transform" : {
+					"Position" : {
+						"x" : -5.10705948,
+						"y" : 0.009999998,
+						"z" : 0.325962842
+					},
+					"Rotation" : {
+						"x" : 0,
+						"y" : 0,
+						"z" : 0,
+						"w" : 1
+					}
+				},
+				"DisplaySlots" : [
+					{
+						"Products" : {85:8
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {147:12
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {85:8
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {147:12
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {85:8
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {147:12
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {85:8
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {147:12
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					}
+				],
+				"FurnitureID" : 1
+			},{
+				"Transform" : {
+					"Position" : {
+						"x" : -7.405701,
+						"y" : 0.009999998,
+						"z" : 1.65045333
+					},
+					"Rotation" : {
+						"x" : 0,
+						"y" : 0.7071068,
+						"z" : 0,
+						"w" : 0.7071068
+					}
+				},
+				"DisplaySlots" : [
+					{
+						"Products" : {24:7
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {39:9
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {39:9
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {24:3
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {24:4
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {39:9
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {39:9
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {24:6
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {39:8
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {24:6
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					}
+				],
+				"FurnitureID" : 3
+			},{
+				"Transform" : {
+					"Position" : {
+						"x" : -7.407419,
+						"y" : 0.009999998,
+						"z" : 2.86180449
+					},
+					"Rotation" : {
+						"x" : 0,
+						"y" : 0.7071068,
+						"z" : 0,
+						"w" : 0.7071068
+					}
+				},
+				"DisplaySlots" : [
+					{
+						"Products" : {62:12
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {66:6
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {66:5
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {62:12
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {62:12
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {66:5
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {66:8
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {62:10
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {66:8
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {62:5
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					}
+				],
+				"FurnitureID" : 3
+			},{
+				"Transform" : {
+					"Position" : {
+						"x" : -7.406966,
+						"y" : 0.009999998,
+						"z" : 4.471767
+					},
+					"Rotation" : {
+						"x" : 0,
+						"y" : 0.7071068,
+						"z" : 0,
+						"w" : 0.7071068
+					}
+				},
+				"DisplaySlots" : [
+					{
+						"Products" : {55:8
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {151:20
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {55:8
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {151:20
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {55:8
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {151:20
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {55:6
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {151:20
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					}
+				],
+				"FurnitureID" : 1
+			}
+		],
+		"RackDatas" : [
+			
+		],
+		"CheckoutDatas" : [
+			{
+				"Transform" : {
+					"Position" : {
+						"x" : -2.858,
+						"y" : 0,
+						"z" : 5.054
+					},
+					"Rotation" : {
+						"x" : 0,
+						"y" : -0.707106769,
+						"z" : 0,
+						"w" : 0.707106769
+					}
+				},
+				"FurnitureID" : 6,
+				"IsOpen" : true
+			}
+		],
+		"ScaleData" : [
+			
+		],
+		"CategorySignDatas" : [
+			
+		],
+		"DailyStatisticsData" : {
+			"SatisfiedCustomerCount" : 0,
+			"CouldntFindProduct" : 0,
+			"ExpensiveProducts" : 0,
+			"ShortChangeAmount" : 0,
+			"HarmedCustomerCount" : 0,
+			"TotalCustomerCount" : 0,
+			"StorePoint" : 10,
+			"CheckoutIncome" : 0,
+			"SupplyCosts" : -181.624,
+			"UpgradeCosts" : 0,
+			"CustomizationCosts" : 0,
+			"BillCosts" : 0,
+			"VendingIncome" : 0,
+			"RentCosts" : 0,
+			"LoanIncome" : 0,
+			"LoanPayment" : 0,
+			"StaffPayment" : 0,
+			"PaintCosts" : 0,
+			"FloorBoxCosts" : 0
+		},
+		"FurnitureDatas" : [
+			{
+				"FurnitureID" : 5,
+				"Transform" : {
+					"Position" : {
+						"x" : -2.06280613,
+						"y" : 2.9,
+						"z" : 1.04183042
+					},
+					"Rotation" : {
+						"x" : 0,
+						"y" : 0,
+						"z" : 0,
+						"w" : 1
+					}
+				}
+			},{
+				"FurnitureID" : 5,
+				"Transform" : {
+					"Position" : {
+						"x" : -4.1038723,
+						"y" : 2.9,
+						"z" : 1.05255079
+					},
+					"Rotation" : {
+						"x" : 0,
+						"y" : 0,
+						"z" : 0,
+						"w" : 1
+					}
+				}
+			},{
+				"FurnitureID" : 5,
+				"Transform" : {
+					"Position" : {
+						"x" : -2.86715555,
+						"y" : 2.9,
+						"z" : 5.31370068
+					},
+					"Rotation" : {
+						"x" : 0,
+						"y" : 0,
+						"z" : 0,
+						"w" : 1
+					}
+				}
+			},{
+				"FurnitureID" : 5,
+				"Transform" : {
+					"Position" : {
+						"x" : -6.7229166,
+						"y" : 2.9,
+						"z" : 2.218282
+					},
+					"Rotation" : {
+						"x" : 0,
+						"y" : 0,
+						"z" : 0,
+						"w" : 1
+					}
+				}
+			}
+		],
+		"ComputerTransform" : {
+			"Position" : {
+				"x" : -0.535,
+				"y" : 0,
+				"z" : 6.91
+			},
+			"Rotation" : {
+				"x" : 0,
+				"y" : -0.7071104,
+				"z" : 0,
+				"w" : -0.707103252
+			}
+		},
+		"CrateProductsData" : [
+			
+		],
+		"SecurityCameraSaveDatas" : [
+			
+		],
+		"IceCreamStandData" : [
+			
+		],
+		"CurrentTime" : 0,
+		"CurrentDay" : 14,
+		"LastDayPricesChanged" : 1,
+		"LastWholesaleOfferShown" : {
+			"x" : 10,
+			"y" : 19496.6016
+		},
+		"MysteryBox" : false,
+		"IsGarbageOnboardingCompleted" : true,
+		"CleanedGarbageCount" : 24,
+		"CleanedDirtCount" : 25,
+		"CleanedGlassCount" : 9,
+		"CompletedCheckoutCount" : 476,
+		"CurrentStorePoint" : 141,
+		"CurrentStoreLevel" : 13,
+		"StoreUpgradeLevel" : 1,
+		"IsStoreOpen" : false,
+		"PaintedWallCount" : 8,
+		"PaintedFloorCount" : 0,
+		"IsTabletBought" : false,
+		"IsTabletOrdered" : false,
+		"IsCrateBought" : true,
+		"IsCrateEnabled" : true,
+		"IsBatBought" : true,
+		"IsBatEnabled" : false,
+		"GameVersion" : "v1.3.1(197)",
+		"IsNewGame" : false,
+		"IsSecurityWarningShowed" : false,
+		"IsTutorialShoplifterBeaten" : false,
+		"IsShoplifterWarningShowed" : false,
+		"IsEnableShoplifterWarningShowed" : false,
+		"IsVeggiesWarningShowed" : false,
+		"IsScaleBought" : false,
+		"IsStallBought" : false,
+		"IsAnyVeggieBought" : false,
+		"IsAnyVeggiePlacedToStall" : false,
+		"IsScaleTutorialCompleted" : false,
+		"IsOnlineOrderTutorialCompleted" : false,
+		"HasAnyProductBought" : false,
+		"HasAnyProductPlaced" : false,
+		"HasAnyPriceSet" : false,
+		"StoreLightPosition" : {
+			"x" : -1.862,
+			"y" : 1.524,
+			"z" : 7.703
+		},
+		"StoreLightRotationY" : 0,
+		"StorageLightPosition" : {
+			"x" : -0.1933,
+			"y" : 0.9149834,
+			"z" : 9.9322
+		},
+		"StorageLightRotationY" : 90,
+		"FixCheck" : true
+	}
+	},
+	"Onboarding" : {
+		"__type" : "SaveManager+OnboardingContaioner,Assembly-CSharp",
+		"value" : {
+		"Step" : 18,
+		"LightsTutorial" : true,
+		"OverChange" : true,
+		"CompletedShelfObjective" : true,
+		"Version" : "",
+		"CompletedNameObjective" : true
+	}
+	},
+	"Price" : {
+		"__type" : "SaveManager+PriceContainer,Assembly-CSharp",
+		"value" : {
+		"Prices" : [
+			{
+				"ProductID" : 33,
+				"Price" : 3.852,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 70,
+				"Price" : 1.088,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 83,
+				"Price" : 0.6336,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 84,
+				"Price" : 1.31999993,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 85,
+				"Price" : 1.11,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 147,
+				"Price" : 1.104,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 24,
+				"Price" : 0.95,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 39,
+				"Price" : 2.148,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 55,
+				"Price" : 6.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 62,
+				"Price" : 2.26,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 66,
+				"Price" : 0.79,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 151,
+				"Price" : 2.796,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 68,
+				"Price" : 2.95,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 99,
+				"Price" : 3.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 117,
+				"Price" : 2.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 119,
+				"Price" : 3.85,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 128,
+				"Price" : 3.95,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 132,
+				"Price" : 0.75,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 67,
+				"Price" : 0.85,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 73,
+				"Price" : 0.5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 74,
+				"Price" : 0.65,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 86,
+				"Price" : 0.85,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 115,
+				"Price" : 3.75,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 139,
+				"Price" : 0.4,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 26,
+				"Price" : 0.75,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 30,
+				"Price" : 2.1,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 32,
+				"Price" : 1.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 34,
+				"Price" : 2.5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 46,
+				"Price" : 1.78,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 161,
+				"Price" : 0.89,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 10,
+				"Price" : 2.2,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 52,
+				"Price" : 1.65,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 61,
+				"Price" : 13.25,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 63,
+				"Price" : 0.75,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 69,
+				"Price" : 3.67,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 75,
+				"Price" : 10.27,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 165,
+				"Price" : 12.25,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 187,
+				"Price" : 11.91,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 169,
+				"Price" : 3.3,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 172,
+				"Price" : 11,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 174,
+				"Price" : 6.25,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 175,
+				"Price" : 10.46,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 176,
+				"Price" : 6.42,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 178,
+				"Price" : 8.3,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 36,
+				"Price" : 2.88,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 37,
+				"Price" : 3.1,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 64,
+				"Price" : 6.59,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 76,
+				"Price" : 4.89,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 95,
+				"Price" : 0.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 146,
+				"Price" : 6,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 25,
+				"Price" : 1.55,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 35,
+				"Price" : 2.75,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 42,
+				"Price" : 5.65,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 101,
+				"Price" : 3.69,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 123,
+				"Price" : 2.85,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 125,
+				"Price" : 3.55,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 41,
+				"Price" : 2.2,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 56,
+				"Price" : 7.22,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 88,
+				"Price" : 0.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 96,
+				"Price" : 2.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 120,
+				"Price" : 3.55,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 141,
+				"Price" : 4.55,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 152,
+				"Price" : 5.23,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 116,
+				"Price" : 7.12,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 131,
+				"Price" : 6.3,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 134,
+				"Price" : 1.88,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 140,
+				"Price" : 8.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 149,
+				"Price" : 18.21,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 150,
+				"Price" : 15.55,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 157,
+				"Price" : 9.92,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 58,
+				"Price" : 5.85,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 107,
+				"Price" : 2.27,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 108,
+				"Price" : 3.12,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 111,
+				"Price" : 1.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 114,
+				"Price" : 6.98,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 122,
+				"Price" : 5.21,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 177,
+				"Price" : 2.08,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 179,
+				"Price" : 5.15,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 181,
+				"Price" : 5.55,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 182,
+				"Price" : 2.28,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 183,
+				"Price" : 4.12,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 185,
+				"Price" : 2.92,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 186,
+				"Price" : 7.75,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 188,
+				"Price" : 0.41,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 166,
+				"Price" : 7.42,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 1,
+				"Price" : 8.45,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 2,
+				"Price" : 21.98,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 3,
+				"Price" : 1.65,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 9,
+				"Price" : 2.5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 44,
+				"Price" : 3.25,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 65,
+				"Price" : 2.61,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 77,
+				"Price" : 8.66,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 43,
+				"Price" : 4.18,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 100,
+				"Price" : 5.58,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 113,
+				"Price" : 3.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 121,
+				"Price" : 6.44,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 129,
+				"Price" : 2.95,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 133,
+				"Price" : 0.85,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 145,
+				"Price" : 4.4,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 11,
+				"Price" : 4.76,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 50,
+				"Price" : 6.13,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 59,
+				"Price" : 10.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 91,
+				"Price" : 4.76,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 92,
+				"Price" : 3.97,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 153,
+				"Price" : 10.9,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 102,
+				"Price" : 6.81,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 104,
+				"Price" : 5.5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 105,
+				"Price" : 7.78,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 106,
+				"Price" : 3.71,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 112,
+				"Price" : 11.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 127,
+				"Price" : 4.63,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 164,
+				"Price" : 2.87,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 57,
+				"Price" : 8.54,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 135,
+				"Price" : 0.65,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 136,
+				"Price" : 0.7,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 137,
+				"Price" : 0.67,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 138,
+				"Price" : 0.8,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 144,
+				"Price" : 4.16,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 103,
+				"Price" : 1.61,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 109,
+				"Price" : 3.15,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 110,
+				"Price" : 4.11,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 124,
+				"Price" : 6.15,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 126,
+				"Price" : 7.41,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 158,
+				"Price" : 3.69,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 6,
+				"Price" : 1.1,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 7,
+				"Price" : 8.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 8,
+				"Price" : 22.13,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 78,
+				"Price" : 9.13,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 79,
+				"Price" : 18.66,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 82,
+				"Price" : 8.98,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 38,
+				"Price" : 3.5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 40,
+				"Price" : 3.58,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 54,
+				"Price" : 15.5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 118,
+				"Price" : 0.48,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 130,
+				"Price" : 5.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 142,
+				"Price" : 0.77,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 162,
+				"Price" : 0.55,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 167,
+				"Price" : 4.4,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 168,
+				"Price" : 2.3,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 173,
+				"Price" : 4.72,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 184,
+				"Price" : 1.37,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 180,
+				"Price" : 13.05,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 171,
+				"Price" : 3,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 53,
+				"Price" : 5.12,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 60,
+				"Price" : 4.97,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 93,
+				"Price" : 3.5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 97,
+				"Price" : 4.76,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 12,
+				"Price" : 2.53,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 13,
+				"Price" : 2.5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 14,
+				"Price" : 4.05,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 15,
+				"Price" : 3.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 16,
+				"Price" : 1.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 18,
+				"Price" : 3.25,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 51,
+				"Price" : 1.76,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 89,
+				"Price" : 0.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 90,
+				"Price" : 0.72,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 94,
+				"Price" : 20.36,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 27,
+				"Price" : 24.05,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 28,
+				"Price" : 2.58,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 45,
+				"Price" : 2.15,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 49,
+				"Price" : 1.87,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 71,
+				"Price" : 1.28,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 72,
+				"Price" : 1.25,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 87,
+				"Price" : 1.25,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 98,
+				"Price" : 4.76,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 154,
+				"Price" : 11.9,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 155,
+				"Price" : 11,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 156,
+				"Price" : 3.1,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 17,
+				"Price" : 3.15,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 19,
+				"Price" : 3.22,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 20,
+				"Price" : 3.4,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 21,
+				"Price" : 3.28,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 22,
+				"Price" : 3.65,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 23,
+				"Price" : 4.02,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 29,
+				"Price" : 2.7,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 31,
+				"Price" : 24.5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 47,
+				"Price" : 1.39,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 48,
+				"Price" : 1.59,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 148,
+				"Price" : 4.16,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 163,
+				"Price" : 0.6,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 4,
+				"Price" : 9.98,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 5,
+				"Price" : 23.08,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 80,
+				"Price" : 13.5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 81,
+				"Price" : 27.03,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 159,
+				"Price" : 6.5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 160,
+				"Price" : 7.12,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 208,
+				"Price" : 9.16,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 209,
+				"Price" : 9.46,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 210,
+				"Price" : 19.84,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 211,
+				"Price" : 8.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 212,
+				"Price" : 9.12,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 213,
+				"Price" : 5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 214,
+				"Price" : 11.69,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 215,
+				"Price" : 3.77,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 216,
+				"Price" : 13.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 217,
+				"Price" : 7.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 218,
+				"Price" : 3.84,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 219,
+				"Price" : 14.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 220,
+				"Price" : 8.88,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 221,
+				"Price" : 9.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 222,
+				"Price" : 10.36,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 223,
+				"Price" : 7.95,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 224,
+				"Price" : 15.98,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 225,
+				"Price" : 9.88,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 226,
+				"Price" : 12.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 227,
+				"Price" : 19.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 228,
+				"Price" : 12.42,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 229,
+				"Price" : 5.44,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 230,
+				"Price" : 14.94,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 231,
+				"Price" : 9.14,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 232,
+				"Price" : 3.98,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 233,
+				"Price" : 2.78,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 234,
+				"Price" : 5.98,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 235,
+				"Price" : 3.18,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 236,
+				"Price" : 6.18,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 237,
+				"Price" : 8.54,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 238,
+				"Price" : 12.88,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 239,
+				"Price" : 8.48,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 240,
+				"Price" : 7.98,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			}
+		],
+		"PricesSetByPlayer" : [
+			{
+				"ProductID" : 33,
+				"Price" : 7.4,
+				"LastChangeDate" : 8,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 70,
+				"Price" : 4,
+				"LastChangeDate" : 12,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 83,
+				"Price" : 2.7,
+				"LastChangeDate" : 13,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 147,
+				"Price" : 4.3,
+				"LastChangeDate" : 9,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 85,
+				"Price" : 3.2,
+				"LastChangeDate" : 6,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 84,
+				"Price" : 3.7,
+				"LastChangeDate" : 10,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 24,
+				"Price" : 2.4,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 39,
+				"Price" : 3.8,
+				"LastChangeDate" : 13,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 55,
+				"Price" : 10.2,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 62,
+				"Price" : 4.2,
+				"LastChangeDate" : 14,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 66,
+				"Price" : 2.2,
+				"LastChangeDate" : 11,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 151,
+				"Price" : 5.6,
+				"LastChangeDate" : 13,
+				"DiscountRate" : 0
+			}
+		],
+		"AverageCosts" : [
+			{
+				"ProductID" : 83,
+				"Price" : 0.612285852,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 85,
+				"Price" : 1.1100018,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 70,
+				"Price" : 1.119265,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 147,
+				"Price" : 1.11456716,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 33,
+				"Price" : 3.82606769,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 84,
+				"Price" : 1.34653962,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 24,
+				"Price" : 0.95,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 39,
+				"Price" : 2.02500844,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 62,
+				"Price" : 2.05352926,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 66,
+				"Price" : 0.8077568,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 55,
+				"Price" : 6.99000025,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 151,
+				"Price" : 2.56012321,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			}
+		],
+		"DailyPriceChanges" : [
+			{
+				"ProductID" : 62,
+				"Price" : 2.26,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			}
+		],
+		"PreviousPrices" : [
+			{
+				"ProductID" : 33,
+				"Price" : 3.21,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 83,
+				"Price" : 0.528,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 85,
+				"Price" : 0.9504,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 70,
+				"Price" : 1.36,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 84,
+				"Price" : 1.65,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 147,
+				"Price" : 1.38,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 151,
+				"Price" : 2.33,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 66,
+				"Price" : 0.9,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 39,
+				"Price" : 1.79,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 62,
+				"Price" : 1.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			}
+		],
+		"PricingDatas" : [
+			{
+				"ProductID" : 33,
+				"Price" : 3.852,
+				"LastChangeDate" : 8,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 70,
+				"Price" : 1.088,
+				"LastChangeDate" : 12,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 83,
+				"Price" : 0.6336,
+				"LastChangeDate" : 13,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 84,
+				"Price" : 1.31999993,
+				"LastChangeDate" : 10,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 85,
+				"Price" : 1.11,
+				"LastChangeDate" : 6,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 147,
+				"Price" : 1.104,
+				"LastChangeDate" : 9,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 24,
+				"Price" : 0.95,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 39,
+				"Price" : 2.148,
+				"LastChangeDate" : 13,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 55,
+				"Price" : 6.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 62,
+				"Price" : 2.26,
+				"LastChangeDate" : 14,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 66,
+				"Price" : 0.79,
+				"LastChangeDate" : 11,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 151,
+				"Price" : 2.796,
+				"LastChangeDate" : 13,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 68,
+				"Price" : 2.95,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 99,
+				"Price" : 3.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 117,
+				"Price" : 2.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 119,
+				"Price" : 3.85,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 128,
+				"Price" : 3.95,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 132,
+				"Price" : 0.75,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 67,
+				"Price" : 0.85,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 73,
+				"Price" : 0.5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 74,
+				"Price" : 0.65,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 86,
+				"Price" : 0.85,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 115,
+				"Price" : 3.75,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 139,
+				"Price" : 0.4,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 26,
+				"Price" : 0.75,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 30,
+				"Price" : 2.1,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 32,
+				"Price" : 1.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 34,
+				"Price" : 2.5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 46,
+				"Price" : 1.78,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 161,
+				"Price" : 0.89,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 10,
+				"Price" : 2.2,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 52,
+				"Price" : 1.65,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 61,
+				"Price" : 13.25,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 63,
+				"Price" : 0.75,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 69,
+				"Price" : 3.67,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 75,
+				"Price" : 10.27,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 165,
+				"Price" : 12.25,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 187,
+				"Price" : 11.91,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 169,
+				"Price" : 3.3,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 172,
+				"Price" : 11,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 174,
+				"Price" : 6.25,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 175,
+				"Price" : 10.46,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 176,
+				"Price" : 6.42,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 178,
+				"Price" : 8.3,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 36,
+				"Price" : 2.88,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 37,
+				"Price" : 3.1,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 64,
+				"Price" : 6.59,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 76,
+				"Price" : 4.89,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 95,
+				"Price" : 0.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 146,
+				"Price" : 6,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 25,
+				"Price" : 1.55,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 35,
+				"Price" : 2.75,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 42,
+				"Price" : 5.65,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 101,
+				"Price" : 3.69,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 123,
+				"Price" : 2.85,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 125,
+				"Price" : 3.55,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 41,
+				"Price" : 2.2,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 56,
+				"Price" : 7.22,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 88,
+				"Price" : 0.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 96,
+				"Price" : 2.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 120,
+				"Price" : 3.55,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 141,
+				"Price" : 4.55,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 152,
+				"Price" : 5.23,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 116,
+				"Price" : 7.12,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 131,
+				"Price" : 6.3,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 134,
+				"Price" : 1.88,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 140,
+				"Price" : 8.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 149,
+				"Price" : 18.21,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 150,
+				"Price" : 15.55,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 157,
+				"Price" : 9.92,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 58,
+				"Price" : 5.85,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 107,
+				"Price" : 2.27,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 108,
+				"Price" : 3.12,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 111,
+				"Price" : 1.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 114,
+				"Price" : 6.98,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 122,
+				"Price" : 5.21,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 177,
+				"Price" : 2.08,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 179,
+				"Price" : 5.15,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 181,
+				"Price" : 5.55,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 182,
+				"Price" : 2.28,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 183,
+				"Price" : 4.12,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 185,
+				"Price" : 2.92,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 186,
+				"Price" : 7.75,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 188,
+				"Price" : 0.41,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 166,
+				"Price" : 7.42,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 1,
+				"Price" : 8.45,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 2,
+				"Price" : 21.98,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 3,
+				"Price" : 1.65,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 9,
+				"Price" : 2.5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 44,
+				"Price" : 3.25,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 65,
+				"Price" : 2.61,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 77,
+				"Price" : 8.66,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 43,
+				"Price" : 4.18,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 100,
+				"Price" : 5.58,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 113,
+				"Price" : 3.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 121,
+				"Price" : 6.44,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 129,
+				"Price" : 2.95,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 133,
+				"Price" : 0.85,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 145,
+				"Price" : 4.4,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 11,
+				"Price" : 4.76,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 50,
+				"Price" : 6.13,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 59,
+				"Price" : 10.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 91,
+				"Price" : 4.76,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 92,
+				"Price" : 3.97,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 153,
+				"Price" : 10.9,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 102,
+				"Price" : 6.81,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 104,
+				"Price" : 5.5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 105,
+				"Price" : 7.78,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 106,
+				"Price" : 3.71,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 112,
+				"Price" : 11.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 127,
+				"Price" : 4.63,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 164,
+				"Price" : 2.87,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 57,
+				"Price" : 8.54,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 135,
+				"Price" : 0.65,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 136,
+				"Price" : 0.7,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 137,
+				"Price" : 0.67,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 138,
+				"Price" : 0.8,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 144,
+				"Price" : 4.16,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 103,
+				"Price" : 1.61,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 109,
+				"Price" : 3.15,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 110,
+				"Price" : 4.11,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 124,
+				"Price" : 6.15,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 126,
+				"Price" : 7.41,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 158,
+				"Price" : 3.69,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 6,
+				"Price" : 1.1,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 7,
+				"Price" : 8.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 8,
+				"Price" : 22.13,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 78,
+				"Price" : 9.13,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 79,
+				"Price" : 18.66,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 82,
+				"Price" : 8.98,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 38,
+				"Price" : 3.5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 40,
+				"Price" : 3.58,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 54,
+				"Price" : 15.5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 118,
+				"Price" : 0.48,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 130,
+				"Price" : 5.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 142,
+				"Price" : 0.77,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 162,
+				"Price" : 0.55,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 167,
+				"Price" : 4.4,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 168,
+				"Price" : 2.3,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 173,
+				"Price" : 4.72,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 184,
+				"Price" : 1.37,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 180,
+				"Price" : 13.05,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 171,
+				"Price" : 3,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 53,
+				"Price" : 5.12,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 60,
+				"Price" : 4.97,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 93,
+				"Price" : 3.5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 97,
+				"Price" : 4.76,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 12,
+				"Price" : 2.53,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 13,
+				"Price" : 2.5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 14,
+				"Price" : 4.05,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 15,
+				"Price" : 3.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 16,
+				"Price" : 1.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 18,
+				"Price" : 3.25,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 51,
+				"Price" : 1.76,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 89,
+				"Price" : 0.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 90,
+				"Price" : 0.72,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 94,
+				"Price" : 20.36,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 27,
+				"Price" : 24.05,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 28,
+				"Price" : 2.58,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 45,
+				"Price" : 2.15,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 49,
+				"Price" : 1.87,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 71,
+				"Price" : 1.28,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 72,
+				"Price" : 1.25,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 87,
+				"Price" : 1.25,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 98,
+				"Price" : 4.76,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 154,
+				"Price" : 11.9,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 155,
+				"Price" : 11,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 156,
+				"Price" : 3.1,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 17,
+				"Price" : 3.15,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 19,
+				"Price" : 3.22,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 20,
+				"Price" : 3.4,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 21,
+				"Price" : 3.28,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 22,
+				"Price" : 3.65,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 23,
+				"Price" : 4.02,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 29,
+				"Price" : 2.7,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 31,
+				"Price" : 24.5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 47,
+				"Price" : 1.39,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 48,
+				"Price" : 1.59,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 148,
+				"Price" : 4.16,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 163,
+				"Price" : 0.6,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 4,
+				"Price" : 9.98,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 5,
+				"Price" : 23.08,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 80,
+				"Price" : 13.5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 81,
+				"Price" : 27.03,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 159,
+				"Price" : 6.5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 160,
+				"Price" : 7.12,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 208,
+				"Price" : 9.16,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 209,
+				"Price" : 9.46,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 210,
+				"Price" : 19.84,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 211,
+				"Price" : 8.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 212,
+				"Price" : 9.12,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 213,
+				"Price" : 5,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 214,
+				"Price" : 11.69,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 215,
+				"Price" : 3.77,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 216,
+				"Price" : 13.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 217,
+				"Price" : 7.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 218,
+				"Price" : 3.84,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 219,
+				"Price" : 14.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 220,
+				"Price" : 8.88,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 221,
+				"Price" : 9.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 222,
+				"Price" : 10.36,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 223,
+				"Price" : 7.95,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 224,
+				"Price" : 15.98,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 225,
+				"Price" : 9.88,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 226,
+				"Price" : 12.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 227,
+				"Price" : 19.99,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 228,
+				"Price" : 12.42,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 229,
+				"Price" : 5.44,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 230,
+				"Price" : 14.94,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 231,
+				"Price" : 9.14,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 232,
+				"Price" : 3.98,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 233,
+				"Price" : 2.78,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 234,
+				"Price" : 5.98,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 235,
+				"Price" : 3.18,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 236,
+				"Price" : 6.18,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 237,
+				"Price" : 8.54,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 238,
+				"Price" : 12.88,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 239,
+				"Price" : 8.48,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 240,
+				"Price" : 7.98,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			}
+		]
+	}
+	},
+	"Expenses" : {
+		"__type" : "SaveManager+ExpensesData,Assembly-CSharp",
+		"value" : {
+		"CurrentDayBillAmount" : 0,
+		"Bills" : [
+			{
+				"LoanID" : -1,
+				"Date" : 13,
+				"Amount" : 26.49,
+				"PaymentType" : 1,
+				"LatePaymentFee" : 0
+			}
+		],
+		"Rents" : [
+			{
+				"LoanID" : -1,
+				"Date" : 13,
+				"Amount" : 30,
+				"PaymentType" : 0,
+				"LatePaymentFee" : 0
+			}
+		],
+		"LoanRepayments" : [
+			
+		]
+	}
+	},
+	"Employees" : {
+		"__type" : "SaveManager+EmployeesData,Assembly-CSharp",
+		"value" : {
+		"CashiersData" : [
+			
+		],
+		"RestockersData" : [
+			
+		],
+		"CustomerHelpersData" : [
+			
+		],
+		"JanitorsData" : [
+			
+		],
+		"RestockerManagementDatas" : [
+			
+		],
+		"BakerManagementDatas" : [
+			
+		],
+		"SecurityGuardsData" : [
+			
+		],
+		"BakersData" : [
+			
+		],
+		"IceCreamHelpersData" : [
+			
+		]
+	}
+	},
+	"Storage" : {
+		"__type" : "SaveManager+StorageData,Assembly-CSharp",
+		"value" : {
+		"Purchased" : false,
+		"StorageLevel" : 0
+	}
+	},
+	"NewCustomization" : {
+		"__type" : "SaveManager+CustomizationContainer,Assembly-CSharp",
+		"value" : {
+		"CustomizationData" : {
+			"ShopName" : "Hentai MARKET",
+			"DoorIndex" : 0,
+			"ShopNameColor" : {
+				"r" : 0.5613651,
+				"g" : 0,
+				"b" : 1,
+				"a" : 1
+			},
+			"NameBackGroundColor" : {
+				"r" : 0,
+				"g" : 0,
+				"b" : 0,
+				"a" : 1
+			},
+			"ShopNameSizeX" : 5,
+			"ShopNameSizeY" : 3.58333325,
+			"EntranceVariant" : 0,
+			"IsSignboardDefault" : false
+		},
+		"BucketSaveDataList" : [
+			
+		],
+		"FloorBoxSaveDataList" : [
+			
+		],
+		"PaintDataList" : [
+			{
+				"wallID" : 0,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1,
+				"colorIndex" : 1
+			},{
+				"wallID" : 2,
+				"colorIndex" : 1
+			},{
+				"wallID" : 3,
+				"colorIndex" : 1
+			},{
+				"wallID" : 4,
+				"colorIndex" : 1
+			},{
+				"wallID" : 5,
+				"colorIndex" : 1
+			},{
+				"wallID" : 6,
+				"colorIndex" : 1
+			},{
+				"wallID" : 7,
+				"colorIndex" : 1
+			},{
+				"wallID" : 8,
+				"colorIndex" : 1
+			},{
+				"wallID" : 9,
+				"colorIndex" : 25
+			},{
+				"wallID" : 10,
+				"colorIndex" : 1
+			},{
+				"wallID" : 11,
+				"colorIndex" : 1
+			},{
+				"wallID" : 12,
+				"colorIndex" : 1
+			},{
+				"wallID" : 13,
+				"colorIndex" : 1
+			},{
+				"wallID" : 14,
+				"colorIndex" : 1
+			},{
+				"wallID" : 15,
+				"colorIndex" : 1
+			},{
+				"wallID" : 16,
+				"colorIndex" : 1
+			},{
+				"wallID" : 17,
+				"colorIndex" : 1
+			},{
+				"wallID" : 18,
+				"colorIndex" : 1
+			},{
+				"wallID" : 19,
+				"colorIndex" : 1
+			},{
+				"wallID" : 20,
+				"colorIndex" : 1
+			},{
+				"wallID" : 21,
+				"colorIndex" : 1
+			},{
+				"wallID" : 22,
+				"colorIndex" : 1
+			},{
+				"wallID" : 23,
+				"colorIndex" : 1
+			},{
+				"wallID" : 24,
+				"colorIndex" : 1
+			},{
+				"wallID" : 25,
+				"colorIndex" : 1
+			},{
+				"wallID" : 26,
+				"colorIndex" : 1
+			},{
+				"wallID" : 27,
+				"colorIndex" : 1
+			},{
+				"wallID" : 28,
+				"colorIndex" : 1
+			},{
+				"wallID" : 29,
+				"colorIndex" : 1
+			},{
+				"wallID" : 30,
+				"colorIndex" : 1
+			},{
+				"wallID" : 31,
+				"colorIndex" : 1
+			},{
+				"wallID" : 32,
+				"colorIndex" : 1
+			},{
+				"wallID" : 33,
+				"colorIndex" : 1
+			},{
+				"wallID" : 34,
+				"colorIndex" : 1
+			},{
+				"wallID" : 35,
+				"colorIndex" : 1
+			},{
+				"wallID" : 36,
+				"colorIndex" : 1
+			},{
+				"wallID" : 37,
+				"colorIndex" : 1
+			},{
+				"wallID" : 38,
+				"colorIndex" : 1
+			},{
+				"wallID" : 39,
+				"colorIndex" : 1
+			},{
+				"wallID" : 40,
+				"colorIndex" : 1
+			},{
+				"wallID" : 41,
+				"colorIndex" : 1
+			},{
+				"wallID" : 42,
+				"colorIndex" : 1
+			},{
+				"wallID" : 43,
+				"colorIndex" : 1
+			},{
+				"wallID" : 44,
+				"colorIndex" : 1
+			},{
+				"wallID" : 45,
+				"colorIndex" : 1
+			},{
+				"wallID" : 46,
+				"colorIndex" : 1
+			},{
+				"wallID" : 47,
+				"colorIndex" : 25
+			},{
+				"wallID" : 48,
+				"colorIndex" : 1
+			},{
+				"wallID" : 49,
+				"colorIndex" : 1
+			},{
+				"wallID" : 50,
+				"colorIndex" : 1
+			},{
+				"wallID" : 51,
+				"colorIndex" : 1
+			},{
+				"wallID" : 52,
+				"colorIndex" : 1
+			},{
+				"wallID" : 53,
+				"colorIndex" : 1
+			},{
+				"wallID" : 54,
+				"colorIndex" : 25
+			},{
+				"wallID" : 55,
+				"colorIndex" : 1
+			},{
+				"wallID" : 56,
+				"colorIndex" : 1
+			},{
+				"wallID" : 57,
+				"colorIndex" : 1
+			},{
+				"wallID" : 58,
+				"colorIndex" : 1
+			},{
+				"wallID" : 59,
+				"colorIndex" : 1
+			},{
+				"wallID" : 60,
+				"colorIndex" : 1
+			},{
+				"wallID" : 61,
+				"colorIndex" : 1
+			},{
+				"wallID" : 62,
+				"colorIndex" : 1
+			},{
+				"wallID" : 63,
+				"colorIndex" : 1
+			},{
+				"wallID" : 64,
+				"colorIndex" : 1
+			},{
+				"wallID" : 65,
+				"colorIndex" : 1
+			},{
+				"wallID" : 66,
+				"colorIndex" : 1
+			},{
+				"wallID" : 67,
+				"colorIndex" : 1
+			},{
+				"wallID" : 68,
+				"colorIndex" : 1
+			},{
+				"wallID" : 69,
+				"colorIndex" : 1
+			},{
+				"wallID" : 70,
+				"colorIndex" : 1
+			},{
+				"wallID" : 71,
+				"colorIndex" : 1
+			},{
+				"wallID" : 72,
+				"colorIndex" : 1
+			},{
+				"wallID" : 73,
+				"colorIndex" : 1
+			},{
+				"wallID" : 74,
+				"colorIndex" : 1
+			},{
+				"wallID" : 75,
+				"colorIndex" : 1
+			},{
+				"wallID" : 76,
+				"colorIndex" : 1
+			},{
+				"wallID" : 77,
+				"colorIndex" : 1
+			},{
+				"wallID" : 78,
+				"colorIndex" : 1
+			},{
+				"wallID" : 79,
+				"colorIndex" : 1
+			},{
+				"wallID" : 80,
+				"colorIndex" : 1
+			},{
+				"wallID" : 81,
+				"colorIndex" : 1
+			},{
+				"wallID" : 82,
+				"colorIndex" : 1
+			},{
+				"wallID" : 83,
+				"colorIndex" : 1
+			},{
+				"wallID" : 84,
+				"colorIndex" : 1
+			},{
+				"wallID" : 85,
+				"colorIndex" : 1
+			},{
+				"wallID" : 86,
+				"colorIndex" : 1
+			},{
+				"wallID" : 87,
+				"colorIndex" : 1
+			},{
+				"wallID" : 88,
+				"colorIndex" : 1
+			},{
+				"wallID" : 89,
+				"colorIndex" : 1
+			},{
+				"wallID" : 90,
+				"colorIndex" : 1
+			},{
+				"wallID" : 91,
+				"colorIndex" : 1
+			},{
+				"wallID" : 92,
+				"colorIndex" : 1
+			},{
+				"wallID" : 93,
+				"colorIndex" : 1
+			},{
+				"wallID" : 94,
+				"colorIndex" : 1
+			},{
+				"wallID" : 95,
+				"colorIndex" : 1
+			},{
+				"wallID" : 96,
+				"colorIndex" : 1
+			},{
+				"wallID" : 97,
+				"colorIndex" : 1
+			},{
+				"wallID" : 98,
+				"colorIndex" : 1
+			},{
+				"wallID" : 99,
+				"colorIndex" : 1
+			},{
+				"wallID" : 100,
+				"colorIndex" : 1
+			},{
+				"wallID" : 101,
+				"colorIndex" : 1
+			},{
+				"wallID" : 102,
+				"colorIndex" : 1
+			},{
+				"wallID" : 103,
+				"colorIndex" : 1
+			},{
+				"wallID" : 104,
+				"colorIndex" : 1
+			},{
+				"wallID" : 105,
+				"colorIndex" : 1
+			},{
+				"wallID" : 106,
+				"colorIndex" : 1
+			},{
+				"wallID" : 107,
+				"colorIndex" : 1
+			},{
+				"wallID" : 108,
+				"colorIndex" : 1
+			},{
+				"wallID" : 109,
+				"colorIndex" : 1
+			},{
+				"wallID" : 110,
+				"colorIndex" : 1
+			},{
+				"wallID" : 111,
+				"colorIndex" : 1
+			},{
+				"wallID" : 112,
+				"colorIndex" : 1
+			},{
+				"wallID" : 113,
+				"colorIndex" : 1
+			},{
+				"wallID" : 114,
+				"colorIndex" : 1
+			},{
+				"wallID" : 115,
+				"colorIndex" : 1
+			},{
+				"wallID" : 116,
+				"colorIndex" : 1
+			},{
+				"wallID" : 117,
+				"colorIndex" : 1
+			},{
+				"wallID" : 118,
+				"colorIndex" : 1
+			},{
+				"wallID" : 119,
+				"colorIndex" : 1
+			},{
+				"wallID" : 120,
+				"colorIndex" : 1
+			},{
+				"wallID" : 121,
+				"colorIndex" : 1
+			},{
+				"wallID" : 122,
+				"colorIndex" : 1
+			},{
+				"wallID" : 123,
+				"colorIndex" : 1
+			},{
+				"wallID" : 124,
+				"colorIndex" : 1
+			},{
+				"wallID" : 125,
+				"colorIndex" : 1
+			},{
+				"wallID" : 126,
+				"colorIndex" : 1
+			},{
+				"wallID" : 127,
+				"colorIndex" : 1
+			},{
+				"wallID" : 128,
+				"colorIndex" : 1
+			},{
+				"wallID" : 129,
+				"colorIndex" : 1
+			},{
+				"wallID" : 130,
+				"colorIndex" : 1
+			},{
+				"wallID" : 131,
+				"colorIndex" : 1
+			},{
+				"wallID" : 132,
+				"colorIndex" : 1
+			},{
+				"wallID" : 133,
+				"colorIndex" : 1
+			},{
+				"wallID" : 134,
+				"colorIndex" : 1
+			},{
+				"wallID" : 135,
+				"colorIndex" : 1
+			},{
+				"wallID" : 136,
+				"colorIndex" : 1
+			},{
+				"wallID" : 137,
+				"colorIndex" : 1
+			},{
+				"wallID" : 138,
+				"colorIndex" : 1
+			},{
+				"wallID" : 139,
+				"colorIndex" : 1
+			},{
+				"wallID" : 140,
+				"colorIndex" : 1
+			},{
+				"wallID" : 141,
+				"colorIndex" : 1
+			},{
+				"wallID" : 142,
+				"colorIndex" : 1
+			},{
+				"wallID" : 143,
+				"colorIndex" : 1
+			},{
+				"wallID" : 144,
+				"colorIndex" : 1
+			},{
+				"wallID" : 145,
+				"colorIndex" : 1
+			},{
+				"wallID" : 146,
+				"colorIndex" : 1
+			},{
+				"wallID" : 147,
+				"colorIndex" : 25
+			},{
+				"wallID" : 148,
+				"colorIndex" : 1
+			},{
+				"wallID" : 149,
+				"colorIndex" : 1
+			},{
+				"wallID" : 150,
+				"colorIndex" : 1
+			},{
+				"wallID" : 151,
+				"colorIndex" : 1
+			},{
+				"wallID" : 152,
+				"colorIndex" : 1
+			},{
+				"wallID" : 153,
+				"colorIndex" : 1
+			},{
+				"wallID" : 154,
+				"colorIndex" : 1
+			},{
+				"wallID" : 155,
+				"colorIndex" : 1
+			},{
+				"wallID" : 156,
+				"colorIndex" : 1
+			},{
+				"wallID" : 157,
+				"colorIndex" : 1
+			},{
+				"wallID" : 158,
+				"colorIndex" : 1
+			},{
+				"wallID" : 159,
+				"colorIndex" : 1
+			},{
+				"wallID" : 160,
+				"colorIndex" : 1
+			},{
+				"wallID" : 161,
+				"colorIndex" : 1
+			},{
+				"wallID" : 162,
+				"colorIndex" : 1
+			},{
+				"wallID" : 163,
+				"colorIndex" : 1
+			},{
+				"wallID" : 164,
+				"colorIndex" : 1
+			},{
+				"wallID" : 165,
+				"colorIndex" : 1
+			},{
+				"wallID" : 166,
+				"colorIndex" : 1
+			},{
+				"wallID" : 167,
+				"colorIndex" : 1
+			},{
+				"wallID" : 168,
+				"colorIndex" : 1
+			},{
+				"wallID" : 169,
+				"colorIndex" : 1
+			},{
+				"wallID" : 170,
+				"colorIndex" : 1
+			},{
+				"wallID" : 171,
+				"colorIndex" : 1
+			},{
+				"wallID" : 172,
+				"colorIndex" : 1
+			},{
+				"wallID" : 173,
+				"colorIndex" : 1
+			},{
+				"wallID" : 174,
+				"colorIndex" : 1
+			},{
+				"wallID" : 175,
+				"colorIndex" : 1
+			},{
+				"wallID" : 176,
+				"colorIndex" : 1
+			},{
+				"wallID" : 177,
+				"colorIndex" : 1
+			},{
+				"wallID" : 178,
+				"colorIndex" : 1
+			},{
+				"wallID" : 179,
+				"colorIndex" : 1
+			},{
+				"wallID" : 180,
+				"colorIndex" : 1
+			},{
+				"wallID" : 181,
+				"colorIndex" : 1
+			},{
+				"wallID" : 182,
+				"colorIndex" : 1
+			},{
+				"wallID" : 183,
+				"colorIndex" : 1
+			},{
+				"wallID" : 184,
+				"colorIndex" : 1
+			},{
+				"wallID" : 185,
+				"colorIndex" : 1
+			},{
+				"wallID" : 186,
+				"colorIndex" : 1
+			},{
+				"wallID" : 187,
+				"colorIndex" : 1
+			},{
+				"wallID" : 188,
+				"colorIndex" : 1
+			},{
+				"wallID" : 189,
+				"colorIndex" : 1
+			},{
+				"wallID" : 190,
+				"colorIndex" : 1
+			},{
+				"wallID" : 191,
+				"colorIndex" : 1
+			},{
+				"wallID" : 192,
+				"colorIndex" : 1
+			},{
+				"wallID" : 193,
+				"colorIndex" : 1
+			},{
+				"wallID" : 194,
+				"colorIndex" : 1
+			},{
+				"wallID" : 195,
+				"colorIndex" : 1
+			},{
+				"wallID" : 196,
+				"colorIndex" : 1
+			},{
+				"wallID" : 197,
+				"colorIndex" : 1
+			},{
+				"wallID" : 198,
+				"colorIndex" : 1
+			},{
+				"wallID" : 199,
+				"colorIndex" : 1
+			},{
+				"wallID" : 200,
+				"colorIndex" : 1
+			},{
+				"wallID" : 201,
+				"colorIndex" : 1
+			},{
+				"wallID" : 202,
+				"colorIndex" : 1
+			},{
+				"wallID" : 203,
+				"colorIndex" : 1
+			},{
+				"wallID" : 204,
+				"colorIndex" : 1
+			},{
+				"wallID" : 205,
+				"colorIndex" : 1
+			},{
+				"wallID" : 206,
+				"colorIndex" : 1
+			},{
+				"wallID" : 207,
+				"colorIndex" : 1
+			},{
+				"wallID" : 208,
+				"colorIndex" : 1
+			},{
+				"wallID" : 209,
+				"colorIndex" : 1
+			},{
+				"wallID" : 210,
+				"colorIndex" : 1
+			},{
+				"wallID" : 211,
+				"colorIndex" : 1
+			},{
+				"wallID" : 212,
+				"colorIndex" : 1
+			},{
+				"wallID" : 213,
+				"colorIndex" : 1
+			},{
+				"wallID" : 214,
+				"colorIndex" : 1
+			},{
+				"wallID" : 215,
+				"colorIndex" : 1
+			},{
+				"wallID" : 216,
+				"colorIndex" : 1
+			},{
+				"wallID" : 217,
+				"colorIndex" : 1
+			},{
+				"wallID" : 218,
+				"colorIndex" : 1
+			},{
+				"wallID" : 219,
+				"colorIndex" : 1
+			},{
+				"wallID" : 220,
+				"colorIndex" : 1
+			},{
+				"wallID" : 221,
+				"colorIndex" : 1
+			},{
+				"wallID" : 222,
+				"colorIndex" : 1
+			},{
+				"wallID" : 223,
+				"colorIndex" : 1
+			},{
+				"wallID" : 224,
+				"colorIndex" : 1
+			},{
+				"wallID" : 225,
+				"colorIndex" : 1
+			},{
+				"wallID" : 226,
+				"colorIndex" : 1
+			},{
+				"wallID" : 227,
+				"colorIndex" : 1
+			},{
+				"wallID" : 228,
+				"colorIndex" : 1
+			},{
+				"wallID" : 229,
+				"colorIndex" : 1
+			},{
+				"wallID" : 230,
+				"colorIndex" : 1
+			},{
+				"wallID" : 231,
+				"colorIndex" : 1
+			},{
+				"wallID" : 232,
+				"colorIndex" : 1
+			},{
+				"wallID" : 233,
+				"colorIndex" : 1
+			},{
+				"wallID" : 234,
+				"colorIndex" : 1
+			},{
+				"wallID" : 235,
+				"colorIndex" : 1
+			},{
+				"wallID" : 236,
+				"colorIndex" : 1
+			},{
+				"wallID" : 237,
+				"colorIndex" : 1
+			},{
+				"wallID" : 238,
+				"colorIndex" : 1
+			},{
+				"wallID" : 239,
+				"colorIndex" : 1
+			},{
+				"wallID" : 240,
+				"colorIndex" : 1
+			},{
+				"wallID" : 241,
+				"colorIndex" : 1
+			},{
+				"wallID" : 242,
+				"colorIndex" : 1
+			},{
+				"wallID" : 243,
+				"colorIndex" : 1
+			},{
+				"wallID" : 244,
+				"colorIndex" : 1
+			},{
+				"wallID" : 245,
+				"colorIndex" : 1
+			},{
+				"wallID" : 246,
+				"colorIndex" : 1
+			},{
+				"wallID" : 247,
+				"colorIndex" : 1
+			},{
+				"wallID" : 248,
+				"colorIndex" : 1
+			},{
+				"wallID" : 249,
+				"colorIndex" : 1
+			},{
+				"wallID" : 250,
+				"colorIndex" : 1
+			},{
+				"wallID" : 251,
+				"colorIndex" : 1
+			},{
+				"wallID" : 252,
+				"colorIndex" : 1
+			},{
+				"wallID" : 253,
+				"colorIndex" : 1
+			},{
+				"wallID" : 254,
+				"colorIndex" : 1
+			},{
+				"wallID" : 255,
+				"colorIndex" : 1
+			},{
+				"wallID" : 256,
+				"colorIndex" : 1
+			},{
+				"wallID" : 257,
+				"colorIndex" : 1
+			},{
+				"wallID" : 258,
+				"colorIndex" : 25
+			},{
+				"wallID" : 259,
+				"colorIndex" : 1
+			},{
+				"wallID" : 260,
+				"colorIndex" : 1
+			},{
+				"wallID" : 261,
+				"colorIndex" : 1
+			},{
+				"wallID" : 262,
+				"colorIndex" : 1
+			},{
+				"wallID" : 263,
+				"colorIndex" : 1
+			},{
+				"wallID" : 264,
+				"colorIndex" : 1
+			},{
+				"wallID" : 265,
+				"colorIndex" : 1
+			},{
+				"wallID" : 266,
+				"colorIndex" : 1
+			},{
+				"wallID" : 267,
+				"colorIndex" : 1
+			},{
+				"wallID" : 268,
+				"colorIndex" : 1
+			},{
+				"wallID" : 269,
+				"colorIndex" : 1
+			},{
+				"wallID" : 270,
+				"colorIndex" : 1
+			},{
+				"wallID" : 271,
+				"colorIndex" : 1
+			},{
+				"wallID" : 272,
+				"colorIndex" : 1
+			},{
+				"wallID" : 273,
+				"colorIndex" : 1
+			},{
+				"wallID" : 274,
+				"colorIndex" : 1
+			},{
+				"wallID" : 275,
+				"colorIndex" : 1
+			},{
+				"wallID" : 276,
+				"colorIndex" : 1
+			},{
+				"wallID" : 277,
+				"colorIndex" : 1
+			},{
+				"wallID" : 278,
+				"colorIndex" : 1
+			},{
+				"wallID" : 279,
+				"colorIndex" : 1
+			},{
+				"wallID" : 280,
+				"colorIndex" : 1
+			},{
+				"wallID" : 281,
+				"colorIndex" : 1
+			},{
+				"wallID" : 282,
+				"colorIndex" : 1
+			},{
+				"wallID" : 283,
+				"colorIndex" : 1
+			},{
+				"wallID" : 284,
+				"colorIndex" : 1
+			},{
+				"wallID" : 285,
+				"colorIndex" : 1
+			},{
+				"wallID" : 286,
+				"colorIndex" : 1
+			},{
+				"wallID" : 287,
+				"colorIndex" : 1
+			},{
+				"wallID" : 288,
+				"colorIndex" : 1
+			},{
+				"wallID" : 289,
+				"colorIndex" : 1
+			},{
+				"wallID" : 290,
+				"colorIndex" : 1
+			},{
+				"wallID" : 291,
+				"colorIndex" : 1
+			},{
+				"wallID" : 292,
+				"colorIndex" : 1
+			},{
+				"wallID" : 293,
+				"colorIndex" : 1
+			},{
+				"wallID" : 294,
+				"colorIndex" : 1
+			},{
+				"wallID" : 295,
+				"colorIndex" : 1
+			},{
+				"wallID" : 296,
+				"colorIndex" : 1
+			},{
+				"wallID" : 297,
+				"colorIndex" : 1
+			},{
+				"wallID" : 298,
+				"colorIndex" : 1
+			},{
+				"wallID" : 299,
+				"colorIndex" : 1
+			},{
+				"wallID" : 300,
+				"colorIndex" : 1
+			},{
+				"wallID" : 301,
+				"colorIndex" : 1
+			},{
+				"wallID" : 302,
+				"colorIndex" : 1
+			},{
+				"wallID" : 303,
+				"colorIndex" : 1
+			},{
+				"wallID" : 304,
+				"colorIndex" : 1
+			},{
+				"wallID" : 305,
+				"colorIndex" : 25
+			},{
+				"wallID" : 306,
+				"colorIndex" : 25
+			},{
+				"wallID" : 307,
+				"colorIndex" : 1
+			},{
+				"wallID" : 308,
+				"colorIndex" : 1
+			},{
+				"wallID" : 309,
+				"colorIndex" : 1
+			},{
+				"wallID" : 310,
+				"colorIndex" : 1
+			},{
+				"wallID" : 311,
+				"colorIndex" : 1
+			},{
+				"wallID" : 312,
+				"colorIndex" : 25
+			},{
+				"wallID" : 313,
+				"colorIndex" : 1
+			},{
+				"wallID" : 314,
+				"colorIndex" : 1
+			},{
+				"wallID" : 315,
+				"colorIndex" : 1
+			},{
+				"wallID" : 316,
+				"colorIndex" : 1
+			},{
+				"wallID" : 317,
+				"colorIndex" : 1
+			},{
+				"wallID" : 318,
+				"colorIndex" : 1
+			},{
+				"wallID" : 319,
+				"colorIndex" : 1
+			},{
+				"wallID" : 320,
+				"colorIndex" : 1
+			},{
+				"wallID" : 321,
+				"colorIndex" : 1
+			},{
+				"wallID" : 322,
+				"colorIndex" : 1
+			},{
+				"wallID" : 323,
+				"colorIndex" : 1
+			},{
+				"wallID" : 324,
+				"colorIndex" : 1
+			},{
+				"wallID" : 325,
+				"colorIndex" : 1
+			},{
+				"wallID" : 326,
+				"colorIndex" : 1
+			},{
+				"wallID" : 327,
+				"colorIndex" : 1
+			},{
+				"wallID" : 328,
+				"colorIndex" : 1
+			},{
+				"wallID" : 329,
+				"colorIndex" : 1
+			},{
+				"wallID" : 330,
+				"colorIndex" : 1
+			},{
+				"wallID" : 331,
+				"colorIndex" : 1
+			},{
+				"wallID" : 332,
+				"colorIndex" : 1
+			},{
+				"wallID" : 333,
+				"colorIndex" : 1
+			},{
+				"wallID" : 334,
+				"colorIndex" : 1
+			},{
+				"wallID" : 335,
+				"colorIndex" : 1
+			},{
+				"wallID" : 336,
+				"colorIndex" : 1
+			},{
+				"wallID" : 337,
+				"colorIndex" : 1
+			},{
+				"wallID" : 338,
+				"colorIndex" : 1
+			},{
+				"wallID" : 339,
+				"colorIndex" : 1
+			},{
+				"wallID" : 340,
+				"colorIndex" : 1
+			},{
+				"wallID" : 341,
+				"colorIndex" : 1
+			},{
+				"wallID" : 342,
+				"colorIndex" : 1
+			},{
+				"wallID" : 343,
+				"colorIndex" : 1
+			},{
+				"wallID" : 344,
+				"colorIndex" : 1
+			},{
+				"wallID" : 345,
+				"colorIndex" : 1
+			},{
+				"wallID" : 346,
+				"colorIndex" : 1
+			},{
+				"wallID" : 347,
+				"colorIndex" : 1
+			},{
+				"wallID" : 348,
+				"colorIndex" : 1
+			},{
+				"wallID" : 349,
+				"colorIndex" : 1
+			},{
+				"wallID" : 350,
+				"colorIndex" : 1
+			},{
+				"wallID" : 351,
+				"colorIndex" : 1
+			},{
+				"wallID" : 352,
+				"colorIndex" : 1
+			},{
+				"wallID" : 353,
+				"colorIndex" : 1
+			},{
+				"wallID" : 354,
+				"colorIndex" : 1
+			},{
+				"wallID" : 355,
+				"colorIndex" : 1
+			},{
+				"wallID" : 356,
+				"colorIndex" : 1
+			},{
+				"wallID" : 357,
+				"colorIndex" : 1
+			},{
+				"wallID" : 358,
+				"colorIndex" : 1
+			},{
+				"wallID" : 359,
+				"colorIndex" : 1
+			},{
+				"wallID" : 360,
+				"colorIndex" : 1
+			},{
+				"wallID" : 361,
+				"colorIndex" : 1
+			},{
+				"wallID" : 362,
+				"colorIndex" : 1
+			},{
+				"wallID" : 363,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1000,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1001,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1002,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1003,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1004,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1005,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1006,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1007,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1008,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1009,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1010,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1011,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1012,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1013,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1014,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1015,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1016,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1017,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1018,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1019,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1020,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1021,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1022,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1023,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1024,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1025,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1026,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1027,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1028,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1029,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1030,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1031,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1032,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1033,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1034,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1035,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1036,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1037,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1038,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1039,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1040,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1041,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1042,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1043,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1044,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1045,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1046,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1047,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1048,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1049,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1050,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1051,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1052,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1053,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1054,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1055,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1056,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1057,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1058,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1059,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1060,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1061,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1062,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1063,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1064,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1065,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1066,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1067,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1068,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1069,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1070,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1071,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1072,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1073,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1074,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1075,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1076,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1077,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1078,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1079,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1080,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1081,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1082,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1083,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1084,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1085,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1086,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1087,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1088,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1089,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1090,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1091,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1092,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1093,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1094,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1095,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1096,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1097,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1098,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1099,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1100,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1101,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1102,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1103,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1104,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1105,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1106,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1107,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1108,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1109,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1110,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1111,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1112,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1113,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1114,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1115,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1116,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1117,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1118,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1119,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1120,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1121,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1122,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1123,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1124,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1125,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1126,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1127,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1128,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1129,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1130,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1131,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1132,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1133,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1134,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1135,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1136,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1137,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1138,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1139,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1140,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1141,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1142,
+				"colorIndex" : 1
+			},{
+				"wallID" : 1143,
+				"colorIndex" : 1
+			}
+		],
+		"FloorSaveDataList" : [
+			{
+				"floorId" : 0,
+				"textureType" : 0
+			},{
+				"floorId" : 1,
+				"textureType" : 0
+			},{
+				"floorId" : 2,
+				"textureType" : 0
+			},{
+				"floorId" : 3,
+				"textureType" : 0
+			},{
+				"floorId" : 4,
+				"textureType" : 0
+			},{
+				"floorId" : 5,
+				"textureType" : 0
+			},{
+				"floorId" : 6,
+				"textureType" : 0
+			},{
+				"floorId" : 7,
+				"textureType" : 0
+			},{
+				"floorId" : 8,
+				"textureType" : 0
+			},{
+				"floorId" : 9,
+				"textureType" : 0
+			},{
+				"floorId" : 10,
+				"textureType" : 0
+			},{
+				"floorId" : 11,
+				"textureType" : 0
+			},{
+				"floorId" : 12,
+				"textureType" : 0
+			},{
+				"floorId" : 13,
+				"textureType" : 0
+			},{
+				"floorId" : 14,
+				"textureType" : 0
+			},{
+				"floorId" : 15,
+				"textureType" : 0
+			},{
+				"floorId" : 16,
+				"textureType" : 0
+			},{
+				"floorId" : 17,
+				"textureType" : 0
+			},{
+				"floorId" : 18,
+				"textureType" : 0
+			},{
+				"floorId" : 19,
+				"textureType" : 0
+			},{
+				"floorId" : 20,
+				"textureType" : 0
+			},{
+				"floorId" : 21,
+				"textureType" : 0
+			},{
+				"floorId" : 22,
+				"textureType" : 0
+			},{
+				"floorId" : 23,
+				"textureType" : 0
+			},{
+				"floorId" : 24,
+				"textureType" : 0
+			},{
+				"floorId" : 25,
+				"textureType" : 0
+			},{
+				"floorId" : 26,
+				"textureType" : 0
+			},{
+				"floorId" : 27,
+				"textureType" : 0
+			},{
+				"floorId" : 28,
+				"textureType" : 0
+			},{
+				"floorId" : 29,
+				"textureType" : 0
+			},{
+				"floorId" : 30,
+				"textureType" : 0
+			},{
+				"floorId" : 31,
+				"textureType" : 0
+			},{
+				"floorId" : 32,
+				"textureType" : 0
+			},{
+				"floorId" : 33,
+				"textureType" : 0
+			},{
+				"floorId" : 34,
+				"textureType" : 0
+			},{
+				"floorId" : 35,
+				"textureType" : 0
+			},{
+				"floorId" : 36,
+				"textureType" : 0
+			},{
+				"floorId" : 37,
+				"textureType" : 0
+			},{
+				"floorId" : 38,
+				"textureType" : 0
+			},{
+				"floorId" : 39,
+				"textureType" : 0
+			},{
+				"floorId" : 40,
+				"textureType" : 0
+			},{
+				"floorId" : 41,
+				"textureType" : 0
+			},{
+				"floorId" : 42,
+				"textureType" : 0
+			},{
+				"floorId" : 43,
+				"textureType" : 0
+			},{
+				"floorId" : 44,
+				"textureType" : 0
+			},{
+				"floorId" : 45,
+				"textureType" : 0
+			},{
+				"floorId" : 46,
+				"textureType" : 0
+			},{
+				"floorId" : 47,
+				"textureType" : 0
+			},{
+				"floorId" : 48,
+				"textureType" : 0
+			},{
+				"floorId" : 49,
+				"textureType" : 0
+			},{
+				"floorId" : 50,
+				"textureType" : 0
+			},{
+				"floorId" : 51,
+				"textureType" : 0
+			},{
+				"floorId" : 52,
+				"textureType" : 0
+			},{
+				"floorId" : 53,
+				"textureType" : 0
+			},{
+				"floorId" : 54,
+				"textureType" : 0
+			},{
+				"floorId" : 55,
+				"textureType" : 0
+			},{
+				"floorId" : 56,
+				"textureType" : 0
+			},{
+				"floorId" : 57,
+				"textureType" : 0
+			},{
+				"floorId" : 58,
+				"textureType" : 0
+			},{
+				"floorId" : 59,
+				"textureType" : 0
+			},{
+				"floorId" : 60,
+				"textureType" : 0
+			},{
+				"floorId" : 61,
+				"textureType" : 0
+			},{
+				"floorId" : 62,
+				"textureType" : 0
+			},{
+				"floorId" : 63,
+				"textureType" : 0
+			},{
+				"floorId" : 64,
+				"textureType" : 0
+			},{
+				"floorId" : 65,
+				"textureType" : 0
+			},{
+				"floorId" : 66,
+				"textureType" : 0
+			},{
+				"floorId" : 67,
+				"textureType" : 0
+			},{
+				"floorId" : 68,
+				"textureType" : 0
+			},{
+				"floorId" : 69,
+				"textureType" : 0
+			},{
+				"floorId" : 70,
+				"textureType" : 0
+			},{
+				"floorId" : 71,
+				"textureType" : 0
+			},{
+				"floorId" : 72,
+				"textureType" : 0
+			},{
+				"floorId" : 73,
+				"textureType" : 0
+			},{
+				"floorId" : 74,
+				"textureType" : 0
+			},{
+				"floorId" : 75,
+				"textureType" : 0
+			},{
+				"floorId" : 76,
+				"textureType" : 0
+			},{
+				"floorId" : 77,
+				"textureType" : 0
+			},{
+				"floorId" : 78,
+				"textureType" : 0
+			},{
+				"floorId" : 79,
+				"textureType" : 0
+			},{
+				"floorId" : 80,
+				"textureType" : 0
+			},{
+				"floorId" : 81,
+				"textureType" : 0
+			},{
+				"floorId" : 82,
+				"textureType" : 0
+			},{
+				"floorId" : 83,
+				"textureType" : 0
+			},{
+				"floorId" : 84,
+				"textureType" : 0
+			},{
+				"floorId" : 85,
+				"textureType" : 0
+			},{
+				"floorId" : 86,
+				"textureType" : 0
+			},{
+				"floorId" : 87,
+				"textureType" : 0
+			},{
+				"floorId" : 88,
+				"textureType" : 0
+			},{
+				"floorId" : 89,
+				"textureType" : 0
+			},{
+				"floorId" : 90,
+				"textureType" : 0
+			},{
+				"floorId" : 91,
+				"textureType" : 0
+			},{
+				"floorId" : 92,
+				"textureType" : 0
+			},{
+				"floorId" : 93,
+				"textureType" : 0
+			},{
+				"floorId" : 94,
+				"textureType" : 0
+			},{
+				"floorId" : 95,
+				"textureType" : 0
+			},{
+				"floorId" : 96,
+				"textureType" : 0
+			},{
+				"floorId" : 97,
+				"textureType" : 0
+			},{
+				"floorId" : 98,
+				"textureType" : 0
+			},{
+				"floorId" : 99,
+				"textureType" : 0
+			},{
+				"floorId" : 100,
+				"textureType" : 0
+			},{
+				"floorId" : 101,
+				"textureType" : 0
+			},{
+				"floorId" : 102,
+				"textureType" : 0
+			},{
+				"floorId" : 103,
+				"textureType" : 0
+			},{
+				"floorId" : 104,
+				"textureType" : 0
+			},{
+				"floorId" : 105,
+				"textureType" : 0
+			},{
+				"floorId" : 106,
+				"textureType" : 0
+			},{
+				"floorId" : 107,
+				"textureType" : 0
+			},{
+				"floorId" : 108,
+				"textureType" : 0
+			},{
+				"floorId" : 109,
+				"textureType" : 0
+			},{
+				"floorId" : 110,
+				"textureType" : 0
+			},{
+				"floorId" : 111,
+				"textureType" : 0
+			},{
+				"floorId" : 112,
+				"textureType" : 0
+			},{
+				"floorId" : 113,
+				"textureType" : 0
+			},{
+				"floorId" : 114,
+				"textureType" : 0
+			},{
+				"floorId" : 115,
+				"textureType" : 0
+			},{
+				"floorId" : 116,
+				"textureType" : 0
+			},{
+				"floorId" : 117,
+				"textureType" : 0
+			},{
+				"floorId" : 118,
+				"textureType" : 0
+			},{
+				"floorId" : 119,
+				"textureType" : 0
+			},{
+				"floorId" : 120,
+				"textureType" : 0
+			},{
+				"floorId" : 121,
+				"textureType" : 0
+			},{
+				"floorId" : 122,
+				"textureType" : 0
+			},{
+				"floorId" : 123,
+				"textureType" : 0
+			},{
+				"floorId" : 124,
+				"textureType" : 0
+			},{
+				"floorId" : 125,
+				"textureType" : 0
+			},{
+				"floorId" : 126,
+				"textureType" : 0
+			},{
+				"floorId" : 127,
+				"textureType" : 0
+			},{
+				"floorId" : 128,
+				"textureType" : 0
+			},{
+				"floorId" : 129,
+				"textureType" : 0
+			},{
+				"floorId" : 130,
+				"textureType" : 0
+			},{
+				"floorId" : 131,
+				"textureType" : 0
+			},{
+				"floorId" : 132,
+				"textureType" : 0
+			},{
+				"floorId" : 133,
+				"textureType" : 0
+			},{
+				"floorId" : 134,
+				"textureType" : 0
+			},{
+				"floorId" : 135,
+				"textureType" : 0
+			},{
+				"floorId" : 136,
+				"textureType" : 0
+			},{
+				"floorId" : 137,
+				"textureType" : 0
+			},{
+				"floorId" : 138,
+				"textureType" : 0
+			},{
+				"floorId" : 139,
+				"textureType" : 0
+			},{
+				"floorId" : 140,
+				"textureType" : 0
+			},{
+				"floorId" : 141,
+				"textureType" : 0
+			},{
+				"floorId" : 142,
+				"textureType" : 0
+			},{
+				"floorId" : 143,
+				"textureType" : 0
+			},{
+				"floorId" : 144,
+				"textureType" : 0
+			},{
+				"floorId" : 145,
+				"textureType" : 0
+			},{
+				"floorId" : 146,
+				"textureType" : 0
+			},{
+				"floorId" : 147,
+				"textureType" : 0
+			},{
+				"floorId" : 148,
+				"textureType" : 0
+			},{
+				"floorId" : 149,
+				"textureType" : 0
+			},{
+				"floorId" : 150,
+				"textureType" : 0
+			},{
+				"floorId" : 151,
+				"textureType" : 0
+			},{
+				"floorId" : 152,
+				"textureType" : 0
+			},{
+				"floorId" : 153,
+				"textureType" : 0
+			},{
+				"floorId" : 154,
+				"textureType" : 0
+			},{
+				"floorId" : 155,
+				"textureType" : 0
+			},{
+				"floorId" : 156,
+				"textureType" : 0
+			},{
+				"floorId" : 157,
+				"textureType" : 0
+			},{
+				"floorId" : 158,
+				"textureType" : 0
+			},{
+				"floorId" : 159,
+				"textureType" : 0
+			},{
+				"floorId" : 160,
+				"textureType" : 0
+			},{
+				"floorId" : 161,
+				"textureType" : 0
+			},{
+				"floorId" : 162,
+				"textureType" : 0
+			},{
+				"floorId" : 163,
+				"textureType" : 0
+			},{
+				"floorId" : 164,
+				"textureType" : 0
+			},{
+				"floorId" : 165,
+				"textureType" : 0
+			},{
+				"floorId" : 166,
+				"textureType" : 0
+			},{
+				"floorId" : 167,
+				"textureType" : 0
+			},{
+				"floorId" : 168,
+				"textureType" : 0
+			},{
+				"floorId" : 169,
+				"textureType" : 0
+			},{
+				"floorId" : 170,
+				"textureType" : 0
+			},{
+				"floorId" : 171,
+				"textureType" : 0
+			},{
+				"floorId" : 172,
+				"textureType" : 0
+			},{
+				"floorId" : 173,
+				"textureType" : 0
+			},{
+				"floorId" : 174,
+				"textureType" : 0
+			},{
+				"floorId" : 175,
+				"textureType" : 0
+			},{
+				"floorId" : 176,
+				"textureType" : 0
+			},{
+				"floorId" : 177,
+				"textureType" : 0
+			},{
+				"floorId" : 178,
+				"textureType" : 0
+			},{
+				"floorId" : 179,
+				"textureType" : 0
+			},{
+				"floorId" : 180,
+				"textureType" : 0
+			},{
+				"floorId" : 181,
+				"textureType" : 0
+			},{
+				"floorId" : 182,
+				"textureType" : 0
+			},{
+				"floorId" : 183,
+				"textureType" : 0
+			},{
+				"floorId" : 184,
+				"textureType" : 0
+			},{
+				"floorId" : 185,
+				"textureType" : 0
+			},{
+				"floorId" : 186,
+				"textureType" : 0
+			},{
+				"floorId" : 187,
+				"textureType" : 0
+			},{
+				"floorId" : 188,
+				"textureType" : 0
+			},{
+				"floorId" : 189,
+				"textureType" : 0
+			},{
+				"floorId" : 190,
+				"textureType" : 0
+			},{
+				"floorId" : 191,
+				"textureType" : 0
+			},{
+				"floorId" : 192,
+				"textureType" : 0
+			},{
+				"floorId" : 193,
+				"textureType" : 0
+			},{
+				"floorId" : 194,
+				"textureType" : 0
+			},{
+				"floorId" : 195,
+				"textureType" : 0
+			},{
+				"floorId" : 196,
+				"textureType" : 0
+			},{
+				"floorId" : 197,
+				"textureType" : 0
+			},{
+				"floorId" : 198,
+				"textureType" : 0
+			},{
+				"floorId" : 199,
+				"textureType" : 0
+			},{
+				"floorId" : 200,
+				"textureType" : 0
+			},{
+				"floorId" : 201,
+				"textureType" : 0
+			},{
+				"floorId" : 202,
+				"textureType" : 0
+			},{
+				"floorId" : 203,
+				"textureType" : 0
+			},{
+				"floorId" : 204,
+				"textureType" : 0
+			},{
+				"floorId" : 205,
+				"textureType" : 0
+			},{
+				"floorId" : 206,
+				"textureType" : 0
+			},{
+				"floorId" : 207,
+				"textureType" : 0
+			},{
+				"floorId" : 208,
+				"textureType" : 0
+			},{
+				"floorId" : 209,
+				"textureType" : 0
+			},{
+				"floorId" : 210,
+				"textureType" : 0
+			},{
+				"floorId" : 211,
+				"textureType" : 0
+			},{
+				"floorId" : 212,
+				"textureType" : 0
+			},{
+				"floorId" : 213,
+				"textureType" : 0
+			},{
+				"floorId" : 214,
+				"textureType" : 0
+			},{
+				"floorId" : 215,
+				"textureType" : 0
+			},{
+				"floorId" : 216,
+				"textureType" : 0
+			},{
+				"floorId" : 217,
+				"textureType" : 0
+			},{
+				"floorId" : 218,
+				"textureType" : 0
+			},{
+				"floorId" : 219,
+				"textureType" : 0
+			},{
+				"floorId" : 220,
+				"textureType" : 0
+			},{
+				"floorId" : 221,
+				"textureType" : 0
+			},{
+				"floorId" : 222,
+				"textureType" : 0
+			},{
+				"floorId" : 223,
+				"textureType" : 0
+			},{
+				"floorId" : 224,
+				"textureType" : 0
+			},{
+				"floorId" : 225,
+				"textureType" : 0
+			},{
+				"floorId" : 226,
+				"textureType" : 0
+			},{
+				"floorId" : 227,
+				"textureType" : 0
+			},{
+				"floorId" : 228,
+				"textureType" : 0
+			},{
+				"floorId" : 229,
+				"textureType" : 0
+			},{
+				"floorId" : 230,
+				"textureType" : 0
+			},{
+				"floorId" : 231,
+				"textureType" : 0
+			},{
+				"floorId" : 232,
+				"textureType" : 0
+			},{
+				"floorId" : 233,
+				"textureType" : 0
+			},{
+				"floorId" : 234,
+				"textureType" : 0
+			},{
+				"floorId" : 235,
+				"textureType" : 0
+			},{
+				"floorId" : 236,
+				"textureType" : 0
+			},{
+				"floorId" : 237,
+				"textureType" : 0
+			},{
+				"floorId" : 238,
+				"textureType" : 0
+			},{
+				"floorId" : 239,
+				"textureType" : 0
+			},{
+				"floorId" : 240,
+				"textureType" : 0
+			},{
+				"floorId" : 241,
+				"textureType" : 0
+			},{
+				"floorId" : 242,
+				"textureType" : 0
+			},{
+				"floorId" : 243,
+				"textureType" : 0
+			},{
+				"floorId" : 244,
+				"textureType" : 0
+			},{
+				"floorId" : 245,
+				"textureType" : 0
+			},{
+				"floorId" : 246,
+				"textureType" : 0
+			},{
+				"floorId" : 247,
+				"textureType" : 0
+			},{
+				"floorId" : 248,
+				"textureType" : 0
+			},{
+				"floorId" : 249,
+				"textureType" : 0
+			},{
+				"floorId" : 250,
+				"textureType" : 0
+			},{
+				"floorId" : 251,
+				"textureType" : 0
+			},{
+				"floorId" : 252,
+				"textureType" : 0
+			},{
+				"floorId" : 253,
+				"textureType" : 0
+			},{
+				"floorId" : 254,
+				"textureType" : 0
+			},{
+				"floorId" : 255,
+				"textureType" : 0
+			},{
+				"floorId" : 256,
+				"textureType" : 0
+			},{
+				"floorId" : 257,
+				"textureType" : 0
+			},{
+				"floorId" : 258,
+				"textureType" : 0
+			},{
+				"floorId" : 259,
+				"textureType" : 0
+			},{
+				"floorId" : 260,
+				"textureType" : 0
+			},{
+				"floorId" : 261,
+				"textureType" : 0
+			},{
+				"floorId" : 262,
+				"textureType" : 0
+			},{
+				"floorId" : 263,
+				"textureType" : 0
+			},{
+				"floorId" : 264,
+				"textureType" : 0
+			},{
+				"floorId" : 265,
+				"textureType" : 0
+			},{
+				"floorId" : 266,
+				"textureType" : 0
+			},{
+				"floorId" : 267,
+				"textureType" : 0
+			},{
+				"floorId" : 268,
+				"textureType" : 0
+			},{
+				"floorId" : 269,
+				"textureType" : 0
+			},{
+				"floorId" : 270,
+				"textureType" : 0
+			},{
+				"floorId" : 271,
+				"textureType" : 0
+			},{
+				"floorId" : 272,
+				"textureType" : 0
+			},{
+				"floorId" : 273,
+				"textureType" : 0
+			},{
+				"floorId" : 274,
+				"textureType" : 0
+			},{
+				"floorId" : 275,
+				"textureType" : 0
+			},{
+				"floorId" : 276,
+				"textureType" : 0
+			},{
+				"floorId" : 277,
+				"textureType" : 0
+			},{
+				"floorId" : 278,
+				"textureType" : 0
+			},{
+				"floorId" : 279,
+				"textureType" : 0
+			},{
+				"floorId" : 280,
+				"textureType" : 0
+			},{
+				"floorId" : 281,
+				"textureType" : 0
+			},{
+				"floorId" : 282,
+				"textureType" : 0
+			},{
+				"floorId" : 283,
+				"textureType" : 0
+			},{
+				"floorId" : 284,
+				"textureType" : 0
+			},{
+				"floorId" : 285,
+				"textureType" : 0
+			},{
+				"floorId" : 286,
+				"textureType" : 0
+			},{
+				"floorId" : 287,
+				"textureType" : 0
+			},{
+				"floorId" : 288,
+				"textureType" : 0
+			},{
+				"floorId" : 289,
+				"textureType" : 0
+			},{
+				"floorId" : 290,
+				"textureType" : 0
+			},{
+				"floorId" : 291,
+				"textureType" : 0
+			},{
+				"floorId" : 292,
+				"textureType" : 0
+			},{
+				"floorId" : 293,
+				"textureType" : 0
+			},{
+				"floorId" : 294,
+				"textureType" : 0
+			},{
+				"floorId" : 295,
+				"textureType" : 0
+			},{
+				"floorId" : 296,
+				"textureType" : 0
+			},{
+				"floorId" : 297,
+				"textureType" : 0
+			},{
+				"floorId" : 298,
+				"textureType" : 0
+			},{
+				"floorId" : 299,
+				"textureType" : 0
+			},{
+				"floorId" : 300,
+				"textureType" : 0
+			},{
+				"floorId" : 301,
+				"textureType" : 0
+			},{
+				"floorId" : 302,
+				"textureType" : 0
+			},{
+				"floorId" : 303,
+				"textureType" : 0
+			},{
+				"floorId" : 304,
+				"textureType" : 0
+			},{
+				"floorId" : 305,
+				"textureType" : 0
+			},{
+				"floorId" : 306,
+				"textureType" : 0
+			},{
+				"floorId" : 307,
+				"textureType" : 0
+			},{
+				"floorId" : 308,
+				"textureType" : 0
+			},{
+				"floorId" : 309,
+				"textureType" : 0
+			},{
+				"floorId" : 310,
+				"textureType" : 0
+			},{
+				"floorId" : 311,
+				"textureType" : 0
+			},{
+				"floorId" : 312,
+				"textureType" : 0
+			},{
+				"floorId" : 313,
+				"textureType" : 0
+			},{
+				"floorId" : 314,
+				"textureType" : 0
+			},{
+				"floorId" : 315,
+				"textureType" : 0
+			},{
+				"floorId" : 316,
+				"textureType" : 0
+			},{
+				"floorId" : 317,
+				"textureType" : 0
+			},{
+				"floorId" : 318,
+				"textureType" : 0
+			},{
+				"floorId" : 319,
+				"textureType" : 0
+			},{
+				"floorId" : 320,
+				"textureType" : 0
+			},{
+				"floorId" : 321,
+				"textureType" : 0
+			},{
+				"floorId" : 322,
+				"textureType" : 0
+			},{
+				"floorId" : 323,
+				"textureType" : 0
+			},{
+				"floorId" : 324,
+				"textureType" : 0
+			},{
+				"floorId" : 325,
+				"textureType" : 0
+			},{
+				"floorId" : 326,
+				"textureType" : 0
+			},{
+				"floorId" : 327,
+				"textureType" : 0
+			},{
+				"floorId" : 328,
+				"textureType" : 0
+			},{
+				"floorId" : 329,
+				"textureType" : 0
+			},{
+				"floorId" : 330,
+				"textureType" : 0
+			},{
+				"floorId" : 331,
+				"textureType" : 0
+			},{
+				"floorId" : 332,
+				"textureType" : 0
+			},{
+				"floorId" : 333,
+				"textureType" : 0
+			},{
+				"floorId" : 334,
+				"textureType" : 0
+			},{
+				"floorId" : 335,
+				"textureType" : 0
+			},{
+				"floorId" : 336,
+				"textureType" : 0
+			},{
+				"floorId" : 337,
+				"textureType" : 0
+			},{
+				"floorId" : 338,
+				"textureType" : 0
+			},{
+				"floorId" : 339,
+				"textureType" : 0
+			},{
+				"floorId" : 340,
+				"textureType" : 0
+			},{
+				"floorId" : 341,
+				"textureType" : 0
+			},{
+				"floorId" : 342,
+				"textureType" : 0
+			},{
+				"floorId" : 343,
+				"textureType" : 0
+			},{
+				"floorId" : 344,
+				"textureType" : 0
+			},{
+				"floorId" : 345,
+				"textureType" : 0
+			},{
+				"floorId" : 346,
+				"textureType" : 0
+			},{
+				"floorId" : 347,
+				"textureType" : 0
+			},{
+				"floorId" : 348,
+				"textureType" : 0
+			},{
+				"floorId" : 349,
+				"textureType" : 0
+			},{
+				"floorId" : 350,
+				"textureType" : 0
+			},{
+				"floorId" : 351,
+				"textureType" : 0
+			},{
+				"floorId" : 352,
+				"textureType" : 0
+			},{
+				"floorId" : 353,
+				"textureType" : 0
+			},{
+				"floorId" : 354,
+				"textureType" : 0
+			},{
+				"floorId" : 355,
+				"textureType" : 0
+			},{
+				"floorId" : 356,
+				"textureType" : 0
+			},{
+				"floorId" : 357,
+				"textureType" : 0
+			},{
+				"floorId" : 358,
+				"textureType" : 0
+			},{
+				"floorId" : 359,
+				"textureType" : 0
+			},{
+				"floorId" : 360,
+				"textureType" : 0
+			},{
+				"floorId" : 361,
+				"textureType" : 0
+			},{
+				"floorId" : 362,
+				"textureType" : 0
+			},{
+				"floorId" : 363,
+				"textureType" : 0
+			},{
+				"floorId" : 364,
+				"textureType" : 0
+			},{
+				"floorId" : 365,
+				"textureType" : 0
+			},{
+				"floorId" : 366,
+				"textureType" : 0
+			},{
+				"floorId" : 367,
+				"textureType" : 0
+			},{
+				"floorId" : 368,
+				"textureType" : 0
+			},{
+				"floorId" : 369,
+				"textureType" : 0
+			},{
+				"floorId" : 370,
+				"textureType" : 0
+			},{
+				"floorId" : 371,
+				"textureType" : 0
+			},{
+				"floorId" : 372,
+				"textureType" : 0
+			},{
+				"floorId" : 373,
+				"textureType" : 0
+			},{
+				"floorId" : 374,
+				"textureType" : 0
+			},{
+				"floorId" : 375,
+				"textureType" : 0
+			},{
+				"floorId" : 376,
+				"textureType" : 0
+			},{
+				"floorId" : 377,
+				"textureType" : 0
+			},{
+				"floorId" : 378,
+				"textureType" : 0
+			},{
+				"floorId" : 379,
+				"textureType" : 0
+			},{
+				"floorId" : 380,
+				"textureType" : 0
+			},{
+				"floorId" : 381,
+				"textureType" : 0
+			},{
+				"floorId" : 382,
+				"textureType" : 0
+			},{
+				"floorId" : 383,
+				"textureType" : 0
+			},{
+				"floorId" : 384,
+				"textureType" : 0
+			},{
+				"floorId" : 385,
+				"textureType" : 0
+			},{
+				"floorId" : 386,
+				"textureType" : 0
+			},{
+				"floorId" : 387,
+				"textureType" : 0
+			},{
+				"floorId" : 388,
+				"textureType" : 0
+			},{
+				"floorId" : 389,
+				"textureType" : 0
+			},{
+				"floorId" : 390,
+				"textureType" : 0
+			},{
+				"floorId" : 391,
+				"textureType" : 0
+			},{
+				"floorId" : 392,
+				"textureType" : 0
+			},{
+				"floorId" : 393,
+				"textureType" : 0
+			},{
+				"floorId" : 394,
+				"textureType" : 0
+			},{
+				"floorId" : 395,
+				"textureType" : 0
+			},{
+				"floorId" : 396,
+				"textureType" : 0
+			},{
+				"floorId" : 397,
+				"textureType" : 0
+			},{
+				"floorId" : 398,
+				"textureType" : 0
+			},{
+				"floorId" : 399,
+				"textureType" : 0
+			},{
+				"floorId" : 400,
+				"textureType" : 0
+			},{
+				"floorId" : 401,
+				"textureType" : 0
+			},{
+				"floorId" : 402,
+				"textureType" : 0
+			},{
+				"floorId" : 403,
+				"textureType" : 0
+			},{
+				"floorId" : 404,
+				"textureType" : 0
+			},{
+				"floorId" : 405,
+				"textureType" : 0
+			},{
+				"floorId" : 406,
+				"textureType" : 0
+			},{
+				"floorId" : 407,
+				"textureType" : 0
+			},{
+				"floorId" : 408,
+				"textureType" : 0
+			},{
+				"floorId" : 409,
+				"textureType" : 0
+			},{
+				"floorId" : 410,
+				"textureType" : 0
+			},{
+				"floorId" : 411,
+				"textureType" : 0
+			},{
+				"floorId" : 412,
+				"textureType" : 0
+			},{
+				"floorId" : 413,
+				"textureType" : 0
+			},{
+				"floorId" : 414,
+				"textureType" : 0
+			},{
+				"floorId" : 415,
+				"textureType" : 0
+			},{
+				"floorId" : 416,
+				"textureType" : 0
+			},{
+				"floorId" : 417,
+				"textureType" : 0
+			},{
+				"floorId" : 418,
+				"textureType" : 0
+			},{
+				"floorId" : 419,
+				"textureType" : 0
+			},{
+				"floorId" : 420,
+				"textureType" : 0
+			},{
+				"floorId" : 421,
+				"textureType" : 0
+			},{
+				"floorId" : 422,
+				"textureType" : 0
+			},{
+				"floorId" : 423,
+				"textureType" : 0
+			},{
+				"floorId" : 424,
+				"textureType" : 0
+			},{
+				"floorId" : 425,
+				"textureType" : 0
+			},{
+				"floorId" : 426,
+				"textureType" : 0
+			},{
+				"floorId" : 427,
+				"textureType" : 0
+			},{
+				"floorId" : 428,
+				"textureType" : 0
+			},{
+				"floorId" : 429,
+				"textureType" : 0
+			},{
+				"floorId" : 430,
+				"textureType" : 0
+			},{
+				"floorId" : 431,
+				"textureType" : 0
+			},{
+				"floorId" : 432,
+				"textureType" : 0
+			},{
+				"floorId" : 433,
+				"textureType" : 0
+			},{
+				"floorId" : 434,
+				"textureType" : 0
+			},{
+				"floorId" : 435,
+				"textureType" : 0
+			},{
+				"floorId" : 436,
+				"textureType" : 0
+			},{
+				"floorId" : 437,
+				"textureType" : 0
+			},{
+				"floorId" : 438,
+				"textureType" : 0
+			},{
+				"floorId" : 439,
+				"textureType" : 0
+			},{
+				"floorId" : 440,
+				"textureType" : 0
+			},{
+				"floorId" : 441,
+				"textureType" : 0
+			},{
+				"floorId" : 442,
+				"textureType" : 0
+			},{
+				"floorId" : 443,
+				"textureType" : 0
+			},{
+				"floorId" : 444,
+				"textureType" : 0
+			},{
+				"floorId" : 445,
+				"textureType" : 0
+			},{
+				"floorId" : 446,
+				"textureType" : 0
+			},{
+				"floorId" : 447,
+				"textureType" : 0
+			},{
+				"floorId" : 448,
+				"textureType" : 0
+			},{
+				"floorId" : 449,
+				"textureType" : 0
+			},{
+				"floorId" : 450,
+				"textureType" : 0
+			},{
+				"floorId" : 451,
+				"textureType" : 0
+			},{
+				"floorId" : 452,
+				"textureType" : 0
+			},{
+				"floorId" : 453,
+				"textureType" : 0
+			},{
+				"floorId" : 454,
+				"textureType" : 0
+			},{
+				"floorId" : 455,
+				"textureType" : 0
+			},{
+				"floorId" : 456,
+				"textureType" : 0
+			},{
+				"floorId" : 457,
+				"textureType" : 0
+			},{
+				"floorId" : 458,
+				"textureType" : 0
+			},{
+				"floorId" : 459,
+				"textureType" : 0
+			},{
+				"floorId" : 460,
+				"textureType" : 0
+			},{
+				"floorId" : 461,
+				"textureType" : 0
+			},{
+				"floorId" : 462,
+				"textureType" : 0
+			},{
+				"floorId" : 463,
+				"textureType" : 0
+			},{
+				"floorId" : 464,
+				"textureType" : 0
+			},{
+				"floorId" : 465,
+				"textureType" : 0
+			},{
+				"floorId" : 466,
+				"textureType" : 0
+			},{
+				"floorId" : 467,
+				"textureType" : 0
+			},{
+				"floorId" : 468,
+				"textureType" : 0
+			},{
+				"floorId" : 469,
+				"textureType" : 0
+			},{
+				"floorId" : 470,
+				"textureType" : 0
+			},{
+				"floorId" : 471,
+				"textureType" : 0
+			},{
+				"floorId" : 472,
+				"textureType" : 0
+			},{
+				"floorId" : 473,
+				"textureType" : 0
+			},{
+				"floorId" : 474,
+				"textureType" : 0
+			},{
+				"floorId" : 475,
+				"textureType" : 0
+			},{
+				"floorId" : 476,
+				"textureType" : 0
+			},{
+				"floorId" : 477,
+				"textureType" : 0
+			},{
+				"floorId" : 478,
+				"textureType" : 0
+			},{
+				"floorId" : 479,
+				"textureType" : 0
+			},{
+				"floorId" : 480,
+				"textureType" : 0
+			},{
+				"floorId" : 481,
+				"textureType" : 0
+			},{
+				"floorId" : 482,
+				"textureType" : 0
+			},{
+				"floorId" : 483,
+				"textureType" : 0
+			},{
+				"floorId" : 484,
+				"textureType" : 0
+			},{
+				"floorId" : 485,
+				"textureType" : 0
+			},{
+				"floorId" : 486,
+				"textureType" : 0
+			},{
+				"floorId" : 487,
+				"textureType" : 0
+			},{
+				"floorId" : 488,
+				"textureType" : 0
+			},{
+				"floorId" : 489,
+				"textureType" : 0
+			},{
+				"floorId" : 490,
+				"textureType" : 0
+			},{
+				"floorId" : 491,
+				"textureType" : 0
+			},{
+				"floorId" : 492,
+				"textureType" : 0
+			},{
+				"floorId" : 493,
+				"textureType" : 0
+			},{
+				"floorId" : 494,
+				"textureType" : 0
+			},{
+				"floorId" : 495,
+				"textureType" : 0
+			},{
+				"floorId" : 496,
+				"textureType" : 0
+			},{
+				"floorId" : 497,
+				"textureType" : 0
+			},{
+				"floorId" : 498,
+				"textureType" : 0
+			},{
+				"floorId" : 499,
+				"textureType" : 0
+			},{
+				"floorId" : 500,
+				"textureType" : 0
+			},{
+				"floorId" : 501,
+				"textureType" : 0
+			},{
+				"floorId" : 502,
+				"textureType" : 0
+			},{
+				"floorId" : 503,
+				"textureType" : 0
+			},{
+				"floorId" : 504,
+				"textureType" : 0
+			},{
+				"floorId" : 505,
+				"textureType" : 0
+			},{
+				"floorId" : 506,
+				"textureType" : 0
+			},{
+				"floorId" : 507,
+				"textureType" : 0
+			},{
+				"floorId" : 508,
+				"textureType" : 0
+			},{
+				"floorId" : 509,
+				"textureType" : 0
+			},{
+				"floorId" : 510,
+				"textureType" : 0
+			},{
+				"floorId" : 511,
+				"textureType" : 0
+			},{
+				"floorId" : 512,
+				"textureType" : 0
+			},{
+				"floorId" : 513,
+				"textureType" : 0
+			},{
+				"floorId" : 514,
+				"textureType" : 0
+			},{
+				"floorId" : 515,
+				"textureType" : 0
+			},{
+				"floorId" : 516,
+				"textureType" : 0
+			},{
+				"floorId" : 517,
+				"textureType" : 0
+			},{
+				"floorId" : 518,
+				"textureType" : 0
+			},{
+				"floorId" : 519,
+				"textureType" : 0
+			},{
+				"floorId" : 520,
+				"textureType" : 0
+			},{
+				"floorId" : 521,
+				"textureType" : 0
+			},{
+				"floorId" : 522,
+				"textureType" : 0
+			},{
+				"floorId" : 523,
+				"textureType" : 0
+			},{
+				"floorId" : 524,
+				"textureType" : 0
+			},{
+				"floorId" : 525,
+				"textureType" : 0
+			},{
+				"floorId" : 526,
+				"textureType" : 0
+			},{
+				"floorId" : 527,
+				"textureType" : 0
+			},{
+				"floorId" : 528,
+				"textureType" : 0
+			},{
+				"floorId" : 529,
+				"textureType" : 0
+			},{
+				"floorId" : 530,
+				"textureType" : 0
+			},{
+				"floorId" : 531,
+				"textureType" : 0
+			},{
+				"floorId" : 532,
+				"textureType" : 0
+			},{
+				"floorId" : 533,
+				"textureType" : 0
+			},{
+				"floorId" : 534,
+				"textureType" : 0
+			},{
+				"floorId" : 535,
+				"textureType" : 0
+			},{
+				"floorId" : 536,
+				"textureType" : 0
+			},{
+				"floorId" : 537,
+				"textureType" : 0
+			},{
+				"floorId" : 538,
+				"textureType" : 0
+			},{
+				"floorId" : 539,
+				"textureType" : 0
+			},{
+				"floorId" : 540,
+				"textureType" : 0
+			},{
+				"floorId" : 541,
+				"textureType" : 0
+			},{
+				"floorId" : 542,
+				"textureType" : 0
+			},{
+				"floorId" : 543,
+				"textureType" : 0
+			},{
+				"floorId" : 544,
+				"textureType" : 0
+			},{
+				"floorId" : 545,
+				"textureType" : 0
+			},{
+				"floorId" : 546,
+				"textureType" : 0
+			},{
+				"floorId" : 547,
+				"textureType" : 0
+			},{
+				"floorId" : 548,
+				"textureType" : 0
+			},{
+				"floorId" : 549,
+				"textureType" : 0
+			},{
+				"floorId" : 550,
+				"textureType" : 0
+			},{
+				"floorId" : 551,
+				"textureType" : 0
+			},{
+				"floorId" : 552,
+				"textureType" : 0
+			},{
+				"floorId" : 553,
+				"textureType" : 0
+			},{
+				"floorId" : 554,
+				"textureType" : 0
+			},{
+				"floorId" : 555,
+				"textureType" : 0
+			},{
+				"floorId" : 556,
+				"textureType" : 0
+			},{
+				"floorId" : 557,
+				"textureType" : 0
+			},{
+				"floorId" : 558,
+				"textureType" : 0
+			},{
+				"floorId" : 559,
+				"textureType" : 0
+			},{
+				"floorId" : 560,
+				"textureType" : 0
+			},{
+				"floorId" : 561,
+				"textureType" : 0
+			},{
+				"floorId" : 562,
+				"textureType" : 0
+			},{
+				"floorId" : 563,
+				"textureType" : 0
+			},{
+				"floorId" : 564,
+				"textureType" : 0
+			},{
+				"floorId" : 565,
+				"textureType" : 0
+			},{
+				"floorId" : 566,
+				"textureType" : 0
+			},{
+				"floorId" : 567,
+				"textureType" : 0
+			},{
+				"floorId" : 568,
+				"textureType" : 0
+			},{
+				"floorId" : 569,
+				"textureType" : 0
+			},{
+				"floorId" : 570,
+				"textureType" : 0
+			},{
+				"floorId" : 571,
+				"textureType" : 0
+			},{
+				"floorId" : 572,
+				"textureType" : 0
+			},{
+				"floorId" : 573,
+				"textureType" : 0
+			},{
+				"floorId" : 574,
+				"textureType" : 0
+			},{
+				"floorId" : 575,
+				"textureType" : 0
+			},{
+				"floorId" : 576,
+				"textureType" : 0
+			},{
+				"floorId" : 577,
+				"textureType" : 0
+			},{
+				"floorId" : 578,
+				"textureType" : 0
+			},{
+				"floorId" : 579,
+				"textureType" : 0
+			},{
+				"floorId" : 580,
+				"textureType" : 0
+			},{
+				"floorId" : 581,
+				"textureType" : 0
+			},{
+				"floorId" : 582,
+				"textureType" : 0
+			},{
+				"floorId" : 583,
+				"textureType" : 0
+			},{
+				"floorId" : 584,
+				"textureType" : 0
+			},{
+				"floorId" : 585,
+				"textureType" : 0
+			},{
+				"floorId" : 586,
+				"textureType" : 0
+			},{
+				"floorId" : 587,
+				"textureType" : 0
+			},{
+				"floorId" : 588,
+				"textureType" : 0
+			},{
+				"floorId" : 589,
+				"textureType" : 0
+			},{
+				"floorId" : 590,
+				"textureType" : 0
+			},{
+				"floorId" : 591,
+				"textureType" : 0
+			},{
+				"floorId" : 592,
+				"textureType" : 0
+			},{
+				"floorId" : 593,
+				"textureType" : 0
+			},{
+				"floorId" : 594,
+				"textureType" : 0
+			},{
+				"floorId" : 595,
+				"textureType" : 0
+			},{
+				"floorId" : 596,
+				"textureType" : 0
+			},{
+				"floorId" : 597,
+				"textureType" : 0
+			},{
+				"floorId" : 598,
+				"textureType" : 0
+			},{
+				"floorId" : 599,
+				"textureType" : 0
+			},{
+				"floorId" : 600,
+				"textureType" : 0
+			},{
+				"floorId" : 601,
+				"textureType" : 0
+			},{
+				"floorId" : 602,
+				"textureType" : 0
+			},{
+				"floorId" : 603,
+				"textureType" : 0
+			},{
+				"floorId" : 604,
+				"textureType" : 0
+			},{
+				"floorId" : 605,
+				"textureType" : 0
+			},{
+				"floorId" : 606,
+				"textureType" : 0
+			},{
+				"floorId" : 607,
+				"textureType" : 0
+			},{
+				"floorId" : 608,
+				"textureType" : 0
+			},{
+				"floorId" : 609,
+				"textureType" : 0
+			},{
+				"floorId" : 610,
+				"textureType" : 0
+			},{
+				"floorId" : 611,
+				"textureType" : 0
+			},{
+				"floorId" : 612,
+				"textureType" : 0
+			},{
+				"floorId" : 613,
+				"textureType" : 0
+			},{
+				"floorId" : 614,
+				"textureType" : 0
+			},{
+				"floorId" : 615,
+				"textureType" : 0
+			},{
+				"floorId" : 616,
+				"textureType" : 0
+			},{
+				"floorId" : 617,
+				"textureType" : 0
+			},{
+				"floorId" : 618,
+				"textureType" : 0
+			},{
+				"floorId" : 619,
+				"textureType" : 0
+			},{
+				"floorId" : 620,
+				"textureType" : 0
+			},{
+				"floorId" : 621,
+				"textureType" : 0
+			},{
+				"floorId" : 622,
+				"textureType" : 0
+			},{
+				"floorId" : 623,
+				"textureType" : 0
+			},{
+				"floorId" : 624,
+				"textureType" : 0
+			},{
+				"floorId" : 625,
+				"textureType" : 0
+			},{
+				"floorId" : 626,
+				"textureType" : 0
+			},{
+				"floorId" : 627,
+				"textureType" : 0
+			},{
+				"floorId" : 628,
+				"textureType" : 0
+			},{
+				"floorId" : 629,
+				"textureType" : 0
+			},{
+				"floorId" : 630,
+				"textureType" : 0
+			},{
+				"floorId" : 631,
+				"textureType" : 0
+			},{
+				"floorId" : 632,
+				"textureType" : 0
+			},{
+				"floorId" : 633,
+				"textureType" : 0
+			},{
+				"floorId" : 634,
+				"textureType" : 0
+			},{
+				"floorId" : 635,
+				"textureType" : 0
+			},{
+				"floorId" : 636,
+				"textureType" : 0
+			},{
+				"floorId" : 637,
+				"textureType" : 0
+			},{
+				"floorId" : 638,
+				"textureType" : 0
+			},{
+				"floorId" : 639,
+				"textureType" : 0
+			},{
+				"floorId" : 1000,
+				"textureType" : 0
+			},{
+				"floorId" : 1001,
+				"textureType" : 0
+			},{
+				"floorId" : 1002,
+				"textureType" : 0
+			},{
+				"floorId" : 1003,
+				"textureType" : 0
+			},{
+				"floorId" : 1004,
+				"textureType" : 0
+			},{
+				"floorId" : 1005,
+				"textureType" : 0
+			},{
+				"floorId" : 1006,
+				"textureType" : 0
+			},{
+				"floorId" : 1007,
+				"textureType" : 0
+			},{
+				"floorId" : 1008,
+				"textureType" : 0
+			},{
+				"floorId" : 1009,
+				"textureType" : 0
+			},{
+				"floorId" : 1010,
+				"textureType" : 0
+			},{
+				"floorId" : 1011,
+				"textureType" : 0
+			},{
+				"floorId" : 1012,
+				"textureType" : 0
+			},{
+				"floorId" : 1013,
+				"textureType" : 0
+			},{
+				"floorId" : 1014,
+				"textureType" : 0
+			},{
+				"floorId" : 1015,
+				"textureType" : 0
+			},{
+				"floorId" : 1016,
+				"textureType" : 0
+			},{
+				"floorId" : 1017,
+				"textureType" : 0
+			},{
+				"floorId" : 1018,
+				"textureType" : 0
+			},{
+				"floorId" : 1019,
+				"textureType" : 0
+			},{
+				"floorId" : 1020,
+				"textureType" : 0
+			},{
+				"floorId" : 1021,
+				"textureType" : 0
+			},{
+				"floorId" : 1022,
+				"textureType" : 0
+			},{
+				"floorId" : 1023,
+				"textureType" : 0
+			},{
+				"floorId" : 1024,
+				"textureType" : 0
+			},{
+				"floorId" : 1025,
+				"textureType" : 0
+			},{
+				"floorId" : 1026,
+				"textureType" : 0
+			},{
+				"floorId" : 1027,
+				"textureType" : 0
+			},{
+				"floorId" : 1028,
+				"textureType" : 0
+			},{
+				"floorId" : 1029,
+				"textureType" : 0
+			},{
+				"floorId" : 1030,
+				"textureType" : 0
+			},{
+				"floorId" : 1031,
+				"textureType" : 0
+			},{
+				"floorId" : 1032,
+				"textureType" : 0
+			},{
+				"floorId" : 1033,
+				"textureType" : 0
+			},{
+				"floorId" : 1034,
+				"textureType" : 0
+			},{
+				"floorId" : 1035,
+				"textureType" : 0
+			},{
+				"floorId" : 1036,
+				"textureType" : 0
+			},{
+				"floorId" : 1037,
+				"textureType" : 0
+			},{
+				"floorId" : 1038,
+				"textureType" : 0
+			},{
+				"floorId" : 1039,
+				"textureType" : 0
+			},{
+				"floorId" : 1040,
+				"textureType" : 0
+			},{
+				"floorId" : 1041,
+				"textureType" : 0
+			},{
+				"floorId" : 1042,
+				"textureType" : 0
+			},{
+				"floorId" : 1043,
+				"textureType" : 0
+			},{
+				"floorId" : 1044,
+				"textureType" : 0
+			},{
+				"floorId" : 1045,
+				"textureType" : 0
+			},{
+				"floorId" : 1046,
+				"textureType" : 0
+			},{
+				"floorId" : 1047,
+				"textureType" : 0
+			},{
+				"floorId" : 1048,
+				"textureType" : 0
+			},{
+				"floorId" : 1049,
+				"textureType" : 0
+			},{
+				"floorId" : 1050,
+				"textureType" : 0
+			},{
+				"floorId" : 1051,
+				"textureType" : 0
+			},{
+				"floorId" : 1052,
+				"textureType" : 0
+			},{
+				"floorId" : 1053,
+				"textureType" : 0
+			},{
+				"floorId" : 1054,
+				"textureType" : 0
+			},{
+				"floorId" : 1055,
+				"textureType" : 0
+			},{
+				"floorId" : 1056,
+				"textureType" : 0
+			},{
+				"floorId" : 1057,
+				"textureType" : 0
+			},{
+				"floorId" : 1058,
+				"textureType" : 0
+			},{
+				"floorId" : 1059,
+				"textureType" : 0
+			},{
+				"floorId" : 1060,
+				"textureType" : 0
+			},{
+				"floorId" : 1061,
+				"textureType" : 0
+			},{
+				"floorId" : 1062,
+				"textureType" : 0
+			},{
+				"floorId" : 1063,
+				"textureType" : 0
+			},{
+				"floorId" : 1064,
+				"textureType" : 0
+			},{
+				"floorId" : 1065,
+				"textureType" : 0
+			},{
+				"floorId" : 1066,
+				"textureType" : 0
+			},{
+				"floorId" : 1067,
+				"textureType" : 0
+			},{
+				"floorId" : 1068,
+				"textureType" : 0
+			},{
+				"floorId" : 1069,
+				"textureType" : 0
+			},{
+				"floorId" : 1070,
+				"textureType" : 0
+			},{
+				"floorId" : 1071,
+				"textureType" : 0
+			},{
+				"floorId" : 1072,
+				"textureType" : 0
+			},{
+				"floorId" : 1073,
+				"textureType" : 0
+			},{
+				"floorId" : 1074,
+				"textureType" : 0
+			},{
+				"floorId" : 1075,
+				"textureType" : 0
+			},{
+				"floorId" : 1076,
+				"textureType" : 0
+			},{
+				"floorId" : 1077,
+				"textureType" : 0
+			},{
+				"floorId" : 1078,
+				"textureType" : 0
+			},{
+				"floorId" : 1079,
+				"textureType" : 0
+			},{
+				"floorId" : 1080,
+				"textureType" : 0
+			},{
+				"floorId" : 1081,
+				"textureType" : 0
+			},{
+				"floorId" : 1082,
+				"textureType" : 0
+			},{
+				"floorId" : 1083,
+				"textureType" : 0
+			},{
+				"floorId" : 1084,
+				"textureType" : 0
+			},{
+				"floorId" : 1085,
+				"textureType" : 0
+			},{
+				"floorId" : 1086,
+				"textureType" : 0
+			},{
+				"floorId" : 1087,
+				"textureType" : 0
+			},{
+				"floorId" : 1088,
+				"textureType" : 0
+			},{
+				"floorId" : 1089,
+				"textureType" : 0
+			},{
+				"floorId" : 1090,
+				"textureType" : 0
+			},{
+				"floorId" : 1091,
+				"textureType" : 0
+			},{
+				"floorId" : 1092,
+				"textureType" : 0
+			},{
+				"floorId" : 1093,
+				"textureType" : 0
+			},{
+				"floorId" : 1094,
+				"textureType" : 0
+			},{
+				"floorId" : 1095,
+				"textureType" : 0
+			},{
+				"floorId" : 1096,
+				"textureType" : 0
+			},{
+				"floorId" : 1097,
+				"textureType" : 0
+			},{
+				"floorId" : 1098,
+				"textureType" : 0
+			},{
+				"floorId" : 1099,
+				"textureType" : 0
+			},{
+				"floorId" : 1100,
+				"textureType" : 0
+			},{
+				"floorId" : 1101,
+				"textureType" : 0
+			},{
+				"floorId" : 1102,
+				"textureType" : 0
+			},{
+				"floorId" : 1103,
+				"textureType" : 0
+			},{
+				"floorId" : 1104,
+				"textureType" : 0
+			},{
+				"floorId" : 1105,
+				"textureType" : 0
+			},{
+				"floorId" : 1106,
+				"textureType" : 0
+			},{
+				"floorId" : 1107,
+				"textureType" : 0
+			},{
+				"floorId" : 1108,
+				"textureType" : 0
+			},{
+				"floorId" : 1109,
+				"textureType" : 0
+			},{
+				"floorId" : 1110,
+				"textureType" : 0
+			},{
+				"floorId" : 1111,
+				"textureType" : 0
+			},{
+				"floorId" : 1112,
+				"textureType" : 0
+			},{
+				"floorId" : 1113,
+				"textureType" : 0
+			},{
+				"floorId" : 1114,
+				"textureType" : 0
+			},{
+				"floorId" : 1115,
+				"textureType" : 0
+			},{
+				"floorId" : 1116,
+				"textureType" : 0
+			},{
+				"floorId" : 1117,
+				"textureType" : 0
+			},{
+				"floorId" : 1118,
+				"textureType" : 0
+			},{
+				"floorId" : 1119,
+				"textureType" : 0
+			},{
+				"floorId" : 1120,
+				"textureType" : 0
+			},{
+				"floorId" : 1121,
+				"textureType" : 0
+			},{
+				"floorId" : 1122,
+				"textureType" : 0
+			},{
+				"floorId" : 1123,
+				"textureType" : 0
+			},{
+				"floorId" : 1124,
+				"textureType" : 0
+			},{
+				"floorId" : 1125,
+				"textureType" : 0
+			},{
+				"floorId" : 1126,
+				"textureType" : 0
+			},{
+				"floorId" : 1127,
+				"textureType" : 0
+			},{
+				"floorId" : 1128,
+				"textureType" : 0
+			},{
+				"floorId" : 1129,
+				"textureType" : 0
+			},{
+				"floorId" : 1130,
+				"textureType" : 0
+			},{
+				"floorId" : 1131,
+				"textureType" : 0
+			},{
+				"floorId" : 1132,
+				"textureType" : 0
+			},{
+				"floorId" : 1133,
+				"textureType" : 0
+			},{
+				"floorId" : 1134,
+				"textureType" : 0
+			},{
+				"floorId" : 1135,
+				"textureType" : 0
+			},{
+				"floorId" : 1136,
+				"textureType" : 0
+			},{
+				"floorId" : 1137,
+				"textureType" : 0
+			},{
+				"floorId" : 1138,
+				"textureType" : 0
+			},{
+				"floorId" : 1139,
+				"textureType" : 0
+			},{
+				"floorId" : 1140,
+				"textureType" : 0
+			},{
+				"floorId" : 1141,
+				"textureType" : 0
+			},{
+				"floorId" : 1142,
+				"textureType" : 0
+			},{
+				"floorId" : 1143,
+				"textureType" : 0
+			},{
+				"floorId" : 1144,
+				"textureType" : 0
+			},{
+				"floorId" : 1145,
+				"textureType" : 0
+			},{
+				"floorId" : 1146,
+				"textureType" : 0
+			},{
+				"floorId" : 1147,
+				"textureType" : 0
+			},{
+				"floorId" : 1148,
+				"textureType" : 0
+			},{
+				"floorId" : 1149,
+				"textureType" : 0
+			},{
+				"floorId" : 1150,
+				"textureType" : 0
+			},{
+				"floorId" : 1151,
+				"textureType" : 0
+			},{
+				"floorId" : 1152,
+				"textureType" : 0
+			},{
+				"floorId" : 1153,
+				"textureType" : 0
+			},{
+				"floorId" : 1154,
+				"textureType" : 0
+			},{
+				"floorId" : 1155,
+				"textureType" : 0
+			},{
+				"floorId" : 1156,
+				"textureType" : 0
+			},{
+				"floorId" : 1157,
+				"textureType" : 0
+			},{
+				"floorId" : 1158,
+				"textureType" : 0
+			},{
+				"floorId" : 1159,
+				"textureType" : 0
+			},{
+				"floorId" : 1160,
+				"textureType" : 0
+			},{
+				"floorId" : 1161,
+				"textureType" : 0
+			},{
+				"floorId" : 1162,
+				"textureType" : 0
+			},{
+				"floorId" : 1163,
+				"textureType" : 0
+			},{
+				"floorId" : 1164,
+				"textureType" : 0
+			},{
+				"floorId" : 1165,
+				"textureType" : 0
+			},{
+				"floorId" : 1166,
+				"textureType" : 0
+			},{
+				"floorId" : 1167,
+				"textureType" : 0
+			},{
+				"floorId" : 1168,
+				"textureType" : 0
+			},{
+				"floorId" : 1169,
+				"textureType" : 0
+			},{
+				"floorId" : 1170,
+				"textureType" : 0
+			},{
+				"floorId" : 1171,
+				"textureType" : 0
+			},{
+				"floorId" : 1172,
+				"textureType" : 0
+			},{
+				"floorId" : 1173,
+				"textureType" : 0
+			},{
+				"floorId" : 1174,
+				"textureType" : 0
+			},{
+				"floorId" : 1175,
+				"textureType" : 0
+			},{
+				"floorId" : 1176,
+				"textureType" : 0
+			},{
+				"floorId" : 1177,
+				"textureType" : 0
+			},{
+				"floorId" : 1178,
+				"textureType" : 0
+			},{
+				"floorId" : 1179,
+				"textureType" : 0
+			},{
+				"floorId" : 1180,
+				"textureType" : 0
+			},{
+				"floorId" : 1181,
+				"textureType" : 0
+			},{
+				"floorId" : 1182,
+				"textureType" : 0
+			},{
+				"floorId" : 1183,
+				"textureType" : 0
+			},{
+				"floorId" : 1184,
+				"textureType" : 0
+			},{
+				"floorId" : 1185,
+				"textureType" : 0
+			},{
+				"floorId" : 1186,
+				"textureType" : 0
+			},{
+				"floorId" : 1187,
+				"textureType" : 0
+			},{
+				"floorId" : 1188,
+				"textureType" : 0
+			},{
+				"floorId" : 1189,
+				"textureType" : 0
+			},{
+				"floorId" : 1190,
+				"textureType" : 0
+			},{
+				"floorId" : 1191,
+				"textureType" : 0
+			},{
+				"floorId" : 1192,
+				"textureType" : 0
+			},{
+				"floorId" : 1193,
+				"textureType" : 0
+			},{
+				"floorId" : 1194,
+				"textureType" : 0
+			},{
+				"floorId" : 1195,
+				"textureType" : 0
+			},{
+				"floorId" : 1196,
+				"textureType" : 0
+			},{
+				"floorId" : 1197,
+				"textureType" : 0
+			},{
+				"floorId" : 1198,
+				"textureType" : 0
+			},{
+				"floorId" : 1199,
+				"textureType" : 0
+			},{
+				"floorId" : 1200,
+				"textureType" : 0
+			},{
+				"floorId" : 1201,
+				"textureType" : 0
+			},{
+				"floorId" : 1202,
+				"textureType" : 0
+			},{
+				"floorId" : 1203,
+				"textureType" : 0
+			},{
+				"floorId" : 1204,
+				"textureType" : 0
+			},{
+				"floorId" : 1205,
+				"textureType" : 0
+			},{
+				"floorId" : 1206,
+				"textureType" : 0
+			},{
+				"floorId" : 1207,
+				"textureType" : 0
+			},{
+				"floorId" : 1208,
+				"textureType" : 0
+			},{
+				"floorId" : 1209,
+				"textureType" : 0
+			},{
+				"floorId" : 1210,
+				"textureType" : 0
+			},{
+				"floorId" : 1211,
+				"textureType" : 0
+			},{
+				"floorId" : 1212,
+				"textureType" : 0
+			},{
+				"floorId" : 1213,
+				"textureType" : 0
+			},{
+				"floorId" : 1214,
+				"textureType" : 0
+			},{
+				"floorId" : 1215,
+				"textureType" : 0
+			},{
+				"floorId" : 1216,
+				"textureType" : 0
+			},{
+				"floorId" : 1217,
+				"textureType" : 0
+			},{
+				"floorId" : 1218,
+				"textureType" : 0
+			},{
+				"floorId" : 1219,
+				"textureType" : 0
+			},{
+				"floorId" : 1220,
+				"textureType" : 0
+			},{
+				"floorId" : 1221,
+				"textureType" : 0
+			},{
+				"floorId" : 1222,
+				"textureType" : 0
+			},{
+				"floorId" : 1223,
+				"textureType" : 0
+			},{
+				"floorId" : 1224,
+				"textureType" : 0
+			},{
+				"floorId" : 1225,
+				"textureType" : 0
+			},{
+				"floorId" : 1226,
+				"textureType" : 0
+			},{
+				"floorId" : 1227,
+				"textureType" : 0
+			},{
+				"floorId" : 1228,
+				"textureType" : 0
+			},{
+				"floorId" : 1229,
+				"textureType" : 0
+			},{
+				"floorId" : 1230,
+				"textureType" : 0
+			},{
+				"floorId" : 1231,
+				"textureType" : 0
+			},{
+				"floorId" : 1232,
+				"textureType" : 0
+			},{
+				"floorId" : 1233,
+				"textureType" : 0
+			},{
+				"floorId" : 1234,
+				"textureType" : 0
+			},{
+				"floorId" : 1235,
+				"textureType" : 0
+			},{
+				"floorId" : 1236,
+				"textureType" : 0
+			},{
+				"floorId" : 1237,
+				"textureType" : 0
+			},{
+				"floorId" : 1238,
+				"textureType" : 0
+			},{
+				"floorId" : 1239,
+				"textureType" : 0
+			},{
+				"floorId" : 1240,
+				"textureType" : 0
+			},{
+				"floorId" : 1241,
+				"textureType" : 0
+			},{
+				"floorId" : 1242,
+				"textureType" : 0
+			},{
+				"floorId" : 1243,
+				"textureType" : 0
+			},{
+				"floorId" : 1244,
+				"textureType" : 0
+			},{
+				"floorId" : 1245,
+				"textureType" : 0
+			},{
+				"floorId" : 1246,
+				"textureType" : 0
+			},{
+				"floorId" : 1247,
+				"textureType" : 0
+			},{
+				"floorId" : 1248,
+				"textureType" : 0
+			},{
+				"floorId" : 1249,
+				"textureType" : 0
+			},{
+				"floorId" : 1250,
+				"textureType" : 0
+			},{
+				"floorId" : 1251,
+				"textureType" : 0
+			},{
+				"floorId" : 1252,
+				"textureType" : 0
+			},{
+				"floorId" : 1253,
+				"textureType" : 0
+			},{
+				"floorId" : 1254,
+				"textureType" : 0
+			},{
+				"floorId" : 1255,
+				"textureType" : 0
+			}
+		],
+		"PaintedWallsCount" : 8,
+		"PaintedFloorsCount" : 0
+	}
+	},
+	"Cleaning" : {
+		"__type" : "SaveManager+CleaningContainer,Assembly-CSharp",
+		"value" : {
+		"GarbageCount" : 0,
+		"DirtCount" : 0,
+		"DustingDataList" : [
+			{
+				"DustingId" : 0,
+				"DustingAlpha" : 0.8946637
+			},{
+				"DustingId" : 23,
+				"DustingAlpha" : 1.1941663
+			}
+		]
+	}
+	},
+	"OnlineOrders" : {
+		"__type" : "SaveManager+OrdersContainer,Assembly-CSharp",
+		"value" : {
+		"LastOrderID" : 0,
+		"CompletedOrderCount" : 0,
+		"FailedOrderCount" : 0,
+		"OrdersGenerated" : [
+			
+		],
+		"OrdersPlannedForToday" : [
+			
+		],
+		"PaperbagProducts" : [
+			
+		]
+	}
+	},
+	"Vending" : {
+		"__type" : "SaveManager+VendingContainer,Assembly-CSharp",
+		"value" : {
+		"vendingData" : [
+			
+		]
+	}
+	}
+}

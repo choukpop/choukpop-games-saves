@@ -10,7 +10,7 @@ Direct3D:
     Renderer: AMD  Radeon RX 7800 XT (ID=0x747e)
     Vendor:   ATI
     VRAM:     16177 MB
-    Driver:   32.0.31007.5012
+    Driver:   32.0.31021.5001
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
@@ -18,16 +18,12 @@ Direct3D:
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
 D3D11 device created for Microsoft Media Foundation video decoding.
+Unable to read settings from existing save. Switching to default settings
 <RI> Initializing input.
 Using Windows.Gaming.Input
 <RI> Input initialized.
-UnloadTime: 0.118500 ms
+UnloadTime: 0.303900 ms
 Loading save manager
-UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-SaveManager:Awake()
-
 Singleton of type : MoneyGenerator not found on scene
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
 UnityEngine.Logger:Log(LogType, Object)
@@ -35,27 +31,21 @@ UnityEngine.Debug:LogError(Object)
 MyBox.Singleton`1:get_Instance()
 
 RenderGraph is now disabled.
-UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:.ctor(UniversalRenderPipelineAsset)
-UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
-
-The referenced script (NaisuPorter.Xbox.SetGamertag) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Menu') is missing!
 The referenced script on this Behaviour (Game Object 'XboxID Canvas') is missing!
 A scripted object (probably NaisuPorter.Xbox.SetGamertag?) has a different serialization layout when loading. (Read 32 bytes but expected 44 bytes)
 Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
 Unloading 6 Unused Serialized files (Serialized files now loaded: 4)
-UnloadTime: 0.682600 ms
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 23771.
-Total: 7.238900 ms (FindLiveObjects: 1.083300 ms CreateObjectMapping: 0.174800 ms MarkObjects: 5.908000 ms  DeleteObjects: 0.072500 ms)
+UnloadTime: 0.506200 ms
+Loading save manager
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 27071.
+Total: 7.900500 ms (FindLiveObjects: 1.133200 ms CreateObjectMapping: 0.235300 ms MarkObjects: 6.464000 ms  DeleteObjects: 0.067700 ms)
 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 4)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 23821.
-Total: 25.277300 ms (FindLiveObjects: 1.305600 ms CreateObjectMapping: 0.189000 ms MarkObjects: 23.759900 ms  DeleteObjects: 0.022400 ms)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 4)
+RenderGraph is now disabled.
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 27450.
+Total: 19.722100 ms (FindLiveObjects: 1.530600 ms CreateObjectMapping: 0.437000 ms MarkObjects: 17.670800 ms  DeleteObjects: 0.083200 ms)
 
 Singleton of type : InteractionHintsManager not found on scene
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
@@ -63,8 +53,9 @@ UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:LogError(Object)
 MyBox.Singleton`1:get_Instance()
 
+The referenced script on this Behaviour (Game Object 'Product License Canvas') is missing!
 Unloading 7 Unused Serialized files (Serialized files now loaded: 6)
-UnloadTime: 5.824000 ms
+UnloadTime: 7.137000 ms
 Renderer 'UCX_SM_Bollards_01d_LOD0' is registered with more than one LODGroup ('SM_Bollards_01d (3)' and 'SM_Bollards_01d (10)').
 Renderer 'UCX_SM_Bollards_01d_LOD0' is registered with more than one LODGroup ('SM_Bollards_01d (3)' and 'SM_Bollards_01d (10)').
 Renderer 'UCX_SM_Bollards_01d_LOD0' is registered with more than one LODGroup ('SM_Bollards_01d (11)' and 'SM_Bollards_01d (10)').
@@ -258,53 +249,12 @@ Renderer 'UCX_SM_Bollards_01c_LOD0' is registered with more than one LODGroup ('
 Renderer 'UCX_SM_Dumpster_01a_Dumpster_LOD0' is registered with more than one LODGroup ('SM_Dumpster_01a (1)' and 'SM_Dumpster_01a').
 Renderer 'UCX_SM_Dumpster_01a_Dumpster_LOD0' is registered with more than one LODGroup ('SM_Dumpster_01a (1)' and 'SM_Dumpster_01a').
 AllDLCBundle : 4215880
-UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-DLCReader:Awake()
-
 CLothDLC : False
-UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-DLCReader:Awake()
-
 ElectronicsDLC: True
-UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-DLCReader:Awake()
-
 HardwareDLC : True
-UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-DLCReader:Awake()
-
 EssentialsDLC : False
-UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-DLCReader:Awake()
-
 VendingDLC : True
-UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-DLCReader:Awake()
-
 IceCreamDLC: False
-UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-DLCReader:Awake()
-
-Grid Created
-UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-Crate:Awake()
-
 ProductID 33 not found in localized product names.
 ProductID 70 not found in localized product names.
 ProductID 83 not found in localized product names.
@@ -318,14 +268,6 @@ ProductID 62 not found in localized product names.
 ProductID 66 not found in localized product names.
 ProductID 151 not found in localized product names.
 NewGameEnumeratorStart
-UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-<NewGameEnumerator>d__4:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-SceneDataTraveler:IsNewGameTraveler(Scene, LoadSceneMode)
-UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded(Scene, LoadSceneMode)
-
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
 TMPro.TMP_SubMesh:AddSubTextObject(TextMeshPro, MaterialReference)
@@ -335,7 +277,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -346,7 +288,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -357,7 +299,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -368,7 +310,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -379,7 +321,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -390,7 +332,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -401,7 +343,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -412,7 +354,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -423,7 +365,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -434,7 +376,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -445,7 +387,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -456,7 +398,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -467,7 +409,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -478,7 +420,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -489,7 +431,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -500,7 +442,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -511,7 +453,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -522,7 +464,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -533,7 +475,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -544,7 +486,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -555,7 +497,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -566,7 +508,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -577,7 +519,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -588,7 +530,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -599,7 +541,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -610,7 +552,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -621,7 +563,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -632,7 +574,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -643,7 +585,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -654,7 +596,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -665,7 +607,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -676,7 +618,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -687,7 +629,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -698,7 +640,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -709,7 +651,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -720,7 +662,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -731,7 +673,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -742,7 +684,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -753,7 +695,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -764,7 +706,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -775,7 +717,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -786,7 +728,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -797,7 +739,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -808,7 +750,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -819,7 +761,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -830,7 +772,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -841,7 +783,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -852,7 +794,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -863,7 +805,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -874,7 +816,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -885,7 +827,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -896,7 +838,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -907,7 +849,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -918,7 +860,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -929,7 +871,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -940,7 +882,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -951,7 +893,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -962,7 +904,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -973,7 +915,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -984,7 +926,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -995,7 +937,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1006,7 +948,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1017,7 +959,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1028,7 +970,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1039,7 +981,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1050,7 +992,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1061,7 +1003,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1072,7 +1014,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1083,7 +1025,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1094,7 +1036,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1105,7 +1047,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1116,7 +1058,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1127,7 +1069,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1138,7 +1080,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1149,7 +1091,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1160,7 +1102,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1171,7 +1113,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1182,7 +1124,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1193,7 +1135,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1204,7 +1146,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1215,7 +1157,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1226,7 +1168,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1237,7 +1179,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1248,7 +1190,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1259,7 +1201,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1270,7 +1212,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1281,7 +1223,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1292,7 +1234,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1303,7 +1245,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1314,7 +1256,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1325,7 +1267,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1336,7 +1278,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1347,7 +1289,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1358,7 +1300,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1369,7 +1311,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1380,7 +1322,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1391,7 +1333,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1402,7 +1344,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1413,7 +1355,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1424,7 +1366,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1435,7 +1377,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1446,7 +1388,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1457,7 +1399,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1468,7 +1410,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1479,7 +1421,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1490,7 +1432,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1501,7 +1443,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1512,7 +1454,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1523,7 +1465,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1534,7 +1476,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1545,7 +1487,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1556,7 +1498,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1567,7 +1509,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1578,7 +1520,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1589,7 +1531,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1600,7 +1542,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1611,7 +1553,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1622,7 +1564,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1633,7 +1575,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1644,7 +1586,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1655,7 +1597,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1666,7 +1608,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1677,7 +1619,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1688,7 +1630,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1699,7 +1641,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1710,7 +1652,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1721,7 +1663,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1732,7 +1674,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1743,7 +1685,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1754,7 +1696,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1765,7 +1707,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1776,7 +1718,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1787,7 +1729,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1798,7 +1740,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1809,7 +1751,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1820,7 +1762,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1831,7 +1773,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1842,7 +1784,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1853,7 +1795,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1864,7 +1806,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1875,7 +1817,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1886,7 +1828,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1897,7 +1839,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1908,7 +1850,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1919,7 +1861,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1930,7 +1872,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1941,7 +1883,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1952,7 +1894,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1963,7 +1905,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1974,7 +1916,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1985,7 +1927,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -1996,7 +1938,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2007,7 +1949,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2018,7 +1960,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2029,7 +1971,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2040,7 +1982,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2051,7 +1993,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2062,7 +2004,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2073,7 +2015,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2084,7 +2026,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2095,7 +2037,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2106,7 +2048,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2117,7 +2059,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2128,7 +2070,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2139,7 +2081,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2150,7 +2092,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2161,7 +2103,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2172,7 +2114,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2183,7 +2125,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2194,7 +2136,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2205,7 +2147,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2216,7 +2158,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2227,7 +2169,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2238,7 +2180,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2249,7 +2191,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2260,7 +2202,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2271,7 +2213,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2282,7 +2224,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2293,7 +2235,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2304,7 +2246,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2315,7 +2257,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2326,7 +2268,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2337,7 +2279,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2348,7 +2290,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2359,7 +2301,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2370,7 +2312,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2381,7 +2323,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2392,7 +2334,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2403,7 +2345,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2414,7 +2356,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2425,7 +2367,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2436,7 +2378,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2447,7 +2389,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2458,7 +2400,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2469,7 +2411,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2480,7 +2422,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2491,7 +2433,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2502,7 +2444,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2513,7 +2455,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2524,7 +2466,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2535,7 +2477,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2546,7 +2488,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2557,7 +2499,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2568,7 +2510,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2579,7 +2521,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2590,7 +2532,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2601,7 +2543,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2612,7 +2554,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2623,7 +2565,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2634,7 +2576,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2645,7 +2587,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2656,7 +2598,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2667,7 +2609,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2678,7 +2620,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2689,7 +2631,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2700,7 +2642,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2711,7 +2653,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2722,7 +2664,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2733,7 +2675,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2744,7 +2686,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2755,7 +2697,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2766,7 +2708,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2777,7 +2719,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2788,7 +2730,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2799,7 +2741,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2810,7 +2752,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2821,7 +2763,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2832,7 +2774,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2843,7 +2785,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2854,7 +2796,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2865,7 +2807,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2876,7 +2818,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2887,7 +2829,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2898,7 +2840,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2909,7 +2851,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2920,7 +2862,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2931,7 +2873,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2942,7 +2884,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2953,7 +2895,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2964,7 +2906,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2975,7 +2917,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2986,7 +2928,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -2997,7 +2939,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3008,7 +2950,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3019,7 +2961,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3030,7 +2972,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3041,7 +2983,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3052,7 +2994,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3063,7 +3005,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3074,7 +3016,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3085,7 +3027,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3096,7 +3038,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3107,7 +3049,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3118,7 +3060,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3129,7 +3071,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3140,7 +3082,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3151,7 +3093,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3162,7 +3104,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3173,7 +3115,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3184,7 +3126,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3195,7 +3137,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3206,7 +3148,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3217,7 +3159,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3228,7 +3170,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3239,7 +3181,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3250,7 +3192,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3261,7 +3203,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3272,7 +3214,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3283,7 +3225,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3294,7 +3236,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3305,7 +3247,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3316,7 +3258,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3327,7 +3269,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3338,7 +3280,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3349,7 +3291,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3360,7 +3302,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3371,7 +3313,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3382,7 +3324,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290248]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3393,7 +3335,7 @@ TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
 
-[ line 353290168]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3403,138 +3345,19 @@ TMPro.TextMeshPro:OnPreRenderObject()
 TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 AspectRatioCameraFitter:SetResolution()
-
-[ line 353290248]
-
-Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
-TMPro.TMP_SubMesh:UpdateMaterial()
-TMPro.TMP_SubMesh:AddSubTextObject(TextMeshPro, MaterialReference)
-TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
-TMPro.TextMeshPro:OnPreRenderObject()
-TMPro.TextMeshPro:Rebuild(CanvasUpdate)
-TMPro.TMP_UpdateManager:DoRebuilds()
-
-[ line 353298904]
-
-Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
-TMPro.TMP_SubMesh:UpdateMaterial()
-TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
-TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
-TMPro.TextMeshPro:OnPreRenderObject()
-TMPro.TextMeshPro:Rebuild(CanvasUpdate)
-TMPro.TMP_UpdateManager:DoRebuilds()
-
-[ line 353298984]
-
-Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
-TMPro.TMP_SubMesh:UpdateMaterial()
-TMPro.TMP_SubMesh:AddSubTextObject(TextMeshPro, MaterialReference)
-TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
-TMPro.TextMeshPro:OnPreRenderObject()
-TMPro.TextMeshPro:Rebuild(CanvasUpdate)
-TMPro.TMP_UpdateManager:DoRebuilds()
-
-[ line 353298904]
-
-Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
-TMPro.TMP_SubMesh:UpdateMaterial()
-TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
-TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
-TMPro.TextMeshPro:OnPreRenderObject()
-TMPro.TextMeshPro:Rebuild(CanvasUpdate)
-TMPro.TMP_UpdateManager:DoRebuilds()
-
-[ line 353298984]
-
-Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
-TMPro.TMP_SubMesh:UpdateMaterial()
-TMPro.TMP_SubMesh:AddSubTextObject(TextMeshPro, MaterialReference)
-TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
-TMPro.TextMeshPro:OnPreRenderObject()
-TMPro.TextMeshPro:Rebuild(CanvasUpdate)
-TMPro.TMP_UpdateManager:DoRebuilds()
-
-[ line 353298904]
-
-Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
-TMPro.TMP_SubMesh:UpdateMaterial()
-TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
-TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
-TMPro.TextMeshPro:OnPreRenderObject()
-TMPro.TextMeshPro:Rebuild(CanvasUpdate)
-TMPro.TMP_UpdateManager:DoRebuilds()
-
-[ line 353298984]
-
-Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
-TMPro.TMP_SubMesh:UpdateMaterial()
-TMPro.TMP_SubMesh:AddSubTextObject(TextMeshPro, MaterialReference)
-TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
-TMPro.TextMeshPro:OnPreRenderObject()
-TMPro.TextMeshPro:Rebuild(CanvasUpdate)
-TMPro.TMP_UpdateManager:DoRebuilds()
 
-[ line 353298904]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
-TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
-TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
-TMPro.TextMeshPro:OnPreRenderObject()
-TMPro.TextMeshPro:Rebuild(CanvasUpdate)
-TMPro.TMP_UpdateManager:DoRebuilds()
-
-[ line 353298984]
-
-Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
-TMPro.TMP_SubMesh:UpdateMaterial()
-TMPro.TMP_SubMesh:AddSubTextObject(TextMeshPro, MaterialReference)
-TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
-TMPro.TextMeshPro:OnPreRenderObject()
-TMPro.TextMeshPro:Rebuild(CanvasUpdate)
-TMPro.TMP_UpdateManager:DoRebuilds()
-
-[ line 353298904]
-
-Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
-TMPro.TMP_SubMesh:UpdateMaterial()
-TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
-TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
-TMPro.TextMeshPro:OnPreRenderObject()
-TMPro.TextMeshPro:Rebuild(CanvasUpdate)
-TMPro.TMP_UpdateManager:DoRebuilds()
-
-[ line 353298984]
-
-Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
-TMPro.TMP_SubMesh:UpdateMaterial()
-TMPro.TMP_SubMesh:AddSubTextObject(TextMeshPro, MaterialReference)
-TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
-TMPro.TextMeshPro:OnPreRenderObject()
-TMPro.TextMeshPro:Rebuild(CanvasUpdate)
-TMPro.TMP_UpdateManager:DoRebuilds()
-
-[ line 353298904]
-
-Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
-TMPro.TMP_SubMesh:UpdateMaterial()
-TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
-TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
-TMPro.TextMeshPro:OnPreRenderObject()
-TMPro.TextMeshPro:Rebuild(CanvasUpdate)
-TMPro.TMP_UpdateManager:DoRebuilds()
-
-[ line 353298984]
-
-Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
-TMPro.TMP_SubMesh:UpdateMaterial()
 TMPro.TMP_SubMesh:AddSubTextObject(TextMeshPro, MaterialReference)
 TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
 TMPro.TextMeshPro:OnPreRenderObject()
 TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
+AspectRatioCameraFitter:SetResolution()
 
-[ line 353298904]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3543,8 +3366,9 @@ TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
 TMPro.TextMeshPro:OnPreRenderObject()
 TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
+AspectRatioCameraFitter:SetResolution()
 
-[ line 353298984]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3553,8 +3377,9 @@ TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
 TMPro.TextMeshPro:OnPreRenderObject()
 TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
+AspectRatioCameraFitter:SetResolution()
 
-[ line 353298904]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3563,8 +3388,9 @@ TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
 TMPro.TextMeshPro:OnPreRenderObject()
 TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
+AspectRatioCameraFitter:SetResolution()
 
-[ line 353298984]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3573,8 +3399,9 @@ TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
 TMPro.TextMeshPro:OnPreRenderObject()
 TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
+AspectRatioCameraFitter:SetResolution()
 
-[ line 353298904]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3583,8 +3410,9 @@ TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
 TMPro.TextMeshPro:OnPreRenderObject()
 TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
+AspectRatioCameraFitter:SetResolution()
 
-[ line 353298984]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3593,8 +3421,9 @@ TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
 TMPro.TextMeshPro:OnPreRenderObject()
 TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
+AspectRatioCameraFitter:SetResolution()
 
-[ line 353298904]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3603,8 +3432,9 @@ TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
 TMPro.TextMeshPro:OnPreRenderObject()
 TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
+AspectRatioCameraFitter:SetResolution()
 
-[ line 353298984]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3613,8 +3443,9 @@ TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
 TMPro.TextMeshPro:OnPreRenderObject()
 TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
+AspectRatioCameraFitter:SetResolution()
 
-[ line 353298904]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3623,8 +3454,9 @@ TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
 TMPro.TextMeshPro:OnPreRenderObject()
 TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
+AspectRatioCameraFitter:SetResolution()
 
-[ line 353298984]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3633,8 +3465,9 @@ TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
 TMPro.TextMeshPro:OnPreRenderObject()
 TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
+AspectRatioCameraFitter:SetResolution()
 
-[ line 353298904]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3643,8 +3476,9 @@ TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
 TMPro.TextMeshPro:OnPreRenderObject()
 TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
+AspectRatioCameraFitter:SetResolution()
 
-[ line 353298984]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3653,8 +3487,9 @@ TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
 TMPro.TextMeshPro:OnPreRenderObject()
 TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
+AspectRatioCameraFitter:SetResolution()
 
-[ line 353298904]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3663,8 +3498,9 @@ TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
 TMPro.TextMeshPro:OnPreRenderObject()
 TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
+AspectRatioCameraFitter:SetResolution()
 
-[ line 353298984]
+[ line 1871627064]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3673,8 +3509,9 @@ TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
 TMPro.TextMeshPro:OnPreRenderObject()
 TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
+AspectRatioCameraFitter:SetResolution()
 
-[ line 353298904]
+[ line 1871626984]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -3683,23 +3520,9 @@ TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
 TMPro.TextMeshPro:OnPreRenderObject()
 TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
-
-[ line 353298984]
-
-<color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 200/50 to 500/50. Use DOTween.SetTweensCapacity to set it manually at startup
-Destroy NewGameEnumerator
-UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-<NewGameEnumerator>d__4:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Unloading 2999 unused Assets to reduce memory usage. Loaded Objects now: 437797.
-Total: 223.439100 ms (FindLiveObjects: 28.873900 ms CreateObjectMapping: 16.283500 ms MarkObjects: 167.251900 ms  DeleteObjects: 11.029500 ms)
+AspectRatioCameraFitter:SetResolution()
 
-Unloading 2 Unused Serialized files (Serialized files now loaded: 6)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 437791.
-Total: 207.543700 ms (FindLiveObjects: 28.424700 ms CreateObjectMapping: 15.387600 ms MarkObjects: 163.210900 ms  DeleteObjects: 0.519900 ms)
+[ line 1871627064]
 
 BoxCollider does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
@@ -4190,11 +4013,296 @@ If you absolutely need to use negative scaling you can use the convex MeshCollid
 BoxCollider does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
 If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "---ENVIRONMENT---/NewYorkCity/Houses/LocalMarkets/NYC_Building_7_10/SM_GreenMarket/SM_LocalMarketProps_Hvac 3/SM_LocalMarketProps_Hvac/SM_LocalMarketProps_Hvac_D (1)"
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:AddSubTextObject(TextMeshPro, MaterialReference)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635720]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:AddSubTextObject(TextMeshPro, MaterialReference)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635720]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:AddSubTextObject(TextMeshPro, MaterialReference)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635720]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:AddSubTextObject(TextMeshPro, MaterialReference)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635720]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:AddSubTextObject(TextMeshPro, MaterialReference)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635720]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:AddSubTextObject(TextMeshPro, MaterialReference)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635720]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:AddSubTextObject(TextMeshPro, MaterialReference)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635720]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:AddSubTextObject(TextMeshPro, MaterialReference)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635720]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:AddSubTextObject(TextMeshPro, MaterialReference)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635720]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:AddSubTextObject(TextMeshPro, MaterialReference)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635720]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:AddSubTextObject(TextMeshPro, MaterialReference)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635720]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:AddSubTextObject(TextMeshPro, MaterialReference)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635720]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:AddSubTextObject(TextMeshPro, MaterialReference)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635720]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:AddSubTextObject(TextMeshPro, MaterialReference)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635720]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 200/50 to 500/50. Use DOTween.SetTweensCapacity to set it manually at startup
+Destroy NewGameEnumerator
+Unloading 3003 unused Assets to reduce memory usage. Loaded Objects now: 443849.
+Total: 185.175700 ms (FindLiveObjects: 28.257000 ms CreateObjectMapping: 14.840100 ms MarkObjects: 135.056800 ms  DeleteObjects: 7.021400 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 6)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 443835.
+Total: 192.984500 ms (FindLiveObjects: 30.046800 ms CreateObjectMapping: 14.387300 ms MarkObjects: 148.184500 ms  DeleteObjects: 0.365500 ms)
+
 [ToggleStore] Connected!
-UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
 TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
@@ -4202,7 +4310,7 @@ TMPro.TextMeshPro:OnPreRenderObject()
 TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 
-[ line 353299032]
+[ line 1871635848]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -4212,7 +4320,7 @@ TMPro.TextMeshPro:OnPreRenderObject()
 TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 
-[ line 353298984]
+[ line 1871635800]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -4221,26 +4329,7 @@ TMPro.TextMeshPro:OnPreRenderObject()
 TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 
-[ line 353299032]
-
-Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
-TMPro.TMP_SubMesh:UpdateMaterial()
-TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
-TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
-TMPro.TextMeshPro:OnPreRenderObject()
-TMPro.TextMeshPro:Rebuild(CanvasUpdate)
-TMPro.TMP_UpdateManager:DoRebuilds()
-
-[ line 353298984]
-
-Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
-TMPro.TMP_SubMesh:UpdateMaterial()
-TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
-TMPro.TextMeshPro:OnPreRenderObject()
-TMPro.TextMeshPro:Rebuild(CanvasUpdate)
-TMPro.TMP_UpdateManager:DoRebuilds()
-
-[ line 353299032]
+[ line 1871635848]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -4250,7 +4339,7 @@ TMPro.TextMeshPro:OnPreRenderObject()
 TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 
-[ line 353298984]
+[ line 1871635800]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -4259,7 +4348,7 @@ TMPro.TextMeshPro:OnPreRenderObject()
 TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 
-[ line 353299032]
+[ line 1871635848]
 
 Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
 TMPro.TMP_SubMesh:UpdateMaterial()
@@ -4269,175 +4358,1357 @@ TMPro.TextMeshPro:OnPreRenderObject()
 TMPro.TextMeshPro:Rebuild(CanvasUpdate)
 TMPro.TMP_UpdateManager:DoRebuilds()
 
-[ line 353298984]
+[ line 1871635800]
 
-Your project uses a scriptable render pipeline. You can use Camera.RemoveCommandBuffer only with the built-in renderer.
-Your project uses a scriptable render pipeline. You can use Camera.RemoveCommandBuffer only with the built-in renderer.
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635848]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
+Material 'UptownBoy SDF_Label' with Shader 'Shader Graphs/Text' doesn't have a float or range property '_CullMode'
+TMPro.TMP_SubMesh:UpdateMaterial()
+TMPro.TMP_SubMesh:set_fallbackMaterial(Material)
+TMPro.TextMeshPro:SetArraySizes(TextProcessingElement[])
+TMPro.TextMeshPro:OnPreRenderObject()
+TMPro.TextMeshPro:Rebuild(CanvasUpdate)
+TMPro.TMP_UpdateManager:DoRebuilds()
+
+[ line 1871635800]
+
 Singleton of type : ProductLicenseManager not found on scene
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:LogError(Object)
 MyBox.Singleton`1:get_Instance()
 
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at DisplaySlot.OnDestroy () [0x00000] in <00000000000000000000000000000000>:0 
-
-NullReferenceException: Object reference not set to an instance of an object.
-  at VendingMachinePlacementDeadZone.OnDisable () [0x00000] in <00000000000000000000000000000000>:0 
-
+Your project uses a scriptable render pipeline. You can use Camera.RemoveCommandBuffer only with the built-in renderer.
+Your project uses a scriptable render pipeline. You can use Camera.RemoveCommandBuffer only with the built-in renderer.
 [Physics::Module] Cleanup current backend.
 [Physics::Module] Id: 0xf2b8ea05
 Input System module state changed to: ShutdownInProgress.

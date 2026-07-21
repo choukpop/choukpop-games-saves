@@ -5,6 +5,9 @@
 		"UnlockedLicenses" : [
 			21,22
 		],
+		"ActiveLicenses" : [
+			21,22
+		],
 		"LoanDatas" : [
 			{
 				"LoanID" : 1,
@@ -43,7 +46,7 @@
 				"Taken" : false
 			}
 		],
-		"Money" : 521.6957,
+		"Money" : 1444.24915,
 		"CartData" : {
 			"ProductInCarts" : [
 				
@@ -80,42 +83,80 @@
 				"ProductCount" : 0
 			},{
 				"m_UID" : 1,
-				"Size" : 5,
+				"Size" : 2,
 				"Transform" : {
 					"Position" : {
-						"x" : -7.43981552,
-						"y" : -0.000783279538,
-						"z" : 7.431848
+						"x" : -7.295325,
+						"y" : 0.00552795827,
+						"z" : 5.847361
 					},
 					"Rotation" : {
-						"x" : 1.48495147E-07,
+						"x" : 4.87453766E-09,
 						"y" : 0.7071068,
-						"z" : -3.36814239E-08,
+						"z" : -9.208641E-09,
 						"w" : -0.7071068
 					}
 				},
 				"IsOpen" : true,
-				"ProductID" : 85,
-				"ProductCount" : 5
+				"ProductID" : 66,
+				"ProductCount" : 4
 			},{
 				"m_UID" : 2,
 				"Size" : 5,
 				"Transform" : {
 					"Position" : {
-						"x" : -7.50396872,
-						"y" : -0.000783279538,
-						"z" : 6.946177
+						"x" : -6.43193054,
+						"y" : -0.000783413649,
+						"z" : 0.3652808
 					},
 					"Rotation" : {
-						"x" : 1.41137264E-07,
+						"x" : 1.47388519E-07,
+						"y" : 1,
+						"z" : 6.669552E-08,
+						"w" : -7.690572E-08
+					}
+				},
+				"IsOpen" : true,
+				"ProductID" : 85,
+				"ProductCount" : 1
+			},{
+				"m_UID" : 3,
+				"Size" : 2,
+				"Transform" : {
+					"Position" : {
+						"x" : -6.995645,
+						"y" : 0.005527854,
+						"z" : 0.3355124
+					},
+					"Rotation" : {
+						"x" : -3.065849E-08,
+						"y" : 1,
+						"z" : 3.1948673E-08,
+						"w" : -3.898723E-08
+					}
+				},
+				"IsOpen" : true,
+				"ProductID" : 147,
+				"ProductCount" : 1
+			},{
+				"m_UID" : 4,
+				"Size" : 1,
+				"Transform" : {
+					"Position" : {
+						"x" : -7.33528662,
+						"y" : 0.008464694,
+						"z" : 6.660215
+					},
+					"Rotation" : {
+						"x" : -1.18967385E-07,
 						"y" : 0.7071068,
-						"z" : -3.11548618E-08,
+						"z" : -4.20200124E-08,
 						"w" : -0.7071068
 					}
 				},
-				"IsOpen" : false,
-				"ProductID" : 85,
-				"ProductCount" : 8
+				"IsOpen" : true,
+				"ProductID" : 151,
+				"ProductCount" : 1
 			}
 		],
 		"VehicleDatas" : [
@@ -144,28 +185,14 @@
 				},
 				"DisplaySlots" : [
 					{
-						"Products" : {33:10
+						"Products" : {33:12
 						},
 						"ProductPrice" : {
 						},
 						"ItemProcessData" : {
 						}
 					},{
-						"Products" : {70:12
-						},
-						"ProductPrice" : {
-						},
-						"ItemProcessData" : {
-						}
-					},{
-						"Products" : {33:10
-						},
-						"ProductPrice" : {
-						},
-						"ItemProcessData" : {
-						}
-					},{
-						"Products" : {70:12
+						"Products" : {70:11
 						},
 						"ProductPrice" : {
 						},
@@ -179,6 +206,20 @@
 						"ItemProcessData" : {
 						}
 					},{
+						"Products" : {70:7
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {33:7
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
 						"Products" : {70:12
 						},
 						"ProductPrice" : {
@@ -186,14 +227,14 @@
 						"ItemProcessData" : {
 						}
 					},{
-						"Products" : {33:10
+						"Products" : {33:9
 						},
 						"ProductPrice" : {
 						},
 						"ItemProcessData" : {
 						}
 					},{
-						"Products" : {70:8
+						"Products" : {70:10
 						},
 						"ProductPrice" : {
 						},
@@ -218,21 +259,7 @@
 				},
 				"DisplaySlots" : [
 					{
-						"Products" : {83:4
-						},
-						"ProductPrice" : {
-						},
-						"ItemProcessData" : {
-						}
-					},{
-						"Products" : {84:12
-						},
-						"ProductPrice" : {
-						},
-						"ItemProcessData" : {
-						}
-					},{
-						"Products" : {83:6
+						"Products" : {83:8
 						},
 						"ProductPrice" : {
 						},
@@ -260,7 +287,21 @@
 						"ItemProcessData" : {
 						}
 					},{
-						"Products" : {83:6
+						"Products" : {83:8
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {84:12
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {83:5
 						},
 						"ProductPrice" : {
 						},
@@ -299,21 +340,7 @@
 						"ItemProcessData" : {
 						}
 					},{
-						"Products" : {147:11
-						},
-						"ProductPrice" : {
-						},
-						"ItemProcessData" : {
-						}
-					},{
-						"Products" : {85:8
-						},
-						"ProductPrice" : {
-						},
-						"ItemProcessData" : {
-						}
-					},{
-						"Products" : {147:11
+						"Products" : {147:12
 						},
 						"ProductPrice" : {
 						},
@@ -341,7 +368,21 @@
 						"ItemProcessData" : {
 						}
 					},{
-						"Products" : {147:9
+						"Products" : {147:12
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {85:8
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {147:12
 						},
 						"ProductPrice" : {
 						},
@@ -366,34 +407,6 @@
 				},
 				"DisplaySlots" : [
 					{
-						"Products" : {24:8
-						},
-						"ProductPrice" : {
-						},
-						"ItemProcessData" : {
-						}
-					},{
-						"Products" : {39:9
-						},
-						"ProductPrice" : {
-						},
-						"ItemProcessData" : {
-						}
-					},{
-						"Products" : {39:6
-						},
-						"ProductPrice" : {
-						},
-						"ItemProcessData" : {
-						}
-					},{
-						"Products" : {24:3
-						},
-						"ProductPrice" : {
-						},
-						"ItemProcessData" : {
-						}
-					},{
 						"Products" : {24:7
 						},
 						"ProductPrice" : {
@@ -408,7 +421,7 @@
 						"ItemProcessData" : {
 						}
 					},{
-						"Products" : {39:3
+						"Products" : {39:9
 						},
 						"ProductPrice" : {
 						},
@@ -422,7 +435,35 @@
 						"ItemProcessData" : {
 						}
 					},{
-						"Products" : {39:2
+						"Products" : {24:4
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {39:9
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {39:9
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {24:6
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {39:8
 						},
 						"ProductPrice" : {
 						},
@@ -454,7 +495,42 @@
 				},
 				"DisplaySlots" : [
 					{
-						"Products" : {62:5
+						"Products" : {62:12
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {66:6
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {66:5
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {62:12
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {62:12
+						},
+						"ProductPrice" : {
+						},
+						"ItemProcessData" : {
+						}
+					},{
+						"Products" : {66:5
 						},
 						"ProductPrice" : {
 						},
@@ -468,13 +544,6 @@
 						"ItemProcessData" : {
 						}
 					},{
-						"Products" : {66:7
-						},
-						"ProductPrice" : {
-						},
-						"ItemProcessData" : {
-						}
-					},{
 						"Products" : {62:10
 						},
 						"ProductPrice" : {
@@ -482,42 +551,14 @@
 						"ItemProcessData" : {
 						}
 					},{
-						"Products" : {62:9
+						"Products" : {66:8
 						},
 						"ProductPrice" : {
 						},
 						"ItemProcessData" : {
 						}
 					},{
-						"Products" : {66:2
-						},
-						"ProductPrice" : {
-						},
-						"ItemProcessData" : {
-						}
-					},{
-						"Products" : {66:7
-						},
-						"ProductPrice" : {
-						},
-						"ItemProcessData" : {
-						}
-					},{
-						"Products" : {62:6
-						},
-						"ProductPrice" : {
-						},
-						"ItemProcessData" : {
-						}
-					},{
-						"Products" : {66:7
-						},
-						"ProductPrice" : {
-						},
-						"ItemProcessData" : {
-						}
-					},{
-						"Products" : {62:10
+						"Products" : {62:5
 						},
 						"ProductPrice" : {
 						},
@@ -542,56 +583,56 @@
 				},
 				"DisplaySlots" : [
 					{
-						"Products" : {
+						"Products" : {55:8
 						},
 						"ProductPrice" : {
 						},
 						"ItemProcessData" : {
 						}
 					},{
-						"Products" : {
+						"Products" : {151:20
 						},
 						"ProductPrice" : {
 						},
 						"ItemProcessData" : {
 						}
 					},{
-						"Products" : {
+						"Products" : {55:8
 						},
 						"ProductPrice" : {
 						},
 						"ItemProcessData" : {
 						}
 					},{
-						"Products" : {
+						"Products" : {151:20
 						},
 						"ProductPrice" : {
 						},
 						"ItemProcessData" : {
 						}
 					},{
-						"Products" : {
+						"Products" : {55:8
 						},
 						"ProductPrice" : {
 						},
 						"ItemProcessData" : {
 						}
 					},{
-						"Products" : {
+						"Products" : {151:20
 						},
 						"ProductPrice" : {
 						},
 						"ItemProcessData" : {
 						}
 					},{
-						"Products" : {
+						"Products" : {55:6
 						},
 						"ProductPrice" : {
 						},
 						"ItemProcessData" : {
 						}
 					},{
-						"Products" : {
+						"Products" : {151:20
 						},
 						"ProductPrice" : {
 						},
@@ -637,9 +678,9 @@
 			"ShortChangeAmount" : 0,
 			"HarmedCustomerCount" : 0,
 			"TotalCustomerCount" : 0,
-			"StorePoint" : 0,
+			"StorePoint" : 10,
 			"CheckoutIncome" : 0,
-			"SupplyCosts" : 0,
+			"SupplyCosts" : -181.624,
 			"UpgradeCosts" : 0,
 			"CustomizationCosts" : 0,
 			"BillCosts" : 0,
@@ -737,7 +778,7 @@
 			
 		],
 		"CurrentTime" : 0,
-		"CurrentDay" : 11,
+		"CurrentDay" : 14,
 		"LastDayPricesChanged" : 1,
 		"LastWholesaleOfferShown" : {
 			"x" : 10,
@@ -745,12 +786,12 @@
 		},
 		"MysteryBox" : false,
 		"IsGarbageOnboardingCompleted" : true,
-		"CleanedGarbageCount" : 21,
-		"CleanedDirtCount" : 16,
-		"CleanedGlassCount" : 7,
-		"CompletedCheckoutCount" : 343,
-		"CurrentStorePoint" : 78,
-		"CurrentStoreLevel" : 11,
+		"CleanedGarbageCount" : 24,
+		"CleanedDirtCount" : 25,
+		"CleanedGlassCount" : 9,
+		"CompletedCheckoutCount" : 476,
+		"CurrentStorePoint" : 141,
+		"CurrentStoreLevel" : 13,
 		"StoreUpgradeLevel" : 1,
 		"IsStoreOpen" : false,
 		"PaintedWallCount" : 8,
@@ -761,7 +802,7 @@
 		"IsCrateEnabled" : true,
 		"IsBatBought" : true,
 		"IsBatEnabled" : false,
-		"GameVersion" : "V1.2.9 - (192)",
+		"GameVersion" : "v1.4.2(204)",
 		"IsNewGame" : false,
 		"IsSecurityWarningShowed" : false,
 		"IsTutorialShoplifterBeaten" : false,
@@ -789,7 +830,10 @@
 			"z" : 9.9322
 		},
 		"StorageLightRotationY" : 90,
-		"FixCheck" : true
+		"FixCheck" : true,
+		"LicenseProductsDatas" : [
+			
+		]
 	}
 	},
 	"Onboarding" : {
@@ -814,12 +858,12 @@
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 70,
-				"Price" : 1.36,
+				"Price" : 1.088,
 				"LastChangeDate" : -1,
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 83,
-				"Price" : 0.66,
+				"Price" : 0.6336,
 				"LastChangeDate" : -1,
 				"DiscountRate" : 0
 			},{
@@ -844,7 +888,7 @@
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 39,
-				"Price" : 1.79,
+				"Price" : 2.148,
 				"LastChangeDate" : -1,
 				"DiscountRate" : 0
 			},{
@@ -854,7 +898,7 @@
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 62,
-				"Price" : 1.99,
+				"Price" : 2.26,
 				"LastChangeDate" : -1,
 				"DiscountRate" : 0
 			},{
@@ -864,7 +908,7 @@
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 151,
-				"Price" : 2.33,
+				"Price" : 2.796,
 				"LastChangeDate" : -1,
 				"DiscountRate" : 0
 			},{
@@ -1912,13 +1956,13 @@
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 70,
-				"Price" : 5.1,
-				"LastChangeDate" : 6,
+				"Price" : 4,
+				"LastChangeDate" : 12,
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 83,
-				"Price" : 2.8,
-				"LastChangeDate" : 8,
+				"Price" : 2.7,
+				"LastChangeDate" : 13,
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 147,
@@ -1942,8 +1986,8 @@
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 39,
-				"Price" : 3.1,
-				"LastChangeDate" : -1,
+				"Price" : 3.8,
+				"LastChangeDate" : 13,
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 55,
@@ -1952,8 +1996,8 @@
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 62,
-				"Price" : 3.7,
-				"LastChangeDate" : -1,
+				"Price" : 4.2,
+				"LastChangeDate" : 14,
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 66,
@@ -1962,40 +2006,40 @@
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 151,
-				"Price" : 4.6,
-				"LastChangeDate" : 11,
+				"Price" : 5.6,
+				"LastChangeDate" : 13,
 				"DiscountRate" : 0
 			}
 		],
 		"AverageCosts" : [
 			{
 				"ProductID" : 83,
-				"Price" : 0.6643195,
+				"Price" : 0.612285852,
 				"LastChangeDate" : -1,
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 85,
-				"Price" : 1.11001551,
+				"Price" : 1.1100018,
 				"LastChangeDate" : -1,
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 70,
-				"Price" : 1.35517287,
+				"Price" : 1.119265,
 				"LastChangeDate" : -1,
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 147,
-				"Price" : 1.15860355,
+				"Price" : 1.11456716,
 				"LastChangeDate" : -1,
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 33,
-				"Price" : 3.7401135,
+				"Price" : 3.82606769,
 				"LastChangeDate" : -1,
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 84,
-				"Price" : 1.47185314,
+				"Price" : 1.34653962,
 				"LastChangeDate" : -1,
 				"DiscountRate" : 0
 			},{
@@ -2005,35 +2049,35 @@
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 39,
-				"Price" : 1.79000008,
+				"Price" : 2.02500844,
 				"LastChangeDate" : -1,
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 62,
-				"Price" : 1.99,
+				"Price" : 2.05352926,
 				"LastChangeDate" : -1,
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 66,
-				"Price" : 0.9,
+				"Price" : 0.8077568,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 55,
+				"Price" : 6.99000025,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 151,
+				"Price" : 2.56012321,
 				"LastChangeDate" : -1,
 				"DiscountRate" : 0
 			}
 		],
 		"DailyPriceChanges" : [
 			{
-				"ProductID" : 151,
-				"Price" : 2.33,
-				"LastChangeDate" : -1,
-				"DiscountRate" : 0
-			},{
-				"ProductID" : 66,
-				"Price" : 0.79,
-				"LastChangeDate" : -1,
-				"DiscountRate" : 0
-			},{
-				"ProductID" : 151,
-				"Price" : 2.33,
+				"ProductID" : 62,
+				"Price" : 2.26,
 				"LastChangeDate" : -1,
 				"DiscountRate" : 0
 			}
@@ -2046,7 +2090,7 @@
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 83,
-				"Price" : 0.7584,
+				"Price" : 0.528,
 				"LastChangeDate" : -1,
 				"DiscountRate" : 0
 			},{
@@ -2056,7 +2100,7 @@
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 70,
-				"Price" : 1.18,
+				"Price" : 1.36,
 				"LastChangeDate" : -1,
 				"DiscountRate" : 0
 			},{
@@ -2071,12 +2115,22 @@
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 151,
-				"Price" : 2.76,
+				"Price" : 2.33,
 				"LastChangeDate" : -1,
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 66,
 				"Price" : 0.9,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 39,
+				"Price" : 1.79,
+				"LastChangeDate" : -1,
+				"DiscountRate" : 0
+			},{
+				"ProductID" : 62,
+				"Price" : 1.99,
 				"LastChangeDate" : -1,
 				"DiscountRate" : 0
 			}
@@ -2089,13 +2143,13 @@
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 70,
-				"Price" : 1.36,
-				"LastChangeDate" : 6,
+				"Price" : 1.088,
+				"LastChangeDate" : 12,
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 83,
-				"Price" : 0.66,
-				"LastChangeDate" : 8,
+				"Price" : 0.6336,
+				"LastChangeDate" : 13,
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 84,
@@ -2119,8 +2173,8 @@
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 39,
-				"Price" : 1.79,
-				"LastChangeDate" : -1,
+				"Price" : 2.148,
+				"LastChangeDate" : 13,
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 55,
@@ -2129,8 +2183,8 @@
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 62,
-				"Price" : 1.99,
-				"LastChangeDate" : -1,
+				"Price" : 2.26,
+				"LastChangeDate" : 14,
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 66,
@@ -2139,8 +2193,8 @@
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 151,
-				"Price" : 2.33,
-				"LastChangeDate" : 11,
+				"Price" : 2.796,
+				"LastChangeDate" : 13,
 				"DiscountRate" : 0
 			},{
 				"ProductID" : 68,
@@ -3188,8 +3242,8 @@
 		"Bills" : [
 			{
 				"LoanID" : -1,
-				"Date" : 10,
-				"Amount" : 26.47,
+				"Date" : 13,
+				"Amount" : 26.49,
 				"PaymentType" : 1,
 				"LatePaymentFee" : 0
 			}
@@ -3197,7 +3251,7 @@
 		"Rents" : [
 			{
 				"LoanID" : -1,
-				"Date" : 10,
+				"Date" : 13,
 				"Amount" : 30,
 				"PaymentType" : 0,
 				"LatePaymentFee" : 0
@@ -7509,7 +7563,7 @@
 				"DustingAlpha" : 0.8946637
 			},{
 				"DustingId" : 23,
-				"DustingAlpha" : 1.09328687
+				"DustingAlpha" : 1.1941663
 			}
 		]
 	}
