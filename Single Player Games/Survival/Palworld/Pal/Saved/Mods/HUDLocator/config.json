@@ -1,0 +1,378 @@
+{
+  "Caves": {
+    "Enabled": true,
+    "MaxDistance": 15000.0,
+    "Style": {
+      "BorderColor": {
+        "A": 1.0,
+        "B": 0.0,
+        "G": 0.0,
+        "R": 0.0
+      },
+      "BorderWidth": 1.5,
+      "BoxColor": {
+        "A": 1.0,
+        "B": 1.0,
+        "G": 0.8,
+        "R": 0.8
+      },
+      "BoxPadX": 10.0,
+      "BoxPadY": 6.0,
+      "DistColor": {
+        "A": 1.0,
+        "B": 0.9,
+        "G": 0.2,
+        "R": 0.6
+      },
+      "DrawBox": false,
+      "FontCharW": 8.0,
+      "FontLineH": 12.0,
+      "FontScale": 1.2,
+      "NameColor": {
+        "A": 1.0,
+        "B": 0.9,
+        "G": 0.2,
+        "R": 0.6
+      },
+      "SmallFontScale": 0.9,
+      "TextOffsetZ": 80.0
+    }
+  },
+  "Chests": {
+    "Enabled": true,
+    "Filter": "Both",
+    "GradeFilter": "All",
+    "MaxDistance": 15000.0,
+    "Style": {
+      "BorderColor": {
+        "A": 1.0,
+        "B": 0.0,
+        "G": 0.0,
+        "R": 0.0
+      },
+      "BorderWidth": 1.5,
+      "BoxColor": {
+        "A": 1.0,
+        "B": 1.0,
+        "G": 0.8,
+        "R": 0.8
+      },
+      "BoxPadX": 10.0,
+      "BoxPadY": 6.0,
+      "DistColor": {
+        "A": 1.0,
+        "B": 0.1,
+        "G": 0.7,
+        "R": 0.9
+      },
+      "DrawBox": false,
+      "FontCharW": 8.0,
+      "FontLineH": 12.0,
+      "FontScale": 1.2,
+      "NameColor": {
+        "A": 1.0,
+        "B": 0.1,
+        "G": 0.7,
+        "R": 0.9
+      },
+      "SmallFontScale": 0.9,
+      "TextOffsetZ": 80.0
+    }
+  },
+  "Eggs": {
+    "Filter": "All",
+    "MaxDistance": 15000.0,
+    "Style": {
+      "BorderColor": {
+        "A": 1.0,
+        "B": 0.0,
+        "G": 0.0,
+        "R": 0.0
+      },
+      "BorderWidth": 1.5,
+      "BoxColor": {
+        "A": 1.0,
+        "B": 1.0,
+        "G": 0.8,
+        "R": 0.8
+      },
+      "BoxPadX": 10.0,
+      "BoxPadY": 6.0,
+      "DistColor": {
+        "A": 1.0,
+        "B": 0.8,
+        "G": 0.5,
+        "R": 0.8
+      },
+      "DrawBox": false,
+      "FontCharW": 8.0,
+      "FontLineH": 12.0,
+      "FontScale": 1.2,
+      "NameColor": {
+        "A": 1.0,
+        "B": 0.8,
+        "G": 0.5,
+        "R": 0.8
+      },
+      "SmallFontScale": 0.9,
+      "TextOffsetZ": 80.0
+    }
+  },
+  "Global": {
+    "Debug": false,
+    "Enabled": true,
+    "FontScale": 0.8,
+    "KeyBinds": {
+      "MenuDown": "DOWN_ARROW",
+      "MenuLeft": "LEFT_ARROW",
+      "MenuRight": "RIGHT_ARROW",
+      "MenuUp": "UP_ARROW",
+      "Modifier": "ALT",
+      "ToggleMenu": "F6"
+    },
+    "Language": "system",
+    "MaxDistance": 15000.0,
+    "ScanIntervalMs": 1500
+  },
+  "Loot": {
+    "Enabled": false,
+    "Filters": [],
+    "MaxDistance": 15000.0,
+    "Style": {
+      "BorderColor": {
+        "A": 1.0,
+        "B": 0.0,
+        "G": 0.0,
+        "R": 0.0
+      },
+      "BorderWidth": 1.5,
+      "BoxColor": {
+        "A": 1.0,
+        "B": 0.8,
+        "G": 1.0,
+        "R": 0.8
+      },
+      "BoxPadX": 10.0,
+      "BoxPadY": 6.0,
+      "DistColor": {
+        "A": 1.0,
+        "B": 0.4,
+        "G": 0.9,
+        "R": 0.2
+      },
+      "DrawBox": false,
+      "FontCharW": 8.0,
+      "FontLineH": 12.0,
+      "FontScale": 1.2,
+      "NameColor": {
+        "A": 1.0,
+        "B": 0.4,
+        "G": 0.9,
+        "R": 0.2
+      },
+      "SmallFontScale": 0.9,
+      "TextOffsetZ": 80.0
+    }
+  },
+  "Notes": {
+    "Enabled": false,
+    "MaxDistance": 15000.0,
+    "Style": {
+      "BorderColor": {
+        "A": 1.0,
+        "B": 0.0,
+        "G": 0.0,
+        "R": 0.0
+      },
+      "BorderWidth": 1.5,
+      "BoxColor": {
+        "A": 1.0,
+        "B": 0.8,
+        "G": 0.8,
+        "R": 1.0
+      },
+      "BoxPadX": 10.0,
+      "BoxPadY": 6.0,
+      "DistColor": {
+        "A": 1.0,
+        "B": 0.4,
+        "G": 0.4,
+        "R": 1.0
+      },
+      "DrawBox": false,
+      "FontCharW": 8.0,
+      "FontLineH": 12.0,
+      "FontScale": 1.2,
+      "NameColor": {
+        "A": 1.0,
+        "B": 0.4,
+        "G": 0.4,
+        "R": 1.0
+      },
+      "SmallFontScale": 0.9,
+      "TextOffsetZ": 80.0
+    }
+  },
+  "Pals": {
+    "Enabled": false,
+    "FilterMode": "TrackerListOnly",
+    "MaxDistance": 15000.0,
+    "ShowLevel": false,
+    "ShowPassives": false,
+    "Style": {
+      "BorderColor": {
+        "A": 1.0,
+        "B": 0.0,
+        "G": 0.0,
+        "R": 0.0
+      },
+      "BorderWidth": 1.5,
+      "BossColor": {
+        "A": 1.0,
+        "B": 0.25,
+        "G": 0.25,
+        "R": 1.0
+      },
+      "BoxColor": {
+        "A": 1.0,
+        "B": 1.0,
+        "G": 0.8,
+        "R": 0.8
+      },
+      "BoxPadX": 10.0,
+      "BoxPadY": 6.0,
+      "DistColor": {
+        "A": 1.0,
+        "B": 1.0,
+        "G": 0.8,
+        "R": 0.2
+      },
+      "DrawBox": false,
+      "FontCharW": 8.0,
+      "FontLineH": 12.0,
+      "FontScale": 1.2,
+      "NameColor": {
+        "A": 1.0,
+        "B": 1.0,
+        "G": 0.8,
+        "R": 0.2
+      },
+      "ShinyColor": {
+        "A": 1.0,
+        "B": 0.1,
+        "G": 0.85,
+        "R": 1.0
+      },
+      "SmallFontScale": 0.9,
+      "TextOffsetZ": 120.0
+    },
+    "TrackerPals": [
+      {
+        "boss": false,
+        "palname": "Lamball",
+        "passive": {
+          "min_passive_threshold": 1,
+          "passives": ["Runner", "Motivational Leader"]
+        },
+        "shiny": false
+      },
+      {
+        "boss": true,
+        "palname": "Jetragon",
+        "passive": {
+          "min_passive_threshold": 3,
+          "passives": ["Legend", "Divine Dragon", "Swift", "Runner"]
+        },
+        "shiny": false
+      },
+      {
+        "boss": false,
+        "palname": "Cattiva",
+        "passive": {
+          "min_passive_threshold": 2,
+          "passives": ["Lucky", "Coward"]
+        },
+        "shiny": true
+      }
+    ]
+  },
+  "Players": {
+    "Enabled": false,
+    "GraceRadiusM": 30,
+    "MaxDistance": 15000.0,
+    "Style": {
+      "BorderColor": {
+        "A": 1.0,
+        "B": 0.0,
+        "G": 0.0,
+        "R": 0.0
+      },
+      "BorderWidth": 1.5,
+      "BoxColor": {
+        "A": 1.0,
+        "B": 1.0,
+        "G": 0.8,
+        "R": 0.8
+      },
+      "BoxPadX": 10.0,
+      "BoxPadY": 6.0,
+      "DistColor": {
+        "A": 1.0,
+        "B": 0.0,
+        "G": 0.0,
+        "R": 0.0
+      },
+      "DrawBox": false,
+      "FontCharW": 8.0,
+      "FontLineH": 12.0,
+      "FontScale": 1.2,
+      "NameColor": {
+        "A": 1.0,
+        "B": 0.0,
+        "G": 0.0,
+        "R": 0.0
+      },
+      "SmallFontScale": 0.9,
+      "TextOffsetZ": 120.0
+    }
+  },
+  "Relics": {
+    "Enabled": true,
+    "MaxDistance": 15000.0,
+    "Style": {
+      "BorderColor": {
+        "A": 1.0,
+        "B": 0.0,
+        "G": 0.0,
+        "R": 0.0
+      },
+      "BorderWidth": 1.5,
+      "BoxColor": {
+        "A": 1.0,
+        "B": 1.0,
+        "G": 0.8,
+        "R": 0.8
+      },
+      "BoxPadX": 10.0,
+      "BoxPadY": 6.0,
+      "DistColor": {
+        "A": 1.0,
+        "B": 0.9,
+        "G": 0.9,
+        "R": 0.1
+      },
+      "DrawBox": false,
+      "FontCharW": 8.0,
+      "FontLineH": 12.0,
+      "FontScale": 1.2,
+      "NameColor": {
+        "A": 1.0,
+        "B": 0.9,
+        "G": 0.9,
+        "R": 0.1
+      },
+      "SmallFontScale": 0.9,
+      "TextOffsetZ": 80.0
+    }
+  }
+}

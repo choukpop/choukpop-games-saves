@@ -1,0 +1,56 @@
+{
+  "BorderColor": {
+    "A": 0.6,
+    "B": 1,
+    "G": 1,
+    "R": 0
+  },
+  "CardBg": {
+    "A": 0.85,
+    "B": 0.58823529411765,
+    "G": 0.3921568627451,
+    "R": 0.19607843137255
+  },
+  "Debug": false,
+  "Enabled": true,
+  "HUDScale": 0.79,
+  "HUDX": 76.9,
+  "HUDY": 93.2,
+  "KeyBinds": {
+    "Modifier": "ALT",
+    "ResetCoords": "R",
+    "ToggleEditMode": "F7",
+    "ToggleSlot1": "FIVE",
+    "ToggleSlot2": "SIX",
+    "ToggleSlot3": "SEVEN",
+    "ToggleSlot4": "EIGHT",
+    "ToggleUI": "H"
+  },
+  "Language": "system",
+  "ScanIntervalMs": 1000,
+  "ShadowColor": {
+    "A": 0.9,
+    "B": 0,
+    "G": 0,
+    "R": 0
+  },
+  "SlotsToShow": 4,
+  "TextColorDisabled": {
+    "A": 1,
+    "B": 0,
+    "G": 0,
+    "R": 1
+  },
+  "TextColorEnabled": {
+    "A": 1,
+    "B": 1,
+    "G": 0,
+    "R": 0.3921568627451
+  },
+  "TextColorLabel": {
+    "A": 1,
+    "B": 1,
+    "G": 1,
+    "R": 1
+  }
+}
