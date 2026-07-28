@@ -13,9 +13,9 @@
   },
   "Debug": false,
   "Enabled": true,
-  "HUDScale": 0.79,
-  "HUDX": 76.9,
-  "HUDY": 93.2,
+  "HUDScale": 0.853,
+  "HUDX": 76.4,
+  "HUDY": 93.4,
   "KeyBinds": {
     "Modifier": "ALT",
     "ResetCoords": "R",
