@@ -7,15 +7,15 @@
   },
   "CardBg": {
     "A": 0.85,
-    "B": 0.58823529411765,
-    "G": 0.3921568627451,
-    "R": 0.19607843137255
+    "B": 0.15,
+    "G": 0.07,
+    "R": 0.05
   },
   "Debug": false,
   "Enabled": true,
-  "HUDScale": 0.853,
-  "HUDX": 76.4,
-  "HUDY": 93.4,
+  "HUDScale": 1,
+  "HUDX": 76.0,
+  "HUDY": 94.0,
   "KeyBinds": {
     "Modifier": "ALT",
     "ResetCoords": "R",
