@@ -1,12 +1,14 @@
 
 @echo off
 setlocal enabledelayedexpansion
+title BACKUP SCRIPT
 
 :: ============================================================
 :: CONFIGURATION - EDIT HERE
 :: ============================================================
 set "GAME_SAVE_PATH=C:\Users\ChouKpop\Desktop\save game"
 set "GITHUB_BASE_PATH=D:\Bibliotecas\Others\GitHub\choukpop-games-saves"
+set "GITHUB_BACKUP_FOLDER=%GITHUB_BASE_PATH%\Single Player Games\Survival\Palworld"
 
 :: ============================================================
 :: Items: type|path (type: folder or file)
@@ -343,7 +345,7 @@ echo %CLR_SEPARATOR%===========================================%RESET%
 echo.
 
 :: ============================================================
-:: PAGE 5: DELETING SELECTED ITEMS
+:: PAGE 4.1: DELETING SELECTED ITEMS
 :: Description: Deletes the selected items and shows the result
 :: Example output:
 ::   [DELETING...]
@@ -388,7 +390,7 @@ echo %CLR_SEPARATOR%===========================================%RESET%
 echo.
 
 :: ============================================================
-:: PAGE 6: COPYING FILES
+:: PAGE 4.2: COPYING FILES
 :: Description: Copies files first, then folders
 :: Example output:
 ::   [COPYING...]
@@ -475,7 +477,7 @@ if /i "%do_copy%"=="y" (
 )
 
 :: ============================================================
-:: PAGE 7: FINISH
+:: PAGE 4.3: FINISH
 :: Description: Shows the final completion message
 :: Example output:
 ::   [PROCESS FINISHED]
@@ -486,6 +488,35 @@ echo %CLR_SUCCESS%[PROCESS FINISHED]%RESET%
 echo.
 echo %CLR_HEADERS%Press any key to exit...%RESET%
 pause >nul
+
+:: ============================================================
+:: PAGE 5: OPEN BACKUP FOLDER
+:: ============================================================
+cls
+echo.
+echo %CLR_HEADERS%===========================================%RESET%
+echo %CLR_HEADERS%               BACKUP SCRIPT%RESET%
+echo %CLR_HEADERS%===========================================%RESET%
+echo.
+
+echo %CLR_TEXT%Open backup folder? (y/n):%RESET%
+set /p "open_folder=> "
+
+if /i "%open_folder%"=="y" (
+    if exist "%GITHUB_BACKUP_FOLDER%\" (
+        echo %CLR_SUCCESS%Opening backup folder...%RESET%
+        start "" "%GITHUB_BACKUP_FOLDER%"
+    ) else (
+        echo %CLR_WARNING%Backup folder not found: %GITHUB_BACKUP_FOLDER%%RESET%
+    )
+    echo.
+)
+
+echo %CLR_HEADERS%Press any key to exit...%RESET%
+
+
+
+
 
 :: ============================================================
 :: FUNCTIONS

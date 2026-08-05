@@ -11,7 +11,7 @@ bobView:false
 anaglyph3d:false
 advancedOpengl:true
 fpsLimit:0
-difficulty:0
+difficulty:3
 fancyGraphics:false
 ao:true
 clouds:false
@@ -59,7 +59,12 @@ key_key.extra:21
 key_key.charge:47
 key_key.toggle:34
 key_key.release:19
-key_blockhelper.key_show_hide:82
+key_waila.keybind.wailaconfig:82
+key_waila.keybind.wailadisplay:79
+key_waila.keybind.liquid:80
+key_waila.keybind.recipe:81
+key_waila.keybind.usage:75
+key_waila.keybind.showadvanced:29
 key_Gammabright:34
 key_Brighten:205
 key_Darken:203

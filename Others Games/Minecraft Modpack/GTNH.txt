@@ -1,0 +1,140 @@
+
+- SHIFT + Z -> Zoom Items
+
+=> MODS
+ - OreExcavation
+ - Zume
+ - fbtoggle
+
+=> Disable
+ - HungerOverhaul
+ - Nutrition
+ - Darkerer
+
+
+
+=> Config
+ - .minecraft\journeymap\config\5.2 - copy all files
+
+=> serverutilities/server/ranks
+    - serverutilities.claims.max_chunks: 2000
+    - serverutilities.chunkloader.max_chunks: 2000
+
+    - [player]
+    - default_player_rank: true
+    - power: 1
+    - serverutilities.claims.max_chunks: 2000
+    - serverutilities.chunkloader.max_chunks: 2000
+    - serverutilities.claims.bypass_limits: true
+    - serverutilities.homes.max: 1000
+    - serverutilities.homes.warmup: 0s
+    - serverutilities.homes.cooldown: 0s
+    - serverutilities.homes.cross_dim: false
+
+    - [admin]
+    - default_op_rank: true
+    - power: 100
+    - serverutilities.chat.name_format: <&2{name}&r>
+    - serverutilities.claims.max_chunks: 5000
+    - serverutilities.chunkloader.max_chunks: 5000
+    - serverutilities.claims.bypass_limits: true
+    - serverutilities.homes.max: 1000
+    - serverutilities.homes.warmup: 0s
+    - serverutilities.homes.cooldown: 0s
+    - serverutilities.homes.cross_dim: true
+
+=> serverutilities
+    => world {}
+        - B:chunk_claiming=true - world {}
+        - S:enable_explosions=FALSE - world {}
+        - S:enable_pvp=FALSE - world {}
+
+    => ranks {}
+        - B:enabled=true - ranks {}
+
+    => commands {}
+        - B:home=true - commands {}
+
+=> RandomThings
+    - D:BloodMoonChance=0
+
+=> SpiceOfLife
+    - B:food.modifier.enabled=false
+
+=> cookingforblockheads
+    => general {}
+        - B:sinkRequiresWater=false
+
+=> GregTech/Pollution
+    - B:"Activate Pollution"=false
+
+=> GregTech/GregTech
+    => general {}
+        - I:minimalDistancePoints=1
+
+=> Waila
+    - I:waila.cfg.posx=5000
+    - I:waila.cfg.posy=63
+
+=> AppliedEnergistics2/AppliedEnergistics2
+    => features {} networkfeatures {}
+        - B:Channels=false
+
+=> NEI/Client
+    => inventory {}
+        - gamemodes=creative
+        - utilities=delete, magnet, heal, enchant, creative, creative+, adventure, time
+
+    => subsets {}
+        - enabled=false
+
+    => bookmarks {}
+        - showRecipeMarkerMode=1
+        - worldSpecific=true
+        - recipeTooltipsMode=3
+
+    => favorites {}
+        - depth=100
+        - showRecipeTooltipInGui=true
+        - worldSpecific=true
+
+    => keys {}
+        - back=0   # default: 14
+        - botania_corporea_request=0   # default: 46
+        - enchant=0   # default: 45
+        - getnextsearch=0   # default: 208
+        - getprevioussearch=0   # default: 200
+        - next=0   # default: 209
+        - next_machine=0   # default: 208
+        - next_recipe=0   # default: 205
+        - next_tooltip=205   # default: 44
+        - search=0   # default: 33
+        - tinkers_belt=0   # default: 0
+        - usage=67108883   # default: 22
+        - moboverlay=68
+
+        - bookmark_pull_items=0   # default: 47
+        - craft_items=0   # default: 46
+        - hide=0   # default: 24
+        - hide_bookmarks=0   # default: 48
+        - overlay=0   # default: 31
+        - potion=0   # default: 25
+        - prev=0   # default: 201
+        - prev_machine=0   # default: 200
+        - prev_recipe=0   # default: 203
+        - xu_ping=0   # default: 20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/give ChouRaiden1337 IC2:itemCropSeed 64 0 {owner: "berriespp", scan: 4, name: "Spruce Bonsai", growth: 10, resistance: 10, gain: 10}

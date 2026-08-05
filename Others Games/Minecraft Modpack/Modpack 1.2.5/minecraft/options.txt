@@ -31,7 +31,7 @@ key_key.inventory:18
 key_key.chat:14
 key_key.playerlist:15
 key_key.pickItem:78
-key_Zoom:29
+key_Zoom:44
 key_Sort inventory:19
 key_ALT Key:56
 key_Boost Key:29
