@@ -111,14 +111,17 @@ spawners:
       isActive: true
   iconName: spawner
   # Enable or Disable
-  isActive: false
+  isActive: true
   iconColorRGBA:
     red: 255
     green: 100
     blue: 0
     alpha: 255
 
-# MineRock_gold, MineRock_coal, MineRock_silver_small, MineRock_blackmetal
+# MODDED VALUES
+# MineRock_gold | MineRock_coal | MineRock_iron | MineRock_silver_small | MineRock_blackmetal
+# VV_CopperTinCave | VV_SilverCave | VV_TarCave
+
 
 
 
@@ -171,7 +174,7 @@ dungeons_has_treasure_greydwarf_ruins:
   iconName: dungeon
   isPermanent: true
   # Enable or Disable
-  isActive: false
+  isActive: true
   iconColorRGBA:
     red: 150
     green: 150
@@ -186,7 +189,7 @@ dungeons_has_treasure_stone_house:
   iconName: temple
   isPermanent: true
   # Enable or Disable
-  isActive: false
+  isActive: true
   iconColorRGBA:
     red: 140
     green: 140
@@ -208,7 +211,7 @@ dungeons_has_treasure_stone_tower:
   iconName: monument
   isPermanent: true
   # Enable or Disable
-  isActive: false
+  isActive: true
   iconColorRGBA:
     red: 140
     green: 140
@@ -224,7 +227,7 @@ dungeon_crypt:
   iconName: dungeon
   isPermanent: true
   # Enable or Disable
-  isActive: false
+  isActive: true
   iconColorRGBA:
     red: 255
     green: 255
@@ -238,7 +241,7 @@ dungeon_troll_cave:
   iconName: dungeon
   isPermanent: true
   # Enable or Disable
-  isActive: false
+  isActive: true
   iconColorRGBA:
     red: 0
     green: 0
@@ -253,7 +256,7 @@ spawner_greydwarf_nest:
   iconName: spawner
   isPermanent: true
   # Enable or Disable
-  isActive: false
+  isActive: true
   iconColorRGBA:
     red: 0
     green: 255
@@ -267,7 +270,7 @@ ores_copper:
   iconName: mine
   isPermanent: true
   # Enable or Disable
-  isActive: false
+  isActive: true
   iconColorRGBA:
     red: 200
     green: 150
@@ -281,7 +284,7 @@ ores_tin:
   iconName: mine
   isPermanent: true
   # Enable or Disable
-  isActive: false
+  isActive: true
   iconColorRGBA:
     red: 200
     green: 200
@@ -303,7 +306,7 @@ dungeons_has_treasure_swamp_towers:
   iconName: dungeon
   isPermanent: true
   # Enable or Disable
-  isActive: false
+  isActive: true
   iconColorRGBA:
     red: 150
     green: 150
@@ -321,7 +324,7 @@ dungeons_has_treasure_swamp_huts:
   iconName: dungeon
   isPermanent: true
   # Enable or Disable
-  isActive: false
+  isActive: true
   iconColorRGBA:
     red: 105
     green: 40
@@ -335,7 +338,7 @@ dungeon_sunken_crypt:
   iconName: dungeon
   isPermanent: true
   # Enable or Disable
-  isActive: false
+  isActive: true
   iconColorRGBA:
     red: 80
     green: 80
@@ -349,7 +352,7 @@ spawner_surtlings:
   iconName: spawner
   isPermanent: true
   # Enable or Disable
-  isActive: false
+  isActive: true
   iconColorRGBA:
     red: 255
     green: 0
@@ -363,7 +366,7 @@ ores_iron_deposit:
   iconName: mine
   isPermanent: true
   # Enable or Disable
-  isActive: false
+  isActive: true
   iconColorRGBA:
     red: 155
     green: 155
@@ -377,7 +380,7 @@ ores_coal_deposit:
   iconName: mine
   isPermanent: true
   # Enable or Disable
-  isActive: false
+  isActive: true
   iconColorRGBA:
     red: 50
     green: 50
