@@ -1,115 +1,117 @@
-"Enchanting Pouch":
-  description: "A small mystical pouch designed for enchanters, perfect for carrying essence, dust, shards, reagents, and runestones. Lightens their weight by 20%"
+"Backpack Assassin’s Arsenal":
+  description: "A sleek, shadow‑stitched satchel favored by rogues and silent killers. The Assassin’s Arsenal keeps throwing knives, shuriken, darts, and venom vials organized and ready at a moment’s notice. Built for speed and subtlety, it’s the perfect companion for any Viking who prefers precision over brute force.. Lightens their weight by 20%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
   appearance:
     Sleepbag: hidden
     BackpackStrapTop: hidden
-    BackpackFlap: 9f00f3
-    Pot: 9f00f3
-    Teapot: 9f00f3
-    Knife: hidden
+    BackpackFlap: 0acb8a
+    Pot: hidden
+    Teapot: hidden
+    Knife: 999999
     Pickaxe: hidden
-    Knifesheath: hidden
+    Knifesheath: b09078
     ToolstrapBottom: hidden
     MetalclipLeft: hidden
-    PouchFront: 9f00f3
-    PouchLeft: 9f00f3
-    BackpackBody: 000000
+    PouchFront: 0acb8a
+    PouchLeft: 0acb8a
+    BackpackBody: 0a0f0a
   crafting:
     station: Forge
     level: 1
     costs:
       LeatherScraps: 5
       DeerHide: 5
-      FoxPelt_TW: 2
-      WoolScraps_TW: 1
+      RavenStone: 5
+      RavenRation: 5
   valid items:
-    - RunestoneMagic
-    - RunestoneRare
-    - RunestoneEpic
-    - RunestoneLegendary
-    - RunestoneMythic
-    - ShardMagic
-    - ShardRare
-    - ShardEpic
-    - ShardLegendary
-    - ShardMythic
-    - DustMagic
-    - DustRare
-    - DustEpic
-    - DustLegendary
-    - DustMythic
-    - ReagentMagic
-    - ReagentRare
-    - ReagentEpic
-    - ReagentLegendary
-    - ReagentMythic
-    - EssenceMagic
-    - EssenceRare
-    - EssenceEpic
-    - EssenceLegendary
-    - EssenceMythic
-    - ForestToken
-    - IronBountyToken
-    - GoldBountyToken
-    - SDO_dim_eitr
-    - SDO_capsule
-    - SDO_cogwheel
-    - SDO_book
-    - SDO_divine_orb
-    - SDO_sand
-    - SDO_books_tales
-    - DimEitrRemnantDO
-    - SpiritLightDO
-    - SpiritDeathDO
-    - SpiritFrostDO
-    - SpiritFireDO
-    - SpiritStormDO
-    - SpiritAncestorsDO
-    - SpiritWindDO
+    - Trinket_Rogue_Rank1
+    - Trinket_Rogue_Rank2
+    - Trinket_Rogue_Rank3
+    - Trinket_Rogue_Rank4
+    - Trinket_Rogue_Rank5
+    - Hellbroth_of_Flames
+    - Hellbroth_of_Frost
+    - Hellbroth_of_Thors_Fury
+    - ThrowingWhirlstarCoreBronzeDO
+    - ThrowingWhirlstarCoreIronDO
+    - ThrowingWhirlstarCoreSilverDO
+    - ThrowingWhirlstarCoreBlackmetalDO
+    - ThrowingWhirlstarCoreFlametalDO
+    - ThrowingKnifeCoreBronzeDO
+    - ThrowingKnifeCoreIronDO
+    - ThrowingKnifeCoreSilverDO
+    - ThrowingKnifeCoreBlackmetalDO
+    - ThrowingKnifeCoreFlametalDO
+    - ThrowAxeFlint_TW
+    - ThrowAxeBronze_TW
+    - ThrowAxeIron_TW
+    - ThrowAxeSilver_TW
+    - ThrowAxeBlackmetal_TW
+    - ThrowAxeDvergr_TW
+    - BombBlob_Frost
+    - BombBlob_Lava
+    - BombBlob_Poison
+    - BombBlob_PoisonElite
+    - BombBlob_Tar
+    - BombBile
+    - BombLava
+    - BombSmoke
+    - BombOoze
+    - BombSpirit_TW
+    - BombSmokeEscapeDO
+    - BombMinerDynamiteDO
+    - BombPlagueDO
+    - Grand_Stealth_Elixir
+    - PotionSneak_TW
+    - MeadPoisonResist
+    - ArrowPoison
+    - BoltSyringePoisonDO
+    - BoltPoison_TW
+    - BoltExplosivePoison_TW
+    - ArrowExplosivePoison_TW
   upgrade:
     1:
-      BlackBearPelt_TW: 5
-      RazorbackLeather_TW: 5
       TrollHide: 2
-      SurtlingCore: 1
+      BjornHide: 2
+      Ravenwood: 5
+      RavenRation: 5
       size: 3x4
     2:
-      Entrails: 5
-      Bloodbag: 5
-      RottenPelt_TW: 2
+      ElderBark: 5
       Root: 1
+      RavenRock: 5
+      RavenRation: 5
       size: 4x4
     3:
       WolfPelt: 5
-      GrizzlyBearPelt_TW: 5
       WolfHairBundle: 2
-      Chitin: 1
+      RavenStone: 10
+      RavenRation: 5
       size: 5x4
     4:
-      Flax: 5
+      LoxPelt: 5
       LinenThread: 5
-      LoxPelt: 2
-      SerpentScale: 1
+      RavenRock: 10
+      RavenRation: 5
       size: 6x4
     5:
-      ScaleHide: 5
       Carapace: 5
-      Bilebag: 2
-      BlackCore: 1
+      ScaleHide: 5
+      RavenRation: 10
+      RavenRune: 1
       size: 7x4
     6:
       AskHide: 5
-      CelestialFeather: 5
-      MorgenSinew: 2
-      MoltenCore: 1
+      MorgenSinew: 1
+      Ravenwood: 20
+      RavenRune: 2
       size: 8x4
   weight factor: 0.80
   teleport: true
 
 
-"Shaft Satchel":
+"Backpack Shaft Satchel":
   description: "A small storage container for ammo. This does not act as a quiver. This simply stores all ammunition. Arrows, Bolts, Bombs, Missiles and Payloads. Lightens their weight by 20%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -133,8 +135,8 @@
     costs:
       LeatherScraps: 5
       DeerHide: 5
-      FoxPelt_TW: 2
-      WoolScraps_TW: 1
+      RavenStone: 5
+      RavenRation: 5
   valid items:
     - BombSiege
     - Catapult_ammo
@@ -163,11 +165,6 @@
     - ArrowPickaxe_TW
     - ArrowExplosiveLightning_TW
     - ArrowExplosivePoison_TW
-    - VAArrowGreenMetal
-    - VAArrowBone
-    - VAarrow_surtling_fire
-    - VAArrowAncient
-    - VAChitinArrow
     - BoltBlackmetal
     - TurretBolt
     - TurretBoltBone
@@ -188,24 +185,7 @@
     - BoltPickaxe_TW
     - BoltExplosiveLightning_TW
     - BoltExplosivePoison_TW
-    - VABoltWood
-    - VABoltCoreWood
-    - VAbolt_bronze
-    - VAbolt_poison
-    - VAObsidianBolt
-    - VAbolt_frost
-    - VASurtlingBolt
-    - BombBile
-    - BombLava
-    - BombOoze
-    - BombSiege
-    - BombSmoke
-    - BombSpirit_TW
-    - BombFrost_TW
-    - BombFire_TW
-    - BombLightning_TW
     - Needle
-    - BoltPlaguePoisonDO
     - BoltFlintDO
     - BoltStoneDO
     - BoltBoneDO
@@ -214,47 +194,47 @@
     - BoltMarbleDO
   upgrade:
     1:
-      BlackBearPelt_TW: 5
-      RazorbackLeather_TW: 5
       TrollHide: 2
-      SurtlingCore: 1
+      BjornHide: 2
+      Ravenwood: 5
+      RavenRation: 5
       size: 3x4
     2:
-      Entrails: 5
-      Bloodbag: 5
-      RottenPelt_TW: 2
+      ElderBark: 5
       Root: 1
+      RavenRock: 5
+      RavenRation: 5
       size: 4x4
     3:
       WolfPelt: 5
-      GrizzlyBearPelt_TW: 5
       WolfHairBundle: 2
-      Chitin: 1
+      RavenStone: 10
+      RavenRation: 5
       size: 5x4
     4:
-      Flax: 5
+      LoxPelt: 5
       LinenThread: 5
-      LoxPelt: 2
-      SerpentScale: 1
+      RavenRock: 10
+      RavenRation: 5
       size: 6x4
     5:
-      ScaleHide: 5
       Carapace: 5
-      Bilebag: 2
-      BlackCore: 1
+      ScaleHide: 5
+      RavenRation: 10
+      RavenRune: 1
       size: 7x4
     6:
       AskHide: 5
-      CelestialFeather: 5
-      MorgenSinew: 2
-      MoltenCore: 1
+      MorgenSinew: 1
+      Ravenwood: 20
+      RavenRune: 2
       size: 8x4
   weight factor: 0.80
   teleport: true
   
   
   
-"Tool Belt":
+"Backpack Tool Belt":
   description: "A versatile heavy belt designed for builders, containing all the essential hammers and tools for construction. Lightens their weight by 10%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -278,13 +258,12 @@
     costs:
       LeatherScraps: 5
       DeerHide: 5
-      FoxPelt_TW: 2
-      WoolScraps_TW: 1
+      RavenStone: 5
+      RavenRation: 5
   valid items:
     - Cultivator
     - Hammer
     - Hoe
-    - bp_hammer
     - GB_Parchment_Tool
     - BJORKSNAS
     - $PlumgaPlantItShovel
@@ -308,7 +287,6 @@
     - PickaxeSilver_TW
     - PickaxeBlackMetal
     - PickaxeFader_TW
-    - VABlood_Bones_pickaxe
     - AxeIron
     - AxeBronze
     - AxeSilver_TW
@@ -319,61 +297,72 @@
     - BattleaxeCrystal_TW
     - BattleaxeCrystalEmerald_TW
     - BattleaxeCrystalAmethyst_TW
-    - VAbronze_battleaxe
     - KnifeButcher
     - ef_hammer
     - Feaster
     - Scythe
     - ScytheHandle
     - BarrelRings
-    - VillageHammer
     - RS_LanternOrb
     - RS_Lantern
     - Lantern
     - piece_dvergr_BetterHandLantern
     - piece_dvergr_WispHandLantern
+    - BattleaxeSkullSplittur
+    - Battleaxe
+    - AxeJotunBane
+    - BattleaxeBlackmetal
+    - PickaxeDualMinerBronzeDO
+    - PickaxeDualMinerIronDO
+    - PickaxeDualMinerBlackmetalDO
+    - PickaxeDualMinerFlametalDO
+    - FittingsBronzeDO
+    - FittingsIronDO
+    - FittingsSilverDO
+    - FittingsBlackmetalDO
+    - FittingsFlametalDO
   upgrade:
     1:
-      BlackBearPelt_TW: 5
-      RazorbackLeather_TW: 5
       TrollHide: 2
-      SurtlingCore: 1
+      BjornHide: 2
+      Ravenwood: 5
+      RavenRation: 5
       size: 3x4
     2:
-      Entrails: 5
-      Bloodbag: 5
-      RottenPelt_TW: 2
+      ElderBark: 5
       Root: 1
+      RavenRock: 5
+      RavenRation: 5
       size: 4x4
     3:
       WolfPelt: 5
-      GrizzlyBearPelt_TW: 5
       WolfHairBundle: 2
-      Chitin: 1
+      RavenStone: 10
+      RavenRation: 5
       size: 5x4
     4:
-      Flax: 5
+      LoxPelt: 5
       LinenThread: 5
-      LoxPelt: 2
-      SerpentScale: 1
+      RavenRock: 10
+      RavenRation: 5
       size: 6x4
     5:
-      ScaleHide: 5
       Carapace: 5
-      Bilebag: 2
-      BlackCore: 1
+      ScaleHide: 5
+      RavenRation: 10
+      RavenRune: 1
       size: 7x4
     6:
       AskHide: 5
-      CelestialFeather: 5
-      MorgenSinew: 2
-      MoltenCore: 1
+      MorgenSinew: 1
+      Ravenwood: 20
+      RavenRune: 2
       size: 8x4
   weight factor: 0.90
   teleport: true
 
 
-"Potion Pouch":
+"Backpack Potion Pouch":
   description: "A specialized medium sized pouch designed for alchemists, perfect for carrying potions, elixirs, and tonics. Lightens their weight by 15%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -396,8 +385,8 @@
     costs:
       LeatherScraps: 5
       DeerHide: 5
-      FoxPelt_TW: 2
-      WoolScraps_TW: 1
+      RavenStone: 5
+      RavenRation: 5
   valid items:
     - BH_BeserkerElixer
     - BH_Chicory
@@ -503,58 +492,71 @@
     - RS_HealthPotion_1
     - RS_HealthPotion_2
     - RS_HealthPotion_3
-    - RS_SpeedPotion_1
-    - RS_StrengthPotion
-    - RS_WindPotion
     - RS_EtherPotion
     - RS_RevitalizePotion
-    - RS_TundraPotion
     - RS_RepairPotion
     - RS_BerryWine
-    - FishExtract
     - BlobVial
+    - RP_PotionMinorDefense
+    - RP_PotionMediumDefense
+    - RP_PotionMajorDefense
+    - RP_PotionMythicDefense
+    - RP_PotionMinorFortitude
+    - RP_PotionMediumFortitude
+    - RP_PotionMajorFortitude
+    - RP_PotionMythicFortitude
+    - RP_PotionMinorIntellect
+    - RP_PotionMediumIntellect
+    - RP_PotionMajorIntellect
+    - RP_PotionMythicIntellect
+    - RP_PotionMinorAgility
+    - RP_PotionMediumAgility
+    - RP_PotionMajorAgility
+    - RP_PotionMythicAgility
+    - RWB_Ravenwood_Elixir
+    - RWB_Ravenwood_Serum
   upgrade:
     1:
-      BlackBearPelt_TW: 5
-      RazorbackLeather_TW: 5
       TrollHide: 2
-      SurtlingCore: 1
+      BjornHide: 2
+      Ravenwood: 5
+      RavenRation: 5
       size: 3x4
     2:
-      Entrails: 5
-      Bloodbag: 5
-      RottenPelt_TW: 2
+      ElderBark: 5
       Root: 1
+      RavenRock: 5
+      RavenRation: 5
       size: 4x4
     3:
       WolfPelt: 5
-      GrizzlyBearPelt_TW: 5
       WolfHairBundle: 2
-      Chitin: 1
+      RavenStone: 10
+      RavenRation: 5
       size: 5x4
     4:
-      Flax: 5
+      LoxPelt: 5
       LinenThread: 5
-      LoxPelt: 2
-      SerpentScale: 1
+      RavenRock: 10
+      RavenRation: 5
       size: 6x4
     5:
-      ScaleHide: 5
       Carapace: 5
-      Bilebag: 2
-      BlackCore: 1
+      ScaleHide: 5
+      RavenRation: 10
+      RavenRune: 1
       size: 7x4
     6:
       AskHide: 5
-      CelestialFeather: 5
-      MorgenSinew: 2
-      MoltenCore: 1
+      MorgenSinew: 1
+      Ravenwood: 20
+      RavenRune: 2
       size: 8x4
   weight factor: 0.85
   teleport: true
 
 
-"Tackle Box":
+"Backpack Tackle Box":
   description: "A small handy box for fishing enthusiasts, designed to carry fishing rods, bait, and trophy fish. Lightens their weight by 20%"
   size: 2x4 
   unique: type
@@ -577,8 +579,8 @@
     costs:
       LeatherScraps: 5
       DeerHide: 5
-      FoxPelt_TW: 2
-      WoolScraps_TW: 1
+      RavenStone: 5
+      RavenRation: 5
   valid items:
     - FishingBait
     - FishingBaitAshlands
@@ -604,95 +606,48 @@
     - Fish8
     - Fish9
     - FishRaw
-    - TF1ClownfishDrop
-    - TF1FoureyebutterflyfishDrop
-    - TF1LionfishDrop
-    - TF1PurplefishDrop
-    - TF1TrumpetfishDrop
-    - TF1YellowBoxfishDrop
-    - TF1WhiteMulletDrop
-    - TF1RainbowcichlidDrop
-    - TF1BluetangDrop
-    - TF1BlackSpottedDrop
-    - TF1AmurDrop
-    - TF1AmberjackDrop
-    - TF2ButterflyfishDrop
-    - TF2CuttlefishDrop
-    - TF2EmperorAngelfishDrop
-    - TF2LongearSunfishDrop
-    - TF2OreochromisDrop
-    - TF2OrangespineUnicornfishDrop
-    - TF2NimbochromisDrop
-    - TF2MoorishIdolDrop
-    - TF2GoldCarpDrop
-    - TF2GoldRedeyeDrop
-    - TF2FrontosaDrop
-    - TF2BrownTroutDrop
-    - TF2BobaDrop
-    - BakedFish
-    - TF2OrangespineUnicornfishDrop
-    - Starfishblack
-    - Starfishblue
-    - Starfishgreen
-    - Starfishorange
-    - Starfishpurple
-    - Starfishred
-    - Starfishwhite
-    - TFCrab
-    - TF1TurtleDrop
-    - TF3YellowfinTunaDrop
-    - TF3XipDrop
-    - TF3MahiMahiDrop
-    - TF3StingrayDrop
-    - TF3GoliathGrouperDrop
-    - TF3GiantSeaBassDrop
-    - TF3CorvinaDrop
-    - TF3CobiaDrop
-    - TF3BlueMarlinDrop
-    - TF3BarracudaDrop
-    - TF3AtlanticCodDrop
   upgrade:
     1:
-      BlackBearPelt_TW: 5
-      RazorbackLeather_TW: 5
       TrollHide: 2
-      SurtlingCore: 1
+      BjornHide: 2
+      Ravenwood: 5
+      RavenRation: 5
       size: 3x4
     2:
-      Entrails: 5
-      Bloodbag: 5
-      RottenPelt_TW: 2
+      ElderBark: 5
       Root: 1
+      RavenRock: 5
+      RavenRation: 5
       size: 4x4
     3:
       WolfPelt: 5
-      GrizzlyBearPelt_TW: 5
       WolfHairBundle: 2
-      Chitin: 1
+      RavenStone: 10
+      RavenRation: 5
       size: 5x4
     4:
-      Flax: 5
+      LoxPelt: 5
       LinenThread: 5
-      LoxPelt: 2
-      SerpentScale: 1
+      RavenRock: 10
+      RavenRation: 5
       size: 6x4
     5:
-      ScaleHide: 5
       Carapace: 5
-      Bilebag: 2
-      BlackCore: 1
+      ScaleHide: 5
+      RavenRation: 10
+      RavenRune: 1
       size: 7x4
     6:
       AskHide: 5
-      CelestialFeather: 5
-      MorgenSinew: 2
-      MoltenCore: 1
+      MorgenSinew: 1
+      Ravenwood: 20
+      RavenRune: 2
       size: 8x4
   weight factor: 0.80
   teleport: true
 
 
-"Forager/Farming Basket":
+"Backpack Forager/Farming Basket":
   description: "A small wicker basket perfect for farmers and herbalists. Designed to carry flowers, plants, berries, veggies and other natural items. Lightens their weight by 20%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -716,8 +671,8 @@
     costs:
       LeatherScraps: 5
       DeerHide: 5
-      FoxPelt_TW: 2
-      WoolScraps_TW: 1
+      RavenStone: 5
+      RavenRation: 5
   valid items:
     - Dandelion
     - Thistle
@@ -767,48 +722,51 @@
     - WinterFlower_RS
     - Radish_RS
     - Potato_RS
+    - RWB_Green_Mushroom
+    - RWB_Purple_Mushroom
+    - BarleyFlour
   upgrade:
     1:
-      BlackBearPelt_TW: 5
-      RazorbackLeather_TW: 5
       TrollHide: 2
-      SurtlingCore: 1
+      BjornHide: 2
+      Ravenwood: 5
+      RavenRation: 5
       size: 3x4
     2:
-      Entrails: 5
-      Bloodbag: 5
-      RottenPelt_TW: 2
+      ElderBark: 5
       Root: 1
+      RavenRock: 5
+      RavenRation: 5
       size: 4x4
     3:
       WolfPelt: 5
-      GrizzlyBearPelt_TW: 5
       WolfHairBundle: 2
-      Chitin: 1
+      RavenStone: 10
+      RavenRation: 5
       size: 5x4
     4:
-      Flax: 5
+      LoxPelt: 5
       LinenThread: 5
-      LoxPelt: 2
-      SerpentScale: 1
+      RavenRock: 10
+      RavenRation: 5
       size: 6x4
     5:
-      ScaleHide: 5
       Carapace: 5
-      Bilebag: 2
-      BlackCore: 1
+      ScaleHide: 5
+      RavenRation: 10
+      RavenRune: 1
       size: 7x4
     6:
       AskHide: 5
-      CelestialFeather: 5
-      MorgenSinew: 2
-      MoltenCore: 1
+      MorgenSinew: 1
+      Ravenwood: 20
+      RavenRune: 2
       size: 8x4
   weight factor: 0.80
   teleport: true
   
   
-"Trophy Trunk":
+"Backpack Trophy Trunk":
   description: "A heavy decorative trunk designed to store trophies of various animals and monsters. Lightens their weight by 10%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -831,8 +789,8 @@
     costs:
       LeatherScraps: 5
       DeerHide: 5
-      FoxPelt_TW: 2
-      WoolScraps_TW: 1
+      RavenStone: 5
+      RavenRation: 5
   valid items:
     - TrophyProwler_TW
     - TrophyGrizzlyBear_TW
@@ -919,42 +877,165 @@
     - TrophyBjorn
     - TrophyBjornUndead
     - TrophyGhost
+    - RB_TrophyJaguar
+    - RB_TrophyPanther
+    - RB_TrophyLioness
+    - RB_TrophyLionessWhite
+    - RB_TrophyLion
+    - RB_TrophyLionScar
+    - RB_TrophyLionWhite
+    - RB_TrophyWereWolf
+    - RB_TrophyARACHNE
+    - RB_TrophySAMURAICHOSOKABE
+    - RB_TrophySAMURAIHOJO
+    - RB_TrophySAMURAIODA
+    - RB_TrophySAMURAISHIMAZU
+    - RB_TrophySAMURAITAKEDA
+    - RB_TrophyElf1
+    - RB_TrophyElf
+    - RB_TrophyFrostElf
+    - RB_TrophyFireElf
+    - RB_TrophyLigthingElf
+    - RB_TrophyPoisonElf
+    - RB_TrophySteelstonedwarf
+    - RB_TrophySilverStonedwarf1
+    - RB_TrophySilverStonedwarf2
+    - RB_TrophySteelstonedwarf1
+    - RB_TrophySteelstonedwarf2
+    - RB_TrophySilverStonedwarf
+    - RB_TROPHYORC
+    - RB_TROPHYORCBLEENDINGHOLLOW
+    - RB_TROPHYORCFROSTWOLFCLAN
+    - RB_TROPHYORCBLACKROCK
+    - RB_TROPHYORCORCSHATTERDHAND
+    - RB_TROPHYWarsongScout
+    - RB_TROPHYORCBLEENDINGHOLLOWScout
+    - RB_TROPHYORCFROSTWOLFSCOUTCLAN
+    - RB_TROPHYORCBLACKROCKSCOUT
+    - RB_TROPHYORCORCSHATTERDHANDSCOUT
+    - RB_TROPHYDRAZGUL
+    - LTR_TrophyBalrog
+    - LTR_TrophyEnt
+    - LTR_TrophyEnt1
+    - LTR_Trophytroll
+    - LTR_TrophySpider
+    - Out_TrophyVoidLord
+    - LTR_TrophySpiderShelob
+    - Trophy_Beetle_Gold_CC
+    - Trophy_Beetle_Scarab_CC
+    - Trophy_Beetle_Shrub_CC
+    - Trophy_Beetle_Stink_CC
+    - Trophy_Insect_Cave_CC
+    - Trophy_Insect_Lava_CC
+    - Trophy_Insect_Hoarfrost_CC
+    - Trophy_Insect_Mist_CC
+    - Trophy_Spider_Plains_CC
+    - Trophy_Spider_Hoarfrost_CC
+    - Trophy_Spider_Lava_CC
+    - Trophy_Spider_Cave_CC
+    - Trophy_Spider_Forest_CC
+    - Trophy_Spider_Swamp_CC
+    - Trophy_SpiderCrab_Cave_CC
+    - Trophy_SpiderCrab_Ocean_CC
+    - Trophy_SpiderCrab_Forest_CC
+    - Trophy_Undead_DA
+    - Trophy_UndeadCarver_DA
+    - Trophy_UndeadDesecrator_DA
+    - Trophy_UndeadReaver_DA
+    - Trophy_UndeadRipper_DA
+    - Trophy_Skeleton1H_DA
+    - Trophy_Skeleton2H_DA
+    - Trophy_Vampire_DA
+    - Trophy_UndeadBoss_DA
+    - Trophy_Cyclops_FC
+    - Trophy_DarknessSpider_FC
+    - Trophy_DemonLord_FC
+    - Trophy_EarthElemental_FC
+    - Trophy_Ent_FC
+    - Trophy_FireElemental_FC
+    - Trophy_Ghoul_FC
+    - Trophy_GiantViper_FC
+    - Trophy_Hobgoblin_FC
+    - Trophy_IceElemental_FC
+    - Trophy_Kobold_FC
+    - Trophy_Manticore_FC
+    - Trophy_Mummy_FC
+    - Trophy_Ogre_FC
+    - Trophy_HillGiant_HG
+    - Trophy_MountainGiant_HG
+    - Trophy_Giant_HG
+    - Trophy_FrostGiant_HG
+    - Trophy_Jotunn_HG
+    - Trophy_FireGiant_HG
+    - Trophy_FlyingEye_GE
+    - Trophy_FlyingEyeBlack_GE
+    - Trophy_FlyingEyeBlue_GE
+    - Trophy_FlyingEyeGreen_GE
+    - Trophy_FlyingEyePink_GE
+    - Trophy_FlyingEyePurple_GE
+    - Trophy_FlyingEyeWhite_GE
+    - Trophy_FireMinotaurArmoured_HM
+    - Trophy_FireMinotaur_HM
+    - Trophy_Minotaur_HM
+    - Trophy_MinotaurArmoured_HM
+    - Trophy_FrostMinotaur_HM
+    - Trophy_FrostMinotaurArmoured_HM
+    - Trophy_ScorpionBlack_SM
+    - Trophy_ScorpionBlue_SM
+    - Trophy_ScorpionBrown_SM
+    - Trophy_ScorpionBoss_SM
+    - Trophy_ScorpionGreen_SM
+    - Trophy_ScorpionPink_SM
+    - Trophy_ScorpionPurple_SM
+    - Trophy_ScorpionRed_SM
+    - Trophy_ScorpionWhite_SM
+    - Trophy_ScorpionYellow_SM
+    - Trophy_Dragon_BigBlackD
+    - Trophy_Dragon_Poison
+    - Trophy_Dragon_Frost
+    - Trophy_Dragon_Lightning
+    - Trophy_Dragon_Fire
+    - Trophy_Cultist_Fire_Ygg
+    - Trophy_Cultist_Frost_Ygg
+    - Trophy_Cultist_Lightning_Ygg
+    - Trophy_Cultist_Poison_Ygg
+    - rae_OdinHorse_Trophy
   upgrade:
     1:
-      BlackBearPelt_TW: 5
-      RazorbackLeather_TW: 5
       TrollHide: 2
-      SurtlingCore: 1
+      BjornHide: 2
+      Ravenwood: 5
+      RavenRation: 5
       size: 3x4
     2:
-      Entrails: 5
-      Bloodbag: 5
-      RottenPelt_TW: 2
+      ElderBark: 5
       Root: 1
+      RavenRock: 5
+      RavenRation: 5
       size: 4x4
     3:
       WolfPelt: 5
-      GrizzlyBearPelt_TW: 5
       WolfHairBundle: 2
-      Chitin: 1
+      RavenStone: 10
+      RavenRation: 5
       size: 5x4
     4:
-      Flax: 5
+      LoxPelt: 5
       LinenThread: 5
-      LoxPelt: 2
-      SerpentScale: 1
+      RavenRock: 10
+      RavenRation: 5
       size: 6x4
     5:
-      ScaleHide: 5
       Carapace: 5
-      Bilebag: 2
-      BlackCore: 1
+      ScaleHide: 5
+      RavenRation: 10
+      RavenRune: 1
       size: 7x4
     6:
       AskHide: 5
-      CelestialFeather: 5
-      MorgenSinew: 2
-      MoltenCore: 1
+      MorgenSinew: 1
+      Ravenwood: 20
+      RavenRune: 2
       size: 8x4
   weight factor: 0.90
   teleport: true
@@ -962,7 +1043,7 @@
   
   
   
-"Miner's Bag":
+"Backpack Miner's Bag":
   description: "An essential heavy bag for miners, optimized for carrying ores and stones. Lightens their weight by 10%."
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -986,8 +1067,8 @@
     costs:
       LeatherScraps: 5
       DeerHide: 5
-      FoxPelt_TW: 2
-      WoolScraps_TW: 1
+      RavenStone: 5
+      RavenRation: 5
   valid items:
     - TinOre
     - CopperOre
@@ -1020,42 +1101,55 @@
     - BRP_RefinedStone
     - PlatinumOre_RS
     - Platinum_RS
+    - dokkbornscrap
+    - glaesfirscrap
+    - dokkborn
+    - glaesfir
+    - StoneRock
+    - Gold_Bar_Ygg
+    - GoldIngot
+    - ArmorMinerChestDO
+    - ArmorMinerLegsDO
+    - ArmorMinerHelmetDO
+    - ArmorMinerCapeDO
+    - ArmorMinerBeltDO
+    - BombMinerDynamiteDO
   upgrade:
     1:
-      BlackBearPelt_TW: 5
-      RazorbackLeather_TW: 5
       TrollHide: 2
-      SurtlingCore: 1
+      BjornHide: 2
+      Ravenwood: 5
+      RavenRation: 5
       size: 3x4
     2:
-      Entrails: 5
-      Bloodbag: 5
-      RottenPelt_TW: 2
+      ElderBark: 5
       Root: 1
+      RavenRock: 5
+      RavenRation: 5
       size: 4x4
     3:
       WolfPelt: 5
-      GrizzlyBearPelt_TW: 5
       WolfHairBundle: 2
-      Chitin: 1
+      RavenStone: 10
+      RavenRation: 5
       size: 5x4
     4:
-      Flax: 5
+      LoxPelt: 5
       LinenThread: 5
-      LoxPelt: 2
-      SerpentScale: 1
+      RavenRock: 10
+      RavenRation: 5
       size: 6x4
     5:
-      ScaleHide: 5
       Carapace: 5
-      Bilebag: 2
-      BlackCore: 1
+      ScaleHide: 5
+      RavenRation: 10
+      RavenRune: 1
       size: 7x4
     6:
       AskHide: 5
-      CelestialFeather: 5
-      MorgenSinew: 2
-      MoltenCore: 1
+      MorgenSinew: 1
+      Ravenwood: 20
+      RavenRune: 2
       size: 8x4
   weight factor: 0.90
   teleport: false
@@ -1063,7 +1157,7 @@
   
   
 
-"Timber Tote":
+"Backpack Timber Tote":
   description: "A sturdy heavy bag designed for the diligent lumberjack. It eases the burden of carrying logs. Lightens their weight by 10%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -1087,8 +1181,8 @@
     costs:
       LeatherScraps: 5
       DeerHide: 5
-      FoxPelt_TW: 2
-      WoolScraps_TW: 1
+      RavenStone: 5
+      RavenRation: 5
   valid items:
     - FineWood
     - Wood
@@ -1107,49 +1201,52 @@
     - OP_Bamboo_Wood
     - DeadWood_RS
     - ZG_Bamboo_Wood
+    - Ravenwood
+    - WoodTarDO
+    - WoodResinDO
   upgrade:
     1:
-      BlackBearPelt_TW: 5
-      RazorbackLeather_TW: 5
       TrollHide: 2
-      SurtlingCore: 1
+      BjornHide: 2
+      Ravenwood: 5
+      RavenRation: 5
       size: 3x4
     2:
-      Entrails: 5
-      Bloodbag: 5
-      RottenPelt_TW: 2
+      ElderBark: 5
       Root: 1
+      RavenRock: 5
+      RavenRation: 5
       size: 4x4
     3:
       WolfPelt: 5
-      GrizzlyBearPelt_TW: 5
       WolfHairBundle: 2
-      Chitin: 1
+      RavenStone: 10
+      RavenRation: 5
       size: 5x4
     4:
-      Flax: 5
+      LoxPelt: 5
       LinenThread: 5
-      LoxPelt: 2
-      SerpentScale: 1
+      RavenRock: 10
+      RavenRation: 5
       size: 6x4
     5:
-      ScaleHide: 5
       Carapace: 5
-      Bilebag: 2
-      BlackCore: 1
+      ScaleHide: 5
+      RavenRation: 10
+      RavenRune: 1
       size: 7x4
     6:
       AskHide: 5
-      CelestialFeather: 5
-      MorgenSinew: 2
-      MoltenCore: 1
+      MorgenSinew: 1
+      Ravenwood: 20
+      RavenRune: 2
       size: 8x4
   weight factor: 0.90
   teleport: true
 
 
 
-"Lunch Box":
+"Backpack Lunch Box":
   description: "A compact and convenient medium sized box designed to carry all sorts of food items for adventurers on the go. Lightens their weight by 15%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -1172,8 +1269,8 @@
     costs:
       LeatherScraps: 5
       DeerHide: 5
-      FoxPelt_TW: 2
-      WoolScraps_TW: 1
+      RavenStone: 5
+      RavenRation: 5
   valid items:
     - ShroomSoupBlackForest_TW
     - EitrPlateBlackForest_TW
@@ -1276,11 +1373,8 @@
     - HoneyCooked
     - HoneyDessertPie
     - HoneyHarePie
-    - HoneyMeadSpeed
-    - HoneyMeadDamage
     - BHP_PumpkinBread
     - BHP_PumpkinPie
-    - BakedFish
     - Feaster
     - SpiceAshlands
     - SpiceForests
@@ -1319,49 +1413,134 @@
     - MeatPlate07_RS
     - MeatPlate02_RS
     - MeatPlate01_RS
+    - CookedBjornMeat
+    - VikingCupcake
+    - seasonedcookedboarmeat
+    - seasonedcookeddeermeat
+    - seasonedmushroom
+    - seasonedcarrot
+    - seasonedsausages
+    - seasonedturnip
+    - sparklingmuckshake
+    - seasonedcookedwolfmeat
+    - seasonedvegetableskewer
+    - seasonedonion
+    - sprinkledeyescream
+    - seededbreaddough
+    - seededbread
+    - roastedloxmeat
+    - charredloxmeat
+    - fishskewer
+    - infusedmagecaps
+    - infusedjotunnpuffs
+    - infusedcookedseekermeat
+    - infusedcookedharemeat
+    - charredsmokepuff
+    - scorchedasksvintail
+    - scorchedmorgenheart
+    - scorchedvolturemeat
+    - marbledmixedmeats
+    - honeycoatedvegetables
+    - berrybraisedboar
+    - agedcuredmeats
+    - sweetenedvegetablebowl
+    - swampystew
+    - fenringmeatboard
+    - highlandssoup
+    - poacheddrakescales
+    - mixeddoughplatter
+    - tarredplainspies
+    - charredtarredplainspies
+    - jotunnsbounty
+    - seekersupreme
+    - gjallsfireybroth
+    - firstlandsfeast
+    - firstlandsfeast_material
+    - pinesmokedvegetables
+    - pinesmokedvegetables_material
+    - eldersinfusedsap
+    - eldersinfusedsap_material
+    - drippingporktrimmings
+    - drippingporktrimmings_material
+    - RB_JaguarCookedMeat
+    - RB_JaguarCookedMeatHoneyGlazed
+    - RB_LionMeatCookedMeat
+    - RB_LionMeatCookedMeatHoneyGlazed
+    - RB_LionWhiteCookedMeat
+    - RB_LionWhiteCookedMeatHoneyGlazed
+    - RB_PantherCookedMeat
+    - RB_PantherCookedMeatHoneyGlazed
+    - unprocessedgiantsseasoning
+    - unprocessedsurtlingcinders
+    - unprocessedfrostedpowder
+    - unprocessedcracklingflakes
+    - unprocessedshroudedseasonings
+    - unprocessedsorrowfulcinders
+    - giantsseasoning
+    - surtlingcinders
+    - frostedpowder
+    - cracklingflakes
+    - shroudedseasonings
+    - sorrowfulcinders
+    - unprocessedeldakras
+    - unprocessedmarshmas
+    - unprocessedvindfros
+    - unprocessedsolakras
+    - unprocessedmistilteig
+    - unprocessedalvmas
+    - eldakras
+    - marshmas
+    - vindfros
+    - solakras
+    - mistilteig
+    - alvmas
+    - rae_CookedHorseMeat
+    - rae_HorseSticks
+    - rae_HorseSoup
+    - rae_HorseMeatSkewer
   upgrade:
     1:
-      BlackBearPelt_TW: 5
-      RazorbackLeather_TW: 5
       TrollHide: 2
-      SurtlingCore: 1
+      BjornHide: 2
+      Ravenwood: 5
+      RavenRation: 5
       size: 3x4
     2:
-      Entrails: 5
-      Bloodbag: 5
-      RottenPelt_TW: 2
+      ElderBark: 5
       Root: 1
+      RavenRock: 5
+      RavenRation: 5
       size: 4x4
     3:
       WolfPelt: 5
-      GrizzlyBearPelt_TW: 5
       WolfHairBundle: 2
-      Chitin: 1
+      RavenStone: 10
+      RavenRation: 5
       size: 5x4
     4:
-      Flax: 5
+      LoxPelt: 5
       LinenThread: 5
-      LoxPelt: 2
-      SerpentScale: 1
+      RavenRock: 10
+      RavenRation: 5
       size: 6x4
     5:
-      ScaleHide: 5
       Carapace: 5
-      Bilebag: 2
-      BlackCore: 1
+      ScaleHide: 5
+      RavenRation: 10
+      RavenRune: 1
       size: 7x4
     6:
       AskHide: 5
-      CelestialFeather: 5
-      MorgenSinew: 2
-      MoltenCore: 1
+      MorgenSinew: 1
+      Ravenwood: 20
+      RavenRune: 2
       size: 8x4
   weight factor: 0.85
   teleport: true
 
 
 
-"Leather Luggage":
+"Backpack Leather Luggage":
   description: "A rugged and durable medium sized bag crafted for the seasoned hunter, designed to store and preserve various hides gathered from the wilderness. It facilitates longer hunting expeditions and efficient resource management. Lightens their weight by 15%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -1385,11 +1564,9 @@
     costs:
       LeatherScraps: 5
       DeerHide: 5
-      FoxPelt_TW: 2
-      WoolScraps_TW: 1
+      RavenStone: 5
+      RavenRation: 5
   valid items:
-    - WolfClaw
-    - WolfFang
     - WolfHairBundle
     - WolfPelt
     - DeerHide
@@ -1401,14 +1578,8 @@
     - GrizzlyBearPelt_TW
     - TrollHide
     - RazorbackLeather_TW
-    - ProwlerFang_TW
-    - LoxBone_TW
-    - ArcticBearPelt_TW
-    - ArcticMammothPelt_TW
-    - DemonicPelt_TW
     - ScaleHide
     - AskHide
-    - ArcticWolfPelt_TW
     - WoolScraps_TW
     - Carapace
     - WoolYarn_Black_TW
@@ -1428,49 +1599,66 @@
     - SaddleBear_TW
     - SaddleProwler_TW
     - BjornHide
+    - LeatherResinedDO
+    - LeatherGreasedDO
+    - LeatherFrostedDO
+    - LeatherTarredDO
+    - LeatherSappedDO
+    - LeatherCharredDO
+    - rae_HorseHide
+    - RB_LionessHide
+    - RB_LionessWhiteHide
+    - RB_JaguarHide
+    - RB_LionHide
+    - RB_LionScarHide
+    - RB_LionWhiteHide
+    - RB_PantherHide
+    - rae_SaddleHorse
+    - Saddle_DBone_jj
+    - Saddle_BlackDragon_jj
   upgrade:
     1:
-      BlackBearPelt_TW: 5
-      RazorbackLeather_TW: 5
       TrollHide: 2
-      SurtlingCore: 1
+      BjornHide: 2
+      Ravenwood: 5
+      RavenRation: 5
       size: 3x4
     2:
-      Entrails: 5
-      Bloodbag: 5
-      RottenPelt_TW: 2
+      ElderBark: 5
       Root: 1
+      RavenRock: 5
+      RavenRation: 5
       size: 4x4
     3:
       WolfPelt: 5
-      GrizzlyBearPelt_TW: 5
       WolfHairBundle: 2
-      Chitin: 1
+      RavenStone: 10
+      RavenRation: 5
       size: 5x4
     4:
-      Flax: 5
+      LoxPelt: 5
       LinenThread: 5
-      LoxPelt: 2
-      SerpentScale: 1
+      RavenRock: 10
+      RavenRation: 5
       size: 6x4
     5:
-      ScaleHide: 5
       Carapace: 5
-      Bilebag: 2
-      BlackCore: 1
+      ScaleHide: 5
+      RavenRation: 10
+      RavenRune: 1
       size: 7x4
     6:
       AskHide: 5
-      CelestialFeather: 5
-      MorgenSinew: 2
-      MoltenCore: 1
+      MorgenSinew: 1
+      Ravenwood: 20
+      RavenRune: 2
       size: 8x4
   weight factor: 0.85
   teleport: true
   
   
   
-"Butchers Sack":
+"Backpack Butchers Sack":
   description: "A rugged and durable medium sized sack crafted for the seasoned hunter, designed to store and preserve meats and animal parts gathered from the wilderness. It facilitates longer hunting expeditions and efficient resource management. Lightens their weight by 15%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -1494,8 +1682,8 @@
     costs:
       LeatherScraps: 5
       DeerHide: 5
-      FoxPelt_TW: 2
-      WoolScraps_TW: 1
+      RavenStone: 5
+      RavenRation: 5
   valid items:
     - WolfMeat
     - DeerMeat
@@ -1522,53 +1710,60 @@
     - LizardLeg_RS
     - BeastChunk_RS
     - BeastMeat_RS
-    - SquidMeat_RS
     - BeastEye_RS
+    - LizardTail_RS
     - BjornMeat
     - Ectoplasm
+    - RB_JaguarMeat
+    - RB_LionMeat
+    - RB_LionWhiteMeat
+    - RB_PantherMeat
+    - CelestialFeather
+    - GiantBloodSack
+    - rae_HorseMeat
   upgrade:
     1:
-      BlackBearPelt_TW: 5
-      RazorbackLeather_TW: 5
       TrollHide: 2
-      SurtlingCore: 1
+      BjornHide: 2
+      Ravenwood: 5
+      RavenRation: 5
       size: 3x4
     2:
-      Entrails: 5
-      Bloodbag: 5
-      RottenPelt_TW: 2
+      ElderBark: 5
       Root: 1
+      RavenRock: 5
+      RavenRation: 5
       size: 4x4
     3:
       WolfPelt: 5
-      GrizzlyBearPelt_TW: 5
       WolfHairBundle: 2
-      Chitin: 1
+      RavenStone: 10
+      RavenRation: 5
       size: 5x4
     4:
-      Flax: 5
+      LoxPelt: 5
       LinenThread: 5
-      LoxPelt: 2
-      SerpentScale: 1
+      RavenRock: 10
+      RavenRation: 5
       size: 6x4
     5:
-      ScaleHide: 5
       Carapace: 5
-      Bilebag: 2
-      BlackCore: 1
+      ScaleHide: 5
+      RavenRation: 10
+      RavenRune: 1
       size: 7x4
     6:
       AskHide: 5
-      CelestialFeather: 5
-      MorgenSinew: 2
-      MoltenCore: 1
+      MorgenSinew: 1
+      Ravenwood: 20
+      RavenRune: 2
       size: 8x4
   weight factor: 0.85
   teleport: true
   
   
   
-"Fanny Pack":
+"Backpack Fanny Pack":
   description: "A small pack to store all your valuables, accessories, utility and tradeable items. Lightens their weight by 20%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -1592,8 +1787,8 @@
     costs:
       LeatherScraps: 5
       DeerHide: 5
-      FoxPelt_TW: 2
-      WoolScraps_TW: 1
+      RavenStone: 5
+      RavenRation: 5
   valid items:
     - Coins
     - Ruby
@@ -1618,8 +1813,6 @@
     - Sapphire_TW
     - Onyx_TW
     - Diamond_TW
-    - Topaz_TW
-    - Sapphire_TW
     - GemstoneBlue
     - GemstoneGreen
     - GemstoneRed
@@ -1632,51 +1825,50 @@
     - RingMistlands_TW
     - LeatherBelt
     - skaldsgirdle
-    - SDO_BeltStrength_Invisible
     - CryptKey_RS
   upgrade:
     1:
-      BlackBearPelt_TW: 5
-      RazorbackLeather_TW: 5
       TrollHide: 2
-      SurtlingCore: 1
+      BjornHide: 2
+      Ravenwood: 5
+      RavenRation: 5
       size: 3x4
     2:
-      Entrails: 5
-      Bloodbag: 5
-      RottenPelt_TW: 2
+      ElderBark: 5
       Root: 1
+      RavenRock: 5
+      RavenRation: 5
       size: 4x4
     3:
       WolfPelt: 5
-      GrizzlyBearPelt_TW: 5
       WolfHairBundle: 2
-      Chitin: 1
+      RavenStone: 10
+      RavenRation: 5
       size: 5x4
     4:
-      Flax: 5
+      LoxPelt: 5
       LinenThread: 5
-      LoxPelt: 2
-      SerpentScale: 1
+      RavenRock: 10
+      RavenRation: 5
       size: 6x4
     5:
-      ScaleHide: 5
       Carapace: 5
-      Bilebag: 2
-      BlackCore: 1
+      ScaleHide: 5
+      RavenRation: 10
+      RavenRune: 1
       size: 7x4
     6:
       AskHide: 5
-      CelestialFeather: 5
-      MorgenSinew: 2
-      MoltenCore: 1
+      MorgenSinew: 1
+      Ravenwood: 20
+      RavenRune: 2
       size: 8x4
   weight factor: 0.80
   teleport: true
   
   
   
-"Seed Box":
+"Backpack Seed Box":
   description: "A small box to store all your seeds from every biome. Lightens their weight by 20%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -1700,8 +1892,8 @@
     costs:
       LeatherScraps: 5
       DeerHide: 5
-      FoxPelt_TW: 2
-      WoolScraps_TW: 1
+      RavenStone: 5
+      RavenRation: 5
   valid items:
     - AcaciaSeeds_RtD
     - BlossomSeeds_RtD
@@ -1723,7 +1915,6 @@
     - PlantSeedPlains_RtD
     - PlantSeedSwamp_RtD
     - MapleSeed_RtD
-    - AshLandsSeed1_RtD
     - AshLandsSeed2_RtD
     - VineberrySeeds
     - PineCone
@@ -1737,50 +1928,50 @@
     - VineberrySeeds
     - mm_mystical_seed
     - VineGreenSeeds
-
+    - RWB_Ravenwood_Seed
   upgrade:
     1:
-      BlackBearPelt_TW: 5
-      RazorbackLeather_TW: 5
       TrollHide: 2
-      SurtlingCore: 1
+      BjornHide: 2
+      Ravenwood: 5
+      RavenRation: 5
       size: 3x4
     2:
-      Entrails: 5
-      Bloodbag: 5
-      RottenPelt_TW: 2
+      ElderBark: 5
       Root: 1
+      RavenRock: 5
+      RavenRation: 5
       size: 4x4
     3:
       WolfPelt: 5
-      GrizzlyBearPelt_TW: 5
       WolfHairBundle: 2
-      Chitin: 1
+      RavenStone: 10
+      RavenRation: 5
       size: 5x4
     4:
-      Flax: 5
+      LoxPelt: 5
       LinenThread: 5
-      LoxPelt: 2
-      SerpentScale: 1
+      RavenRock: 10
+      RavenRation: 5
       size: 6x4
     5:
-      ScaleHide: 5
       Carapace: 5
-      Bilebag: 2
-      BlackCore: 1
+      ScaleHide: 5
+      RavenRation: 10
+      RavenRune: 1
       size: 7x4
     6:
       AskHide: 5
-      CelestialFeather: 5
-      MorgenSinew: 2
-      MoltenCore: 1
+      MorgenSinew: 1
+      Ravenwood: 20
+      RavenRune: 2
       size: 8x4
   weight factor: 0.80
   teleport: true
   
   
   
-"Bag of Bones":
+"Backpack Bag of Bones":
   description: "A medium sized bag to store your bone collection. Lightens their weight by 15%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -1804,24 +1995,19 @@
     costs:
       LeatherScraps: 5
       DeerHide: 5
-      FoxPelt_TW: 2
-      WoolScraps_TW: 1
+      RavenStone: 5
+      RavenRation: 5
   valid items:
     - BoneFragments
     - WolfFang
     - ProwlerFang_TW
-    - FrozenFang_TW
-    - BurningFang_TW
     - VenomousFang_TW
     - Mandible
     - AsksvinCarrionSkull
     - Charredskull
     - CharredBone
     - RazorbackTusk_TW
-    - ArcticMammothTusk_TW
     - WolfClaw
-    - FrozenClaw_TW
-    - BurningClaw_TW
     - BonemawSerpentTooth
     - AsksvinCarrionPelvic
     - AsksvinCarrionNeck
@@ -1834,47 +2020,47 @@
     - UndeadBjornRibcage
   upgrade:
     1:
-      BlackBearPelt_TW: 5
-      RazorbackLeather_TW: 5
       TrollHide: 2
-      SurtlingCore: 1
+      BjornHide: 2
+      Ravenwood: 5
+      RavenRation: 5
       size: 3x4
     2:
-      Entrails: 5
-      Bloodbag: 5
-      RottenPelt_TW: 2
+      ElderBark: 5
       Root: 1
+      RavenRock: 5
+      RavenRation: 5
       size: 4x4
     3:
       WolfPelt: 5
-      GrizzlyBearPelt_TW: 5
       WolfHairBundle: 2
-      Chitin: 1
+      RavenStone: 10
+      RavenRation: 5
       size: 5x4
     4:
-      Flax: 5
+      LoxPelt: 5
       LinenThread: 5
-      LoxPelt: 2
-      SerpentScale: 1
+      RavenRock: 10
+      RavenRation: 5
       size: 6x4
     5:
-      ScaleHide: 5
       Carapace: 5
-      Bilebag: 2
-      BlackCore: 1
+      ScaleHide: 5
+      RavenRation: 10
+      RavenRune: 1
       size: 7x4
     6:
       AskHide: 5
-      CelestialFeather: 5
-      MorgenSinew: 2
-      MoltenCore: 1
+      MorgenSinew: 1
+      Ravenwood: 20
+      RavenRune: 2
       size: 8x4
   weight factor: 0.85
   teleport: true
   
   
   
-"Boss Bulge":
+"Backpack Boss Bulge":
   description: "A versatile heavy bag designed for summoning bosses and containing their essential remains. Lightens their weight by 10%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -1898,8 +2084,8 @@
     costs:
       LeatherScraps: 5
       DeerHide: 5
-      FoxPelt_TW: 2
-      WoolScraps_TW: 1
+      RavenStone: 5
+      RavenRation: 5
   valid items:
     - HardAntler
     - CryptKey
@@ -1925,49 +2111,73 @@
     - ShardYagluth_TW
     - ShardQueen_TW
     - ShardBonemass_TW
+    - rd_green_lootbox_01
+    - rd_bronze_lootbox_01
+    - rd_silver_lootbox_01
+    - rd_dark_lootbox_01
+    - rd_gold_lootbox_01
+    - rd_pink_lootbox_01
+    - rd_red_lootbox_01
+    - rd_ocean_lootbox_01
+    - rd_award_lootbox_01
+    - rd_award_lootbox_02
+    - rd_award_lootbox_03
+    - rd_award_lootbox_04
+    - rd_award_lootbox_05
+    - rd_award_lootbox_06
+    - rd_award_lootbox_07
+    - rd_award_lootbox_08
+    - rd_love_lootbox_01
+    - rd_love_lootbox_02
+    - rd_love_lootbox_03
+    - rd_love_lootbox_04
+    - rd_love_lootbox_05
+    - rd_love_lootbox_06
+    - rd_love_lootbox_07
+    - rd_love_lootbox_08
   upgrade:
     1:
-      BlackBearPelt_TW: 5
-      RazorbackLeather_TW: 5
       TrollHide: 2
-      SurtlingCore: 1
+      BjornHide: 2
+      Ravenwood: 5
+      RavenRation: 5
       size: 3x4
     2:
-      Entrails: 5
-      Bloodbag: 5
-      RottenPelt_TW: 2
+      ElderBark: 5
       Root: 1
+      RavenRock: 5
+      RavenRation: 5
       size: 4x4
     3:
       WolfPelt: 5
-      GrizzlyBearPelt_TW: 5
       WolfHairBundle: 2
-      Chitin: 1
+      RavenStone: 10
+      RavenRation: 5
       size: 5x4
     4:
-      Flax: 5
+      LoxPelt: 5
       LinenThread: 5
-      LoxPelt: 2
-      SerpentScale: 1
+      RavenRock: 10
+      RavenRation: 5
       size: 6x4
     5:
-      ScaleHide: 5
       Carapace: 5
-      Bilebag: 2
-      BlackCore: 1
+      ScaleHide: 5
+      RavenRation: 10
+      RavenRune: 1
       size: 7x4
     6:
       AskHide: 5
-      CelestialFeather: 5
-      MorgenSinew: 2
-      MoltenCore: 1
+      MorgenSinew: 1
+      Ravenwood: 20
+      RavenRune: 2
       size: 8x4
   weight factor: 0.90
   teleport: false
   
   
   
-"Core Collector":
+"Backpack Core Collector":
   description: "A medium sized bag to store all cores and fuel sources. Lightens their weight by 15%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -1991,15 +2201,14 @@
     costs:
       LeatherScraps: 5
       DeerHide: 5
-      FoxPelt_TW: 2
-      WoolScraps_TW: 1
+      RavenStone: 5
+      RavenRation: 5
   valid items:
     - MoltenCore
     - SurtlingCore
     - BlackCore
     - ShieldCore
     - Chain 
-    - GlacierCrystal_TW
     - Staffcore_BlackForest_TW
     - Staffcore_Swamp_TW
     - Staffcore_Mountain_TW
@@ -2023,49 +2232,53 @@
     - CWS_Crucible_Finished
     - CWS_Hot_Steel_Finished
     - CandleWick
+    - piece_dvergr_BetterHandLantern
+    - piece_dvergr_WispHandLantern
+    - RS_LanternOrb
+    - RS_Lantern
   upgrade:
     1:
-      BlackBearPelt_TW: 5
-      RazorbackLeather_TW: 5
       TrollHide: 2
-      SurtlingCore: 1
+      BjornHide: 2
+      Ravenwood: 5
+      RavenRation: 5
       size: 3x4
     2:
-      Entrails: 5
-      Bloodbag: 5
-      RottenPelt_TW: 2
+      ElderBark: 5
       Root: 1
+      RavenRock: 5
+      RavenRation: 5
       size: 4x4
     3:
       WolfPelt: 5
-      GrizzlyBearPelt_TW: 5
       WolfHairBundle: 2
-      Chitin: 1
+      RavenStone: 10
+      RavenRation: 5
       size: 5x4
     4:
-      Flax: 5
+      LoxPelt: 5
       LinenThread: 5
-      LoxPelt: 2
-      SerpentScale: 1
+      RavenRock: 10
+      RavenRation: 5
       size: 6x4
     5:
-      ScaleHide: 5
       Carapace: 5
-      Bilebag: 2
-      BlackCore: 1
+      ScaleHide: 5
+      RavenRation: 10
+      RavenRune: 1
       size: 7x4
     6:
       AskHide: 5
-      CelestialFeather: 5
-      MorgenSinew: 2
-      MoltenCore: 1
+      MorgenSinew: 1
+      Ravenwood: 20
+      RavenRune: 2
       size: 8x4
   weight factor: 0.85
   teleport: true
   
   
   
-"Salty Sack":
+"Backpack Salty Sack":
   description: "A huge sized salty sack to store all seaman needs. Lightens their weight by 10%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -2089,21 +2302,16 @@
     costs:
       LeatherScraps: 5
       DeerHide: 5
-      FoxPelt_TW: 2
-      WoolScraps_TW: 1
+      RavenStone: 5
+      RavenRation: 5
   valid items:
     - CapeSailor
     - VDS_AtlantianCrown
     - HelmetPirateBandana
-    - ResinWood
-    - CaulkedWood
-    - ShipRope
     - HelmetPirateHat
     - CoalPaste
-    - ClothShip
     - SailInk
     - ShieldSteering
-    - WindBelt
     - SharkMeat_TW
     - SharkFin_TW
     - SpearChitin
@@ -2126,49 +2334,57 @@
     - IronNails
     - BronzeNails
     - FreshSeaweed
+    - ShipParrotDO
+    - ShipWheelDO
+    - CannonballBasicDO
+    - WolfPelt
+    - JuteRed
+    - Iron
+    - ShipRopeDO
+    - WoodResinDO
   upgrade:
     1:
-      BlackBearPelt_TW: 5
-      RazorbackLeather_TW: 5
       TrollHide: 2
-      SurtlingCore: 1
+      BjornHide: 2
+      Ravenwood: 5
+      RavenRation: 5
       size: 3x4
     2:
-      Entrails: 5
-      Bloodbag: 5
-      RottenPelt_TW: 2
+      ElderBark: 5
       Root: 1
+      RavenRock: 5
+      RavenRation: 5
       size: 4x4
     3:
       WolfPelt: 5
-      GrizzlyBearPelt_TW: 5
       WolfHairBundle: 2
-      Chitin: 1
+      RavenStone: 10
+      RavenRation: 5
       size: 5x4
     4:
-      Flax: 5
+      LoxPelt: 5
       LinenThread: 5
-      LoxPelt: 2
-      SerpentScale: 1
+      RavenRock: 10
+      RavenRation: 5
       size: 6x4
     5:
-      ScaleHide: 5
       Carapace: 5
-      Bilebag: 2
-      BlackCore: 1
+      ScaleHide: 5
+      RavenRation: 10
+      RavenRune: 1
       size: 7x4
     6:
       AskHide: 5
-      CelestialFeather: 5
-      MorgenSinew: 2
-      MoltenCore: 1
+      MorgenSinew: 1
+      Ravenwood: 20
+      RavenRune: 2
       size: 8x4
   weight factor: 0.90
   teleport: true
   
 
 
-"Mana Morsels":
+"Backpack Mana Morsels":
   description: "A compact and convenient small sized pouch designed to carry all sorts of magical food items for adventurers on the go. Lightens their weight by 20%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -2191,8 +2407,8 @@
     costs:
       LeatherScraps: 5
       DeerHide: 5
-      FoxPelt_TW: 2
-      WoolScraps_TW: 1
+      RavenStone: 5
+      RavenRation: 5
   valid items:
     - ShroomSoupBlackForest_TW
     - EitrPlateBlackForest_TW
@@ -2246,49 +2462,68 @@
     - PotionEitrSwampDO
     - PotionEitrMountainDO
     - PotionEitrPlainsDO
+    - FoodEitrBlackforestCookieRikoDO
+    - FoodEitrSwampCookieRikoDO
+    - FoodEitrMountainCookieRikoDO
+    - FoodEitrPlainsCookieRikoDO
+    - HoneyMushroomStew
+    - SurtrsDelight
+    - VolvasBrew
+    - jotunnsbounty
+    - seekersupreme
+    - gjallsfireybroth
+    - charredsmokepuff
+    - infusedcookedharemeat
+    - infusedcookedseekermeat
+    - infusedjotunnpuffs
+    - infusedmagecaps
+    - RP_PotionMinorIntellect
+    - RP_PotionMediumIntellect
+    - RP_PotionMajorIntellect
+    - RP_PotionMythicIntellect
   upgrade:
     1:
-      BlackBearPelt_TW: 5
-      RazorbackLeather_TW: 5
       TrollHide: 2
-      SurtlingCore: 1
+      BjornHide: 2
+      Ravenwood: 5
+      RavenRation: 5
       size: 3x4
     2:
-      Entrails: 5
-      Bloodbag: 5
-      RottenPelt_TW: 2
+      ElderBark: 5
       Root: 1
+      RavenRock: 5
+      RavenRation: 5
       size: 4x4
     3:
       WolfPelt: 5
-      GrizzlyBearPelt_TW: 5
       WolfHairBundle: 2
-      Chitin: 1
+      RavenStone: 10
+      RavenRation: 5
       size: 5x4
     4:
-      Flax: 5
+      LoxPelt: 5
       LinenThread: 5
-      LoxPelt: 2
-      SerpentScale: 1
+      RavenRock: 10
+      RavenRation: 5
       size: 6x4
     5:
-      ScaleHide: 5
       Carapace: 5
-      Bilebag: 2
-      BlackCore: 1
+      ScaleHide: 5
+      RavenRation: 10
+      RavenRune: 1
       size: 7x4
     6:
       AskHide: 5
-      CelestialFeather: 5
-      MorgenSinew: 2
-      MoltenCore: 1
+      MorgenSinew: 1
+      Ravenwood: 20
+      RavenRune: 2
       size: 8x4
   weight factor: 0.80
   teleport: true
   
 
 
-"Timeless Trinkets":
+"Backpack Timeless Trinkets":
   description: "A compact and convenient medium sized pouch designed to carry all sorts of timeless trinkets for adventurers on the go. Lightens their weight by 15%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -2311,8 +2546,8 @@
     costs:
       LeatherScraps: 5
       DeerHide: 5
-      FoxPelt_TW: 2
-      WoolScraps_TW: 1
+      RavenStone: 5
+      RavenRation: 5
   valid items:
     - TrinketBlackDamageHealth
     - TrinketBlackStamina
@@ -2342,42 +2577,95 @@
     - ArmorStormcallerBeltDO
     - ArmorTotemcallerBeltDO
     - ArmorWindcallerBeltDO
+    - Trinket_Warrior_Rank1
+    - Trinket_Warrior_Rank2
+    - Trinket_Warrior_Rank3
+    - Trinket_Warrior_Rank4
+    - Trinket_Warrior_Rank5
+    - Trinket_DeathKnight_Rank1
+    - Trinket_DeathKnight_Rank2
+    - Trinket_DeathKnight_Rank3
+    - Trinket_DeathKnight_Rank4
+    - Trinket_DeathKnight_Rank5
+    - Trinket_Druid_Rank1
+    - Trinket_Druid_Rank2
+    - Trinket_Druid_Rank3
+    - Trinket_Druid_Rank4
+    - Trinket_Druid_Rank5
+    - Trinket_Mage_Rank1
+    - Trinket_Mage_Rank2
+    - Trinket_Mage_Rank3
+    - Trinket_Mage_Rank4
+    - Trinket_Mage_Rank5
+    - Trinket_Hunter_Rank1
+    - Trinket_Hunter_Rank2
+    - Trinket_Hunter_Rank3
+    - Trinket_Hunter_Rank4
+    - Trinket_Hunter_Rank5
+    - Trinket_Paladin_Rank1
+    - Trinket_Paladin_Rank2
+    - Trinket_Paladin_Rank3
+    - Trinket_Paladin_Rank4
+    - Trinket_Paladin_Rank5
+    - Trinket_Rogue_Rank1
+    - Trinket_Rogue_Rank2
+    - Trinket_Rogue_Rank3
+    - Trinket_Rogue_Rank4
+    - Trinket_Rogue_Rank5
+    - Trinket_Warlock_Rank1
+    - Trinket_Warlock_Rank2
+    - Trinket_Warlock_Rank3
+    - Trinket_Warlock_Rank4
+    - Trinket_Warlock_Rank5
+    - ArmorForestSentinelBeltDO
+    - ArmorGoldenStriderBeltDO
+    - ArmorSailorBeltDO
+    - ArmorCaptainBeltDO
+    - ArmorMushroomcallerBeltDO
+    - ArmorStonecallerBeltDO
+    - ArmorMinerBeltDO
+    - ArmorInspirationTrinketBlackforestDO
+    - ArmorInspirationTrinketSwampDO
+    - ArmorInspirationTrinketMountainDO
+    - ArmorInspirationTrinketPlainsDO
+    - ArmorInspirationTrinketMistlandsDO
+    - ArmorInspirationTrinketAshlandsDO
   upgrade:
     1:
-      BlackBearPelt_TW: 5
-      RazorbackLeather_TW: 5
       TrollHide: 2
-      SurtlingCore: 1
+      BjornHide: 2
+      Ravenwood: 5
+      RavenRation: 5
       size: 3x4
     2:
-      Entrails: 5
-      Bloodbag: 5
-      RottenPelt_TW: 2
+      ElderBark: 5
       Root: 1
+      RavenRock: 5
+      RavenRation: 5
       size: 4x4
     3:
       WolfPelt: 5
-      GrizzlyBearPelt_TW: 5
       WolfHairBundle: 2
-      Chitin: 1
+      RavenStone: 10
+      RavenRation: 5
       size: 5x4
     4:
-      Flax: 5
+      LoxPelt: 5
       LinenThread: 5
-      LoxPelt: 2
-      SerpentScale: 1
+      RavenRock: 10
+      RavenRation: 5
       size: 6x4
     5:
-      ScaleHide: 5
       Carapace: 5
-      Bilebag: 2
-      BlackCore: 1
+      ScaleHide: 5
+      RavenRation: 10
+      RavenRune: 1
       size: 7x4
     6:
       AskHide: 5
-      CelestialFeather: 5
-      MorgenSinew: 2
-      MoltenCore: 1
+      MorgenSinew: 1
+      Ravenwood: 20
+      RavenRune: 2
       size: 8x4
   weight factor: 0.85
   teleport: true

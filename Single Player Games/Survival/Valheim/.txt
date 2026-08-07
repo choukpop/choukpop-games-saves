@@ -4,3 +4,8 @@ HHcLC5acQt
 t9n3WG6dFk
 
 
+
+file: com.Skarif.ValheimPerformanceOverhaul.cfg
+# [3. Distance Culler] Enabled = false | fix trees not spawn
+
+

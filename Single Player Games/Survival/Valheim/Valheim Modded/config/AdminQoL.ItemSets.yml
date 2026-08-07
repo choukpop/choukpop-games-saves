@@ -1,0 +1,2837 @@
+# AdminQoL itemsets.
+# This file is generated once from Valheim's built-in itemsets and is never overwritten by AdminQoL.
+# Edit existing entries to override vanilla sets, remove entries you do not care about, or add new sets.
+# These entries are injected into Valheim's vanilla "itemset" command.
+# Use prefab names for items, for example SwordIron, Hammer, ArmorIronChest, Wood.
+# AdminQoL also loads AdminQoL.ItemSets*.yml files in this config folder.
+# EpicLoot and Jewelcrafting examples are generated separately as AdminQoL.ItemSets.EpicLoot.yml
+# and AdminQoL.ItemSets.Jewelcrafting.yml so this vanilla file stays small.
+# hotbarSlot uses 1-8 for hotbar keys. Use 0 or omit it to skip hotbar placement.
+# replaceExisting defaults to false when omitted. Use true only when replacing a set with the same name.
+itemSets:
+- name: 1
+  replaceExisting: true
+  items:
+  - prefab: SledgeDemolisher
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 1
+  - prefab: ShieldBlackmetal
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 2
+  - prefab: CrossbowArbalest
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: BowSpineSnap
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: ArmorCarapaceChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorCarapaceLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: HelmetCarapace
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: CapeFeather
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: LoxPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Demister
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: Bread
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SeekerAspic
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: YggdrasilPorridge
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: MushroomOmelette
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: StaffFireball
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: ArrowNeedle
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: StaffIceShards
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: ArrowPoison
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: BoltBlackmetal
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: SwordMistwalker
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+  - prefab: PickaxeIron
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 6
+  - prefab: THSwordKrom
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: AtgeirHimminAfl
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: KnifeSkollAndHati
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: BoltBone
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 7
+  - prefab: BoltIron
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 7
+  - prefab: HelmetMage
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: ArmorMageChest
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: ArmorMageLegs
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: ArmorMageLegs
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: ArmorMageLegs
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- name: Ashlands
+  replaceExisting: true
+  items:
+  - prefab: AxeBerzerkr
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 1
+  - prefab: SwordNiedhogg
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+  - prefab: THSwordSlayer
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: MaceEldner
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+  - prefab: ArmorFlametalChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 5
+  - prefab: ArmorFlametalLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 6
+  - prefab: HelmetFlametal
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 7
+  - prefab: MeatPlatter
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 1
+  - prefab: Salad
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 1
+  - prefab: HoneyGlazedChicken
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 1
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 1
+  - prefab: MeadHealthMajor
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 1
+  - prefab: ArmorMageChest_Ashlands
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: ArmorMageLegs_Ashlands
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: HelmetMage_Ashlands
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: SwordNiedhoggBlood
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: SwordNiedhoggLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: SwordNiedhoggNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: MaceEldnerBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: MaceEldnerLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: MaceEldnerNature
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: THSwordSlayerBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: THSwordSlayerLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: THSwordSlayerNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: AxeBerzerkrBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: AxeBerzerkrLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: AxeBerzerkrNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- name: AshlandsFood
+  replaceExisting: true
+  items:
+  - prefab: Fiddleheadfern
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: SpicyMarmalade
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: ScorchingMedley
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: RoastedCrustPieUncooked
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: RoastedCrustPie
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: AsksvinMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: CookedAsksvinMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: VoltureMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: CookedVoltureMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: BoneMawSerpentMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: CookedBoneMawSerpentMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: FierySvinstew
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: MashedMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: PiquantPie
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: PiquantPieUncooked
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: SizzlingBerryBroth
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: SparklingShroomshake
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- name: AshlandsMage
+  replaceExisting: true
+  items:
+  - prefab: HelmetMage_Ashlands
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorMageChest_Ashlands
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorMageLegs_Ashlands
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: StaffFireball
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 1
+  - prefab: StaffIceShards
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+  - prefab: StaffShield
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: StaffSkeleton
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+  - prefab: StaffClusterbomb
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+  - prefab: StaffLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: StaffGreenRoots
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: StaffRedTroll
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: SizzlingBerryBroth
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SparklingShroomshake
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: RoastedCrustPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadEitrLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadHealthMajor
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: BombLava
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- name: AshlandsMedium
+  replaceExisting: true
+  items:
+  - prefab: HelmetAshlandsMediumHood
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorAshlandsMediumChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorAshlandsMediumlegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: CapeAsksvin
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: CrossbowRipper
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 1
+  - prefab: CrossbowRipperLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+  - prefab: BowAshlands
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: MaceEldnerNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+  - prefab: AxeBerzerkrBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+  - prefab: RoastedCrustPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: ScorchingMedley
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: PiquantPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadHealthMajor
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: BombLava
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  - prefab: BoltCharred
+    quality: 1
+    stack: 200
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowCharred
+    quality: 1
+    stack: 200
+    use: false
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- name: AshlandsWarrior
+  replaceExisting: true
+  items:
+  - prefab: SwordNiedhoggBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 1
+  - prefab: ShieldFlametal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+  - prefab: ShieldFlametalTower
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: BowAshlands
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+  - prefab: THSwordSlayerLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+  - prefab: Hammer
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+  - prefab: CrossbowRipper
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: BoltCharred
+    quality: 1
+    stack: 200
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowCharred
+    quality: 1
+    stack: 200
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadHealthMajor
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: PiquantPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MashedMeat
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: RoastedCrustPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: PickaxeBlackMetal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: AxeBerzerkrNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: ArmorFlametalChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorFlametalLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: HelmetFlametal
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: CapeAsh
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: BombLava
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- name: AshlandsWeapons
+  replaceExisting: true
+  items:
+  - prefab: SwordNiedhogg
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: SwordNiedhoggBlood
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: SwordNiedhoggLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: SwordNiedhoggNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: THSwordSlayer
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: THSwordSlayerBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: THSwordSlayerLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: THSwordSlayerNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: MaceEldner
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: MaceEldnerBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: MaceEldnerLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: MaceEldnerNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: AxeBerzerkr
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: AxeBerzerkrBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: AxeBerzerkrLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: AxeBerzerkrNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: SpearSplitner
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: BowAshlands
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- name: Base
+  replaceExisting: true
+  items:
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 1
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 2
+  - prefab: Torch
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: HelmetDverger
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+  - prefab: CryptKey
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Demister
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+  - prefab: FishAndBread
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: HoneyGlazedChickenUncooked
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: YggdrasilPorridge
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SeekerAspic
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MagicallyStuffedShroom
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MushroomOmelette
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Salad
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MisthareSupreme
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 70
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- name: BlackForest
+  replaceExisting: true
+  items:
+  - prefab: ShieldWood
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+  - prefab: ShieldBoneTower
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Bow
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: ArmorLeatherChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorLeatherLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: HelmetLeather
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: CapeDeerHide
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: Honey
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: CookedDeerMeat
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: CookedMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: Mushroom
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: ArrowFlint
+    quality: 1
+    stack: 200
+    use: true
+    hotbarSlot: 0
+  - prefab: AxeFlint
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+  - prefab: PickaxeAntler
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+  - prefab: SpearFlint
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+  - prefab: KnifeFlint
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: Club
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  skills:
+  - skill: Swords
+    level: 10
+  - skill: Axes
+    level: 10
+  - skill: Bows
+    level: 10
+  - skill: Jump
+    level: 10
+  - skill: Run
+    level: 10
+  - skill: Blocking
+    level: 10
+  - skill: Sneak
+    level: 10
+  - skill: Swim
+    level: 10
+  - skill: Spears
+    level: 10
+  - skill: Pickaxes
+    level: 10
+  - skill: WoodCutting
+    level: 10
+  - skill: Knives
+    level: 10
+  - skill: Clubs
+    level: 10
+  - skill: Unarmed
+    level: 10
+  knownStations:
+  - forge
+  - piece_preptable
+  - piece_cauldron
+  - piece_MeadCauldron
+  - piece_MeadCauldron
+  knownItems:
+  - Thistle
+  - Blueberries
+  - Copper
+  - CopperOre
+  - Chitin
+  - Tin
+  - TinOre
+  - Ruby
+  - Coins
+  - AmberPearl
+  - Thunderstone
+  - BarrelRings
+  - FishingBait
+  - FineWood
+  - RoundLog
+  - Carrot
+  - CarrotSeeds
+  - BjornHide
+  - BjornMeat
+  - BjornPaw
+  - TrophyBjorn
+  - TrollHide
+  - TrophyFrostTroll
+  - HardAntler
+  - AncientSeed
+  - GreydwarfEye
+  - TrophyGreydwarf
+  - TrophyGreydwarfBrute
+  - TrophyGreydwarfShaman
+  - SurtlingCore
+  - BronzeNails
+  - BoneFragments
+  - TrophySkeleton
+  - MushroomYellow
+  inheritKnownFromItemSet:
+  - Meadows
+- name: Builder
+  replaceExisting: true
+  items:
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 1
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 2
+  - prefab: Cultivator
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: PickaxeBlackMetal
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 4
+  - prefab: AxeJotunBane
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 5
+  - prefab: FishAndBread
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: RoastedCrustPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: ScorchingMedley
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SpicyMarmalade
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: HelmetFenring
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorFenringChest
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorFenringLegs
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: BeltStrength
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 70
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- name: Fisherman
+  replaceExisting: true
+  items:
+  - prefab: FishingRod
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 1
+  - prefab: Fish1
+    quality: 1
+    stack: 5
+    use: true
+    hotbarSlot: 3
+  - prefab: Fish2
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 4
+  - prefab: Fish3
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 5
+  - prefab: Fish4_cave
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 6
+  - prefab: Fish5
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 7
+  - prefab: Fish6
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 8
+  - prefab: Fish7
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: Fish8
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: Fish9
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: Fish10
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: Fish11
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: Hammer
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+  - prefab: HelmetFenring
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorFenringLegs
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorFenringChest
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: FishingBait
+    quality: 1
+    stack: 50
+    use: true
+    hotbarSlot: 0
+  - prefab: FishingBaitForest
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  - prefab: FishingBaitSwamp
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  - prefab: FishingBaitOcean
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  - prefab: FishingBaitPlains
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  - prefab: FishingBaitMistlands
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 4
+  - prefab: FishingBaitDeepNorth
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 6
+  - prefab: FishingBaitAshlands
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  - prefab: FishCooked
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Bread
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: BloodPudding
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Fish1
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Fish1
+    quality: 5
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Fish2
+    quality: 2
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Fish5
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 40
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- name: Harvester
+  replaceExisting: true
+  items:
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 1
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 2
+  - prefab: Cultivator
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: PickaxeBlackMetal
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 4
+  - prefab: AxeJotunBane
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 5
+  - prefab: Feaster
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Scythe
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: FishAndBread
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: RoastedCrustPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: ScorchingMedley
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SpicyMarmalade
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: HelmetStrawHat
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorHarvester2
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: BeltStrength
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadBzerker
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadHasty
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadLightfoot
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadStrength
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadSwimmer
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadTrollPheromones
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadTamer
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadBugRepellent
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 70
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- name: Jonathan
+  replaceExisting: true
+  items:
+  - prefab: AxeBerzerkrBlood
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 1
+  - prefab: BowAshlandsBlood
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 2
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: SwordCheat
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 4
+  - prefab: ShieldFlametal
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 5
+  - prefab: PickaxeBlackMetal
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 6
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: Cultivator
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Lantern
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowCharred
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: Wood
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  - prefab: FishAndBread
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: RoastedCrustPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: ScorchingMedley
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MarinatedGreens
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SparklingShroomshake
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadHealthMajor
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: CapeFeather
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: HelmetFenring
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorFenringChest
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorFenringLegs
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: BeltStrength
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: Demister
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Wishbone
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: StaffFireball
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: StaffShield
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 100
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- name: Meadows
+  replaceExisting: true
+  items:
+  - prefab: ShieldWood
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+  - prefab: ShieldWoodTower
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Bow
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: ArmorRagsChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorRagsLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: Honey
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Raspberry
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: CookedDeerMeat
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: CookedMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: Mushroom
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowWood
+    quality: 1
+    stack: 200
+    use: true
+    hotbarSlot: 0
+  - prefab: AxeStone
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+  - prefab: PickaxeBronze
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+  - prefab: SpearFlint
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+  - prefab: KnifeFlint
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: Club
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  skills:
+  - skill: Swords
+    level: 1
+  - skill: Axes
+    level: 1
+  - skill: Bows
+    level: 1
+  - skill: Jump
+    level: 1
+  - skill: Run
+    level: 1
+  - skill: Blocking
+    level: 1
+  - skill: Sneak
+    level: 1
+  - skill: Swim
+    level: 1
+  - skill: Spears
+    level: 1
+  - skill: Pickaxes
+    level: 1
+  - skill: WoodCutting
+    level: 1
+  - skill: Knives
+    level: 1
+  - skill: Clubs
+    level: 1
+  - skill: Unarmed
+    level: 1
+  knownStations:
+  - piece_workbench
+  knownItems:
+  - Raspberry
+  - Dandelion
+  - Mushroom
+  - Honey
+  - QueenBee
+  - Stone
+  - Flint
+  - Resin
+  - Wood
+  - Feathers
+  - DeerMeat
+  - DeerHide
+  - TrophyDeer
+  - LeatherScraps
+  - RawMeat
+  - TrophyBoar
+  - NeckTail
+  - TrophyNeck
+  inheritKnownFromItemSet: []
+- name: Mistlands
+  replaceExisting: true
+  items:
+  - prefab: SwordBlackmetal
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 1
+  - prefab: ShieldBlackmetal
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 2
+  - prefab: ShieldBlackmetalTower
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 2
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: BowDraugrFang
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: ArmorPaddedCuirass
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorPaddedGreaves
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: HelmetPadded
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: CapeWolf
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: LoxPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SerpentStew
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Bread
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: BloodPudding
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: FishWraps
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: WolfJerky
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowSilver
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowNeedle
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowFrost
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowPoison
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowFire
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: BattleaxeCrystal
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 4
+  - prefab: PickaxeIron
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 6
+  - prefab: SpearWolfFang
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 5
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: AtgeirBlackmetal
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: MaceNeedle
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: KnifeBlackMetal
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- name: MistlandsMage
+  replaceExisting: true
+  items:
+  - prefab: StaffFireball
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 1
+  - prefab: StaffIceShards
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+  - prefab: StaffShield
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: StaffSkeleton
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+  - prefab: SwordMistwalker
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+  - prefab: KnifeSkollAndHati
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+  - prefab: ArmorMageChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorMageLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: HelmetMage
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: CapeFeather
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: YggdrasilPorridge
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MushroomOmelette
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SeekerAspic
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Salad
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: Demister
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: MisthareSupreme
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- name: MistlandsWarrior
+  replaceExisting: true
+  items:
+  - prefab: SwordMistwalker
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 1
+  - prefab: THSwordKrom
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+  - prefab: SpearCarapace
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: SledgeDemolisher
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+  - prefab: KnifeSkollAndHati
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+  - prefab: AxeJotunBane
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+  - prefab: AtgeirHimminAfl
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: ShieldCarapace
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: ShieldCarapaceBuckler
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: BowSpineSnap
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: CrossbowArbalest
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowCarapace
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: BoltCarapace
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: PickaxeBlackMetal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Hammer
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Hoe
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: HelmetCarapace
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorCarapaceChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorCarapaceLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: CapeFeather
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: DvergrKey
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Demister
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: MisthareSupreme
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeatPlatter
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Salad
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadHealthMajor
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadPoisonResist
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- name: Mountains
+  replaceExisting: true
+  items:
+  - prefab: SwordIron
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 1
+  - prefab: ShieldIronBuckler
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+  - prefab: ShieldBanded
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+  - prefab: ShieldIronTower
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: BowHuntsman
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: ArmorIronChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorIronLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: HelmetIron
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: HelmetRoot
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: ArmorRootChest
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: ArmorRootLegs
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: CapeTrollHide
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: TurnipStew
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: ShocklateSmoothie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: BlackSoup
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadFrostResist
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: Sausages
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowIron
+    quality: 1
+    stack: 200
+    use: true
+    hotbarSlot: 0
+  - prefab: AxeIron
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+  - prefab: PickaxeIron
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+  - prefab: SpearElderbark
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: AtgeirIron
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: MaceIron
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: KnifeChitin
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  skills:
+  - skill: Swords
+    level: 25
+  - skill: Axes
+    level: 25
+  - skill: Bows
+    level: 25
+  - skill: Jump
+    level: 25
+  - skill: Run
+    level: 25
+  - skill: Blocking
+    level: 25
+  - skill: Sneak
+    level: 25
+  - skill: Swim
+    level: 25
+  - skill: Spears
+    level: 25
+  - skill: Pickaxes
+    level: 25
+  - skill: WoodCutting
+    level: 25
+  - skill: Knives
+    level: 25
+  - skill: Polearms
+    level: 25
+  - skill: Clubs
+    level: 25
+  - skill: Unarmed
+    level: 25
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- name: Plains
+  replaceExisting: true
+  items:
+  - prefab: SwordSilver
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 1
+  - prefab: ShieldSilver
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+  - prefab: ShieldSerpentscale
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: BowDraugrFang
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: ArmorWolfChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorWolfLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: HelmetDrake
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: CapeWolf
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: WolfMeatSkewer
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: WolfJerky
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Eyescream
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: OnionSoup
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: CookedWolfMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowObsidian
+    quality: 1
+    stack: 200
+    use: true
+    hotbarSlot: 0
+  - prefab: BattleaxeCrystal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+  - prefab: PickaxeIron
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+  - prefab: SpearWolfFang
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: SledgeIron
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: MaceSilver
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: KnifeSilver
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: FistFenrirClaw
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: ArmorFenringChest
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: ArmorFenringLegs
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: HelmetFenring
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  skills:
+  - skill: Swords
+    level: 35
+  - skill: Axes
+    level: 35
+  - skill: Bows
+    level: 35
+  - skill: Jump
+    level: 35
+  - skill: Run
+    level: 35
+  - skill: Blocking
+    level: 35
+  - skill: Sneak
+    level: 35
+  - skill: Swim
+    level: 35
+  - skill: Spears
+    level: 35
+  - skill: Pickaxes
+    level: 35
+  - skill: WoodCutting
+    level: 35
+  - skill: Knives
+    level: 35
+  - skill: Polearms
+    level: 35
+  - skill: Clubs
+    level: 35
+  - skill: Unarmed
+    level: 35
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- name: PlainsBoss
+  replaceExisting: true
+  items:
+  - prefab: SwordBlackmetal
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 1
+  - prefab: ShieldBlackmetal
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+  - prefab: ShieldBlackmetalTower
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: BowDraugrFang
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: ArmorPaddedCuirass
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorPaddedGreaves
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: HelmetPadded
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: CapeWolf
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: LoxPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SerpentStew
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Bread
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: WolfJerky
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: BloodPudding
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowNeedle
+    quality: 1
+    stack: 200
+    use: true
+    hotbarSlot: 0
+  - prefab: ArrowFrost
+    quality: 1
+    stack: 200
+    use: false
+    hotbarSlot: 0
+  - prefab: BattleaxeCrystal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+  - prefab: PickaxeIron
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+  - prefab: SpearWolfFang
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: AtgeirBlackmetal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: MaceNeedle
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: KnifeBlackMetal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: AxeBlackMetal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  skills:
+  - skill: Swords
+    level: 45
+  - skill: Axes
+    level: 45
+  - skill: Bows
+    level: 45
+  - skill: Jump
+    level: 45
+  - skill: Run
+    level: 45
+  - skill: Blocking
+    level: 45
+  - skill: Sneak
+    level: 45
+  - skill: Swim
+    level: 45
+  - skill: Spears
+    level: 45
+  - skill: Pickaxes
+    level: 45
+  - skill: WoodCutting
+    level: 45
+  - skill: Knives
+    level: 45
+  - skill: Polearms
+    level: 45
+  - skill: Clubs
+    level: 45
+  - skill: Unarmed
+    level: 45
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- name: Swamps
+  replaceExisting: true
+  items:
+  - prefab: SwordBronze
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 1
+  - prefab: ShieldBronzeBuckler
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+  - prefab: ShieldBoneTower
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: BowFineWood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: ArmorBronzeChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorBronzeLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: HelmetBronze
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: CapeTrollHide
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: CarrotSoup
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: DeerStew
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: BoarJerky
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: QueensJam
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: MinceMeatSauce
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadPoisonResist
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowBronze
+    quality: 1
+    stack: 200
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorTrollLeatherChest
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: ArmorTrollLeatherLegs
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: HelmetTrollLeather
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: AxeBronze
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+  - prefab: PickaxeBronze
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+  - prefab: SpearBronze
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: AtgeirBronze
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: MaceBronze
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  skills:
+  - skill: Swords
+    level: 15
+  - skill: Axes
+    level: 15
+  - skill: Bows
+    level: 15
+  - skill: Jump
+    level: 15
+  - skill: Run
+    level: 15
+  - skill: Blocking
+    level: 10
+  - skill: Sneak
+    level: 10
+  - skill: Swim
+    level: 5
+  - skill: Spears
+    level: 15
+  - skill: Pickaxes
+    level: 10
+  - skill: WoodCutting
+    level: 20
+  - skill: Polearms
+    level: 15
+  - skill: Knives
+    level: 15
+  - skill: Clubs
+    level: 15
+  - skill: Unarmed
+    level: 15
+  knownStations:
+  - piece_stonecutter
+  knownItems:
+  - Turnip
+  - TurnipSeeds
+  - Iron
+  - IronOre
+  - IronScrap
+  - ElderBark
+  - Guck
+  - Chain
+  - IronNails
+  - Bloodbag
+  - Entrails
+  - WitheredBone
+  - Ooze
+  - TrophyAbomination
+  - Root
+  - TrophyBlob
+  - TrophyDraugr
+  - TrophyDraugrElite
+  - TrophyKvastur
+  - TrophySurtling
+  - TrophyWraith
+  - TrophyLeech
+  inheritKnownFromItemSet:
+  - BlackForest

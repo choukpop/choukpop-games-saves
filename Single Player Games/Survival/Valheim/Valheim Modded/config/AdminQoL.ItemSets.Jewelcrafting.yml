@@ -1,0 +1,4662 @@
+# AdminQoL Jewelcrafting itemset reference.
+# This file is generated once and is never overwritten by AdminQoL.
+# AdminQoL reads this file because it matches AdminQoL.ItemSets*.yml.
+# Entries are enabled by default, but this file is loaded only when Jewelcrafting is installed.
+# Set enabled: false on any entry you do not want in the itemset command.
+#
+# jewelcrafting fields:
+#   socketsLocked:
+#     Allowed values: true, false.
+#     Optional. Omit to leave Jewelcrafting's default behavior unchanged.
+#     true adds Jewelcrafting's SocketsLock custom data flag.
+#     Meaning: lock the socketed gems themselves. Existing gems cannot be removed
+#     or replaced through normal Jewelcrafting unsocket/socket interactions.
+#     This does not mean hotbar slots; it refers to Jewelcrafting gem sockets.
+#   socketSlotsLocked:
+#     Allowed values: true, false.
+#     Optional. Omit to leave Jewelcrafting's default behavior unchanged.
+#     true adds Jewelcrafting's SocketSlotsLock custom data flag.
+#     Meaning: lock the number/shape of Jewelcrafting socket slots. Socket frame
+#     style items and other slot-count changes are blocked by Jewelcrafting.
+#     This does not mean hotbar slots; it refers to Jewelcrafting gem socket slots.
+#   sockets:
+#     List of socket entries. Values can be:
+#     empty
+#     exact Jewelcrafting gem prefab name
+#       regular examples: Simple_Red_Socket, Advanced_Blue_Socket, Perfect_Green_Socket
+#       merged examples: Common_Merged_Gemstone_Black_Blue,
+#         Advanced_Merged_Gemstone_Black_Red,
+#         Perfect_Merged_Gemstone_Black_Yellow
+#     random_simple
+#     random_advanced
+#     random_perfect
+#   Common lock combinations:
+#     socketsLocked: true + socketSlotsLocked: true
+#       Fixed gem loadout and fixed socket slot count.
+#     socketsLocked: true + socketSlotsLocked: false
+#       Gems are locked, but slot-count changes are not explicitly locked by AdminQoL.
+#     socketsLocked: false + socketSlotsLocked: true
+#       Socket slot count is locked, but gems may be changed if Jewelcrafting allows it.
+#     Omitted/false for both:
+#       AdminQoL applies sockets without adding either Jewelcrafting lock flag.
+#
+# Generated examples below are copied from Valheim's built-in itemsets, renamed with
+# AdminQoL_Example_Jewelcrafting_*, and then annotated with jewelcrafting blocks. They mix:
+#   - exact gem prefab names such as Simple_Red_Socket
+#   - exact merged gem prefab names such as Common_Merged_Gemstone_Black_Blue
+#   - random_simple
+#   - random_advanced
+#   - random_perfect
+#   - empty sockets
+itemSets:
+- enabled: true
+  name: AdminQoL_Example_Jewelcrafting_Meadows
+  items:
+  - prefab: ShieldWood
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ShieldWoodTower
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Bow
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: ArmorRagsChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ArmorRagsLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: Honey
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Raspberry
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: CookedDeerMeat
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: CookedMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: Mushroom
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowWood
+    quality: 1
+    stack: 200
+    use: true
+    hotbarSlot: 0
+  - prefab: AxeStone
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: PickaxeBronze
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: SpearFlint
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: KnifeFlint
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 8
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: Club
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  skills:
+  - skill: Swords
+    level: 1
+  - skill: Axes
+    level: 1
+  - skill: Bows
+    level: 1
+  - skill: Jump
+    level: 1
+  - skill: Run
+    level: 1
+  - skill: Blocking
+    level: 1
+  - skill: Sneak
+    level: 1
+  - skill: Swim
+    level: 1
+  - skill: Spears
+    level: 1
+  - skill: Pickaxes
+    level: 1
+  - skill: WoodCutting
+    level: 1
+  - skill: Knives
+    level: 1
+  - skill: Clubs
+    level: 1
+  - skill: Unarmed
+    level: 1
+  knownStations:
+  - piece_workbench
+  knownItems:
+  - Raspberry
+  - Dandelion
+  - Mushroom
+  - Honey
+  - QueenBee
+  - Stone
+  - Flint
+  - Resin
+  - Wood
+  - Feathers
+  - DeerMeat
+  - DeerHide
+  - TrophyDeer
+  - LeatherScraps
+  - RawMeat
+  - TrophyBoar
+  - NeckTail
+  - TrophyNeck
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_Jewelcrafting_BlackForest
+  items:
+  - prefab: ShieldWood
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ShieldBoneTower
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Bow
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: ArmorLeatherChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ArmorLeatherLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: HelmetLeather
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: CapeDeerHide
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: Honey
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: CookedDeerMeat
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: CookedMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: Mushroom
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: ArrowFlint
+    quality: 1
+    stack: 200
+    use: true
+    hotbarSlot: 0
+  - prefab: AxeFlint
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: PickaxeAntler
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: SpearFlint
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: KnifeFlint
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 8
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: Club
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  skills:
+  - skill: Swords
+    level: 10
+  - skill: Axes
+    level: 10
+  - skill: Bows
+    level: 10
+  - skill: Jump
+    level: 10
+  - skill: Run
+    level: 10
+  - skill: Blocking
+    level: 10
+  - skill: Sneak
+    level: 10
+  - skill: Swim
+    level: 10
+  - skill: Spears
+    level: 10
+  - skill: Pickaxes
+    level: 10
+  - skill: WoodCutting
+    level: 10
+  - skill: Knives
+    level: 10
+  - skill: Clubs
+    level: 10
+  - skill: Unarmed
+    level: 10
+  knownStations:
+  - forge
+  - piece_preptable
+  - piece_cauldron
+  - piece_MeadCauldron
+  - piece_MeadCauldron
+  knownItems:
+  - Thistle
+  - Blueberries
+  - Copper
+  - CopperOre
+  - Chitin
+  - Tin
+  - TinOre
+  - Ruby
+  - Coins
+  - AmberPearl
+  - Thunderstone
+  - BarrelRings
+  - FishingBait
+  - FineWood
+  - RoundLog
+  - Carrot
+  - CarrotSeeds
+  - BjornHide
+  - BjornMeat
+  - BjornPaw
+  - TrophyBjorn
+  - TrollHide
+  - TrophyFrostTroll
+  - HardAntler
+  - AncientSeed
+  - GreydwarfEye
+  - TrophyGreydwarf
+  - TrophyGreydwarfBrute
+  - TrophyGreydwarfShaman
+  - SurtlingCore
+  - BronzeNails
+  - BoneFragments
+  - TrophySkeleton
+  - MushroomYellow
+  inheritKnownFromItemSet:
+  - Meadows
+- enabled: true
+  name: AdminQoL_Example_Jewelcrafting_Swamps
+  items:
+  - prefab: SwordBronze
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 1
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ShieldBronzeBuckler
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ShieldBoneTower
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: BowFineWood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ArmorBronzeChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ArmorBronzeLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: HelmetBronze
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: CapeTrollHide
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: CarrotSoup
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: DeerStew
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: BoarJerky
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: QueensJam
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: MinceMeatSauce
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadPoisonResist
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowBronze
+    quality: 1
+    stack: 200
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorTrollLeatherChest
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: ArmorTrollLeatherLegs
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: HelmetTrollLeather
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: AxeBronze
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: PickaxeBronze
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: SpearBronze
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: AtgeirBronze
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: MaceBronze
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  skills:
+  - skill: Swords
+    level: 15
+  - skill: Axes
+    level: 15
+  - skill: Bows
+    level: 15
+  - skill: Jump
+    level: 15
+  - skill: Run
+    level: 15
+  - skill: Blocking
+    level: 10
+  - skill: Sneak
+    level: 10
+  - skill: Swim
+    level: 5
+  - skill: Spears
+    level: 15
+  - skill: Pickaxes
+    level: 10
+  - skill: WoodCutting
+    level: 20
+  - skill: Polearms
+    level: 15
+  - skill: Knives
+    level: 15
+  - skill: Clubs
+    level: 15
+  - skill: Unarmed
+    level: 15
+  knownStations:
+  - piece_stonecutter
+  knownItems:
+  - Turnip
+  - TurnipSeeds
+  - Iron
+  - IronOre
+  - IronScrap
+  - ElderBark
+  - Guck
+  - Chain
+  - IronNails
+  - Bloodbag
+  - Entrails
+  - WitheredBone
+  - Ooze
+  - TrophyAbomination
+  - Root
+  - TrophyBlob
+  - TrophyDraugr
+  - TrophyDraugrElite
+  - TrophyKvastur
+  - TrophySurtling
+  - TrophyWraith
+  - TrophyLeech
+  inheritKnownFromItemSet:
+  - BlackForest
+- enabled: true
+  name: AdminQoL_Example_Jewelcrafting_Mountains
+  items:
+  - prefab: SwordIron
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 1
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ShieldIronBuckler
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ShieldBanded
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: ShieldIronTower
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: BowHuntsman
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ArmorIronChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: ArmorIronLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: HelmetIron
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: HelmetRoot
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: ArmorRootChest
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ArmorRootLegs
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: CapeTrollHide
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: TurnipStew
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: ShocklateSmoothie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: BlackSoup
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadFrostResist
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: Sausages
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowIron
+    quality: 1
+    stack: 200
+    use: true
+    hotbarSlot: 0
+  - prefab: AxeIron
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: PickaxeIron
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: SpearElderbark
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: AtgeirIron
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: MaceIron
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: KnifeChitin
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  skills:
+  - skill: Swords
+    level: 25
+  - skill: Axes
+    level: 25
+  - skill: Bows
+    level: 25
+  - skill: Jump
+    level: 25
+  - skill: Run
+    level: 25
+  - skill: Blocking
+    level: 25
+  - skill: Sneak
+    level: 25
+  - skill: Swim
+    level: 25
+  - skill: Spears
+    level: 25
+  - skill: Pickaxes
+    level: 25
+  - skill: WoodCutting
+    level: 25
+  - skill: Knives
+    level: 25
+  - skill: Polearms
+    level: 25
+  - skill: Clubs
+    level: 25
+  - skill: Unarmed
+    level: 25
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_Jewelcrafting_Plains
+  items:
+  - prefab: SwordSilver
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 1
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ShieldSilver
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ShieldSerpentscale
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: BowDraugrFang
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ArmorWolfChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ArmorWolfLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: HelmetDrake
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: CapeWolf
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: WolfMeatSkewer
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: WolfJerky
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Eyescream
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: OnionSoup
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: CookedWolfMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowObsidian
+    quality: 1
+    stack: 200
+    use: true
+    hotbarSlot: 0
+  - prefab: BattleaxeCrystal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: PickaxeIron
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: SpearWolfFang
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: SledgeIron
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: MaceSilver
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: KnifeSilver
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: FistFenrirClaw
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: ArmorFenringChest
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ArmorFenringLegs
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: HelmetFenring
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  skills:
+  - skill: Swords
+    level: 35
+  - skill: Axes
+    level: 35
+  - skill: Bows
+    level: 35
+  - skill: Jump
+    level: 35
+  - skill: Run
+    level: 35
+  - skill: Blocking
+    level: 35
+  - skill: Sneak
+    level: 35
+  - skill: Swim
+    level: 35
+  - skill: Spears
+    level: 35
+  - skill: Pickaxes
+    level: 35
+  - skill: WoodCutting
+    level: 35
+  - skill: Knives
+    level: 35
+  - skill: Polearms
+    level: 35
+  - skill: Clubs
+    level: 35
+  - skill: Unarmed
+    level: 35
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_Jewelcrafting_PlainsBoss
+  items:
+  - prefab: SwordBlackmetal
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 1
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ShieldBlackmetal
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ShieldBlackmetalTower
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: BowDraugrFang
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ArmorPaddedCuirass
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ArmorPaddedGreaves
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: HelmetPadded
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: CapeWolf
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: LoxPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SerpentStew
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Bread
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: WolfJerky
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: BloodPudding
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowNeedle
+    quality: 1
+    stack: 200
+    use: true
+    hotbarSlot: 0
+  - prefab: ArrowFrost
+    quality: 1
+    stack: 200
+    use: false
+    hotbarSlot: 0
+  - prefab: BattleaxeCrystal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: PickaxeIron
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: SpearWolfFang
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: AtgeirBlackmetal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: MaceNeedle
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: KnifeBlackMetal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: AxeBlackMetal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  skills:
+  - skill: Swords
+    level: 45
+  - skill: Axes
+    level: 45
+  - skill: Bows
+    level: 45
+  - skill: Jump
+    level: 45
+  - skill: Run
+    level: 45
+  - skill: Blocking
+    level: 45
+  - skill: Sneak
+    level: 45
+  - skill: Swim
+    level: 45
+  - skill: Spears
+    level: 45
+  - skill: Pickaxes
+    level: 45
+  - skill: WoodCutting
+    level: 45
+  - skill: Knives
+    level: 45
+  - skill: Polearms
+    level: 45
+  - skill: Clubs
+    level: 45
+  - skill: Unarmed
+    level: 45
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_Jewelcrafting_Mistlands
+  items:
+  - prefab: SwordBlackmetal
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 1
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ShieldBlackmetal
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ShieldBlackmetalTower
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: BowDraugrFang
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ArmorPaddedCuirass
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ArmorPaddedGreaves
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: HelmetPadded
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: CapeWolf
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: LoxPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SerpentStew
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Bread
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: BloodPudding
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: FishWraps
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: WolfJerky
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowSilver
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowNeedle
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowFrost
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowPoison
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowFire
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: BattleaxeCrystal
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: PickaxeIron
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 6
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: SpearWolfFang
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: AtgeirBlackmetal
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: MaceNeedle
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: KnifeBlackMetal
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_Jewelcrafting_MistlandsMage
+  items:
+  - prefab: StaffFireball
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 1
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: StaffIceShards
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: StaffShield
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: StaffSkeleton
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: SwordMistwalker
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: KnifeSkollAndHati
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: ArmorMageChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ArmorMageLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: HelmetMage
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: CapeFeather
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: YggdrasilPorridge
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MushroomOmelette
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SeekerAspic
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Salad
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: Demister
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: MisthareSupreme
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_Jewelcrafting_MistlandsWarrior
+  items:
+  - prefab: SwordMistwalker
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 1
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: THSwordKrom
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: SpearCarapace
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: SledgeDemolisher
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: KnifeSkollAndHati
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: AxeJotunBane
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: AtgeirHimminAfl
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ShieldCarapace
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 8
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ShieldCarapaceBuckler
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: BowSpineSnap
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: CrossbowArbalest
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ArrowCarapace
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: BoltCarapace
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: PickaxeBlackMetal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: Hammer
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Hoe
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: HelmetCarapace
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ArmorCarapaceChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ArmorCarapaceLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: CapeFeather
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: DvergrKey
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Demister
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: MisthareSupreme
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeatPlatter
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Salad
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadHealthMajor
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadPoisonResist
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_Jewelcrafting_Ashlands
+  items:
+  - prefab: AxeBerzerkr
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 1
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: SwordNiedhogg
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: THSwordSlayer
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: MaceEldner
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ArmorFlametalChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 5
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ArmorFlametalLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 6
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: HelmetFlametal
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: MeatPlatter
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 1
+  - prefab: Salad
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 1
+  - prefab: HoneyGlazedChicken
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 1
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 1
+  - prefab: MeadHealthMajor
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 1
+  - prefab: ArmorMageChest_Ashlands
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ArmorMageLegs_Ashlands
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: HelmetMage_Ashlands
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: SwordNiedhoggBlood
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: SwordNiedhoggLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: SwordNiedhoggNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: MaceEldnerBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: MaceEldnerLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: MaceEldnerNature
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: THSwordSlayerBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: THSwordSlayerLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: THSwordSlayerNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: AxeBerzerkrBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: AxeBerzerkrLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: AxeBerzerkrNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_Jewelcrafting_AshlandsFood
+  items:
+  - prefab: Fiddleheadfern
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: SpicyMarmalade
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: ScorchingMedley
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: RoastedCrustPieUncooked
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: RoastedCrustPie
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: AsksvinMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: CookedAsksvinMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: VoltureMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: CookedVoltureMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: BoneMawSerpentMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: CookedBoneMawSerpentMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: FierySvinstew
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: MashedMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: PiquantPie
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: PiquantPieUncooked
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: SizzlingBerryBroth
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: SparklingShroomshake
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_Jewelcrafting_AshlandsMage
+  items:
+  - prefab: HelmetMage_Ashlands
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ArmorMageChest_Ashlands
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ArmorMageLegs_Ashlands
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: StaffFireball
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 1
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: StaffIceShards
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: StaffShield
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: StaffSkeleton
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: StaffClusterbomb
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: StaffLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: StaffGreenRoots
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 8
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: StaffRedTroll
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: SizzlingBerryBroth
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SparklingShroomshake
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: RoastedCrustPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadEitrLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadHealthMajor
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: BombLava
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_Jewelcrafting_AshlandsMedium
+  items:
+  - prefab: HelmetAshlandsMediumHood
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ArmorAshlandsMediumChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ArmorAshlandsMediumlegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: CapeAsksvin
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: CrossbowRipper
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 1
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: CrossbowRipperLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: BowAshlands
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: MaceEldnerNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: AxeBerzerkrBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: RoastedCrustPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: ScorchingMedley
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: PiquantPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadHealthMajor
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: BombLava
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  - prefab: BoltCharred
+    quality: 1
+    stack: 200
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowCharred
+    quality: 1
+    stack: 200
+    use: false
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_Jewelcrafting_AshlandsWarrior
+  items:
+  - prefab: SwordNiedhoggBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 1
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ShieldFlametal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ShieldFlametalTower
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: BowAshlands
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: THSwordSlayerLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: Hammer
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+  - prefab: CrossbowRipper
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: BoltCharred
+    quality: 1
+    stack: 200
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowCharred
+    quality: 1
+    stack: 200
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadHealthMajor
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: PiquantPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MashedMeat
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: RoastedCrustPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: PickaxeBlackMetal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: AxeBerzerkrNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 8
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ArmorFlametalChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: ArmorFlametalLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: HelmetFlametal
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: CapeAsh
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: BombLava
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_Jewelcrafting_AshlandsWeapons
+  items:
+  - prefab: SwordNiedhogg
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: SwordNiedhoggBlood
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: SwordNiedhoggLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: SwordNiedhoggNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: THSwordSlayer
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: THSwordSlayerBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: THSwordSlayerLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: THSwordSlayerNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: MaceEldner
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: MaceEldnerBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: MaceEldnerLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: MaceEldnerNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: AxeBerzerkr
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: AxeBerzerkrBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: AxeBerzerkrLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: AxeBerzerkrNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: SpearSplitner
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: BowAshlands
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_Jewelcrafting_1
+  items:
+  - prefab: SledgeDemolisher
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 1
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ShieldBlackmetal
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: CrossbowArbalest
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: BowSpineSnap
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ArmorCarapaceChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ArmorCarapaceLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: HelmetCarapace
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: CapeFeather
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: LoxPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Demister
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: Bread
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SeekerAspic
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: YggdrasilPorridge
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: MushroomOmelette
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: StaffFireball
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: ArrowNeedle
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: StaffIceShards
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 8
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ArrowPoison
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: BoltBlackmetal
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: SwordMistwalker
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: PickaxeIron
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 6
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: THSwordKrom
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: AtgeirHimminAfl
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: KnifeSkollAndHati
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: BoltBone
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 7
+  - prefab: BoltIron
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 7
+  - prefab: HelmetMage
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ArmorMageChest
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: ArmorMageLegs
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ArmorMageLegs
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ArmorMageLegs
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_Jewelcrafting_Base
+  items:
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 1
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 2
+  - prefab: Torch
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: HelmetDverger
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: CryptKey
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Demister
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+  - prefab: FishAndBread
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: HoneyGlazedChickenUncooked
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: YggdrasilPorridge
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SeekerAspic
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MagicallyStuffedShroom
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MushroomOmelette
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Salad
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MisthareSupreme
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 70
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_Jewelcrafting_Builder
+  items:
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 1
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 2
+  - prefab: Cultivator
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: PickaxeBlackMetal
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: AxeJotunBane
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: FishAndBread
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: RoastedCrustPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: ScorchingMedley
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SpicyMarmalade
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: HelmetFenring
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: ArmorFenringChest
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ArmorFenringLegs
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: BeltStrength
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 70
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_Jewelcrafting_Fisherman
+  items:
+  - prefab: FishingRod
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 1
+  - prefab: Fish1
+    quality: 1
+    stack: 5
+    use: true
+    hotbarSlot: 3
+  - prefab: Fish2
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 4
+  - prefab: Fish3
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 5
+  - prefab: Fish4_cave
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 6
+  - prefab: Fish5
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 7
+  - prefab: Fish6
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 8
+  - prefab: Fish7
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: Fish8
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: Fish9
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: Fish10
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: Fish11
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: Hammer
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+  - prefab: HelmetFenring
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: ArmorFenringLegs
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ArmorFenringChest
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: FishingBait
+    quality: 1
+    stack: 50
+    use: true
+    hotbarSlot: 0
+  - prefab: FishingBaitForest
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  - prefab: FishingBaitSwamp
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  - prefab: FishingBaitOcean
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  - prefab: FishingBaitPlains
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  - prefab: FishingBaitMistlands
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 4
+  - prefab: FishingBaitDeepNorth
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 6
+  - prefab: FishingBaitAshlands
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  - prefab: FishCooked
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Bread
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: BloodPudding
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Fish1
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Fish1
+    quality: 5
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Fish2
+    quality: 2
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Fish5
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 40
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_Jewelcrafting_Harvester
+  items:
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 1
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 2
+  - prefab: Cultivator
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: PickaxeBlackMetal
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: AxeJotunBane
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: Feaster
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Scythe
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: FishAndBread
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: RoastedCrustPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: ScorchingMedley
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SpicyMarmalade
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: HelmetStrawHat
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: ArmorHarvester2
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: BeltStrength
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadBzerker
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadHasty
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadLightfoot
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadStrength
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadSwimmer
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadTrollPheromones
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadTamer
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadBugRepellent
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 70
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_Jewelcrafting_Jonathan
+  items:
+  - prefab: AxeBerzerkrBlood
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 1
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: BowAshlandsBlood
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: SwordCheat
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: ShieldFlametal
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: PickaxeBlackMetal
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 6
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: Cultivator
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: Lantern
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowCharred
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: Wood
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  - prefab: FishAndBread
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: RoastedCrustPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: ScorchingMedley
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MarinatedGreens
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SparklingShroomshake
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadHealthMajor
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: CapeFeather
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: HelmetFenring
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: ArmorFenringChest
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  - prefab: ArmorFenringLegs
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: true
+      sockets:
+      - Simple_Red_Socket
+      - Common_Merged_Gemstone_Black_Blue
+      - random_perfect
+  - prefab: BeltStrength
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: Demister
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Wishbone
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: StaffFireball
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: false
+      socketSlotsLocked: true
+      sockets:
+      - random_simple
+      - Advanced_Merged_Gemstone_Black_Red
+      - empty
+  - prefab: StaffShield
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    jewelcrafting:
+      socketsLocked: true
+      socketSlotsLocked: false
+      sockets:
+      - random_perfect
+      - random_advanced
+      - Perfect_Merged_Gemstone_Black_Yellow
+  skills:
+  - skill: All
+    level: 100
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []

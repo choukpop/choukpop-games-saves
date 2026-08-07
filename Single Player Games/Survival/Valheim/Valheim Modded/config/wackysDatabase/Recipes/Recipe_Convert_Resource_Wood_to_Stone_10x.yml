@@ -1,0 +1,13 @@
+name: Convert_Resource_Wood_to_Stone_10x
+clonePrefabName: Stone
+craftingStation: $piece_stonecutter
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 10
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- Wood:10:1:True

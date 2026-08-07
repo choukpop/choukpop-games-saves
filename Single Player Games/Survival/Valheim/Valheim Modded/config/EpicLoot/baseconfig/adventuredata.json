@@ -185,30 +185,6 @@
       1,
       1,
       1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
       1
     ],
     "RandomItems": [],
@@ -1713,140 +1689,140 @@
         "GoldBountyTokenCost": 0
       },
       {
-        "Item": "TimelessTrinkets",
+        "Item": "BackpackTimelessTrinkets",
         "CoinsCost": 1300,
         "ForestTokenCost": 0,
         "IronBountyTokenCost": 0,
         "GoldBountyTokenCost": 0
       },
       {
-        "Item": "ManaMorsels",
+        "Item": "BackpackManaMorsels",
         "CoinsCost": 1300,
         "ForestTokenCost": 0,
         "IronBountyTokenCost": 0,
         "GoldBountyTokenCost": 0
       },
       {
-        "Item": "SaltySack",
+        "Item": "BackpackSaltySack",
         "CoinsCost": 1300,
         "ForestTokenCost": 0,
         "IronBountyTokenCost": 0,
         "GoldBountyTokenCost": 0
       },
       {
-        "Item": "CoreCollector",
+        "Item": "BackpackCoreCollector",
         "CoinsCost": 1300,
         "ForestTokenCost": 0,
         "IronBountyTokenCost": 0,
         "GoldBountyTokenCost": 0
       },
       {
-        "Item": "BossBulge",
+        "Item": "BackpackBossBulge",
         "CoinsCost": 1300,
         "ForestTokenCost": 0,
         "IronBountyTokenCost": 0,
         "GoldBountyTokenCost": 0
       },
       {
-        "Item": "BagofBones",
+        "Item": "BackpackBagofBones",
         "CoinsCost": 1300,
         "ForestTokenCost": 0,
         "IronBountyTokenCost": 0,
         "GoldBountyTokenCost": 0
       },
       {
-        "Item": "SeedBox",
+        "Item": "BackpackSeedBox",
         "CoinsCost": 1300,
         "ForestTokenCost": 0,
         "IronBountyTokenCost": 0,
         "GoldBountyTokenCost": 0
       },
       {
-        "Item": "FannyPack",
+        "Item": "BackpackFannyPack",
         "CoinsCost": 1300,
         "ForestTokenCost": 0,
         "IronBountyTokenCost": 0,
         "GoldBountyTokenCost": 0
       },
       {
-        "Item": "ButchersSack",
+        "Item": "BackpackButchersSack",
         "CoinsCost": 1300,
         "ForestTokenCost": 0,
         "IronBountyTokenCost": 0,
         "GoldBountyTokenCost": 0
       },
       {
-        "Item": "LeatherLuggage",
+        "Item": "BackpackLeatherLuggage",
         "CoinsCost": 1300,
         "ForestTokenCost": 0,
         "IronBountyTokenCost": 0,
         "GoldBountyTokenCost": 0
       },
       {
-        "Item": "LunchBox",
+        "Item": "BackpackLunchBox",
         "CoinsCost": 1300,
         "ForestTokenCost": 0,
         "IronBountyTokenCost": 0,
         "GoldBountyTokenCost": 0
       },
       {
-        "Item": "TimberTote",
+        "Item": "BackpackTimberTote",
         "CoinsCost": 1300,
         "ForestTokenCost": 0,
         "IronBountyTokenCost": 0,
         "GoldBountyTokenCost": 0
       },
       {
-        "Item": "Miner'sBag",
+        "Item": "BackpackMiner'sBag",
         "CoinsCost": 1300,
         "ForestTokenCost": 0,
         "IronBountyTokenCost": 0,
         "GoldBountyTokenCost": 0
       },
       {
-        "Item": "TrophyTrunk",
+        "Item": "BackpackTrophyTrunk",
         "CoinsCost": 1300,
         "ForestTokenCost": 0,
         "IronBountyTokenCost": 0,
         "GoldBountyTokenCost": 0
       },
       {
-        "Item": "ForagerFarmingBasket",
+        "Item": "BackpackForagerFarmingBasket",
         "CoinsCost": 1300,
         "ForestTokenCost": 0,
         "IronBountyTokenCost": 0,
         "GoldBountyTokenCost": 0
       },
       {
-        "Item": "TackleBox",
+        "Item": "BackpackTackleBox",
         "CoinsCost": 1300,
         "ForestTokenCost": 0,
         "IronBountyTokenCost": 0,
         "GoldBountyTokenCost": 0
       },
       {
-        "Item": "PotionPouch",
+        "Item": "BackpackPotionPouch",
         "CoinsCost": 1300,
         "ForestTokenCost": 0,
         "IronBountyTokenCost": 0,
         "GoldBountyTokenCost": 0
       },
       {
-        "Item": "ToolBelt",
+        "Item": "BackpackToolBelt",
         "CoinsCost": 1300,
         "ForestTokenCost": 0,
         "IronBountyTokenCost": 0,
         "GoldBountyTokenCost": 0
       },
       {
-        "Item": "ShaftSatchel",
+        "Item": "BackpackShaftSatchel",
         "CoinsCost": 1300,
         "ForestTokenCost": 0,
         "IronBountyTokenCost": 0,
         "GoldBountyTokenCost": 0
       },
       {
-        "Item": "Assassin’sArsenal",
+        "Item": "BackpackAssassin’sArsenal",
         "CoinsCost": 1300,
         "ForestTokenCost": 0,
         "IronBountyTokenCost": 0,

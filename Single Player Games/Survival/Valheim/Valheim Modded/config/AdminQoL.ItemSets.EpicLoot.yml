@@ -1,0 +1,5851 @@
+# AdminQoL EpicLoot itemset reference.
+# This file is generated once and is never overwritten by AdminQoL.
+# AdminQoL reads this file because it matches AdminQoL.ItemSets*.yml.
+# Entries are enabled by default, but this file is loaded only when EpicLoot is installed.
+# Set enabled: false on any entry you do not want in the itemset command.
+#
+# EpicLoot set bonuses are not defined here. Define custom Legendary/Mythic items and set bonuses
+# in EpicLoot's legendaries.json, then reference their legendaryId and optional setId here.
+#
+# Top-level itemset fields:
+#   enabled: false disables the entry. Missing enabled means enabled.
+#   name: itemset command name.
+#   replaceExisting: true replaces an existing vanilla/YAML set with the same name. Missing means false.
+#
+# Item fields:
+#   prefab: Valheim item prefab name, for example SwordIron.
+#   quality: item quality. Defaults to 1.
+#   stack: item stack size. Defaults to 1.
+#   use: true equips/uses the item through the vanilla itemset command. Defaults to true.
+#   hotbarSlot: 1-8 moves the item to that hotbar slot. 0 or omitted means no hotbar move.
+#
+# epicLoot fields:
+#   rarity:
+#     Allowed values: Magic, Rare, Epic, Legendary, Mythic, random.
+#     Omit rarity to use Magic, unless legendaryId lets AdminQoL infer Legendary/Mythic.
+#     random chooses one EpicLoot.ItemRarity enum value at runtime.
+#   rarityWeights:
+#     YAML map from rarity name to positive number.
+#     Allowed keys: Magic, Rare, Epic, Legendary, Mythic.
+#     If at least one valid positive entry exists, this overrides rarity.
+#     Example: { Rare: 50, Epic: 35, Legendary: 15 }
+#   legendaryId:
+#     String ID from EpicLoot legendaries.json.
+#     Use the key/ID of a loaded LegendaryItems or MythicItems entry.
+#     Values are server/profile dependent and cannot be listed by AdminQoL.
+#     Optional. Omit for normal non-unique magic items.
+#   setId:
+#     String ID from EpicLoot legendaries.json.
+#     Use the key/ID of a loaded LegendarySets or MythicSets entry.
+#     Values are server/profile dependent and cannot be listed by AdminQoL.
+#     Optional when legendaryId belongs to a loaded EpicLoot set.
+#   displayName:
+#     Any string for MagicItem.DisplayName.
+#     Optional. Omit with legendaryId to use EpicLoot's legendary display name.
+#   typeNameOverride:
+#     Any string for MagicItem.TypeNameOverride.
+#     Optional. Changes the item type/name wording EpicLoot displays.
+#   unidentified:
+#     Allowed values: true, false.
+#     Optional. Maps to MagicItem.IsUnidentified.
+#   effectCount:
+#     Integer 0-32.
+#     Target effect count. Extra slots are filled with random available EpicLoot effects.
+#     If effects and effectCount are both omitted, AdminQoL uses EpicLoot's own LootRoller.
+#   effects:
+#     List of effect entries.
+#     type: exact EpicLoot effect Type ID, or random.
+#       random uses EpicLoot.MagicItemEffectDefinitions.GetAvailableEffects(...) for the item.
+#       Exact IDs are case-insensitive in AdminQoL lookup, but writing the canonical ID is recommended.
+#       Some exact IDs are item-type or rarity restricted by EpicLoot requirements.
+#     value: number, random, or omitted.
+#       number sets the exact effect value.
+#       random or omitted uses EpicLoot's rarity-based value roll.
+#       Some EpicLoot effects are valueless; for those, EpicLoot treats the value as display/logic neutral.
+#   augmentedEffectIndices:
+#     List of zero-based effect indexes, for example [0, 2].
+#     Indexes refer to the final effects list order after configured effects and random fill.
+#
+# Current EpicLoot effect Type IDs commonly available in EpicLoot.MagicEffectType:
+#   Utility / unique-style:
+#     DvergerCirclet, InstantMead, AutoMead, DecreaseMeadCooldown, Megingjord,
+#     Wishbone, Andvaranaut, Indestructible, CoinHoarder, Weightless, Waterproof,
+#     Warmth, Glowing, FreeBuild, Comfortable, Luck, Apportation
+#   Damage adders:
+#     AddBluntDamage, AddSlashingDamage, AddPiercingDamage, AddFireDamage,
+#     AddFrostDamage, AddLightningDamage, AddPoisonDamage, AddSpiritDamage
+#   Damage modifiers:
+#     ModifyDamage, ModifyPhysicalDamage, ModifyElementalDamage, ModifyBackstab,
+#     ModifyStaggerDamage, ModifySummonDamage
+#   Resistance adders:
+#     AddFireResistancePercentage, AddFrostResistancePercentage,
+#     AddLightningResistancePercentage, AddPoisonResistancePercentage,
+#     AddSpiritResistancePercentage, AddElementalResistancePercentage,
+#     AddBluntResistancePercentage, AddSlashingResistancePercentage,
+#     AddPiercingResistancePercentage, AddChoppingResistancePercentage,
+#     AddPhysicalResistancePercentage
+#   Armor / block / parry:
+#     ModifyArmor, ModifyBlockPower, ModifyBlockForce, ModifyParry,
+#     ModifyBlockStaminaUse, ModifyParryWindow, Bulwark
+#   Attack and weapon handling:
+#     ModifyAttackSpeed, ModifyAttackStaminaUse, ModifyAttackEitrUse,
+#     ModifyAttackHealthUse, ModifyDrawStaminaUse, ModifyProjectileSpeed,
+#     ModifyMagicFireRate, ModifyFireRate, AmmoConservation, QuickDraw,
+#     Throwable, RecallWeapon, TripleBowShot, DoubleMagicShot, OffSetAttack
+#   Movement / stamina / regen:
+#     ModifyMovementSpeed, RemoveSpeedPenalty, ModifySprintStaminaUse,
+#     ModifyDodgeStaminaUse, ModifyJumpStaminaUse, ModifyRunStaminaDrain,
+#     ModifyStaminaRegen, ModifyHealthRegen, ModifyEitrRegen,
+#     AddHealthRegen, IncreaseHealth, IncreaseStamina, IncreaseEitr,
+#     AddCarryWeight, ReduceWeight, FeatherFall, DoubleJump
+#   Environment / gathering / exploration:
+#     IncreaseMiningDrop, IncreaseTreeDrop, IncreaseHeatResistance,
+#     ModifyBuildDistance, ModifyPickupRange, ModifyNoise, ModifyDiscoveryRadius,
+#     ModifyWispRange
+#   Life/eitr steal and combat procs:
+#     LifeSteal, EitrLeech, Bloodlust, Paralyze, ExplosiveArrows, Executioner,
+#     Riches, Opportunist, Duelist, Immovable, Slow, FrostDamageAOE,
+#     ChainLightning, ReflectDamage, AvoidDamageTaken, StaggerOnDamageTaken,
+#     DodgeBuff, Undying
+#   Skill modifiers:
+#     AddSwordsSkill, AddKnivesSkill, AddClubsSkill, AddPolearmsSkill,
+#     AddSpearsSkill, AddBlockingSkill, AddAxesSkill, AddBowsSkill,
+#     AddCrossbowsSkill, AddUnarmedSkill, AddPickaxesSkill, AddFishingSkill,
+#     AddElementalMagicSkill, AddBloodMagicSkill, AddMovementSkills,
+#     AddCrafterSkills, QuickLearner
+#   Low-health conditional variants:
+#     ModifyLowHealth, ModifyMovementSpeedLowHealth, ModifyHealthRegenLowHealth,
+#     ModifyStaminaRegenLowHealth, ModifyEitrRegenLowHealth, ModifyArmorLowHealth,
+#     ModifyDamageLowHealth, ModifyBlockPowerLowHealth, ModifyParryLowHealth,
+#     ModifyAttackSpeedLowHealth, AvoidDamageTakenLowHealth, LifeStealLowHealth
+#   Magic/eitr themed:
+#     SpellSword, BulkUp, EitrWeave, DartingThoughts, HeadHunter
+#
+# If your installed/server-synchronized EpicLoot config adds custom effect definitions,
+# effects[].type can also use those loaded custom Type IDs.
+#
+# Generated examples below are copied from Valheim's built-in itemsets, renamed with
+# AdminQoL_Example_EpicLoot_*, and then annotated with epicLoot blocks. They mix:
+#   - fixed rarity
+#   - weighted random rarity
+#   - random rarity
+#   - fixed effect ID with fixed value
+#   - fixed effect ID with random value
+#   - fully random effect
+itemSets:
+- enabled: true
+  name: AdminQoL_Example_EpicLoot_Meadows
+  items:
+  - prefab: ShieldWood
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example ShieldWood
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ShieldWoodTower
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Bow
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorRagsChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example ArmorRagsChest
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ArmorRagsLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: Honey
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Raspberry
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: CookedDeerMeat
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: CookedMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: Mushroom
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowWood
+    quality: 1
+    stack: 200
+    use: true
+    hotbarSlot: 0
+  - prefab: AxeStone
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: PickaxeBronze
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example PickaxeBronze
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: SpearFlint
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: KnifeFlint
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 8
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example Torch
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: Club
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  skills:
+  - skill: Swords
+    level: 1
+  - skill: Axes
+    level: 1
+  - skill: Bows
+    level: 1
+  - skill: Jump
+    level: 1
+  - skill: Run
+    level: 1
+  - skill: Blocking
+    level: 1
+  - skill: Sneak
+    level: 1
+  - skill: Swim
+    level: 1
+  - skill: Spears
+    level: 1
+  - skill: Pickaxes
+    level: 1
+  - skill: WoodCutting
+    level: 1
+  - skill: Knives
+    level: 1
+  - skill: Clubs
+    level: 1
+  - skill: Unarmed
+    level: 1
+  knownStations:
+  - piece_workbench
+  knownItems:
+  - Raspberry
+  - Dandelion
+  - Mushroom
+  - Honey
+  - QueenBee
+  - Stone
+  - Flint
+  - Resin
+  - Wood
+  - Feathers
+  - DeerMeat
+  - DeerHide
+  - TrophyDeer
+  - LeatherScraps
+  - RawMeat
+  - TrophyBoar
+  - NeckTail
+  - TrophyNeck
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_EpicLoot_BlackForest
+  items:
+  - prefab: ShieldWood
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ShieldBoneTower
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Bow
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example Bow
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ArmorLeatherChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorLeatherLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: HelmetLeather
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example HelmetLeather
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: CapeDeerHide
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: Honey
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: CookedDeerMeat
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: CookedMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: Mushroom
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: ArrowFlint
+    quality: 1
+    stack: 200
+    use: true
+    hotbarSlot: 0
+  - prefab: AxeFlint
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: PickaxeAntler
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example PickaxeAntler
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: SpearFlint
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: KnifeFlint
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 8
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example Torch
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: Club
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  skills:
+  - skill: Swords
+    level: 10
+  - skill: Axes
+    level: 10
+  - skill: Bows
+    level: 10
+  - skill: Jump
+    level: 10
+  - skill: Run
+    level: 10
+  - skill: Blocking
+    level: 10
+  - skill: Sneak
+    level: 10
+  - skill: Swim
+    level: 10
+  - skill: Spears
+    level: 10
+  - skill: Pickaxes
+    level: 10
+  - skill: WoodCutting
+    level: 10
+  - skill: Knives
+    level: 10
+  - skill: Clubs
+    level: 10
+  - skill: Unarmed
+    level: 10
+  knownStations:
+  - forge
+  - piece_preptable
+  - piece_cauldron
+  - piece_MeadCauldron
+  - piece_MeadCauldron
+  knownItems:
+  - Thistle
+  - Blueberries
+  - Copper
+  - CopperOre
+  - Chitin
+  - Tin
+  - TinOre
+  - Ruby
+  - Coins
+  - AmberPearl
+  - Thunderstone
+  - BarrelRings
+  - FishingBait
+  - FineWood
+  - RoundLog
+  - Carrot
+  - CarrotSeeds
+  - BjornHide
+  - BjornMeat
+  - BjornPaw
+  - TrophyBjorn
+  - TrollHide
+  - TrophyFrostTroll
+  - HardAntler
+  - AncientSeed
+  - GreydwarfEye
+  - TrophyGreydwarf
+  - TrophyGreydwarfBrute
+  - TrophyGreydwarfShaman
+  - SurtlingCore
+  - BronzeNails
+  - BoneFragments
+  - TrophySkeleton
+  - MushroomYellow
+  inheritKnownFromItemSet:
+  - Meadows
+- enabled: true
+  name: AdminQoL_Example_EpicLoot_Swamps
+  items:
+  - prefab: SwordBronze
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 1
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ShieldBronzeBuckler
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example ShieldBronzeBuckler
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ShieldBoneTower
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: BowFineWood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorBronzeChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example ArmorBronzeChest
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ArmorBronzeLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: HelmetBronze
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: CapeTrollHide
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example CapeTrollHide
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: CarrotSoup
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: DeerStew
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: BoarJerky
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: QueensJam
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: MinceMeatSauce
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadPoisonResist
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowBronze
+    quality: 1
+    stack: 200
+    use: true
+    hotbarSlot: 0
+  - prefab: ArmorTrollLeatherChest
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorTrollLeatherLegs
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: HelmetTrollLeather
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example HelmetTrollLeather
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: AxeBronze
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: PickaxeBronze
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: SpearBronze
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example SpearBronze
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: AtgeirBronze
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: MaceBronze
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example MaceBronze
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  skills:
+  - skill: Swords
+    level: 15
+  - skill: Axes
+    level: 15
+  - skill: Bows
+    level: 15
+  - skill: Jump
+    level: 15
+  - skill: Run
+    level: 15
+  - skill: Blocking
+    level: 10
+  - skill: Sneak
+    level: 10
+  - skill: Swim
+    level: 5
+  - skill: Spears
+    level: 15
+  - skill: Pickaxes
+    level: 10
+  - skill: WoodCutting
+    level: 20
+  - skill: Polearms
+    level: 15
+  - skill: Knives
+    level: 15
+  - skill: Clubs
+    level: 15
+  - skill: Unarmed
+    level: 15
+  knownStations:
+  - piece_stonecutter
+  knownItems:
+  - Turnip
+  - TurnipSeeds
+  - Iron
+  - IronOre
+  - IronScrap
+  - ElderBark
+  - Guck
+  - Chain
+  - IronNails
+  - Bloodbag
+  - Entrails
+  - WitheredBone
+  - Ooze
+  - TrophyAbomination
+  - Root
+  - TrophyBlob
+  - TrophyDraugr
+  - TrophyDraugrElite
+  - TrophyKvastur
+  - TrophySurtling
+  - TrophyWraith
+  - TrophyLeech
+  inheritKnownFromItemSet:
+  - BlackForest
+- enabled: true
+  name: AdminQoL_Example_EpicLoot_Mountains
+  items:
+  - prefab: SwordIron
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 1
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example SwordIron
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ShieldIronBuckler
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ShieldBanded
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ShieldIronTower
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example ShieldIronTower
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: BowHuntsman
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorIronChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorIronLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example ArmorIronLegs
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: HelmetIron
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: HelmetRoot
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorRootChest
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example ArmorRootChest
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ArmorRootLegs
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: CapeTrollHide
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: TurnipStew
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: ShocklateSmoothie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: BlackSoup
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadFrostResist
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: Sausages
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowIron
+    quality: 1
+    stack: 200
+    use: true
+    hotbarSlot: 0
+  - prefab: AxeIron
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example AxeIron
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: PickaxeIron
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: SpearElderbark
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example Torch
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: AtgeirIron
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: MaceIron
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: KnifeChitin
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example KnifeChitin
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  skills:
+  - skill: Swords
+    level: 25
+  - skill: Axes
+    level: 25
+  - skill: Bows
+    level: 25
+  - skill: Jump
+    level: 25
+  - skill: Run
+    level: 25
+  - skill: Blocking
+    level: 25
+  - skill: Sneak
+    level: 25
+  - skill: Swim
+    level: 25
+  - skill: Spears
+    level: 25
+  - skill: Pickaxes
+    level: 25
+  - skill: WoodCutting
+    level: 25
+  - skill: Knives
+    level: 25
+  - skill: Polearms
+    level: 25
+  - skill: Clubs
+    level: 25
+  - skill: Unarmed
+    level: 25
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_EpicLoot_Plains
+  items:
+  - prefab: SwordSilver
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 1
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ShieldSilver
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ShieldSerpentscale
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example ShieldSerpentscale
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: BowDraugrFang
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorWolfChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorWolfLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example ArmorWolfLegs
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: HelmetDrake
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: CapeWolf
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: WolfMeatSkewer
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: WolfJerky
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Eyescream
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: OnionSoup
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: CookedWolfMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowObsidian
+    quality: 1
+    stack: 200
+    use: true
+    hotbarSlot: 0
+  - prefab: BattleaxeCrystal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example BattleaxeCrystal
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: PickaxeIron
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: SpearWolfFang
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example Torch
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: SledgeIron
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: MaceSilver
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: KnifeSilver
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example KnifeSilver
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: FistFenrirClaw
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: ArmorFenringChest
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorFenringLegs
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: HelmetFenring
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example HelmetFenring
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  skills:
+  - skill: Swords
+    level: 35
+  - skill: Axes
+    level: 35
+  - skill: Bows
+    level: 35
+  - skill: Jump
+    level: 35
+  - skill: Run
+    level: 35
+  - skill: Blocking
+    level: 35
+  - skill: Sneak
+    level: 35
+  - skill: Swim
+    level: 35
+  - skill: Spears
+    level: 35
+  - skill: Pickaxes
+    level: 35
+  - skill: WoodCutting
+    level: 35
+  - skill: Knives
+    level: 35
+  - skill: Polearms
+    level: 35
+  - skill: Clubs
+    level: 35
+  - skill: Unarmed
+    level: 35
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_EpicLoot_PlainsBoss
+  items:
+  - prefab: SwordBlackmetal
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 1
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ShieldBlackmetal
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 2
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example ShieldBlackmetal
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ShieldBlackmetalTower
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: BowDraugrFang
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorPaddedCuirass
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example ArmorPaddedCuirass
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ArmorPaddedGreaves
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: HelmetPadded
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: CapeWolf
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example CapeWolf
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: LoxPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SerpentStew
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Bread
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: WolfJerky
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: BloodPudding
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowNeedle
+    quality: 1
+    stack: 200
+    use: true
+    hotbarSlot: 0
+  - prefab: ArrowFrost
+    quality: 1
+    stack: 200
+    use: false
+    hotbarSlot: 0
+  - prefab: BattleaxeCrystal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: PickaxeIron
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: SpearWolfFang
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example SpearWolfFang
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: AtgeirBlackmetal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: MaceNeedle
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example MaceNeedle
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: KnifeBlackMetal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: AxeBlackMetal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  skills:
+  - skill: Swords
+    level: 45
+  - skill: Axes
+    level: 45
+  - skill: Bows
+    level: 45
+  - skill: Jump
+    level: 45
+  - skill: Run
+    level: 45
+  - skill: Blocking
+    level: 45
+  - skill: Sneak
+    level: 45
+  - skill: Swim
+    level: 45
+  - skill: Spears
+    level: 45
+  - skill: Pickaxes
+    level: 45
+  - skill: WoodCutting
+    level: 45
+  - skill: Knives
+    level: 45
+  - skill: Polearms
+    level: 45
+  - skill: Clubs
+    level: 45
+  - skill: Unarmed
+    level: 45
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_EpicLoot_Mistlands
+  items:
+  - prefab: SwordBlackmetal
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 1
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example SwordBlackmetal
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ShieldBlackmetal
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 2
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ShieldBlackmetalTower
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: BowDraugrFang
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example BowDraugrFang
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ArmorPaddedCuirass
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorPaddedGreaves
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: HelmetPadded
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example HelmetPadded
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: CapeWolf
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: LoxPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SerpentStew
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Bread
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: BloodPudding
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: FishWraps
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: WolfJerky
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowSilver
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowNeedle
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowFrost
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowPoison
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowFire
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: BattleaxeCrystal
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: PickaxeIron
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 6
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example PickaxeIron
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: SpearWolfFang
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: AtgeirBlackmetal
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example AtgeirBlackmetal
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: MaceNeedle
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: KnifeBlackMetal
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_EpicLoot_MistlandsMage
+  items:
+  - prefab: StaffFireball
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 1
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: StaffIceShards
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: StaffShield
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example StaffShield
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: StaffSkeleton
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: SwordMistwalker
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: KnifeSkollAndHati
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example KnifeSkollAndHati
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ArmorMageChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorMageLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: HelmetMage
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example HelmetMage
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: CapeFeather
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: YggdrasilPorridge
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MushroomOmelette
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SeekerAspic
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Salad
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: Demister
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: MisthareSupreme
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_EpicLoot_MistlandsWarrior
+  items:
+  - prefab: SwordMistwalker
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 1
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: THSwordKrom
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example THSwordKrom
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: SpearCarapace
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: SledgeDemolisher
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: KnifeSkollAndHati
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example KnifeSkollAndHati
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: AxeJotunBane
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: AtgeirHimminAfl
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ShieldCarapace
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 8
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example ShieldCarapace
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ShieldCarapaceBuckler
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: BowSpineSnap
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: CrossbowArbalest
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example CrossbowArbalest
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ArrowCarapace
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: BoltCarapace
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: PickaxeBlackMetal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: Hammer
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Hoe
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: HelmetCarapace
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorCarapaceChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example ArmorCarapaceChest
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ArmorCarapaceLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: CapeFeather
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: DvergrKey
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Demister
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: MisthareSupreme
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeatPlatter
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Salad
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadHealthMajor
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadPoisonResist
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_EpicLoot_Ashlands
+  items:
+  - prefab: AxeBerzerkr
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 1
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example AxeBerzerkr
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: SwordNiedhogg
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: THSwordSlayer
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: MaceEldner
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example MaceEldner
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ArmorFlametalChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 5
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorFlametalLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 6
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: HelmetFlametal
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 7
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example HelmetFlametal
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: MeatPlatter
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 1
+  - prefab: Salad
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 1
+  - prefab: HoneyGlazedChicken
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 1
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 1
+  - prefab: MeadHealthMajor
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 1
+  - prefab: ArmorMageChest_Ashlands
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorMageLegs_Ashlands
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: HelmetMage_Ashlands
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example HelmetMage_Ashlands
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: SwordNiedhoggBlood
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: SwordNiedhoggLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: SwordNiedhoggNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example SwordNiedhoggNature
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: MaceEldnerBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: MaceEldnerLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: MaceEldnerNature
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example MaceEldnerNature
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: THSwordSlayerBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: THSwordSlayerLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: THSwordSlayerNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example THSwordSlayerNature
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: AxeBerzerkrBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: AxeBerzerkrLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: AxeBerzerkrNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example AxeBerzerkrNature
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_EpicLoot_AshlandsFood
+  items:
+  - prefab: Fiddleheadfern
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: SpicyMarmalade
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: ScorchingMedley
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: RoastedCrustPieUncooked
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: RoastedCrustPie
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: AsksvinMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: CookedAsksvinMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: VoltureMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: CookedVoltureMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: BoneMawSerpentMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: CookedBoneMawSerpentMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: FierySvinstew
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: MashedMeat
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: PiquantPie
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: PiquantPieUncooked
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: SizzlingBerryBroth
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: SparklingShroomshake
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_EpicLoot_AshlandsMage
+  items:
+  - prefab: HelmetMage_Ashlands
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorMageChest_Ashlands
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example ArmorMageChest_Ashlands
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ArmorMageLegs_Ashlands
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: StaffFireball
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 1
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: StaffIceShards
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example StaffIceShards
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: StaffShield
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: StaffSkeleton
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: StaffClusterbomb
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example StaffClusterbomb
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: StaffLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: StaffGreenRoots
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 8
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: StaffRedTroll
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example StaffRedTroll
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: SizzlingBerryBroth
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SparklingShroomshake
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: RoastedCrustPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadEitrLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadHealthMajor
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: BombLava
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_EpicLoot_AshlandsMedium
+  items:
+  - prefab: HelmetAshlandsMediumHood
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example HelmetAshlandsMediumHood
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ArmorAshlandsMediumChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorAshlandsMediumlegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: CapeAsksvin
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example CapeAsksvin
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: CrossbowRipper
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 1
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: CrossbowRipperLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: BowAshlands
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example BowAshlands
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: MaceEldnerNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: AxeBerzerkrBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: RoastedCrustPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: ScorchingMedley
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: PiquantPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadHealthMajor
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: BombLava
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  - prefab: BoltCharred
+    quality: 1
+    stack: 200
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowCharred
+    quality: 1
+    stack: 200
+    use: false
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_EpicLoot_AshlandsWarrior
+  items:
+  - prefab: SwordNiedhoggBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 1
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ShieldFlametal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ShieldFlametalTower
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example ShieldFlametalTower
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: BowAshlands
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: THSwordSlayerLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: Hammer
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 6
+  - prefab: CrossbowRipper
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example CrossbowRipper
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: BoltCharred
+    quality: 1
+    stack: 200
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowCharred
+    quality: 1
+    stack: 200
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadHealthMajor
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: PiquantPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MashedMeat
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: RoastedCrustPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: PickaxeBlackMetal
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: AxeBerzerkrNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 8
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorFlametalChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example ArmorFlametalChest
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ArmorFlametalLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: HelmetFlametal
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: CapeAsh
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example CapeAsh
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: BombLava
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_EpicLoot_AshlandsWeapons
+  items:
+  - prefab: SwordNiedhogg
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: SwordNiedhoggBlood
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example SwordNiedhoggBlood
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: SwordNiedhoggLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: SwordNiedhoggNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: THSwordSlayer
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example THSwordSlayer
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: THSwordSlayerBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: THSwordSlayerLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: THSwordSlayerNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example THSwordSlayerNature
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: MaceEldner
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: MaceEldnerBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: MaceEldnerLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example MaceEldnerLightning
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: MaceEldnerNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: AxeBerzerkr
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: AxeBerzerkrBlood
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example AxeBerzerkrBlood
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: AxeBerzerkrLightning
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: AxeBerzerkrNature
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: SpearSplitner
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example SpearSplitner
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: BowAshlands
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_EpicLoot_1
+  items:
+  - prefab: SledgeDemolisher
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 1
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example SledgeDemolisher
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ShieldBlackmetal
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 2
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: CrossbowArbalest
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: BowSpineSnap
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example BowSpineSnap
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ArmorCarapaceChest
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorCarapaceLegs
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: HelmetCarapace
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example HelmetCarapace
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: CapeFeather
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: LoxPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Demister
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: Bread
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SeekerAspic
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: YggdrasilPorridge
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: MushroomOmelette
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: StaffFireball
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArrowNeedle
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: StaffIceShards
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 8
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example StaffIceShards
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ArrowPoison
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: BoltBlackmetal
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: SwordMistwalker
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: PickaxeIron
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 6
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: THSwordKrom
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example THSwordKrom
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: AtgeirHimminAfl
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: KnifeSkollAndHati
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example KnifeSkollAndHati
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: BoltBone
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 7
+  - prefab: BoltIron
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 7
+  - prefab: HelmetMage
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorMageChest
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorMageLegs
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example ArmorMageLegs
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ArmorMageLegs
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorMageLegs
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 7
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  skills:
+  - skill: All
+    level: 30
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_EpicLoot_Base
+  items:
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 1
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 2
+  - prefab: Torch
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 3
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: HelmetDverger
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: CryptKey
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Demister
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 5
+  - prefab: FishAndBread
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: HoneyGlazedChickenUncooked
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: YggdrasilPorridge
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SeekerAspic
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MagicallyStuffedShroom
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MushroomOmelette
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Salad
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MisthareSupreme
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 70
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_EpicLoot_Builder
+  items:
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 1
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 2
+  - prefab: Cultivator
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: PickaxeBlackMetal
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: AxeJotunBane
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example AxeJotunBane
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: FishAndBread
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: RoastedCrustPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: ScorchingMedley
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SpicyMarmalade
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: HelmetFenring
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorFenringChest
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorFenringLegs
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example ArmorFenringLegs
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: BeltStrength
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 70
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_EpicLoot_Fisherman
+  items:
+  - prefab: FishingRod
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 1
+  - prefab: Fish1
+    quality: 1
+    stack: 5
+    use: true
+    hotbarSlot: 3
+  - prefab: Fish2
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 4
+  - prefab: Fish3
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 5
+  - prefab: Fish4_cave
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 6
+  - prefab: Fish5
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 7
+  - prefab: Fish6
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 8
+  - prefab: Fish7
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: Fish8
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: Fish9
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: Fish10
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: Fish11
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: Hammer
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 2
+  - prefab: HelmetFenring
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example HelmetFenring
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ArmorFenringLegs
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorFenringChest
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: FishingBait
+    quality: 1
+    stack: 50
+    use: true
+    hotbarSlot: 0
+  - prefab: FishingBaitForest
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  - prefab: FishingBaitSwamp
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  - prefab: FishingBaitOcean
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  - prefab: FishingBaitPlains
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  - prefab: FishingBaitMistlands
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 4
+  - prefab: FishingBaitDeepNorth
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 6
+  - prefab: FishingBaitAshlands
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  - prefab: FishCooked
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Bread
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: BloodPudding
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: Fish1
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Fish1
+    quality: 5
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Fish2
+    quality: 2
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Fish5
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 40
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_EpicLoot_Harvester
+  items:
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: true
+    hotbarSlot: 1
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 2
+  - prefab: Cultivator
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: PickaxeBlackMetal
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: AxeJotunBane
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: Feaster
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Scythe
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: FishAndBread
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: RoastedCrustPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: ScorchingMedley
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SpicyMarmalade
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: HelmetStrawHat
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example HelmetStrawHat
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ArmorHarvester2
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: BeltStrength
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: MeadBzerker
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadHasty
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadLightfoot
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadStrength
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadSwimmer
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadTrollPheromones
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadTamer
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadBugRepellent
+    quality: 1
+    stack: 5
+    use: false
+    hotbarSlot: 0
+  skills:
+  - skill: All
+    level: 70
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []
+- enabled: true
+  name: AdminQoL_Example_EpicLoot_Jonathan
+  items:
+  - prefab: AxeBerzerkrBlood
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 1
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: BowAshlandsBlood
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 2
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example BowAshlandsBlood
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: Hammer
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 3
+  - prefab: SwordCheat
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 4
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ShieldFlametal
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 5
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: PickaxeBlackMetal
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 6
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example PickaxeBlackMetal
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: Hoe
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 7
+  - prefab: Cultivator
+    quality: 3
+    stack: 1
+    use: false
+    hotbarSlot: 8
+  - prefab: Torch
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: Lantern
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: ArrowCharred
+    quality: 1
+    stack: 100
+    use: false
+    hotbarSlot: 0
+  - prefab: Wood
+    quality: 1
+    stack: 50
+    use: false
+    hotbarSlot: 0
+  - prefab: FishAndBread
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: RoastedCrustPie
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: ScorchingMedley
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: MarinatedGreens
+    quality: 1
+    stack: 10
+    use: true
+    hotbarSlot: 0
+  - prefab: SparklingShroomshake
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadStaminaLingering
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: MeadHealthMajor
+    quality: 1
+    stack: 10
+    use: false
+    hotbarSlot: 0
+  - prefab: CapeFeather
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: HelmetFenring
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example HelmetFenring
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: ArmorFenringChest
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: ArmorFenringLegs
+    quality: 4
+    stack: 1
+    use: true
+    hotbarSlot: 0
+    epicLoot:
+      rarity: random
+      rarityWeights: {}
+      typeNameOverride: example gear
+      unidentified: false
+      effectCount: 2
+      effects:
+      - type: AddFireDamage
+        value: random
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  - prefab: BeltStrength
+    quality: 1
+    stack: 1
+    use: true
+    hotbarSlot: 0
+  - prefab: Demister
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: Wishbone
+    quality: 1
+    stack: 1
+    use: false
+    hotbarSlot: 0
+  - prefab: StaffFireball
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarity: Epic
+      rarityWeights: {}
+      displayName: AdminQoL Example StaffFireball
+      effectCount: 3
+      effects:
+      - type: AddFireDamage
+        value: 12
+      - type: random
+        value: random
+      augmentedEffectIndices:
+      - 0
+  - prefab: StaffShield
+    quality: 4
+    stack: 1
+    use: false
+    hotbarSlot: 0
+    epicLoot:
+      rarityWeights:
+        Rare: 50
+        Epic: 35
+        Legendary: 15
+      effectCount: 2
+      effects:
+      - type: random
+        value: random
+      augmentedEffectIndices: []
+  skills:
+  - skill: All
+    level: 100
+  knownStations: []
+  knownItems: []
+  inheritKnownFromItemSet: []

@@ -53,7 +53,7 @@
         },
         {
           "Item": "TrophyLeech",
-          "Amount": 3
+          "Amount": 1
         }
       ],
       [
@@ -120,8 +120,8 @@
           "Amount": 20
         },
         {
-          "Item": "Chitin",
-          "Amount": 4
+          "Item": "Honey",
+          "Amount": 10
         },
         {
           "Item": "Resin",
@@ -139,7 +139,7 @@
         },
         {
           "Item": "Guck",
-          "Amount": 20
+          "Amount": 5
         }
       ],
       [
@@ -235,7 +235,7 @@
         },
         {
           "Item": "Ooze",
-          "Amount": 20
+          "Amount": 5
         },
         {
           "Item": "Iron",
@@ -311,7 +311,7 @@
         },
         {
           "Item": "Coins",
-          "Amount": 200
+          "Amount": 50
         }
       ],
       [
@@ -367,7 +367,7 @@
         },
         {
           "Item": "Coins",
-          "Amount": 500
+          "Amount": 400
         }
       ],
       [
@@ -381,7 +381,7 @@
         },
         {
           "Item": "Coins",
-          "Amount": 600
+          "Amount": 500
         }
       ],
       [
@@ -395,7 +395,7 @@
         },
         {
           "Item": "Coins",
-          "Amount": 700
+          "Amount": 600
         }
       ]
     ],
@@ -413,11 +413,31 @@
       [
         {
           "Item": "ForestToken",
-          "Amount": 10
+          "Amount": 5
         },
         {
           "Item": "Dandelion",
-          "Amount": 100
+          "Amount": 20
+        }
+      ],
+      [
+        {
+          "Item": "ForestToken",
+          "Amount": 10
+        },
+        {
+          "Item": "MushroomYellow",
+          "Amount": 20
+        }
+      ],
+      [
+        {
+          "Item": "ForestToken",
+          "Amount": 20
+        },
+        {
+          "Item": "NeckTailGrilled",
+          "Amount": 20
         }
       ],
       [
@@ -426,48 +446,28 @@
           "Amount": 30
         },
         {
-          "Item": "MushroomYellow",
-          "Amount": 100
-        }
-      ],
-      [
-        {
-          "Item": "ForestToken",
-          "Amount": 60
-        },
-        {
-          "Item": "FishRaw",
-          "Amount": 60
-        }
-      ],
-      [
-        {
-          "Item": "ForestToken",
-          "Amount": 90
-        },
-        {
           "Item": "Cloudberry",
-          "Amount": 200
+          "Amount": 20
         }
       ],
       [
         {
           "Item": "ForestToken",
-          "Amount": 120
+          "Amount": 40
         },
         {
           "Item": "MushroomJotunPuffs",
-          "Amount": 80
+          "Amount": 20
         }
       ],
       [
         {
           "Item": "ForestToken",
-          "Amount": 150
+          "Amount": 50
         },
         {
           "Item": "MushroomSmokePuff",
-          "Amount": 80
+          "Amount": 20
         }
       ]
     ],
@@ -495,7 +495,7 @@
       [
         {
           "Item": "GoldBountyToken",
-          "Amount": 5
+          "Amount": 1
         },
         {
           "Item": "Silver",
@@ -515,7 +515,7 @@
       [
         {
           "Item": "GoldBountyToken",
-          "Amount": 10
+          "Amount": 5
         },
         {
           "Item": "Eitr",
@@ -551,28 +551,28 @@
         100
       ],
       [
-        3,
-        102
-      ],
-      [
-        6,
-        104
+        5,
+        105
       ],
       [
         10,
-        106
-      ],
-      [
-        15,
-        108
-      ],
-      [
-        20,
         110
       ],
       [
-        25,
-        112
+        20,
+        120
+      ],
+      [
+        30,
+        130
+      ],
+      [
+        40,
+        140
+      ],
+      [
+        50,
+        150
       ]
     ],
     "ConvertMaterials": [
@@ -611,28 +611,28 @@
         0
       ],
       [
-        1,
-        2
-      ],
-      [
-        2,
-        4
-      ],
-      [
-        3,
-        6
-      ],
-      [
         4,
         8
       ],
       [
-        5,
-        10
+        8,
+        16
       ],
       [
-        6,
-        12
+        12,
+        24
+      ],
+      [
+        16,
+        32
+      ],
+      [
+        24,
+        48
+      ],
+      [
+        32,
+        64
       ]
     ],
     "Augment": [
@@ -646,10 +646,6 @@
       ],
       [
         4,
-        0
-      ],
-      [
-        4,
         25
       ],
       [
@@ -663,6 +659,10 @@
       [
         6,
         50
+      ],
+      [
+        6,
+        75
       ]
     ],
     "Disenchant": [
@@ -671,28 +671,28 @@
         0
       ],
       [
-        3,
-        0
-      ],
-      [
-        6,
-        0
-      ],
-      [
         10,
-        1
-      ],
-      [
-        15,
-        2
+        0
       ],
       [
         20,
+        1
+      ],
+      [
+        30,
+        2
+      ],
+      [
+        40,
         3
       ],
       [
-        25,
+        60,
         4
+      ],
+      [
+        75,
+        5
       ]
     ],
     "Rune": [
@@ -701,28 +701,28 @@
         90
       ],
       [
-        3,
+        5,
         95
       ],
       [
-        6,
+        10,
         100
       ],
       [
-        10,
-        102
-      ],
-      [
-        15,
-        104
-      ],
-      [
         20,
-        106
+        110
       ],
       [
-        25,
-        108
+        30,
+        120
+      ],
+      [
+        40,
+        135
+      ],
+      [
+        50,
+        150
       ]
     ]
   }

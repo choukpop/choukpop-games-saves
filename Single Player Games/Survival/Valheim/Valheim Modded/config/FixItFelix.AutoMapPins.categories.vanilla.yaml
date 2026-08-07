@@ -151,7 +151,7 @@ dungeons_has_treasure_wood_house:
   iconName: village
   isPermanent: true
   # Enable or Disable
-  isActive: false
+  isActive: true
   iconColorRGBA:
     red: 75
     green: 35

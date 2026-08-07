@@ -1,4 +1,4 @@
-"Assassin’s Arsenal ":
+"Backpack Assassin’s Arsenal":
   description: "A sleek, shadow‑stitched satchel favored by rogues and silent killers. The Assassin’s Arsenal keeps throwing knives, shuriken, darts, and venom vials organized and ready at a moment’s notice. Built for speed and subtlety, it’s the perfect companion for any Viking who prefers precision over brute force.. Lightens their weight by 20%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -111,7 +111,7 @@
   teleport: true
 
 
-"Shaft Satchel":
+"Backpack Shaft Satchel":
   description: "A small storage container for ammo. This does not act as a quiver. This simply stores all ammunition. Arrows, Bolts, Bombs, Missiles and Payloads. Lightens their weight by 20%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -234,7 +234,7 @@
   
   
   
-"Tool Belt":
+"Backpack Tool Belt":
   description: "A versatile heavy belt designed for builders, containing all the essential hammers and tools for construction. Lightens their weight by 10%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -362,7 +362,7 @@
   teleport: true
 
 
-"Potion Pouch":
+"Backpack Potion Pouch":
   description: "A specialized medium sized pouch designed for alchemists, perfect for carrying potions, elixirs, and tonics. Lightens their weight by 15%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -556,7 +556,7 @@
   teleport: true
 
 
-"Tackle Box":
+"Backpack Tackle Box":
   description: "A small handy box for fishing enthusiasts, designed to carry fishing rods, bait, and trophy fish. Lightens their weight by 20%"
   size: 2x4 
   unique: type
@@ -647,7 +647,7 @@
   teleport: true
 
 
-"Forager/Farming Basket":
+"Backpack Forager/Farming Basket":
   description: "A small wicker basket perfect for farmers and herbalists. Designed to carry flowers, plants, berries, veggies and other natural items. Lightens their weight by 20%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -766,7 +766,7 @@
   teleport: true
   
   
-"Trophy Trunk":
+"Backpack Trophy Trunk":
   description: "A heavy decorative trunk designed to store trophies of various animals and monsters. Lightens their weight by 10%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -1043,7 +1043,7 @@
   
   
   
-"Miner's Bag":
+"Backpack Miner's Bag":
   description: "An essential heavy bag for miners, optimized for carrying ores and stones. Lightens their weight by 10%."
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -1157,7 +1157,7 @@
   
   
 
-"Timber Tote":
+"Backpack Timber Tote":
   description: "A sturdy heavy bag designed for the diligent lumberjack. It eases the burden of carrying logs. Lightens their weight by 10%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -1246,7 +1246,7 @@
 
 
 
-"Lunch Box":
+"Backpack Lunch Box":
   description: "A compact and convenient medium sized box designed to carry all sorts of food items for adventurers on the go. Lightens their weight by 15%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -1540,7 +1540,7 @@
 
 
 
-"Leather Luggage":
+"Backpack Leather Luggage":
   description: "A rugged and durable medium sized bag crafted for the seasoned hunter, designed to store and preserve various hides gathered from the wilderness. It facilitates longer hunting expeditions and efficient resource management. Lightens their weight by 15%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -1658,7 +1658,7 @@
   
   
   
-"Butchers Sack":
+"Backpack Butchers Sack":
   description: "A rugged and durable medium sized sack crafted for the seasoned hunter, designed to store and preserve meats and animal parts gathered from the wilderness. It facilitates longer hunting expeditions and efficient resource management. Lightens their weight by 15%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -1763,7 +1763,7 @@
   
   
   
-"Fanny Pack":
+"Backpack Fanny Pack":
   description: "A small pack to store all your valuables, accessories, utility and tradeable items. Lightens their weight by 20%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -1868,7 +1868,7 @@
   
   
   
-"Seed Box":
+"Backpack Seed Box":
   description: "A small box to store all your seeds from every biome. Lightens their weight by 20%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -1971,7 +1971,7 @@
   
   
   
-"Bag of Bones":
+"Backpack Bag of Bones":
   description: "A medium sized bag to store your bone collection. Lightens their weight by 15%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -2060,7 +2060,7 @@
   
   
   
-"Boss Bulge":
+"Backpack Boss Bulge":
   description: "A versatile heavy bag designed for summoning bosses and containing their essential remains. Lightens their weight by 10%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -2177,7 +2177,7 @@
   
   
   
-"Core Collector":
+"Backpack Core Collector":
   description: "A medium sized bag to store all cores and fuel sources. Lightens their weight by 15%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -2278,7 +2278,7 @@
   
   
   
-"Salty Sack":
+"Backpack Salty Sack":
   description: "A huge sized salty sack to store all seaman needs. Lightens their weight by 10%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -2384,7 +2384,7 @@
   
 
 
-"Mana Morsels":
+"Backpack Mana Morsels":
   description: "A compact and convenient small sized pouch designed to carry all sorts of magical food items for adventurers on the go. Lightens their weight by 20%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -2523,7 +2523,7 @@
   
 
 
-"Timeless Trinkets":
+"Backpack Timeless Trinkets":
   description: "A compact and convenient medium sized pouch designed to carry all sorts of timeless trinkets for adventurers on the go. Lightens their weight by 15%"
   size: 2x4 # Initial size with 2 columns and 4 rows.
   unique: type
@@ -2669,3 +2669,4 @@
       size: 8x4
   weight factor: 0.85
   teleport: true
+  
