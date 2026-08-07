@@ -644,9 +644,7 @@
           "FishingRod",
           "Cultivator"
         ],
-        "defeated_bonemass": [
-          "ATM_Shovel"
-        ],
+        "defeated_bonemass": [],
         "defeated_dragon": [],
         "defeated_goblinking": [],
         "defeated_queen": [],

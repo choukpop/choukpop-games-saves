@@ -6,6 +6,6 @@ t9n3WG6dFk
 
 
 file: com.Skarif.ValheimPerformanceOverhaul.cfg
-# [3. Distance Culler] Enabled = false | fix trees not spawn
+[3. Distance Culler] Enabled = false | fix trees not spawn
 
-
+[10. Piece Optimization] Enabled = false | fix builds flying not breaking
