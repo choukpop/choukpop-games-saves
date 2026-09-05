@@ -1,1 +1,3 @@
 C:\Users\ChouKpop\Saved Games\Respawn\Apex
+
++fps_max "300" -high -novid

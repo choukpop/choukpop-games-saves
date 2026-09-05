@@ -173,6 +173,7 @@ echo.
 :: Ask if want to copy (only if folder exists)
 echo %CLR_TEXT%Copy files to backup? (y/n):%RESET%
 set /p "do_copy=> "
+if "!do_copy!"=="" set "do_copy=y"
 
 :: ============================================================
 :: PAGE 2: CHECK EXISTING BACKUP ITEMS
@@ -274,6 +275,7 @@ for /l %%i in (1,1,%count%) do (
         if !exists[%%i]! equ 1 (
             echo %CLR_PATHS%[%%i] FOLDER: !item_name!%RESET%
             set /p "del=Delete? (y/n): "
+            if "!del!"=="" set "del=y"
             if /i "!del!"=="y" ( 
                 set "delete[%%i]=y" 
                 echo %CLR_ERROR%    [TO DELETE]%RESET%
@@ -288,6 +290,7 @@ for /l %%i in (1,1,%count%) do (
         if !exists[%%i]! equ 1 (
             echo %CLR_PATHS%[%%i] FILE: !item_name!%RESET%
             set /p "del=Delete? (y/n): "
+            if "!del!"=="" set "del=y"
             if /i "!del!"=="y" ( 
                 set "delete[%%i]=y" 
                 echo %CLR_ERROR%    [TO DELETE]%RESET%
@@ -499,6 +502,7 @@ echo.
 
 echo %CLR_TEXT%Open backup folder? (y/n):%RESET%
 set /p "open_folder=> "
+if "!open_folder!"=="" set "open_folder=n"
 
 if /i "%open_folder%"=="y" (
     if exist "%GITHUB_BACKUP_FOLDER%\" (

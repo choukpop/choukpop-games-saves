@@ -16,6 +16,7 @@ set "GITHUB_BACKUP_FOLDER=%GITHUB_BASE_PATH%\Single Player Games\Survival\Palwor
 set "game_save[1]=folder|C:\Users\ChouKpop\AppData\Local\Pal\Saved\SaveGames"
 set "game_save[2]=folder|C:\Users\ChouKpop\AppData\Local\Pal\Saved\Config\Windows"
 set "game_save[3]=folder|C:\Users\ChouKpop\AppData\Local\Pal\Saved\Mods"
+set "game_save[4]=file|C:\Users\ChouKpop\AppData\Local\Pal\Saved\PalInsightSettings.lua"
 
 :: ============================================================
 :: Backup destinations (must match the same index)
@@ -23,6 +24,7 @@ set "game_save[3]=folder|C:\Users\ChouKpop\AppData\Local\Pal\Saved\Mods"
 set "github_copy_save[1]=%GITHUB_BASE_PATH%\Single Player Games\Survival\Palworld\Pal\Saved"
 set "github_copy_save[2]=%GITHUB_BASE_PATH%\Single Player Games\Survival\Palworld\Pal\Saved\Config"
 set "github_copy_save[3]=%GITHUB_BASE_PATH%\Single Player Games\Survival\Palworld\Pal\Saved"
+set "github_copy_save[4]=%GITHUB_BASE_PATH%\Single Player Games\Survival\Palworld\Pal\Saved"
 
 :: ============================================================
 :: Subfolder mode: true = save inside subfolder with original name
@@ -177,6 +179,7 @@ echo.
 :: Ask if want to copy (only if folder exists)
 echo %CLR_TEXT%Copy files to backup? (y/n):%RESET%
 set /p "do_copy=> "
+if "!do_copy!"=="" set "do_copy=y"
 
 :: ============================================================
 :: PAGE 2: CHECK EXISTING BACKUP ITEMS
@@ -278,6 +281,7 @@ for /l %%i in (1,1,%count%) do (
         if !exists[%%i]! equ 1 (
             echo %CLR_PATHS%[%%i] FOLDER: !item_name!%RESET%
             set /p "del=Delete? (y/n): "
+            if "!del!"=="" set "del=y"
             if /i "!del!"=="y" ( 
                 set "delete[%%i]=y" 
                 echo %CLR_ERROR%    [TO DELETE]%RESET%
@@ -292,6 +296,7 @@ for /l %%i in (1,1,%count%) do (
         if !exists[%%i]! equ 1 (
             echo %CLR_PATHS%[%%i] FILE: !item_name!%RESET%
             set /p "del=Delete? (y/n): "
+            if "!del!"=="" set "del=y"
             if /i "!del!"=="y" ( 
                 set "delete[%%i]=y" 
                 echo %CLR_ERROR%    [TO DELETE]%RESET%
@@ -503,6 +508,7 @@ echo.
 
 echo %CLR_TEXT%Open backup folder? (y/n):%RESET%
 set /p "open_folder=> "
+if "!open_folder!"=="" set "open_folder=n"
 
 if /i "%open_folder%"=="y" (
     if exist "%GITHUB_BACKUP_FOLDER%\" (
