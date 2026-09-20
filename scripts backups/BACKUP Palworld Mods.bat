@@ -17,6 +17,7 @@ set "game_save[1]=folder|E:\Programas\Steam\steamapps\common\Palworld\Pal\Binari
 set "game_save[2]=folder|E:\Programas\Steam\steamapps\common\Palworld\Pal\Content\Paks\~mods"
 set "game_save[3]=folder|E:\Programas\Steam\steamapps\common\Palworld\Pal\Content\Paks\LogicMods"
 set "game_save[4]=folder|C:\Users\ChouKpop\AppData\Local\BaseRenamingUtility"
+set "game_save[5]=file|C:\Users\ChouKpop\AppData\Local\Pal\Saved\PalInsightSettings.lua"
 
 :: ============================================================
 :: Backup destinations (must match the same index)
@@ -25,6 +26,7 @@ set "github_copy_save[1]=%GITHUB_BASE_PATH%\MODS\Pal\Binaries\Win64\ue4ss"
 set "github_copy_save[2]=%GITHUB_BASE_PATH%\MODS\Pal\Content\Paks"
 set "github_copy_save[3]=%GITHUB_BASE_PATH%\MODS\Pal\Content\Paks"
 set "github_copy_save[4]=%GITHUB_BASE_PATH%\CONFIGS"
+set "github_copy_save[5]=%GITHUB_BASE_PATH%\CONFIGS\Pal\Saved"
 
 :: ============================================================
 :: Subfolder mode: true = save inside subfolder with original name

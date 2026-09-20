@@ -16,7 +16,6 @@ set "GITHUB_BACKUP_FOLDER=%GITHUB_BASE_PATH%\Single Player Games\Survival\Palwor
 set "game_save[1]=folder|C:\Users\ChouKpop\AppData\Local\Pal\Saved\SaveGames"
 set "game_save[2]=folder|C:\Users\ChouKpop\AppData\Local\Pal\Saved\Config\Windows"
 set "game_save[3]=folder|C:\Users\ChouKpop\AppData\Local\Pal\Saved\Mods"
-set "game_save[4]=file|C:\Users\ChouKpop\AppData\Local\Pal\Saved\PalInsightSettings.lua"
 
 :: ============================================================
 :: Backup destinations (must match the same index)
@@ -24,7 +23,6 @@ set "game_save[4]=file|C:\Users\ChouKpop\AppData\Local\Pal\Saved\PalInsightSetti
 set "github_copy_save[1]=%GITHUB_BASE_PATH%\Single Player Games\Survival\Palworld\Pal\Saved"
 set "github_copy_save[2]=%GITHUB_BASE_PATH%\Single Player Games\Survival\Palworld\Pal\Saved\Config"
 set "github_copy_save[3]=%GITHUB_BASE_PATH%\Single Player Games\Survival\Palworld\Pal\Saved"
-set "github_copy_save[4]=%GITHUB_BASE_PATH%\Single Player Games\Survival\Palworld\Pal\Saved"
 
 :: ============================================================
 :: Subfolder mode: true = save inside subfolder with original name

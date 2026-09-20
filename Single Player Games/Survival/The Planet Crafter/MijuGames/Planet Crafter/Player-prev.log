@@ -3,18 +3,24 @@ Mono config path = 'D:/SteamLibrary/steamapps/common/The Planet Crafter/MonoBlee
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-Initialize engine version: 6000.0.58f2 (92dee566b325)
+Initialize engine version: 6000.3.2f1 (a9779f353c9b)
 [Subsystems] Discovering subsystems at path D:/SteamLibrary/steamapps/common/The Planet Crafter/Planet Crafter_Data/UnitySubsystems
-kGfxThreadingModeSplitJobs is not supported on Direct3D 11. Reverting to kGfxThreadingModeClientWorkerJobs instead.
+[D3D12 Device Filter] Vendor Name: ATI
+[D3D12 Device Filter] Device Name: AMD  Radeon RX 7800 XT
+[D3D12 Device Filter] Driver Version: 32.0.31041.1004
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 16177 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
 GfxDevice: creating device client; kGfxThreadingModeClientWorkerJobs
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: AMD  Radeon RX 7800 XT (ID=0x747e)
     Vendor:   ATI
-    VRAM:     16368 MB
-    Driver:   32.0.22029.1019
+    VRAM:     16177 MB
+    Driver:   32.0.31041.1004
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.362 seconds
+- Loaded All Assemblies, in  0.161 seconds
 - Finished resetting the current domain, in  0.002 seconds
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -23,95 +29,176 @@ Begin MonoManager ReloadAssembly
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
 D3D11 device created for Microsoft Media Foundation video decoding.
-ArgumentException: No such field defined in class SpaceCraft.MeteoHandler
-Parameter name: meteoEvents
-  at HarmonyLib.Public.Patching.HarmonyManipulator.EmitCallParameter (System.Reflection.MethodInfo patch, System.Boolean allowFirsParamPassthrough, Mono.Cecil.Cil.VariableDefinition& tmpObjectVar, System.Collections.Generic.List`1[HarmonyLib.Public.Patching.HarmonyManipulator+ArgumentBoxInfo]& tmpBoxVars) [0x002b6] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
-  at HarmonyLib.Public.Patching.HarmonyManipulator.WritePostfixes (HarmonyLib.Internal.Util.ILEmitter+Label returnLabel) [0x001a5] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
-  at HarmonyLib.Public.Patching.HarmonyManipulator.WriteImpl () [0x00234] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
-Rethrow as HarmonyException: IL Compile Error (unknown location)
-  at HarmonyLib.Public.Patching.HarmonyManipulator.WriteImpl () [0x00378] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
-  at HarmonyLib.Public.Patching.HarmonyManipulator.Process (MonoMod.Cil.ILContext ilContext, System.Reflection.MethodBase originalMethod) [0x00042] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
-  at HarmonyLib.Public.Patching.HarmonyManipulator.Manipulate (System.Reflection.MethodBase original, HarmonyLib.PatchInfo patchInfo, MonoMod.Cil.ILContext ctx) [0x00006] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
-  at HarmonyLib.Public.Patching.HarmonyManipulator.Manipulate (System.Reflection.MethodBase original, MonoMod.Cil.ILContext ctx) [0x00007] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
-  at HarmonyLib.Public.Patching.ManagedMethodPatcher.Manipulator (MonoMod.Cil.ILContext ctx) [0x00012] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
-  at MonoMod.Cil.ILContext.Invoke (MonoMod.Cil.ILContext+Manipulator manip) [0x00087] in <6733e342b5b549bba815373898724469>:0 
-  at MonoMod.RuntimeDetour.ILHook+Context.InvokeManipulator (Mono.Cecil.MethodDefinition def, MonoMod.Cil.ILContext+Manipulator cb) [0x00012] in <4e2760c7517c4ea79c633d67e84b319f>:0 
-  at (wrapper dynamic-method) MonoMod.RuntimeDetour.ILHook+Context.DMD<MonoMod.RuntimeDetour.ILHook+Context::Refresh>(MonoMod.RuntimeDetour.ILHook/Context)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<MonoMod.RuntimeDetour.ILHook+Context::Refresh>?-576673118(object)
-  at HarmonyLib.Internal.RuntimeFixes.StackTraceFixes.OnILChainRefresh (System.Object self) [0x00000] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
-  at MonoMod.RuntimeDetour.ILHook.Apply () [0x00059] in <4e2760c7517c4ea79c633d67e84b319f>:0 
-  at HarmonyLib.Public.Patching.ManagedMethodPatcher.DetourTo (System.Reflection.MethodBase replacement) [0x00047] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
-Rethrow as HarmonyException: IL Compile Error (unknown location)
-  at HarmonyLib.Public.Patching.ManagedMethodPatcher.DetourTo (System.Reflection.MethodBase replacement) [0x0005f] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
-  at HarmonyLib.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, HarmonyLib.PatchInfo patchInfo) [0x00033] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
-Rethrow as HarmonyException: IL Compile Error (unknown location)
-  at HarmonyLib.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, HarmonyLib.PatchInfo patchInfo) [0x0005d] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
-  at HarmonyXInterop.HarmonyInterop.ApplyPatch (System.Reflection.MethodBase target, HarmonyXInterop.PatchInfoWrapper add, HarmonyXInterop.PatchInfoWrapper remove) [0x00096] in <fad57eaa588e4bad9c9b36ddd04a7f1c>:0 
-  at HarmonyLib.Internal.MethodPatcher.Apply () [0x000f1] in <9b2425ba62f440b691e7c3d339511e93>:0 
-  at HarmonyLib.PatchProcessor.Patch () [0x00155] in <9b2425ba62f440b691e7c3d339511e93>:0 
-  at HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) [0x00076] in <9b2425ba62f440b691e7c3d339511e93>:0 
-  at HarmonyLib.Harmony.CreateAndPatchAll (System.Reflection.Assembly assembly, System.String harmonyInstanceId) [0x0001e] in <9b2425ba62f440b691e7c3d339511e93>:0 
-  at BetterMeteorites.BepInExPlugin.Awake () [0x000d8] in <bbe76d744b7a49a08d7655803c919243>:0 
-UnityEngine.GameObject:Internal_AddComponentWithType_Injected(IntPtr, Type)
-UnityEngine.GameObject:Internal_AddComponentWithType(Type)
-UnityEngine.GameObject:AddComponent(Type)
-BepInEx.Bootstrap.Chainloader:Start()
-UnityEngine.Application:.cctor()
-UnityEngine.InputSystem.InputManager:InitializeData()
-UnityEngine.InputSystem.InputManager:Initialize(IInputRuntime, InputSettings)
-UnityEngine.InputSystem.InputSystem:InitializeInPlayer(IInputRuntime, InputSettings)
-UnityEngine.InputSystem.InputSystem:.cctor()
-
-
-Fixing BepInEx Logging
-  BepInEx version   : 5.4.23.4
-  Application       : Planet Crafter (1.608)
-  Unity version     : 6000.0.58f2
-  Runtime version   : Mono 6.13.0 (Visual Studio built mono)
-  CLR version       : 4.0.30319.42000
-  System & Platform : X64, Microsoft Windows NT 10.0.26100.0
-  Processor         : AMD Ryzen 7 5800X 8-Core Processor  
-  Cores & Memory    : 16 threads, 16 GB RAM
-  Achievements      : Enabled
-
-[Info   :   BepInEx] Loading [Better Meteorites 0.2.0]
-[Info   :   BepInEx] Loading [Delete 0.5.1]
-[Info   :   BepInEx] Loading [Resource Scan 0.1.0]
-[Info   :   BepInEx] Loading [Spawn Object 0.7.0]
-[Info   :   BepInEx] Loading [(Cheat) Inventory Stacking 1.0.2.0]
-[Info   :(Cheat) Inventory Stacking] Plugin is loaded!
-[Info   :(Cheat) Inventory Stacking] Mod akarnokd.theplanetcraftermods.cheatcraftfromnearbycontainers not found.
-[Info   :(Cheat) Inventory Stacking] Mod valriz.theplanetcrafter.storagebuffer not found.
-[Info   :   BepInEx] Loading [(Feat) Command Console 1.0.1.30]
-[Info   :(Feat) Command Console] Plugin is loaded!
-[Info   :(Feat) Command Console] Mod akarnokd.theplanetcraftermods.cheatinventorystacking found, using it's services.
-[Info   :   BepInEx] Loading [(Misc) Mod Enabler 1.0.0.14]
-[Info   :(Misc) Mod Enabler] Checking for BepInEx.cfg HideManagerGameObject
-[Info   :(Misc) Mod Enabler]     HideManagerGameObject = true, all is ok
-[Info   :   BepInEx] Loading [(UI) Mod Config Menu 1.0.0.19]
-[Info   :(UI) Mod Config Menu] Plugin is loaded!
-[Info   :   BepInEx] Loading [The Planet Crafter Plugin ContainerAutoDeposit 1.0.0]
-[Info   :The Planet Crafter Plugin ContainerAutoDeposit] Plugin dev.jamarir.theplanetcrafter.containerautodeposit is loaded!
-[Info   :   BepInEx] Loading [PlanetCrafterZoom 1.0.0]
+UniTask PlayerLoop manually initialized: False
+[Message:   BepInEx] BepInEx 5.4.23.5 - Planet Crafter (17/09/2026 15:36:21)
+[Info   :   BepInEx] Running under Unity v6000.3.2.11106207
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.23.5]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 8 plugins to load
+[Info   :   BepInEx] Loading [AutoMine 0.8.4]
+[Info   :   BepInEx] Loading [Configuration Manager 0.1.0]
+[Info   :Configuration Manager] Creating update poller
+[Info   :   BepInEx] Loading [Resource Scan 0.1.1]
+[Info   :   BepInEx] Loading [Storage Customization 0.7.2]
+[Info   :   BepInEx] Loading [Cheat Menu (Dev) 2.3.4.0]
+[Info   :Cheat Menu (Dev)] [Plugin] Key bindings loaded from D:\SteamLibrary\steamapps\common\The Planet Crafter\config\cheatmenu.theplanetcrafter.dev.cfg
+[Info   :Cheat Menu (Dev)] [ModFramework] Discovered 6 modules
+[Info   :Cheat Menu (Dev)] [ModFramework]   Module: GET (priority 0)
+[Info   :Cheat Menu (Dev)] [ModFramework]   Module: SPAWN (priority 1)
+[Info   :Cheat Menu (Dev)] [ModFramework]   Module: EVENTS (priority 2)
+[Info   :Cheat Menu (Dev)] [ModFramework]   Module: BLUEPRINTS (priority 3)
+[Info   :Cheat Menu (Dev)] [ModFramework]   Module: TERRAFORM (priority 4)
+[Info   :Cheat Menu (Dev)] [ModFramework]   Module: MISC (priority 5)
+[Info   :Cheat Menu (Dev)] [CheatMenu] Patches applied.
+[Info   :   BepInEx] Loading [Inventory Stacking 2.0.4]
+[Info   :Inventory Stacking] Inventory Stacking v2.0.4 loading — max stack: 20
+[Info   :Inventory Stacking] --- Reflection lookup results ---
+[Info   :Inventory Stacking]   [OK] Field  Inventory._isDnaInventory
+[Info   :Inventory Stacking]   [OK] Field  InventoryDisplayer._inventory
+[Info   :Inventory Stacking]   [OK] Field  InventoryDisplayer._grid
+[Info   :Inventory Stacking]   [OK] Field  InventoryDisplayer._visualResourcesHandler
+[Info   :Inventory Stacking]   [OK] Field  InventoryDisplayer._logisticManager
+[Info   :Inventory Stacking]   [OK] Field  InventoryDisplayer._selectionIndex
+[Info   :Inventory Stacking]   [OK] Field  InventoryDisplayer._inventoryInteracting (static)
+[Info   :Inventory Stacking]   [OK] Field  InventoryDisplayer._selectAfterLayoutRebuildCoroutine
+[Info   :Inventory Stacking]   [OK] Field  MachineGrowerVegetationHarvestable._secondInventory
+[Info   :Inventory Stacking]   [OK] Method MachineGrowerVegetationHarvestable.CreateNewGrowable
+[Info   :Inventory Stacking]   [OK] Field  UiWindowContainer._inventoryLeft
+[Info   :Inventory Stacking]   [OK] Field  UiWindowContainer._inventoryRight
+[Info   :Inventory Stacking]   [OK] Field  InventoriesHandler._callbackAddOrRemoveQueue
+[Info   :Inventory Stacking]   [OK] Method InventoryDisplayer.OnImageClicked
+[Info   :Inventory Stacking]   [OK] Method InventoryDisplayer.OnDropClicked
+[Info   :Inventory Stacking]   [OK] Method InventoryDisplayer.OnActionViaGamepad
+[Info   :Inventory Stacking]   [OK] Method InventoryDisplayer.OnConsumeViaGamepad
+[Info   :Inventory Stacking]   [OK] Method InventoryDisplayer.OnDropViaGamepad
+[Info   :Inventory Stacking]   [OK] Method InventoryDisplayer.SelectAfterLayout
+[Info   :Inventory Stacking]   [OK] Field  UiWindowInterplanetaryExchange._groupsWithNumber
+[Info   :Inventory Stacking]   [OK] Field  UiWindowInterplanetaryExchange._inventorySize
+[Info   :Inventory Stacking]   [OK] Field  UiWindowInterplanetaryExchange._destinationPlanet
+[Info   :Inventory Stacking]   [OK] Field  UiWindowInterplanetaryExchange._machineRocketBackAndForthInterplanetary
+[Info   :Inventory Stacking]   [OK] Field  UiWindowInterplanetaryExchange.textInventorySpace
+[Info   :Inventory Stacking]   [OK] Field  MachineGrowerIfLinkedGroup._increaseRate
+[Info   :Inventory Stacking]   [OK] Field  UiWindowCraft.sourceCrafter
+[Info   :Inventory Stacking]   [OK] Field  PlayerGaugesHandler._oxygenMaxValue
+[Info   :Inventory Stacking]   [OK] Field  PlayerGaugesHandler._thirstMaxValue
+[Info   :Inventory Stacking]   [OK] Field  PlayerGaugesHandler._healthMaxValue
+[Info   :Inventory Stacking]   [OK] Field  LogisticManager._allLogisticTasks
+[Info   :Inventory Stacking]   [OK] Field  LogisticManager._allDroneStations
+[Info   :Inventory Stacking]   [OK] Field  LogisticManager._accessArrayCorrespondingDrones
+[Info   :Inventory Stacking]   [OK] Field  LogisticManager._supplyInventories
+[Info   :Inventory Stacking]   [OK] Field  LogisticManager._demandInventories
+[Info   :Inventory Stacking]   [OK] Field  LogisticManager._taskPriorities
+[Info   :Inventory Stacking]   [OK] Field  LogisticManager._accessArray
+[Info   :Inventory Stacking]   [OK] Field  LogisticManager._updatingLogisticTasks
+[Info   :Inventory Stacking]   [OK] Method LogisticManager.CompleteDroneTransformUpdateJob
+[Info   :Inventory Stacking]   [OK] Field  PlanetNetworkLoader._interplanetaryPodGroup
+[Info   :Inventory Stacking]   [OK] Method InventoriesHandler.DirtyInventory
+[Info   :Inventory Stacking] --- End reflection lookup results ---
+[Warning:Inventory Stacking] [Transpiler_SetInventoryBlocksNullCheck] Pattern not found — null check not injected (game update may have changed the method).
+[Info   :Inventory Stacking] Harmony patches applied successfully.
+[Info   :   BepInEx] Loading [Recycle And TrashCan 1.0.1]
+[Info   :Recycle And TrashCan] Recycle And TrashCan is loaded!
+[Info   :   BepInEx] Loading [(Feat) Portal Travel 1.2.14.0]
+[Info   :(Feat) Portal Travel] [ModVersionCheck] Initializing
+[Info   :(Feat) Portal Travel] [ModVersionCheck]   Checking Steam Beta branch: D:\SteamLibrary\steamapps\\appmanifest_1284190.acf
+[Info   :(Feat) Portal Travel] [ModVersionCheck] Download https://raw.githubusercontent.com/Tjatja0/ThePlanetCrafterMods/main/version_info.txt
+[Info   :(Feat) Portal Travel] [ModVersionCheck] Download https://raw.githubusercontent.com/akarnokd/ThePlanetCrafterMods/main/version_info.txt
+[Info   :(Feat) Portal Travel] [ModVersionCheck] Download https://raw.githubusercontent.com/mcnicki2002/PlanetCrafterMods/main/version_info.txt
+[Info   :(Feat) Portal Travel] [ModVersionCheck]   Parsing Tjatja0/ThePlanetCrafterMods version_info.txt
+[Info   :(Feat) Portal Travel] [ModVersionCheck]   Parsing Tjatja0/ThePlanetCrafterMods version_info.txt DONE. 7 entries found
+[Info   :(Feat) Portal Travel] [ModVersionCheck]   Parsing mcnicki2002/PlanetCrafterMods version_info.txt
+[Info   :(Feat) Portal Travel] [ModVersionCheck]   Parsing mcnicki2002/PlanetCrafterMods version_info.txt DONE. 23 entries found
+[Info   :(Feat) Portal Travel] [ModVersionCheck]   Parsing akarnokd/ThePlanetCrafterMods version_info.txt
+[Info   :(Feat) Portal Travel] [ModVersionCheck]   Parsing akarnokd/ThePlanetCrafterMods version_info.txt DONE. 70 entries found
+[Info   :(Feat) Portal Travel] [ModVersionCheck] Initializing Complete in 708 ms
+[Info   :(Feat) Portal Travel] [ModVersionCheck] 1.2.14.0 <-> 1.2.14.0
+[Info   :(Feat) Portal Travel] [ModHashingCheck] 7tiEHl4LKpOjcW+OHOpawME71JNrw4eY/HMtSfH84q8= <-> 
+[SaveState] (Feat) Portal Travel uses id 14025080
+[Info   :(Feat) Portal Travel] Plugin FeatPortalTeleport is loaded!
 [Message:   BepInEx] Chainloader startup complete
 <RI> Initializing input.
 Using Windows.Gaming.Input
-UnloadTime: 4.565500 ms
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 12.578600 ms
-Unloading 408 unused Assets to reduce memory usage. Loaded Objects now: 191309.
-Total: 56.826900 ms (FindLiveObjects: 9.130400 ms CreateObjectMapping: 12.033100 ms MarkObjects: 34.644600 ms  DeleteObjects: 1.018300 ms)
-
-ModPlanetLoaded (1): akarnokd.theplanetcraftermods.featcommandconsole
+Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled).
+UnloadTime: 0.489400 ms
+Odin Serializer detected whitelisted runtime platform WindowsPlayer and memory read test succeeded; enabling all unaligned memory read/writes.
 [Debug  :   BepInEx] [UnityInput] Unknown key name: OEM1, skipping remapping
 [Debug  :   BepInEx] [UnityInput] Unknown key name: OEM2, skipping remapping
 [Debug  :   BepInEx] [UnityInput] Unknown key name: OEM3, skipping remapping
 [Debug  :   BepInEx] [UnityInput] Unknown key name: OEM4, skipping remapping
 [Debug  :   BepInEx] [UnityInput] Unknown key name: OEM5, skipping remapping
 [Debug  :   BepInEx] [UnityInput] Unknown key name: IMESelected, skipping remapping
+[Debug  :   BepInEx] [UnityInput] Unknown key name: MediaPlayPause, skipping remapping
+[Debug  :   BepInEx] [UnityInput] Unknown key name: MediaRewind, skipping remapping
+[Debug  :   BepInEx] [UnityInput] Unknown key name: MediaForward, skipping remapping
 [Debug  :   BepInEx] [UnityInput] Using NewInputSystem
-ModPlanetLoaded (2): akarnokd.theplanetcraftermods.featcommandconsole
-[Physics::Module] Cleanup current backned.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.511000 ms
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 195083.
+Total: 51.439700 ms (FindLiveObjects: 8.342200 ms CreateObjectMapping: 13.257700 ms MarkObjects: 29.542800 ms  DeleteObjects: 0.296600 ms)
+
+[Info   :Cheat Menu (Dev)] [PositionManager] Save changed to 'Custom-1', loading markers...
+[Info   :Cheat Menu (Dev)] [PositionManager] LoadFromFile path: C:/Users/ChouKpop/AppData/LocalLow/MijuGames/Planet Crafter\CheatMenu\Custom-1_markers.dat
+[Info   :Cheat Menu (Dev)] [PositionManager] Raw file content (112 chars): 'UHJpbWV8TWFpbiBCYXNlfDg2Miw0NzkyfDQzLDUzODcyfDU5MSw2NDI5O1ByaW1lfGxhc3QgIzF8NDA0...'
+[Info   :Cheat Menu (Dev)] [PositionManager] Loaded 2 markers
+[Info   :Cheat Menu (Dev)] [MiscModule] Save changed to 'Custom-1', loading state...
+[Info   :Cheat Menu (Dev)] [MiscModule] LoadState path: C:/Users/ChouKpop/AppData/LocalLow/MijuGames/Planet Crafter\CheatMenu\Custom-1_state.dat
+[Info   :Cheat Menu (Dev)] [MiscModule] Loaded state (385 chars)
+[Info   :Cheat Menu (Dev)] [MiscModule] State applied
+Unknown managed type referenced: TKoU.UniversalPlatformSystem.PlayStation.PS5 TKoU.UniversalPlatformSystem.PlayStation.PS5.PlayStationNetworkService
+A scripted object (probably TKoU.UniversalPlatformSystem.PlayStation.PS5ServiceRepository?) has a different serialization layout when loading. (Read 372 bytes but expected 1496 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 14.098500 ms
+[Info   :Recycle And TrashCan] Registered Item successfully.
+Unloading 343 unused Assets to reduce memory usage. Loaded Objects now: 222860.
+Total: 53.676400 ms (FindLiveObjects: 10.350300 ms CreateObjectMapping: 13.076900 ms MarkObjects: 29.809700 ms  DeleteObjects: 0.439100 ms)
+
+Renderer 'Mesh_lod_2' is registered with more than one LODGroup ('BigRocks' and 'Mesh_lod_2').
+Renderer 'Mesh_LOD3 (1)' is registered with more than one LODGroup ('BigRocks' and 'Mesh_LOD3 (1)').
+Renderer 'Mesh_lod_2' is registered with more than one LODGroup ('BigRocks' and 'Mesh_lod_2').
+Renderer 'Mesh_LOD3 (1)' is registered with more than one LODGroup ('BigRocks' and 'Mesh_LOD3 (1)').
+Renderer 'MESH_LOD3 (1)' is registered with more than one LODGroup ('MESH_LOD3 (1)' and 'BigRocks').
+Renderer 'MESH_LOD3 (1)' is registered with more than one LODGroup ('MESH_LOD3 (1)' and 'BigRocks').
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 262754.
+Total: 61.009800 ms (FindLiveObjects: 14.005900 ms CreateObjectMapping: 14.974100 ms MarkObjects: 31.271900 ms  DeleteObjects: 0.757400 ms)
+
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+[Info   :Cheat Menu (Dev)] [Plugin] Toggle menu key pressed
+[Info   :Cheat Menu (Dev)] [Plugin] Calling ModFramework.Toggle()
+[Info   :Cheat Menu (Dev)] [ThemeManager] Styles built (47 styles)
+[Info   :Cheat Menu (Dev)] [GetModule] EnsureData called
+[Info   :Cheat Menu (Dev)] [GetModule] Loaded 14 categories
+[Info   :Inventory Stacking] [SetInventoryBlocks] Display patch active.
+[Warning:Inventory Stacking] StackCount font: no existing Text found, created Arial OS font (may look different)
+[Info   :Cheat Menu (Dev)] [Plugin] Toggle menu key pressed
+[Info   :Cheat Menu (Dev)] [Plugin] Calling ModFramework.Toggle()
+[Info   :Cheat Menu (Dev)] [Plugin] Toggle menu key pressed
+[Info   :Cheat Menu (Dev)] [Plugin] Calling ModFramework.Toggle()
+[Info   :Cheat Menu (Dev)] [Plugin] Toggle menu key pressed
+[Info   :Cheat Menu (Dev)] [Plugin] Calling ModFramework.Toggle()
+[Info   :Cheat Menu (Dev)] [Plugin] Toggle menu key pressed
+[Info   :Cheat Menu (Dev)] [Plugin] Calling ModFramework.Toggle()
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 359139.
+Total: 69.947800 ms (FindLiveObjects: 24.763300 ms CreateObjectMapping: 13.134300 ms MarkObjects: 31.698300 ms  DeleteObjects: 0.351600 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Can not play a disabled audio source
+UnloadTime: 82.992400 ms
+Unloading 1376 unused Assets to reduce memory usage. Loaded Objects now: 200677.
+Total: 64.553900 ms (FindLiveObjects: 8.783100 ms CreateObjectMapping: 14.647100 ms MarkObjects: 37.355200 ms  DeleteObjects: 3.768100 ms)
+
+[Physics::Module] Cleanup current backend.
 [Physics::Module] Id: 0xf2b8ea05
 Input System module state changed to: ShutdownInProgress.
 Input System polling thread exited.

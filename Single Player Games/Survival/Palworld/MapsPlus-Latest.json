@@ -1,0 +1,580 @@
+{
+  "baseCount": 2,
+  "bases": [
+    {
+      "color": {
+        "a": 1.0,
+        "b": 0.20048309862614,
+        "g": 0.20048309862614,
+        "r": 0.20048309862614
+      },
+      "mapRegion": "MainMap",
+      "name": "Resources Farm",
+      "position": {
+        "x": -445759.02013807,
+        "y": 68721.756659016,
+        "z": 2567.2577161214
+      }
+    },
+    {
+      "color": {
+        "a": 1.0,
+        "b": 1.0,
+        "g": 0.1499599814415,
+        "r": 0.35939025878906
+      },
+      "mapRegion": "MainMap",
+      "name": "Main Base",
+      "position": {
+        "x": -275628.16022382,
+        "y": 206713.97649202,
+        "z": -1048.9010097636
+      }
+    }
+  ],
+  "exportedAtUtc": "2026-09-13T14:55:17Z",
+  "format": "MapsPlusMarkerTransfer",
+  "formatVersion": 2,
+  "markerCount": 38,
+  "markers": [
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Soralite",
+      "position": {
+        "x": -777456.9,
+        "y": -11343.5,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Soralite",
+      "position": {
+        "x": -770946.7,
+        "y": 18237.2,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Soralite",
+      "position": {
+        "x": -754667.1,
+        "y": -59807.6,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Chromite",
+      "position": {
+        "x": -696974.8,
+        "y": -384907.0,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Chromite",
+      "position": {
+        "x": -695701.2,
+        "y": -384118.1,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Chromite",
+      "position": {
+        "x": -689921.6,
+        "y": -388342.8,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Chromite",
+      "position": {
+        "x": -685940.0,
+        "y": -384085.1,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Chromite",
+      "position": {
+        "x": -684938.8,
+        "y": -379006.8,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Chromite",
+      "position": {
+        "x": -680202.0,
+        "y": -373947.1,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Chromite",
+      "position": {
+        "x": -679502.4,
+        "y": -383663.8,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Chromite",
+      "position": {
+        "x": -672157.0,
+        "y": -370664.7,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 1,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Vanguard Charm",
+      "position": {
+        "x": -513971.9,
+        "y": -216505.4,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": {
+        "a": 1.0,
+        "b": 0.0,
+        "g": 0.0,
+        "r": 0.0
+      },
+      "iconType": 14,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Oil",
+      "position": {
+        "x": -469505.3,
+        "y": -144981.5,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": {
+        "a": 1.0,
+        "b": 0.0,
+        "g": 0.0,
+        "r": 0.0
+      },
+      "iconType": 14,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Oil",
+      "position": {
+        "x": -459175.1,
+        "y": -143691.3,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": {
+        "a": 1.0,
+        "b": 0.0,
+        "g": 0.0,
+        "r": 0.0
+      },
+      "iconType": 14,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Oil",
+      "position": {
+        "x": -455392.1,
+        "y": -119075.9,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Metal",
+      "position": {
+        "x": -363305.5,
+        "y": 161132.2,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": {
+        "a": 1.0,
+        "b": 0.22650471329689,
+        "g": 0.7288099527359,
+        "r": 0.79468601942062
+      },
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Sulfur",
+      "position": {
+        "x": -362952.9,
+        "y": -115296.3,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Metal",
+      "position": {
+        "x": -333474.4,
+        "y": 43247.2,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Metal",
+      "position": {
+        "x": -307906.1,
+        "y": 190102.3,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": {
+        "a": 1.0,
+        "b": 0.0,
+        "g": 0.0,
+        "r": 0.0
+      },
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Coal",
+      "position": {
+        "x": -298514.3,
+        "y": 48654.2,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Metal",
+      "position": {
+        "x": -267450.8,
+        "y": 122018.0,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Metal",
+      "position": {
+        "x": -245058.5,
+        "y": 198925.4,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Metal",
+      "position": {
+        "x": -228451.1,
+        "y": 281735.7,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": {
+        "a": 1.0,
+        "b": 0.0,
+        "g": 0.0,
+        "r": 0.0
+      },
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Coal",
+      "position": {
+        "x": -178489.0,
+        "y": 113686.2,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": {
+        "a": 1.0,
+        "b": 0.83077001571655,
+        "g": 0.81484699249268,
+        "r": 0.77582198381424
+      },
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Quartz",
+      "position": {
+        "x": -168868.7,
+        "y": 293684.6,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Metal",
+      "position": {
+        "x": -168246.4,
+        "y": 273194.9,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 1,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Growth Acceleration",
+      "position": {
+        "x": -166322.2,
+        "y": 146654.9,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": {
+        "a": 1.0,
+        "b": 0.0,
+        "g": 0.0,
+        "r": 0.0
+      },
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Coal",
+      "position": {
+        "x": -166052.2,
+        "y": 86595.3,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 0,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "",
+      "position": {
+        "x": -146698.2,
+        "y": 217596.8,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": {
+        "a": 1.0,
+        "b": 0.0,
+        "g": 0.0,
+        "r": 0.0
+      },
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Coal",
+      "position": {
+        "x": -97387.2,
+        "y": 203602.8,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 1,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Pal Tamer's Glasses",
+      "position": {
+        "x": -68175.9,
+        "y": 161428.7,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 1,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "MainMap",
+      "name": "Multiclimate Undersh",
+      "position": {
+        "x": 15275.0,
+        "y": 435348.9,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "Tree",
+      "name": "Paloxita",
+      "position": {
+        "x": 466715.3,
+        "y": -657461.7,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "Tree",
+      "name": "Paloxita",
+      "position": {
+        "x": 474670.9,
+        "y": -664158.8,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "Tree",
+      "name": "Paloxita",
+      "position": {
+        "x": 489496.7,
+        "y": -579658.2,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "Tree",
+      "name": "Paloxita",
+      "position": {
+        "x": 501797.6,
+        "y": -537048.6,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "Tree",
+      "name": "Paloxita",
+      "position": {
+        "x": 525356.4,
+        "y": -617065.4,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    },
+    {
+      "color": null,
+      "iconType": 3,
+      "mapId": "/Game/Pal/Maps/MainWorld_5/PL_MainWorld5.PL_MainWorld5",
+      "mapRegion": "Tree",
+      "name": "Paloxita",
+      "position": {
+        "x": 526885.9,
+        "y": -579911.3,
+        "z": 0.0
+      },
+      "sourceKind": "personal_marker"
+    }
+  ]
+}
