@@ -1,1 +1,5 @@
+=> Control 1
 E:\Programas\Steam\userdata\295657477\870780\remote
+
+=> Control 2 Resonant
+E:\Programas\Steam\userdata\295657477\3669870\remote

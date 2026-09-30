@@ -2,12 +2,11 @@ watch_stylesheet: true
 watch_config: true
 debug: false
 bars:
-  status-bar:
+  status-bar-1:
     enabled: true
+    class_name: 'yasb-bar'
     screens:
     - 'OZDSP24PRO'
-    - '27B3HA2'
-    class_name: 'yasb-bar'
     alignment:
       position: 'top'
       align: 'center'
@@ -16,12 +15,11 @@ bars:
       duration: 200
     blur_effect:
       enabled: true
-      acrylic: false
       dark_mode: true
       round_corners: false
       border_color: 'None'
     window_flags:
-      always_on_top: true
+      always_on_top: false
       windows_app_bar: false
       hide_on_fullscreen: true
       hide_on_maximized: true
@@ -41,8 +39,8 @@ bars:
       # - active_window
       - taskbar
       center:
-      - quick_launch
-      - launchpad
+      # - quick_launch
+      # - launchpad
       - clock
       - weather
       - update_check
@@ -52,7 +50,61 @@ bars:
       - memory
       - gpu
       # - disk
-      - volume
+      # - volume
+      # - notifications
+      # - language
+      # - settings
+      - power_menu
+
+  status-bar-2:
+    enabled: true
+    class_name: 'yasb-bar'
+    screens:
+    - '27B3HA2'
+    alignment:
+      position: 'top'
+      align: 'center'
+    animation:
+      enabled: true
+      duration: 200
+    blur_effect:
+      enabled: true
+      dark_mode: true
+      round_corners: false
+      border_color: 'None'
+    window_flags:
+      always_on_top: true
+      windows_app_bar: true
+      hide_on_fullscreen: true
+      hide_on_maximized: true
+      auto_hide: false
+    dimensions:
+      width: "100%"
+      height: 32
+    padding:
+      top: 0
+      left: 0
+      bottom: 0
+      right: 0
+    widgets:
+      left:
+      - home
+      - systray
+      # - active_window
+      - taskbar
+      center:
+      # - quick_launch
+      # - launchpad
+      - clock
+      - weather
+      - update_check
+      - media
+      right:
+      - cpu
+      - memory
+      - gpu
+      # - disk
+      # - volume
       # - notifications
       # - language
       # - settings
