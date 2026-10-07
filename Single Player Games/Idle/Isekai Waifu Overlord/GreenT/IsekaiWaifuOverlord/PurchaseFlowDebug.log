@@ -1,0 +1,5 @@
+[2026-10-05T15:34:27.7354199Z] [Log] [Session] ——— Purchase flow debug ———
+[2026-10-05T15:34:27.7354199Z] [Log] [Session] unity=6000.0.60f1 platform=WindowsPlayer
+[2026-10-05T15:34:27.7354199Z] [Log] [Session] log file: C:/Users/ChouKpop/AppData/LocalLow/GreenT/IsekaiWaifuOverlord\PurchaseFlowDebug.log
+[2026-10-05T15:34:27.7379679Z] [Log] [Purchase][5-NewPurchasePush] handler init ws=True, api=True, applier=True, transactionIap=False, steamIap=True, platform=steam
+[2026-10-05T15:34:27.7379679Z] [Log] [Purchase][5-NewPurchasePush] subscribed persistent event=new.purchase

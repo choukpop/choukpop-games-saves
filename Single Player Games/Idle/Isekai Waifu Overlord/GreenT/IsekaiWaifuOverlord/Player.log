@@ -1,0 +1,400 @@
+Mono path[0] = 'E:/Programas/Steam/steamapps/common/IsekaiWaifuOverlord/IsekaiWaifuOverlord_Data/Managed'
+Mono config path = 'E:/Programas/Steam/steamapps/common/IsekaiWaifuOverlord/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.0.60f1 (61dfb374e36f)
+[Subsystems] Discovering subsystems at path E:/Programas/Steam/steamapps/common/IsekaiWaifuOverlord/IsekaiWaifuOverlord_Data/UnitySubsystems
+kGfxThreadingModeSplitJobs is not supported on Direct3D 11. Reverting to kGfxThreadingModeClientWorkerJobs instead.
+GfxDevice: creating device client; kGfxThreadingModeClientWorkerJobs
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD  Radeon RX 7800 XT (ID=0x747e)
+    Vendor:   ATI
+    VRAM:     16176 MB
+    Driver:   32.0.32015.2008
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.227 seconds
+- Finished resetting the current domain, in  0.003 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initializing input.
+<RI> Input initialized.
+The referenced script on this Behaviour (Game Object 'TutorialModeSaves') is missing!
+The referenced script on this Behaviour (Game Object 'Flow') is missing!
+UnloadTime: 0.965000 ms
+Called BindInterfacesTo for type CameraChanger but no interfaces were found
+[FreeBundles] request freebundles.active
+steamID: 76561198255923205
+Start stopwatch
+[VPN] DisplayNetConnection: Initialize, system #1606460492
+[VPN] DisplayNetConnection: Apply None: opened=False, activeSelf=False, activeInHierarchy=False
+[FIX:request-failover] Remembered working host game.pandasdeal.com for game.pandasdeal.com during this game session.
+[Analytics][Country] User init. playerId='6ab69c632c0bb4b7c57e4644', country='PT'
+[Analytics][Country] User init. playerId='6ab69c632c0bb4b7c57e4644', country='PT'
+The referenced script on this Behaviour (Game Object 'NewItemHighlight') is missing!
+The referenced script on this Behaviour (Game Object 'GameItemGhost') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'NutakuUnityEditorLogin') is missing!
+The referenced script (Nutaku.Unity.SandboxLoginView) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Sandbox Login View') is missing!
+A scripted object (probably Nutaku.Unity.SandboxLoginView?) has a different serialization layout when loading. (Read 32 bytes but expected 104 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+SteamDataSuite: Event already registered on server!
+[IOS-NRE] PostLoading START
+SelectLanguage(Portuguese)
+[Analytics][Country] User init. playerId='6ab69c632c0bb4b7c57e4644', country='PT'
+[FreeBundles] received freebundles.active: {"states":{"50022":{"bought_count":0},"50024":{"bought_count":0},"50026":{"bought_count":0},"50027":{"bought_count":0},"50028":{"bought_count":0},"50030":{"bought_count":0},"50031":{"bought_count":0},"50033":{"bought_count":0},"50034":{"bought_count":0},"50035":{"bought_count":0},"50037":{"bought_count":0},"50038":{"bought_count":0},"50039":{"bought_count":0},"50040":{"bought_count":0},"50042":{"bought_count":0},"50044":{"bought_count":0},"50046":{"bought_count":0},"50047":{"bought_count":0},"50048":{"bought_count":0},"50050":{"bought_count":0},"50051":{"bought_count":0},"50053":{"bought_count":0},"50054":{"bought_count":0},"50055":{"bought_count":0},"50057":{"bought_count":0},"50058":{"bought_count":0},"50059":{"bought_count":0},"50060":{"bought_count":0}}}
+Fired signal 'ViewUpdateSignal' but no subscriptions found!  If this is intentional then either add OptionalSubscriber() to the binding or change the default in ZenjectSettings
+ArgumentNullException: Value cannot be null.
+Parameter name: Folder doesn't contain file: BattlerSummons
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+GreenT.Console:LogException(Exception)
+GreenT.HornyScapes.Data.ContentParser:GetContentString(Folder, RequestType, String)
+GreenT.HornyScapes.Data.StructureInitializerProxyWithArrayFromConfig`1:Initialize(Folder, RequestType, String)
+GreenT.HornyScapes.Data.StructureInitializerProxyWithArrayFromConfig`1:Initialize(Folder, RequestType)
+GreenT.HornyScapes.Battler.BattlerEntryPoint:InitializeBattlerConfigs(Folder)
+GreenT.GameController:InitializeConfigStructures(Folder)
+GreenT.<>c__DisplayClass72_0:<Launch>b__27(Unit)
+UniRx.Operators.ContinueWith:OnCompleted()
+UniRx.Operators.DoOnCompleted:OnCompleted()
+UniRx.Operators.Defer:OnCompleted()
+UniRx.Operators.Do:OnCompleted()
+UniRx.Operators.Select:OnCompleted()
+UniRx.Operators.Do:OnCompleted()
+UniRx.Operators.Do:OnCompleted()
+UniRx.Operators.Catch:OnCompleted()
+UniRx.Operators.SelectManyEnumerableObserver:OnCompleted()
+UniRx.Operators.Catch:OnCompleted()
+UniRx.Operators.Do:OnCompleted()
+UniRx.Operators.Select:OnCompleted()
+UniRx.Operators.RefCount:OnCompleted()
+UniRx.Subject`1:OnCompleted()
+UniRx.Operators.AsObservable:OnCompleted()
+UniRx.Operators.DoOnError:OnCompleted()
+UniRx.Operators.FromCoroutine:OnCompleted()
+GreenT.AssetBundles.<DownloadAssetBundleRoutine>d__20:MoveNext()
+UniRx.<WrapToCancellableEnumerator>d__297`1:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+ArgumentNullException: Value cannot be null.
+Parameter name: Folder doesn't contain file: BattlerSummons
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+GreenT.Console:LogException(Exception)
+GreenT.HornyScapes.Data.ContentParser:GetContentString(Folder, RequestType, String)
+GreenT.HornyScapes.Data.ContentParser:GetContentArray(Folder, RequestType, String)
+GreenT.HornyScapes.Data.StructureInitializerProxyWithArrayFromConfig`1:Initialize(Folder, RequestType, String)
+GreenT.HornyScapes.Data.StructureInitializerProxyWithArrayFromConfig`1:Initialize(Folder, RequestType)
+GreenT.HornyScapes.Battler.BattlerEntryPoint:InitializeBattlerConfigs(Folder)
+GreenT.GameController:InitializeConfigStructures(Folder)
+GreenT.<>c__DisplayClass72_0:<Launch>b__27(Unit)
+UniRx.Operators.ContinueWith:OnCompleted()
+UniRx.Operators.DoOnCompleted:OnCompleted()
+UniRx.Operators.Defer:OnCompleted()
+UniRx.Operators.Do:OnCompleted()
+UniRx.Operators.Select:OnCompleted()
+UniRx.Operators.Do:OnCompleted()
+UniRx.Operators.Do:OnCompleted()
+UniRx.Operators.Catch:OnCompleted()
+UniRx.Operators.SelectManyEnumerableObserver:OnCompleted()
+UniRx.Operators.Catch:OnCompleted()
+UniRx.Operators.Do:OnCompleted()
+UniRx.Operators.Select:OnCompleted()
+UniRx.Operators.RefCount:OnCompleted()
+UniRx.Subject`1:OnCompleted()
+UniRx.Operators.AsObservable:OnCompleted()
+UniRx.Operators.DoOnError:OnCompleted()
+UniRx.Operators.FromCoroutine:OnCompleted()
+GreenT.AssetBundles.<DownloadAssetBundleRoutine>d__20:MoveNext()
+UniRx.<WrapToCancellableEnumerator>d__297`1:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Currencies] SetAmount: валюта IdleSoft не зарегистрирована, значение пропущено
+[Currencies] SetAmount: валюта GoldMagicDust не зарегистрирована, значение пропущено
+[Currencies] SetAmount: валюта Hammer не зарегистрирована, значение пропущено
+[Currencies] SetAmount: валюта IdleHard не зарегистрирована, значение пропущено
+[Currencies] SetAmount: валюта MagicDust не зарегистрирована, значение пропущено
+[Currencies] SetAmount: валюта PerkCurrency не зарегистрирована, значение пропущено
+[Currencies] SetAmount: валюта SkillPoint не зарегистрирована, значение пропущено
+[Currencies] SetAmount: валюта MainMythicCurrency не зарегистрирована, значение пропущено
+[Currencies] SetAmount: валюта PVEHammer не зарегистрирована, значение пропущено
+[Currencies] SetAmount: валюта PVEMythicCurrency не зарегистрирована, значение пропущено
+[Currencies] SetAmount: валюта PVERouletteTickets не зарегистрирована, значение пропущено
+[Currencies] SetAmount: валюта PVEEventToken не зарегистрирована, значение пропущено
+<color=blue>TRIGGER: Data Loaded</color> | t_total=00:09.245 | t_item=00:09.245 | t_since_prev=00:09.245
+[IOS-NRE] PREVIOUS last OK: PostLoading START
+[IOS-NRE] InitializeGameStructures
+[IOS-NRE] Deserialize
+InvalidCastException: Specified cast is not valid.
+  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
+  at GreenT.Data.GameDataSerializator.DeserializeStream[T] (System.IO.Stream stream) [0x00018] in <03e0bd5107164488b87483d7534fa3ed>:0 
+Rethrow as Exception: Specified cast is not valid.
+
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+GreenT.Console:LogException(Exception)
+GreenT.Console:SendException(Exception, String)
+GreenT.Data.GameDataSerializator:DeserializeStream(Stream)
+GreenT.Data.StringSerializer:Deserialize(String)
+SaveLoaderPatch:WriteDecodedSaveSidecar(String)
+_Patch:Prefix(SaveLoader, IObservable`1&)
+GreenT.Data.SaveLoader:DMD<GreenT.Data.SaveLoader::LoadSave>(SaveLoader)
+GreenT.Data.ServerSaveProvider:LoadSave()
+GreenT.Data.SaveProviderFacade:Deserialize()
+GreenT.HornyScapes.Saves.SaveController:<PreparePlayersDataOnEvent>b__35_13(User)
+UniRx.Operators.SelectManyOuterObserver:OnNext(User)
+UniRx.Operators.Do:OnNext(User)
+UniRx.Operators.Do:OnNext(User)
+UniRx.Operators.Do:OnNext(User)
+UniRx.Operators.Where:OnNext(User)
+UniRx.InternalUtil.ListObserver`1:OnNext(User)
+UniRx.Subject`1:OnNext(User)
+UniRx.Operators.AsObservable:OnNext(User)
+UniRx.Operators.Select:OnNext(ValueTuple`2)
+UniRx.Operators.Do:OnNext(ValueTuple`2)
+UniRx.Operators.Where:OnNext(ValueTuple`2)
+UniRx.Operators.CombineLatest:OnNext(ValueTuple`2)
+UniRx.Operators.CombineLatest:Publish()
+UniRx.Operators.RightObserver:OnNext(Boolean)
+UniRx.Operators.CombineLatest:OnNext(Boolean)
+UniRx.Operators.CombineLatest:Publish()
+UniRx.Operators.LeftObserver:OnNext(Boolean)
+UniRx.ObserverNode`1:OnNext(Boolean)
+UniRx.ReactiveProperty`1:RaiseOnNext(Boolean&)
+UniRx.ReactiveProperty`1:set_Value(Boolean)
+GreenT.HornyScapes.GameStarter:DMD<GreenT.HornyScapes.GameStarter::SetState>(GameStarter, Boolean)
+GreenT.GameController:OnScenesLoaded()
+UniRx.Subscribe`1:OnCompleted()
+UniRx.InternalUtil.ListObserver`1:OnCompleted()
+UniRx.Subject`1:OnCompleted()
+UniRx.Operators.AsObservable:OnCompleted()
+UniRx.Operators.Defer:OnCompleted()
+UniRx.Operators.Do:OnCompleted()
+UniRx.Operators.AsUnitObservable:OnCompleted()
+UniRx.Operators.WhenAll:OnCompleted()
+UniRx.Operators.WhenAllCollectionObserver:OnCompleted()
+UniRx.Operators.Select:OnCompleted()
+UniRx.Operators.SelectManyOuterObserver:OnCompleted()
+UniRx.Operators.WhenAll:OnCompleted()
+UniRx.Operators.WhenAllCollectionObserver:OnCompleted()
+UniRx.Operators.Do:OnCompleted()
+UniRx.Operators.Catch:OnCompleted()
+UniRx.Operators.SelectManyEnumerableObserver:OnCompleted()
+UniRx.Operators.Catch:OnCompleted()
+UniRx.Operators.Do:OnCompleted()
+UniRx.Operators.Select:OnCompleted()
+UniRx.Operators.RefCount:OnCompleted()
+UniRx.Subject`1:OnCompleted()
+UniRx.Operators.AsObservable:OnCompleted()
+UniRx.Operators.DoOnError:OnCompleted()
+UniRx.Operators.FromCoroutine:OnCompleted()
+GreenT.AssetBundles.<DownloadAssetBundleRoutine>d__20:MoveNext()
+UniRx.<WrapToCancellableEnumerator>d__297`1:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[IOS-NRE] Merge.Enter
+[IOS-NRE] Merge.PayloadReady
+[IOS-NRE] Merge.Local.Begin
+[IOS-NRE] Merge.Local.Run
+[IOS-NRE] Merge.MiniFarm.ParseDto
+[IOS-NRE] Merge.MiniFarm.OfflineDeserialize
+[IOS-NRE] Merge.MiniFarm.OfflineDeserialize
+[IOS-NRE] Merge.MiniFarm.Done
+[IOS-NRE] Merge.Local.Done
+[IOS-NRE] PrepareState/LoadState
+SelectLanguage(Portuguese)
+[IOS-NRE] PostLoading
+[IOS-NRE] InitCharacters
+[PostLoadingState] Legacy migration applied. Added characterId=21 for old saves.
+[IOS-NRE] LoadOwnedSkins
+[IOS-NRE] LoadUnlockedStories
+[IOS-NRE] SkipLoadUnlockedDates
+[IOS-NRE] RestoreDates
+[IOS-NRE] SkipLoadUnlockedDates
+[IOS-NRE] RestoreDates
+[IOS-NRE] SkipLoadUnlockedDates
+[IOS-NRE] RestoreDates
+[IOS-NRE] SkipLoadUnlockedDates
+[IOS-NRE] RestoreDates
+[IOS-NRE] SkipLoadUnlockedDates
+[IOS-NRE] RestoreDates
+[IOS-NRE] SkipLoadUnlockedDates
+[IOS-NRE] RestoreDates
+[IOS-NRE] PreloadOfflineLots count=0
+[IOS-NRE] PreloadStoredContent hasStored=False
+[IOS-NRE] PostLoading DONE
+[IOS-NRE] SetAsLoaded
+<color=blue>TRIGGER: Configs Loaded</color> | t_total=00:11.518 | t_item=00:11.518 | t_since_prev=00:02.273
+[SkillIconProvider] Initialized. Registry size: 109
+[Main] ApplyLoadedState: serverHp=0.000 локальноеСохранение=163661.331
+[Ratings] в срезе 2 событий, а текущее опознать нечем — срез не применён
+[Battler] величина эффекта скилла 2002 (слот Main) досинхронизирована после старта: стало 7.625
+[MiniGameSaveMigration] source_count=2, unique_defs=2, duplicates=0
+[MiniGameSaveMigration] source_count=2, unique_defs=2, duplicates=0
+<color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 200/50 to 200/125. Use DOTween.SetTweensCapacity to set it manually at startup
+<color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 200/125 to 200/312. Use DOTween.SetTweensCapacity to set it manually at startup
+<color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 200/312 to 500/312. Use DOTween.SetTweensCapacity to set it manually at startup
+<color=blue>TRIGGER: Game Ready To Start</color> | t_total=00:16.870 | t_item=00:16.870 | t_since_prev=00:05.351
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+StoreStats - success
+[MiniGameSaveMigration] source_count=2, unique_defs=2, duplicates=0
+StoreStats - success
+StoreStats - success
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+MiniEventFactory: event 2 still has legacy reset_period_days=1, but daily mini-event quest reset is disabled.
+[SkillVFX] ProjectileVFXTrack[0]: no ProjectileSettings. Bundle may not be loaded.
+[Battle] battle.result: сервер отверг волну 5-5-5 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+[Battle] battle.result: сервер отверг волну 5-6-1 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+[Battle] battle.result: сервер отверг волну 5-6-2 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+[SkillVFX] ProjectileVFXTrack[0]: no ProjectileSettings. Bundle may not be loaded.
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+[Battle] battle.result: сервер отверг волну 5-6-3 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+[Battle] battle.result: сервер отверг волну 5-6-4 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+[SkillVFX] ProjectileVFXTrack[0]: no ProjectileSettings. Bundle may not be loaded.
+[Battle] battle.result: сервер отверг волну 5-6-5 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+[Battle] battle.result: сервер отверг волну 5-7-1 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+[SkillVFX] ProjectileVFXTrack[0]: no ProjectileSettings. Bundle may not be loaded.
+[Battle] battle.result: сервер отверг волну 5-7-2 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+[Battle] battle.result: сервер отверг волну 5-7-3 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+[Battle] battle.result: сервер отверг волну 5-7-4 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+[SkillVFX] ProjectileVFXTrack[0]: no ProjectileSettings. Bundle may not be loaded.
+[Battle] battle.result: сервер отверг волну 5-7-1 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+[Battle] battle.result: сервер отверг волну 5-7-2 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+[SkillVFX] ProjectileVFXTrack[0]: no ProjectileSettings. Bundle may not be loaded.
+[Battle] battle.result: сервер отверг волну 5-7-3 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+[Battle] battle.result: сервер отверг волну 5-7-4 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+[Battle] battle.result: сервер отверг волну 5-7-5 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+[SkillVFX] ProjectileVFXTrack[0]: no ProjectileSettings. Bundle may not be loaded.
+[Battle] battle.result: сервер отверг волну 5-8-1 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+[Battle] battle.result: сервер отверг волну 5-8-2 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+[SkillVFX] ProjectileVFXTrack[0]: no ProjectileSettings. Bundle may not be loaded.
+[Battle] battle.result: сервер отверг волну 5-8-3 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+[Battle] battle.result: сервер отверг волну 5-8-4 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+[SkillVFX] ProjectileVFXTrack[0]: no ProjectileSettings. Bundle may not be loaded.
+[Battle] battle.result: сервер отверг волну 5-8-5 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+[Battle] battle.result: сервер отверг волну 5-9-1 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+[SkillVFX] ProjectileVFXTrack[0]: no ProjectileSettings. Bundle may not be loaded.
+[Battle] battle.result: сервер отверг волну 5-9-2 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+[Battle] battle.result: сервер отверг волну 5-9-3 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+[SkillVFX] ProjectileVFXTrack[0]: no ProjectileSettings. Bundle may not be loaded.
+[Battle] battle.result: сервер отверг волну 5-9-4 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+[Battle] battle.result: сервер отверг волну 5-9-5 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+[Battle] battle.result: сервер отверг волну 5-9-1 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+[SkillVFX] ProjectileVFXTrack[0]: no ProjectileSettings. Bundle may not be loaded.
+[Battle] battle.result: сервер отверг волну 5-9-2 — переигрываем её с канонического состояния.
+[Battle] battle.result: isValid=false — награды не применены.
+[Main] перенос HP: хранилище=есть serverHp=58265.055 героГотов=True
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.

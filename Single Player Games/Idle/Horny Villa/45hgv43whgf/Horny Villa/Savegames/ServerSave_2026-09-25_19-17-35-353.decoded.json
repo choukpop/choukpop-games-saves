@@ -1,0 +1,4814 @@
+{
+  "GreenT.Data.MigrationDummyMemento": [
+    {
+      "UniqueKey": "migration.completed.v10.GreenT.HornyScapes.Saves.AggregatedSavers.CurrenciesAggregatedSaver",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "migration.completed.v10.GreenT.HornyScapes.Saves.AggregatedSavers.ChatMessagesAggregatedSaver",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "migration.completed.v10.GreenT.HornyScapes.Saves.AggregatedSavers.ObjectivesAggregatedSaver",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "migration.completed.v10.GreenT.HornyScapes.Saves.AggregatedSavers.TasksAggregatedSaver",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "migration.completed.v10.GreenT.HornyScapes.Saves.AggregatedSavers.LotsAggregatedSaver",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "migration.completed.v10.GreenT.HornyScapes.Saves.AggregatedSavers.SummonLotsAggregatedSaver",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "migration.completed.v10.GreenT.HornyScapes.Saves.AggregatedSavers.BundleLotsAggregatedSaver",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "migration.completed.v10.GreenT.HornyScapes.Saves.AggregatedSavers.OffersAggregatedSaver",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "migration.completed.v10.GreenT.HornyScapes.Saves.AggregatedSavers.StoriesAggregatedSaver",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "migration.completed.v10.GreenT.HornyScapes.Saves.AggregatedSavers.StarShopItemsAggregatedSaver",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "migration.completed.v10.GreenT.HornyScapes.Saves.AggregatedSavers.CalendarsAggregatedSaver",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "migration.completed.v10.GreenT.HornyScapes.Saves.AggregatedSavers.SkinsAggregatedSaver",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "migration.completed.v10.GreenT.HornyScapes.Saves.AggregatedSavers.RelationshipsAggregatedSaver",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "migration.completed.v10.GreenT.HornyScapes.Saves.RatingTokenCleaner",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Events.EventSaveMigrationFromEventIDToCalendarId+IdMemento": [
+    {
+      "UniqueKey": "EventSaveMigrationFromEventIDToCalendarId",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Booster.BoosterStorage+Memento": [
+    {
+      "UniqueKey": "booster_storage",
+      "SaveTime": "2026-09-25T13:10:28.1415793Z",
+      "Boosters": [],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Events.MigrateVersionData+MigrateVersionDataMemento": [
+    {
+      "UniqueKey": "MigrateVersionData_12.4",
+      "IsMigrate": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.PlayerPaymentsStats+Memento": [
+    {
+      "UniqueKey": "player_payment_stats",
+      "IsFirstStartPassed": true,
+      "IsCohortWrongValuesCleared": true,
+      "PaymentsPrices": [],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Saves.AggregatedSavers.CurrenciesAggregatedSaver+CurrenciesAggregatedMemento": [
+    {
+      "UniqueKey": "currencies.aggregated",
+      "Counts": [
+        {
+          "key": "currency_love_points_1001_1001_currency_LovePoints[1001];",
+          "value": 200
+        },
+        {
+          "key": "currency_love_points_1001_1001_currency_LovePoints",
+          "value": 200
+        },
+        {
+          "key": "currency_love_points_1011_1011_currency_LovePoints[1011];",
+          "value": 60
+        },
+        {
+          "key": "currency_love_points_1011_1011_currency_LovePoints",
+          "value": 60
+        },
+        {
+          "key": "currency_love_points_1003_1003_currency_LovePoints[1003];",
+          "value": 60
+        },
+        {
+          "key": "currency_love_points_1003_1003_currency_LovePoints",
+          "value": 60
+        },
+        {
+          "key": "currency_Soft[0];",
+          "value": 266
+        },
+        {
+          "key": "currency_Soft",
+          "value": 266
+        },
+        {
+          "key": "currency_Hard[0];",
+          "value": 43
+        },
+        {
+          "key": "currency_Hard",
+          "value": 43
+        },
+        {
+          "key": "currency_Energy[0];",
+          "value": 145
+        },
+        {
+          "key": "currency_Energy",
+          "value": 145
+        },
+        {
+          "key": "currency_Star[0];",
+          "value": 5
+        },
+        {
+          "key": "currency_Star",
+          "value": 5
+        },
+        {
+          "key": "currency_Present2[0];",
+          "value": 3
+        },
+        "[Truncated]"
+      ],
+      "Migrated": [
+        "currency_love_points_1001_1001_currency_LovePoints[1001];",
+        "currency_love_points_1011_1011_currency_LovePoints[1011];",
+        "currency_love_points_1007_1007_currency_LovePoints[1007];",
+        "currency_love_points_1002_1002_currency_LovePoints[1002];",
+        "currency_love_points_1015_1015_currency_LovePoints[1015];",
+        "currency_love_points_1014_1014_currency_LovePoints[1014];",
+        "currency_love_points_1036_1036_currency_LovePoints[1036];",
+        "currency_love_points_1037_1037_currency_LovePoints[1037];",
+        "currency_love_points_1102_1102_currency_LovePoints[1102];",
+        "currency_love_points_1005_1005_currency_LovePoints[1005];",
+        "currency_love_points_1008_1008_currency_LovePoints[1008];",
+        "currency_love_points_1016_1016_currency_LovePoints[1016];",
+        "currency_love_points_1128_1128_currency_LovePoints[1128];",
+        "currency_love_points_1013_1013_currency_LovePoints[1013];",
+        "currency_love_points_1019_1019_currency_LovePoints[1019];",
+        "[Truncated]"
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.PlayersData+Memento": [
+    {
+      "UniqueKey": "PlayersData",
+      "level": 0,
+      "noNeedMigrate93To94": true,
+      "balance": null,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.IndividualContents.TimeRewardIntegrityStateMemento": [
+    {
+      "UniqueKey": "TimeRewardIntegrityState",
+      "IsCompromised": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.IndividualContents.PeriodicTimeTrackerMemento": [
+    {
+      "UniqueKey": "IndividualCalendar",
+      "LastSaveTime": "2026-09-25T13:10:28.1415793Z",
+      "CountTime": "2026-09-21T00:00:00Z",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "NoviceCalendar",
+      "LastSaveTime": "2026-09-25T13:10:28.1415793Z",
+      "CountTime": "2026-09-25T12:39:31.6263267Z",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "NoviceOffsetCalendar",
+      "LastSaveTime": "2026-09-25T13:10:28.1415793Z",
+      "CountTime": "2026-09-21T00:00:00Z",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.IndividualContents.PeriodicBankControllerMemento": [
+    {
+      "UniqueKey": "IndividualCalendar_PeriodicBank",
+      "restoredBank": [
+        {
+          "groupVersion": 100000,
+          "version": 0
+        },
+        {
+          "groupVersion": 4360,
+          "version": 0
+        },
+        {
+          "groupVersion": 4400,
+          "version": 0
+        }
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "NoviceCalendar_PeriodicBank",
+      "restoredBank": [],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "NoviceOffsetCalendar_PeriodicBank",
+      "restoredBank": [
+        {
+          "groupVersion": 1,
+          "version": 0
+        },
+        {
+          "groupVersion": 110010,
+          "version": 1
+        }
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.IndividualContents.PeriodicCalendarsFlowMemento": [
+    {
+      "UniqueKey": "PeriodicCalendarsFlowSave",
+      "NovicePassed": false,
+      "NoviceOffsetPassed": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.Localizations.LocalizationState+LocalizationMemento": [
+    {
+      "UniqueKey": "loc.save.key",
+      "CurrentLanguage": "Portuguese",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Saves.AggregatedSavers.ChatMessagesAggregatedSaver+ChatMessagesAggregatedMemento": [
+    {
+      "UniqueKey": "chatmessages.aggregated",
+      "States": [],
+      "PassedTimes": [
+        {
+          "key": 1,
+          "value": [
+            {
+              "key": 1,
+              "value": 639259370293396646
+            }
+          ]
+        },
+        {
+          "key": 2,
+          "value": [
+            {
+              "key": 1,
+              "value": 639259370680502474
+            },
+            {
+              "key": 3,
+              "value": 639259371257809145
+            },
+            {
+              "key": 2,
+              "value": 639259370705587186
+            }
+          ]
+        },
+        {
+          "key": 9,
+          "value": [
+            {
+              "key": 1,
+              "value": 639259371993176582
+            },
+            {
+              "key": 2,
+              "value": 639259372018330242
+            },
+            {
+              "key": 3,
+              "value": 639259372043331875
+            },
+            {
+              "key": 5,
+              "value": 639259374884720036
+            },
+            {
+              "key": 6,
+              "value": 639259374909777907
+            },
+            {
+              "key": 7,
+              "value": 639259374934777494
+            },
+            {
+              "key": 8,
+              "value": 639259374959789948
+            },
+            {
+              "key": 4,
+              "value": 639259372068331293
+            }
+          ]
+        },
+        {
+          "key": 10,
+          "value": [
+            {
+              "key": 1,
+              "value": 639259375070489133
+            },
+            {
+              "key": 2,
+              "value": 639259375095485542
+            },
+            {
+              "key": 3,
+              "value": 639259375120514174
+            },
+            {
+              "key": 4,
+              "value": 639259375145506675
+            },
+            {
+              "key": 5,
+              "value": 639259378115108307
+            },
+            {
+              "key": 6,
+              "value": 639259378132251366
+            },
+            {
+              "key": 7,
+              "value": 639259378135334406
+            },
+            {
+              "key": 8,
+              "value": 639259378137819120
+            },
+            {
+              "key": 9,
+              "value": 639259378140324448
+            },
+            {
+              "key": 10,
+              "value": 639259378246179468
+            },
+            {
+              "key": 11,
+              "value": 639259378248682230
+            },
+            {
+              "key": 12,
+              "value": 639259378251185040
+            },
+            {
+              "key": 13,
+              "value": 639259378253684945
+            },
+            {
+              "key": 14,
+              "value": 639259378256180419
+            }
+          ]
+        },
+        {
+          "key": 16,
+          "value": [
+            {
+              "key": 1,
+              "value": 639259384814540113
+            },
+            {
+              "key": 2,
+              "value": 639259384839523638
+            },
+            {
+              "key": 3,
+              "value": 639259384864574371
+            },
+            {
+              "key": 4,
+              "value": 639259384889575353
+            },
+            {
+              "key": 5,
+              "value": 639259385077031462
+            },
+            {
+              "key": 6,
+              "value": 639259385091858377
+            },
+            {
+              "key": 7,
+              "value": 639259385094366458
+            },
+            {
+              "key": 8,
+              "value": 639259385096869018
+            }
+          ]
+        }
+      ],
+      "PlayerChoices": [
+        {
+          "key": 2,
+          "value": [
+            {
+              "key": 2,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "key": 9,
+          "value": [
+            {
+              "key": 4,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "key": 10,
+          "value": [
+            {
+              "key": 4,
+              "value": 0
+            },
+            {
+              "key": 9,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "key": 16,
+          "value": [
+            {
+              "key": 4,
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Characters.CharacterManagerState+Memento": [
+    {
+      "UniqueKey": "InfoBase",
+      "unlockedCharacterIDs": [
+        1001,
+        1011,
+        1003
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.PlayerStats+Memento": [
+    {
+      "UniqueKey": "player_stats",
+      "PressOnBuyButtonCount": 0,
+      "PaymentCount": 0,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Cheats.JewelsObserverTemp+JewelsObserverMemento": [
+    {
+      "UniqueKey": "jewelsTask.observer.key",
+      "History": "",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.StarShop.SubSystems.StarShopJewelChecker+StarShopJewelCheckerMemento": [
+    {
+      "UniqueKey": "StarShopJewelChecker",
+      "CheckedConstants": [],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.ContentStorageProvider+Memento": [
+    {
+      "UniqueKey": "content.waiting.to.apply",
+      "ContentMap": [],
+      "ContentType": {
+        "_Type": "GreenT.Types.ContentInfo",
+        "_key": "main"
+      },
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Analytics.UserStats+Memento": [
+    {
+      "UniqueKey": "user.stats",
+      "StartTime": "2026-09-25T12:39:40.6961152Z",
+      "LastPayment": "0001-01-01T00:00:00Z",
+      "PaymentsCount": 0,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.AntiCheat.CheatEngineSearchService+Memento": [
+    {
+      "UniqueKey": "anticheat.ischeater",
+      "IsCheater": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Analytics.Starshops.StarShopAnalytic+StarShopAnalyticMemento": [
+    {
+      "UniqueKey": "StarShop.Analytic",
+      "LastCompleted": 205,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Saves.AggregatedSavers.ObjectivesAggregatedSaver+ObjectivesAggregatedMemento": [
+    {
+      "UniqueKey": "objectives.aggregated",
+      "States": [
+        {
+          "key": "objective_data_128001",
+          "value": 1
+        },
+        {
+          "key": "objective_data_128002",
+          "value": 1
+        },
+        {
+          "key": "objective_data_128003",
+          "value": 1
+        },
+        {
+          "key": "objective_data_128004",
+          "value": 1
+        },
+        {
+          "key": "objective_data_128005",
+          "value": 1
+        },
+        {
+          "key": "objective_data_128006",
+          "value": 1
+        },
+        {
+          "key": "objective_data_128007",
+          "value": 1
+        },
+        {
+          "key": "objective_data_128008",
+          "value": 1
+        },
+        {
+          "key": "objective_data_128009",
+          "value": 1
+        },
+        {
+          "key": "objective_data_128010",
+          "value": 1
+        },
+        {
+          "key": "objective_data_20603001",
+          "value": 69
+        },
+        {
+          "key": "objective_data_20603002",
+          "value": 144
+        },
+        {
+          "key": "objective_data_20603003",
+          "value": 144
+        },
+        {
+          "key": "objective_data_20603004",
+          "value": 144
+        },
+        {
+          "key": "objective_data_20603005",
+          "value": 144
+        },
+        "[Truncated]"
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Saves.AggregatedSavers.TasksAggregatedSaver+TasksAggregatedMemento": [
+    {
+      "UniqueKey": "tasks.aggregated",
+      "States": [
+        {
+          "key": "task.101",
+          "value": 4
+        },
+        {
+          "key": "task.102",
+          "value": 4
+        },
+        {
+          "key": "task.103",
+          "value": 4
+        },
+        {
+          "key": "task.104",
+          "value": 4
+        },
+        {
+          "key": "task.105",
+          "value": 4
+        },
+        {
+          "key": "task.106",
+          "value": 4
+        },
+        {
+          "key": "task.201",
+          "value": 4
+        },
+        {
+          "key": "task.202",
+          "value": 4
+        },
+        {
+          "key": "task.205",
+          "value": 4
+        },
+        {
+          "key": "task.208",
+          "value": 4
+        },
+        {
+          "key": "task.214",
+          "value": 4
+        },
+        {
+          "key": "task.216",
+          "value": 4
+        },
+        {
+          "key": "task.222",
+          "value": 4
+        },
+        {
+          "key": "task.224",
+          "value": 4
+        },
+        {
+          "key": "task.233",
+          "value": 4
+        },
+        "[Truncated]"
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Analytics.TutorialAnalytic+TutorialAnalyticMemento": [
+    {
+      "UniqueKey": "Tutorial.Analytic",
+      "MaxTutorialStep": 43,
+      "IsPixelCreated": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "StripClub.Messenger.MessengerState+Memento": [
+    {
+      "UniqueKey": "Messenger",
+      "dialogueProgresses": [
+        {
+          "_Type": "StripClub.Messenger.DialogueProgressMapper",
+          "id": 1,
+          "lastMessageNumber": 1,
+          "lastReplyTime": "2026-09-25T12:43:49.3396646Z"
+        },
+        {
+          "_Type": "StripClub.Messenger.DialogueProgressMapper",
+          "id": 2,
+          "lastMessageNumber": 3,
+          "lastReplyTime": "2026-09-25T12:45:25.7809145Z"
+        },
+        {
+          "_Type": "StripClub.Messenger.DialogueProgressMapper",
+          "id": 9,
+          "lastMessageNumber": 8,
+          "lastReplyTime": "2026-09-25T12:51:35.9789948Z"
+        },
+        {
+          "_Type": "StripClub.Messenger.DialogueProgressMapper",
+          "id": 10,
+          "lastMessageNumber": 14,
+          "lastReplyTime": "2026-09-25T12:57:05.6180419Z"
+        },
+        {
+          "_Type": "StripClub.Messenger.DialogueProgressMapper",
+          "id": 16,
+          "lastMessageNumber": 8,
+          "lastReplyTime": "2026-09-25T13:08:29.6869018Z"
+        }
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Gallery.GalleryState+Memento": [
+    {
+      "UniqueKey": "GalleryState",
+      "unlockedMediaIDCollection": [
+        101,
+        1108,
+        1107,
+        301
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "StripClub.NewEvent.Data.MigrateToNewbalanceMemento": [
+    {
+      "UniqueKey": "MigrateToNewBalance",
+      "WasMigrated": true,
+      "WasMigratedSecond": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Meta.LocationsVisitedState+LocationsVisitedStateMemento": [
+    {
+      "UniqueKey": "locations.visited",
+      "VisitedSpaceTypes": [
+        1
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.MiniEvents.MiniEventItemsDataCase+MiniEventItemDataCaseMemento": [
+    {
+      "UniqueKey": "mini.event.inventory.save",
+      "SavedItems": [],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Saves.AggregatedSavers.LotsAggregatedSaver+LotsAggregatedMemento": [
+    {
+      "UniqueKey": "lots.aggregated",
+      "Received": [],
+      "Viewed": [
+        {
+          "key": "lot.gemshop.11001",
+          "value": true
+        },
+        {
+          "key": "lot.gemshop.11002",
+          "value": true
+        },
+        {
+          "key": "lot.gemshop.11003",
+          "value": true
+        },
+        {
+          "key": "lot.gemshop.11004",
+          "value": true
+        },
+        {
+          "key": "lot.gemshop.11005",
+          "value": true
+        },
+        {
+          "key": "lot.gemshop.11006",
+          "value": true
+        },
+        {
+          "key": "lot.gemshop.11007",
+          "value": true
+        },
+        {
+          "key": "lot.gemshop.11008",
+          "value": true
+        },
+        {
+          "key": "lot.gemshop.111060",
+          "value": true
+        },
+        {
+          "key": "lot.gemshop.111070",
+          "value": true
+        },
+        {
+          "key": "lot.gemshop.111080",
+          "value": true
+        },
+        {
+          "key": "lot.gemshop.111090",
+          "value": true
+        },
+        {
+          "key": "lot.gemshop.111100",
+          "value": true
+        },
+        {
+          "key": "lot.gemshop.111110",
+          "value": true
+        },
+        {
+          "key": "lot.gemshop.120010",
+          "value": true
+        },
+        "[Truncated]"
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Saves.AggregatedSavers.SummonLotsAggregatedSaver+SummonLotsAggregatedMemento": [
+    {
+      "UniqueKey": "summonlots.aggregated",
+      "Received": [
+        {
+          "key": "lot.summon.110058",
+          "value": 1
+        },
+        {
+          "key": "lot.summon.110059",
+          "value": 0
+        },
+        {
+          "key": "lot.summon.110060",
+          "value": 0
+        },
+        {
+          "key": "lot.summon.110061",
+          "value": 1
+        },
+        {
+          "key": "lot.summon.110062",
+          "value": 0
+        },
+        {
+          "key": "lot.summon.110063",
+          "value": 0
+        },
+        {
+          "key": "lot.summon.110064",
+          "value": 1
+        },
+        {
+          "key": "lot.summon.110065",
+          "value": 0
+        },
+        {
+          "key": "lot.summon.110066",
+          "value": 0
+        },
+        {
+          "key": "lot.summon.110067",
+          "value": 0
+        },
+        {
+          "key": "lot.summon.110068",
+          "value": 0
+        },
+        {
+          "key": "lot.summon.110069",
+          "value": 0
+        },
+        {
+          "key": "lot.summon.110070",
+          "value": 0
+        },
+        {
+          "key": "lot.summon.110071",
+          "value": 0
+        },
+        {
+          "key": "lot.summon.110072",
+          "value": 0
+        },
+        "[Truncated]"
+      ],
+      "IsViewed": [
+        {
+          "key": "lot.summon.110058",
+          "value": true
+        },
+        {
+          "key": "lot.summon.110059",
+          "value": true
+        },
+        {
+          "key": "lot.summon.110060",
+          "value": true
+        },
+        {
+          "key": "lot.summon.110061",
+          "value": true
+        },
+        {
+          "key": "lot.summon.110062",
+          "value": true
+        },
+        {
+          "key": "lot.summon.110063",
+          "value": true
+        },
+        {
+          "key": "lot.summon.110064",
+          "value": true
+        },
+        {
+          "key": "lot.summon.110065",
+          "value": true
+        },
+        {
+          "key": "lot.summon.110066",
+          "value": true
+        },
+        {
+          "key": "lot.summon.110067",
+          "value": false
+        },
+        {
+          "key": "lot.summon.110068",
+          "value": false
+        },
+        {
+          "key": "lot.summon.110069",
+          "value": false
+        },
+        {
+          "key": "lot.summon.110070",
+          "value": false
+        },
+        {
+          "key": "lot.summon.110071",
+          "value": false
+        },
+        {
+          "key": "lot.summon.110072",
+          "value": false
+        },
+        "[Truncated]"
+      ],
+      "LastBuyTicks": [
+        {
+          "key": "lot.summon.110058",
+          "value": 639259371975506761
+        },
+        {
+          "key": "lot.summon.110059",
+          "value": 0
+        },
+        {
+          "key": "lot.summon.110060",
+          "value": 0
+        },
+        {
+          "key": "lot.summon.110061",
+          "value": 639259374587533835
+        },
+        {
+          "key": "lot.summon.110062",
+          "value": 0
+        },
+        {
+          "key": "lot.summon.110063",
+          "value": 0
+        },
+        {
+          "key": "lot.summon.110064",
+          "value": 639259385695851194
+        },
+        {
+          "key": "lot.summon.110065",
+          "value": 0
+        },
+        {
+          "key": "lot.summon.110066",
+          "value": 0
+        },
+        {
+          "key": "lot.summon.110067",
+          "value": 0
+        },
+        {
+          "key": "lot.summon.110068",
+          "value": 0
+        },
+        {
+          "key": "lot.summon.110069",
+          "value": 0
+        },
+        {
+          "key": "lot.summon.110070",
+          "value": 0
+        },
+        {
+          "key": "lot.summon.110071",
+          "value": 0
+        },
+        {
+          "key": "lot.summon.110072",
+          "value": 0
+        },
+        "[Truncated]"
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Saves.AggregatedSavers.BundleLotsAggregatedSaver+BundleLotsAggregatedMemento": [
+    {
+      "UniqueKey": "bundlelots.aggregated",
+      "Received": [],
+      "Viewed": [
+        {
+          "key": "lot.bundle.1100",
+          "value": true
+        },
+        {
+          "key": "lot.bundle.10001",
+          "value": true
+        },
+        {
+          "key": "lot.bundle.666",
+          "value": true
+        },
+        {
+          "key": "lot.bundle.1168",
+          "value": true
+        },
+        {
+          "key": "lot.bundle.1169",
+          "value": true
+        },
+        {
+          "key": "lot.bundle.1170",
+          "value": true
+        },
+        {
+          "key": "lot.bundle.1171",
+          "value": true
+        },
+        {
+          "key": "lot.bundle.1172",
+          "value": true
+        },
+        {
+          "key": "lot.bundle.100001",
+          "value": true
+        },
+        {
+          "key": "lot.bundle.100002",
+          "value": true
+        },
+        {
+          "key": "lot.bundle.100003",
+          "value": true
+        },
+        {
+          "key": "lot.bundle.100004",
+          "value": true
+        },
+        {
+          "key": "lot.bundle.100005",
+          "value": true
+        },
+        {
+          "key": "lot.bundle.100006",
+          "value": true
+        },
+        {
+          "key": "lot.bundle.100007",
+          "value": true
+        },
+        "[Truncated]"
+      ],
+      "LastBuyTicks": [],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Saves.AggregatedSavers.OffersAggregatedSaver+OffersAggregatedMemento": [
+    {
+      "UniqueKey": "offers.aggregated",
+      "States": [
+        {
+          "key": 831,
+          "value": {
+            "TimeLeftTicks": 5490317755,
+            "TimeUntilRespawnTicks": -1189682245,
+            "SaveTimeTicks": 639259386281435812,
+            "IsTimerOn": true
+          }
+        },
+        {
+          "key": 835,
+          "value": {
+            "TimeLeftTicks": 68790000000,
+            "TimeUntilRespawnTicks": 0,
+            "SaveTimeTicks": 639259386281435812,
+            "IsTimerOn": true
+          }
+        },
+        {
+          "key": 499,
+          "value": {
+            "TimeLeftTicks": 851490317755,
+            "TimeUntilRespawnTicks": -1189682245,
+            "SaveTimeTicks": 639259386281435812,
+            "IsTimerOn": true
+          }
+        },
+        {
+          "key": 4360,
+          "value": {
+            "TimeLeftTicks": 2261750000000,
+            "TimeUntilRespawnTicks": 0,
+            "SaveTimeTicks": 639259386281435812,
+            "IsTimerOn": true
+          }
+        },
+        {
+          "key": 4400,
+          "value": {
+            "TimeLeftTicks": 2585750000000,
+            "TimeUntilRespawnTicks": 0,
+            "SaveTimeTicks": 639259386281435812,
+            "IsTimerOn": true
+          }
+        }
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Saves.AggregatedSavers.StoriesAggregatedSaver+StoriesAggregatedMemento": [
+    {
+      "UniqueKey": "stories.aggregated",
+      "CompletedIds": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Saves.AggregatedSavers.StarShopItemsAggregatedSaver+StarShopItemsAggregatedMemento": [
+    {
+      "UniqueKey": "starshopitems.aggregated",
+      "States": [
+        {
+          "key": 101,
+          "value": 8
+        },
+        {
+          "key": 102,
+          "value": 8
+        },
+        {
+          "key": 103,
+          "value": 8
+        },
+        {
+          "key": 104,
+          "value": 8
+        },
+        {
+          "key": 201,
+          "value": 8
+        },
+        {
+          "key": 202,
+          "value": 8
+        },
+        {
+          "key": 203,
+          "value": 8
+        },
+        {
+          "key": 204,
+          "value": 8
+        },
+        {
+          "key": 205,
+          "value": 8
+        },
+        {
+          "key": 206,
+          "value": 2
+        }
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Saves.AggregatedSavers.CalendarsAggregatedSaver+CalendarsAggregatedMemento": [
+    {
+      "UniqueKey": "calendars.aggregated",
+      "Calendars": [
+        {
+          "key": 334,
+          "value": {
+            "EntityStatus": 128,
+            "Flags": 1
+          }
+        },
+        {
+          "key": 351,
+          "value": {
+            "EntityStatus": 130,
+            "Flags": 5
+          }
+        }
+      ],
+      "Contents": [
+        {
+          "key": 206,
+          "value": {
+            "EntityStatus": 130,
+            "Flags": 1
+          }
+        },
+        {
+          "key": 150,
+          "value": {
+            "EntityStatus": 130,
+            "Flags": 1
+          }
+        },
+        {
+          "key": 151,
+          "value": {
+            "EntityStatus": 130,
+            "Flags": 1
+          }
+        },
+        {
+          "key": 3002701,
+          "value": {
+            "EntityStatus": 130,
+            "Flags": 5
+          }
+        },
+        {
+          "key": 10400,
+          "value": {
+            "EntityStatus": 130,
+            "Flags": 5
+          }
+        },
+        {
+          "key": 64,
+          "value": {
+            "EntityStatus": 130,
+            "Flags": 1
+          }
+        },
+        {
+          "key": 3001,
+          "value": {
+            "EntityStatus": 130,
+            "Flags": 1
+          }
+        },
+        {
+          "key": 1011,
+          "value": {
+            "EntityStatus": 130,
+            "Flags": 1
+          }
+        }
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Saves.AggregatedSavers.SkinsAggregatedSaver+SkinsAggregatedMemento": [
+    {
+      "UniqueKey": "skins.aggregated",
+      "OwnedIds": [],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Saves.AggregatedSavers.RelationshipsAggregatedSaver+RelationshipsAggregatedMemento": [
+    {
+      "UniqueKey": "relationships.aggregated",
+      "States": [
+        {
+          "key": 1001,
+          "value": {
+            "_Type": "GreenT.HornyScapes.Saves.AggregatedSavers.RelationshipsAggregatedSaver+RelationshipEntry",
+            "Level": 1,
+            "Flags": 3,
+            "RewardsStateNew": "[Nested]",
+            "ComingSoonDates": "[Nested]"
+          }
+        },
+        {
+          "key": 1002,
+          "value": {
+            "_Type": "GreenT.HornyScapes.Saves.AggregatedSavers.RelationshipsAggregatedSaver+RelationshipEntry",
+            "Level": 0,
+            "Flags": 3,
+            "RewardsStateNew": "[Nested]",
+            "ComingSoonDates": "[Nested]"
+          }
+        },
+        {
+          "key": 1003,
+          "value": {
+            "_Type": "GreenT.HornyScapes.Saves.AggregatedSavers.RelationshipsAggregatedSaver+RelationshipEntry",
+            "Level": 1,
+            "Flags": 0,
+            "RewardsStateNew": "[Nested]",
+            "ComingSoonDates": "[Nested]"
+          }
+        },
+        {
+          "key": 1004,
+          "value": {
+            "_Type": "GreenT.HornyScapes.Saves.AggregatedSavers.RelationshipsAggregatedSaver+RelationshipEntry",
+            "Level": 0,
+            "Flags": 3,
+            "RewardsStateNew": "[Nested]",
+            "ComingSoonDates": "[Nested]"
+          }
+        },
+        {
+          "key": 1005,
+          "value": {
+            "_Type": "GreenT.HornyScapes.Saves.AggregatedSavers.RelationshipsAggregatedSaver+RelationshipEntry",
+            "Level": 0,
+            "Flags": 3,
+            "RewardsStateNew": "[Nested]",
+            "ComingSoonDates": "[Nested]"
+          }
+        },
+        {
+          "key": 1006,
+          "value": {
+            "_Type": "GreenT.HornyScapes.Saves.AggregatedSavers.RelationshipsAggregatedSaver+RelationshipEntry",
+            "Level": 0,
+            "Flags": 0,
+            "RewardsStateNew": "[Nested]",
+            "ComingSoonDates": "[Nested]"
+          }
+        },
+        {
+          "key": 1007,
+          "value": {
+            "_Type": "GreenT.HornyScapes.Saves.AggregatedSavers.RelationshipsAggregatedSaver+RelationshipEntry",
+            "Level": 0,
+            "Flags": 3,
+            "RewardsStateNew": "[Nested]",
+            "ComingSoonDates": "[Nested]"
+          }
+        },
+        {
+          "key": 1008,
+          "value": {
+            "_Type": "GreenT.HornyScapes.Saves.AggregatedSavers.RelationshipsAggregatedSaver+RelationshipEntry",
+            "Level": 0,
+            "Flags": 3,
+            "RewardsStateNew": "[Nested]",
+            "ComingSoonDates": "[Nested]"
+          }
+        },
+        {
+          "key": 1009,
+          "value": {
+            "_Type": "GreenT.HornyScapes.Saves.AggregatedSavers.RelationshipsAggregatedSaver+RelationshipEntry",
+            "Level": 0,
+            "Flags": 3,
+            "RewardsStateNew": "[Nested]",
+            "ComingSoonDates": "[Nested]"
+          }
+        },
+        {
+          "key": 1010,
+          "value": {
+            "_Type": "GreenT.HornyScapes.Saves.AggregatedSavers.RelationshipsAggregatedSaver+RelationshipEntry",
+            "Level": 0,
+            "Flags": 0,
+            "RewardsStateNew": "[Nested]",
+            "ComingSoonDates": "[Nested]"
+          }
+        },
+        {
+          "key": 1011,
+          "value": {
+            "_Type": "GreenT.HornyScapes.Saves.AggregatedSavers.RelationshipsAggregatedSaver+RelationshipEntry",
+            "Level": 1,
+            "Flags": 3,
+            "RewardsStateNew": "[Nested]",
+            "ComingSoonDates": "[Nested]"
+          }
+        },
+        {
+          "key": 1012,
+          "value": {
+            "_Type": "GreenT.HornyScapes.Saves.AggregatedSavers.RelationshipsAggregatedSaver+RelationshipEntry",
+            "Level": 0,
+            "Flags": 3,
+            "RewardsStateNew": "[Nested]",
+            "ComingSoonDates": "[Nested]"
+          }
+        },
+        {
+          "key": 1013,
+          "value": {
+            "_Type": "GreenT.HornyScapes.Saves.AggregatedSavers.RelationshipsAggregatedSaver+RelationshipEntry",
+            "Level": 0,
+            "Flags": 3,
+            "RewardsStateNew": "[Nested]",
+            "ComingSoonDates": "[Nested]"
+          }
+        },
+        {
+          "key": 1014,
+          "value": {
+            "_Type": "GreenT.HornyScapes.Saves.AggregatedSavers.RelationshipsAggregatedSaver+RelationshipEntry",
+            "Level": 0,
+            "Flags": 3,
+            "RewardsStateNew": "[Nested]",
+            "ComingSoonDates": "[Nested]"
+          }
+        },
+        {
+          "key": 1015,
+          "value": {
+            "_Type": "GreenT.HornyScapes.Saves.AggregatedSavers.RelationshipsAggregatedSaver+RelationshipEntry",
+            "Level": 0,
+            "Flags": 3,
+            "RewardsStateNew": "[Nested]",
+            "ComingSoonDates": "[Nested]"
+          }
+        },
+        "[Truncated]"
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "StripClub.NewEvent.Data.Migrate18_4To18_5+MigrateVersionDataMemento": [
+    {
+      "UniqueKey": "MigrateVersionData_18.4",
+      "IsMigrate": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.BannerSpace.SaveDataManager+BannerMemento": [
+    {
+      "UniqueKey": "banner_save_data_manager",
+      "Data": [
+        {
+          "_Type": "GreenT.HornyScapes.BannerSpace.BannerSaveData",
+          "Source": "main_banners",
+          "Step": 0,
+          "LegendaryStep": 1,
+          "MainStep": 1,
+          "PurchaseInfos": [
+            {
+              "key": 27,
+              "value": {
+                "Id": "[MaxDepth]",
+                "FirstBuyTimestamp": "[MaxDepth]"
+              }
+            }
+          ],
+          "ProgressByBannerId": [
+            {
+              "key": 27,
+              "value": {
+                "_Type": "GreenT.HornyScapes.BannerSpace.BannerProgressSaveData",
+                "BannerId": 27,
+                "CurrentPoints": 0,
+                "ClaimedCheckpoints": "[Nested]"
+              }
+            }
+          ]
+        }
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Analytics.GameStartStats+Memento": [
+    {
+      "UniqueKey": "game.start.state",
+      "State": "FirstPlay",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Meta.Save.LocationSaver+LocationMemento": [
+    {
+      "UniqueKey": "169b06c28ac644a191e94a2edd66674b",
+      "SubLocationSave": [
+        {
+          "_Type": "GreenT.HornyScapes.Meta.Save.LocationSaver+SubLocationSaveLocal",
+          "SaveKey": "af9985dcb5724707863103a1941c2e91",
+          "InteractiveObjects": [],
+          "FoWs": []
+        },
+        {
+          "_Type": "GreenT.HornyScapes.Meta.Save.LocationSaver+SubLocationSaveLocal",
+          "SaveKey": "635c1754588848b2ab23097a408516d1",
+          "InteractiveObjects": [],
+          "FoWs": []
+        },
+        {
+          "_Type": "GreenT.HornyScapes.Meta.Save.LocationSaver+SubLocationSaveLocal",
+          "SaveKey": "e63535a1ea964445aa2af503b6642cef",
+          "InteractiveObjects": [],
+          "FoWs": []
+        },
+        {
+          "_Type": "GreenT.HornyScapes.Meta.Save.LocationSaver+SubLocationSaveLocal",
+          "SaveKey": "65b1cc361405428e8c77f9c4dea803df",
+          "InteractiveObjects": [],
+          "FoWs": []
+        },
+        {
+          "_Type": "GreenT.HornyScapes.Meta.Save.LocationSaver+SubLocationSaveLocal",
+          "SaveKey": "d4393a01dfa140ffac62745f4cf82db3",
+          "InteractiveObjects": [],
+          "FoWs": []
+        },
+        {
+          "_Type": "GreenT.HornyScapes.Meta.Save.LocationSaver+SubLocationSaveLocal",
+          "SaveKey": "b21076f821304031b0488e8c3ebefd23",
+          "InteractiveObjects": [],
+          "FoWs": []
+        },
+        {
+          "_Type": "GreenT.HornyScapes.Meta.Save.LocationSaver+SubLocationSaveLocal",
+          "SaveKey": "b5dc1624cc2149c39ce8504979ea3b2f",
+          "InteractiveObjects": [],
+          "FoWs": []
+        },
+        {
+          "_Type": "GreenT.HornyScapes.Meta.Save.LocationSaver+SubLocationSaveLocal",
+          "SaveKey": "ef845ca96e9c4cb8bad51cbe118e0ee9",
+          "InteractiveObjects": [],
+          "FoWs": []
+        },
+        {
+          "_Type": "GreenT.HornyScapes.Meta.Save.LocationSaver+SubLocationSaveLocal",
+          "SaveKey": "441ecce9010a423e818525040ca14542",
+          "InteractiveObjects": [],
+          "FoWs": []
+        },
+        {
+          "_Type": "GreenT.HornyScapes.Meta.Save.LocationSaver+SubLocationSaveLocal",
+          "SaveKey": "14233f626bc2442789bc9d8171024952",
+          "InteractiveObjects": [],
+          "FoWs": []
+        },
+        {
+          "_Type": "GreenT.HornyScapes.Meta.Save.LocationSaver+SubLocationSaveLocal",
+          "SaveKey": "d9837d7da78a4dd7a430f1f9dfc1288a",
+          "InteractiveObjects": [],
+          "FoWs": []
+        }
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Lockers.LotBoughtBySectionLocker+Memento": [
+    {
+      "UniqueKey": "lot_bought_in_section1001_1_Max",
+      "lotBoughtCount": 0,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Bank.SelloutBank+SelloutBankMemento": [
+    {
+      "UniqueKey": "sellout.bank.1101",
+      "SumOfBoughtInSection": 0,
+      "RewardsStates": null,
+      "RewardsStatesNew": [
+        "InProgress",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked"
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "sellout.bank.1102",
+      "SumOfBoughtInSection": 0,
+      "RewardsStates": null,
+      "RewardsStatesNew": [
+        "InProgress",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked"
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Events.NoviceCalendar+NoviceCalendarMemento": [
+    {
+      "UniqueKey": "novice_calendar_1",
+      "StartedTimeStamp": 0,
+      "LastChanceTimeStamp": 0,
+      "WasStarted": false,
+      "WasEnded": false,
+      "EventEnergyResetToStart": false,
+      "EntityStatus": "Blocked",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "novice_calendar_3000",
+      "StartedTimeStamp": 0,
+      "LastChanceTimeStamp": 0,
+      "WasStarted": false,
+      "WasEnded": false,
+      "EventEnergyResetToStart": false,
+      "EntityStatus": "Blocked",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Tutorial.TutorialGroupSteps+TutorGroupMemento": [
+    {
+      "UniqueKey": "TutorialGroupStep.0",
+      "IsComplete": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "TutorialGroupStep.1",
+      "IsComplete": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "TutorialGroupStep.2",
+      "IsComplete": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "TutorialGroupStep.3",
+      "IsComplete": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "TutorialGroupStep.4",
+      "IsComplete": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "TutorialGroupStep.5",
+      "IsComplete": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "TutorialGroupStep.6",
+      "IsComplete": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "TutorialGroupStep.7",
+      "IsComplete": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "TutorialGroupStep.8",
+      "IsComplete": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "TutorialGroupStep.9",
+      "IsComplete": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "TutorialGroupStep.10",
+      "IsComplete": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "TutorialGroupStep.11",
+      "IsComplete": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "TutorialGroupStep.12",
+      "IsComplete": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "TutorialGroupStep.13",
+      "IsComplete": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "TutorialGroupStep.14",
+      "IsComplete": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "TutorialGroupStep.15",
+      "IsComplete": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.MergeCore.GeneralData+GeneralDataMemento": [
+    {
+      "UniqueKey": "GeneralData_Villa_0",
+      "Data": [
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 2,
+            "collection": "Shackles"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 0,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 20,
+              "randomSkin": 2
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 2,
+            "collection": "GamerChair"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 1,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 10,
+              "randomSkin": 4
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 1,
+            "collection": "GamerChair"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 2,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 5,
+              "randomSkin": 1
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 2,
+            "collection": "Lingerie"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 3,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 20,
+              "randomSkin": 2
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 2,
+            "collection": "Tree"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 5,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 10,
+              "randomSkin": 1
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 2,
+            "collection": "Lingerie"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 7,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 10,
+              "randomSkin": 3
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 4,
+            "collection": "Lingerie"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 9,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 20,
+              "randomSkin": 4
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 2,
+            "collection": "Shackles"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 0,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 10,
+              "randomSkin": 4
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 1,
+            "collection": "Decor"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 1,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 100,
+              "randomSkin": 3
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 2,
+            "collection": "Lingerie"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 2,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 40,
+              "randomSkin": 1
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 4,
+            "collection": "Dildo"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 9,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 40,
+              "randomSkin": 1
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 2,
+            "collection": "Lingerie"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 0,
+            "y": 3
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 50,
+              "randomSkin": 4
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 3,
+            "collection": "Tree"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 9,
+            "y": 3
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 10,
+              "randomSkin": 4
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 3,
+            "collection": "Lingerie"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 0,
+            "y": 2
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 20,
+              "randomSkin": 3
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 3,
+            "collection": "Lingerie"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 1,
+            "y": 2
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 20,
+              "randomSkin": 4
+            }
+          ]
+        },
+        "[Truncated]"
+      ],
+      "WasLocationMigrated": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "GeneralData_Island_0",
+      "Data": [
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 3,
+            "collection": "DrinksIsland"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 0,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 3,
+            "collection": "BedClothes"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 1,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 4,
+            "collection": "ToysIsland"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 2,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 4,
+            "collection": "BedClothes"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 3,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 4,
+            "collection": "DildoIsland"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 4,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 4,
+            "collection": "BedClothes"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 5,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 3,
+            "collection": "CondomsIsland"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 6,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 3,
+            "collection": "BedClothes"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 7,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 3,
+            "collection": "SunbedIsland"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 8,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 3,
+            "collection": "TotemIsland"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 9,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 4,
+            "collection": "PlantsIsland"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 0,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 2,
+            "collection": "PlantsIsland"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 1,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 1,
+            "collection": "BungalowIsland"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 2,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 30,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 1,
+            "collection": "SunbedIsland"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 3,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 30,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 1,
+            "collection": "PlantsIsland"
+          },
+          "eventID": 0,
+          "coordinates": {
+            "x": 4,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 30,
+              "randomSkin": 0
+            }
+          ]
+        },
+        "[Truncated]"
+      ],
+      "WasLocationMigrated": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "GeneralData_1_351",
+      "Data": [
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 5,
+            "collection": "OctoberFestParts"
+          },
+          "eventID": 51,
+          "coordinates": {
+            "x": 0,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 3,
+            "collection": "OctoberFestDrinks"
+          },
+          "eventID": 51,
+          "coordinates": {
+            "x": 1,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 5,
+            "collection": "OctoberFestToys"
+          },
+          "eventID": 51,
+          "coordinates": {
+            "x": 2,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 3,
+            "collection": "OctoberFestParts"
+          },
+          "eventID": 51,
+          "coordinates": {
+            "x": 3,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 4,
+            "collection": "OctoberFestAccess"
+          },
+          "eventID": 51,
+          "coordinates": {
+            "x": 4,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 4,
+            "collection": "OctoberFestAccess"
+          },
+          "eventID": 51,
+          "coordinates": {
+            "x": 5,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 4,
+            "collection": "OctoberFestMeat"
+          },
+          "eventID": 51,
+          "coordinates": {
+            "x": 6,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 4,
+            "collection": "OctoberFestPhoto"
+          },
+          "eventID": 51,
+          "coordinates": {
+            "x": 7,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 5,
+            "collection": "OctoberFestTools"
+          },
+          "eventID": 51,
+          "coordinates": {
+            "x": 8,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 5,
+            "collection": "OctoberFestParts"
+          },
+          "eventID": 51,
+          "coordinates": {
+            "x": 9,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 3,
+            "collection": "OctoberFestParts"
+          },
+          "eventID": 51,
+          "coordinates": {
+            "x": 0,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 2,
+            "collection": "OctoberFestFastFood"
+          },
+          "eventID": 51,
+          "coordinates": {
+            "x": 1,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 3,
+            "collection": "OctoberFestSlap"
+          },
+          "eventID": 51,
+          "coordinates": {
+            "x": 2,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 30,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 4,
+            "collection": "OctoberFestToys"
+          },
+          "eventID": 51,
+          "coordinates": {
+            "x": 3,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 30,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 2,
+            "collection": "OctoberFestParts"
+          },
+          "eventID": 51,
+          "coordinates": {
+            "x": 4,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 30,
+              "randomSkin": 0
+            }
+          ]
+        },
+        "[Truncated]"
+      ],
+      "WasLocationMigrated": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "GeneralData_1_3002701",
+      "Data": [
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 3,
+            "collection": "BikersGuitar"
+          },
+          "eventID": 30027,
+          "coordinates": {
+            "x": 0,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 100,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 2,
+            "collection": "BikersFood"
+          },
+          "eventID": 30027,
+          "coordinates": {
+            "x": 1,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 100,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 2,
+            "collection": "BikersSign"
+          },
+          "eventID": 30027,
+          "coordinates": {
+            "x": 2,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 100,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 3,
+            "collection": "BikersGun"
+          },
+          "eventID": 30027,
+          "coordinates": {
+            "x": 3,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 100,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 3,
+            "collection": "BikersFood"
+          },
+          "eventID": 30027,
+          "coordinates": {
+            "x": 4,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 100,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 3,
+            "collection": "BikersSign"
+          },
+          "eventID": 30027,
+          "coordinates": {
+            "x": 5,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 100,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 3,
+            "collection": "BikersAlcohol"
+          },
+          "eventID": 30027,
+          "coordinates": {
+            "x": 6,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 100,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 2,
+            "collection": "BikersGuitar"
+          },
+          "eventID": 30027,
+          "coordinates": {
+            "x": 7,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 100,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 2,
+            "collection": "BikersAlcohol"
+          },
+          "eventID": 30027,
+          "coordinates": {
+            "x": 8,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 100,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 2,
+            "collection": "BikersGun"
+          },
+          "eventID": 30027,
+          "coordinates": {
+            "x": 9,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 100,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 4,
+            "collection": "BikersItems"
+          },
+          "eventID": 30027,
+          "coordinates": {
+            "x": 0,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 100,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 2,
+            "collection": "BikersDildo"
+          },
+          "eventID": 30027,
+          "coordinates": {
+            "x": 1,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 100,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 2,
+            "collection": "BikersParts"
+          },
+          "eventID": 30027,
+          "coordinates": {
+            "x": 2,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 100,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 3,
+            "collection": "BikersTools"
+          },
+          "eventID": 30027,
+          "coordinates": {
+            "x": 3,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 100,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 5,
+            "collection": "BikersBDSM"
+          },
+          "eventID": 30027,
+          "coordinates": {
+            "x": 4,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": true,
+              "unlockPrice": 100,
+              "randomSkin": 0
+            }
+          ]
+        },
+        "[Truncated]"
+      ],
+      "WasLocationMigrated": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "GeneralData_1_10400",
+      "Data": [
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 1,
+            "collection": "ErolabsRings"
+          },
+          "eventID": 10400,
+          "coordinates": {
+            "x": 0,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 10,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 4,
+            "collection": "ErolabsKnife"
+          },
+          "eventID": 10400,
+          "coordinates": {
+            "x": 1,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 20,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 4,
+            "collection": "ErolabsShurikenSai"
+          },
+          "eventID": 10400,
+          "coordinates": {
+            "x": 2,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 10,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 4,
+            "collection": "ErolabsKnife"
+          },
+          "eventID": 10400,
+          "coordinates": {
+            "x": 3,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 10,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 2,
+            "collection": "ErolabsRings"
+          },
+          "eventID": 10400,
+          "coordinates": {
+            "x": 4,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 5,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 4,
+            "collection": "ErolabsDildo"
+          },
+          "eventID": 10400,
+          "coordinates": {
+            "x": 5,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 3,
+            "collection": "ErolabsDildo"
+          },
+          "eventID": 10400,
+          "coordinates": {
+            "x": 6,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 20,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 4,
+            "collection": "ErolabsPlug"
+          },
+          "eventID": 10400,
+          "coordinates": {
+            "x": 7,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 10,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 4,
+            "collection": "ErolabsDildo"
+          },
+          "eventID": 10400,
+          "coordinates": {
+            "x": 8,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 2,
+            "collection": "ErolabsPlug"
+          },
+          "eventID": 10400,
+          "coordinates": {
+            "x": 9,
+            "y": 5
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 20,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 4,
+            "collection": "ErolabsKnife"
+          },
+          "eventID": 10400,
+          "coordinates": {
+            "x": 0,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 1,
+            "collection": "ErolabsChest"
+          },
+          "eventID": 10400,
+          "coordinates": {
+            "x": 1,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 10,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 1,
+            "collection": "ErolabsShurikenSai"
+          },
+          "eventID": 10400,
+          "coordinates": {
+            "x": 2,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 10,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 2,
+            "collection": "ErolabsKnife"
+          },
+          "eventID": 10400,
+          "coordinates": {
+            "x": 3,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 10,
+              "randomSkin": 0
+            }
+          ]
+        },
+        {
+          "_Type": "Merge.GIData",
+          "key": {
+            "id": 1,
+            "collection": "ErolabsRings"
+          },
+          "eventID": 10400,
+          "coordinates": {
+            "x": 4,
+            "y": 4
+          },
+          "modules": [
+            {
+              "_Type": "Merge.ModuleDatas+Locked",
+              "strength": 1,
+              "blocksWisible": false,
+              "unlockPrice": 40,
+              "randomSkin": 0
+            }
+          ]
+        },
+        "[Truncated]"
+      ],
+      "WasLocationMigrated": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "StripClub.Extensions.RestorableValue`1+RestorableValueMemento[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]": [
+    {
+      "UniqueKey": "Energy",
+      "Value": 145,
+      "Min": 0,
+      "Max": 100,
+      "LastRestore": "2026-09-25T12:43:22.6229906Z",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "StripClub.Model.SpendEventEnergyTracker+SpendEventEnergyMemento": [
+    {
+      "UniqueKey": "spend.event.energy.tracker",
+      "UseCount": 0,
+      "LastType": "",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Сrutch.StarResetUponProgress+Memento": [
+    {
+      "UniqueKey": "star_reset_upon_progress",
+      "isResetCompleted": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.LastChanceManager+LastChanceManagerMemento": [
+    {
+      "UniqueKey": "lastchance.manager",
+      "Collection": [],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.SavableVariable`1+Memento[[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]": [
+    {
+      "UniqueKey": "RegistrationReward",
+      "Value": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.BaseEnergyRestore+EnergyRestoreMemento": [
+    {
+      "UniqueKey": "energy.restore",
+      "IsFree": false,
+      "MigrateToResetDailyPriceLogics": true,
+      "PriceMemento": {
+        "_Type": "GreenT.HornyScapes.ResetDailyPriceLogics+Memento",
+        "IsFree": true,
+        "PurchaseCount": 0,
+        "LastBuy": "2026-09-25T00:00:00Z"
+      },
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "StripClub.NewEvent.Data.MigrationDeleteMissingItemsMemento": [
+    {
+      "UniqueKey": "MigrationDeleteMissingItems",
+      "MainFieldMigrationsDone": 0,
+      "EventFieldMigrationsDone": 0,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.MergeCore.InventoryController+Memento": [
+    {
+      "UniqueKey": "InventoryController",
+      "data": {
+        "_Type": "GreenT.HornyScapes.MergeCore.InventoryController+GeneralData"
+      },
+      "dataMap": [
+        {
+          "_Type": "GreenT.HornyScapes.MergeCore.InventoryController+LocationDataEntry",
+          "LocationSpaceType": 1,
+          "Data": {
+            "_Type": "GreenT.HornyScapes.MergeCore.InventoryController+GeneralData"
+          }
+        }
+      ],
+      "Data": {
+        "_Type": "GreenT.HornyScapes.MergeCore.InventoryController+GeneralData"
+      },
+      "DataMap": [
+        {
+          "_Type": "GreenT.HornyScapes.MergeCore.InventoryController+LocationDataEntry",
+          "LocationSpaceType": 1,
+          "Data": {
+            "_Type": "GreenT.HornyScapes.MergeCore.InventoryController+GeneralData"
+          }
+        }
+      ],
+      "OpenedSlots": 4,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.MergeCore.PocketController+PocketMemento": [
+    {
+      "UniqueKey": "PocketController",
+      "PocketItemsQueue": [],
+      "PocketEventItemsQueue": [],
+      "LocationPockets": [
+        {
+          "LocationSpaceType": "Villa",
+          "Pocket": []
+        },
+        {
+          "LocationSpaceType": "Island",
+          "Pocket": []
+        },
+        {
+          "LocationSpaceType": "Garage",
+          "Pocket": []
+        }
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.MergeCore.CollectionController+CollectionCompactMemento": [
+    {
+      "UniqueKey": "CollectionController",
+      "Opened": [
+        {
+          "key": "Dildo",
+          "value": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "key": "SexToys",
+          "value": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "Condoms",
+          "value": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "BDSMbox",
+          "value": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "Anal",
+          "value": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "key": "PigBank",
+          "value": [
+            1
+          ]
+        },
+        {
+          "key": "ChestPool",
+          "value": [
+            1
+          ]
+        },
+        {
+          "key": "Coin",
+          "value": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "key": "Gems",
+          "value": [
+            1,
+            2
+          ]
+        },
+        {
+          "key": "Chest1Main",
+          "value": [
+            1
+          ]
+        },
+        {
+          "key": "Lingerie",
+          "value": [
+            1,
+            2
+          ]
+        }
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.MergeCore.GameItemController+Memento": [
+    {
+      "UniqueKey": "GameItemController",
+      "data": null,
+      "noNeedMigrate93To94": true,
+      "noNeedMigrate173To173a": false,
+      "noNeedMigrageOldBalanceToNew": true,
+      "Data": null,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Characters.CharacterSettings+ThisMemento": [
+    {
+      "UniqueKey": "character_1001",
+      "ID": 1001,
+      "AvatarNumber": 1,
+      "Level": 4,
+      "Progress": 60,
+      "IsNew": false,
+      "SkinID": 0,
+      "OwnedSkins": [
+        0
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "character_1011",
+      "ID": 1011,
+      "AvatarNumber": 1,
+      "Level": 4,
+      "Progress": 36,
+      "IsNew": false,
+      "SkinID": 0,
+      "OwnedSkins": [
+        0
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "character_1003",
+      "ID": 1003,
+      "AvatarNumber": 0,
+      "Level": 1,
+      "Progress": 8,
+      "IsNew": false,
+      "SkinID": 0,
+      "OwnedSkins": [
+        0
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Tasks.SavableObjectiveData+ObjectiveCountableDataMemento": [
+    {
+      "UniqueKey": "objective_data_223",
+      "Progress": 450,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.MergeStore.StoreSection+Memento": [
+    {
+      "UniqueKey": "Main_Villa_main_Regular",
+      "Items": [
+        {
+          "_Type": "GreenT.HornyScapes.MergeStore.ItemSave",
+          "Id": "e0bdffe7-4386-4eb3-ae4f-189267444c80",
+          "ItemKey": {
+            "id": 6,
+            "collection": "Dildo"
+          },
+          "EventID": 0,
+          "BsePrice": 12,
+          "SalePrice": 12,
+          "CurrencyType": 1,
+          "Sale": 0,
+          "SaleID": 0,
+          "Amount": 1,
+          "Purchased": false,
+          "ContentInfo": {
+            "_Type": "GreenT.Types.ContentInfo",
+            "_key": "main"
+          },
+          "SaleTierDifference": 1,
+          "Section": 0
+        },
+        {
+          "_Type": "GreenT.HornyScapes.MergeStore.ItemSave",
+          "Id": "6a94a318-c5d0-45dd-84bd-ece6198b3a09",
+          "ItemKey": {
+            "id": 6,
+            "collection": "Anal"
+          },
+          "EventID": 0,
+          "BsePrice": 25,
+          "SalePrice": 25,
+          "CurrencyType": 1,
+          "Sale": 0,
+          "SaleID": 0,
+          "Amount": 1,
+          "Purchased": false,
+          "ContentInfo": {
+            "_Type": "GreenT.Types.ContentInfo",
+            "_key": "main"
+          },
+          "SaleTierDifference": 1,
+          "Section": 0
+        },
+        {
+          "_Type": "GreenT.HornyScapes.MergeStore.ItemSave",
+          "Id": "d8fc29f2-5e0e-49c3-8f86-b30ff767cab7",
+          "ItemKey": {
+            "id": 4,
+            "collection": "Condoms"
+          },
+          "EventID": 0,
+          "BsePrice": 15,
+          "SalePrice": 11,
+          "CurrencyType": 1,
+          "Sale": 25,
+          "SaleID": 0,
+          "Amount": 1,
+          "Purchased": false,
+          "ContentInfo": {
+            "_Type": "GreenT.Types.ContentInfo",
+            "_key": "main"
+          },
+          "SaleTierDifference": 1,
+          "Section": 0
+        },
+        {
+          "_Type": "GreenT.HornyScapes.MergeStore.ItemSave",
+          "Id": "4ae43f55-d63c-4d92-8eb5-2f9d00122a40",
+          "ItemKey": {
+            "id": 3,
+            "collection": "Condoms"
+          },
+          "EventID": 0,
+          "BsePrice": 7,
+          "SalePrice": 3,
+          "CurrencyType": 1,
+          "Sale": 50,
+          "SaleID": 1,
+          "Amount": 1,
+          "Purchased": false,
+          "ContentInfo": {
+            "_Type": "GreenT.Types.ContentInfo",
+            "_key": "main"
+          },
+          "SaleTierDifference": 1,
+          "Section": 0
+        },
+        {
+          "_Type": "GreenT.HornyScapes.MergeStore.ItemSave",
+          "Id": "1554117e-3b4c-43df-a0d4-3ac08afe1f8f",
+          "ItemKey": {
+            "id": 5,
+            "collection": "Condoms"
+          },
+          "EventID": 0,
+          "BsePrice": 30,
+          "SalePrice": 30,
+          "CurrencyType": 1,
+          "Sale": 0,
+          "SaleID": 0,
+          "Amount": 1,
+          "Purchased": false,
+          "ContentInfo": {
+            "_Type": "GreenT.Types.ContentInfo",
+            "_key": "main"
+          },
+          "SaleTierDifference": 1,
+          "Section": 0
+        },
+        {
+          "_Type": "GreenT.HornyScapes.MergeStore.ItemSave",
+          "Id": "f89a1b65-63dc-438e-aedc-df5e5978e01a",
+          "ItemKey": {
+            "id": 7,
+            "collection": "Anal"
+          },
+          "EventID": 0,
+          "BsePrice": 50,
+          "SalePrice": 50,
+          "CurrencyType": 1,
+          "Sale": 0,
+          "SaleID": 0,
+          "Amount": 1,
+          "Purchased": false,
+          "ContentInfo": {
+            "_Type": "GreenT.Types.ContentInfo",
+            "_key": "main"
+          },
+          "SaleTierDifference": 1,
+          "Section": 0
+        }
+      ],
+      "TimeLeft": {
+        "_ticks": 16070000000
+      },
+      "SaveTime": "2026-09-25T13:10:28.1445818Z",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "Main_Villa_main_Premium",
+      "Items": [
+        {
+          "_Type": "GreenT.HornyScapes.MergeStore.ItemSave",
+          "Id": "1af585e6-adc4-4198-bc29-d9638ec97169",
+          "ItemKey": {
+            "id": 1,
+            "collection": "Chest3Main"
+          },
+          "EventID": 0,
+          "BsePrice": 40,
+          "SalePrice": 36,
+          "CurrencyType": 1,
+          "Sale": 10,
+          "SaleID": 0,
+          "Amount": 1,
+          "Purchased": false,
+          "ContentInfo": {
+            "_Type": "GreenT.Types.ContentInfo",
+            "_key": "main"
+          },
+          "SaleTierDifference": 1,
+          "Section": 1
+        },
+        {
+          "_Type": "GreenT.HornyScapes.MergeStore.ItemSave",
+          "Id": "8957e760-cddd-47f9-abef-08cb3e3b281e",
+          "ItemKey": {
+            "id": 10,
+            "collection": "Cards"
+          },
+          "EventID": 0,
+          "BsePrice": 960,
+          "SalePrice": 768,
+          "CurrencyType": 1,
+          "Sale": 20,
+          "SaleID": 1,
+          "Amount": 1,
+          "Purchased": false,
+          "ContentInfo": {
+            "_Type": "GreenT.Types.ContentInfo",
+            "_key": "main"
+          },
+          "SaleTierDifference": 1,
+          "Section": 1
+        }
+      ],
+      "TimeLeft": {
+        "_ticks": 142070000000
+      },
+      "SaveTime": "2026-09-25T13:10:28.1445818Z",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Bank.OfferSettings+Memento": [
+    {
+      "UniqueKey": "offer.513001",
+      "TimeLeft": {
+        "_ticks": 4320000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513002",
+      "TimeLeft": {
+        "_ticks": 1728000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513004",
+      "TimeLeft": {
+        "_ticks": 2592000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513005",
+      "TimeLeft": {
+        "_ticks": 1728000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513007",
+      "TimeLeft": {
+        "_ticks": 864000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513008",
+      "TimeLeft": {
+        "_ticks": 2592000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513010",
+      "TimeLeft": {
+        "_ticks": 2592000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513011",
+      "TimeLeft": {
+        "_ticks": 864000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513012",
+      "TimeLeft": {
+        "_ticks": 2592000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513014",
+      "TimeLeft": {
+        "_ticks": 1728000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513016",
+      "TimeLeft": {
+        "_ticks": 1728000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513017",
+      "TimeLeft": {
+        "_ticks": 864000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513018",
+      "TimeLeft": {
+        "_ticks": 2592000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513019",
+      "TimeLeft": {
+        "_ticks": 1728000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513020",
+      "TimeLeft": {
+        "_ticks": 1728000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513021",
+      "TimeLeft": {
+        "_ticks": 864000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513022",
+      "TimeLeft": {
+        "_ticks": 2592000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513024",
+      "TimeLeft": {
+        "_ticks": 1728000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513025",
+      "TimeLeft": {
+        "_ticks": 864000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513026",
+      "TimeLeft": {
+        "_ticks": 2592000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513028",
+      "TimeLeft": {
+        "_ticks": 2592000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513030",
+      "TimeLeft": {
+        "_ticks": 2592000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513031",
+      "TimeLeft": {
+        "_ticks": 864000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513032",
+      "TimeLeft": {
+        "_ticks": 1728000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.513034",
+      "TimeLeft": {
+        "_ticks": 864000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1301699Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.273001",
+      "TimeLeft": {
+        "_ticks": 1728000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1797965Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.273002",
+      "TimeLeft": {
+        "_ticks": 1728000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1797965Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.273004",
+      "TimeLeft": {
+        "_ticks": 1728000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1797965Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.273006",
+      "TimeLeft": {
+        "_ticks": 1728000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1797965Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.273007",
+      "TimeLeft": {
+        "_ticks": 1728000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1797965Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.273008",
+      "TimeLeft": {
+        "_ticks": 1728000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1797965Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.273009",
+      "TimeLeft": {
+        "_ticks": 1728000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1797965Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.273010",
+      "TimeLeft": {
+        "_ticks": 1728000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1797965Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.273011",
+      "TimeLeft": {
+        "_ticks": 1728000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1797965Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.273012",
+      "TimeLeft": {
+        "_ticks": 1728000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1797965Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.273013",
+      "TimeLeft": {
+        "_ticks": 1728000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1797965Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.273014",
+      "TimeLeft": {
+        "_ticks": 1728000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1797965Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.273015",
+      "TimeLeft": {
+        "_ticks": 1728000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.1797965Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.1042009",
+      "TimeLeft": {
+        "_ticks": 1440000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.2054765Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.1042010",
+      "TimeLeft": {
+        "_ticks": 1440000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.2054765Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.1042011",
+      "TimeLeft": {
+        "_ticks": 1440000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.2054765Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.1042012",
+      "TimeLeft": {
+        "_ticks": 1440000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.2054765Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "offer.1042013",
+      "TimeLeft": {
+        "_ticks": 1440000000000
+      },
+      "TimeUntilRespawn": {
+        "_ticks": 0
+      },
+      "SaveTime": "2026-09-25T13:07:15.2054765Z",
+      "IsTimerOn": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.PremiumRewards.Models.PremiumReward+PremiumRewardMemento": [
+    {
+      "UniqueKey": "premium_reward.new.111000",
+      "RewardsStates": [
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "[Truncated]"
+      ],
+      "PremiumRewardsStates": [
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress",
+        "InProgress"
+      ],
+      "Points": 0,
+      "IsFirstShowed": true,
+      "CanPointsTrack": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Roulettes.RouletteReal+RouletteRealMemento": [
+    {
+      "UniqueKey": "real.roulette.Individual.0.0.64",
+      "RollCount": 0,
+      "IsViewed": true,
+      "OverallRollCount": 0,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Events.Event+EventMemento": [
+    {
+      "UniqueKey": "CalendarID_10400.eventID_10400",
+      "IsTutorialEnd": false,
+      "IsLaunched": false,
+      "RewardStates": [],
+      "WasFirstTimeStarted": true,
+      "WasFirstTimePushed": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "CalendarID_3002701.eventID_30027",
+      "IsTutorialEnd": false,
+      "IsLaunched": false,
+      "RewardStates": [],
+      "WasFirstTimeStarted": true,
+      "WasFirstTimePushed": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "CalendarID_351.eventID_51",
+      "IsTutorialEnd": false,
+      "IsLaunched": false,
+      "RewardStates": [
+        "InProgress",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "[Truncated]"
+      ],
+      "WasFirstTimeStarted": true,
+      "WasFirstTimePushed": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.TournamentPointsStorage+TournamentPointsMemento": [
+    {
+      "UniqueKey": "tournament_points.data",
+      "AdditivePoints": 0.0,
+      "LastPower": 0.0,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.Events.MiniEvent+MiniEventMemento": [
+    {
+      "UniqueKey": "mini_event_data_150150",
+      "StartWindowShown": false,
+      "WasFirstTimeSeen": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "mini_event_data_30013001",
+      "StartWindowShown": false,
+      "WasFirstTimeSeen": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "mini_event_data_151151",
+      "StartWindowShown": false,
+      "WasFirstTimeSeen": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "mini_event_data_206206",
+      "StartWindowShown": false,
+      "WasFirstTimeSeen": true,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.BattlePassSpace.BattlePassStartData+BattlePassStartMemento": [
+    {
+      "UniqueKey": "startData_event_battle_pass_1040100",
+      "StartWindowShown": false,
+      "IsTutorialEnd": false,
+      "WasFirstTimeStarted": false,
+      "WasFirstTimePushed": false,
+      "WasPurchasedPremium": false,
+      "IsPurchaseComplete": false,
+      "IsPurchaseStarted": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "startData_event_battle_pass_102701",
+      "StartWindowShown": false,
+      "IsTutorialEnd": false,
+      "WasFirstTimeStarted": false,
+      "WasFirstTimePushed": false,
+      "WasPurchasedPremium": false,
+      "IsPurchaseComplete": false,
+      "IsPurchaseStarted": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "startData_battle_passe_1011",
+      "StartWindowShown": true,
+      "IsTutorialEnd": true,
+      "WasFirstTimeStarted": false,
+      "WasFirstTimePushed": true,
+      "WasPurchasedPremium": false,
+      "IsPurchaseComplete": false,
+      "IsPurchaseStarted": false,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.BattlePassSpace.BattlePassMergedCurrencyDataCase+MementoData": [
+    {
+      "UniqueKey": "merged_currency_event_battle_pass1040100",
+      "MergedCurrencyQuantity": 0,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "merged_currency_event_battle_pass102701",
+      "MergedCurrencyQuantity": 0,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "merged_currency_battle_pass1011",
+      "MergedCurrencyQuantity": 0,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "StripClub.Extensions.RestorableEventEnergyValue`1+RestorableEventEnergyValueMemento[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]": [
+    {
+      "UniqueKey": "EventEnergyoctoberfest",
+      "Value": 100,
+      "Min": 0,
+      "Max": 100,
+      "LastRestore": "2026-09-25T13:07:15.1229651Z",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "EventEnergybikers",
+      "Value": 100,
+      "Min": 0,
+      "Max": 100,
+      "LastRestore": "2026-09-25T13:07:15.1787873Z",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "EventEnergyerolabs",
+      "Value": 100,
+      "Min": 0,
+      "Max": 100,
+      "LastRestore": "2026-09-25T13:07:15.2044684Z",
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "StripClub.NewEvent.Data.EventDataSaver+EventDataMemento": [
+    {
+      "UniqueKey": "CalendarID_351.eventID_51_data",
+      "Data": [
+        {
+          "_Type": "StripClub.NewEvent.Model.EventSimpleCurrency+CurrencyMemento",
+          "Count": 0
+        },
+        {
+          "_Type": "StripClub.NewEvent.Model.EventSimpleCurrency+CurrencyMemento",
+          "Count": 0
+        },
+        {
+          "_Type": "StripClub.NewEvent.Model.EventSimpleCurrency+CurrencyMemento",
+          "Count": 0
+        },
+        {
+          "_Type": "StripClub.NewEvent.Model.EventSimpleCurrency+CurrencyMemento",
+          "Count": 0
+        },
+        {
+          "_Type": "StripClub.NewEvent.Data.PocketRepository+PocketEventMemento",
+          "PocketItemsQueue": []
+        }
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "CalendarID_3002701.eventID_30027_data",
+      "Data": [
+        {
+          "_Type": "StripClub.NewEvent.Model.EventSimpleCurrency+CurrencyMemento",
+          "Count": 0
+        },
+        {
+          "_Type": "StripClub.NewEvent.Model.EventSimpleCurrency+CurrencyMemento",
+          "Count": 0
+        },
+        {
+          "_Type": "StripClub.NewEvent.Model.EventSimpleCurrency+CurrencyMemento",
+          "Count": 0
+        },
+        {
+          "_Type": "StripClub.NewEvent.Model.EventSimpleCurrency+CurrencyMemento",
+          "Count": 0
+        },
+        {
+          "_Type": "StripClub.NewEvent.Data.PocketRepository+PocketEventMemento",
+          "PocketItemsQueue": []
+        }
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    },
+    {
+      "UniqueKey": "CalendarID_10400.eventID_10400_data",
+      "Data": [
+        {
+          "_Type": "StripClub.NewEvent.Model.EventSimpleCurrency+CurrencyMemento",
+          "Count": 0
+        },
+        {
+          "_Type": "StripClub.NewEvent.Model.EventSimpleCurrency+CurrencyMemento",
+          "Count": 0
+        },
+        {
+          "_Type": "StripClub.NewEvent.Model.EventSimpleCurrency+CurrencyMemento",
+          "Count": 0
+        },
+        {
+          "_Type": "StripClub.NewEvent.Model.EventSimpleCurrency+CurrencyMemento",
+          "Count": 0
+        },
+        {
+          "_Type": "StripClub.NewEvent.Data.PocketRepository+PocketEventMemento",
+          "PocketItemsQueue": []
+        }
+      ],
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ],
+  "GreenT.HornyScapes.RouletteLot+RouletteMemento": [
+    {
+      "UniqueKey": "lot.roulette.summon.59",
+      "RollCount": 0,
+      "IsViewed": true,
+      "OverallRollCount": 0,
+      "Version": null,
+      "FirstSavedInThisSession": false
+    }
+  ]
+}
