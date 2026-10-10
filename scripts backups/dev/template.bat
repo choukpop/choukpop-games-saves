@@ -11,7 +11,7 @@ set "GITHUB_BASE_PATH=D:\Bibliotecas\Others\GitHub\choukpop-games-saves"
 set "GITHUB_BACKUP_FOLDER=%GITHUB_BASE_PATH%\Single Player Games\Survival\Palworld"
 
 :: ============================================================
-:: Items: type|path (type: folder or file)
+:: Items: type|path (type: folder or file) only copy files inside the folder
 :: ============================================================
 set "game_save[1]=folder|C:\Users\ChouKpop\Desktop\save game"
 set "game_save[2]=file|C:\Users\ChouKpop\Desktop\config.json"
