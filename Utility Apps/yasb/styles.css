@@ -58,6 +58,7 @@
     --text4: #7f849c;
     --bg-color1: #191919;
     --bg-color2: #333333;
+    --purple: #6600cc;
 }
 
 * {
@@ -157,7 +158,7 @@
 }
 
 .audio-visualizer-widget .audio-visualizer-canvas {
-    -qproperty-fillbrush: linear-gradient(to top, #8A9AFF, #8A8AFF, #C38AFF);
+    -qproperty-fillbrush: linear-gradient(to top, #af50fd, var(--purple));
 }
 
 /* ============================================================================
@@ -235,7 +236,7 @@
 
 .cpu-widget .widget-container .label {
     font-size: 13px;
-    color: var(--text1);
+    color: var(--purple);
 }
 
 .cpu-widget .widget-container .icon {
@@ -244,15 +245,15 @@
 }
 
 .cpu-widget .widget-container .label.status-low {
-    color: var(--text1);
+    color: var(--purple);
 }
 
 .cpu-widget .widget-container .label.status-medium {
-    color: var(--blue);
+    color: var(--yellow);
 }
 
 .cpu-widget .widget-container .label.status-high {
-    color: var(--red);
+    color: var(--orange);
 }
 
 .cpu-widget .widget-container .label.status-critical {
@@ -277,7 +278,7 @@
 .cpu-popup .header .text {
     font-size: 16px;
     font-family: "Segoe UI";
-    color: #ffffff;
+    color: var(--purple);
 }
 
 .cpu-popup .header .pin-btn {
@@ -303,7 +304,7 @@
 }
 
 .cpu-popup .cpu-graph {
-    color: var(--blue);
+    color: var(--purple);
 }
 
 .cpu-popup .cpu-graph-grid {
@@ -349,6 +350,28 @@
 /* ============================================================================
    GPU WIDGET
    ============================================================================ */
+
+.gpu-widget .widget-container .label {
+    font-size: 13px;
+    color: var(--purple);
+}
+
+.gpu-widget .widget-container .label.status-low {
+    color: var(--purple);
+}
+
+.gpu-widget .widget-container .label.status-medium {
+    color: var(--yellow);
+}
+
+.gpu-widget .widget-container .label.status-high {
+    color: var(--orange);
+}
+
+.gpu-widget .widget-container .label.status-critical {
+    color: var(--darkred);
+}
+
 .gpu-popup {
     background-color: rgba(28, 28, 28, 0.7);
     min-width: 400px;
@@ -362,7 +385,7 @@
 .gpu-popup .header .text {
     font-size: 16px;
     font-family: "Segoe UI";
-    color: #ffffff;
+    color: var(--purple);
 }
 
 .gpu-popup .header .pin-btn {
@@ -388,7 +411,7 @@
 }
 
 .gpu-popup .gpu-graph {
-    color: var(--blue);
+    color: var(--purple);
 }
 
 .gpu-popup .gpu-graph-grid {
@@ -447,6 +470,27 @@
 /* ============================================================================
    MEMORY WIDGET
    ============================================================================ */
+.memory-widget .widget-container .label {
+    font-size: 13px;
+    color: var(--purple);
+}
+
+.memory-widget .widget-container .label.status-low {
+    color: var(--purple);
+}
+
+.memory-widget .widget-container .label.status-medium {
+    color: var(--yellow);
+}
+
+.memory-widget .widget-container .label.status-high {
+    color: var(--orange);
+}
+
+.memory-widget .widget-container .label.status-critical {
+    color: var(--darkred);
+}
+
 .memory-popup {
     background-color: rgba(28, 28, 28, 0.7);
     min-width: 400px;
@@ -460,7 +504,7 @@
 .memory-popup .header .text {
     font-size: 16px;
     font-family: "Segoe UI";
-    color: #ffffff;
+    color: var(--purple);
 }
 
 .memory-popup .header .pin-btn {
@@ -486,7 +530,7 @@
 }
 
 .memory-popup .memory-graph {
-    color: var(--blue);
+    color: var(--purple);
 }
 
 .memory-popup .memory-graph-grid {
@@ -1287,12 +1331,12 @@
 
 .notes-widget .label {
     font-size: 14px;
-    color: var(--blue);
+    color: var(--purple);
 }
 
 .notes-widget .icon {
     font-size: 16px;
-    color: var(--blue);
+    color: var(--purple);
 }
 
 .notes-menu {
