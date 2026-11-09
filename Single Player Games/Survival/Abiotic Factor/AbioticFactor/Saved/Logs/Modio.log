@@ -1,0 +1,22 @@
+[09:40:34.0964827:96ms][Error][File] Failed to get space available. Received error 3
+[09:40:34.0965537:96ms][Error][File] Failed to get space available. Received error 3
+[09:41:16.4891852:489ms][Info][Core] Initializing mod.io services
+[09:41:16.4895056:489ms][Info][File] Initialized File Service
+[09:41:16.4994437:499ms][Info][File] Overriding RootLocalStoragePath to C:\Users\Public\mod.io\
+[09:41:16.5048375:504ms][Info][Http] Initialized Http Service
+[09:41:16.5049632:504ms][Info][User] User data file not found. Initializing to default state
+[09:41:16.5049766:504ms][Info][User] Initialized User Data service
+[09:41:16.5077982:507ms][Info][Core] mod.io service initialization complete
+[09:41:17.6081720:608ms][Info][Http] Sending POST request to g-13105.modapi.io/v1/external/steamauth?api_key=2baa46913ebdd19db5cd5f2e67a3ecec
+[09:41:17.6082120:608ms][Info][Http] Initializing POST request for g-13105.modapi.io /v1/external/steamauth?api_key=2baa46913ebdd19db5cd5f2e67a3ecec
+[09:41:18.4771448:477ms][Info][Http] Received response code 401 for POST /v1/external/steamauth?api_key=2baa46913ebdd19db5cd5f2e67a3ecec
+[09:41:18.4773657:477ms][Error][Http] Non 200-204 response received: {"error":{"code":401,"error_ref":11018,"message":"We experienced a server error attempting to complete your request. The issue has been logged and will be investigated, please try again later."}}
+[09:43:07.5970073:597ms][Info][Http] Sending POST request to g-13105.modapi.io/v1/external/steamauth?api_key=2baa46913ebdd19db5cd5f2e67a3ecec
+[09:43:07.5970408:597ms][Info][Http] Initializing POST request for g-13105.modapi.io /v1/external/steamauth?api_key=2baa46913ebdd19db5cd5f2e67a3ecec
+[09:43:07.9913660:991ms][Info][Http] Received response code 401 for POST /v1/external/steamauth?api_key=2baa46913ebdd19db5cd5f2e67a3ecec
+[09:43:07.9915724:991ms][Error][Http] Non 200-204 response received: {"error":{"code":401,"error_ref":11018,"message":"We experienced a server error attempting to complete your request. The issue has been logged and will be investigated, please try again later."}}
+[10:11:58.2198489:219ms][Info][Http] Sending POST request to g-13105.modapi.io/v1/external/steamauth?api_key=2baa46913ebdd19db5cd5f2e67a3ecec
+[10:11:58.2198818:219ms][Info][Http] Initializing POST request for g-13105.modapi.io /v1/external/steamauth?api_key=2baa46913ebdd19db5cd5f2e67a3ecec
+[10:11:58.6053597:605ms][Info][Http] Received response code 401 for POST /v1/external/steamauth?api_key=2baa46913ebdd19db5cd5f2e67a3ecec
+[10:11:58.6055426:605ms][Error][Http] Non 200-204 response received: {"error":{"code":401,"error_ref":11018,"message":"We experienced a server error attempting to complete your request. The issue has been logged and will be investigated, please try again later."}}
+[10:13:06.8687284:868ms][Info][Core] Mod Management has been disabled.
