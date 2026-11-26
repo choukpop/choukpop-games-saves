@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style xml:id="s0" tts:backgroundColor="black" tts:fontStyle="normal" tts:fontSize="16px" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+    <layout>
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="start" xml:id="topLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="start" xml:id="centerLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="start" xml:id="bottomLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="center" xml:id="topCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="center" xml:id="centerСenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="center" xml:id="bottomCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="end" xml:id="topRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="end" xml:id="centerRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="end" xml:id="bottomRight" />
+    </layout>
+  </head>
+  <body style="s0">
+    <div>
+      <p begin="13.59s" xml:id="p0" end="20.02s">Gave you too much, now I&#039;m swallowed</p>
+      <p begin="20.02s" xml:id="p1" end="26.56s">Now I&#039;m the fool, why are you breaking rules?</p>
+      <p begin="26.56s" xml:id="p2" end="33.64s">The dangerous path that I follow, oh</p>
+      <p begin="33.64s" xml:id="p3" end="40.27s">Go on, just do what you do, oh yeah</p>
+      <p begin="40.27s" xml:id="p4" end="45.37s">Hurts</p>
+      <p begin="45.37s" xml:id="p5" end="47.6s">As I bleed for you</p>
+      <p begin="47.6s" xml:id="p6" end="51.68s">Cry for you, oh, oh</p>
+      <p begin="51.68s" xml:id="p7" end="56.68s">Let me bleed</p>
+      <p begin="58.72s" xml:id="p8" end="60.83s">As I bleed for you</p>
+      <p begin="60.83s" xml:id="p9" end="64.96s">Cry for you, oh, oh</p>
+      <p begin="64.96s" xml:id="p10" end="71.79s">Let me bleed</p>
+      <p begin="71.79s" xml:id="p11" end="78.17s">Let me bleed</p>
+      <p begin="78.17s" xml:id="p12" end="79.8s">Let me</p>
+      <p begin="119.56s" xml:id="p13" end="125.75s">All of the pain seem to follow</p>
+      <p begin="125.75s" xml:id="p14" end="132.66s">Like a shadow, dark and cold the touch</p>
+      <p begin="132.66s" xml:id="p15" end="139.5s">Am I insane not to let go? Oh</p>
+      <p begin="139.5s" xml:id="p16" end="145.89s">Go on, just do what you do, oh yeah</p>
+      <p begin="145.89s" xml:id="p17" end="151.34s">Hurts</p>
+      <p begin="151.34s" xml:id="p18" end="153.4s">As I bleed for you</p>
+      <p begin="153.4s" xml:id="p19" end="157.58s">Cry for you, oh, oh</p>
+      <p begin="157.58s" xml:id="p20" end="162.45s">Let me bleed</p>
+      <p begin="164.5s" xml:id="p21" end="166.58s">As I bleed for you</p>
+      <p begin="166.58s" xml:id="p22" end="170.63s">Cry for you, oh, oh</p>
+      <p begin="170.63s" xml:id="p23" end="177.65s">Let me bleed</p>
+      <p begin="177.65s" xml:id="p24" end="184.06s">Let me bleed</p>
+      <p begin="184.06s" xml:id="p25" end="185.36s">Let me</p>
+      <p begin="210.61s" xml:id="p26" end="214.28s">Let me bleed</p>
+      <p begin="236.9s" xml:id="p27" end="238.37s">Let me</p>
+    </div>
+  </body>
+</tt>
