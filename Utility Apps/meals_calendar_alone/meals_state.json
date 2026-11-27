@@ -1,10 +1,28 @@
-[
-  "16/11/2026|lunch",
-  "16/11/2026|dinner",
-  "17/11/2026|lunch",
-  "17/11/2026|dinner",
-  "18/11/2026|lunch",
-  "18/11/2026|dinner",
-  "19/11/2026|lunch",
-  "19/11/2026|dinner"
-]
+{
+    "meals": {
+        "startDate": "30/11/2026",
+        "weeks": [
+            {
+                "name": "week1",
+                "meals": [
+                    {
+                        "lunch": "croquetes, arroz",
+                        "dinner": "sopa"
+                    },
+                    {
+                        "lunch": "tosta mista",
+                        "dinner": "sopa"
+                    },
+                    {
+                        "lunch": "croquetes, batatas",
+                        "dinner": "sopa"
+                    },
+                    {
+                        "lunch": "tosta mista"
+                    }
+                ]
+            }
+        ]
+    },
+    "done": []
+}

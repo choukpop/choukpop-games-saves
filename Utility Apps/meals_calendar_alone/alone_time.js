@@ -9,36 +9,7 @@
 const fs = require('fs')
 const path = require('path')
 const util = require('util')
-
-// ============================================================================
-// BASE DE DADOS
-// ============================================================================
-// Dia em que começam as refeições (dd/mm/yyyy). Tudo o resto é calculado a partir daqui.
-const MEALS_START_DATE = '16/11/2026'
-
-// Cada semana tem uma lista de dias seguidos (começando no MEALS_START_DATE).
-// A semana 1 começa no dia acima e vai até domingo no máximo; as seguintes começam sempre numa segunda.
-// Cada dia tem lunch e dinner (texto). Sem valor aparece "-" e a célula fica cinzenta.
-const MEALS = [
-    {
-        name: 'week1',
-        meals: [
-            { lunch: 'cachorro', dinner: 'sopa' },
-            { lunch: 'frango, arroz', dinner: 'sopa' },
-            { lunch: 'lasanha', dinner: 'sopa' },
-            { lunch: 'cachorro', dinner: 'sopa' },
-            { lunch: 'cachorro', dinner: 'leite cereais' }
-        ]
-    }
-    // Exemplo de semana seguinte (descomenta para adicionar):
-    // {
-    //     name: 'week2',
-    //     meals: [
-    //         { lunch: 'massa', dinner: 'sopa' },
-    //         { lunch: 'peixe', dinner: '' }
-    //     ]
-    // }
-]
+const readline = require('readline')
 
 // ============================================================================
 // CONFIGURAÇÕES
@@ -56,13 +27,11 @@ const MEAL_KEYS = MEAL_COLUMNS.map(function (column) { return column.key })
 // ============================================================================
 // CONSTANTES E UTILITÁRIOS DE CORES
 // ============================================================================
-// Converte uma cor hexadecimal (#rrggbb) para um array [r, g, b]
 function hexToRgb(hex) {
     const h = hex.replace('#', '')
     return [parseInt(h.slice(0, 2), 16), parseInt(h.slice(2, 4), 16), parseInt(h.slice(4, 6), 16)]
 }
 
-// Calcula a luminância relativa de uma cor (0 = preto, 1 = branco). Usado para contraste.
 function getLuminance(hex) {
     const [r, g, b] = hexToRgb(hex).map(function (v) {
         const s = v / 255
@@ -71,20 +40,13 @@ function getLuminance(hex) {
     return 0.2126 * r + 0.7152 * g + 0.0722 * b
 }
 
-// Devolve '#ffffff' se o fundo for escuro, '#000000' se for claro
 function getContrastText(bgHex, threshold = 0.5) {
     return getLuminance(bgHex) < threshold ? '#ffffff' : '#000000'
 }
 
-// Função central de aplicação de cores e estilos (aceita arrays ou objetos)
-// c({ bg: '#800080', fg: '#ffffff', styles: ['bold'] }, text)  -> fg explícito
-// c({ bg: '#800080', styles: ['bold'] }, text)                -> fg automático (contraste)
-// c(['bgMagenta', 'white', 'bold'], text)                     -> forma antiga, continua a funcionar
-// c('#ff0000', text)                                          -> só letra
 function c(format, text) {
     if (!process.stdout.isTTY) return text
 
-    // Forma objeto: { bg, fg, styles }
     if (format && typeof format === 'object' && !Array.isArray(format)) {
         const { bg, fg, styles = [] } = format
         const effectiveFg = fg ?? (bg ? getContrastText(bg) : null)
@@ -95,11 +57,9 @@ function c(format, text) {
         return `\x1b[48;2;${r};${g};${b}m${styled}\x1b[0m`
     }
 
-    // Forma antiga (array / string)
     return util.styleText(format, text)
 }
 
-// Função auxiliar para cores: por defeito aplica só na letra (foreground), com { bg: true } aplica no fundo.
 function color(hex, text, options = {}) {
     const { bg = false, styles = ['bold'] } = options
     if (!process.stdout.isTTY) return text
@@ -107,29 +67,19 @@ function color(hex, text, options = {}) {
     return c([hex, ...styles], text)
 }
 
-// CHANGE COLORS
 function clrWhite(text, options) { return color('#ffffff', text, options) }
-// CHANGE COLORS
 function clrGreen(text, options) { return color('#4caf50', text, options) }
-// CHANGE COLORS
 function clrRed(text, options) { return color('#f44336', text, options) }
-// CHANGE COLORS
 function clrDim(text, options) { return color('#888888', text, options) }
-// CHANGE COLORS
 function clrCyan(text, options) { return color('#00bcd4', text, options) }
-// CHANGE COLORS
 function clrYellow(text, options) { return color('#ffeb3b', text, options) }
-// CHANGE COLORS
 function clrBlue(text, options) { return color('#2196f3', text, options) }
-// CHANGE COLORS
 function clrPurple(text, options) { return color('#9c27b0', text, options) }
-// CHANGE COLORS
 function noColor(text) { return text }
 
 // ============================================================================
 // DATAS
 // ============================================================================
-// Converte uma string 'dd/mm/yyyy' num objeto Date. Valida o formato e avisa se for inválido.
 function parseDate(text) {
     if (typeof text !== 'string') {
         throw new Error(`Data inválida: esperava string 'dd/mm/yyyy', recebi ${typeof text}.`)
@@ -142,34 +92,28 @@ function parseDate(text) {
     return new Date(year, month - 1, day)
 }
 
-// Normaliza qualquer entrada (Date, timestamp ou string) para um objeto Date válido.
 function toDate(value) {
     if (value instanceof Date) return value
     if (typeof value === 'number') return new Date(value)
     return parseDate(value)
 }
 
-// Adiciona (ou subtrai, se for negativo) uma quantidade de dias a uma data.
 function addDays(date, amount) {
     return new Date(date.getFullYear(), date.getMonth(), date.getDate() + amount)
 }
 
-// Devolve o índice do dia da semana, onde 0 = Segunda-feira e 6 = Domingo.
 function getWeekdayIndex(date) {
     return (date.getDay() + 6) % 7
 }
 
-// Descobre a data da Segunda-feira da semana em que a data fornecida se encontra.
 function getMondayOfWeek(date) {
     return addDays(date, -getWeekdayIndex(date))
 }
 
-// Formata uma data para o formato curto 'dd/mm'.
 function formatShortDate(date) {
     return `${String(date.getDate()).padStart(2, '0')}/${String(date.getMonth() + 1).padStart(2, '0')}`
 }
 
-// Formata uma data para o formato completo 'dd/mm/yyyy'.
 function formatFullDate(date) {
     return `${formatShortDate(date)}/${date.getFullYear()}`
 }
@@ -177,17 +121,15 @@ function formatFullDate(date) {
 // ============================================================================
 // SEMANAS
 // ============================================================================
-// Formata o texto de uma refeição, devolvendo '-' se estiver vazio.
 function formatMealText(value) {
     return String(value ?? '').trim() || '-'
 }
 
-// Constrói a estrutura de semanas com as datas correspondentes e associa as refeições do MEALS.
-function buildWeeks(startDate) {
-    startDate = toDate(startDate)   // normaliza aqui
+function buildWeeks(startDate, weekList) {
+    startDate = toDate(startDate)
 
     const firstMonday = getMondayOfWeek(startDate)
-    return MEALS.map(function (week, weekIndex) {
+    return weekList.map(function (week, weekIndex) {
         const monday = addDays(firstMonday, weekIndex * 7)
         const firstDayOffset = weekIndex === 0 ? getWeekdayIndex(startDate) : 0
         const maxDays = 7 - firstDayOffset
@@ -208,72 +150,173 @@ function buildWeeks(startDate) {
 }
 
 // ============================================================================
-// ESTADO (refeições feitas, guardadas no meals_state.json)
+// ESTADO (tudo vive no meals_state.json)
 // ============================================================================
-// Cria a chave única de uma refeição (data + tipo).
 function getMealKey(date, mealKey) {
     return `${formatFullDate(date)}|${mealKey}`
 }
 
-// Lê o ficheiro meals_state.json e devolve um Set com as refeições que já foram marcadas como feitas.
-function loadCompletedMeals() {
-    if (!fs.existsSync(STATE_FILE)) return new Set()
+function isMealDone(doneList, date, mealKey) {
+    const dateStr = formatFullDate(date)
+    const entry = doneList.find(function (item) { return item.date === dateStr })
+    return entry ? Boolean(entry.meals?.[mealKey]) : false
+}
+
+function markMealDone(doneList, date, mealKey) {
+    const dateStr = formatFullDate(date)
+    let entry = doneList.find(function (item) { return item.date === dateStr })
+    if (!entry) {
+        entry = { date: dateStr, meals: { lunch: false, dinner: false } }
+        doneList.push(entry)
+    }
+    entry.meals[mealKey] = true
+}
+
+function unmarkMealDone(doneList, date, mealKey) {
+    const dateStr = formatFullDate(date)
+    const entry = doneList.find(function (item) { return item.date === dateStr })
+    if (entry) {
+        entry.meals[mealKey] = false
+    }
+}
+
+function loadState() {
+    if (!fs.existsSync(STATE_FILE)) return { startDate: null, meals: [], done: [] }
     try {
-        const completedList = JSON.parse(fs.readFileSync(STATE_FILE, 'utf8'))
-        if (!Array.isArray(completedList)) throw new Error('o ficheiro devia conter uma lista')
-        return new Set(completedList)
+        const rawState = JSON.parse(fs.readFileSync(STATE_FILE, 'utf8'))
+
+        if (Array.isArray(rawState)) {
+            return { startDate: null, meals: [], done: [] }
+        }
+
+        if (!rawState || typeof rawState !== 'object') throw new Error('o ficheiro devia conter um objeto')
+        let done = rawState.done ?? []
+        if (!Array.isArray(done)) throw new Error('"done" devia ser uma lista')
+
+        // Converter formato antigo de done (array de strings "dd/mm/yyyy|lunch") para novo formato
+        if (done.length > 0 && typeof done[0] === 'string') {
+            const converted = []
+            for (const key of done) {
+                const [dateStr, mealKey] = key.split('|')
+                if (dateStr && mealKey) {
+                    let entry = converted.find(function (item) { return item.date === dateStr })
+                    if (!entry) {
+                        entry = { date: dateStr, meals: { lunch: false, dinner: false } }
+                        converted.push(entry)
+                    }
+                    entry.meals[mealKey] = true
+                }
+            }
+            done = converted
+        }
+
+        const rawMeals = Array.isArray(rawState.meals)
+            ? { startDate: rawState.startDate, weeks: rawState.meals }
+            : (rawState.meals ?? {})
+        const weeks = rawMeals.weeks ?? []
+        if (!Array.isArray(weeks)) throw new Error('"meals.weeks" devia ser uma lista')
+        if (weeks.length > 0 && !rawMeals.startDate) throw new Error('falta o "meals.startDate"')
+
+        return { startDate: rawMeals.startDate ?? null, meals: weeks, done: done }
     } catch (error) {
         throw new Error(`Não consegui ler ${path.basename(STATE_FILE)}: ${error.message}`)
     }
 }
 
-// Guarda o estado atual das refeições feitas no ficheiro meals_state.json.
-function saveCompletedMeals(completedMeals) {
-    fs.writeFileSync(STATE_FILE, JSON.stringify([...completedMeals], null, 2) + '\n')
+function saveState(state) {
+    const fileContent = {
+        meals: {
+            startDate: state.startDate,
+            weeks: state.meals
+        },
+        done: state.done
+    }
+    fs.writeFileSync(STATE_FILE, JSON.stringify(fileContent, null, 4) + '\n')
 }
 
 // ============================================================================
 // ARGUMENTOS
 // ============================================================================
-// Imprime o menu de ajuda no terminal com as opções disponíveis.
 function printHelp() {
-    // CHANGE COLORS
-    console.log('\n' + clrWhite('OPÇÕES DISPONÍVEIS:'))
-    // CHANGE COLORS
-    console.log('  ' + clrYellow('--complete') + ' ' + clrDim('<dd/mm> [refeição]') + '  = marca como feito (fica verde). refeição = lunch ou dinner;')
-    // CHANGE COLORS
-    console.log('                                       sem refeição marca o almoço e o jantar desse dia')
-    // CHANGE COLORS
-    console.log('  ' + clrYellow('--undo') + ' ' + clrDim('<dd/mm> [refeição]') + '      = desmarca (mesma lógica do --complete)')
-    // CHANGE COLORS
-    console.log('  ' + clrYellow('--reset') + '                        = apaga todas as refeições marcadas como feitas')
-    // CHANGE COLORS
-    console.log('  ' + clrYellow('--create') + ' ' + clrDim('"weekX | data | ..."') + ' = cria uma nova semana formatada para copiares para o MEALS.')
-    // CHANGE COLORS
-    console.log('                                       podes usar vários --create no mesmo comando.')
-    // CHANGE COLORS
-    console.log('                                       O separador de dias é o ' + clrCyan('|') + ', e a divisão lunch/dinner é o ' + clrCyan(';'))
-    // CHANGE COLORS
-    console.log('                                       A data só é obrigatória na week1.')
-    // CHANGE COLORS
-    console.log('  ' + clrYellow('--help') + '                         = mostra este menu de ajuda')
-    // CHANGE COLORS
-    console.log('\n' + clrWhite('EXEMPLOS:'))
-    // CHANGE COLORS
-    console.log('  ' + clrDim('node alone_time.js --complete 16/11 lunch'))
-    console.log('  ' + clrDim('node alone_time.js --undo 16/11 lunch'))
-    // CHANGE COLORS
-    console.log('\n  ' + clrDim('# Criar apenas a week1 (com data):'))
-    // CHANGE COLORS
-    console.log('  ' + clrDim('node alone_time.js --create "week1 | 16/11/2026 | cachorro; sopa | lasanha; sopa"'))
-    // CHANGE COLORS
-    console.log('\n  ' + clrDim('# Criar a week1 e a week2 ao mesmo tempo (a week2 já não precisa de data):'))
-    // CHANGE COLORS
-    console.log('  ' + clrDim('node alone_time.js --create "week1 | 16/11/2026 | cachorro; sopa" --create "week2 | massa; peixe"'))
+    // Função auxiliar para alinhar as colunas (Comando | Argumentos | Descrição)
+    function helpLine(cmd, args, desc) {
+        const col1 = cmd.padEnd(12);
+        const col2 = args.padEnd(32);
+
+        const styledCmd = clrYellow(col1);
+        const styledArgs = args ? clrPurple(col2) : ' '.repeat(32);
+        const styledDesc = clrWhite(desc); // <-- A COR DA DESCRIÇÃO MUDOU AQUI
+
+        return '  ' + styledCmd + styledArgs + styledDesc;
+    }
+
+    // Função para as linhas de descrição extra (alinhadas e com +4 espaços)
+    function helpExtra(text) {
+        return ' '.repeat(50) + clrDim(text); // <-- 50 espaços (46 + 4) e cor branca
+    }
+
+    // Função para alinhar os exemplos (Comando e Argumentos | Comentário)
+    function helpExample(cmdArgs, comment) {
+        // Como os comandos dos exemplos são muito longos, damos-lhes mais espaço
+        const col1 = cmdArgs.padEnd(64);
+        const styledCmd = clrDim(col1);
+        const styledComment = clrGreen(comment); // Cor verde para os comentários/exemplos
+
+        return '  ' + styledCmd + styledComment;
+    }
+
+    console.log('\n' + clrWhite('OPÇÕES DISPONÍVEIS:'));
+
+    console.log(helpLine('--complete', '<dd/mm> [refeição]', 'marca como feito (fica verde). refeição = lunch ou dinner;'));
+    console.log(helpExtra('sem refeição marca o almoço e o jantar desse dia'));
+
+    console.log(helpLine('--undo', '<dd/mm> [refeição]', 'desmarca (mesma lógica do --complete)'));
+    console.log(helpLine('--reset', '', 'apaga todas as refeições marcadas como feitas'));
+
+    console.log(helpLine('--create', '"weekX | data | ..."', 'cria/atualiza semanas no meals_state.json.'));
+    console.log(helpExtra('podes usar vários --create no mesmo comando.'));
+    console.log(helpExtra('Uma semana com o mesmo nome é substituída; as outras ficam como estão.'));
+    console.log(helpExtra('O separador de dias é o ' + clrCyan('|') + ', e a divisão lunch/dinner é o ' + clrCyan(';')));
+    console.log(helpExtra('A data (dd/mm/yyyy) só é aceite na week1 e define o início do calendário.'));
+    console.log(helpExtra('Com uma data no início ("04/12 | ...") altera só esse dia (e os seguintes, um por parte).'));
+    console.log(helpExtra('Nesse modo, um lado vazio mantém o que lá estava e ' + clrCyan('-') + ' apaga essa refeição.'));
+
+    console.log(helpLine('--edit', '"data | refeição | nome"', 'edita uma refeição específica.'));
+    console.log(helpExtra('Se a refeição não existir, cria-a; se existir, substitui.'));
+    console.log(helpExtra('Se usares ' + clrYellow('--edit') + ' sem argumentos, abre o modo interativo.'));
+
+    console.log(helpLine('--help', '', 'mostra este menu de ajuda'));
+
+    console.log('\n' + clrWhite('EXEMPLOS DE --complete e --undo:'));
+    console.log(helpExample('node alone_time.js --complete 16/11 lunch', ''));
+    console.log(helpExample('node alone_time.js --complete 16/11', ''));
+    console.log(helpExample('node alone_time.js --undo 16/11 lunch', ''));
+    console.log(helpExample('node alone_time.js --undo 16/11', ''));
+
+    console.log('\n' + clrWhite('EXEMPLOS DE --create:'));
+    console.log(helpExample('# Criar apenas a week1 (com data de início):', ''));
+    console.log(helpExample('node alone_time.js --create "week1 | 16/11/2026 | cachorro; sopa | lasanha; sopa"', ''));
+    console.log(helpExample('# Criar a week1 e a week2 ao mesmo tempo:', ''));
+    console.log(helpExample('node alone_time.js --create "week1 | 16/11/2026 | cachorro; sopa" --create "week2 | massa; peixe"', ''));
+    console.log(helpExample('# Mais tarde, juntar a week3 ao que já está guardado:', ''));
+    console.log(helpExample('node alone_time.js --create "week3 | arroz; sopa | peixe; sopa"', ''));
+    console.log(helpExample('# Alterar só um dia (almoço e jantar de 04/12):', ''));
+    console.log(helpExample('node alone_time.js --create "04/12 | teste; teste"', ''));
+    console.log(helpExample('node alone_time.js --create "04/12 | ; jantar nova"', '(só o jantar)'));
+    console.log(helpExample('node alone_time.js --create "04/12 | -; -"', '(apaga o dia)'));
+
+    console.log('\n' + clrWhite('EXEMPLOS DE --edit:'));
+    console.log(helpExample('# Editar o almoço de 30/11 para "arroz de pato":', ''));
+    console.log(helpExample('node alone_time.js --edit "30/11/2026 | lunch | arroz de pato"', ''));
+    console.log(helpExample('# Editar vários dias ao mesmo tempo:', ''));
+    console.log(helpExample('node alone_time.js --edit "30/11/2026 | lunch | frango" --edit "01/12/2026 | dinner | peixe"', ''));
+    console.log(helpExample('# Apagar uma refeição (usar "-" como nome):', ''));
+    console.log(helpExample('node alone_time.js --edit "30/11/2026 | dinner | -"', ''));
+    console.log(helpExample('# Abrir o modo interativo (mostra a tabela só com dias preenchidos):', ''));
+    console.log(helpExample('node alone_time.js --edit', ''));
     console.log()
 }
 
-// Procura um dia específico (dd/mm) dentro de todas as semanas do calendário.
 function findDay(weeks, dateText) {
     const match = /^(\d{1,2})\/(\d{1,2})$/.exec(dateText ?? '')
     if (!match) throw new Error(`Data inválida "${dateText ?? ''}". Usa dd/mm (ex: 16/11).`)
@@ -286,8 +329,7 @@ function findDay(weeks, dateText) {
     return foundDay
 }
 
-// Aplica o comando de marcar (--complete) ou desmarcar (--undo) refeições no estado.
-function applyMarkCommand(command, weeks, completedMeals, dateText, mealName) {
+function applyMarkCommand(command, weeks, doneList, dateText, mealName) {
     const day = findDay(weeks, dateText)
     const normalizedMealName = mealName?.toLowerCase()
 
@@ -304,34 +346,44 @@ function applyMarkCommand(command, weeks, completedMeals, dateText, mealName) {
             return formatMealText(day.dayMeals?.[mealKey]) !== '-'
         })
         if (existingMealKeys.length === 0) throw new Error(`${shortDate} não tem ${mealLabel} no calendário.`)
-        for (const mealKey of existingMealKeys) completedMeals.add(getMealKey(day.date, mealKey))
+        for (const mealKey of existingMealKeys) markMealDone(doneList, day.date, mealKey)
         return `✔  ${shortDate} ${existingMealKeys.join(' + ')} marcado como feito.`
     }
 
-    for (const mealKey of requestedMealKeys) completedMeals.delete(getMealKey(day.date, mealKey))
+    for (const mealKey of requestedMealKeys) unmarkMealDone(doneList, day.date, mealKey)
     return `↩  ${shortDate} ${requestedMealKeys.join(' + ')} desmarcado.`
 }
 
 // ============================================================================
 // TABELA
 // ============================================================================
-// Centra um texto dentro de uma largura específica adicionando espaços à esquerda e à direita.
 function centerText(text, width) {
     const totalPadding = Math.max(0, width - text.length)
     const leftPadding = Math.floor(totalPadding / 2)
     return ' '.repeat(leftPadding) + text + ' '.repeat(totalPadding - leftPadding)
 }
 
-// Desenha a tabela de uma semana inteira no terminal, aplicando as cores consoante o estado das refeições.
-function renderWeek(week, completedMeals) {
-    const days = week.days.map(function (day) {
+// Adicionado o parâmetro `onlyWithMeals` e `showWeekHeader`
+function renderWeek(week, doneList, onlyWithMeals = false, showWeekHeader = false) {
+    let days = week.days.map(function (day) {
         const cells = MEAL_COLUMNS.map(function (column) {
             const text = formatMealText(day.dayMeals?.[column.key])
             const hasMeal = text !== '-'
-            return { text, hasMeal, isCompleted: hasMeal && completedMeals.has(getMealKey(day.date, column.key)) }
+            return {
+                text,
+                hasMeal,
+                isCompleted: hasMeal && isMealDone(doneList, day.date, column.key)
+            }
         })
         return { weekdayName: day.weekdayName, dateText: formatShortDate(day.date), cells }
     })
+
+    // Se for para filtrar, só mostra os dias que têm pelo menos 1 refeição
+    if (onlyWithMeals) {
+        days = days.filter(day => day.cells.some(cell => cell.hasMeal))
+    }
+
+    if (days.length === 0) return
 
     const dateWidth = 'dd/mm'.length + 2
     const labelWidth = Math.max(...WEEKDAY_NAMES.map(function (name) { return name.length })) + 2
@@ -340,29 +392,28 @@ function renderWeek(week, completedMeals) {
     })
     const tableWidth = dateWidth + labelWidth + columnWidths.reduce(function (sum, width) { return sum + width }, 0) + MEAL_COLUMNS.length
 
-    const weekTitle = `${formatShortDate(week.monday)} - ${formatShortDate(addDays(week.monday, 6))}`
-    // CHANGE COLORS
-    console.log(clrPurple(centerText(weekTitle, tableWidth), { bg: true }))
-    console.log()
+    // Barra da semana (Print #2)
+    if (showWeekHeader) {
+        const weekTitle = `${formatShortDate(week.monday)} - ${formatShortDate(addDays(week.monday, 6))}`
+        console.log(clrPurple(centerText(weekTitle, tableWidth), { bg: true }))
+    } else {
+        const weekTitle = `${formatShortDate(week.monday)} - ${formatShortDate(addDays(week.monday, 6))}`
+        console.log(clrPurple(centerText(weekTitle, tableWidth), { bg: true }))
+        console.log()
+    }
 
-    // CHANGE COLORS
     const headerCells = MEAL_COLUMNS.map(function (column, columnIndex) {
         return clrPurple(centerText(column.title, columnWidths[columnIndex]), { bg: true })
     })
     console.log(' '.repeat(dateWidth + labelWidth + 1) + headerCells.join(' '))
 
     for (const day of days) {
-        // CHANGE COLORS
         const dateLabel = clrBlue(centerText(day.dateText, dateWidth), { bg: true })
-        // CHANGE COLORS
         const weekdayLabel = clrPurple(centerText(day.weekdayName, labelWidth), { bg: true })
         const cells = day.cells.map(function (cell, columnIndex) {
             const centered = centerText(cell.text, columnWidths[columnIndex])
-            // CHANGE COLORS
             if (!cell.hasMeal) return clrDim(centered, { bg: true })
-            // CHANGE COLORS
             if (cell.isCompleted) return clrGreen(centered, { bg: true })
-            // CHANGE COLORS
             return clrRed(centered, { bg: true })
         })
         console.log(dateLabel + weekdayLabel + ' ' + cells.join(' '))
@@ -372,10 +423,10 @@ function renderWeek(week, completedMeals) {
 // ============================================================================
 // VERIFICAÇÃO DE CALENDÁRIO EXPIRADO
 // ============================================================================
-// Obtém o último dia do calendário definido no MEALS (último dia da última semana).
-function getLastCalendarDay(startDate) {
-    const weeks = buildWeeks(startDate)   // buildWeeks já normaliza
+function getLastCalendarDay(startDate, weekList) {
+    const weeks = buildWeeks(startDate, weekList)
     const lastWeek = weeks[weeks.length - 1]
+    if (!lastWeek) return null
     const lastDay = [...lastWeek.days].reverse().find(function (day) { return day.dayMeals })
     if (!lastDay) return null
     const lastMealText = MEAL_KEYS
@@ -385,7 +436,6 @@ function getLastCalendarDay(startDate) {
     return { date: lastDay.date, meal: lastMealText }
 }
 
-// Pergunta y/n ao utilizador (basta premir a tecla, sem Enter).
 function askYesNoKey(questionText) {
     return new Promise(function (resolve) {
         if (!(process.stdin.isTTY && process.stdout.isTTY && typeof process.stdin.setRawMode === 'function')) {
@@ -405,7 +455,6 @@ function askYesNoKey(questionText) {
                 process.stdin.removeListener('data', onKey)
                 process.stdin.setRawMode(false)
                 process.stdin.pause()
-                // CHANGE COLORS
                 process.stdout.write('\r\x1b[K' + questionText + ' ' + (key === 'y' ? clrGreen('y') : clrRed('n')) + '\n')
                 resolve(key === 'y')
             }
@@ -414,16 +463,15 @@ function askYesNoKey(questionText) {
     })
 }
 
-// Limpa as refeições marcadas como feitas (reset ao estado).
-function resetCalendar(completedMeals) {
-    completedMeals.clear()
-    saveCompletedMeals(completedMeals)
-    return '🗑 Calendário resetado. As refeições marcadas foram apagadas.'
+function resetCalendar(state) {
+    state.startDate = null
+    state.meals = []
+    state.done = []
+    saveState(state)
 }
 
-// Verifica se a data de hoje já ultrapassou o último dia do calendário. Se sim, pergunta se quer resetar.
-async function checkCalendarExpired(startDate, completedMeals) {
-    const last = getLastCalendarDay(startDate)
+async function checkCalendarExpired(state) {
+    const last = getLastCalendarDay(state.startDate, state.meals)
     if (!last) return null
 
     const today = new Date()
@@ -434,9 +482,7 @@ async function checkCalendarExpired(startDate, completedMeals) {
     if (!expired) return null
 
     console.log()
-    // CHANGE COLORS
     console.log(clrYellow(`⚠ O calendário terminou a ${formatShortDate(lastDate)} ("${last.meal}").`))
-    // CHANGE COLORS
     if (DEV_MODE) console.log(clrDim('  (DEV_MODE ativo — a pergunta aparece sempre)'))
     console.log()
 
@@ -446,28 +492,28 @@ async function checkCalendarExpired(startDate, completedMeals) {
         return null
     }
 
-    resetCalendar(completedMeals)
+    resetCalendar(state)
 
-    // CHANGE COLORS
-    console.log(clrDim('Agora edita a variável const MEALS no ficheiro para o novo calendário.'))
+    console.log()
+    console.log(clrDim('Usa --create para criar o novo calendário.'))
+    console.log()
 
-    return { message: '🗑 Calendário resetado. As refeições marcadas foram apagadas.' }
+    return { message: '🗑 Calendário resetado. As refeições e as marcações foram apagadas.' }
 }
 
-// Lê e organiza os argumentos passados na linha de comandos.
 function parseArguments() {
     const args = process.argv.slice(2)
     const parsed = {
         command: null,
         dateText: null,
         mealName: null,
-        createRawList: null // Agora guardamos uma lista de comandos --create
+        createRawList: null,
+        editRawList: null,
+        isInteractiveEdit: false
     }
 
-    // Se não houver argumentos, corre o script normal (mostra o calendário)
     if (args.length === 0) return parsed
 
-    // Se o comando --create estiver presente
     if (args.includes('--create')) {
         parsed.command = '--create'
         const createArgs = []
@@ -478,7 +524,6 @@ function parseArguments() {
                 if (currentCreate.length > 0) createArgs.push(currentCreate.join(' '))
                 currentCreate = []
             } else if (args[i].startsWith('--')) {
-                // Se aparecer outra flag desconhecida, ignoramos no --create
                 continue
             } else {
                 currentCreate.push(args[i])
@@ -487,6 +532,31 @@ function parseArguments() {
         if (currentCreate.length > 0) createArgs.push(currentCreate.join(' '))
 
         parsed.createRawList = createArgs
+    } else if (args.includes('--edit')) {
+        parsed.command = '--edit'
+
+        // Se for só `--edit` sem mais nada, ativa o modo interativo
+        if (args.length === 1) {
+            parsed.isInteractiveEdit = true
+            return parsed
+        }
+
+        const editArgs = []
+        let currentEdit = []
+
+        for (let i = 0; i < args.length; i++) {
+            if (args[i] === '--edit') {
+                if (currentEdit.length > 0) editArgs.push(currentEdit.join(' '))
+                currentEdit = []
+            } else if (args[i].startsWith('--')) {
+                continue
+            } else {
+                currentEdit.push(args[i])
+            }
+        }
+        if (currentEdit.length > 0) editArgs.push(currentEdit.join(' '))
+
+        parsed.editRawList = editArgs
     } else if (args[0] === '--complete' || args[0] === '--undo') {
         parsed.command = args[0]
         parsed.dateText = args[1] || null
@@ -504,169 +574,324 @@ function parseArguments() {
 // ============================================================================
 // CRIAR CALENDÁRIO (--create)
 // ============================================================================
-// Cria uma ou mais semanas no formato JSON a partir de strings, mostra o preview e imprime o bloco final.
-async function createCalendar(rawArgumentList) {
-    const finalWeeks = []
-    
-    // 1. Processa cada argumento --create que foi passado
+const DATE_LIKE_PATTERN = /^\d[\d/]*$/
+const DAY_DATE_PATTERN = /^\d{1,2}\/\d{1,2}(\/\d{4})?$/
+
+function parseDayText(dayText) {
+    const mealParts = dayText.split(';').map(function (part) { return part.trim() })
+    return { lunch: mealParts[0] || '', dinner: mealParts[1] || '' }
+}
+
+function parseDayDate(dateText, startDate) {
+    const parts = dateText.split('/').map(Number)
+    if (parts.length === 3) return parseDate(dateText)
+    if (parts.length !== 2 || parts.some(Number.isNaN)) {
+        throw new Error(`Data inválida "${dateText}". Usa dd/mm ou dd/mm/yyyy.`)
+    }
+    const [day, month] = parts
+    const dateInStartYear = new Date(startDate.getFullYear(), month - 1, day)
+    if (dateInStartYear >= startDate) return dateInStartYear
+
+    const dateInNextYear = new Date(startDate.getFullYear() + 1, month - 1, day)
+    const millisecondsPerDay = 24 * 60 * 60 * 1000
+    const daysAfterStart = (dateInNextYear - startDate) / millisecondsPerDay
+    return daysAfterStart <= 60 ? dateInNextYear : dateInStartYear
+}
+
+function setDayMeals(weeksByName, startDate, date, dayMeals) {
+    if (date < startDate) {
+        throw new Error(`${formatShortDate(date)} é antes do início do calendário (${formatShortDate(startDate)}).`)
+    }
+
+    const millisecondsPerWeek = 7 * 24 * 60 * 60 * 1000
+    const weekIndex = Math.round((getMondayOfWeek(date) - getMondayOfWeek(startDate)) / millisecondsPerWeek)
+    const firstDayOffset = weekIndex === 0 ? getWeekdayIndex(startDate) : 0
+    const dayIndex = getWeekdayIndex(date) - firstDayOffset
+
+    for (let index = 0; index <= weekIndex; index++) {
+        const weekName = `week${index + 1}`
+        if (!weeksByName.has(weekName)) weeksByName.set(weekName, { name: weekName, meals: [] })
+    }
+
+    const week = weeksByName.get(`week${weekIndex + 1}`)
+    while (week.meals.length <= dayIndex) week.meals.push({ lunch: '', dinner: '' })
+
+    for (const mealKey of MEAL_KEYS) {
+        const newText = dayMeals[mealKey]
+        if (!newText) continue
+        week.meals[dayIndex][mealKey] = newText === '-' ? '' : newText
+    }
+}
+
+function createCalendar(rawArgumentList) {
+    const state = loadState()
+    const weeksByName = new Map(state.meals.map(function (week) { return [week.name, week] }))
+
     for (const rawArgument of rawArgumentList) {
-        // Separa por '|' e limpa os espaços em branco
-        let parts = rawArgument.split('|').map(function (p) { return p.trim() })
+        const parts = rawArgument.split('|').map(function (part) { return part.trim() })
 
         if (parts.length < 2) {
-            throw new Error('Formato inválido. Usa: "week1 | [16/11/2026] | lunch; dinner | lunch; dinner"')
+            throw new Error('Formato inválido. Usa: "week1 | [16/11/2026] | lunch; dinner" ou "04/12 | lunch; dinner"')
+        }
+
+        if (DAY_DATE_PATTERN.test(parts[0])) {
+            if (!state.startDate) {
+                throw new Error('Cria primeiro a week1 (com data de início) antes de alterar um dia.')
+            }
+            const startDate = parseDate(state.startDate)
+            const firstDate = parseDayDate(parts[0], startDate)
+
+            if (parts.length === 2 && (parts[1].toLowerCase() === 'remove' || parts[1] === '-')) {
+                const millisecondsPerWeek = 7 * 24 * 60 * 60 * 1000
+                const weekIndex = Math.round((getMondayOfWeek(firstDate) - getMondayOfWeek(startDate)) / millisecondsPerWeek)
+                const firstDayOffset = weekIndex === 0 ? getWeekdayIndex(startDate) : 0
+                const dayIndex = getWeekdayIndex(firstDate) - firstDayOffset
+
+                const week = weeksByName.get(`week${weekIndex + 1}`)
+                if (week && week.meals[dayIndex]) {
+                    week.meals[dayIndex] = { lunch: '', dinner: '' }
+                }
+            } else {
+                parts.slice(1).forEach(function (dayText, dayOffset) {
+                    setDayMeals(weeksByName, startDate, addDays(firstDate, dayOffset), parseDayText(dayText))
+                })
+            }
+            continue
         }
 
         const weekName = parts[0].toLowerCase()
-        
-        // Verifica se a segunda parte é uma data (se tiver barras)
-        let dateText = null
-        let daysData = []
-        
-        if (parts[1].includes('/')) {
-            // Tem data
-            dateText = parts[1]
-            daysData = parts.slice(2)
-        } else {
-            // Não tem data, então o daysData começa logo no índice 1
-            daysData = parts.slice(1)
-        }
-
-        // Extrai o número da semana (ex: 'week2' -> 2)
         const weekMatch = /^week(\d+)$/.exec(weekName)
         if (!weekMatch) {
-            throw new Error(`Nome de semana inválido "${parts[0]}". Usa week1, week2, week3, etc.`)
+            throw new Error(`Nome inválido "${parts[0]}". Usa week1, week2, week3, etc. ou uma data (ex: 04/12).`)
         }
         const weekNumber = parseInt(weekMatch[1], 10)
 
-        // Se for a week1 e não tiver data, dá erro (a week1 precisa sempre de data)
-        if (weekNumber === 1 && !dateText) {
-            throw new Error(`A week1 precisa sempre de uma data de início (ex: "week1 | 16/11/2026 | ...").`)
+        const hasDate = DATE_LIKE_PATTERN.test(parts[1])
+        const dateText = hasDate ? parts[1] : null
+        const dayTexts = hasDate ? parts.slice(2) : parts.slice(1)
+
+        if (dateText && weekNumber !== 1) {
+            throw new Error(`Só a week1 leva data de início (recebi "${dateText}" na ${weekName}).`)
+        }
+        if (dateText) state.startDate = formatFullDate(parseDate(dateText))
+
+        if (weekNumber === 1 && !state.startDate) {
+            throw new Error(`A week1 precisa de uma data de início (ex: "week1 | 16/11/2026 | ...").`)
+        }
+        if (dayTexts.length === 0) {
+            throw new Error(`A ${weekName} não tem nenhum dia.`)
         }
 
-        // Se não tiver data (e não for a week1), usa o MEALS_START_DATE para calcular a data certa
-        const startDateForWeek = dateText ? parseDate(dateText) : parseDate(MEALS_START_DATE)
-
-        // Calcula quantos dias cabem nesta semana
-        let maxDays = 7
-        if (weekNumber === 1) {
-            const offset = getWeekdayIndex(startDateForWeek)
-            maxDays = 7 - offset
-        }
-
-        // Verifica se ultrapassou o limite de dias
-        if (daysData.length > maxDays) {
-            throw new Error(`A ${weekName} tem ${daysData.length} dias, mas só cabem ${maxDays} dias nesta semana.`)
-        }
-
-        // Constrói o array de meals
-        const meals = daysData.map(function (dayStr) {
-            const mealParts = dayStr.split(';').map(function (m) { return m.trim() })
-            return {
-                lunch: mealParts[0] || '',
-                dinner: mealParts[1] || ''
-            }
-        })
-
-        finalWeeks.push({
-            name: weekName,
-            meals: meals,
-            dateText: dateText, // Pode ser null se não foi fornecida
-            weekNumber: weekNumber
-        })
+        weeksByName.set(weekName, { name: weekName, meals: dayTexts.map(parseDayText) })
     }
 
-    // Ordena as semanas por número (week1, week2, etc.)
-    finalWeeks.sort(function (a, b) {
-        return a.weekNumber - b.weekNumber
+    const sortedWeeks = [...weeksByName.values()].sort(function (a, b) {
+        return Number(a.name.slice(4)) - Number(b.name.slice(4))
     })
-
-    console.log()
-    // CHANGE COLORS
-    console.log(clrGreen(`✔ ${finalWeeks.length} semana(s) gerada(s) com sucesso!`))
-    console.log()
-
-    // 2. PREVIEW NO TERMINAL
-    // CHANGE COLORS
-    console.log(clrCyan('PREVIEW:'))
-    
-    // Descobre a primeira segunda-feira do calendário base (usando a data base do ficheiro)
-    const baseStartDate = parseDate(MEALS_START_DATE)
-    const firstMonday = getMondayOfWeek(baseStartDate)
-    
-    for (const week of finalWeeks) {
-        if (week.weekNumber === 1) {
-            // CHANGE COLORS
-            console.log(clrDim(`  ⚠ Atualiza o MEALS_START_DATE para '${week.dateText}'`))
+    sortedWeeks.forEach(function (week, weekIndex) {
+        if (week.name !== `week${weekIndex + 1}`) {
+            throw new Error(`Falta a week${weekIndex + 1} (as semanas têm de ser seguidas: week1, week2, ...).`)
         }
-        
-        // Cria uma cópia temporária do MEALS para o renderWeek conseguir ler a semana
-        const originalMeals = MEALS.slice()
-        MEALS.length = 0
-        MEALS.push({ name: week.name, meals: week.meals })
-        
-        // 1. Descobre a data exata em que esta semana começa
-        let previewStartDate
-        if (week.weekNumber === 1 && week.dateText) {
-            previewStartDate = parseDate(week.dateText)
+    })
+    state.meals = sortedWeeks
+
+    const weeks = buildWeeks(state.startDate, state.meals)
+    saveState(state)
+
+    console.log()
+    console.log(clrGreen(`✔ ${rawArgumentList.length} alteração(ões) guardada(s) em ${path.basename(STATE_FILE)}.`))
+    console.log()
+
+    for (const week of weeks) {
+        renderWeek(week, state.done)
+        console.log()
+    }
+}
+
+// ============================================================================
+// EDITAR REFEIÇÃO (--edit)
+// ============================================================================
+function editMeal(rawArgumentList) {
+    const state = loadState()
+
+    if (!state.startDate) {
+        throw new Error('Cria primeiro a week1 (com data de início) antes de editar uma refeição.')
+    }
+
+    const startDate = parseDate(state.startDate)
+    const weeksByName = new Map(state.meals.map(function (week) { return [week.name, week] }))
+
+    for (const rawArgument of rawArgumentList) {
+        const parts = rawArgument.split('|').map(function (part) { return part.trim() })
+
+        if (parts.length < 3) {
+            throw new Error('Formato inválido. Usa: "dd/mm/yyyy | lunch/dinner | nome da refeição"')
+        }
+
+        const dateText = parts[0]
+        const mealType = parts[1].toLowerCase()
+        const mealText = parts.slice(2).join('|').trim()
+
+        if (!MEAL_KEYS.includes(mealType)) {
+            throw new Error(`Tipo de refeição inválido "${parts[1]}". Usa ${MEAL_KEYS.join(' ou ')}.`)
+        }
+
+        const date = parseDayDate(dateText, startDate)
+        if (date < startDate) {
+            throw new Error(`${formatShortDate(date)} é antes do início do calendário (${formatShortDate(startDate)}).`)
+        }
+
+        const millisecondsPerWeek = 7 * 24 * 60 * 60 * 1000
+        const weekIndex = Math.round((getMondayOfWeek(date) - getMondayOfWeek(startDate)) / millisecondsPerWeek)
+        const firstDayOffset = weekIndex === 0 ? getWeekdayIndex(startDate) : 0
+        const dayIndex = getWeekdayIndex(date) - firstDayOffset
+
+        for (let index = 0; index <= weekIndex; index++) {
+            const weekName = `week${index + 1}`
+            if (!weeksByName.has(weekName)) weeksByName.set(weekName, { name: weekName, meals: [] })
+        }
+
+        const week = weeksByName.get(`week${weekIndex + 1}`)
+        while (week.meals.length <= dayIndex) week.meals.push({ lunch: '', dinner: '' })
+
+        if (mealText === '-') {
+            week.meals[dayIndex][mealType] = ''
+            console.log()
+            console.log(clrYellow(`🗑 ${formatShortDate(date)} ${mealType} apagado.`))
         } else {
-            // Se for week2, week3, etc., calcula a segunda-feira correspondente (primeira segunda + (semana - 1) * 7)
-            previewStartDate = addDays(firstMonday, (week.weekNumber - 1) * 7)
+            week.meals[dayIndex][mealType] = mealText
+            console.log()
+            console.log(clrGreen(`✔ ${formatShortDate(date)} ${mealType} atualizado para "${mealText}".`))
         }
-        
-        // 2. Gera as semanas temporárias com a data correta
-        const previewWeeks = buildWeeks(previewStartDate)
-        
-        // 3. Renderiza a tabela bonita da semana
-        renderWeek(previewWeeks[0], new Set()) 
-        
-        // Restaura o MEALS original
-        MEALS.length = 0
-        MEALS.push(...originalMeals)
+    }
+
+    const sortedWeeks = [...weeksByName.values()].sort(function (a, b) {
+        return Number(a.name.slice(4)) - Number(b.name.slice(4))
+    })
+    sortedWeeks.forEach(function (week, weekIndex) {
+        if (week.name !== `week${weekIndex + 1}`) {
+            throw new Error(`Falta a week${weekIndex + 1} (as semanas têm de ser seguidas: week1, week2, ...).`)
+        }
+    })
+    state.meals = sortedWeeks
+
+    const weeks = buildWeeks(state.startDate, state.meals)
+    saveState(state)
+
+    console.log()
+    for (const week of weeks) {
+        renderWeek(week, state.done)
+        console.log()
+    }
+}
+
+// ============================================================================
+// MODO INTERATIVO DE EDIÇÃO
+// ============================================================================
+async function interactiveEdit() {
+    const state = loadState()
+
+    if (!state.startDate || state.meals.length === 0) {
+        console.log()
+        console.log(clrYellow(`⚠ O calendário está vazio. Usa --create para o criar primeiro.`))
+        console.log()
+        return
+    }
+
+    const weeks = buildWeeks(state.startDate, state.meals)
+
+    console.log()
+    for (const week of weeks) {
+        renderWeek(week, state.done, true, true)
         console.log()
     }
 
-    // 3. GERA O JSON FINAL PARA COPIAR
-    // CHANGE COLORS
-    console.log(clrCyan('Copia e cola isto para substituir o teu const MEALS:'))
+    const rl = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout,
+        terminal: true
+    })
+
+    console.log(clrDim('  (Prime Enter sem escrever nada, ou Ctrl+D, para cancelar)'))
     console.log()
 
-    let finalString = ''
+    let isExiting = false
+    let answerReceived = false
 
-    for (let i = 0; i < finalWeeks.length; i++) {
-        const week = finalWeeks[i]
+    function cancelAndExit() {
+        if (isExiting) return
+        isExiting = true
 
-        // Gera o formato exato do ficheiro (uma refeição por linha, indentada)
-        const mealsLines = week.meals.map(function (m) {
-            return `            { lunch: '${m.lunch}', dinner: '${m.dinner}' }`
-        }).join(',\n')
-
-        // Monta o objeto da semana
-        finalString += `    {
-        name: '${week.name}',
-        meals: [
-${mealsLines}
-        ]
-    }`
-
-        // Adiciona a vírgula entre as semanas, mas não na última
-        if (i < finalWeeks.length - 1) {
-            finalString += ',\n'
+        console.log() 
+        console.log(clrDim('Edição cancelada.'))
+        console.log()
+        for (const week of weeks) {
+            renderWeek(week, state.done)
+            console.log()
         }
+        rl.close()
+        process.exit(0)
     }
 
-    // CHANGE COLORS
-    console.log(clrYellow(`[\n${finalString}\n]`))
+    rl.on('SIGINT', () => {
+        console.log('') 
+        cancelAndExit()
+    })
 
-    console.log()
+    rl.on('close', () => {
+        // Só cancela se o utilizador não tiver submetido uma resposta
+        if (!isExiting && !answerReceived) {
+            console.log('') 
+            cancelAndExit()
+        }
+    })
+
+    const askQuestion = (query) => new Promise(resolve => rl.question(query, resolve))
+
+    try {
+        const answer = await askQuestion(clrYellow('editar aqui: '))
+        
+        // Se o utilizador pressionou Enter sem escrever nada
+        if (!answer || !answer.trim()) {
+            console.log('\n') 
+            cancelAndExit()
+        }
+
+        // Se chegou aqui, o utilizador escreveu algo e deu Enter
+        answerReceived = true
+        rl.close()
+
+        const rawArg = answer.trim()
+        
+        let finalArg = rawArg
+        if (/^\d{1,2}\/\d{1,2}\s*\|/.test(rawArg)) {
+            const startDate = parseDate(state.startDate)
+            const match = /^(\d{1,2}\/\d{1,2})(.*)$/.exec(rawArg)
+            if (match) {
+                const d = match[1]
+                const rest = match[2]
+                const dateStr = `${d}/${startDate.getFullYear()}`
+                finalArg = `${dateStr}${rest}`
+            }
+        }
+
+        // Chama a função de edição normal
+        editMeal([finalArg])
+
+    } catch (error) {
+        // Se o readline fechar abruptamente (ex: Ctrl+D)
+        if (!isExiting && !answerReceived) {
+            console.log('') 
+            cancelAndExit()
+        }
+        throw error
+    }
 }
 
 // ============================================================================
 // MAIN
 // ============================================================================
-// Ponto de entrada do script: decide o que fazer com base nos argumentos e gere o fluxo principal.
 async function main() {
-    // Usa a função separada para ler os argumentos
     const args = parseArguments()
 
     if (args.command === '--help') return printHelp()
@@ -675,34 +900,54 @@ async function main() {
         if (!args.createRawList || args.createRawList.length === 0) {
             throw new Error('Falta o argumento. Usa: node alone_time.js --create "week1 | 16/11/2026 | lunch; dinner"')
         }
-        return await createCalendar(args.createRawList)
+        return createCalendar(args.createRawList)
+    }
+
+    if (args.command === '--edit') {
+        if (args.isInteractiveEdit) {
+            return interactiveEdit()
+        }
+        if (!args.editRawList || args.editRawList.length === 0) {
+            throw new Error('Falta o argumento. Usa: node alone_time.js --edit "30/11/2026 | lunch | arroz de pato"')
+        }
+        return editMeal(args.editRawList)
     }
 
     if (args.command === '--unknown') {
         throw new Error(`Argumento desconhecido "${args.dateText}". Usa --help para ver as opções.`)
     }
 
-    // A partir daqui é o fluxo normal (tabela e verificações)
-    const weeks = buildWeeks(MEALS_START_DATE)
-    const completedMeals = loadCompletedMeals()
+    const state = loadState()
+    const completedMeals = state.done
+
+    if (state.meals.length === 0 && args.command !== '--reset') {
+        console.log()
+        console.log(clrYellow(`⚠ O calendário está vazio. Usa --create para o criar (vê --help).`))
+        console.log()
+        return
+    }
+
+    const weeks = buildWeeks(state.startDate, state.meals)
     let message = null
 
-    // Verificação de calendário expirado
-    const expiredResult = await checkCalendarExpired(MEALS_START_DATE, completedMeals)
-    if (expiredResult) message = expiredResult.message
+    const expiredResult = await checkCalendarExpired(state)
+    if (expiredResult) {
+        console.log(clrGreen(expiredResult.message))
+        console.log()
+        return
+    }
 
     if (args.command === '--reset') {
-        completedMeals.clear()
-        saveCompletedMeals(completedMeals)
+        state.done = []
+        saveState(state)
         message = '🗑 Todas as refeições marcadas foram apagadas.'
     } else if (args.command === '--complete' || args.command === '--undo') {
         message = applyMarkCommand(args.command, weeks, completedMeals, args.dateText, args.mealName)
-        saveCompletedMeals(completedMeals)
+        saveState(state)
     }
 
     console.log()
     if (message) {
-        // CHANGE COLORS
         console.log(clrGreen(message))
         console.log()
     }
@@ -713,7 +958,6 @@ async function main() {
 }
 
 main().catch(function (error) {
-    // CHANGE COLORS
     console.log('\n' + clrRed(error.message) + '\n')
     process.exitCode = 1
 })

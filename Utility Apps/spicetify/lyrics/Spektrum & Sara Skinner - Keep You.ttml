@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style xml:id="s0" tts:backgroundColor="black" tts:fontStyle="normal" tts:fontSize="16px" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+    <layout>
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="start" xml:id="topLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="start" xml:id="centerLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="start" xml:id="bottomLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="center" xml:id="topCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="center" xml:id="centerСenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="center" xml:id="bottomCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="end" xml:id="topRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="end" xml:id="centerRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="end" xml:id="bottomRight" />
+    </layout>
+  </head>
+  <body style="s0">
+    <div>
+      <p begin="11.89s" xml:id="p0" end="15.51s">Do you remember how you held me then?</p>
+      <p begin="15.51s" xml:id="p1" end="23.95s">Now you&#039;ve got me reachin&#039; out, out</p>
+      <p begin="23.95s" xml:id="p2" end="27.23s">And do you see you&#039;ve got me fallin&#039; in</p>
+      <p begin="27.23s" xml:id="p3" end="34.41s">More times than I can get out, out?</p>
+      <p begin="36.17s" xml:id="p4" end="38.72s">And down in the deep of my mind</p>
+      <p begin="38.72s" xml:id="p5" end="42.47s">I call for you and you&#039;re always inside</p>
+      <p begin="42.47s" xml:id="p6" end="44.72s">Down in the deep of my mind</p>
+      <p begin="44.72s" xml:id="p7" end="47.94s">How long do I get to keep you, to keep you?</p>
+      <p begin="48.31s" xml:id="p8" end="50.71s">And down in the deep of my mind</p>
+      <p begin="50.71s" xml:id="p9" end="54.48s">I call for you and you&#039;re always inside</p>
+      <p begin="54.48s" xml:id="p10" end="56.56s">Down in the deep of my mind</p>
+      <p begin="56.56s" xml:id="p11" end="59.89s">Tryin&#039; so hard not to keep you, to keep you</p>
+      <p begin="68.69s" xml:id="p12" end="80.66s">Tryin&#039; so hard not to keep you, to keep you</p>
+      <p begin="80.66s" xml:id="p13" end="83.8s">How long do I get to keep you, to keep you?</p>
+      <p begin="104.57s" xml:id="p14" end="128.69s">Tryin&#039; so hard not to keep you, to keep you</p>
+      <p begin="128.69s" xml:id="p15" end="131.89s">How long do I get to keep you, to keep you?</p>
+      <p begin="131.89s" xml:id="p16" end="135.33s">Do you remember how you held me then?</p>
+      <p begin="135.33s" xml:id="p17" end="142.98s">Now you&#039;ve got me reachin&#039; out, out</p>
+      <p begin="142.98s" xml:id="p18" end="147.26s">Yeah, and do you see you&#039;ve got me fallin&#039; in</p>
+      <p begin="147.26s" xml:id="p19" end="154.64s">More times than I can get out, out?</p>
+      <p begin="156.19s" xml:id="p20" end="158.58s">And down in the deep of my mind</p>
+      <p begin="158.58s" xml:id="p21" end="162.52s">I call for you and you&#039;re always inside</p>
+      <p begin="162.52s" xml:id="p22" end="164.72s">Down in the deep of my mind</p>
+      <p begin="164.72s" xml:id="p23" end="167.77s">How long do I get to keep you, to keep you?</p>
+      <p begin="168.35s" xml:id="p24" end="170.73s">And down in the deep of my mind</p>
+      <p begin="170.73s" xml:id="p25" end="174.47s">I call for you and you&#039;re always inside</p>
+      <p begin="174.47s" xml:id="p26" end="176.61s">Down in the deep of my mind</p>
+      <p begin="176.61s" xml:id="p27" end="179.88s">Tryin&#039; so hard not to keep you, to keep you</p>
+      <p begin="188.72s" xml:id="p28" end="200.51s">Tryin&#039; so hard not to keep you, to keep you</p>
+      <p begin="200.51s" xml:id="p29" end="208.85s">How long do I get to keep you?</p>
+      <p begin="208.85s" xml:id="p30" end="221.05s">Down in the deep, oh, yeah</p>
+      <p begin="221.05s" xml:id="p31" end="224.71s">Down in the deep</p>
+      <p begin="248.82s" xml:id="p32" end="266.62s">How long do I get to keep you, to keep you?</p>
+      <p begin="266.62s" xml:id="p33" end="271.02s">How long do I get to keep you?</p>
+    </div>
+  </body>
+</tt>
